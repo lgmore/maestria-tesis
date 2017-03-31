@@ -20,7 +20,8 @@
 \usepackage{longtable}
 \usepackage{cite}
 \usepackage[usenames,dvipsnames]{color}
-
+\usepackage{natbib,har2nat}
+\nocite{*}
 
 
 \begin{document}
@@ -42,7 +43,7 @@
 
 \section{ Introduction}
 
-Image denoising is the proccess which consists in removing noise from digital images. There are several factors that make images susceptible to noise. It is possible to model a degradation function and a noise term $\eta(x,y)$ that operates over an input image $f(x,y)$ and a degraded image is obtained as a result:
+Image denoising is the proccess which consists in removing noise from digital images. There are several factors that make images susceptible to noise. It is possible to model a degradation function and a noise term $\eta(x,y)$ that operates over an input image $f(x,y)$ and a degraded image is obtained as a result \cite{Gonzalez:2003:DIP:993475}:
 
 \begin{equation}
 g(x,y) = H[f(x,y)] + \eta(x,y)
@@ -86,27 +87,28 @@ Em linhas gerais, as principais conclusões do trabalho, se possível (é facultati
 
 \section*{Agradecimentos}
 Apresentar os agradecimentos às pessoas e instituições pertinentes, se houver espaço (é facultativo!).
+\bibliographystyle{plain}
+\bibliography{referencias} 
+%  \begin{thebibliography}{referencias}
 
-\begin{thebibliography}{00}
+% % % \bibitem{Boldrini} J. L. Boldrini, S. I. R. Costa, V. R. Ribeiro, and H. G. Wetzler. {\it Álgebra Linear 
+% % % e Aplicações}. Harper-Row, São Paulo, 1987.
 
-\bibitem{Boldrini} J. L. Boldrini, S. I. R. Costa, V. R. Ribeiro, and H. G. Wetzler. {\it Álgebra Linear 
-e Aplicações}. Harper-Row, São Paulo, 1987.
+% % % \bibitem{Cuminato}
+% % % J. A. Cuminato and V. Ruas, Unification of distance inequalities for linear variational problems, 
+% % % {\it Comp. Appl. Math.}, 2014. DOI: 10.1007/s40314-014-0163-6.
 
-\bibitem{Cuminato}
-J. A. Cuminato and V. Ruas, Unification of distance inequalities for linear variational problems, 
-{\it Comp. Appl. Math.}, 2014. DOI: 10.1007/s40314-014-0163-6.
+% % % \bibitem{Diniz1}
+% % % G. L. Diniz, A mudança no habitat de populações de peixes: de rio a represa -- o modelo matemático, Dissertação de Mestrado em Matemática Aplicada, Unicamp, (1994).
 
-\bibitem{Diniz1}
-G. L. Diniz, A mudança no habitat de populações de peixes: de rio a represa -- o modelo matemático, Dissertação de Mestrado em Matemática Aplicada, Unicamp, (1994).
+% % % \bibitem{Jafelice} R. M. Jafelice, L. C. Barros and R. C. Bassanezi. Study of the dynamics of HIV under 
+% % % treatment considering fuzzy delay, {\it Comp. Appl. Math.}, 33:45--61, 2014.
 
-\bibitem{Jafelice} R. M. Jafelice, L. C. Barros and R. C. Bassanezi. Study of the dynamics of HIV under 
-treatment considering fuzzy delay, {\it Comp. Appl. Math.}, 33:45--61, 2014.
+% % % \bibitem{Santos} I. L. D. Santos e G. N. Silva. Uma classe de problemas de controle ótimo 
+% % % em escalas temporais, {\it Proceeding Series of the Brazilian Society of Computational and 
+% % % Applied Mathematics}, volume 1, 2013. DOI: 10.5540/03.2013.001.01.0177.
 
-\bibitem{Santos} I. L. D. Santos e G. N. Silva. Uma classe de problemas de controle ótimo 
-em escalas temporais, {\it Proceeding Series of the Brazilian Society of Computational and 
-Applied Mathematics}, volume 1, 2013. DOI: 10.5540/03.2013.001.01.0177.
-
-\end{thebibliography}
+%  \end{thebibliography}
 \end{document}
 
 
