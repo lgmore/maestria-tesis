@@ -1,0 +1,117 @@
+\documentclass[a4,11pt]{report}
+
+\usepackage[brazil]{babel}      % para texto em Português
+%\usepackage[english]{babel}    % para texto em Inglês
+
+\usepackage[latin1]{inputenc}   % para acentuação em Português OU
+%\usepackage[utf8]{inputenc}   % para acentuação em Português com o uso do Unicode, 
+% mude a codificação desse template para utf-8
+
+%%
+%% POR FAVOR, NÃO FAÇA MUDANÇAS NESSE TEMPLATE QUE ACARRETEM  EM
+%% ALTERAÇÃO NA FORMATAÇÃO FINAL DO TEXTO
+%%
+\usepackage{graphics}
+\usepackage{subfigure}
+\usepackage{graphicx}
+\usepackage{epsfig}
+\usepackage[centertags]{amsmath}
+\usepackage{graphicx,indentfirst,amsmath,amsfonts,amssymb,amsthm,newlfont}
+\usepackage{longtable}
+\usepackage{cite}
+\usepackage[usenames,dvipsnames]{color}
+
+
+\begin{document}
+
+%********************************************************
+\title{Instruções para Submissão de Trabalhos em Eventos da SBMAC}
+
+\author{
+ {\large  Maria C. Zanardi}\thanks{cecilia@feg.unesp.br}\\
+ {\small Centro de Engenharia, Modelagem e Ciências Sociais, UFABC, Santo André, SP} \\
+{\large Mateus Bernardes}\thanks{mbernardes@uftpr.edu.br} \\
+{\small Departamento Acadêmico de Matemática, UTFPR, Curitiba, PR} \\
+ {\large Igor Leite Freire}\thanks{igor.freire@ufabc.edu.br}\\
+ {\small Centro de Matemática, Computação e Cognição, UFABC}  
+ }
+
+\criartitulo
+
+
+\section{ Introdução e Regras de Submissão}
+
+Nos eventos da SBMAC os trabalhos de pesquisa ainda em andamento e com resultados 
+preliminares (Categoria 2) e os de Iniciação Científica (Categoria 1) são apresentados {\bf na forma de resumo}, 
+de  {\bf 2 páginas}, de  acordo com {\bf esse template}. É importante ressaltar que os trabalhos submetidos
+que não respeitem a formatação final do texto produzida pelos templates serão {\bf rejeitados} pelo 
+Comitê Editorial do evento, sem análise do mérito científico. Os autores podem submeter seus trabalhos 
+em Português ou Inglês.  
+
+Para que um trabalho aceito seja incluído na Programação Geral do evento é necessário que o {\bf autor-apresentador tenha pago a taxa de inscrição até 28/07/2017}. Cada taxa de inscrição permite a apresentação de, no máximo, 2 (dois) trabalhos, em quaisquer categorias, respeitadas as restrições sobre o tipo e categoria das contribuições
+
+Solicitamos que não alterem as configurações de tamanho e fonte pré-determinadas 
+deste template. Somente serão publicados no Proceeding Series of the Brazilian Society of Computational 
+and Applied Mathematics os trabalhos {\bf aceitos e que tenham sido apresentados no evento}.
+
+\section{Instruções para as Equações, Tabelas, Figuras e Referências}
+
+As equações serão enumeradas sequencialmente no texto, com a numeração a direita, usando o 
+comando \verb|label | para identificá-las e o comando \verb|ref | (entre parênteses), sempre que necessário 
+mencioná-las no texto. Por exemplo, a seguinte equação (\ref{Calor}), \verb|(\ref{Calor})|, 
+%
+\begin{equation}
+\frac{\partial u}{\partial t}-\Delta u = f \quad \quad  \mathrm{em} \quad \Omega. \label{Calor}
+\end{equation}
+%
+foi gerada usando pelos comandos: 
+\begin{verbatim}
+\begin{equation}
+\frac{\partial u}{\partial t}-\Delta u = f ,\quad \quad  \mathrm{em} 
+\quad \Omega. \label{Calor}
+\end{equation}
+\end{verbatim}
+
+Os autores podem introduzir tabelas e figuras em seus textos. Por favor, vejam as recomendações no template 
+para trabalhos na Categoria 3 ( completos de 5-7 páginas).  As referências bibliográficas devem seguir 
+o padrão adotado neste arquivo: em ordem alfabética pelo sobrenome do primeiro autor e dos demais, 
+se necessário, usando-se, ainda, ordem cronológica,
+para trabalhos de um mesmo autor. Em todas as publicações o ano deve vir ao final, como 
+em \cite{Boldrini,Diniz1,Jafelice}. Havendo-se o DOI este deve ser adicionado 
+somente após o ano de publicação, como em \cite{Cuminato,Santos} . Por falta de espaço nesse texto, apresentamos  
+apenas 5 exemplos de referências, todas citadas com o comando \verb|\cite|. A {\it Referência} abaixo foi 
+construída no ambiente \verb|thebibliography| (compila-se duas vezes o LaTeX) , com as referências 
+ inseridas/declaradas  via o comando \verb| \bibitem|. Por favor, leia atentamente as informações 
+ adicionais sobre a preparação da Bibliografia no template da Categoria 3.
+
+\section{Conclusões}
+Em linhas gerais, as principais conclusões do trabalho, se possível (é facultativo!). 
+
+\section*{Agradecimentos}
+Apresentar os agradecimentos às pessoas e instituições pertinentes, se houver espaço (é facultativo!).
+
+\begin{thebibliography}{00}
+
+\bibitem{Boldrini} J. L. Boldrini, S. I. R. Costa, V. R. Ribeiro, and H. G. Wetzler. {\it Álgebra Linear 
+e Aplicações}. Harper-Row, São Paulo, 1987.
+
+\bibitem{Cuminato}
+J. A. Cuminato and V. Ruas, Unification of distance inequalities for linear variational problems, 
+{\it Comp. Appl. Math.}, 2014. DOI: 10.1007/s40314-014-0163-6.
+
+\bibitem{Diniz1}
+G. L. Diniz, A mudança no habitat de populações de peixes: de rio a represa -- o modelo matemático, Dissertação de Mestrado em Matemática Aplicada, Unicamp, (1994).
+
+\bibitem{Jafelice} R. M. Jafelice, L. C. Barros and R. C. Bassanezi. Study of the dynamics of HIV under 
+treatment considering fuzzy delay, {\it Comp. Appl. Math.}, 33:45--61, 2014.
+
+\bibitem{Santos} I. L. D. Santos e G. N. Silva. Uma classe de problemas de controle ótimo 
+em escalas temporais, {\it Proceeding Series of the Brazilian Society of Computational and 
+Applied Mathematics}, volume 1, 2013. DOI: 10.5540/03.2013.001.01.0177.
+
+\end{thebibliography}
+\end{document}
+
+
+
+
