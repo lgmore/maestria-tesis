@@ -1,5 +1,10 @@
 \begin{thebibliography}{1}
 
+\bibitem{buades2011non}
+Antoni Buades, Bartomeu Coll, and Jean-Michel Morel.
+\newblock Non-local means denoising.
+\newblock {\em Image Processing On Line}, 1:208--212, 2011.
+
 \bibitem{Gonzalez:2003:DIP:993475}
 Rafael~C. Gonzalez, Richard~E. Woods, and Steven~L. Eddins.
 \newblock {\em Digital Image Processing Using MATLAB}.

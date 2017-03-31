@@ -50,39 +50,16 @@ g(x,y) = H[f(x,y)] + \eta(x,y)
 \label{Calor}
 \end{equation}
 
+Based on $g(x,y)$ it is necessary to obtain an estimate $f'(x,y)$ of the original image. 
+
+A well-known technique for image denoising is Non-Local Means denoising algorithm \cite{buades2011non}, which is combined with Multi-Objective optimization, in order to obtain series of images with different compromise rates of denoising. Denoised images are evaluated using well-known metrics for denoising, which make this implementation suitable. 
 
 
-\section{Instruções para as Equações, Tabelas, Figuras e Referências}
+\section{Preliminary Results}
 
-As equações serão enumeradas sequencialmente no texto, com a numeração a direita, usando o 
-comando \verb|label | para identificá-las e o comando \verb|ref | (entre parênteses), sempre que necessário 
-mencioná-las no texto. Por exemplo, a seguinte equação (\ref{Calor}), \verb|(\ref{Calor})|, 
-%
-\begin{equation}
-\frac{\partial u}{\partial t}-\Delta u = f \quad \quad  \mathrm{em} \quad \Omega. \label{Calor}
-\end{equation}
-%
-foi gerada usando pelos comandos: 
-\begin{verbatim}
-\begin{equation}
-\frac{\partial u}{\partial t}-\Delta u = f ,\quad \quad  \mathrm{em} 
-\quad \Omega. \label{Calor}
-\end{equation}
-\end{verbatim}
 
-Os autores podem introduzir tabelas e figuras em seus textos. Por favor, vejam as recomendações no template 
-para trabalhos na Categoria 3 ( completos de 5-7 páginas).  As referências bibliográficas devem seguir 
-o padrão adotado neste arquivo: em ordem alfabética pelo sobrenome do primeiro autor e dos demais, 
-se necessário, usando-se, ainda, ordem cronológica,
-para trabalhos de um mesmo autor. Em todas as publicações o ano deve vir ao final, como 
-em \cite{Boldrini,Diniz1,Jafelice}. Havendo-se o DOI este deve ser adicionado 
-somente após o ano de publicação, como em \cite{Cuminato,Santos} . Por falta de espaço nesse texto, apresentamos  
-apenas 5 exemplos de referências, todas citadas com o comando \verb|\cite|. A {\it Referência} abaixo foi 
-construída no ambiente \verb|thebibliography| (compila-se duas vezes o LaTeX) , com as referências 
- inseridas/declaradas  via o comando \verb| \bibitem|. Por favor, leia atentamente as informações 
- adicionais sobre a preparação da Bibliografia no template da Categoria 3.
 
-\section{Conclusões}
+\section{Preliminary Conclusions}
 Em linhas gerais, as principais conclusões do trabalho, se possível (é facultativo!). 
 
 \section*{Agradecimentos}
