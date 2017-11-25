@@ -1,0 +1,11 @@
+\chapter*{ANEXO B: Algoritmos que modifican el histograma}
+\label{ch:anexob}
+
+\section{\textit{Histogram Equalization} (HE)}
+
+El algoritmo HE, que estira el rango dinámico de intensidad, es el método más popular para mejorar el contraste de la imagen. El procedimiento estándar de la ecualización del histograma consiste en reasignar las escalas de grises de la imagen de entrada de modo que el histograma de la imagen de salida se aproxime al de la distribución uniforme, dando como resultado la mejora de la calidad subjetiva para la imagen de salida. La ecualización del histograma, sin embargo, introduce algunos efectos visuales indeseables y sobre-mejora. Pueden producirse grandes picos del histograma en áreas relativamente homogéneas, como el fondo liso, y se puede causar un aumento excesivo de las imágenes totalmente oscuras o brillantes.
+
+
+\section{\textit{Contrast Limited Adaptive Histogram Equalization} (CLAHE)}
+
+El CLAHE permite evitar los inconvenientes causados en el procesamiento de la imagen mediante el algoritmo HE. En este método, la imagen se divide en subimágenes o bloques, y se realiza la ecualización del histograma a cada subimagen o bloque. A continuación, los mecanismos de bloqueo entre bloques vecinos se minimizan mediante filtrado o interpolación bilineal. CLAHE introdujo un límite de ajuste para superar el problema de ruido. El CLAHE limita la amplificación cortando el histograma en un valor predefinido antes de calcular la función de distribución acumulativa (CDF). Esto limita la pendiente del CDF y por lo tanto de la función de transformación. El valor en el que se recorta el histograma, el denominado límite de ajuste, depende de la normalización del histograma y, por tanto, del tamaño de la región vecinal. La redistribución volverá a empujar algunos contenedores por encima del límite de ajuste, resultando en un límite de ajuste efectivo que es mayor que el límite prescrito y cuyo valor exacto depende de la imagen. El CLAHE tiene dos parámetros claves: tamaño de bloque y límite de ajuste. Estos parámetros se utilizan para controlar la calidad de la imagen y son seleccionados por el usuario. 

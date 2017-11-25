@@ -1,0 +1,14 @@
+\select@language {spanish}
+\select@language {english}
+\select@language {spanish}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {4.1}{\ignorespaces Par\IeC {\'a}metros de entrada para $MOPSO$}}{10}{table.caption.8}
+\contentsline {table}{\numberline {4.2}{\ignorespaces Par\IeC {\'a}metros de entrada para $MOPSO$}}{13}{table.caption.10}
+\contentsline {table}{\numberline {4.3}{\ignorespaces Par\IeC {\'a}metros de entrada para $MOPSO$}}{13}{table.caption.12}
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {1}{\ignorespaces Promedios de los tiempos de ejecuci\IeC {\'o}n de algoritmo HE para las im\IeC {\'a}genes en escala de grises.\relax }}{19}{table.caption.15}
+\contentsline {table}{\numberline {2}{\ignorespaces Promedios de los tiempos de ejecuci\IeC {\'o}n del algoritmo MMCE para las im\IeC {\'a}genes en escala de grises.\relax }}{19}{table.caption.16}
+\contentsline {table}{\numberline {3}{\ignorespaces Promedios de los tiempos de ejecuci\IeC {\'o}n del algoritmo propuesto para las im\IeC {\'a}genes en escala de grises.\relax }}{20}{table.caption.17}

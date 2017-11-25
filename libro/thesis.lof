@@ -1,0 +1,14 @@
+\select@language {spanish}
+\select@language {english}
+\select@language {spanish}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Original Image. $\mathscr {H_Y}=0.207231$, $SSIM_R=1$, $SSIM_G=1$, $SSIM_B=1$\relax }}{12}{figure.caption.9}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Enhanced Image. $\mathscr {H_Y}=0.611275$, $SSIM_R=0.00897331$, $SSIM_G=0.00823064$, $SSIM_B=0.00851013$\relax }}{12}{figure.caption.9}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Enhanced Image. $\mathscr {H_Y}=0.0350595$, $SSIM_R=0.416776$, $SSIM_G=0.403636$, $SSIM_B=0.417654$\relax }}{12}{figure.caption.9}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Enhanced Image using \cite {morepso}. $\mathscr {H_Y}=0.788927$, $SSIM_R=0.000204143$, $SSIM_G=0.0000526475$, $SSIM_B=0.0000518143$\relax }}{12}{figure.caption.9}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Original and resultant images of House 1\relax }}{12}{figure.caption.9}
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Pareto front drawed using data from Table \ref {table:nodominadas} \relax }}{13}{figure.caption.11}
+\addvspace {10\p@ }

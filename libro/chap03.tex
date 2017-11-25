@@ -1,0 +1,462 @@
+\chapter{FORMULACIÓN DEL PROBLEMA PLANTEADO Y PROPUESTA}
+\label{sec:proposal}
+
+En este capítulo se muestra una formulación del problema a resolver, además de la propuesta detallada de la implementación realizada.
+
+\section{Formulación del problema planteado}\label{sec:formulation}
+
+Dada una imagen a color $I$, con $M \times N$ pixeles, y un vector $\vv{x}=(\mathscr{R}_x,\mathscr{R}_y,\mathscr{C})$, donde $\mathscr{R}_x$ y $\mathscr{R}_y$ son regiones contextuales y $\mathscr{C}$ es el \textit{Clip Limit}, se busca un conjunto de soluciones no dominadas $\mathscr{X}$, que simultáneamente maximicen las funciones objetivo $f_1,f_2,f_3,f_4$:
+
+%Given an color input image $I$, with $M \times N$ pixels, and a vector $\vv{x}=(\mathscr{R}_x,\mathscr{R}_y,\mathscr{C})$, where $\mathscr{R}_x$ and $\mathscr{R}_y$ are contextual regions and $\mathscr{C}$ is the \textit{Clip Limit}, a set of non-dominated solutions $\mathscr{X}$, which simultaneously maximize the objective functions $f_1,f_2,f_3,f_4$:
+
+\begin{equation}
+\mathscr{F} = [f_1(I,\vv{x}),f_2(I,\vv{x}),f_3(I,\vv{x}),f_4(I,\vv{x})]; \qquad f_1,f_2,f_3,f_4 \in [0,1]
+\end{equation}
+
+donde:
+
+%where:
+
+\begin{itemize}
+	\item $T_y$ es el mapa de intensidades mejoradas, al aplicar $\vv{x}$ a $I_y$; ésto es: $T_y=CLAHE(\vv{x},I_y)$. $T_y$ e $I_y$ son los canales $Y$ de la representación $YCbCr$  de las imágenes $I$ y $T$, respectivamente,
+	\item $f_1(I,\vv{x})=\frac{\mathscr{H}(T)}{\text{log}_2L}$ es la Entropía Normalizada del mapa de intensidades mejoradas $T_y$, como se describió arriba,
+	\item $f_2(I,\vv{x})=SSIM(I_R,T_R)$ es la medición del $SSIM$ entre $I_R$ y $T_R$. $I_R$ y $T_R$ son los canales $R$ de las representaciones $RGB$ de $I$ y $T$, respectivamente,
+	\item $f_2(I,\vv{x})=SSIM(I_G,T_G)$ es la medición del $SSIM$ entre $I_G$ y $T_G$. $I_G$ y $T_G$ son los canales $G$ de las representaciones $RGB$ de $I$ y $T$, respectivamente,
+	\item $f_2(I,\vv{x})=SSIM(I_B,T_B)$ es la medición del $SSIM$ entre $I_B$ y $T_B$. $I_B$ y $T_B$ son los canales $G$ de las representaciones $RGB$ de $I$ y $T$, respectivamente,
+\end{itemize}
+
+% \begin{itemize}
+% 	\item $T_y$ is the enhanced intensity map, when applying $\vv{x}$ to $I_y$; this is: $T_y=CLAHE(\vv{x},I_y)$. $T_y$ and $I_y$ are the $Y$ channel in the $YCbCr$ representation of $I$ and $T$, respectively,
+% 	\item $f_1(I,\vv{x})=\frac{\mathscr{H}(T)}{\text{log}_2L}$ is the normalized Entropy of the enhanced intensity map $T_y$, as described above.
+% 	\item $f_2(I,\vv{x})=SSIM(I_R,T_R)$ is the $SSIM$ measure between $I_R$ and $T_R$. $I_R$ and $T_R$ are the $R$ channel of the $RGB$ representation of $I$ and $T$, respectively.
+% 	\item $f_3(I,\vv{x})=SSIM(I_G,T_G)$ is the $SSIM$ measure between $I_G$ and $T_G$. $I_G$ and $T_G$ are the $G$ channel of the $RGB$ representation of $I$ and $T$, respectively.
+% 	\item $f_4(I,\vv{x})=SSIM(I_B,T_B)$ is the $SSIM$ measure between $I_B$ and $T_B$. $I_B$ and $T_B$ are the $B$ channel of the $RGB$ representation of $I$ and $T$, respectively.
+% \end{itemize}
+
+Acotados por:
+
+%Bounded to:
+
+\begin{itemize}
+	\item $\mathscr{R}_x \in [2,...,M]$ dentro de $\mathbb{N}$,
+	\item $\mathscr{R}_y \in [2,...,N]$ dentro de $\mathbb{N}$,
+	\item $\mathscr{C} \in (0,...,1]$ dentro $\mathbb{R}$.
+\end{itemize}
+
+% \begin{itemize}
+% 	\item $\mathscr{R}_x \in [2,...,M]$ for the $\mathbb{N}$ numbers,
+% 	\item $\mathscr{R}_y \in [2,...,N]$ for the $\mathbb{N}$ numbers,
+% 	\item $\mathscr{C} \in (0,...,1]$ for the $\mathbb{R}$ numbers.
+% \end{itemize}	
+
+\section{Propuesta}\label{sec:proposal}
+% \section{Proposal}\label{sec:proposal}
+
+\begin{algorithm}[H]
+\scriptsize
+\begin{algorithmic}[1]
+\Require Imagen de entrada $I$, cantidad de partículas $\Omega$, iteraciones $t_{max}$ 
+\State Inicializar $\omega$, $c_1$, $c_2$, $t=0$, $lower\_limit_1$, $lower\_limit_2$, $lower\_limit_3$, $upper\_limit_1$, $upper\_limit_2$, $upper\_limit_3$, $\mathscr{X}$
+        %\For{cada $i$-ésima partícula del enjambre}
+        %    \State Inicializar la posición $x_i$ aleatoriamente
+        %    \State Inicializar la velocidad $v_i$ a 0
+        %    \State ${imagenMejorada}$ = CLAHE(${x_i}$, ${imagenOriginal}$)
+        %    \State ${f_i}$ = evaluarAptitud(${imagenOriginal}$, ${imagenMejorada}$)
+        %    \State Establecer el mejor individual inicial $p_i$ por el valor inicial $x_i$
+        %    \If{$f_i < f_{p_g}$}
+        %        \State reemplazar $p_g$ por el valor de $x_i$
+        %    \EndIf
+        %\EndFor
+        \While{$t$ $<$ $t_{max}$}
+        \For{cada  $i$-ésima partícula}
+        \State Calcular una nueva velocidad $\overrightarrow{v_i}^t$ de la partícula utilizando las ecuaciones \eqref{eq:velocidad1} and \eqref{eq:restricciondelta}
+        \State Calculate new particle position $\overrightarrow{x_i}^t$ using expression \eqref{eq:posicion1}
+
+        \State ${T}$ = CLAHE(${\overrightarrow{x_i}^t}$, ${I}$)
+                \State ${f^t_i}$ = $f(I, \overrightarrow{x_i}^t)$%evaluarAptitud(${I}$, ${T}$) 
+                \If{$ \overrightarrow{x_i} \succ \overrightarrow{x_{p_i}}$}
+                \State replace $\overrightarrow{x}_{p_i}$ by $\overrightarrow{x_i}^t$
+                \EndIf
+                \If{$ \overrightarrow{x_i} \succ \overrightarrow{x_{g_i}}$  }
+                \State Update the Pareto set $\mathscr{X}$
+                \EndIf
+                \State $t$ = $t$ + 1
+                \EndFor
+                \EndWhile
+                \Ensure $\mathscr{X}$
+                \end{algorithmic}
+                \caption{MOPSO-CLAHE}
+                \label{alg:pso_clahe}
+                \end{algorithm}
+
+                \textbf {El Algoritmo \ref{alg:pso_clahe}} muestra cómo PSO-CLAHE Color Multi-Objetivo ($CMOPSO-CLAHE$) es implementado, de manera a sintonizar los parámetros de $CLAHE$. Los parámetros recibidos por $CLAHE$ son almacenados por una partícula $\vv{x}=(\mathscr{R}_x,\mathscr{Y}_x,\mathscr{C})$, la imagen original $I$ se transforma a su representación $YCrCb$, y $\vv{x}$ es aplicado al canal $Y$ de la representación, de manera a obtener un mapa de intensidades $Y_T$, el cual es utilizado para realizar la transformación inversa hacia $RGB$, para así obtener la imagen resultante $T$. Las imágenes resultantes son evaluadas de acuerdo a las métricas $\mathscr{H}_Y$, $SSIM_R$, $SSIM_G$, $SSIM_B$, que son la entropía de las imágenes resultantes medidas en el canal $Y$ de la representación $YCrCb$ de dichas imágenes, y $SSIM_R,SSIM_G,SSIM_B$ son las medidas $SSIM$ de las imagénes original y resultantes utilizando los canales $R,G,B$ de las representaciones $RGB$ de las imágenes. Las soluciones no dominadas se almacenan finalmente en el conjunto Pareto. El proceso de $CMOPSO-CLAHE$ se repite hasta que se alcanza un criterio de parada. 
+
+%                \textbf{Algorithm \ref{alg:pso_clahe}} shows how Color Multi-Objective PSO-CLAHE ($CMOPSO-CLAHE$) is implemented, in order to tune parameters of $CLAHE$. The parameters received by $CLAHE$ are stored by a particle $\vv{x}=(\mathscr{R}_x,\mathscr{Y}_x,\mathscr{C})$, the original image $I$ is transformed to its $YCrCb$ representation,and $\vv{x}$ is applied to the $Y$ channel, in order to obtain a $Y_T$ intensity map, which is used to transform back to $RGB$, to obtain the resulting image $T$. The resulting images are evaluated according to the metrics $\mathscr{H}_Y$, $SSIM_R$, $SSIM_G$, $SSIM_B$, which are the entropy of resulting images measured in the $Y$ channel of the $YCrCb$ representation of these, and $SSIM_R,SSIM_G,SSIM_B$ are the $SSIM$ measures for original and resulting images using the $R,G,B$ channels of the $RGB$ representations of these. The non-dominated solutions are then stored in the Pareto set. $CMOPSO-CLAHE$ proccess is repeated until a criterion stop is reached.
+
+
+% \begin{algorithm}[H]
+% \scriptsize
+% \begin{algorithmic}[1]
+% \Require Input image $I$, amount of particles $\Omega$, iterations $t_{max}$
+% \State Initialize $\omega$, $c_1$, $c_2$, $t=0$, $lower\_limit_1$, $lower\_limit_2$, $lower\_limit_3$, $upper\_limit_1$, $upper\_limit_2$, $upper\_limit_3$, $\mathscr{X}$
+%         %\For{cada $i$-ésima partícula del enjambre}
+%         %    \State Inicializar la posición $x_i$ aleatoriamente
+%         %    \State Inicializar la velocidad $v_i$ a 0
+%         %    \State ${imagenMejorada}$ = CLAHE(${x_i}$, ${imagenOriginal}$)
+%         %    \State ${f_i}$ = evaluarAptitud(${imagenOriginal}$, ${imagenMejorada}$)
+%         %    \State Establecer el mejor individual inicial $p_i$ por el valor inicial $x_i$
+%         %    \If{$f_i < f_{p_g}$}
+%         %        \State reemplazar $p_g$ por el valor de $x_i$
+%         %    \EndIf
+%         %\EndFor
+%         \While{$t$ $<$ $t_{max}$}
+%         \For{every $i$-th particle}
+%         \State Calculate new velocity $\overrightarrow{v_i}^t$ of the particle  using equations \eqref{eq:velocidad1} and \eqref{eq:restricciondelta}
+%         \State Calculate new particle position $\overrightarrow{x_i}^t$ using expression \eqref{eq:posicion1}
+
+%         \State ${T}$ = CLAHE(${\overrightarrow{x_i}^t}$, ${I}$)
+%                 \State ${f^t_i}$ = $f(I, \overrightarrow{x_i}^t)$%evaluarAptitud(${I}$, ${T}$) 
+%                 \If{$ \overrightarrow{x_i} \succ \overrightarrow{x_{p_i}}$}
+%                 \State replace $\overrightarrow{x}_{p_i}$ by $\overrightarrow{x_i}^t$
+%                 \EndIf
+%                 \If{$ \overrightarrow{x_i} \succ \overrightarrow{x_{g_i}}$  }
+%                 \State Update the Pareto set $\mathscr{X}$
+%                 \EndIf
+%                 \State $t$ = $t$ + 1
+%                 \EndFor
+%                 \EndWhile
+%                 \Ensure $\mathscr{X}$
+%                 \end{algorithmic}
+%                 \caption{MOPSO-CLAHE}
+%                 \label{alg:pso_clahe}
+%                 \end{algorithm}
+
+%                 \textbf{Algorithm \ref{alg:pso_clahe}} shows how Color Multi-Objective PSO-CLAHE ($CMOPSO-CLAHE$) is implemented, in order to tune parameters of $CLAHE$. The parameters received by $CLAHE$ are stored by a particle $\vv{x}=(\mathscr{R}_x,\mathscr{Y}_x,\mathscr{C})$, the original image $I$ is transformed to its $YCrCb$ representation,and $\vv{x}$ is applied to the $Y$ channel, in order to obtain a $Y_T$ intensity map, which is used to transform back to $RGB$, to obtain the resulting image $T$. The resulting images are evaluated according to the metrics $\mathscr{H}_Y$, $SSIM_R$, $SSIM_G$, $SSIM_B$, which are the entropy of resulting images measured in the $Y$ channel of the $YCrCb$ representation of these, and $SSIM_R,SSIM_G,SSIM_B$ are the $SSIM$ measures for original and resulting images using the $R,G,B$ channels of the $RGB$ representations of these. The non-dominated solutions are then stored in the Pareto set. $CMOPSO-CLAHE$ proccess is repeated until a criterion stop is reached.
+
+
+% En este capítulo se presenta el algoritmo propuesto. Éste es una variación del algoritmo propuesto por Bai et. al. \cite{bai2012image} denominado \textit{Multiscale Morphological Contrast Enhancement} (MMCE). Para la aplicación de estos algoritmos a imágenes en color es necesario extender la morfología matemática en escala de grises para imágenes en color. Esta extensión es posible adoptando métodos de ordenamiento en espacios de color como el RGB, HSI, HSV, entre otros.  
+
+% \section{Algoritmo MMCE}
+% El algoritmo MMCE realiza la mejora del contraste en imágenes en escala de grises. Éste realiza la extracción de las características en escalas múltiples de brillo y oscuridad utilizando la transformada de top-hat. En la Figura \ref{fig:algoritmo1} se muestra el esquema del algoritmo MMCE.
+
+% \begin{figure}[!ht]
+% 	\centering
+% 	\includegraphics[width=1\textwidth]{./Figures/MMCE.jpg}
+% 	\caption{Esquema del algoritmo MMCE.} \label{fig:algoritmo1}
+% \end{figure}
+
+% A continuación hacemos una descripción detallada del algoritmo MMCE. Se tiene la imagen original $f$, el número de iteraciones $n$\label{symbol:n} donde en cada iteración el elemento estructurante $g$, cuyas características son cuadrado y plano, se dilata por sí mismo en un rango $i=1,2,\cdots n$\label{symbol:i} de la siguiente forma:
+
+% \[
+% \begin{matrix}
+% g_{1} = g_{1}\\ 
+% g_{2} = g_{1} \oplus g_{1}\\ 
+% g_{3} = g_{2} \oplus g_{1} = g_{1} \oplus g_{1} \oplus g_{1}\\ 
+% \vdots\\
+% g_{n} = g_{n-1} \oplus g_{1} = \underbrace{g_{1} \oplus g_{1} \oplus g_{1}\oplus \cdots\oplus g_{1}}_{\textit{dilatación n-1 veces}}
+% \end{matrix}
+% \]
+
+% Por ejemplo, si $n=1$ entonces $g$ es $3 \times 3$, si $n=2$ entonces $g$ es de $5 \times 5$, si $n=3$ entonces $g$ es de $7 \times 7$, si $n=i$ entonces $g$ es de $(2 \times i + 1) \times (2 \times i + 1)$. 
+
+% En la Figura \ref{f:I56} podemos visualizar la forma en que se generan los elementos estructurantes en escalas múltiples. En negrita está resaltado el píxel central.
+
+% \begin{figure}[H]
+% 	\centering
+% 	\subfigure[]{\includegraphics[width = 1in]{./Figures/se.JPG}}
+% 	\subfigure[]{\includegraphics[width = 1.7in]{./Figures/se2.JPG}}
+% 	\subfigure[]{\includegraphics[width = 2.3in]{./Figures/se3.JPG}}
+% 	\caption{Elementos estructurantes en escalas múltiples.}
+% 	\label{f:I56}
+% \end{figure}
+
+% \subsection{Primera etapa}
+% En una primera etapa se obtienen las múltiples escalas de las regiones brillantes de la imagen, extraídas por $WTH$ de la siguiente forma \cite{bai2012image}:  
+
+% \begin{equation}
+% \label{pe_01}
+% WTH_{i} = f - f \circ g_{i},
+% \end{equation}
+% donde $WTH_{i}$\label{symbol:wthi} son las $i$-escalas de brillos que se extrae de la imagen. 
+
+% A continuación, las múltiples escalas de las regiones brillantes de la imagen de 1 a $n$ se pueden expresar como sigue:
+
+% \[ 
+% WTH_{1} = f - f \circ g_{1},
+% \]
+% \[ 
+% WTH_{2} = f - f \circ g_{2},
+% \]
+% \[ 
+% \cdots
+% \]
+% \[ 
+% WTH_{n} = f - f \circ g_{n}.
+% \]
+
+% Análogamente se obtienen regiones oscuras de la imagen en múltiples escalas de la siguiente forma \cite{bai2012image}:
+
+% \begin{equation}
+% \label{pe_02}
+% BTH_{i} = f \bullet g_{i} - f,
+% \end{equation}
+% donde $BTH_{i}$\label{symbol:bthi} son las $i$-escalas de oscuridad que se extrae de la imagen.
+
+% A continuación, las múltiples escalas de las regiones oscuras de la imagen de 1 a $n$ se pueden expresar como sigue:
+
+% \[ 
+% BTH_{1} = f \bullet g_{1} - f,
+% \]
+% \[ 
+% BTH_{2} = f \bullet g_{2} - f,
+% \]
+% \[ 
+% \cdots
+% \]
+% \[ 
+% BTH_{n} = f \bullet g_{n} - f.
+% \]
+
+% \subsection{Segunda etapa}
+% En la segunda etapa se obtienen las sustracciones de las múltiples escalas de las regiones brillantes de la siguiente forma \cite{bai2012image}:
+
+% \begin{equation}
+% \label{se_01_p}
+% WTH^{S}_{i-1} = WTH_{i} - WTH_{i-1},
+% \end{equation}
+% donde $WTH^{S}_{i-1}$\label{symbol:wthsi} son las $(i-1)$-diferencias en cascada de las escalas de brillo obtenidos de la imagen.
+
+% A continuación, las múltiples escalas de diferencias de las regiones brillantes de la imagen de 1 a $n$ se pueden expresar como sigue:
+
+% \[ 
+% WTH^{S}_{1} = WTH_{2} - WTH_{1},
+% \]
+% \[ 
+% WTH^{S}_{2} = WTH_{3} - WTH_{2},
+% \]
+% \[ 
+% \cdots
+% \]
+% \[ 
+% WTH^{S}_{n-1} = WTH_{n} - WTH_{n-1}.
+% \]
+
+% Análogamente se obtienen las sustracciones de las regiones oscuras en múltiples escalas de la siguiente forma:
+
+% \begin{equation}
+% \label{se_02_p}
+% BTH^{S}_{i-1} = BTH_{i} - BTH_{i-1},
+% \end{equation}
+% donde $BTH^{S}_{i-1}$\label{symbol:bthsi} son las $(i-1)$-diferencias en cascada de las escalas de oscuridad obtenidos de la imagen.
+
+% A continuación, las múltiples escalas de diferencias de las regiones oscuras de la imagen de 1 a $n$ se pueden expresar como sigue:
+
+% \[ 
+% BTH^{S}_{1} = BTH_{2} - BTH_{1},
+% \]
+% \[ 
+% BTH^{S}_{1} = BTH_{2} - BTH_{1},
+% \]
+% \[ 
+% \cdots
+% \]
+% \[ 
+% BTH^{S}_{n-1} = BTH_{n} - BTH_{n-1}.
+% \]
+
+% \subsection{Tercera etapa}
+% En la tercera etapa se calculan los máximos valores entre todas las múltiples escalas que se obtuvieron por etapas \cite{bai2012image}: 
+
+% Los valores máximos de todas las escalas de brillos extraídas de la imagen, se define como:
+% \begin{equation}
+% \label{symbol:wthm}
+% WTH_{M} = \max_{[1,n]} WTH_{i}.
+% \end{equation}
+
+% Los valores máximos de todas las escalas de oscuridad extraídas de la imagen, se define como:
+
+% \begin{equation}
+% \label{symbol:bthm}
+% BTH_{M} = \max_{[1,n]} BTH_{i}.
+% \end{equation}
+
+% Los valores máximos de todas las escalas de brillos extraídas de la imagen mediante las sustracciones en cascada, se define como:
+
+% \begin{equation}
+% \label{se_03_p}
+% WTH^{S}_{M} = \max_{[1,n-1]} WTH^{S}_{i-1}.
+% \end{equation}
+
+% Los valores máximos de todas las escalas de oscuridad extraídas de la imagen mediante las sustracciones en cascada, se define como:
+
+% \begin{equation}
+% \label{se_04_p}
+% BTH^{S}_{M} = \max_{[1,n-1]} BTH^{S}_{i-1}.
+% \end{equation}
+
+% \subsection{Etapa final}
+% En la etapa final se obtiene el aumento del contraste de la imagen de la siguiente forma:
+
+% \begin{equation}
+% \label{f_{E}}
+% f_{E} = f + (WTH_{M} +WTH^{S}_{M}) - (BTH_{M} + BTH^{S}_{M}),
+% \end{equation}
+% donde $f_{E}$ es la imagen resultante con mejora de contraste.
+
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% \section{Algoritmo propuesto}
+% El algoritmo propuesto es una variación del algoritmo MMCE. Éste realiza la extracción de las características en escalas múltiples de brillo y oscuridad, de una imagen en escala de grises y de una imagen en color, utilizando la la transformada de top-hat.
+
+% \subsection{Diferencia entre algoritmo propuesto y el algoritmo MMCE}
+% La diferencia entre el algoritmo propuesto y el algoritmo MMCE radica en la segunda etapa. La principal diferencia radica en el calculo de las sustracciones de las escalas obtenidas mediante la transformada de top-hat. O sea, la ecuación \ref{se_01_p} se reemplazó con la ecuación \ref{se_05_p} y la ecuación \ref{se_02_p} se reemplazó con la ecuación \ref{se_06_p}. 
+% Las primera, tercera y la etapa final del algoritmo propuesto es idéntico al algoritmo MMCE. %La mejora introducida en el algoritmo propuesto corresponde a la segunda etapa del algoritmo MMCE.
+
+% \subsection{Segunda etapa}
+
+% En esta etapa se incluyen las modificaciones propuestas en este trabajo. En la segunda etapa se obtienen las sustracciones de las múltiples escalas de las regiones brillantes de la siguiente forma \cite{mello2016image}:
+
+% \begin{equation}
+% \label{se_05_p}
+% WTH^{S}_{i-1} = \left\{\begin{matrix}
+% WTH_{i} - WTH_{i-1}\text{, para }i=2\\ 
+% WTH_{i} - WTH^{S}_{i-2}\text{, para }i>2
+% \end{matrix}\right.
+% \end{equation}
+% donde $WTH^{S}_{i-1}$ son las $(i-1)$-diferencias en cascada de las escalas de brillo obtenidos de la imagen.
+
+% A continuación, las múltiples escalas de diferencias de las regiones brillantes de la imagen de 1 a $n$ se pueden expresar como sigue:
+
+% \[ 
+% WTH^{S}_{1} = WTH_{2} - WTH_{1},
+% \]
+% \[ 
+% WTH^{S}_{2} = WTH_{3} - WTH^{S}_{1},
+% \]
+% \[ 
+% WTH^{S}_{3} = WTH_{4} - WTH^{S}_{2},
+% \]
+% \[ 
+% \cdots
+% \]
+% \[ 
+% WTH^{S}_{n-1} = WTH_{n} - WTH^{S}_{n-2}.
+% \]
+
+% Análogamente se obtienen las sustracciones de las regiones oscuras en múltiples escalas de la siguiente forma \cite{mello2016image}:
+
+% \begin{equation}
+% \label{se_06_p}
+% BTH^{S}_{i-1} = \left\{\begin{matrix}
+% BTH_{i} - BTH_{i-1}\text{, para }i=2\\ 
+% BTH_{i} - BTH^{S}_{i-2}\text{, para }i>2
+% \end{matrix}\right. 
+% \end{equation}
+% donde $BTH^{S}_{i-1}$ son las $(i-1)$-diferencias en cascada de las escalas de oscuridad obtenidos de la imagen.
+
+% A continuación, las múltiples escalas de diferencias de las regiones oscuras de la imagen de 1 a $n$ se pueden expresar como sigue:
+
+% \[ 
+% BTH^{S}_{1} = BTH_{2} - BTH_{1},
+% \]
+% \[ 
+% BTH^{S}_{2} = BTH_{3} - BTH^{S}_{1},
+% \]
+% \[ 
+% BTH^{S}_{3} = BTH_{4} - BTH^{S}_{2},
+% \]
+% \[ 
+% \cdots
+% \]
+% \[ 
+% BTH^{S}_{n-1} = BTH_{n} - BTH^{S}_{n-2}.
+% \]
+
+% En la Figura \ref{fig:algoritmo2} se muestra el esquema del algoritmo propuesto en este trabajo.
+
+% \begin{figure}[!ht]
+% 	\centering
+% 	\includegraphics[width=1\textwidth]{./Figures/algoritmo_propuesto_2.jpg}
+% 	\caption{Esquema del algoritmo propuesto.} \label{fig:algoritmo2}
+% \end{figure}
+
+% \section{Visualización de los resultados de los algoritmos multiescalas}
+
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Para las pruebas se utilizaron el elemento estructurante inicial $g_{1}$ cuadrado plano de $3 \times 3$ y el número de iteraciones $n=7$. Estos valores se utilizaron en la implementación del algoritmo MMCE \cite{bai2012image}.  
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% En la Figura \ref{f:I2} se muestran (a) la imagen original \textit{209021} en escala de grises, (b) la imagen en escala de grises mejorada con el algoritmo MMCE y (c) la imagen en escala de grises mejorada con el algoritmo propuesto.
+
+% \begin{figure}[!ht]
+% 	\centering
+% 	\subfigure[Imagen \textit{209021} en escala de grises.]{\includegraphics[width = 1.72in]{./Figures/209021_G.jpg}}
+% 	\subfigure[Imagen mejorada con el algoritmo MMCE.]{\includegraphics[width = 1.72in]{./Figures/209021_AC_G.jpg}}
+% 	\subfigure[Imagen mejorada con el algoritmo propuesto.]{\includegraphics[width = 1.72in]{./Figures/209021_AP_G.jpg}}
+% 	\caption{Visualización de mejora de contraste en la imagen en escala de grises obtenidos con los algoritmos multiescalas.}
+% 	\label{f:I2}
+% \end{figure}
+
+% La imagen mejorada con el algoritmo propuesto presenta un realce del contraste y mayor definición en los detalles respecto de la imagen original.
+
+% En la Figura \ref{f:I30} se muestra (a) el histograma de la imagen original \textit{209021} en escala de grises, (b) el histograma de imagen en escala de grises mejorada con el algoritmo MMCE y (c) el histograma de imagen en escala de grises mejorada con el algoritmo propuesto. El histograma de la imagen mejorada con el algoritmo propuesto es más uniforme que el histograma de la imagen mejorada con el algoritmo MMCE.
+
+% \begin{figure}[!ht]
+% 	\centering
+% 	\subfigure[]{\includegraphics[width = 1.72in]{./Figures/209021_G_H.jpg}}
+% 	\subfigure[]{\includegraphics[width = 1.72in]{./Figures/209021_AC_G_H.jpg}}
+% 	\subfigure[]{\includegraphics[width = 1.72in]{./Figures/209021_AP_G_H.jpg}}
+% 	\caption{(a) Histograma de la imagen original \textit{209021} en escala de grises, (b) histograma de imagen en escala de grises mejorada con el algoritmo MMCE y (c) histograma de imagen en escala de grises mejorada con el algoritmo propuesto.}
+% 	\label{f:I30}
+% \end{figure}
+
+% En la Figura \ref{f:I3} se muestran (a) la imagen original \textit{209021} en color, (b) la imagen en color con mejora de contraste obtenida por el algoritmo MMCE y (c) la imagen en color con mejora de contraste obtenida por el algoritmo propuesto. Los resultados visuales se obtuvieron aplicando la morfología matemática en color, utilizando el espacio de color RGB con el ordenamiento JLVN, en los algoritmos multiescalas.
+
+% \begin{figure}[!ht]
+% 	\centering
+% 	\subfigure[Imagen original \textit{209021} en color]{\includegraphics[width = 1.72in]{./Figures/209021_OC.jpg}}
+% 	\subfigure[Imagen en color obtenida por el algoritmo MMCE]{\includegraphics[width = 1.72in]{./Figures/209021_AC_TRGB.jpg}}
+% 	\subfigure[Imagen en color obtenida por el algoritmo propuesto]{\includegraphics[width = 1.72in]{./Figures/209021_AP_TRGB.jpg}}
+% 	\caption{Mejora de contraste de la imagen original \textit{209021} en color.}
+% 	\label{f:I3}
+% \end{figure}
+
+% La imagen en color mejorada con el algoritmo propuesto, presenta un realce en el contraste, mayor colorido y riqueza en los detalles.
+
+% En la Figura \ref{f:I31} se muestran los histogramas del canal R donde (a) es el histograma de canal R de la imagen original \textit{209021} en color, (b) histograma de canal R de la imagen en color mejorada con el algoritmo MMCE y (c) histograma de canal R de la imagen en color mejorada con el algoritmo propuesto.
+
+% \begin{figure}[!ht]
+% 	\centering
+% 	\subfigure[]{\includegraphics[width = 1.72in]{./Figures/209021_OC_H_R.jpg}}
+% 	\subfigure[]{\includegraphics[width = 1.72in]{./Figures/209021_AC_TRGB_H_R.jpg}}
+% 	\subfigure[]{\includegraphics[width = 1.72in]{./Figures/209021_AP_TRGB_H_R.jpg}}
+% 	\caption{Histogramas del canal R de las imágenes en color. Donde (a) es el histograma de canal R de la imagen original \textit{209021} en color, (b) histograma de canal R de la imagen en color mejorada con el algoritmo MMCE y (c) histograma de canal R de la imagen en color mejorada con el algoritmo propuesto.}
+% 	\label{f:I31}
+% \end{figure}
+
+% En la Figura \ref{f:I32} se muestran los histogramas del canal G donde (a) es el histograma de canal G de la imagen original \textit{209021} en color, (b) histograma de canal G de la imagen en color mejorada con el algoritmo MMCE y (c) histograma de canal G de la imagen en color mejorada con el algoritmo propuesto.
+
+% \begin{figure}[!ht]
+% 	\centering
+% 	\subfigure[]{\includegraphics[width = 1.72in]{./Figures/209021_OC_H_G.jpg}}
+% 	\subfigure[]{\includegraphics[width = 1.72in]{./Figures/209021_AC_TRGB_H_G.jpg}}
+% 	\subfigure[]{\includegraphics[width = 1.72in]{./Figures/209021_AP_TRGB_H_G.jpg}}
+% 	\caption{Histogramas del canal G de las imágenes en color. Donde (a) es el histograma de canal G de la imagen original \textit{209021} en color, (b) histograma de canal G de la imagen en color mejorada con el algoritmo MMCE y (c) histograma de canal G de la imagen en color mejorada con el algoritmo propuesto.}
+% 	\label{f:I32}
+% \end{figure}
+
+% En la Figura \ref{f:I33} se muestran los histogramas del canal B donde (a) es el histograma de canal B de la imagen original \textit{209021} en color, (b) histograma de canal B de la imagen en color mejorada con el algoritmo MMCE y (c) histograma de canal B de la imagen en color mejorada con el algoritmo propuesto.
+
+% \begin{figure}[!ht]
+% 	\centering
+% 	\subfigure[]{\includegraphics[width = 1.72in]{./Figures/209021_OC_H_B.jpg}}
+% 	\subfigure[]{\includegraphics[width = 1.72in]{./Figures/209021_AC_TRGB_H_B.jpg}}
+% 	\subfigure[]{\includegraphics[width = 1.72in]{./Figures/209021_AP_TRGB_H_B.jpg}}
+% 	\caption{Histogramas del canal B de las imágenes en color. Donde (a) es el histograma de canal B de la imagen original \textit{209021} en color, (b) histograma de canal B de la imagen en color mejorada con el algoritmo MMCE y (c) histograma de canal B de la imagen en color mejorada con el algoritmo propuesto.}
+% 	\label{f:I33}
+% \end{figure}
+
+% Los histogramas de los componentes de la imagen en color obtenidos por el algoritmo propuesto presenta más uniformidad, con respecto a los histogramas de los componentes de la imagen en color obtenidos por el algoritmo MMCE.
+
+% \section{Resumen}
+% Este capítulo presentó un nuevo algoritmo de mejora de contraste utilizando la morfología matemática multiescala; en el mismo se detalla cada uno de los pasos llevados a cabo para lograr la mejora del contraste para las imágenes. En el siguiente capítulo veremos los resultados experimentales obtenidos de comparar el algoritmo propuesto con otros algoritmos de mejora de contraste.

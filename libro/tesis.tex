@@ -1,0 +1,111 @@
+\PassOptionsToPackage{spanish,es-noquoting}{babel}
+\documentclass[final,fmstyle,unknownkeysallowed]{./util/fpunathesis}
+
+% paquetes recomendados
+\usepackage{amsmath,amsthm}
+\usepackage{textcomp}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{csquotes}
+\usepackage{enumerate}
+\usepackage{enumitem}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage[style=alphabetic, uniquename=full, sorting=none,backend=biber, natbib=true]{biblatex}
+\usepackage{listings}
+% para la lista de simbolos
+\usepackage{array} %for vertical thick lines in tables
+\usepackage{multirow} %multirow tables
+\usepackage{nicefrac} %for fractions like 1/4
+\usepackage{pgfplots}
+\pgfplotsset{compat=default}
+\usepackage{pgfplotstable}
+\usepgfplotslibrary{statistics}
+\usepackage{tikz}
+\usetikzlibrary{spy}
+\usetikzlibrary{arrows}
+\usepackage{longtable}
+\usepackage{booktabs, colortbl}
+\usepackage{array}
+\usepackage{titlesec}
+\usepackage{tabu}
+\usepackage{pdflscape}
+\usepackage[section, above]{placeins}
+\usepackage{float}
+\usepackage{acronym}
+%referencias
+\addbibresource{referencias.bib}
+%se importan las configuraciones custmizdas realizadas.
+\include{./util/custom}
+
+% datos de la tesis y el/los autor/es
+\title{Mejora de contraste utilizando morfología matemática multiescala para imágenes en escala de grises e imágenes en color}
+\author{Julio César Mello Román}
+\degree{Ciencias de la Computación}
+
+\advisor{Dr. Horacio Legal Ayala  \\M.Sc. José Luis Vázquez Noguera}
+
+%\newtheorem{definicion}{Definición}
+
+\logosource{./Figures/fpuna.jpg}
+
+
+\begin{document}
+	
+%%\tikzset{mark options={mark size=1.5, fill}} %para que las marcas no sean tan grandes
+%\makeatletter
+%\renewcommand\paragraph{\@startsection{paragraph}{4}{\z@}%
+%	{-2.5ex\@plus -1ex \@minus -.25ex}%
+%	{1.25ex \@plus .25ex}%
+%	{\normalfont\normalsize\bfseries}}
+%\makeatother
+%\setcounter{secnumdepth}{4} % how many sectioning levels to assign numbers to
+%\setcounter{tocdepth}{4}  
+
+\maketitle     % esto hace las portadas
+
+% Dedicatoria
+\include{dedicatoria}
+
+% Agradecimientos
+\include{agradecimientos}
+% Resumen
+\include{resumen}
+
+% Tabla de contenidos
+\tableofcontents
+% Lista de figuras, incluye en la lista todas las figuras de forma automática
+\listoffigures
+% Lista de tablas, incluye en la lista todas las tablas de forma automática
+\listoftables
+% Lista de algoritmos, incluye en la lista todas los algoritmos de forma automática
+%\listofalgorithms
+%\include{acronimos}
+
+\include{abreviaturas}
+
+\listofsymbols
+
+\mainmatter  % inician los capitulos de la tesis
+
+\include{util/read_color_mappings} %carga configuración de color por filtro y algunos comandos
+
+% incluye aqui los capítulos (un archivo .tex por capítulo)
+\include{capitulo-1/capitulo-1}
+\include{capitulo-2/capitulo-2}
+\include{capitulo-3/capitulo-3}
+\include{capitulo-4/capitulo-4}
+\include{capitulo-5/capitulo-5}
+%\include{capitulo-6/capitulo-6}
+
+\appendix   % inician los apendices de tu tesis
+% los capítulos que incluyas a partir de aquí aparecen
+% como apéndices
+
+%\include{anexos/anexos-2}
+% estos comandos generan la bilbiografía
+\printbibliography
+
+\include{anexos/anexos}
+
+\end{document}

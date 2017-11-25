@@ -1,0 +1,974 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"Py",
+				"python"
+			],
+			[
+				"js",
+				"json_respuesta"
+			],
+			[
+				"json",
+				"json_string"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "chap01.tex",
+			"settings":
+			{
+				"buffer_size": 4783,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "thesis.tex",
+			"settings":
+			{
+				"buffer_size": 3880,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "chap02.tex",
+			"settings":
+			{
+				"buffer_size": 39026,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "referencias.bib",
+			"settings":
+			{
+				"buffer_size": 8002,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "K5W3W57I",
+			"settings":
+			{
+				"buffer_size": 8,
+				"line_ending": "Unix",
+				"name": "K5W3W57I"
+			}
+		},
+		{
+			"file": "chap03.tex",
+			"settings":
+			{
+				"buffer_size": 27191,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "chap04.tex",
+			"settings":
+			{
+				"buffer_size": 60949,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/home/lg_more/MEGAsync/maestria/micai 2017/Lecture Notes in Computer Science (LNCS) - camera ready/paper_micai.tex",
+			"settings":
+			{
+				"buffer_size": 24959,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/LaTeXBox/support/LaTeX.sublime-build",
+					""
+				],
+				[
+					"Packages/LaTeXBox/support/LaTeX.sublime-build",
+					"Force"
+				]
+			],
+			[
+				"Packages/LaTeXBox/support/LaTeX.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					""
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Traditional"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"PdfLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"XeLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"LuaLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Basic Builder"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Basic Builder - PdfLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Basic Builder - XeLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Basic Builder - LuaLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Script Builder"
+				]
+			],
+			[
+				"Packages/LaTeXTools/LaTeX.sublime-build",
+				"PdfLaTeX"
+			]
+		],
+		[
+			[
+				[
+					"Packages/LaTeXing/LaTeX.sublime-build",
+					""
+				],
+				[
+					"Packages/LaTeXing/LaTeX.sublime-build",
+					"Clean up Files"
+				]
+			],
+			[
+				"Packages/LaTeXing/LaTeX.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/LaTeXing/LaTeX.sublime-build",
+					""
+				],
+				[
+					"Packages/LaTeXing/LaTeX.sublime-build",
+					"Clean up Files"
+				],
+				[
+					"Packages/LaTeXBox/support/LaTeX.sublime-build",
+					""
+				],
+				[
+					"Packages/LaTeXBox/support/LaTeX.sublime-build",
+					"Force"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					""
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Traditional"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"PdfLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"XeLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"LuaLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Basic Builder"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Basic Builder - PdfLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Basic Builder - XeLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Basic Builder - LuaLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Script Builder"
+				],
+				[
+					"Packages/User/Bibtex.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/LaTeXing/LaTeX.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/LaTeXing/LaTeX.sublime-build",
+					""
+				],
+				[
+					"Packages/LaTeXing/LaTeX.sublime-build",
+					"Clean up Files"
+				],
+				[
+					"Packages/LaTeXBox/support/LaTeXBox.sublime-build",
+					""
+				],
+				[
+					"Packages/LaTeXBox/support/LaTeXBox.sublime-build",
+					"Force"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					""
+				],
+				[
+					"Packages/User/Bibtex.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/LaTeXBox/support/LaTeXBox.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/LaTeXing/LaTeX.sublime-build",
+					""
+				],
+				[
+					"Packages/LaTeXing/LaTeX.sublime-build",
+					"Clean up Files"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					""
+				],
+				[
+					"Packages/User/Bibtex.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/LaTeXing/LaTeX.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 292.0,
+		"last_filter": "package control: sa",
+		"selected_items":
+		[
+			[
+				"package control: sa",
+				"Package Control: Satisfy Dependencies"
+			],
+			[
+				"package control: install",
+				"Package Control: Install Package"
+			],
+			[
+				"package control: remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"package control: inst",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"install package",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: in",
+				"Package Control: Install Package"
+			],
+			[
+				"git",
+				"Package Control: Install Package"
+			],
+			[
+				"lat",
+				"LaTeXTools: Reconfigure and migrate settings"
+			],
+			[
+				"bui",
+				"Build: Build"
+			],
+			[
+				"",
+				"Code Folding: Unfold All"
+			]
+		],
+		"width": 461.0
+	},
+	"console":
+	{
+		"height": 283.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/lg_more/drivePoli/maestria/tesis/libro/0B_uamuFbOYdWN0otSmptbTFoYkU_FILES"
+	],
+	"file_history":
+	[
+		"/home/lg_more/drivePoli/maestria/tesis/libro/0B_uamuFbOYdWN0otSmptbTFoYkU_FILES/thesis.tex",
+		"/home/lg_more/drivePoli/maestria/tesis/libro/0B_uamuFbOYdWN0otSmptbTFoYkU_FILES/chap03.aux",
+		"/tmp/mozilla_lg_more0/final1-aled3-2017.tex",
+		"/home/lg_more/MEGAsync/maestria/micai 2017/Lecture Notes in Computer Science (LNCS) - camera ready/paper_micai.tex",
+		"/home/lg_more/drivePoli/maestria/tesis/libro/0B_uamuFbOYdWN0otSmptbTFoYkU_FILES/resumen.tex",
+		"/home/lg_more/drivePoli/maestria/tesis/libro/0B_uamuFbOYdWN0otSmptbTFoYkU_FILES/abstract.aux",
+		"/tmp/final1-aled3-2017.tex",
+		"/home/lg_more/drivePoli/maestria/tesis/libro/0B_uamuFbOYdWN0otSmptbTFoYkU_FILES/chap05.tex",
+		"/home/lg_more/drivePoli/maestria/tesis/libro/0B_uamuFbOYdWN0otSmptbTFoYkU_FILES/chap04.tex",
+		"/home/lg_more/drivePoli/maestria/tesis/libro/0B_uamuFbOYdWN0otSmptbTFoYkU_FILES/chap03.tex",
+		"/home/lg_more/drivePoli/maestria/micai 2017/Lecture Notes in Computer Science (LNCS) - camera ready/paper_micai.tex",
+		"/home/lg_more/drivePoli/maestria/tesis/libro/0B_uamuFbOYdWN0otSmptbTFoYkU_FILES/AnexoA.tex",
+		"/home/lg_more/drivePoli/maestria/tesis/libro/0B_uamuFbOYdWN0otSmptbTFoYkU_FILES/AnexoB.tex",
+		"/home/lg_more/drivePoli/maestria/tesis/libro/0B_uamuFbOYdWN0otSmptbTFoYkU_FILES/thesis.toc",
+		"/home/lg_more/drivePoli/maestria/tesis/libro/0B_uamuFbOYdWN0otSmptbTFoYkU_FILES/symbols.tex",
+		"/home/lg_more/drivePoli/maestria/tesis/libro/0B_uamuFbOYdWN0otSmptbTFoYkU_FILES/chap02.tex",
+		"/home/lg_more/.config/sublime-text-3/Packages/User/Package Control.sublime-settings",
+		"/home/lg_more/.config/sublime-text-3/Packages/Package Control/Package Control.sublime-settings",
+		"/tmp/Sist. Operativos 01nov2017/Caballero, Rodrigo/tema3.sh",
+		"/tmp/Sist. Operativos 01nov2017/Romero, Rodrigo/Final SO Rodrigo Romero Vega/Tema2Final.bash",
+		"/tmp/Sist. Operativos 01nov2017/Romero, Rodrigo/Final SO Rodrigo Romero Vega/Tema3Final.bash",
+		"/home/lg_more/drivePoli/btc/backup20171105.dat",
+		"/home/lg_more/MEGAsync/bitcoin/backup_20170903.dat",
+		"/home/lg_more/drivePoli/maestria/tesis/libro/0B_uamuFbOYdWN0otSmptbTFoYkU_FILES/tesis.tex",
+		"/tmp/segundo examen parcial/examen.tex",
+		"/home/lg_more/drivePoli/maestria/tesis/poster micai/conference_poster_6.tex",
+		"/tmp/drawing-1.tex",
+		"/tmp/drawing.tex",
+		"/home/lg_more/LaTeXDraw-3.1.0/install_debian_ubuntu",
+		"/home/lg_more/drivePoli/maestria/tesis/poster micai 2/titel-des-posters/main.tex",
+		"/run/user/1000/gvfs/google-drive:host=rec.una.py,user=lmore/sql/querysrh.sql",
+		"/home/lg_more/MEGAsync/ayudantia 2017/paradigmas de la programacion/ejemplo1.py",
+		"/home/lg_more/MEGAsync/ayudantia 2017/paradigmas de la programacion/ejemploORM.py",
+		"/tmp/ganancias bitcoin.csv",
+		"/tmp/presentacion/0B_uamuFbOYdWb1Jrc3AyZU1sTG8_FILES/main.tex",
+		"/tmp/presentacion/0B_uamuFbOYdWb1Jrc3AyZU1sTG8_FILES/beamerinnerthemeuniud.sty",
+		"/tmp/presentacion/0B_uamuFbOYdWb1Jrc3AyZU1sTG8_FILES/beamerfontthemeuniud.sty",
+		"/tmp/presentacion/0B_uamuFbOYdWb1Jrc3AyZU1sTG8_FILES/beamercolorthemeuniud.sty",
+		"/tmp/presentacion/0B_uamuFbOYdWb1Jrc3AyZU1sTG8_FILES/beamerthemeuniud.sty",
+		"/tmp/presentacion/0B_uamuFbOYdWb1Jrc3AyZU1sTG8_FILES/beamerouterthemeuniud.sty",
+		"/tmp/presentacion/0B_uamuFbOYdWb1Jrc3AyZU1sTG8_FILES/header.tex",
+		"/tmp/presentacion.tex",
+		"/tmp/0B_uamuFbOYdWb1Jrc3AyZU1sTG8_FILES/main.tex",
+		"/home/lg_more/MEGAsync/maestria/micai 2017/Lecture Notes in Computer Science (LNCS) - camera ready/llncs.tex",
+		"/home/lg_more/MEGAsync/maestria/micai 2017/Lecture Notes in Computer Science (LNCS) - camera ready/llncsdoc.tex",
+		"/tmp/evaluaciones.csv",
+		"/run/user/1000/gvfs/google-drive:host=rec.una.py,user=lmore/0B-pyZJd15frgdVA2bWtENS1vcE0/0B-pyZJd15frgS09Udm0ySEVjU2c/0B-pyZJd15frgMF91ZjI2NTNRRnM/evaluaciones.csv",
+		"/home/lg_more/telegrambot/dolarbot.rb",
+		"/media/lg_more/lgmore/clases.txt",
+		"/tmp/descarga_FILES/Lista/src/Lista/Nodo.java",
+		"/tmp/descarga_FILES/Lista/src/Lista/Lista.java",
+		"/tmp/descarga_FILES/Lista/src/Lista/JavaApplication2.java",
+		"/home/lg_more/MEGAsync/maestria/2do encuentro de investigadores/banner tesis/conference_poster_6.tex",
+		"/home/lg_more/MEGAsync/tesis/icip2015/paper-fpuna/main_en.tex",
+		"/home/lg_more/IdeaProjects/rec-reportero/notas.md",
+		"/home/lg_more/MEGAsync/maestria/micai 2017/Lecture Notes in Computer Science (LNCS)/paper_micai.tex",
+		"/tmp/320369728-06-2017.txt",
+		"/tmp/Resumen_Capitulo_I.txt",
+		"/tmp/Resumen Cap1.ipynb",
+		"/tmp/Sonic219Pg/Sonic219PgCheckers.java",
+		"/tmp/micai 2017/Lecture Notes in Computer Science (LNCS)/bibliografia.bib",
+		"/tmp/micai 2017/Lecture Notes in Computer Science (LNCS)/paper_micai.tex",
+		"/home/lg_more/MEGAsync/maestria/micai 2017/funcalhouse_0230.csv",
+		"/home/lg_more/MEGAsync/maestria/micai 2017/varcalhouse_0230.csv",
+		"/home/lg_more/MEGAsync/maestria/micai 2017/funcalhouse/funcalhouse_0234.csv",
+		"/home/lg_more/MEGAsync/maestria/micai 2017/funcalhouse/funcalhouse_0236.csv",
+		"/home/lg_more/MEGAsync/maestria/micai 2017/funcalhouse/funcalhouse_0237.csv",
+		"/home/lg_more/MEGAsync/maestria/micai 2017/funcalhouse/funcalhouse_0238.csv",
+		"/home/lg_more/MEGAsync/maestria/micai 2017/funcalhouse/funcalhouse_0240.csv",
+		"/home/lg_more/MEGAsync/maestria/micai 2017/funcalhouse/funcalhouse_0230.csv",
+		"/home/lg_more/MEGAsync/maestria/micai 2017/varcalhouse/varcalhouse_0230.csv",
+		"/home/lg_more/MEGAsync/maestria/micai 2017/funcalhouse/funcalhouse_0231.csv",
+		"/home/lg_more/MEGAsync/maestria/micai 2017/funcalhouse/funcalhouse_0233.csv",
+		"/home/lg_more/MEGAsync/maestria/ccis 2016/Template_Poster_CCIS2016/poster_ccis2016.tex",
+		"/home/lg_more/MEGAsync/maestria/micai 2017/varcalhouse/varcalhouse_0231.csv",
+		"/home/lg_more/MEGAsync/maestria/micai 2017/varcalhouse/varcalhouse_0233.csv",
+		"/home/lg_more/MEGAsync/maestria/micai 2017/varcalhouse/varcalhouse_0234.csv",
+		"/home/lg_more/MEGAsync/maestria/micai 2017/varcalhouse/varcalhouse_0236.csv",
+		"/home/lg_more/MEGAsync/maestria/micai 2017/varcalhouse/varcalhouse_0237.csv",
+		"/home/lg_more/MEGAsync/maestria/micai 2017/varcalhouse/varcalhouse_0238.csv",
+		"/home/lg_more/MEGAsync/maestria/micai 2017/varcalhouse/varcalhouse_0240.csv",
+		"/home/lg_more/MEGAsync/maestria/micai 2017/varcalhouse/varcalhouse_0239.csv",
+		"/tmp/test.tex",
+		"/run/user/1000/gvfs/google-drive:host=pol.una.py,user=lmore/0B_uamuFbOYdWSk4yamo5X2I3TVE/0B_uamuFbOYdWNmdOZU9DREJsd2s/0B_uamuFbOYdWdE1sd1czcDVYYWs/0B_uamuFbOYdWbHlGVmd1YnFhYjg",
+		"/home/lg_more/MEGAsync/ayudantia 2017/primer final/puntos extra.txt",
+		"/home/lg_more/IdeaProjects/reportero/src/main/kotlin/Main.kt",
+		"/run/user/1000/gvfs/google-drive:host=pol.una.py,user=lmore/0B_uamuFbOYdWeC1pbGNoMEVfb00/0B_uamuFbOYdWRDViT1Y3UkoycE0/0B_uamuFbOYdWeW4wZkVYdHlERVE/tema 2 Samtiago Machuca.cpp",
+		"/home/lg_more/MEGAsync/maestria/micai/Lecture Notes in Computer Science (LNCS)/abstract_micai.tex",
+		"/tmp/ejemplo.txt",
+		"/tmp/specs_equipos_intermedios.csv",
+		"/run/user/1000/gvfs/google-drive",
+		"/home/lg_more/Escritorio/especs-conversor-wdm.csv",
+		"/home/lg_more/Escritorio/specs-toner.csv",
+		"/run/user/1000/gvfs/google-drive:host=pol.una.py,user=lmore/0B_uamuFbOYdWeC1pbGNoMEVfb00/0B_uamuFbOYdWMFVGSnBsZUNIbnc/0B_uamuFbOYdWbDd3Y2tPYmhiZVE/0B_uamuFbOYdWZUVNaC03eUxvOGs/0B_uamuFbOYdWdlJrelhoaFJJZmM/0B_uamuFbOYdWanlCUGw0eWVHWlE",
+		"/run/user/1000/gvfs/google-drive:host=pol.una.py,user=lmore/0B_uamuFbOYdWeC1pbGNoMEVfb00/0B_uamuFbOYdWMFVGSnBsZUNIbnc/0B_uamuFbOYdWbDd3Y2tPYmhiZVE/0B_uamuFbOYdWZDhNTEF3RXdCYjQ/0B_uamuFbOYdWTUdkMGNKZG5DSzg/0B_uamuFbOYdWOHM1VXc4b0ZjOEk",
+		"/home/lg_more/Escritorio/especs-adaptador-usb-inalambrico.csv",
+		"/home/lg_more/Escritorio/especs-impresora-carro-corto.csv",
+		"/home/lg_more/Escritorio/especs-impresora-carro-largo.csv",
+		"/home/lg_more/Escritorio/especs-router-gigabit.csv",
+		"/home/lg_more/mobile-dev/angular2-todo-app/index.html",
+		"/home/lg_more/MEGAsync/maestria/tesis/implementacion-paper/Dockerfile",
+		"/home/lg_more/MEGAsync/maestria/tesis/implementacion-paper/ejecutor.sh",
+		"/home/lg_more/instaladores/idea-IC-171.4424.56/bin/idea.sh",
+		"/home/lg_more/MEGAsync/rectorado/general.css",
+		"/home/lg_more/MEGAsync/maestria/firma_rec.html",
+		"/home/lg_more/MEGAsync/tmp/der_libreria.xml",
+		"/home/lg_more/mobile-dev/angular2-todo-app/src/app/app.module.ts",
+		"/home/lg_more/mobile-dev/angular2-todo-app/src/app/app.component.ts",
+		"/home/lg_more/mobile-dev/angular2-todo-app/src/app/todo.service.ts",
+		"/home/lg_more/mobile-dev/angular2-todo-app/src/app/todo.ts",
+		"/home/lg_more/mobile-dev/angular2-todo-app/src/app/todo-app/todo-app.component.html",
+		"/home/lg_more/mobile-dev/angular2-todo-app/src/index.html",
+		"/home/lg_more/mobile-dev/angular2-todo-app/src/app/todo-app/todo-app.component.ts",
+		"/home/lg_more/mobile-dev/angular2-todo-app/src/app/index.ts",
+		"/home/lg_more/mobile-dev/angular2-todo-app/src/app/app.component.html",
+		"/home/lg_more/mobile-dev/angular2-todo-app/src/app/app.component.spec.ts",
+		"/home/lg_more/mobile-dev/angular2-todo-app/src/main.ts",
+		"/home/lg_more/mobile-dev/angular2-todo-app/src/app/todo.spec.ts",
+		"/home/lg_more/mobile-dev/angular2-todo-app/package.json",
+		"/home/lg_more/mobile-dev/angular2-todo-app/README.md",
+		"/home/lg_more/MEGAsync/maestria/tesis/implementacion-paper/resultados.txt",
+		"/home/lg_more/MEGAsync/maestria/tesis/implementacion-paper/vardecision.txt",
+		"/home/lg_more/MEGAsync/maestria/ccis 2016/banner tesis/refs.bib",
+		"/home/lg_more/MEGAsync/maestria/ccis 2016/banner tesis/conference_poster_6.tex",
+		"/home/lg_more/.cache/.fr-KWskII/PosterTemplate/testbmr.tex",
+		"/home/lg_more/.cache/.fr-ZSQ1Ob/PosterTemplate/PosterExampleA1.tex",
+		"/tmp/PosterTemplate/PosterTemplate/testbmr.tex",
+		"/home/lg_more/MEGAsync/tesisAdrianaMonserrat2/tesisAdrianaMonserrat/paper/repaper/paper_tesis_3.tex"
+	],
+	"find":
+	{
+		"height": 43.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"\t\\item $f_2(I,\\vv{x})=SSIM(I_R,T_R)$ es la medición del $SSIM$ entre $I_R$ y $T_R$. $I_R$ y $T_R$ son los canales $R$ de las representaciones $RGB$ de $I$ y $T$, respectivamente.",
+			"\n\\",
+			"oauth",
+			"\\r\\n",
+			"\\r",
+			"\\r\\n",
+			"\\r",
+			"\\r\\n"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			"\\n"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 6,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "chap01.tex",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4783,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4264,
+								4264
+							]
+						],
+						"settings":
+						{
+							"WordCount":
+							{
+								"changes": 0,
+								"count": 642,
+								"modified": false,
+								"selection": false,
+								"status": -1,
+								"syntax": "plain text"
+							},
+							"syntax": "Packages/LaTeXing/support/LaTeX.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1056.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "thesis.tex",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3880,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								295,
+								295
+							]
+						],
+						"settings":
+						{
+							"WordCount":
+							{
+								"changes": 0,
+								"count": 0,
+								"modified": false,
+								"selection": false,
+								"status": -1,
+								"syntax": "plain text"
+							},
+							"syntax": "Packages/LaTeXing/support/LaTeX.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "chap02.tex",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 39026,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								39026,
+								39026
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/LaTeXing/support/LaTeX.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 805.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "referencias.bib",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 8002,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								9,
+								12
+							]
+						],
+						"settings":
+						{
+							"WordCount":
+							{
+								"changes": -1,
+								"modified": false,
+								"selection": false,
+								"status": -1,
+								"syntax": "plain text"
+							},
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 8,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								8,
+								8
+							]
+						],
+						"settings":
+						{
+							"auto_name": "K5W3W57I",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "chap03.tex",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 27191,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								6755,
+								6755
+							]
+						],
+						"settings":
+						{
+							"WordCount":
+							{
+								"changes": 1098,
+								"count": 2668,
+								"modified": false,
+								"selection": false,
+								"status": -1,
+								"syntax": "plain text"
+							},
+							"syntax": "Packages/LaTeXing/support/LaTeX.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 2851.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "chap04.tex",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 60949,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1217,
+								1217
+							]
+						],
+						"settings":
+						{
+							"WordCount":
+							{
+								"changes": 999,
+								"count": 4378,
+								"modified": false,
+								"selection": false,
+								"status": -1,
+								"syntax": "plain text"
+							},
+							"syntax": "Packages/LaTeXing/support/LaTeX.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 626.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "/home/lg_more/MEGAsync/maestria/micai 2017/Lecture Notes in Computer Science (LNCS) - camera ready/paper_micai.tex",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 24959,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								521,
+								521
+							]
+						],
+						"settings":
+						{
+							"WordCount":
+							{
+								"changes": 2,
+								"count": 2266,
+								"modified": false,
+								"selection": false,
+								"status": -1,
+								"syntax": "plain text"
+							},
+							"syntax": "Packages/LaTeXing/support/LaTeX.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 172.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 30.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.doc":
+	{
+		"height": 0.0
+	},
+	"output.exec":
+	{
+		"height": 261.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.git":
+	{
+		"height": 143.0
+	},
+	"output.latextools":
+	{
+		"height": 151.0
+	},
+	"output.unsaved_changes":
+	{
+		"height": 112.0
+	},
+	"pinned_build_system": "Packages/LaTeXing/LaTeX.sublime-build",
+	"project": "tesis.sublime-project",
+	"replace":
+	{
+		"height": 56.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"~/Dropbox/tesis/paper/workshop de tesis/unix_latex_template/paper-workshop.sublime-project"
+			]
+		],
+		"width": 604.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 303.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

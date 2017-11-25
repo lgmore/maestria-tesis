@@ -1,0 +1,61 @@
+\chapter*{LISTA DE S\'IMBOLOS}
+%\myheader{LISTA DE S\'IMBOLOS}
+\markboth{LISTA DE S\'IMBOLOS}{LISTA DE S\'IMBOLOS}
+\addcontentsline{toc}{chapter}{LISTA DE S\'IMBOLOS}
+
+\begin{tabular}{rl}
+$f$							& \parbox{4.6in}{Imagen original\dotfill \pageref{symbol:ioriginal}} \\
+\ensuremath{\mathbb{Z}}		& \parbox{4.6in}{Conjunto de números enteros\dotfill \pageref{symbol:intset}} \\
+\ensuremath{\mathbb{R}}		& \parbox{4.6in}{Conjunto de números racionales\dotfill \pageref{symbol:intset}} \\ 
+
+$m$							& \parbox{4.6in}{Valor asociado a un píxel dentro de un espacio de color\dotfill \pageref{symbol:valorm}} \\
+$c$							& \parbox{4.6in}{Componentes del valor asociado a un píxel\dotfill \pageref{symbol:valorc}} \\
+$j$							& \parbox{4.6in}{Nivel de intensidad\dotfill \pageref{symbol:j}} \\
+$f_k$						& \parbox{4.6in}{Componentes de $f$\dotfill \pageref{symbol:fk}} \\
+$L$							& \parbox{4.6in}{Máximo nivel de intensidad de una imagen\dotfill \pageref{symbol:L}} \\
+$h_{f_{k}}(j)$				& \parbox{4.6in}{Histograma del canal $f_k$\dotfill \pageref{symbol:hfk}} \\
+$n_{j}$						& \parbox{4.6in}{Cantidad de ocurrencia de la intensidad $j$ en $f_{k}$\dotfill \pageref{symbol:nj}} \\
+$g$							& \parbox{4.6in}{Elemento estructurante\dotfill \pageref{symbol:se}} \\
+(u,v)						& \parbox{4.6in}{Coordenada espacial que representa un pixel de la imagen\dotfill \pageref{symbol:uv}} \\
+(s,t)						& \parbox{4.6in}{Coordenada espacial del elemento estructurante\dotfill \pageref{symbol:st}} \\
+($f \oplus g$)				& \parbox{4.6in}{Dilatación de la imagen original $f$ por un elemento estructurante $g$\dotfill \pageref{symbol:dil}} \\
+($f \ominus g$)				& \parbox{4.6in}{Erosión de la imagen original $f$ por un elemento estructurante $g$\dotfill \pageref{symbol:ero}} \\
+($f \circ g$)				& \parbox{4.6in}{Apertura de la imagen original $f$ por un elemento estructurante $g$\dotfill \pageref{symbol:ape}} \\
+($f \bullet g$)				& \parbox{4.6in}{Cierre de la imagen original $f$ por un elemento estructurante $g$\dotfill \pageref{symbol:cie}} \\
+$WTH$						& \parbox{4.6in}{Transformada de top-hat por apertura\dotfill \pageref{symbol:wth}} \\
+$BTH$						& \parbox{4.6in}{Transformada de top-hat por cierre\dotfill \pageref{symbol:bth}} \\
+$f_{E}$						& \parbox{4.6in}{Imagen con mejora de contraste\dotfill \pageref{symbol:fen}} \\
+$f_1$						& \parbox{4.6in}{Componente R de $f$\dotfill \pageref{symbol:fk2}} \\
+$f_2$						& \parbox{4.6in}{Componente G de $f$\dotfill \pageref{symbol:fk2}} \\
+$f_3$						& \parbox{4.6in}{Componente B de $f$\dotfill \pageref{symbol:fk2}} \\
+$w$							& \parbox{4.6in}{Función de pesos\dotfill \pageref{symbol:wp}} \\
+$T$							& \parbox{4.6in}{Transformada escalar de una imagen\dotfill \pageref{symbol:tf}} \\
+$n$							& \parbox{4.6in}{Número de iteraciones\dotfill \pageref{symbol:n}} \\
+$i$							& \parbox{4.6in}{Índice de iteraciones\dotfill \pageref{symbol:i}} 
+\end{tabular}
+
+
+\newpage
+\begin{tabular}{rl}
+
+	$WTH_{i}$					& \parbox{4.6in}{$i$-escalas de brillos\dotfill \pageref{symbol:wthi}} \\
+	$BTH_{i}$					& \parbox{4.6in}{$i$-escalas de oscuridad\dotfill \pageref{symbol:bthi}} \\
+	$WTH^{S}_{i-1}$				& \parbox{4.6in}{$(i-1)$-diferencias en cascada de las escalas de brillo\dotfill \pageref{symbol:wthsi}} \\
+	$BTH^{S}_{i-1}$				& \parbox{4.6in}{$(i-1)$-diferencias en cascada de las escalas de oscuridad\dotfill \pageref{symbol:wthsi}} \\
+	$WTH_{M}$					& \parbox{4.6in}{Valores máximos de todas las escalas de brillos\dotfill \pageref{symbol:wthm}} \\
+	$BTH_{M}$					& \parbox{4.6in}{Valores máximos de todas las escalas de oscuridad\dotfill \pageref{symbol:bthm}} \\
+	$WTH^{S}_{M}$				& \parbox{4.6in}{Valores máximos de todas las escalas de brillos por sustracción\dotfill \pageref{se_03_p}} \\
+	$BTH^{S}_{M}$				& \parbox{4.6in}{Valores máximos de todas las escalas de oscuridad por sustracción\dotfill \pageref{se_04_p}} \\
+	$E(f)$						& \parbox{4.6in}{Intensidad media de la imagen $f$\dotfill \pageref{symbol:E}} \\
+	$P(j)$						& \parbox{4.6in}{Probabilidad de ocurrencia del valor $j$\dotfill \pageref{symbol:P}} \\
+	$\rho$						& \parbox{4.6in}{Valor del pixel central dentro de una ventana\dotfill \pageref{rho}} \\
+	$\iota$						& \parbox{4.6in}{Valor medio de los vecinos de $\rho$\dotfill \pageref{iota}} \\
+	$\omega$					& \parbox{4.6in}{Contraste local\dotfill \pageref{lc}} \\
+	$D$							& \parbox{4.6in}{Dominio de una imagen\dotfill \pageref{D}} \\
+	$\gamma$					& \parbox{4.6in}{Diferencia entre los canales $f_1$ y $f_2$ de una imagen\dotfill \pageref{symbol:gamma}} \\
+	$\beta$						& \parbox{4.6in}{Diferencia entre un medio de $(f_1+f_2)$ y $f_3$\dotfill \pageref{symbol:beta}} \\
+	$\sigma_{\gamma}$			& \parbox{4.6in}{Desviación estándar de $\gamma$\dotfill \pageref{symbol:cm}} \\
+	$\sigma_{\beta}$			& \parbox{4.6in}{Desviación estándar de $\beta$\dotfill \pageref{symbol:cm}} \\
+	$\mu_{\gamma}$				& \parbox{4.6in}{Media aritmética de $\gamma$\dotfill \pageref{symbol:cm}} \\
+	$\mu_{\beta}$				& \parbox{4.6in}{Media aritmética de $\beta$\dotfill \pageref{symbol:cm}} 
+\end{tabular}

@@ -1,0 +1,67 @@
+\chapter*{ANEXO A: Resultados extendidos}
+\label{ch:anexo}
+
+Los resultados de este apartado son los promedios de los tiempos de ejecución, de los algoritmos \textit{Histogram Equalization} (HE), \textit{Multiscale Morphological Contrast Enhancement} (MMCE) y el algoritmo propuesto, para las 200 imágenes en escala de grises. Los algoritmos se implementaron con el framewok ImageJ y se hizo ejecutar 5 veces los experimentos. En la Tabla \ref{tabla22} se muestran los promedios de los tiempos de ejecución del algoritmo HE para las imágenes en escala de grises.
+
+\begin{table}[H]
+\centering
+\caption{Promedios de los tiempos de ejecución de algoritmo HE para las imágenes en escala de grises.}
+\label{tabla22}
+\begin{tabular}{|c|c|}
+\hline
+\begin{tabular}[c]{@{}c@{}}Nº de \\ ejecución\end{tabular} & \begin{tabular}[c]{@{}c@{}}t\\ (ms)\end{tabular} \\ \hline
+1                                                          & 1,145                                            \\
+2                                                          & 0,945                                            \\
+3                                                          & 0,97                                             \\
+4                                                          & 0,925                                            \\
+5                                                          & 0,95                                             \\ \hline
+Promedio                                                   & \textbf{0.987}                                   \\ \hline
+\end{tabular}
+\end{table}
+
+
+En la Tabla \ref{tabla23} se muestran los promedios de los tiempos de ejecución del algoritmo MMCE para las imágenes en escala de grises.
+
+% Please add the following required packages to your document preamble:
+% \usepackage{multirow}
+\begin{table}[H]
+	\centering
+	\caption{Promedios de los tiempos de ejecución del algoritmo MMCE para las imágenes en escala de grises.}
+	\label{tabla23}
+	\begin{tabular}{|c|c|c|c|c|c|c|}
+		\hline
+		\multirow{2}{*}{Iter. (n)} & \multicolumn{5}{c|}{Nº de ejeciciones para el algoritmo MMCE} & \multirow{2}{*}{\begin{tabular}[c]{@{}c@{}}Promedios\\ t(ms)\end{tabular}} \\ \cline{2-6}
+		& 1           & 2          & 3         & 4         & 5          &                                                                            \\ \hline
+		1                          & 64,265      & 62,625     & 61,61     & 62,285    & 62,295     & \textbf{62,616}                                                            \\
+		2                          & 165,805     & 171,24     & 169,655   & 170,515   & 170,295    & \textbf{169,502}                                                           \\
+		3                          & 327,975     & 334,19     & 334,75    & 332,045   & 333,275    & \textbf{332,447}                                                           \\
+		4                          & 564,035     & 574,15     & 571,185   & 573,45    & 568,735    & \textbf{570,311}                                                           \\
+		5                          & 975,845     & 972,035    & 979,205   & 968,975   & 986,805    & \textbf{976,573}                                                           \\
+		6                          & 1454,415    & 1471,145   & 1449,78   & 1452,97   & 1463,74    & \textbf{1458,41}                                                           \\
+		7                          & 2037,11     & 2032,775   & 2041,54   & 2029,07   & 2038,735   & \textbf{2035,846}                                                          \\ \hline
+	\end{tabular}
+\end{table}
+
+
+En la Tabla \ref{tabla24} se muestran los promedios de los tiempos de ejecución del algoritmo propuesto para las imágenes en escala de grises.
+
+% Please add the following required packages to your document preamble:
+% \usepackage{multirow}
+\begin{table}[H]
+	\centering
+	\caption{Promedios de los tiempos de ejecución del algoritmo propuesto para las imágenes en escala de grises.}
+	\label{tabla24}
+	\begin{tabular}{|c|c|c|c|c|c|c|}
+		\hline
+		\multirow{2}{*}{Iter. (n)} & \multicolumn{5}{c|}{Nº de ejeciciones para el algoritmo propuesto} & \multirow{2}{*}{\begin{tabular}[c]{@{}c@{}}Promedios \\ t(ms)\end{tabular}} \\ \cline{2-6}
+		& 1            & 2           & 3           & 4          & 5          &                                                                             \\ \hline
+		1                          & 62,105       & 63,055      & 61,99       & 62,445     & 62,955     & 62,51                                                                       \\
+		2                          & 166,74       & 169,645     & 168,34      & 168,435    & 169,34     & 168,5                                                                       \\
+		3                          & 327,175      & 332,58      & 331,765     & 332,755    & 331,52     & 331,159                                                                     \\
+		4                          & 565,245      & 576,84      & 574,47      & 573,6      & 572,15     & 572,461                                                                     \\
+		5                          & 976,57       & 973,22      & 968,35      & 970,245    & 975,26     & 972,729                                                                     \\
+		6                          & 1463,175     & 1474,82     & 1458,765    & 1459,83    & 1470,06    & 1465,33                                                                     \\
+		7                          & 2047,435     & 2040,82     & 2041,915    & 2039,95    & 2044,16    & 2042,856                                                                    \\ \hline
+	\end{tabular}
+\end{table}
+

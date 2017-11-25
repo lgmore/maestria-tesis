@@ -1,0 +1,67 @@
+This is BibTeX, Version 0.99d (TeX Live 2017/Debian)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: thesis.aux
+A level-1 auxiliary file: dedicatoria.aux
+A level-1 auxiliary file: agradecimientos.aux
+A level-1 auxiliary file: resumen.aux
+A level-1 auxiliary file: abstract.aux
+A level-1 auxiliary file: symbols.aux
+A level-1 auxiliary file: abreviaturas.aux
+A level-1 auxiliary file: chap01.aux
+A level-1 auxiliary file: chap02.aux
+A level-1 auxiliary file: chap03.aux
+A level-1 auxiliary file: chap04.aux
+A level-1 auxiliary file: chap05.aux
+The style file: alpha.bst
+A level-1 auxiliary file: AnexoA.aux
+A level-1 auxiliary file: AnexoB.aux
+Database file #1: referencias.bib
+Repeated entry---line 155 of file referencias.bib
+ : @inproceedings{zuiderveld1994contrast
+ :                                      ,
+I'm skipping whatever remains of this entry
+Warning--I didn't find a database entry for "bai2012image"
+Warning--empty journal in morepso
+Warning--empty year in morepso
+You've used 17 entries,
+            2543 wiz_defined-function locations,
+            686 strings with 7805 characters,
+and the built_in function-call counts, 7646 in all, are:
+= -- 763
+> -- 371
+< -- 11
++ -- 131
+- -- 128
+* -- 568
+:= -- 1233
+add.period$ -- 54
+call.type$ -- 17
+change.case$ -- 114
+chr.to.int$ -- 16
+cite$ -- 19
+duplicate$ -- 296
+empty$ -- 554
+format.name$ -- 147
+if$ -- 1585
+int.to.chr$ -- 2
+int.to.str$ -- 0
+missing$ -- 18
+newline$ -- 88
+num.names$ -- 51
+pop$ -- 120
+preamble$ -- 1
+purify$ -- 133
+quote$ -- 0
+skip$ -- 245
+stack$ -- 0
+substring$ -- 457
+swap$ -- 63
+text.length$ -- 11
+text.prefix$ -- 5
+top$ -- 0
+type$ -- 128
+warning$ -- 2
+while$ -- 72
+width$ -- 21
+write$ -- 222
+(There was 1 error message)

@@ -1,0 +1,143 @@
+\documentclass[msc,pdftex,numbers]{coppe}
+%\usepackage[brazil,english,spanish]{babel}
+%\usepackage[none]{hyphenat}
+\usepackage{hyphenat}
+\usepackage[english,spanish]{babel} 
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath,amssymb}
+\usepackage{mathrsfs}
+\usepackage[]{amsthm}
+\usepackage{lmodern}
+
+\usepackage{graphicx}
+\usepackage{subfigure}
+\usepackage{float}
+\usepackage{epsfig}
+\usepackage{epstopdf}
+\usepackage{placeins} 
+\usepackage{acronym}
+\usepackage[]{multirow}
+\usepackage[]{multicol}
+\usepackage[]{hhline}
+\usepackage{esvect}
+
+\usepackage{caption}
+% \usepackage[boxed]{algorithm2e}
+\usepackage{algorithm}% http://ctan.org/pkg/algorithms
+\usepackage{algpseudocode}% http://ctan.org/pkg/algorithmicx
+\usepackage{subfigure} % subfiguras
+
+\usepackage{tikz}
+\usetikzlibrary{spy}
+
+
+% \SetKwInput{KwIn}{Entrada}
+% \SetKwInput{KwData}{Entrada}
+% \SetKwInput{KwResult}{Salida}
+% \SetKwInput{KwOut}{Salida}
+% \SetKwInput{Return}{retornar}
+% \SetKwFor{For}{desde}{hacer}{fin\_desde}
+% \SetKwFor{While}{mientras}{hacer}{fin\_mientras}
+% \SetKwIF{If}{ElseIf}{Else}{si}{entonces}{si\_no si}{si\_no}{fin\_si}
+
+
+% \usepackage{algorithm}
+% \usepackage{algpseudocode}
+% \usepackage{program}
+
+%\usepackage[usenames]{color}
+%\definecolor{Micolor1}{RGB}{255,25,0}
+%\definecolor{Micolor2}{RGB}{0,255,0}
+%\definecolor{Micolor3}{RGB}{0,0,255}
+
+\graphicspath{{./structurePlot/}{./experiments/}{./bloques/}{./stagnation/}{./helmke/}{./Figures/}}
+\DeclareGraphicsExtensions{{.eps}{.jpg}{.JPG}{.png}{.PNG}}
+
+\makeloabbreviations
+\makelosymbols
+
+\begin{document}
+
+
+% \newcommand{\myalfnt}[1]{\small #1}
+% \SetAlFnt{\myalfnt}
+\renewcommand\contentsname{ÍNDICE GENERAL}
+\renewcommand\listfigurename{LISTA DE FIGURAS}
+\renewcommand\listtablename{LISTA DE TABLAS}
+\renewcommand\bibname{REFERENCIAS BIBLIOGRÁFICAS}
+\renewcommand\indexname{LISTA DE SÍMBOLOS}
+
+%\def\listsymbolname{LISTA DE SIMBOLOS}
+%\def\listsabbreviationname{LISTA DE ABREVIACIONES}
+
+\renewcommand\figurename{Figura}
+\renewcommand\tablename{Tabla}
+\renewcommand\partname{Parte}
+\renewcommand\chaptername{Capítulo}
+\renewcommand\appendixname{APENDICE}
+\renewcommand\abstractname{RESUMEN}
+\renewcommand\proofname{Demostración}
+% \renewcommand\algorithmname{Algoritmo}
+
+
+% \SetAlgorithmName{Algoritmo}{algoritmo}{LISTA DE ALGORITMOS} 
+  \title{MEJORA DEL CONTRASTE DE IMÁGENES A COLOR UTILIZANDO UN FRAMEWORK DE OPTIMIZACIÓN MULTIOBJETIVO}
+  \foreigntitle{CONTRAST ENHANCEMENT OF COLOR IMAGES USING A MULTI-OBJECTIVE OPTIMIZATION FRAMEWORK}
+  \catalogingtitle{Mejora del contraste de imágenes a color utilizando un framework de optimización multiobjetivo}
+  \author{ Luis Guillermo}{Moré Rodríguez}
+  \advisor{Prof.}{Diego Pedro}{Pinto Roa, Dr.}{}
+  \advisor{Prof.}{José Luis}{Vázquez Noguera, M.Sc.}{}
+
+  \examiner{Prof.}{Miguel García Torres}{Dr.}
+  \examiner{Prof.}{Diego Pinto Roa}{Dr.}
+  \examiner{Prof.}{Diego Stalder}{D.Sc.}
+  \examiner{Prof.}{Horacio Legal Ayala}{Dr.}
+  \examiner{Prof.}{José Luis Vázquez Noguera}{M.Sc.}
+
+  \university{Universidad Nacional de Asunción}
+  \place{Asunción}{}{Paraguay}
+
+  \department{PEC}
+  \date{11}{2017}
+  \keyword{Mejora de contraste}
+  \keyword{Optimización Por Ejambre de Partículas}
+  \keyword{Imágenes a color}  
+  
+
+  \maketitle
+
+
+  \frontmatter
+  \include{dedicatoria}
+  \include{agradecimientos}
+  
+  \include{resumen}
+  \include{abstract}
+  \tableofcontents
+  \listoffigures
+  \listoftables 
+  
+  %\renewcommand\indexname{LISTA DE S\'IMBOLOS}
+  %\printlosymbols
+  %\renewcommand\indexname{LISTA DE ABREVIATURAS}
+  %\printloabbreviations
+  \include{symbols} 
+  \include{abreviaturas}
+
+  \mainmatter
+     
+    \include{chap01}
+    \include{chap02}
+    \include{chap03}
+    \include{chap04}
+    \include{chap05}  
+  \backmatter
+ %\bibliographystyle{abbrv}
+  \bibliographystyle{alpha}
+  \bibliography{referencias}
+  
+  \appendix
+    \include{AnexoA}
+    \include{AnexoB}
+  
+\end{document}
