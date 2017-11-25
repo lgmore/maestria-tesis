@@ -29,9 +29,9 @@ $r_2$ $min$ & 0.0 & $r_2$ $max$ & 1.0 \\
 \label{table:parametrospso}
 \end{table}
 
-Se realizaron pruebas utilizando 8 imágenes a color a partir del conjunto de datos disponible en http://www.vision.caltech.edu/archive.html. La tabla \ref{table:parametrospso} muestra cómo $SMPSO$ fué configurada para realizar las pruebas. Los detalles de implementación de $SMPSO$ está disponible en \cite{durillo2010jmetal}
+Se realizaron pruebas utilizando 8 imágenes a color a partir del conjunto de datos disponible en http://www.vision.caltech.edu/archive.html. La tabla \ref{table:parametrospso} muestra cómo $SMPSO$ fué configurada para realizar las pruebas. Los detalles de implementación de $SMPSO$ está disponible en \cite{durillo2010jmetal}, mientras que los detalles de implementación para $CLAHE$, $\mathscr{H}$ y $SSIM$ están disponibles en \cite{bradski2000opencv}. Para cada imagen de prueba, se realizaron 50 ejecuciones, y en promedio se encontraron 10 soluciones no dominadas. De las figuras (\ref{fig:casa1original},\ref{fig:casa1enhanced1},\ref{fig:casa1enhanced2}) es realmente notable cómo se logra la Mejora del Contraste; también hay una relación de compromiso entre $\mathscr{H}$ y $SSIM_R,SSIM_G,SSIM_B$. Es también notable a partir de la Figura (\ref{fig:casa1enhanced2}) cómo los valores más altos de $\mathscr{H}$ degradan severamente a la imagen, por lo que es necesario encontrar el balance correcto entre $\mathscr{H}$ and $SSIM_R,SSIM_G,SSIM_B$. En la Figura (\ref{fig:casa1enhanced3}) se muestra la imagen resultante mejorada utilizando la propuesta descrita en \cite{morepso}; es interesante remarcar que la imagen resultante no alcanza una buena Mejora del Contraste; ésto es debido a que el enfoque Mono-Objetivo no utiliza la información del color de manera apropiada, y éste resultado es el mismo para otras imágenes de prueba. En la Tabla \ref{table:nodominadas}, se muestran los coeficientes de las métricas no dominadas, y en la última línea se muestran los coeficientes de métricas para la imagen (\ref{fig:casa1original}), mejorada utilizando la propuesta Mono-Objetivo. A pesar de que se puede considerar que las métricas caen dentro del Frente Pareto, la información visual obtenida no es suficiente para afirmar que la propuesta mono-objetivo es factible para imágenes a color. Éstos resultados son similares en cada imagen de prueba utilizada.
 
-Tests were performed using 8 color images from the dataset available at http://www.vision.caltech.edu/archive.html. Table \ref{table:parametrospso} shows how $SMPSO$ was configured for the tests. $SMPSO$ implementation is available at \cite{durillo2010jmetal}, meanwhile the implementations for $CLAHE$, $\mathscr{H}$ and $SSIM$ are available at \cite{bradski2000opencv}. For every test image, 50 test were performed, and 10 non-dominated solutions were found in average. From Figures (\ref{fig:casa1original},\ref{fig:casa1enhanced1},\ref{fig:casa1enhanced2}) it is noticeable how CE is achieved; there is also a compromise relation between $\mathscr{H}$ and $SSIM_R,SSIM_G,SSIM_B$. It is noteworthy from Figure (\ref{fig:casa1enhanced2}) how higher values of $\mathscr{H}$ degrade images severely, so it is neccesary to find the correct balance between $\mathscr{H}$ and $SSIM_R,SSIM_G,SSIM_B$. In Figure (\ref{fig:casa1enhanced3}) it is shown the resultant image enhanced using the proposal described in \cite{morepso}; it is noticeable that the resultant image does not achieve good CE; this is because the mono-objective approach does not use color information properly, and this result is the same for other test images. In Table \ref{table:nodominadas}, the non-dominated metric coefficients are shown, and in the last line it is shown the metric coefficients for image (\ref{fig:casa1original}), enhanced using the mono-objective proposal. Although its metrics seem to fall in the Pareto Front, the visual information obtained is not enough to state that the mono-objective proposal is feasible for color images. These results are similar for every test image used.
+%Tests were performed using 8 color images from the dataset available at http://www.vision.caltech.edu/archive.html. Table \ref{table:parametrospso} shows how $SMPSO$ was configured for the tests. $SMPSO$ implementation is available at \cite{durillo2010jmetal}, meanwhile the implementations for $CLAHE$, $\mathscr{H}$ and $SSIM$ are available at \cite{bradski2000opencv}. For every test image, 50 test were performed, and 10 non-dominated solutions were found in average. From Figures (\ref{fig:casa1original},\ref{fig:casa1enhanced1},\ref{fig:casa1enhanced2}) it is noticeable how CE is achieved; there is also a compromise relation between $\mathscr{H}$ and $SSIM_R,SSIM_G,SSIM_B$. It is noteworthy from Figure (\ref{fig:casa1enhanced2}) how higher values of $\mathscr{H}$ degrade images severely, so it is neccesary to find the correct balance between $\mathscr{H}$ and $SSIM_R,SSIM_G,SSIM_B$. In Figure (\ref{fig:casa1enhanced3}) it is shown the resultant image enhanced using the proposal described in \cite{morepso}; it is noticeable that the resultant image does not achieve good CE; this is because the mono-objective approach does not use color information properly, and this result is the same for other test images. In Table \ref{table:nodominadas}, the non-dominated metric coefficients are shown, and in the last line it is shown the metric coefficients for image (\ref{fig:casa1original}), enhanced using the mono-objective proposal. Although its metrics seem to fall in the Pareto Front, the visual information obtained is not enough to state that the mono-objective proposal is feasible for color images. These results are similar for every test image used.
 
 % \begin{figure}[htp]
 
@@ -76,13 +76,13 @@ Tests were performed using 8 color images from the dataset available at http://w
         \label{fig:casa1enhanced3}
     \end{subfigure}
 
-    \caption{Original and resultant images of House 1}\label{fig:casa1}
+    \caption{Imágenes original y resultantes para la imagen de prueba Casa 1}\label{fig:casa1}
 \end{figure}
 
 
 \begin{table}[H]
 \setlength{\abovecaptionskip}{2pt plus 3pt minus 2pt} % Chosen fairly arbitrarily
-\caption[Parámetros de entrada para $MOPSO$]{Metric coefficients obtained using our approach for some non-dominated results from image in Figure (\ref{fig:casa1}), and the coefficients obtained using the approach of \cite{morepso}, shown in the last line.}
+\caption[Parámetros de entrada para $MOPSO$]{Coeficientes de las métricas obtenidas utilizando CMOPSO-CLAHE para algunos resultados no dominados de la imagen en la Figura (\ref{fig:casa1}), además de los coeficientes obtenidos con el enfoque de \cite{morepso}, el cual se muestra en la última línea.}
 \begin{center}
 \resizebox{0.8\columnwidth}{!}{%
  \begin{tabular}{||c | c c c c||} 
@@ -115,12 +115,12 @@ Result Mono& 0.788927    & 0.000204143 & 0.0000526475 & 0.0000518143 \\
 \begin{figure}[H]
     \centering
         \includegraphics[width=0.80\textwidth]{./Figures/pareto_front.jpg}
-    \caption{Pareto front drawed using data from Table \ref{table:nodominadas} }\label{fig:pareto_front}
+    \caption{Frente Pareto dibujado utilizando datos de la Tabla \ref{table:nodominadas} }\label{fig:pareto_front}
 \end{figure}
 
 \begin{table}[H]
 \setlength{\abovecaptionskip}{2pt plus 3pt minus 2pt} % Chosen fairly arbitrarily
-\caption[Parámetros de entrada para $MOPSO$]{Correlation table between metrics. Data was taken from Table \ref{table:nodominadas}.}
+\caption[Parámetros de entrada para $MOPSO$]{Tabla de correlación entre métricas. Los datos fueron tomados de la Tabla \ref{table:nodominadas}.}
 \begin{center}
  \begin{tabular}{||c | c c c c||} 
  \hline
@@ -139,7 +139,9 @@ $SSIM_B$ & -0.9826 & 0.9999   & 0.9999   & 1 \\
 \label{table:correlacion}
 \end{table}
 
-Figure (\ref{fig:pareto_front}) shows the Pareto Front created from the data in Table \ref{table:nodominadas}, and also Table \ref{table:correlacion} shows the correlation between metrics, analized from the results in Table \ref{table:nodominadas}. It is remarkable that there is a strong positive correlation between $SSIM_R$, $SSIM_G$ and $SSIM_B$; and there is a negative correlation between the previously mentioned metrics and $\mathscr{H_Y}$. These correlations indicate that the channels $R,G,B$ of images are directly affected by the proccess that modifies $Y$ channel (see Algorithm (\ref{alg:pso_clahe})). This also indicates that CE of color images can be posed as a bi-objective optimization problem, using only $\mathscr{H_Y}$ and $SSIM$ applied over $Y$ channel.
+La Figura (\ref{fig:pareto_front}) muestra el Frente pareto creado a partir de los datos de la Tabla \ref{table:nodominadas}, y también la Tabla \ref{table:correlacion} muestra la correlación entre métricas, analizadas a partir de los resultados de la Tabla \ref{table:nodominadas}. Es notable cómo hay una correlación positiva muy fuerte entre $SSIM_R$, $SSIM_G$ y $SSIM_B$; también existe una correlación negativa entre las métricas previamente mencionadas y $\mathscr{H_Y}$. Éstas correlaciones indican que los canales  $R,G,B$ de las imágenes se ven afectadas directamente por el proceso que modifica el canal $Y$ (see Algorithm (\ref{alg:pso_clahe})). Ésto también indica que la Mejora del Contraste de las imágenes a color se puede plantear como un problema de optimización bi-objetivo, utlizando simplemente $\mathscr{H_Y}$ y $SSIM$ aplicados sobre el canal $Y$.
+
+%Figure (\ref{fig:pareto_front}) shows the Pareto Front created from the data in Table \ref{table:nodominadas}, and also Table \ref{table:correlacion} shows the correlation between metrics, analized from the results in Table \ref{table:nodominadas}. It is remarkable that there is a strong positive correlation between $SSIM_R$, $SSIM_G$ and $SSIM_B$; and there is a negative correlation between the previously mentioned metrics and $\mathscr{H_Y}$. These correlations indicate that the channels $R,G,B$ of images are directly affected by the proccess that modifies $Y$ channel (see Algorithm (\ref{alg:pso_clahe})). This also indicates that CE of color images can be posed as a bi-objective optimization problem, using only $\mathscr{H_Y}$ and $SSIM$ applied over $Y$ channel.
 
 % En este apartado se exponen los resultados experimentales para las imágenes en escala de grises y las imágenes en color, además de las métricas de mejora del contraste utilizados para medir la calidad de la imagen resultante. La cuantificación de la mejora del contraste es difícil, no existe una medida específica que mide el rendimiento del algoritmo de mejora \cite{gordon1984feature,wang2003chromosome}.
 

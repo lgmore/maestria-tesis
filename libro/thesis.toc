@@ -19,7 +19,7 @@
 \contentsline {chapter}{\numberline {3}FORMULACI\IeC {\'O}N DEL PROBLEMA PLANTEADO Y PROPUESTA}{7}{chapter.3}
 \contentsline {section}{\numberline {3.1}Formulaci\IeC {\'o}n del problema planteado}{7}{section.3.1}
 \contentsline {section}{\numberline {3.2}Propuesta}{8}{section.3.2}
-\contentsline {chapter}{\numberline {4}RESULTADOS}{10}{chapter.4}
+\contentsline {chapter}{\numberline {4}RESULTADOS Y DISCUSI\IeC {\'O}N}{10}{chapter.4}
 \contentsline {chapter}{\numberline {5}CONCLUSIONES Y TRABAJOS\\ FUTUROS}{15}{chapter.5}
 \contentsline {section}{\numberline {5.1}Trabajos futuros}{16}{section.5.1}
 \contentsline {chapter}{REFERENCIAS BIBLIOGR\IeC {\'A}FICAS}{17}{chapter*.13}

@@ -1,17 +1,12 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2017.11.3)  25 NOV 2017 15:07
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2017.11.3)  25 NOV 2017 16:49
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**/home/lg_more/drivePoli/maestria/tesis/libro/0B_uamuFbOYdWN0otSmptbTFoYkU_FIL
-ES/thesis.tex
-
-(/home/lg_more/drivePoli/maestria/tesis/libro/0B_uamuFbOYdWN0otSmptbTFoYkU_FILE
-S/thesis.tex
+**/home/lg_more/github/maestria-tesis/libro/thesis.tex
+(/home/lg_more/github/maestria-tesis/libro/thesis.tex
 LaTeX2e <2017-04-15>
 Babel <3.12> and hyphenation patterns for 84 language(s) loaded.
-
-(/home/lg_more/drivePoli/maestria/tesis/libro/0B_uamuFbOYdWN0otSmptbTFoYkU_FILE
-S/coppe.cls
+(/home/lg_more/github/maestria-tesis/libro/coppe.cls
 Document Class: coppe 2009/11/17\ v2.1.1\ COPPE Dissertations and Thesis
 (/usr/share/texlive/texmf-dist/tex/latex/base/book.cls
 Document Class: book 2014/09/29 v1.4h Standard LaTeX document class
@@ -1131,45 +1126,24 @@ Writing index of abbreviations file thesis.abx
 \openout6 = `thesis.syx'.
 
 Writing index of symbols file thesis.syx
-
-(/home/lg_more/drivePoli/maestria/tesis/libro/0B_uamuFbOYdWN0otSmptbTFoYkU_FILE
-S/thesis.aux
+(/home/lg_more/github/maestria-tesis/libro/thesis.aux
 LaTeX Info: Redefining \. on input line 24.
 LaTeX Info: Redefining \% on input line 24.
-
-(/home/lg_more/drivePoli/maestria/tesis/libro/0B_uamuFbOYdWN0otSmptbTFoYkU_FILE
-S/dedicatoria.aux)
-(/home/lg_more/drivePoli/maestria/tesis/libro/0B_uamuFbOYdWN0otSmptbTFoYkU_FILE
-S/agradecimientos.aux)
-(/home/lg_more/drivePoli/maestria/tesis/libro/0B_uamuFbOYdWN0otSmptbTFoYkU_FILE
-S/resumen.aux)
-(/home/lg_more/drivePoli/maestria/tesis/libro/0B_uamuFbOYdWN0otSmptbTFoYkU_FILE
-S/abstract.aux
+(/home/lg_more/github/maestria-tesis/libro/dedicatoria.aux) (/home/lg_more/gith
+ub/maestria-tesis/libro/agradecimientos.aux) (/home/lg_more/github/maestria-tes
+is/libro/resumen.aux) (/home/lg_more/github/maestria-tesis/libro/abstract.aux
 LaTeX Info: Redefining \. on input line 7.
 LaTeX Info: Redefining \% on input line 7.
-)
-(/home/lg_more/drivePoli/maestria/tesis/libro/0B_uamuFbOYdWN0otSmptbTFoYkU_FILE
-S/symbols.aux)
-(/home/lg_more/drivePoli/maestria/tesis/libro/0B_uamuFbOYdWN0otSmptbTFoYkU_FILE
-S/abreviaturas.aux)
-(/home/lg_more/drivePoli/maestria/tesis/libro/0B_uamuFbOYdWN0otSmptbTFoYkU_FILE
-S/chap01.aux)
-(/home/lg_more/drivePoli/maestria/tesis/libro/0B_uamuFbOYdWN0otSmptbTFoYkU_FILE
-S/chap02.aux)
-(/home/lg_more/drivePoli/maestria/tesis/libro/0B_uamuFbOYdWN0otSmptbTFoYkU_FILE
-S/chap03.aux
+) (/home/lg_more/github/maestria-tesis/libro/symbols.aux) (/home/lg_more/github
+/maestria-tesis/libro/abreviaturas.aux) (/home/lg_more/github/maestria-tesis/li
+bro/chap01.aux) (/home/lg_more/github/maestria-tesis/libro/chap02.aux) (/home/l
+g_more/github/maestria-tesis/libro/chap03.aux
 
 LaTeX Warning: Label `sec:proposal' multiply defined.
 
-)
-(/home/lg_more/drivePoli/maestria/tesis/libro/0B_uamuFbOYdWN0otSmptbTFoYkU_FILE
-S/chap04.aux)
-(/home/lg_more/drivePoli/maestria/tesis/libro/0B_uamuFbOYdWN0otSmptbTFoYkU_FILE
-S/chap05.aux)
-(/home/lg_more/drivePoli/maestria/tesis/libro/0B_uamuFbOYdWN0otSmptbTFoYkU_FILE
-S/AnexoA.aux)
-(/home/lg_more/drivePoli/maestria/tesis/libro/0B_uamuFbOYdWN0otSmptbTFoYkU_FILE
-S/AnexoB.aux))
+) (/home/lg_more/github/maestria-tesis/libro/chap04.aux) (/home/lg_more/github/
+maestria-tesis/libro/chap05.aux) (/home/lg_more/github/maestria-tesis/libro/Ane
+xoA.aux) (/home/lg_more/github/maestria-tesis/libro/AnexoB.aux))
 \openout1 = `thesis.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 59.
@@ -1205,11 +1179,8 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 59.
 LaTeX Info: Redefining \pageref on input line 59.
 LaTeX Info: Redefining \nameref on input line 59.
-
-(/home/lg_more/drivePoli/maestria/tesis/libro/0B_uamuFbOYdWN0otSmptbTFoYkU_FILE
-S/thesis.out)
-(/home/lg_more/drivePoli/maestria/tesis/libro/0B_uamuFbOYdWN0otSmptbTFoYkU_FILE
-S/thesis.out)
+(/home/lg_more/github/maestria-tesis/libro/thesis.out) (/home/lg_more/github/ma
+estria-tesis/libro/thesis.out)
 \@outlinefile=\write7
 \openout7 = `thesis.out'.
 
@@ -1307,26 +1278,20 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 ]
 \openout2 = `dedicatoria.aux'.
 
-
-(/home/lg_more/drivePoli/maestria/tesis/libro/0B_uamuFbOYdWN0otSmptbTFoYkU_FILE
-S/dedicatoria.tex) [4
+(/home/lg_more/github/maestria-tesis/libro/dedicatoria.tex) [4
 
 
 ]
 \openout2 = `agradecimientos.aux'.
 
-
-(/home/lg_more/drivePoli/maestria/tesis/libro/0B_uamuFbOYdWN0otSmptbTFoYkU_FILE
-S/agradecimientos.tex) [5
+(/home/lg_more/github/maestria-tesis/libro/agradecimientos.tex) [5
 
 
 
 ]
 \openout2 = `resumen.aux'.
 
-
-(/home/lg_more/drivePoli/maestria/tesis/libro/0B_uamuFbOYdWN0otSmptbTFoYkU_FILE
-S/resumen.tex
+(/home/lg_more/github/maestria-tesis/libro/resumen.tex
 Underfull \hbox (badness 10000) in paragraph at lines 1--1
 []|\OT1/lmr/m/n/12 Luis Gui-ller-mo Mor^^Se
  []
@@ -1338,9 +1303,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1--1
 ]
 \openout2 = `abstract.aux'.
 
-
-(/home/lg_more/drivePoli/maestria/tesis/libro/0B_uamuFbOYdWN0otSmptbTFoYkU_FILE
-S/abstract.tex
+(/home/lg_more/github/maestria-tesis/libro/abstract.tex
 Underfull \hbox (badness 4967) in paragraph at lines 2--2
 []|\OT1/lmr/m/n/12 Jos^^Se Luis V^^Sazquez Noguera,
  []
@@ -1351,9 +1314,7 @@ LaTeX Info: Redefining \% on input line 11.
 
 
 
-]
-(/home/lg_more/drivePoli/maestria/tesis/libro/0B_uamuFbOYdWN0otSmptbTFoYkU_FILE
-S/thesis.toc
+] (/home/lg_more/github/maestria-tesis/libro/thesis.toc
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
 LaTeX Info: Redefining \. on input line 3.
@@ -1391,9 +1352,7 @@ tion (CLAHE)[] [][]
 \tf@toc=\write8
 \openout8 = `thesis.toc'.
 
-[9]
-(/home/lg_more/drivePoli/maestria/tesis/libro/0B_uamuFbOYdWN0otSmptbTFoYkU_FILE
-S/thesis.lof
+[9] (/home/lg_more/github/maestria-tesis/libro/thesis.lof
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
 LaTeX Info: Redefining \. on input line 3.
@@ -1424,9 +1383,7 @@ mm/m/it/12 SSIM[] \OT1/lmr/m/n/12 = 0[]000204143$,
 
 [10
 
-]
-(/home/lg_more/drivePoli/maestria/tesis/libro/0B_uamuFbOYdWN0otSmptbTFoYkU_FILE
-S/thesis.lot
+] (/home/lg_more/github/maestria-tesis/libro/thesis.lot
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
 LaTeX Info: Redefining \. on input line 3.
@@ -1440,9 +1397,7 @@ LaTeX Info: Redefining \% on input line 3.
 ]
 \openout2 = `symbols.aux'.
 
-
-(/home/lg_more/drivePoli/maestria/tesis/libro/0B_uamuFbOYdWN0otSmptbTFoYkU_FILE
-S/symbols.tex
+(/home/lg_more/github/maestria-tesis/libro/symbols.tex
 
 LaTeX Warning: Reference `symbol:ioriginal' on page \es@scroman {xii} undefined
  on input line 7.
@@ -1643,18 +1598,14 @@ Overfull \hbox (6.73634pt too wide) in paragraph at lines 39--124
 [13]
 \openout2 = `abreviaturas.aux'.
 
-
-(/home/lg_more/drivePoli/maestria/tesis/libro/0B_uamuFbOYdWN0otSmptbTFoYkU_FILE
-S/abreviaturas.tex) [14
+(/home/lg_more/github/maestria-tesis/libro/abreviaturas.tex) [14
 
 
 
 ]
 \openout2 = `chap01.aux'.
 
-
-(/home/lg_more/drivePoli/maestria/tesis/libro/0B_uamuFbOYdWN0otSmptbTFoYkU_FILE
-S/chap01.tex
+(/home/lg_more/github/maestria-tesis/libro/chap01.tex
 Cap\IeC {\'\i }tulo 1.
 [1
 
@@ -1664,9 +1615,7 @@ Cap\IeC {\'\i }tulo 1.
 ]) [2]
 \openout2 = `chap02.aux'.
 
-
-(/home/lg_more/drivePoli/maestria/tesis/libro/0B_uamuFbOYdWN0otSmptbTFoYkU_FILE
-S/chap02.tex
+(/home/lg_more/github/maestria-tesis/libro/chap02.tex
 Cap\IeC {\'\i }tulo 2.
 
 Overfull \hbox (14.83658pt too wide) in paragraph at lines 94--94
@@ -1680,9 +1629,7 @@ Overfull \hbox (14.83658pt too wide) in paragraph at lines 94--94
 ] [4] [5]) [6]
 \openout2 = `chap03.aux'.
 
-
-(/home/lg_more/drivePoli/maestria/tesis/libro/0B_uamuFbOYdWN0otSmptbTFoYkU_FILE
-S/chap03.tex
+(/home/lg_more/github/maestria-tesis/libro/chap03.tex
 Cap\IeC {\'\i }tulo 3.
 
 Overfull \hbox (40.99179pt too wide) in paragraph at lines 1--1
@@ -1707,23 +1654,8 @@ CLAHE Co-lor Multi-Objetivo ($\OML/lmm/m/it/12 CMOPSO \OMS/lmsy/m/n/12 ^^@
 [8]) [9]
 \openout2 = `chap04.aux'.
 
-
-(/home/lg_more/drivePoli/maestria/tesis/libro/0B_uamuFbOYdWN0otSmptbTFoYkU_FILE
-S/chap04.tex
+(/home/lg_more/github/maestria-tesis/libro/chap04.tex
 Cap\IeC {\'\i }tulo 4.
-
-Overfull \hbox (0.9835pt too wide) in paragraph at lines 32--33
-\OT1/lmr/m/n/12 con-fi-gu-red for the tests. $\OML/lmm/m/it/12 SMPSO$ \OT1/lmr/
-m/n/12 im-ple-men-ta-tion is avai-la-ble at [[]], meanw-
- []
-
-
-Overfull \hbox (24.59227pt too wide) in paragraph at lines 32--33
-\OT1/lmr/m/n/12 so it is nec-ce-sary to find the co-rrect ba-lan-ce bet-ween $\
-U/rsfs/m/n/12 H$ \OT1/lmr/m/n/12 and $\OML/lmm/m/it/12 SSIM[]; SSIM[]; SSIM[]$\
-OT1/lmr/m/n/12 .
- []
-
 [10
 
 
@@ -1732,35 +1664,35 @@ OT1/lmr/m/n/12 .
 <./Figures/calhouse_0230.jpg, id=351, 246.9225pt x 163.61125pt>
 File: ./Figures/calhouse_0230.jpg Graphic file (type jpg)
 <use ./Figures/calhouse_0230.jpg>
-Package pdftex.def Info: ./Figures/calhouse_0230.jpg  used on input line 50. on
- input line 50.
+Package pdftex.def Info: ./Figures/calhouse_0230.jpg  used on input line 52. on
+ input line 52.
 Package pdftex.def Info: Requested size: 412.56497pt x 273.38208pt on input lin
-e 50.
+e 52.
 <./Figures/calhouse_0230_20-25165283474-10.jpg, id=352, 246.9225pt x 163.61125p
 t>
 File: ./Figures/calhouse_0230_20-25165283474-10.jpg Graphic file (type jpg)
 <use ./Figures/calhouse_0230_20-25165283474-10.jpg>
 Package pdftex.def Info: ./Figures/calhouse_0230_20-25165283474-10.jpg  used on
- input line 58. on input line 58.
+ input line 60. on input line 60.
 Package pdftex.def Info: Requested size: 412.56497pt x 273.38208pt on input lin
-e 58.
+e 60.
 <./Figures/calhouse_0230_20-62968204656-00.jpg, id=353, 246.9225pt x 163.61125p
 t>
 File: ./Figures/calhouse_0230_20-62968204656-00.jpg Graphic file (type jpg)
 <use ./Figures/calhouse_0230_20-62968204656-00.jpg>
 Package pdftex.def Info: ./Figures/calhouse_0230_20-62968204656-00.jpg  used on
- input line 66. on input line 66.
+ input line 68. on input line 68.
 Package pdftex.def Info: Requested size: 412.56497pt x 273.38208pt on input lin
-e 66.
+e 68.
 <./Figures/calhouse_0230_20-20-0020072469292179818.jpg, id=354, 246.9225pt x 16
 3.61125pt>
 File: ./Figures/calhouse_0230_20-20-0020072469292179818.jpg Graphic file (type 
 jpg)
 <use ./Figures/calhouse_0230_20-20-0020072469292179818.jpg>
 Package pdftex.def Info: ./Figures/calhouse_0230_20-20-0020072469292179818.jpg 
- used on input line 72. on input line 72.
+ used on input line 74. on input line 74.
 Package pdftex.def Info: Requested size: 412.56497pt x 273.38208pt on input lin
-e 72.
+e 74.
 [11]
 Overfull \vbox (754.99303pt too high) has occurred while \output is active []
 
@@ -1770,16 +1702,14 @@ g> <./Figures/calhouse_0230_20-62968204656-00.jpg> <./Figures/calhouse_0230_20-
 <./Figures/pareto_front.jpg, id=374, 441.22737pt x 300.49106pt>
 File: ./Figures/pareto_front.jpg Graphic file (type jpg)
 <use ./Figures/pareto_front.jpg>
-Package pdftex.def Info: ./Figures/pareto_front.jpg  used on input line 115. on
- input line 115.
+Package pdftex.def Info: ./Figures/pareto_front.jpg  used on input line 117. on
+ input line 117.
 Package pdftex.def Info: Requested size: 330.05322pt x 224.78082pt on input lin
-e 115.
+e 117.
 [13 <./Figures/pareto_front.jpg>]) [14]
 \openout2 = `chap05.aux'.
 
-
-(/home/lg_more/drivePoli/maestria/tesis/libro/0B_uamuFbOYdWN0otSmptbTFoYkU_FILE
-S/chap05.tex
+(/home/lg_more/github/maestria-tesis/libro/chap05.tex
 Cap\IeC {\'\i }tulo 5.
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
@@ -1793,26 +1723,20 @@ ine 4.
 
 
 
-]) [16]
-(/home/lg_more/drivePoli/maestria/tesis/libro/0B_uamuFbOYdWN0otSmptbTFoYkU_FILE
-S/thesis.bbl [17
+]) [16] (/home/lg_more/github/maestria-tesis/libro/thesis.bbl [17
 
 
 
 ]) [18]
 \openout2 = `AnexoA.aux'.
 
-
-(/home/lg_more/drivePoli/maestria/tesis/libro/0B_uamuFbOYdWN0otSmptbTFoYkU_FILE
-S/AnexoA.tex [19
+(/home/lg_more/github/maestria-tesis/libro/AnexoA.tex [19
 
 
 ]) [20]
 \openout2 = `AnexoB.aux'.
 
-
-(/home/lg_more/drivePoli/maestria/tesis/libro/0B_uamuFbOYdWN0otSmptbTFoYkU_FILE
-S/AnexoB.tex
+(/home/lg_more/github/maestria-tesis/libro/AnexoB.tex
 Overfull \hbox (4.34213pt too wide) in paragraph at lines 9--9
 |[]\OT1/lmr/bx/it/17.28 Contrast Li-mi-ted Adap-ti-ve His-to-gram Equa-
  []
@@ -1829,45 +1753,25 @@ Package natbib Warning: There were undefined citations.
 AED: lastpage setting LastPage
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 143.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 143.
-
-(/home/lg_more/drivePoli/maestria/tesis/libro/0B_uamuFbOYdWN0otSmptbTFoYkU_FILE
-S/thesis.aux
+(/home/lg_more/github/maestria-tesis/libro/thesis.aux
 LaTeX Info: Redefining \. on input line 24.
 LaTeX Info: Redefining \% on input line 24.
-
-(/home/lg_more/drivePoli/maestria/tesis/libro/0B_uamuFbOYdWN0otSmptbTFoYkU_FILE
-S/dedicatoria.aux)
-(/home/lg_more/drivePoli/maestria/tesis/libro/0B_uamuFbOYdWN0otSmptbTFoYkU_FILE
-S/agradecimientos.aux)
-(/home/lg_more/drivePoli/maestria/tesis/libro/0B_uamuFbOYdWN0otSmptbTFoYkU_FILE
-S/resumen.aux)
-(/home/lg_more/drivePoli/maestria/tesis/libro/0B_uamuFbOYdWN0otSmptbTFoYkU_FILE
-S/abstract.aux
+(/home/lg_more/github/maestria-tesis/libro/dedicatoria.aux) (/home/lg_more/gith
+ub/maestria-tesis/libro/agradecimientos.aux) (/home/lg_more/github/maestria-tes
+is/libro/resumen.aux) (/home/lg_more/github/maestria-tesis/libro/abstract.aux
 LaTeX Info: Redefining \. on input line 7.
 LaTeX Info: Redefining \% on input line 7.
-)
-(/home/lg_more/drivePoli/maestria/tesis/libro/0B_uamuFbOYdWN0otSmptbTFoYkU_FILE
-S/symbols.aux)
-(/home/lg_more/drivePoli/maestria/tesis/libro/0B_uamuFbOYdWN0otSmptbTFoYkU_FILE
-S/abreviaturas.aux)
-(/home/lg_more/drivePoli/maestria/tesis/libro/0B_uamuFbOYdWN0otSmptbTFoYkU_FILE
-S/chap01.aux)
-(/home/lg_more/drivePoli/maestria/tesis/libro/0B_uamuFbOYdWN0otSmptbTFoYkU_FILE
-S/chap02.aux)
-(/home/lg_more/drivePoli/maestria/tesis/libro/0B_uamuFbOYdWN0otSmptbTFoYkU_FILE
-S/chap03.aux)
-(/home/lg_more/drivePoli/maestria/tesis/libro/0B_uamuFbOYdWN0otSmptbTFoYkU_FILE
-S/chap04.aux)
-(/home/lg_more/drivePoli/maestria/tesis/libro/0B_uamuFbOYdWN0otSmptbTFoYkU_FILE
-S/chap05.aux)
-(/home/lg_more/drivePoli/maestria/tesis/libro/0B_uamuFbOYdWN0otSmptbTFoYkU_FILE
-S/AnexoA.aux)
-(/home/lg_more/drivePoli/maestria/tesis/libro/0B_uamuFbOYdWN0otSmptbTFoYkU_FILE
-S/AnexoB.aux))
+) (/home/lg_more/github/maestria-tesis/libro/symbols.aux) (/home/lg_more/github
+/maestria-tesis/libro/abreviaturas.aux) (/home/lg_more/github/maestria-tesis/li
+bro/chap01.aux) (/home/lg_more/github/maestria-tesis/libro/chap02.aux) (/home/l
+g_more/github/maestria-tesis/libro/chap03.aux) (/home/lg_more/github/maestria-t
+esis/libro/chap04.aux) (/home/lg_more/github/maestria-tesis/libro/chap05.aux) (
+/home/lg_more/github/maestria-tesis/libro/AnexoA.aux) (/home/lg_more/github/mae
+stria-tesis/libro/AnexoB.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 143.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 143.
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 7726F7276F87DDBCE666CAFBF771AF54;1709.
+(rerunfilecheck)             Checksum: 5F22BB28EB692805B12A5D906785F595;1724.
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
@@ -1881,12 +1785,12 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 143.
  ) 
 Here is how much of TeX's memory you used:
  21607 strings out of 492990
- 388825 string characters out of 6135005
- 488948 words of memory out of 5000000
+ 384987 string characters out of 6135005
+ 488995 words of memory out of 5000000
  24481 multiletter control sequences out of 15000+600000
  68609 words of font info for 59 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,18n,54p,1809b,680s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 55i,18n,54p,2089b,680s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/share/texmf/fonts/en
 c/dvips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathex.enc}{/usr/s
 hare/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/enc/dvips/l
@@ -1904,8 +1808,8 @@ onts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy8.p
 fb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pf
 b></usr/share/texlive/texmf-dist/fonts/type1/public/rsfs/rsfs10.pfb></usr/share
 /texlive/texmf-dist/fonts/type1/public/esvect/vect10.pfb>
-Output written on /home/lg_more/drivePoli/maestria/tesis/libro/0B_uamuFbOYdWN0o
-tSmptbTFoYkU_FILES/thesis.pdf (36 pages, 541550 bytes).
+Output written on /home/lg_more/github/maestria-tesis/libro/thesis.pdf (36 page
+s, 542254 bytes).
 PDF statistics:
  523 PDF objects out of 1000 (max. 8388607)
  449 compressed objects within 5 object streams
