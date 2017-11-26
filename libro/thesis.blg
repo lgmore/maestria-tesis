@@ -20,12 +20,11 @@ Repeated entry---line 155 of file referencias.bib
  : @inproceedings{zuiderveld1994contrast
  :                                      ,
 I'm skipping whatever remains of this entry
-Warning--I didn't find a database entry for "bai2012image"
 Warning--empty journal in morepso
 Warning--empty year in morepso
 You've used 17 entries,
             2543 wiz_defined-function locations,
-            686 strings with 7805 characters,
+            685 strings with 7793 characters,
 and the built_in function-call counts, 7646 in all, are:
 = -- 763
 > -- 371

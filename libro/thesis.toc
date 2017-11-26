@@ -21,7 +21,7 @@
 \contentsline {section}{\numberline {3.2}Propuesta}{8}{section.3.2}
 \contentsline {chapter}{\numberline {4}RESULTADOS Y DISCUSI\IeC {\'O}N}{10}{chapter.4}
 \contentsline {chapter}{\numberline {5}CONCLUSIONES Y TRABAJOS\\ FUTUROS}{15}{chapter.5}
-\contentsline {section}{\numberline {5.1}Trabajos futuros}{16}{section.5.1}
-\contentsline {chapter}{REFERENCIAS BIBLIOGR\IeC {\'A}FICAS}{17}{chapter*.13}
-\contentsline {section}{\numberline {.1}\textit {Histogram Equalization} (HE)}{21}{section.Alph0.1}
-\contentsline {section}{\numberline {.2}\textit {Contrast Limited Adaptive Histogram Equalization} (CLAHE)}{21}{section.Alph0.2}
+\contentsline {section}{\numberline {5.1}Trabajos futuros}{15}{section.5.1}
+\contentsline {chapter}{REFERENCIAS BIBLIOGR\IeC {\'A}FICAS}{16}{chapter*.13}
+\contentsline {section}{\numberline {.1}\textit {Histogram Equalization} (HE)}{20}{section.Alph0.1}
+\contentsline {section}{\numberline {.2}\textit {Contrast Limited Adaptive Histogram Equalization} (CLAHE)}{20}{section.Alph0.2}

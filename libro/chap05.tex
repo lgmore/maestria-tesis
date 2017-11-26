@@ -1,23 +1,31 @@
 \chapter{CONCLUSIONES Y TRABAJOS\\ FUTUROS}
 \label{sec:conclusion}
 
-En este trabajo se presentó un algoritmo que utiliza la morfología matemática multiescala, para mejorar el contraste de una imagen en escala de grises e imágenes en color. Este algoritmo es una variación de la propuesta hecha por Bai et. al. \cite{bai2012image} denominado \textit{Multiscale Morphological Contrast Enhancement} (MMCE). La principal diferencia del algoritmo propuesto y MMCE radica en el cálculo de las sustracciones de las múltiples escalas de top-hat obtenidas.
+Se presentó un enfoque de Mejora de Contraste Basada en Optimización Multi-objetivo, el cual toma en cuenta la intensidad y la información de color como métricas Multi-Objetivo. Éste enfoque logra un grupo de imágenes resultantes, con diferentes nivees de compromiso entre contraste y similaridad estructural, de manera a maximizar la información disponible para el análisis posterior.
 
-%Éstos extraen características de la imagen en escalas múltiples mediante la transformada de top-hat.
+Los autores aún realizan pruebas con imágenes similares encontradas en la base de datos. Como trabajos futuros, sería útil analizar los parámetros utilizados por las metaheurísticas, el uso de métricas no marginales para evaluar las imágenes resultantes obtenidas mediante éste enfoque; y además realizar pruebas planteando la Mejora de contraste de imágenes a color como un problema de optimización bi-objetivo.
 
-El algoritmo propuesto y el algoritmo MMCE se implementaron para imágenes en escala de grises e imágenes en color. La implementación de los algoritmos multiescalas para imágenes en color se realizó mediante la extensión de la morfología matemática para imágenes en color. Ésta extensión se realizó a través de la adopción de métodos de ordenamientos en los espacios de color RGB, HSI y HSV.
+% A Multi-Objective approach for Contrast Enhancement of color images is presented, which takes into account intensity and color information as Multi-Objective metrics. This approach achieves several resultant images, with different compromise rates between contrast and structural-similarity, in order to maximize information available for further analysis.
 
-El algoritmo propuesto se comparó con otros algoritmos que mejoran el contraste de las imágenes en escala de grises e imágenes en color, los cuales fueron \textit{Histogram Equalization} (HE), \textit{Contrast-Limited Adaptive Histogram Equalization} (CLAHE) y MMCE. %Los resultados numéricos se evaluaron con métricas que miden la mejora del contraste local y global, tanto para imágenes en escala de grises como para imágenes en color. 
+% The authors are still performing test with similar images found in the database. As future work, it would be useful to analyse the parameters used for the meta-heuristics, the use of non-marginal metrics to assess the resultant images obtained with the approach, and perform tests posing CE of color images as a bi-objective optimization problem.
 
-La evaluación de la mejora en imágenes en escala de grises se realizó utilizando las métricas \textit{Contrast} (C), que evalúa la mejora del contraste global, y \textit{Contrast Improvement Ratio} (CIR), que evalúa la mejora del contraste local. Los algoritmos propuesto, HE, CLAHE y MMCE, mejoran el 100\% de las imágenes en escala de grises, pero la propuesta consigue mejores resultados numéricos en las métricas. 
+% En este trabajo se presentó un algoritmo que utiliza la morfología matemática multiescala, para mejorar el contraste de una imagen en escala de grises e imágenes en color. Este algoritmo es una variación de la propuesta hecha por Bai et. al. \cite{bai2012image} denominado \textit{Multiscale Morphological Contrast Enhancement} (MMCE). La principal diferencia del algoritmo propuesto y MMCE radica en el cálculo de las sustracciones de las múltiples escalas de top-hat obtenidas.
 
-La evaluación de la mejora de las imágenes en color se realizó utilizando las métricas \textit{Color Enhancement Factor} (CEF), que evalúa la mejora del color, y CIR. Con la métrica CEF, el algoritmo propuesto mejoró, mediante el método de ordenamiento lexicográfico $V\longrightarrow H\longrightarrow S$, en un 100\% las imágenes en color a partir de la 4ta iteración. El algoritmo MMCE mejoró, mediante el método de ordenamiento lexicográfico $V\longrightarrow H\longrightarrow S$, en un 100\% las imágenes en color a partir de la 7ta iteración. El algoritmo HE mejoró las imágenes en color en un 45,5\% y el algoritmo CLAHE en un 33\%. En la métrica CIR, el algoritmo propuesto obtiene mejores resultados a partir de la 3ra iteración. 
+% %Éstos extraen características de la imagen en escalas múltiples mediante la transformada de top-hat.
 
-%\textcolor{Micolor1}{Los tiempos de ejecución de los algoritmos propuesto y MMCE son similares, pero el algoritmo propuesto consigue resultados en la 3ra o 4ta iteración lo que el algoritmo MMCE obtiene en la 7ma iteración.} 
+% El algoritmo propuesto y el algoritmo MMCE se implementaron para imágenes en escala de grises e imágenes en color. La implementación de los algoritmos multiescalas para imágenes en color se realizó mediante la extensión de la morfología matemática para imágenes en color. Ésta extensión se realizó a través de la adopción de métodos de ordenamientos en los espacios de color RGB, HSI y HSV.
 
-Los tiempos de ejecución de los algoritmos propuesto y MMCE son similares, pero el algoritmo propuesto obtiene, en la 3ra o 4ta iteración, resultados numéricos que el algoritmo MMCE obtiene en la 6ta o 7ma iteración.
+% El algoritmo propuesto se comparó con otros algoritmos que mejoran el contraste de las imágenes en escala de grises e imágenes en color, los cuales fueron \textit{Histogram Equalization} (HE), \textit{Contrast-Limited Adaptive Histogram Equalization} (CLAHE) y MMCE. %Los resultados numéricos se evaluaron con métricas que miden la mejora del contraste local y global, tanto para imágenes en escala de grises como para imágenes en color. 
 
-La propuesta obtiene mejoras en las imágenes en escala de grises e imágenes en color, constituyéndose por lo tanto en una buena alternativa para realizar mejoras a imágenes con bajo contraste, tanto para imágenes en escala de grises como para imágenes en color.
+% La evaluación de la mejora en imágenes en escala de grises se realizó utilizando las métricas \textit{Contrast} (C), que evalúa la mejora del contraste global, y \textit{Contrast Improvement Ratio} (CIR), que evalúa la mejora del contraste local. Los algoritmos propuesto, HE, CLAHE y MMCE, mejoran el 100\% de las imágenes en escala de grises, pero la propuesta consigue mejores resultados numéricos en las métricas. 
+
+% La evaluación de la mejora de las imágenes en color se realizó utilizando las métricas \textit{Color Enhancement Factor} (CEF), que evalúa la mejora del color, y CIR. Con la métrica CEF, el algoritmo propuesto mejoró, mediante el método de ordenamiento lexicográfico $V\longrightarrow H\longrightarrow S$, en un 100\% las imágenes en color a partir de la 4ta iteración. El algoritmo MMCE mejoró, mediante el método de ordenamiento lexicográfico $V\longrightarrow H\longrightarrow S$, en un 100\% las imágenes en color a partir de la 7ta iteración. El algoritmo HE mejoró las imágenes en color en un 45,5\% y el algoritmo CLAHE en un 33\%. En la métrica CIR, el algoritmo propuesto obtiene mejores resultados a partir de la 3ra iteración. 
+
+% %\textcolor{Micolor1}{Los tiempos de ejecución de los algoritmos propuesto y MMCE son similares, pero el algoritmo propuesto consigue resultados en la 3ra o 4ta iteración lo que el algoritmo MMCE obtiene en la 7ma iteración.} 
+
+% Los tiempos de ejecución de los algoritmos propuesto y MMCE son similares, pero el algoritmo propuesto obtiene, en la 3ra o 4ta iteración, resultados numéricos que el algoritmo MMCE obtiene en la 6ta o 7ma iteración.
+
+% La propuesta obtiene mejoras en las imágenes en escala de grises e imágenes en color, constituyéndose por lo tanto en una buena alternativa para realizar mejoras a imágenes con bajo contraste, tanto para imágenes en escala de grises como para imágenes en color.
 
 %En este trabajo se presentó un algoritmo que utiliza la morfología matemática multiescala, para mejorar el contraste de una imagen en escala de grises e imágenes en color. Este algoritmo es una variación de la propuesta hecha por Bai et. al. \cite{bai2012image} denominado \textit{Multiscale Morphological Contrast Enhancement} (MMCE). Éstos extraen características de la imagen en escalas múltiples mediante la transformada de top-hat. La principal diferencia del algoritmo propuesto y MMCE radica en el calculo de las sustracciones de las múltiples escalas de top-hat obtenidas. La modificación propuesta realiza las sustracciones de las escalas en cascada. 
 
@@ -46,18 +54,18 @@ La propuesta obtiene mejoras en las imágenes en escala de grises e imágenes en
 
 \section{Trabajos futuros}
 
-Con base en los resultados obtenidos, se presentan a continuación algunos trabajos futuros que han sido identificados.
+% Con base en los resultados obtenidos, se presentan a continuación algunos trabajos futuros que han sido identificados.
 
-\begin{itemize}
+% \begin{itemize}
 	
-	\item Aplicar el algoritmo propuesto en otros tipos de imágenes, como las médicas, satelitales, astronómicas, infrarrojas, entre otros.
+% 	\item Aplicar el algoritmo propuesto en otros tipos de imágenes, como las médicas, satelitales, astronómicas, infrarrojas, entre otros.
 	
-	\item Utilizar el algoritmo propuesto como un proceso previo de otras aplicaciones, como la segmentación de imágenes, fusión de imágenes, detección de objetos, entre otros. 
+% 	\item Utilizar el algoritmo propuesto como un proceso previo de otras aplicaciones, como la segmentación de imágenes, fusión de imágenes, detección de objetos, entre otros. 
 	
-	\item Determinar el mejor ordenamiento y el mejor espacio de color para la mejora de imágenes en color, mediante pruebas exhaustivas con diferentes ordenamientos del estado del arte.
+% 	\item Determinar el mejor ordenamiento y el mejor espacio de color para la mejora de imágenes en color, mediante pruebas exhaustivas con diferentes ordenamientos del estado del arte.
 	
-	\item Determinar el elemento estructurante ideal para la mejora del contraste de imágenes, mediante pruebas exhaustivas con diferentes tipos de elementos estructurantes.
+% 	\item Determinar el elemento estructurante ideal para la mejora del contraste de imágenes, mediante pruebas exhaustivas con diferentes tipos de elementos estructurantes.
 	
-	%\item \textcolor{Micolor2}{Comparar el algoritmo propuesto con otrso algoritmos que utilizan lógica difusa y la transformada de wavelet.}
+% 	%\item \textcolor{Micolor2}{Comparar el algoritmo propuesto con otrso algoritmos que utilizan lógica difusa y la transformada de wavelet.}
 	
-\end{itemize}
+% \end{itemize}
