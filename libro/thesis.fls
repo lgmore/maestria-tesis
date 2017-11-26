@@ -377,6 +377,12 @@ INPUT /home/lg_more/github/maestria-tesis/libro/abreviaturas.tex
 OUTPUT /home/lg_more/github/maestria-tesis/libro/chap01.aux
 INPUT /home/lg_more/github/maestria-tesis/libro/chap01.tex
 INPUT /home/lg_more/github/maestria-tesis/libro/chap01.tex
+INPUT /home/lg_more/github/maestria-tesis/libro/./Figures/chest.jpg
+INPUT ./Figures/chest.jpg
+INPUT ./Figures/chest.jpg
+INPUT /usr/share/texmf/fonts/tfm/public/lm/rm-lmr10.tfm
+INPUT /home/lg_more/github/maestria-tesis/libro/./Figures/chest.jpg
+INPUT ./Figures/chest.jpg
 INPUT /usr/share/texmf/fonts/tfm/public/lm/rm-lmr17.tfm
 INPUT /usr/share/texmf/fonts/tfm/public/lm/rm-lmbx12.tfm
 INPUT /usr/share/texmf/fonts/tfm/public/lm/rm-lmr12.tfm
@@ -394,7 +400,6 @@ INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam5.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm5.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/rsfs/rsfs5.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/esvect/vect5.tfm
-INPUT /usr/share/texmf/fonts/tfm/public/lm/rm-lmr10.tfm
 OUTPUT /home/lg_more/github/maestria-tesis/libro/chap04.aux
 INPUT /home/lg_more/github/maestria-tesis/libro/chap04.tex
 INPUT /home/lg_more/github/maestria-tesis/libro/chap04.tex

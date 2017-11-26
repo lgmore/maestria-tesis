@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2017.11.3)  26 NOV 2017 17:00
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2017.11.3)  26 NOV 2017 19:40
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1141,9 +1141,19 @@ g_more/github/maestria-tesis/libro/chap03.aux
 
 LaTeX Warning: Label `sec:proposal' multiply defined.
 
-) (/home/lg_more/github/maestria-tesis/libro/chap04.aux) (/home/lg_more/github/
-maestria-tesis/libro/chap05.aux) (/home/lg_more/github/maestria-tesis/libro/Ane
-xoA.aux) (/home/lg_more/github/maestria-tesis/libro/AnexoB.aux))
+) (/home/lg_more/github/maestria-tesis/libro/chap04.aux
+
+LaTeX Warning: Label `fig:casa1original' multiply defined.
+
+
+LaTeX Warning: Label `fig:casa1enhanced1' multiply defined.
+
+
+LaTeX Warning: Label `fig:casa1' multiply defined.
+
+) (/home/lg_more/github/maestria-tesis/libro/chap05.aux) (/home/lg_more/github/
+maestria-tesis/libro/AnexoA.aux) (/home/lg_more/github/maestria-tesis/libro/Ane
+xoB.aux))
 \openout1 = `thesis.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 59.
@@ -1358,21 +1368,21 @@ LaTeX Info: Redefining \% on input line 1.
 LaTeX Info: Redefining \. on input line 3.
 LaTeX Info: Redefining \% on input line 3.
 
-Overfull \hbox (9.25131pt too wide) in paragraph at lines 9--9
+Overfull \hbox (9.25131pt too wide) in paragraph at lines 10--10
  [][] [][]\OT1/lmr/m/n/12 Enhanced Ima-ge. $[] = 0[]611275$, $\OML/lmm/m/it/12 
 SSIM[] \OT1/lmr/m/n/12 = 0[]00897331$, $\OML/lmm/m/it/12 SSIM[] \OT1/lmr/m/n/12
  = 
  []
 
 
-Overfull \hbox (3.37633pt too wide) in paragraph at lines 10--10
+Overfull \hbox (3.37633pt too wide) in paragraph at lines 11--11
  [][] [][]\OT1/lmr/m/n/12 Enhanced Ima-ge. $[] = 0[]0350595$, $\OML/lmm/m/it/12
  SSIM[] \OT1/lmr/m/n/12 = 0[]416776$, $\OML/lmm/m/it/12 SSIM[] \OT1/lmr/m/n/12 
 = 
  []
 
 
-Overfull \hbox (17.24316pt too wide) in paragraph at lines 11--11
+Overfull \hbox (17.24316pt too wide) in paragraph at lines 12--12
  [][] [][]\OT1/lmr/m/n/12 Enhanced Ima-ge using [[]]. $[] = 0[]788927$, $\OML/l
 mm/m/it/12 SSIM[] \OT1/lmr/m/n/12 = 0[]000204143$, 
  []
@@ -1607,12 +1617,25 @@ Overfull \hbox (6.73634pt too wide) in paragraph at lines 39--124
 
 (/home/lg_more/github/maestria-tesis/libro/chap01.tex
 Cap\IeC {\'\i }tulo 1.
+<./Figures/chest.jpg, id=253, 513.92pt x 421.575pt>
+File: ./Figures/chest.jpg Graphic file (type jpg)
+<use ./Figures/chest.jpg>
+Package pdftex.def Info: ./Figures/chest.jpg  used on input line 25. on input l
+ine 25.
+Package pdftex.def Info: Requested size: 123.77074pt x 101.52742pt on input lin
+e 25.
+File: ./Figures/chest.jpg Graphic file (type jpg)
+<use ./Figures/chest.jpg>
+Package pdftex.def Info: ./Figures/chest.jpg  used on input line 32. on input l
+ine 32.
+Package pdftex.def Info: Requested size: 123.77074pt x 101.52742pt on input lin
+e 32.
 [1
 
 
 
 
-]) [2]
+]) [2 <./Figures/chest.jpg>] [3]
 \openout2 = `chap02.aux'.
 
 (/home/lg_more/github/maestria-tesis/libro/chap02.tex
@@ -1622,11 +1645,11 @@ Overfull \hbox (14.83658pt too wide) in paragraph at lines 94--94
 |[]\OT1/lmr/bx/n/14.4 Multi-Objective Par-ti-cle Swarm Op-ti-mi-za-tion (MOP-
  []
 
-[3
+[4
 
 
 
-] [4] [5]) [6]
+] [5] [6]) [7]
 \openout2 = `chap03.aux'.
 
 (/home/lg_more/github/maestria-tesis/libro/chap03.tex
@@ -1636,7 +1659,7 @@ Overfull \hbox (40.99179pt too wide) in paragraph at lines 1--1
 |\OT1/lmr/bx/n/20.74 FORMULACI[]ON DEL PRO-BLE-MA PLAN-
  []
 
-[7
+[8
 
 
 
@@ -1651,24 +1674,24 @@ Overfull \hbox (18.98935pt too wide) in paragraph at lines 92--93
 CLAHE Co-lor Multi-Objetivo ($\OML/lmm/m/it/12 CMOPSO \OMS/lmsy/m/n/12 ^^@
  []
 
-[8]) [9]
+[9]) [10]
 \openout2 = `chap04.aux'.
 
 (/home/lg_more/github/maestria-tesis/libro/chap04.tex
 Cap\IeC {\'\i }tulo 4.
-[10
+[11
 
 
 
 ]
-<./Figures/calhouse_0230.jpg, id=351, 246.9225pt x 163.61125pt>
+<./Figures/calhouse_0230.jpg, id=361, 246.9225pt x 163.61125pt>
 File: ./Figures/calhouse_0230.jpg Graphic file (type jpg)
 <use ./Figures/calhouse_0230.jpg>
 Package pdftex.def Info: ./Figures/calhouse_0230.jpg  used on input line 52. on
  input line 52.
 Package pdftex.def Info: Requested size: 412.56497pt x 273.38208pt on input lin
 e 52.
-<./Figures/calhouse_0230_20-25165283474-10.jpg, id=352, 246.9225pt x 163.61125p
+<./Figures/calhouse_0230_20-25165283474-10.jpg, id=362, 246.9225pt x 163.61125p
 t>
 File: ./Figures/calhouse_0230_20-25165283474-10.jpg Graphic file (type jpg)
 <use ./Figures/calhouse_0230_20-25165283474-10.jpg>
@@ -1676,7 +1699,7 @@ Package pdftex.def Info: ./Figures/calhouse_0230_20-25165283474-10.jpg  used on
  input line 60. on input line 60.
 Package pdftex.def Info: Requested size: 412.56497pt x 273.38208pt on input lin
 e 60.
-<./Figures/calhouse_0230_20-62968204656-00.jpg, id=353, 246.9225pt x 163.61125p
+<./Figures/calhouse_0230_20-62968204656-00.jpg, id=363, 246.9225pt x 163.61125p
 t>
 File: ./Figures/calhouse_0230_20-62968204656-00.jpg Graphic file (type jpg)
 <use ./Figures/calhouse_0230_20-62968204656-00.jpg>
@@ -1684,7 +1707,7 @@ Package pdftex.def Info: ./Figures/calhouse_0230_20-62968204656-00.jpg  used on
  input line 68. on input line 68.
 Package pdftex.def Info: Requested size: 412.56497pt x 273.38208pt on input lin
 e 68.
-<./Figures/calhouse_0230_20-20-0020072469292179818.jpg, id=354, 246.9225pt x 16
+<./Figures/calhouse_0230_20-20-0020072469292179818.jpg, id=364, 246.9225pt x 16
 3.61125pt>
 File: ./Figures/calhouse_0230_20-20-0020072469292179818.jpg Graphic file (type 
 jpg)
@@ -1693,20 +1716,20 @@ Package pdftex.def Info: ./Figures/calhouse_0230_20-20-0020072469292179818.jpg
  used on input line 74. on input line 74.
 Package pdftex.def Info: Requested size: 412.56497pt x 273.38208pt on input lin
 e 74.
-[11]
+[12]
 Overfull \vbox (754.99303pt too high) has occurred while \output is active []
 
-[12 <./Figures/calhouse_0230.jpg> <./Figures/calhouse_0230_20-25165283474-10.jp
+[13 <./Figures/calhouse_0230.jpg> <./Figures/calhouse_0230_20-25165283474-10.jp
 g> <./Figures/calhouse_0230_20-62968204656-00.jpg> <./Figures/calhouse_0230_20-
 20-0020072469292179818.jpg>]
-<./Figures/pareto_front.jpg, id=374, 441.22737pt x 300.49106pt>
+<./Figures/pareto_front.jpg, id=383, 441.22737pt x 300.49106pt>
 File: ./Figures/pareto_front.jpg Graphic file (type jpg)
 <use ./Figures/pareto_front.jpg>
 Package pdftex.def Info: ./Figures/pareto_front.jpg  used on input line 117. on
  input line 117.
 Package pdftex.def Info: Requested size: 330.05322pt x 224.78082pt on input lin
 e 117.
-[13 <./Figures/pareto_front.jpg>]) [14]
+[14 <./Figures/pareto_front.jpg>]) [15]
 \openout2 = `chap05.aux'.
 
 (/home/lg_more/github/maestria-tesis/libro/chap05.tex
@@ -1715,21 +1738,21 @@ Cap\IeC {\'\i }tulo 5.
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\\' on input line 1.
 
-) [15
+) [16
 
 
 
-] (/home/lg_more/github/maestria-tesis/libro/thesis.bbl [16
+] (/home/lg_more/github/maestria-tesis/libro/thesis.bbl [17
 
 
 
-]) [17]
+]) [18]
 \openout2 = `AnexoA.aux'.
 
-(/home/lg_more/github/maestria-tesis/libro/AnexoA.tex [18
+(/home/lg_more/github/maestria-tesis/libro/AnexoA.tex [19
 
 
-]) [19]
+]) [20]
 \openout2 = `AnexoB.aux'.
 
 (/home/lg_more/github/maestria-tesis/libro/AnexoB.tex
@@ -1737,11 +1760,11 @@ Overfull \hbox (4.34213pt too wide) in paragraph at lines 9--9
 |[]\OT1/lmr/bx/it/17.28 Contrast Li-mi-ted Adap-ti-ve His-to-gram Equa-
  []
 
-) [20
+) [21
 
 
 
-] [21] 
+] [22] 
 AED: lastpage setting LastPage
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 143.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 143.
@@ -1763,7 +1786,7 @@ stria-tesis/libro/AnexoB.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 143.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 143.
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 5F22BB28EB692805B12A5D906785F595;1724.
+(rerunfilecheck)             Checksum: E055FD76743B337215F32105C40C725B;1724.
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
@@ -1776,10 +1799,10 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 143.
  ) 
 Here is how much of TeX's memory you used:
- 21605 strings out of 492990
- 384966 string characters out of 6135005
- 488995 words of memory out of 5000000
- 24480 multiletter control sequences out of 15000+600000
+ 21615 strings out of 492990
+ 385146 string characters out of 6135005
+ 489000 words of memory out of 5000000
+ 24485 multiletter control sequences out of 15000+600000
  68609 words of font info for 59 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  55i,18n,54p,2089b,680s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1800,11 +1823,11 @@ onts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy8.p
 fb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pf
 b></usr/share/texlive/texmf-dist/fonts/type1/public/rsfs/rsfs10.pfb></usr/share
 /texlive/texmf-dist/fonts/type1/public/esvect/vect10.pfb>
-Output written on /home/lg_more/github/maestria-tesis/libro/thesis.pdf (35 page
-s, 539644 bytes).
+Output written on /home/lg_more/github/maestria-tesis/libro/thesis.pdf (36 page
+s, 563199 bytes).
 PDF statistics:
- 519 PDF objects out of 1000 (max. 8388607)
- 446 compressed objects within 5 object streams
- 107 named destinations out of 1000 (max. 500000)
- 235 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 530 PDF objects out of 1000 (max. 8388607)
+ 455 compressed objects within 5 object streams
+ 111 named destinations out of 1000 (max. 500000)
+ 240 words of extra memory for PDF output out of 10000 (max. 10000000)
 
