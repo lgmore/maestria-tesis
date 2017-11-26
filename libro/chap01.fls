@@ -1,9 +1,9 @@
-PWD /home/lg_more/drivePoli/maestria/tesis/libro/0B_uamuFbOYdWN0otSmptbTFoYkU_FILES
+PWD /home/lg_more/github/maestria-tesis/libro
 INPUT /etc/texmf/web2c/texmf.cnf
 INPUT /usr/share/texmf/web2c/texmf.cnf
 INPUT /usr/share/texlive/texmf-dist/web2c/texmf.cnf
 INPUT /var/lib/texmf/web2c/pdftex/pdflatex.fmt
-INPUT /home/lg_more/drivePoli/maestria/tesis/libro/0B_uamuFbOYdWN0otSmptbTFoYkU_FILES/chap01.tex
-OUTPUT /home/lg_more/drivePoli/maestria/tesis/libro/0B_uamuFbOYdWN0otSmptbTFoYkU_FILES/chap01.log
+INPUT /home/lg_more/github/maestria-tesis/libro/chap01.tex
+OUTPUT /home/lg_more/github/maestria-tesis/libro/chap01.log
 INPUT /usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm

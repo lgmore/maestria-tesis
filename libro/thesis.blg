@@ -24,7 +24,7 @@ Warning--empty journal in morepso
 Warning--empty year in morepso
 You've used 17 entries,
             2543 wiz_defined-function locations,
-            685 strings with 7793 characters,
+            684 strings with 7782 characters,
 and the built_in function-call counts, 7646 in all, are:
 = -- 763
 > -- 371
