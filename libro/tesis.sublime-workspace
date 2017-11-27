@@ -49,7 +49,7 @@
 			"file": "chap02.tex",
 			"settings":
 			{
-				"buffer_size": 39026,
+				"buffer_size": 39144,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -76,7 +76,7 @@
 			"file": "chap04.tex",
 			"settings":
 			{
-				"buffer_size": 63837,
+				"buffer_size": 63968,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -574,7 +574,7 @@
 	],
 	"find":
 	{
-		"height": 43.0
+		"height": 30.0
 	},
 	"find_in_files":
 	{
@@ -616,7 +616,7 @@
 	"groups":
 	[
 		{
-			"selected": 6,
+			"selected": 3,
 			"sheets":
 			[
 				{
@@ -638,15 +638,6 @@
 						],
 						"settings":
 						{
-							"WordCount":
-							{
-								"changes": 942,
-								"count": 809,
-								"modified": false,
-								"selection": false,
-								"status": -1,
-								"syntax": "plain text"
-							},
 							"syntax": "Packages/LaTeXing/support/LaTeX.tmLanguage",
 							"translate_tabs_to_spaces": false
 						},
@@ -676,15 +667,6 @@
 						],
 						"settings":
 						{
-							"WordCount":
-							{
-								"changes": 0,
-								"count": 6,
-								"modified": false,
-								"selection": false,
-								"status": -1,
-								"syntax": "plain text"
-							},
 							"syntax": "Packages/ShellScript/Shell-Unix-Generic.sublime-syntax"
 						},
 						"translation.x": 0.0,
@@ -715,7 +697,7 @@
 						{
 							"WordCount":
 							{
-								"changes": 122,
+								"changes": 0,
 								"count": 85,
 								"modified": false,
 								"selection": false,
@@ -739,23 +721,23 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 39026,
+						"buffer_size": 39144,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								39026,
-								39026
+								341,
+								341
 							]
 						],
 						"settings":
 						{
 							"WordCount":
 							{
-								"changes": 0,
-								"count": 4348,
+								"changes": 136,
+								"count": 4363,
 								"modified": false,
 								"selection": false,
 								"status": -1,
@@ -766,10 +748,10 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 805.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
@@ -791,15 +773,6 @@
 						],
 						"settings":
 						{
-							"WordCount":
-							{
-								"changes": 0,
-								"count": 530,
-								"modified": false,
-								"selection": false,
-								"status": -1,
-								"syntax": "plain text"
-							},
 							"syntax": "Packages/Text/Plain text.tmLanguage",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
@@ -847,23 +820,23 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 63837,
+						"buffer_size": 63968,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								6623,
-								6623
+								7006,
+								7006
 							]
 						],
 						"settings":
 						{
 							"WordCount":
 							{
-								"changes": 101,
-								"count": 4724,
+								"changes": 70,
+								"count": 4726,
 								"modified": false,
 								"selection": false,
 								"status": -1,
@@ -874,10 +847,10 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 2545.0,
+						"translation.y": 2743.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
@@ -901,8 +874,7 @@
 						{
 							"WordCount":
 							{
-								"changes": 0,
-								"count": 2,
+								"changes": -1,
 								"modified": true,
 								"selection": true,
 								"status": -1,
@@ -936,15 +908,6 @@
 						],
 						"settings":
 						{
-							"WordCount":
-							{
-								"changes": 0,
-								"count": 45,
-								"modified": false,
-								"selection": false,
-								"status": -1,
-								"syntax": "plain text"
-							},
 							"syntax": "Packages/LaTeXing/support/LaTeX.tmLanguage"
 						},
 						"translation.x": 0.0,
@@ -973,15 +936,6 @@
 						],
 						"settings":
 						{
-							"WordCount":
-							{
-								"changes": 23,
-								"count": 304,
-								"modified": false,
-								"selection": false,
-								"status": -1,
-								"syntax": "plain text"
-							},
 							"syntax": "Packages/LaTeXing/support/LaTeX.tmLanguage"
 						},
 						"translation.x": 0.0,
@@ -1010,15 +964,6 @@
 						],
 						"settings":
 						{
-							"WordCount":
-							{
-								"changes": 33,
-								"count": 354,
-								"modified": false,
-								"selection": false,
-								"status": -1,
-								"syntax": "plain text"
-							},
 							"syntax": "Packages/LaTeXing/support/LaTeX.tmLanguage"
 						},
 						"translation.x": 0.0,
