@@ -4,9 +4,10 @@
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {1.1}{\ignorespaces Imagen en escala de grises e imagen con contraste mejorado para posterior utilizaci\IeC {\'o}n.\relax }}{2}{figure.caption.8}
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Im\IeC {\'a}genes original y resultantes para la imagen de prueba Casa 1\relax }}{5}{figure.caption.9}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Enhanced Image using \cite {morepso}. $\mathscr {H_Y}=0.788927$, $SSIM_R=0.000204143$, $SSIM_G=0.0000526475$, $SSIM_B=0.0000518143$\relax }}{12}{figure.caption.10}
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Im\IeC {\'a}genes original y resultantes para la imagen de prueba Casa 1\relax }}{12}{figure.caption.10}
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Frente Pareto dibujado utilizando datos de la Tabla \ref {table:nodominadas} \relax }}{13}{figure.caption.12}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Enhanced Image using \cite {morepso}. $\mathscr {H_Y}=0.788927$, $SSIM_R=0.000204143$, $SSIM_G=0.0000526475$, $SSIM_B=0.0000518143$\relax }}{13}{figure.caption.11}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Im\IeC {\'a}genes original y resultantes para la imagen de prueba Casa 1\relax }}{13}{figure.caption.11}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Frente Pareto dibujado utilizando datos de la Tabla \ref {table:nodominadas} \relax }}{14}{figure.caption.13}
 \addvspace {10\p@ }
