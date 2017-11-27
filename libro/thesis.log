@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2017.11.3)  27 NOV 2017 01:56
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2017.11.3)  27 NOV 2017 02:07
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1136,14 +1136,8 @@ LaTeX Info: Redefining \. on input line 7.
 LaTeX Info: Redefining \% on input line 7.
 ) (/home/lg_more/github/maestria-tesis/libro/symbols.aux) (/home/lg_more/github
 /maestria-tesis/libro/abreviaturas.aux) (/home/lg_more/github/maestria-tesis/li
-bro/chap01.aux) (/home/lg_more/github/maestria-tesis/libro/chap02.aux
-
-LaTeX Warning: Label `fig:casa1original' multiply defined.
-
-
-LaTeX Warning: Label `fig:casa1' multiply defined.
-
-) (/home/lg_more/github/maestria-tesis/libro/chap03.aux
+bro/chap01.aux) (/home/lg_more/github/maestria-tesis/libro/chap02.aux) (/home/l
+g_more/github/maestria-tesis/libro/chap03.aux
 
 LaTeX Warning: Label `sec:proposal' multiply defined.
 
@@ -1645,12 +1639,6 @@ Package pdftex.def Info: ./Figures/cubo-rgb.jpg  used on input line 21. on inpu
 t line 21.
 Package pdftex.def Info: Requested size: 206.28249pt x 175.87042pt on input lin
 e 21.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 21.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 21.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 21.
 [4
 
 
@@ -1675,6 +1663,8 @@ Overfull \hbox (40.99179pt too wide) in paragraph at lines 1--1
 
 
 ]
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <5> on input line 58.
 Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on in
 put line 88.
 
@@ -1733,19 +1723,23 @@ LaTeX Warning: Reference `fig:casa1original' on page 12 undefined on input line
 
 
 ]
-<./Figures/calhouse_0230.jpg, id=376, 246.9225pt x 163.61125pt>
+<./Figures/calhouse_0230.jpg, id=373, 246.9225pt x 163.61125pt>
 File: ./Figures/calhouse_0230.jpg Graphic file (type jpg)
 <use ./Figures/calhouse_0230.jpg>
 Package pdftex.def Info: ./Figures/calhouse_0230.jpg  used on input line 53. on
  input line 53.
 Package pdftex.def Info: Requested size: 185.65297pt x 123.0127pt on input line
  53.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10> on input line 53.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <7> on input line 53.
 
 Underfull \hbox (badness 2368) in paragraph at lines 53--53
 []\OT1/lmr/m/n/10 (a) Ima-gen Ori-gi-nal. $[] = 0[]207231$,
  []
 
-<./Figures/calhouse_0230_20-25165283474-10.jpg, id=377, 246.9225pt x 163.61125p
+<./Figures/calhouse_0230_20-25165283474-10.jpg, id=374, 246.9225pt x 163.61125p
 t>
 File: ./Figures/calhouse_0230_20-25165283474-10.jpg Graphic file (type jpg)
 <use ./Figures/calhouse_0230_20-25165283474-10.jpg>
@@ -1764,7 +1758,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 61--61
 ] \OT1/lmr/m/n/10 =
  []
 
-<./Figures/calhouse_0230_20-62968204656-00.jpg, id=378, 246.9225pt x 163.61125p
+<./Figures/calhouse_0230_20-62968204656-00.jpg, id=375, 246.9225pt x 163.61125p
 t>
 File: ./Figures/calhouse_0230_20-62968204656-00.jpg Graphic file (type jpg)
 <use ./Figures/calhouse_0230_20-62968204656-00.jpg>
@@ -1772,7 +1766,7 @@ Package pdftex.def Info: ./Figures/calhouse_0230_20-62968204656-00.jpg  used on
  input line 70. on input line 70.
 Package pdftex.def Info: Requested size: 185.65297pt x 123.0127pt on input line
  70.
-<./Figures/calhouse_0230_20-20-0020072469292179818.jpg, id=379, 246.9225pt x 16
+<./Figures/calhouse_0230_20-20-0020072469292179818.jpg, id=376, 246.9225pt x 16
 3.61125pt>
 File: ./Figures/calhouse_0230_20-20-0020072469292179818.jpg Graphic file (type 
 jpg)
@@ -1876,10 +1870,10 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 143.
  ) 
 Here is how much of TeX's memory you used:
- 21651 strings out of 492990
- 385701 string characters out of 6135005
- 487916 words of memory out of 5000000
- 24510 multiletter control sequences out of 15000+600000
+ 21653 strings out of 492990
+ 385727 string characters out of 6135005
+ 487997 words of memory out of 5000000
+ 24512 multiletter control sequences out of 15000+600000
  74199 words of font info for 72 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  55i,18n,54p,2089b,659s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1903,7 +1897,7 @@ onts/symbols/msbm10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/rsfs/
 rsfs10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/rsfs/rsfs7.pfb></u
 sr/share/texlive/texmf-dist/fonts/type1/public/esvect/vect10.pfb>
 Output written on /home/lg_more/github/maestria-tesis/libro/thesis.pdf (36 page
-s, 679491 bytes).
+s, 679387 bytes).
 PDF statistics:
  549 PDF objects out of 1000 (max. 8388607)
  468 compressed objects within 5 object streams

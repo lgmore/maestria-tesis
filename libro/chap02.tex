@@ -16,13 +16,13 @@ El primer espacio importante a analizar en este trabajo es $RGB$ (del inglés $R
 \begin{figure}[H]
     \centering
     %\begin{subfigure}[t]{0.45\textwidth}
-    \begin{subfigure}[Imagen Original. $\mathscr{H_Y}=0.207231$, $SSIM_R=1$, $SSIM_G=1$, $SSIM_B=1$]{
+    \begin{subfigure}[]{
         \includegraphics[width=0.50\textwidth]{./Figures/cubo-rgb.jpg}
     }
 %        \caption{Imagen Original. $\mathscr{H_Y}=0.207231$, $SSIM_R=1$, $SSIM_G=1$, $SSIM_B=1$}
-        \label{fig:casa1original}
+%        \label{fig:cuborgb}
     \end{subfigure}
-    \caption{Imágenes original y resultantes para la imagen de prueba Casa 1}\label{fig:casa1}
+    \caption{Cubo que representa al espacio de colores $RGB$.}\label{fig:cuborgb}
 \end{figure}
 
 Las imágenes originales se representan utilizando el espacio de colores $RGB$ \cite{gonzalez2002processing}, el cual es un arreglo de pixeles de color de tamaño $N \times M \times 3$. Cada pixel de color está representado por un elemento $[\begin{matrix}z_r & z_g & z_b\end{matrix}]$ del arreglo previamente mencionado, donde $z_r, z_g, z_b$ son los componentes rojo, verde y azul de un pixel de color en una ubicación específica. Las imágenes originales son luego transformadas al espacio de colores $YCbCr$ \cite{gonzalez2002processing}, el cual es una representación ampliamente utilizada en el video digital. La principal ventaja es que en esta representación $Y$ representa la información de luminancia de la imagen, mientras que el componente $Cb$ representa la diferencia entre el componente azul y un valor de referencia, mientras que el componente $Cr$ es la diferencia entre el componente rojo y un valor de referencia. Otra ventaja importante de ésta representación es que la conversión desde $RGB$, y nuevamente hacia $RGB$ es directa:
