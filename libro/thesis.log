@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2017.11.3)  26 NOV 2017 19:40
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2017.11.3)  26 NOV 2017 21:52
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1368,21 +1368,7 @@ LaTeX Info: Redefining \% on input line 1.
 LaTeX Info: Redefining \. on input line 3.
 LaTeX Info: Redefining \% on input line 3.
 
-Overfull \hbox (9.25131pt too wide) in paragraph at lines 10--10
- [][] [][]\OT1/lmr/m/n/12 Enhanced Ima-ge. $[] = 0[]611275$, $\OML/lmm/m/it/12 
-SSIM[] \OT1/lmr/m/n/12 = 0[]00897331$, $\OML/lmm/m/it/12 SSIM[] \OT1/lmr/m/n/12
- = 
- []
-
-
-Overfull \hbox (3.37633pt too wide) in paragraph at lines 11--11
- [][] [][]\OT1/lmr/m/n/12 Enhanced Ima-ge. $[] = 0[]0350595$, $\OML/lmm/m/it/12
- SSIM[] \OT1/lmr/m/n/12 = 0[]416776$, $\OML/lmm/m/it/12 SSIM[] \OT1/lmr/m/n/12 
-= 
- []
-
-
-Overfull \hbox (17.24316pt too wide) in paragraph at lines 12--12
+Overfull \hbox (17.24316pt too wide) in paragraph at lines 9--9
  [][] [][]\OT1/lmr/m/n/12 Enhanced Ima-ge using [[]]. $[] = 0[]788927$, $\OML/l
 mm/m/it/12 SSIM[] \OT1/lmr/m/n/12 = 0[]000204143$, 
  []
@@ -1617,25 +1603,27 @@ Overfull \hbox (6.73634pt too wide) in paragraph at lines 39--124
 
 (/home/lg_more/github/maestria-tesis/libro/chap01.tex
 Cap\IeC {\'\i }tulo 1.
-<./Figures/chest.jpg, id=253, 513.92pt x 421.575pt>
-File: ./Figures/chest.jpg Graphic file (type jpg)
-<use ./Figures/chest.jpg>
-Package pdftex.def Info: ./Figures/chest.jpg  used on input line 25. on input l
-ine 25.
-Package pdftex.def Info: Requested size: 123.77074pt x 101.52742pt on input lin
-e 25.
-File: ./Figures/chest.jpg Graphic file (type jpg)
-<use ./Figures/chest.jpg>
-Package pdftex.def Info: ./Figures/chest.jpg  used on input line 32. on input l
-ine 32.
-Package pdftex.def Info: Requested size: 123.77074pt x 101.52742pt on input lin
-e 32.
 [1
 
 
 
 
-]) [2 <./Figures/chest.jpg>] [3]
+]
+<./Figures/chest.jpg, id=259, 513.92pt x 421.575pt>
+File: ./Figures/chest.jpg Graphic file (type jpg)
+<use ./Figures/chest.jpg>
+Package pdftex.def Info: ./Figures/chest.jpg  used on input line 31. on input l
+ine 31.
+Package pdftex.def Info: Requested size: 165.02347pt x 135.3699pt on input line
+ 31.
+<./Figures/chestclahe1.jpg, id=260, 513.92pt x 421.575pt>
+File: ./Figures/chestclahe1.jpg Graphic file (type jpg)
+<use ./Figures/chestclahe1.jpg>
+Package pdftex.def Info: ./Figures/chestclahe1.jpg  used on input line 38. on i
+nput line 38.
+Package pdftex.def Info: Requested size: 165.02347pt x 135.3699pt on input line
+ 38.
+[2 <./Figures/chest.jpg> <./Figures/chestclahe1.jpg>]) [3]
 \openout2 = `chap02.aux'.
 
 (/home/lg_more/github/maestria-tesis/libro/chap02.tex
@@ -1679,56 +1667,121 @@ CLAHE Co-lor Multi-Objetivo ($\OML/lmm/m/it/12 CMOPSO \OMS/lmsy/m/n/12 ^^@
 
 (/home/lg_more/github/maestria-tesis/libro/chap04.tex
 Cap\IeC {\'\i }tulo 4.
+
+Package caption Warning: \label without proper reference on input line 55.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `fig:casa1original' on page 11 undefined on input line
+ 32.
+
+
+Package caption Warning: \label without proper reference on input line 64.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `fig:casa1enhanced1' on page 11 undefined on input lin
+e 32.
+
+
+Package caption Warning: \label without proper reference on input line 73.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `fig:casa1enhanced2' on page 11 undefined on input lin
+e 32.
+
+
+Package caption Warning: \label without proper reference on input line 73.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `fig:casa1enhanced2' on page 11 undefined on input lin
+e 32.
+
+
+Package caption Warning: \label without proper reference on input line 55.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `fig:casa1original' on page 11 undefined on input line
+ 32.
+
 [11
 
 
 
 ]
-<./Figures/calhouse_0230.jpg, id=361, 246.9225pt x 163.61125pt>
+<./Figures/calhouse_0230.jpg, id=360, 246.9225pt x 163.61125pt>
 File: ./Figures/calhouse_0230.jpg Graphic file (type jpg)
 <use ./Figures/calhouse_0230.jpg>
-Package pdftex.def Info: ./Figures/calhouse_0230.jpg  used on input line 52. on
- input line 52.
-Package pdftex.def Info: Requested size: 412.56497pt x 273.38208pt on input lin
-e 52.
-<./Figures/calhouse_0230_20-25165283474-10.jpg, id=362, 246.9225pt x 163.61125p
+Package pdftex.def Info: ./Figures/calhouse_0230.jpg  used on input line 53. on
+ input line 53.
+Package pdftex.def Info: Requested size: 185.65297pt x 123.0127pt on input line
+ 53.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10> on input line 53.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <7> on input line 53.
+
+Underfull \hbox (badness 2368) in paragraph at lines 53--53
+[]\OT1/lmr/m/n/10 (a) Ima-gen Ori-gi-nal. $[] = 0[]207231$,
+ []
+
+<./Figures/calhouse_0230_20-25165283474-10.jpg, id=361, 246.9225pt x 163.61125p
 t>
 File: ./Figures/calhouse_0230_20-25165283474-10.jpg Graphic file (type jpg)
 <use ./Figures/calhouse_0230_20-25165283474-10.jpg>
 Package pdftex.def Info: ./Figures/calhouse_0230_20-25165283474-10.jpg  used on
- input line 60. on input line 60.
-Package pdftex.def Info: Requested size: 412.56497pt x 273.38208pt on input lin
-e 60.
-<./Figures/calhouse_0230_20-62968204656-00.jpg, id=363, 246.9225pt x 163.61125p
+ input line 61. on input line 61.
+Package pdftex.def Info: Requested size: 185.65297pt x 123.0127pt on input line
+ 61.
+
+Underfull \hbox (badness 1817) in paragraph at lines 61--61
+[]\OT1/lmr/m/n/10 (b) En-han-ced Ima-ge. $[] = 0[]611275$,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 61--61
+\OML/lmm/m/it/10 SSIM[] \OT1/lmr/m/n/10 = 0[]00897331$, $\OML/lmm/m/it/10 SSIM[
+] \OT1/lmr/m/n/10 =
+ []
+
+<./Figures/calhouse_0230_20-62968204656-00.jpg, id=362, 246.9225pt x 163.61125p
 t>
 File: ./Figures/calhouse_0230_20-62968204656-00.jpg Graphic file (type jpg)
 <use ./Figures/calhouse_0230_20-62968204656-00.jpg>
 Package pdftex.def Info: ./Figures/calhouse_0230_20-62968204656-00.jpg  used on
- input line 68. on input line 68.
+ input line 70. on input line 70.
 Package pdftex.def Info: Requested size: 412.56497pt x 273.38208pt on input lin
-e 68.
-<./Figures/calhouse_0230_20-20-0020072469292179818.jpg, id=364, 246.9225pt x 16
+e 70.
+<./Figures/calhouse_0230_20-20-0020072469292179818.jpg, id=363, 246.9225pt x 16
 3.61125pt>
 File: ./Figures/calhouse_0230_20-20-0020072469292179818.jpg Graphic file (type 
 jpg)
 <use ./Figures/calhouse_0230_20-20-0020072469292179818.jpg>
 Package pdftex.def Info: ./Figures/calhouse_0230_20-20-0020072469292179818.jpg 
- used on input line 74. on input line 74.
+ used on input line 77. on input line 77.
 Package pdftex.def Info: Requested size: 412.56497pt x 273.38208pt on input lin
-e 74.
+e 77.
+
+Overfull \hbox (13.05536pt too wide) in paragraph at lines 53--78
+ []  [][] 
+ []
+
 [12]
-Overfull \vbox (754.99303pt too high) has occurred while \output is active []
+Overfull \vbox (205.37866pt too high) has occurred while \output is active []
 
 [13 <./Figures/calhouse_0230.jpg> <./Figures/calhouse_0230_20-25165283474-10.jp
 g> <./Figures/calhouse_0230_20-62968204656-00.jpg> <./Figures/calhouse_0230_20-
 20-0020072469292179818.jpg>]
-<./Figures/pareto_front.jpg, id=383, 441.22737pt x 300.49106pt>
+<./Figures/pareto_front.jpg, id=382, 441.22737pt x 300.49106pt>
 File: ./Figures/pareto_front.jpg Graphic file (type jpg)
 <use ./Figures/pareto_front.jpg>
-Package pdftex.def Info: ./Figures/pareto_front.jpg  used on input line 117. on
- input line 117.
+Package pdftex.def Info: ./Figures/pareto_front.jpg  used on input line 120. on
+ input line 120.
 Package pdftex.def Info: Requested size: 330.05322pt x 224.78082pt on input lin
-e 117.
+e 120.
 [14 <./Figures/pareto_front.jpg>]) [15]
 \openout2 = `chap05.aux'.
 
@@ -1799,11 +1852,11 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 143.
  ) 
 Here is how much of TeX's memory you used:
- 21615 strings out of 492990
- 385146 string characters out of 6135005
- 489000 words of memory out of 5000000
- 24485 multiletter control sequences out of 15000+600000
- 68609 words of font info for 59 fonts, out of 8000000 for 9000
+ 21641 strings out of 492990
+ 385513 string characters out of 6135005
+ 487914 words of memory out of 5000000
+ 24504 multiletter control sequences out of 15000+600000
+ 74199 words of font info for 72 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  55i,18n,54p,2089b,680s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/share/texmf/fonts/en
@@ -1812,22 +1865,24 @@ hare/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/enc/dvips/l
 m/lm-rmsc.enc}</usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/te
 xmf/fonts/type1/public/lm/lmbx8.pfb></usr/share/texmf/fonts/type1/public/lm/lmb
 xi10.pfb></usr/share/texmf/fonts/type1/public/lm/lmcsc10.pfb></usr/share/texmf/
-fonts/type1/public/lm/lmex10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi12
-.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi5.pfb></usr/share/texmf/fonts/
-type1/public/lm/lmmi6.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi8.pfb></u
-sr/share/texmf/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/pu
-blic/lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr6.pfb></usr/share/
-texmf/fonts/type1/public/lm/lmr8.pfb></usr/share/texmf/fonts/type1/public/lm/lm
-ri12.pfb></usr/share/texmf/fonts/type1/public/lm/lmss10.pfb></usr/share/texmf/f
-onts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy8.p
-fb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pf
-b></usr/share/texlive/texmf-dist/fonts/type1/public/rsfs/rsfs10.pfb></usr/share
-/texlive/texmf-dist/fonts/type1/public/esvect/vect10.pfb>
+fonts/type1/public/lm/lmex10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi10
+.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi12.pfb></usr/share/texmf/fonts
+/type1/public/lm/lmmi5.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi6.pfb></
+usr/share/texmf/fonts/type1/public/lm/lmmi7.pfb></usr/share/texmf/fonts/type1/p
+ublic/lm/lmmi8.pfb></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb></usr/shar
+e/texmf/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/lm
+/lmr6.pfb></usr/share/texmf/fonts/type1/public/lm/lmr8.pfb></usr/share/texmf/fo
+nts/type1/public/lm/lmri12.pfb></usr/share/texmf/fonts/type1/public/lm/lmss10.p
+fb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/t
+ype1/public/lm/lmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsf
+onts/symbols/msbm10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/rsfs/
+rsfs10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/rsfs/rsfs7.pfb></u
+sr/share/texlive/texmf-dist/fonts/type1/public/esvect/vect10.pfb>
 Output written on /home/lg_more/github/maestria-tesis/libro/thesis.pdf (36 page
-s, 563199 bytes).
+s, 633185 bytes).
 PDF statistics:
- 530 PDF objects out of 1000 (max. 8388607)
- 455 compressed objects within 5 object streams
+ 538 PDF objects out of 1000 (max. 8388607)
+ 459 compressed objects within 5 object streams
  111 named destinations out of 1000 (max. 500000)
- 240 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 245 words of extra memory for PDF output out of 10000 (max. 10000000)
 

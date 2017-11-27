@@ -8,6 +8,12 @@ La Mejora del Contraste es un paso de preprocesamiento fundamental para varias a
 	\item Imágenes Médicas (como ejemplos es posible tomar: el Diagnóstico Asistido por Computadora \cite{doi2007computer}, Imágenes de Tomografía Computarizada \cite{doi:10.1056/NEJM199303113281008}, y otros).
 	\item Sensoreamiento Remoto \cite{lillesand2014remote},
 
+	\item Imágenes aéreas,
+
+	\item Imágenes astronómicas,
+
+	\item Imágenes biométricas,
+
 	\item Otras.
 	
 \end{itemize}
@@ -20,27 +26,27 @@ Las Meta-Heurísticas tales como la Optimización Mono-Objetivo, y también la O
 \begin{figure}[H]
 \centering
     %\begin{subfigure}[t]{0.45\textwidth}
-    \begin{subfigure}[One line caption]{
-	    \includegraphics[width=0.3\linewidth,
+    \begin{subfigure}[Imagen Original]{
+	    \includegraphics[width=0.4\linewidth,
 	    keepaspectratio]{./Figures/chest.jpg}}
     %\caption{Original Image. $\mathscr{H_Y}=0.207231$, $SSIM_R=1$, $SSIM_G=1$, $SSIM_B=1$}
     \label{fig:casa1original}
     \end{subfigure}
      %add desired spacing between images, e. g. ~, \quad, \qquad, \hfill etc. 
       %(or a blank line to force the subfigure onto a new line)
-    \begin{subfigure}[One line caption]{\includegraphics[width=0.3\linewidth,
-	    keepaspectratio]{./Figures/chest.jpg}}
+    \begin{subfigure}[Imagen con contraste mejorado]{\includegraphics[width=0.4\linewidth,
+	    keepaspectratio]{./Figures/chestclahe1.jpg}}
     %\begin{subfigure}[t]{0.45\textwidth}
     %\caption{Enhanced Image. $\mathscr{H_Y}=0.611275$, $SSIM_R=0.00897331$, $SSIM_G=0.00823064$, $SSIM_B=0.00851013$}
     \label{fig:casa1enhanced1}
     \end{subfigure}
     ~ %add desired spacing between images, e. g. ~, \quad, \qquad, \hfill etc. 
     %(or a blank line to force the subfigure onto a new line)
-    \caption{Imágenes original y resultantes para la imagen de prueba Casa 1}\label{fig:casa1}
+    \caption{Imagen en escala de grises e imagen con contraste mejorado para posterior utilización.}\label{fig:casa1}
     \end{figure}
 
 
-    Ésta propuesta consiste en realizar pruebas con imágenes a color transformadas desde el espacio de colores $RGB$ al espacio de colores $YCbCr$ de manera a realizar la Mejora de Contraste basada en Optimización Multi-Objetivo. Contrast Limited Adaptive Histogram Equalization (CLAHE) se aplica sobre el canal $Y$ de la imagen de prueba, de manera a modificar el contraste, y la imagen resultante se transforma nuevamente a $RGB$ de forma a evaluar la similaridad entre canales de color.
+    Ésta propuesta consiste en realizar pruebas de Mejora del Contraste con imágenes a color transformadas desde el espacio de colores $RGB$ al espacio de colores $YCbCr$ de manera a realizar la Mejora de Contraste basada en Optimización Multi-Objetivo. Contrast Limited Adaptive Histogram Equalization (CLAHE) se aplica sobre el canal $Y$ de la imagen de prueba, de manera a modificar el contraste, y la imagen resultante se transforma nuevamente a $RGB$ de forma a evaluar la Mejora del Contraste lograda, además de la similaridad entre canales de color.
 
 %Our proposal consist in testing images transformed from $RGB$ color space to $YCbCr$ in order to perform MMO-based CE. Contrast Limited Adaptive Histogram Equialization (CLAHE) is applied over the $Y$ channel of the test image in order to modify contrast, and the resultant image is transformed back to $RGB$ in order to evaluate the similarity between color channels.
 
