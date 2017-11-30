@@ -37,20 +37,13 @@
 			}
 		},
 		{
+			"contents": "\\documentclass[msc,pdftex,numbers]{coppe}\n%\\usepackage[brazil,english,spanish]{babel}\n%\\usepackage[none]{hyphenat}\n\\usepackage{hyphenat}\n\\usepackage[english,spanish]{babel} \n\\usepackage[utf8]{inputenc}\n\\usepackage{amsmath,amssymb}\n\\usepackage{mathrsfs}\n\\usepackage[]{amsthm}\n\\usepackage{lmodern}\n\n\\usepackage{subfigure}\n\\usepackage{float}\n\\usepackage{epsfig}\n\\usepackage{epstopdf}\n\\usepackage{placeins} \n\\usepackage{acronym}\n\\usepackage[]{multirow}\n\\usepackage[]{multicol}\n\\usepackage[]{hhline}\n\\usepackage{esvect}\n\n\\usepackage{caption}\n% \\usepackage[boxed]{algorithm2e}\n\\usepackage{algorithm}% http://ctan.org/pkg/algorithms\n\\usepackage{algpseudocode}% http://ctan.org/pkg/algorithmicx\n\\usepackage{subfigure} % subfiguras\n\\usepackage{graphicx}\n\n\\usepackage{tikz}\n\\usetikzlibrary{spy}\n\n\n% \\SetKwInput{KwIn}{Entrada}\n% \\SetKwInput{KwData}{Entrada}\n% \\SetKwInput{KwResult}{Salida}\n% \\SetKwInput{KwOut}{Salida}\n% \\SetKwInput{Return}{retornar}\n% \\SetKwFor{For}{desde}{hacer}{fin\\_desde}\n% \\SetKwFor{While}{mientras}{hacer}{fin\\_mientras}\n% \\SetKwIF{If}{ElseIf}{Else}{si}{entonces}{si\\_no si}{si\\_no}{fin\\_si}\n\n\n% \\usepackage{algorithm}\n% \\usepackage{algpseudocode}\n% \\usepackage{program}\n\n%\\usepackage[usenames]{color}\n%\\definecolor{Micolor1}{RGB}{255,25,0}\n%\\definecolor{Micolor2}{RGB}{0,255,0}\n%\\definecolor{Micolor3}{RGB}{0,0,255}\n\n\\graphicspath{{./structurePlot/}{./experiments/}{./bloques/}{./stagnation/}{./helmke/}{./Figures/}}\n\\DeclareGraphicsExtensions{{.eps}{.jpg}{.JPG}{.png}{.PNG}}\n\n\\makeloabbreviations\n\\makelosymbols\n\n\\begin{document}\n\n\n% \\newcommand{\\myalfnt}[1]{\\small #1}\n% \\SetAlFnt{\\myalfnt}\n\\renewcommand\\contentsname{ÍNDICE GENERAL}\n\\renewcommand\\listfigurename{LISTA DE FIGURAS}\n\\renewcommand\\listtablename{LISTA DE TABLAS}\n\\renewcommand\\bibname{REFERENCIAS BIBLIOGRÁFICAS}\n\\renewcommand\\indexname{LISTA DE SÍMBOLOS}\n\n%\\def\\listsymbolname{LISTA DE SIMBOLOS}\n%\\def\\listsabbreviationname{LISTA DE ABREVIACIONES}\n\n\\renewcommand\\figurename{Figura}\n\\renewcommand\\tablename{Tabla}\n\\renewcommand\\partname{Parte}\n\\renewcommand\\chaptername{Capítulo}\n\\renewcommand\\appendixname{APENDICE}\n\\renewcommand\\abstractname{RESUMEN}\n\\renewcommand\\proofname{Demostración}\n% \\renewcommand\\algorithmname{Algoritmo}\n\n\n% \\SetAlgorithmName{Algoritmo}{algoritmo}{LISTA DE ALGORITMOS} \n  \\title{MEJORA DEL CONTRASTE DE IMÁGENES A COLOR UTILIZANDO UN FRAMEWORK DE OPTIMIZACIÓN MULTIOBJETIVO}\n  \\foreigntitle{CONTRAST ENHANCEMENT OF COLOR IMAGES USING A MULTI-OBJECTIVE OPTIMIZATION FRAMEWORK}\n  \\catalogingtitle{Mejora del contraste de imágenes a color utilizando un framework de optimización multiobjetivo}\n  \\author{Luis Guillermo}{Moré Rodríguez}\n  \\advisor{Prof.}{Diego Pedro}{Pinto Roa, Dr.}{}\n  %\\advisor{Prof.}{José Luis}{Vázquez Noguera, M.Sc.}{}\n\n  \\examiner{ }{ }{ }\n\n\n  \\university{Universidad Nacional de Asunción}\n  \\place{Asunción}{}{Paraguay}\n\n  \\department{PEC}\n  \\date{11}{2017} \n  \\keyword{Mejora de contraste}\n  \\keyword{Optimización Por Ejambre de Partículas}\n  \\keyword{Imágenes a color}  \n  \n\n  \\maketitle\n\n\n  \\frontmatter\n  \\include{dedicatoria}\n  \\include{agradecimientos}\n  \n  \\include{resumen}\n  \\include{abstract}\n  \\tableofcontents\n  \\listoffigures\n  \\listoftables \n  \n  %\\renewcommand\\indexname{LISTA DE S\\'IMBOLOS}\n  %\\printlosymbols\n  %\\renewcommand\\indexname{LISTA DE ABREVIATURAS}\n  %\\printloabbreviations\n  \\include{symbols} \n  \\include{abreviaturas}\n\n  \\mainmatter\n     \n    \\include{chap01}\n    \\include{chap02}\n    \\include{chap03}\n    \\include{chap04}\n    \\include{chap05}  \n  \\backmatter\n %\\bibliographystyle{abbrv}\n  \\bibliographystyle{alpha}\n  \\bibliography{referencias}\n  \n  \\appendix\n    \\include{AnexoA}\n    \\include{AnexoB}\n  \n\\end{document}\n",
 			"file": "thesis.tex",
+			"file_size": 3694,
+			"file_write_time": 131563428788754939,
 			"settings":
 			{
-				"buffer_size": 3880,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "chap02.tex",
-			"settings":
-			{
-				"buffer_size": 39144,
-				"encoding": "UTF-8",
+				"buffer_size": 3677,
 				"line_ending": "Unix"
 			}
 		},
@@ -61,15 +54,6 @@
 				"buffer_size": 8002,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "chap03.tex",
-			"settings":
-			{
-				"buffer_size": 27191,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
 			}
 		},
 		{
@@ -90,47 +74,12 @@
 			}
 		},
 		{
-			"file": "abreviaturas.tex",
+			"contents": "arodriguez@fastrax.com.py\npinza 80\nponchadora 99\npelacable 50\n",
 			"settings":
 			{
-				"buffer_size": 729,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "abstract.tex",
-			"settings":
-			{
-				"buffer_size": 2113,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "resumen.tex",
-			"settings":
-			{
-				"buffer_size": 2346,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "chap05.tex",
-			"settings":
-			{
-				"buffer_size": 11252,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/home/lg_more/MEGAsync/maestria/micai 2017/Lecture Notes in Computer Science (LNCS) - camera ready/paper_micai.tex",
-			"settings":
-			{
-				"buffer_size": 24959,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
+				"buffer_size": 62,
+				"line_ending": "Unix",
+				"name": "arodriguez@fastrax.com.py"
 			}
 		}
 	],
@@ -443,10 +392,16 @@
 	],
 	"file_history":
 	[
+		"/home/lg_more/MEGAsync/maestria/micai 2017/Lecture Notes in Computer Science (LNCS) - camera ready/paper_micai.tex",
+		"/home/lg_more/github/maestria-tesis/libro/chap05.tex",
+		"/home/lg_more/github/maestria-tesis/libro/resumen.tex",
+		"/home/lg_more/github/maestria-tesis/libro/abstract.tex",
+		"/home/lg_more/github/maestria-tesis/libro/abreviaturas.tex",
+		"/home/lg_more/github/maestria-tesis/libro/chap03.tex",
+		"/home/lg_more/github/maestria-tesis/libro/chap02.tex",
 		"/home/lg_more/drivePoli/maestria/tesis/libro/0B_uamuFbOYdWN0otSmptbTFoYkU_FILES/thesis.tex",
 		"/home/lg_more/drivePoli/maestria/tesis/libro/0B_uamuFbOYdWN0otSmptbTFoYkU_FILES/chap03.aux",
 		"/tmp/mozilla_lg_more0/final1-aled3-2017.tex",
-		"/home/lg_more/MEGAsync/maestria/micai 2017/Lecture Notes in Computer Science (LNCS) - camera ready/paper_micai.tex",
 		"/home/lg_more/drivePoli/maestria/tesis/libro/0B_uamuFbOYdWN0otSmptbTFoYkU_FILES/resumen.tex",
 		"/home/lg_more/drivePoli/maestria/tesis/libro/0B_uamuFbOYdWN0otSmptbTFoYkU_FILES/abstract.aux",
 		"/tmp/final1-aled3-2017.tex",
@@ -564,13 +519,7 @@
 		"/home/lg_more/mobile-dev/angular2-todo-app/package.json",
 		"/home/lg_more/mobile-dev/angular2-todo-app/README.md",
 		"/home/lg_more/MEGAsync/maestria/tesis/implementacion-paper/resultados.txt",
-		"/home/lg_more/MEGAsync/maestria/tesis/implementacion-paper/vardecision.txt",
-		"/home/lg_more/MEGAsync/maestria/ccis 2016/banner tesis/refs.bib",
-		"/home/lg_more/MEGAsync/maestria/ccis 2016/banner tesis/conference_poster_6.tex",
-		"/home/lg_more/.cache/.fr-KWskII/PosterTemplate/testbmr.tex",
-		"/home/lg_more/.cache/.fr-ZSQ1Ob/PosterTemplate/PosterExampleA1.tex",
-		"/tmp/PosterTemplate/PosterTemplate/testbmr.tex",
-		"/home/lg_more/MEGAsync/tesisAdrianaMonserrat2/tesisAdrianaMonserrat/paper/repaper/paper_tesis_3.tex"
+		"/home/lg_more/MEGAsync/maestria/tesis/implementacion-paper/vardecision.txt"
 	],
 	"find":
 	{
@@ -616,7 +565,7 @@
 	"groups":
 	[
 		{
-			"selected": 3,
+			"selected": 6,
 			"sheets":
 			[
 				{
@@ -642,10 +591,10 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 1905.0,
+						"translation.y": 1443.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 9,
+					"stack_index": 4,
 					"type": "text"
 				},
 				{
@@ -673,7 +622,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 6,
 					"type": "text"
 				},
 				{
@@ -682,15 +631,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3880,
+						"buffer_size": 3677,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								723,
-								723
+								2886,
+								2886
 							]
 						],
 						"settings":
@@ -698,7 +647,7 @@
 							"WordCount":
 							{
 								"changes": 0,
-								"count": 85,
+								"count": 79,
 								"modified": false,
 								"selection": false,
 								"status": -1,
@@ -709,53 +658,14 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 433.0,
+						"translation.y": 2039.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 3,
 					"type": "text"
 				},
 				{
 					"buffer": 3,
-					"file": "chap02.tex",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 39144,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								341,
-								341
-							]
-						],
-						"settings":
-						{
-							"WordCount":
-							{
-								"changes": 136,
-								"count": 4363,
-								"modified": false,
-								"selection": false,
-								"status": -1,
-								"syntax": "plain text"
-							},
-							"syntax": "Packages/LaTeXing/support/LaTeX.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
 					"file": "referencias.bib",
 					"semi_transient": false,
 					"settings":
@@ -767,55 +677,33 @@
 						"selection":
 						[
 							[
-								2598,
-								2620
+								1734,
+								1745
 							]
 						],
 						"settings":
 						{
+							"WordCount":
+							{
+								"changes": -1,
+								"modified": false,
+								"selection": false,
+								"status": -1,
+								"syntax": "plain text"
+							},
 							"syntax": "Packages/Text/Plain text.tmLanguage",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1700.0,
+						"translation.y": 908.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
-					"buffer": 5,
-					"file": "chap03.tex",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 27191,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								6755,
-								6755
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/LaTeXing/support/LaTeX.tmLanguage",
-							"tab_size": 8,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 2851.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 12,
-					"type": "text"
-				},
-				{
-					"buffer": 6,
+					"buffer": 4,
 					"file": "chap04.tex",
 					"semi_transient": false,
 					"settings":
@@ -827,34 +715,25 @@
 						"selection":
 						[
 							[
-								7006,
-								7006
+								7115,
+								4924
 							]
 						],
 						"settings":
 						{
-							"WordCount":
-							{
-								"changes": 70,
-								"count": 4726,
-								"modified": false,
-								"selection": false,
-								"status": -1,
-								"syntax": "plain text"
-							},
 							"syntax": "Packages/LaTeXing/support/LaTeX.tmLanguage",
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 2743.0,
+						"translation.y": 1885.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 5,
 					"type": "text"
 				},
 				{
-					"buffer": 7,
+					"buffer": 5,
 					"file": "abreviaturas.aux",
 					"semi_transient": false,
 					"settings":
@@ -874,9 +753,10 @@
 						{
 							"WordCount":
 							{
-								"changes": -1,
-								"modified": true,
-								"selection": true,
+								"changes": 0,
+								"count": 2,
+								"modified": false,
+								"selection": false,
 								"status": -1,
 								"syntax": "plain text"
 							},
@@ -886,150 +766,44 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 8,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
-					"buffer": 8,
-					"file": "abreviaturas.tex",
+					"buffer": 6,
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 729,
+						"buffer_size": 62,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								139,
-								139
+								62,
+								62
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/LaTeXing/support/LaTeX.tmLanguage"
+							"WordCount":
+							{
+								"changes": 72,
+								"count": 3,
+								"modified": false,
+								"selection": false,
+								"status": -1,
+								"syntax": "plain text"
+							},
+							"auto_name": "arodriguez@fastrax.com.py",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 7,
-					"type": "text"
-				},
-				{
-					"buffer": 9,
-					"file": "abstract.tex",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2113,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								46,
-								46
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/LaTeXing/support/LaTeX.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 5,
-					"type": "text"
-				},
-				{
-					"buffer": 10,
-					"file": "resumen.tex",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2346,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								39,
-								39
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/LaTeXing/support/LaTeX.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 6,
-					"type": "text"
-				},
-				{
-					"buffer": 11,
-					"file": "chap05.tex",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 11252,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								453,
-								453
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/LaTeXing/support/LaTeX.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 10,
-					"type": "text"
-				},
-				{
-					"buffer": 12,
-					"file": "/home/lg_more/MEGAsync/maestria/micai 2017/Lecture Notes in Computer Science (LNCS) - camera ready/paper_micai.tex",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 24959,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								24886,
-								24886
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/LaTeXing/support/LaTeX.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 12766.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 11,
+					"stack_index": 0,
 					"type": "text"
 				}
 			]

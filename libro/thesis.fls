@@ -347,8 +347,6 @@ INPUT /home/lg_more/github/maestria-tesis/libro/dedicatoria.tex
 INPUT /home/lg_more/github/maestria-tesis/libro/dedicatoria.tex
 INPUT /usr/share/texmf/fonts/tfm/public/lm/rm-lmr17.tfm
 INPUT /usr/share/texmf/fonts/tfm/public/lm/rm-lmbx12.tfm
-INPUT /usr/share/texmf/fonts/tfm/public/lm/rm-lmri12.tfm
-INPUT /usr/share/texmf/fonts/tfm/public/lm/rm-lmbxi10.tfm
 OUTPUT /home/lg_more/github/maestria-tesis/libro/agradecimientos.aux
 INPUT /home/lg_more/github/maestria-tesis/libro/agradecimientos.tex
 INPUT /home/lg_more/github/maestria-tesis/libro/agradecimientos.tex
@@ -361,6 +359,7 @@ INPUT /home/lg_more/github/maestria-tesis/libro/abstract.tex
 INPUT /home/lg_more/github/maestria-tesis/libro/thesis.toc
 INPUT /home/lg_more/github/maestria-tesis/libro/thesis.toc
 INPUT /usr/share/texmf/fonts/tfm/public/lm/rm-lmbx8.tfm
+INPUT /usr/share/texmf/fonts/tfm/public/lm/rm-lmri12.tfm
 OUTPUT /home/lg_more/github/maestria-tesis/libro/thesis.toc
 INPUT /home/lg_more/github/maestria-tesis/libro/thesis.lof
 INPUT /home/lg_more/github/maestria-tesis/libro/thesis.lof
@@ -476,8 +475,8 @@ INPUT /home/lg_more/github/maestria-tesis/libro/AnexoB.aux
 INPUT /home/lg_more/github/maestria-tesis/libro/AnexoB.aux
 INPUT /home/lg_more/github/maestria-tesis/libro/thesis.out
 INPUT /home/lg_more/github/maestria-tesis/libro/thesis.out
-INPUT /usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc
 INPUT /usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc
+INPUT /usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc
 INPUT /usr/share/texmf/fonts/enc/dvips/lm/lm-mathex.enc
 INPUT /usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc
 INPUT /usr/share/texmf/fonts/enc/dvips/lm/lm-rmsc.enc
