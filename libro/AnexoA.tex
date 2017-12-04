@@ -1,9 +1,9 @@
 \chapter*{ANEXO A: Resultados extendidos}
 \label{ch:anexo}
 
-En este capítulo se muestra el detalle numérico de las métricas componentes de $CMOPSO-CLAHE$, además de valores resultantes de las variables de decisión y tiempos de ejecución para las imágenes de prueba, para los resultados no dominados. Los tiempos de ejecución detallados corresponden a \texttt{time())} \cite{time}.
+En este capítulo se muestra el detalle numérico de las métricas componentes de $CMOPSO-CLAHE$. además de valores resultantes de las variables de decisión y tiempos de ejecución para las imágenes de prueba. para los resultados no dominados. Los tiempos de ejecución detallados corresponden a \texttt{time())} \cite{time}.
 
-%Los resultados de este apartado son los promedios de los tiempos de ejecución, de los algoritmos \textit{Histogram Equalization} (HE), \textit{Multiscale Morphological Contrast Enhancement} (MMCE) y el algoritmo propuesto, para las 200 imágenes en escala de grises. Los algoritmos se implementaron con el framewok ImageJ y se hizo ejecutar 5 veces los experimentos. En la Tabla \ref{tabla22} se muestran los promedios de los tiempos de ejecución del algoritmo HE para las imágenes en escala de grises.
+%Los resultados de este apartado son los promedios de los tiempos de ejecución. de los algoritmos \textit{Histogram Equalization} (HE). \textit{Multiscale Morphological Contrast Enhancement} (MMCE) y el algoritmo propuesto. para las 200 imágenes en escala de grises. Los algoritmos se implementaron con el framewok ImageJ y se hizo ejecutar 5 veces los experimentos. En la Tabla \ref{tabla22} se muestran los promedios de los tiempos de ejecución del algoritmo HE para las imágenes en escala de grises.
 
 \section{Imagen de prueba \texttt{calhouse\_230.jpg}}
 
@@ -12,7 +12,7 @@ En este capítulo se muestra el detalle numérico de las métricas componentes d
 % \centering
 %\begin{tabular}
 \hline
-ID & $\mathscr{R}_x$ & $\mathscr{R}_y$ & $\mathscr{C}$ & $f_1(I,\vv{x})$ & $f_2(I,\vv{x})$ & $f_3(I,\vv{x})$ & $f_4(I,\vv{x})$ \\
+ID & $\mathscr{R}_x$ & $\mathscr{R}_y$ & $\mathscr{C}$ & $f_1(I.\vv{x})$ & $f_2(I.\vv{x})$ & $f_3(I.\vv{x})$ & $f_4(I.\vv{x})$ \\
 0 & 23 & 2 & 0.0 & 0.0292377 & 0.425724 & 0.412724 & 0.426577 \\
 1 & 20 & 2 & 0.0 & 0.030087 & 0.42386 & 0.410826 & 0.424771 \\
 2 & 17 & 2 & 0.0 & 0.0318866 & 0.421223 & 0.40784 & 0.422096 \\
@@ -71,7 +71,7 @@ ID & $\mathscr{R}_x$ & $\mathscr{R}_y$ & $\mathscr{C}$ & $f_1(I,\vv{x})$ & $f_2(
 55 & 2 & 2 & 0.00178837395609 & 0.786418 & 0.000323289 & 0.000143135 & 0.000182232 \\
 56 & 2 & 2 & 0.0281221731315 & 0.788927 & 0.000204143 & 5.26475e-05 & 5.18143e-05 \\
 \hline
-\multicolumn{8}{|c|}{\textbf{Tiempos de ejecución:} \texttt{real:70m10.567s,user:207m55.583s,sys:95m37.939s}}\\  \hline
+\multicolumn{8}{|c|}{\textbf{Tiempos de ejecución:} \texttt{real:70m10.567s.user:207m55.583s.sys:95m37.939s}}\\  \hline
 % \end{tabular}
 \caption{Resultados no dominados para la imagen de prueba \texttt{calhouse\_230.jpg}}
 \label{tab:calhouse_230}
@@ -84,48 +84,48 @@ ID & $\mathscr{R}_x$ & $\mathscr{R}_y$ & $\mathscr{C}$ & $f_1(I,\vv{x})$ & $f_2(
     \begin{subfigure}[ID=0]{
     \includegraphics[width=0.45\textwidth]{./Figures/calhouse_230/0-resultado.jpg}
     }
-%        \caption{Imagen Original. $\mathscr{H_Y}=0.207231$, $SSIM_R=1$, $SSIM_G=1$, $SSIM_B=1$}
+%        \caption{Imagen Original. $\mathscr{H_Y}=0.207231$. $SSIM_R=1$. $SSIM_G=1$. $SSIM_B=1$}
 \label{fig:calhouse2300}
 \end{subfigure}
-    ~ %add desired spacing between images, e. g. ~, \quad, \qquad, \hfill etc. 
+    ~ %add desired spacing between images. e. g. ~. \quad. \qquad. \hfill etc. 
       %(or a blank line to force the subfigure onto a new line)
       \begin{subfigure}[DI=1]{
       \includegraphics[width=0.45\textwidth]{./Figures/calhouse_230/1-resultado.jpg}   
       }
     %\begin{subfigure}[t]{0.45\textwidth}
-%        \caption{Enhanced Image. $\mathscr{H_Y}=0.611275$, $SSIM_R=0.00897331$, $SSIM_G=0.00823064$, $SSIM_B=0.00851013$}
+%        \caption{Enhanced Image. $\mathscr{H_Y}=0.611275$. $SSIM_R=0.00897331$. $SSIM_G=0.00823064$. $SSIM_B=0.00851013$}
 \label{fig:calhouse2301}
 \end{subfigure}
-    ~ %add desired spacing between images, e. g. ~, \quad, \qquad, \hfill etc. 
+    ~ %add desired spacing between images. e. g. ~. \quad. \qquad. \hfill etc. 
     %(or a blank line to force the subfigure onto a new line)
     \begin{subfigure}[ID=23]{
     \includegraphics[width=0.45\textwidth]{./Figures/calhouse_230/23-resultado.jpg}
     }
     % \begin{subfigure}[t]{0.45\textwidth}
-%        \caption{Enhanced Image.  $\mathscr{H_Y}=0.0350595$, $SSIM_R=0.416776$, $SSIM_G=0.403636$, $SSIM_B=0.417654$}
+%        \caption{Enhanced Image.  $\mathscr{H_Y}=0.0350595$. $SSIM_R=0.416776$. $SSIM_G=0.403636$. $SSIM_B=0.417654$}
 \label{fig:calhouse23023}
 \end{subfigure} 
 \begin{subfigure}[ID=24]{
 \includegraphics[width=0.45\textwidth]{./Figures/calhouse_230/24-resultado.jpg}
 }
     % \begin{subfigure}[t]{0.45\textwidth}
-        %\caption{Enhanced Image using \cite{morepso}. $\mathscr{H_Y}=0.788927$, $SSIM_R=0.000204143$, $SSIM_G=0.0000526475$, $SSIM_B=0.0000518143$}
+        %\caption{Enhanced Image using \cite{morepso}. $\mathscr{H_Y}=0.788927$. $SSIM_R=0.000204143$. $SSIM_G=0.0000526475$. $SSIM_B=0.0000518143$}
         \label{fig:calhouse23024}
         \end{subfigure}
-    ~ %add desired spacing between images, e. g. ~, \quad, \qquad, \hfill etc. 
+    ~ %add desired spacing between images. e. g. ~. \quad. \qquad. \hfill etc. 
     %(or a blank line to force the subfigure onto a new line)
     \begin{subfigure}[ID=56]{
     \includegraphics[width=0.45\textwidth]{./Figures/calhouse_230/56-resultado.jpg}
     }
     % \begin{subfigure}[t]{0.45\textwidth}
-%        \caption{Enhanced Image.  $\mathscr{H_Y}=0.0350595$, $SSIM_R=0.416776$, $SSIM_G=0.403636$, $SSIM_B=0.417654$}
+%        \caption{Enhanced Image.  $\mathscr{H_Y}=0.0350595$. $SSIM_R=0.416776$. $SSIM_G=0.403636$. $SSIM_B=0.417654$}
 \label{fig:calhouse23056}
 \end{subfigure} 
 \begin{subfigure}[Imagen Original]{
 \includegraphics[width=0.45\textwidth]{./Figures/calhouse_230/calhouse_230.jpg}
 }
     % \begin{subfigure}[t]{0.45\textwidth}
-        %\caption{Enhanced Image using \cite{morepso}. $\mathscr{H_Y}=0.788927$, $SSIM_R=0.000204143$, $SSIM_G=0.0000526475$, $SSIM_B=0.0000518143$}
+        %\caption{Enhanced Image using \cite{morepso}. $\mathscr{H_Y}=0.788927$. $SSIM_R=0.000204143$. $SSIM_G=0.0000526475$. $SSIM_B=0.0000518143$}
         \label{fig:calhouse230orig}
         \end{subfigure}
         \caption{Imágenes visualmente relevantes obtenidas mediante $CMOPSO-CLAHE$. Las variables y decisión y métricas de las imágenes se muestran en la tabla \ref{tab:calhouse_230}.}\label{fig:anexocalhouse230}
@@ -137,7 +137,7 @@ ID & $\mathscr{R}_x$ & $\mathscr{R}_y$ & $\mathscr{C}$ & $f_1(I,\vv{x})$ & $f_2(
         \includegraphics[width=\textwidth]{./Figures/calhouse_230/calhouse_230_2.jpg}
         %}
         %\end{subfigure}
-        \caption{Frente pareto que contrasta los objetivos de las soluciones no dominadas, para los resultados de imágenes que se muestran en la tabla \ref{tab:calhouse_230}.}
+        \caption{Frente pareto que contrasta los objetivos de las soluciones no dominadas. para los resultados de imágenes que se muestran en la tabla \ref{tab:calhouse_230}.}
         \label{fig:calhouse2302fp}
         \end{figure}
 
@@ -150,7 +150,7 @@ ID & $\mathscr{R}_x$ & $\mathscr{R}_y$ & $\mathscr{C}$ & $f_1(I,\vv{x})$ & $f_2(
 % \centering
 %\begin{tabular}
 \hline
-ID & $\mathscr{R}_x$ & $\mathscr{R}_y$ & $\mathscr{C}$ & $f_1(I,\vv{x})$ & $f_2(I,\vv{x})$ & $f_3(I,\vv{x})$ & $f_4(I,\vv{x})$ \\
+ID & $\mathscr{R}_x$ & $\mathscr{R}_y$ & $\mathscr{C}$ & $f_1(I.\vv{x})$ & $f_2(I.\vv{x})$ & $f_3(I.\vv{x})$ & $f_4(I.\vv{x})$ \\
 0 & 18 & 3 & 0 & 0.00900173 & 0.267205 & 0.261971 & 0.266923 \\
 1 & 13 & 2 & 0 & 0.00985956 & 0.259264 & 0.253973 & 0.258887 \\
 2 & 10 & 2 & 0 & 0.00997639 & 0.256986 & 0.251503 & 0.256516 \\
@@ -255,7 +255,7 @@ ID & $\mathscr{R}_x$ & $\mathscr{R}_y$ & $\mathscr{C}$ & $f_1(I,\vv{x})$ & $f_2(
 101 & 3 & 3 & 0.0412250071562 & 0.573604 & 0.000167373 & 0.000136933 & 0.000144334 \\
 102 & 2 & 2 & 0.0213381170565 & 0.573629 & 0.000103816 & 7.68E-05 & 7.86E-05 \\
 \hline
-\multicolumn{8}{|c|}{\textbf{Tiempos de ejecución:} \texttt{real:70m10.567s,user:207m55.583s,sys:95m37.939s}}\\  \hline
+\multicolumn{8}{|c|}{\textbf{Tiempos de ejecución:} \texttt{real:70m26.492s, user:209m3.921s, sys:95m37.357s}}\\  \hline
 % \end{tabular}
 \caption{Resultados no dominados para la imagen de prueba \texttt{calhouse\_231.jpg}}
 \label{tab:calhouse_231}
@@ -268,48 +268,48 @@ ID & $\mathscr{R}_x$ & $\mathscr{R}_y$ & $\mathscr{C}$ & $f_1(I,\vv{x})$ & $f_2(
     \begin{subfigure}[ID=0]{
     \includegraphics[width=0.45\textwidth]{./Figures/calhouse_231/0-resultado.jpg}
     }
-%        \caption{Imagen Original. $\mathscr{H_Y}=0.207231$, $SSIM_R=1$, $SSIM_G=1$, $SSIM_B=1$}
+%        \caption{Imagen Original. $\mathscr{H_Y}=0.207231$. $SSIM_R=1$. $SSIM_G=1$. $SSIM_B=1$}
 \label{fig:calhouse2310}
 \end{subfigure}
-    ~ %add desired spacing between images, e. g. ~, \quad, \qquad, \hfill etc. 
+    ~ %add desired spacing between images. e. g. ~. \quad. \qquad. \hfill etc. 
       %(or a blank line to force the subfigure onto a new line)
       \begin{subfigure}[DI=1]{
       \includegraphics[width=0.45\textwidth]{./Figures/calhouse_231/1-resultado.jpg}   
       }
     %\begin{subfigure}[t]{0.45\textwidth}
-%        \caption{Enhanced Image. $\mathscr{H_Y}=0.611275$, $SSIM_R=0.00897331$, $SSIM_G=0.00823064$, $SSIM_B=0.00851013$}
+%        \caption{Enhanced Image. $\mathscr{H_Y}=0.611275$. $SSIM_R=0.00897331$. $SSIM_G=0.00823064$. $SSIM_B=0.00851013$}
 \label{fig:calhouse2311}
 \end{subfigure}
-    ~ %add desired spacing between images, e. g. ~, \quad, \qquad, \hfill etc. 
+    ~ %add desired spacing between images. e. g. ~. \quad. \qquad. \hfill etc. 
     %(or a blank line to force the subfigure onto a new line)
     \begin{subfigure}[ID=23]{
     \includegraphics[width=0.45\textwidth]{./Figures/calhouse_231/28-resultado.jpg}
     }
     % \begin{subfigure}[t]{0.45\textwidth}
-%        \caption{Enhanced Image.  $\mathscr{H_Y}=0.0350595$, $SSIM_R=0.416776$, $SSIM_G=0.403636$, $SSIM_B=0.417654$}
+%        \caption{Enhanced Image.  $\mathscr{H_Y}=0.0350595$. $SSIM_R=0.416776$. $SSIM_G=0.403636$. $SSIM_B=0.417654$}
 \label{fig:calhouse23128}
 \end{subfigure} 
 \begin{subfigure}[ID=24]{
 \includegraphics[width=0.45\textwidth]{./Figures/calhouse_231/29-resultado.jpg}
 }
     % \begin{subfigure}[t]{0.45\textwidth}
-        %\caption{Enhanced Image using \cite{morepso}. $\mathscr{H_Y}=0.788927$, $SSIM_R=0.000204143$, $SSIM_G=0.0000526475$, $SSIM_B=0.0000518143$}
+        %\caption{Enhanced Image using \cite{morepso}. $\mathscr{H_Y}=0.788927$. $SSIM_R=0.000204143$. $SSIM_G=0.0000526475$. $SSIM_B=0.0000518143$}
         \label{fig:calhouse23129}
         \end{subfigure}
-    ~ %add desired spacing between images, e. g. ~, \quad, \qquad, \hfill etc. 
+    ~ %add desired spacing between images. e. g. ~. \quad. \qquad. \hfill etc. 
     %(or a blank line to force the subfigure onto a new line)
     \begin{subfigure}[ID=56]{
     \includegraphics[width=0.45\textwidth]{./Figures/calhouse_231/102-resultado.jpg}
     }
     % \begin{subfigure}[t]{0.45\textwidth}
-%        \caption{Enhanced Image.  $\mathscr{H_Y}=0.0350595$, $SSIM_R=0.416776$, $SSIM_G=0.403636$, $SSIM_B=0.417654$}
+%        \caption{Enhanced Image.  $\mathscr{H_Y}=0.0350595$. $SSIM_R=0.416776$. $SSIM_G=0.403636$. $SSIM_B=0.417654$}
 \label{fig:calhouse231102}
 \end{subfigure} 
 \begin{subfigure}[Imagen Original]{
 \includegraphics[width=0.45\textwidth]{./Figures/calhouse_231/calhouse_231.jpg}
 }
     % \begin{subfigure}[t]{0.45\textwidth}
-        %\caption{Enhanced Image using \cite{morepso}. $\mathscr{H_Y}=0.788927$, $SSIM_R=0.000204143$, $SSIM_G=0.0000526475$, $SSIM_B=0.0000518143$}
+        %\caption{Enhanced Image using \cite{morepso}. $\mathscr{H_Y}=0.788927$. $SSIM_R=0.000204143$. $SSIM_G=0.0000526475$. $SSIM_B=0.0000518143$}
         \label{fig:calhouse231orig}
         \end{subfigure}
         \caption{Imágenes visualmente relevantes obtenidas mediante $CMOPSO-CLAHE$. Las variables y decisión y métricas de las imágenes se muestran en la tabla \ref{tab:calhouse_231}.}
@@ -322,11 +322,152 @@ ID & $\mathscr{R}_x$ & $\mathscr{R}_y$ & $\mathscr{C}$ & $f_1(I,\vv{x})$ & $f_2(
         \includegraphics[width=\textwidth]{./Figures/calhouse_231/calhouse_231_2.jpg}
         %}
         %\end{subfigure}
-        \caption{Frente pareto que contrasta los objetivos de las soluciones no dominadas, para los resultados de imágenes que se muestran en la tabla \ref{tab:calhouse_231}.}
+        \caption{Frente pareto que contrasta los objetivos de las soluciones no dominadas. para los resultados de imágenes que se muestran en la tabla \ref{tab:calhouse_231}.}
         \label{fig:calhouse2312fp}
         \end{figure}
 
+\section{Imagen de prueba \texttt{calhouse\_233.jpg}}
 
+%calhouse 231
+\scriptsize
+\begin{longtable}{|c|c|c|c|c|c|c|c|}
+% \centering
+%\begin{tabular}
+\hline
+ID & $\mathscr{R}_x$ & $\mathscr{R}_y$ & $\mathscr{C}$ & $f_1(I.\vv{x})$ & $f_2(I.\vv{x})$ & $f_3(I.\vv{x})$ & $f_4(I.\vv{x})$ \\
+0 & 4 & 2 & 0.0605454359216 & 1.08964 & 0.000295689 & 0.000153393 & 0.000162248 \\
+1 & 2 & 3 & 0.0241100460642 & 1.05839 & 0.000302083 & 0.000187229 & 0.00018095 \\
+2 & 3 & 2 & 0.0755634120675 & 1.08786 & 0.000329964 & 0.000184893 & 0.000199624 \\
+3 & 2 & 6 & 0.0362807189867 & 1.03646 & 0.000641662 & 0.000514385 & 0.000524924 \\
+4 & 8 & 3 & 0.103753483353 & 1.03239 & 0.00102858 & 0.000843436 & 0.000877847 \\
+5 & 2 & 3 & 0.166601922869 & 0.993392 & 0.00117745 & 0.00100106 & 0.00102251 \\
+6 & 4 & 3 & 0.197035454701 & 0.972543 & 0.00121931 & 0.00104515 & 0.00106603 \\
+7 & 2 & 3 & 0.232499530296 & 0.95589 & 0.00235641 & 0.002009 & 0.00206351 \\
+8 & 2 & 5 & 0.266574790017 & 0.938972 & 0.00280239 & 0.00262648 & 0.0026463 \\
+9 & 2 & 3 & 0.278743476534 & 0.923925 & 0.00292607 & 0.00257795 & 0.00266449 \\
+10 & 3 & 4 & 0.278646550346 & 0.92028 & 0.00292439 & 0.00261397 & 0.00266665 \\
+11 & 12 & 3 & 0.30091560684 & 0.870766 & 0.00350392 & 0.00310311 & 0.00316902 \\
+12 & 2 & 4 & 0.253592839376 & 0.919652 & 0.00348043 & 0.00316849 & 0.00322916 \\
+13 & 2 & 3 & 0.391124890124 & 0.864988 & 0.00550206 & 0.00480986 & 0.00499557 \\
+14 & 2 & 4 & 0.35510717405 & 0.830931 & 0.00598392 & 0.00560268 & 0.0056997 \\
+15 & 16 & 3 & 0.227910808421 & 0.826457 & 0.00687623 & 0.00604448 & 0.00619402 \\
+16 & 8 & 3 & 0.450962738883 & 0.819552 & 0.00842425 & 0.0076944 & 0.00785632 \\
+17 & 5 & 3 & 0.5 & 0.810249 & 0.00887391 & 0.00800675 & 0.00821064 \\
+18 & 2 & 3 & 0.534064898653 & 0.798087 & 0.0102274 & 0.00910215 & 0.00944354 \\
+19 & 5 & 3 & 0.571647250785 & 0.785827 & 0.011758 & 0.0105297 & 0.010857 \\
+20 & 2 & 4 & 0.506882563198 & 0.778071 & 0.0115198 & 0.0108465 & 0.0110746 \\
+21 & 2 & 3 & 0.609611782643 & 0.763786 & 0.0131498 & 0.0117422 & 0.0121901 \\
+22 & 3 & 4 & 0.590722339759 & 0.770255 & 0.0127545 & 0.0120351 & 0.0122763 \\
+23 & 2 & 4 & 0.592771396022 & 0.759783 & 0.0134854 & 0.0128619 & 0.0130943 \\
+24 & 10 & 3 & 0.569430012343 & 0.753103 & 0.0148294 & 0.0134841 & 0.0137764 \\
+25 & 2 & 3 & 0.654795564549 & 0.758248 & 0.0146595 & 0.013324 & 0.0137805 \\
+26 & 23 & 3 & 0.49018750213 & 0.745152 & 0.0156444 & 0.0140341 & 0.0143124 \\
+27 & 5 & 3 & 0.711411054066 & 0.75186 & 0.0155433 & 0.0142944 & 0.0146168 \\
+28 & 6 & 3 & 0.67594979599 & 0.742439 & 0.016272 & 0.014948 & 0.0152924 \\
+29 & 3 & 3 & 0.697388429306 & 0.740592 & 0.0161852 & 0.0148598 & 0.015301 \\
+30 & 2 & 4 & 0.619064681832 & 0.721047 & 0.0169986 & 0.0162408 & 0.0165372 \\
+31 & 12 & 3 & 0.758015111952 & 0.715111 & 0.0179455 & 0.0167202 & 0.0170063 \\
+32 & 2 & 4 & 0.664983118922 & 0.717893 & 0.018933 & 0.018076 & 0.0184091 \\
+33 & 3 & 3 & 0.835945114263 & 0.715581 & 0.0212394 & 0.0197281 & 0.0202355 \\
+34 & 18 & 4 & 0.235751993872 & 0.71698 & 0.0217524 & 0.0198408 & 0.0203643 \\
+35 & 2 & 4 & 0.71221653662 & 0.697186 & 0.0211379 & 0.0202178 & 0.0205842 \\
+36 & 3 & 3 & 0.841409534625 & 0.694649 & 0.024789 & 0.0230342 & 0.0236651 \\
+37 & 2 & 4 & 0.775805262395 & 0.690287 & 0.0242775 & 0.023289 & 0.0236959 \\
+38 & 6 & 3 & 0.946937444304 & 0.688181 & 0.027246 & 0.025366 & 0.0259008 \\
+39 & 3 & 3 & 0.898145960419 & 0.688406 & 0.027186 & 0.0254119 & 0.0260424 \\
+40 & 8 & 3 & 0.92952634183 & 0.682212 & 0.027619 & 0.026095 & 0.0265493 \\
+41 & 2 & 3 & 0.92681679413 & 0.664923 & 0.0280842 & 0.0260755 & 0.0268696 \\
+42 & 2 & 4 & 0.831514829931 & 0.682197 & 0.0278131 & 0.0267008 & 0.0271825 \\
+43 & 3 & 3 & 1 & 0.662133 & 0.0302244 & 0.0283526 & 0.0290769 \\
+44 & 2 & 3 & 1 & 0.638068 & 0.0319237 & 0.0297923 & 0.0307026 \\
+45 & 44 & 3 & 0.340457573545 & 0.597537 & 0.0430642 & 0.0399363 & 0.0405722 \\
+46 & 41 & 4 & 0.122685175212 & 0.585286 & 0.0791404 & 0.0724312 & 0.0744605 \\
+47 & 2 & 2 & 0 & 0.166749 & 0.35221 & 0.33188 & 0.347256 \\
+48 & 3 & 2 & 0 & 0.162343 & 0.36439 & 0.343949 & 0.35654 \\
+49 & 4 & 2 & 0 & 0.0834117 & 0.383713 & 0.363361 & 0.373847 \\
+50 & 5 & 2 & 0 & 0.0629735 & 0.391495 & 0.37163 & 0.381356 \\
+51 & 11 & 2 & 0 & 0.0619745 & 0.418598 & 0.398414 & 0.406889 \\
+52 & 26 & 2 & 0 & 0.0599365 & 0.437032 & 0.417224 & 0.424583 \\
+53 & 6 & 3 & 0 & 0.0475216 & 0.459573 & 0.445796 & 0.456496 \\
+54 & 9 & 3 & 0 & 0.0462856 & 0.470122 & 0.456474 & 0.466522 \\
+55 & 11 & 3 & 0 & 0.0443048 & 0.475939 & 0.462247 & 0.471704 \\
+56 & 2 & 6 & 0 & 0.0455046 & 0.470176 & 0.461747 & 0.47771 \\
+57 & 2 & 7 & 0 & 0.0444002 & 0.493213 & 0.484229 & 0.499757 \\
+58 & 2 & 9 & 0 & 0.0408697 & 0.499463 & 0.490757 & 0.507241 \\
+59 & 2 & 10 & 0 & 0.0359039 & 0.511722 & 0.502448 & 0.518851 \\
+60 & 2 & 2 & 0.00447401966895 & 1.09149 & 0.000183402 & 7.05E-05 & 6.21E-05 \\
+\hline
+\multicolumn{8}{|c|}{\textbf{Tiempos de ejecución:} \texttt{real:67m22.885s,user:207m13.352s,sys:94m57.439s
+}}\\  \hline
+% \end{tabular}
+\caption{Resultados no dominados para la imagen de prueba \texttt{calhouse\_233.jpg}}
+\label{tab:calhouse_233}
+\end{longtable}
+\normalsize
+
+\begin{figure}[H]
+\centering
+    %\begin{subfigure}[t]{0.45\textwidth}
+    \begin{subfigure}[ID=0]{
+    \includegraphics[width=0.45\textwidth]{./Figures/calhouse_233/6-resultado.jpg}
+    }
+%        \caption{Imagen Original. $\mathscr{H_Y}=0.207231$. $SSIM_R=1$. $SSIM_G=1$. $SSIM_B=1$}
+\label{fig:calhouse2310}
+\end{subfigure}
+    ~ %add desired spacing between images. e. g. ~. \quad. \qquad. \hfill etc. 
+      %(or a blank line to force the subfigure onto a new line)
+      \begin{subfigure}[DI=1]{
+      \includegraphics[width=0.45\textwidth]{./Figures/calhouse_233/7-resultado.jpg}   
+      }
+    %\begin{subfigure}[t]{0.45\textwidth}
+%        \caption{Enhanced Image. $\mathscr{H_Y}=0.611275$. $SSIM_R=0.00897331$. $SSIM_G=0.00823064$. $SSIM_B=0.00851013$}
+\label{fig:calhouse2311}
+\end{subfigure}
+    ~ %add desired spacing between images. e. g. ~. \quad. \qquad. \hfill etc. 
+    %(or a blank line to force the subfigure onto a new line)
+    \begin{subfigure}[ID=23]{
+    \includegraphics[width=0.45\textwidth]{./Figures/calhouse_233/46-resultado.jpg}
+    }
+    % \begin{subfigure}[t]{0.45\textwidth}
+%        \caption{Enhanced Image.  $\mathscr{H_Y}=0.0350595$. $SSIM_R=0.416776$. $SSIM_G=0.403636$. $SSIM_B=0.417654$}
+\label{fig:calhouse23128}
+\end{subfigure} 
+\begin{subfigure}[ID=24]{
+\includegraphics[width=0.45\textwidth]{./Figures/calhouse_233/47-resultado.jpg}
+}
+    % \begin{subfigure}[t]{0.45\textwidth}
+        %\caption{Enhanced Image using \cite{morepso}. $\mathscr{H_Y}=0.788927$. $SSIM_R=0.000204143$. $SSIM_G=0.0000526475$. $SSIM_B=0.0000518143$}
+        \label{fig:calhouse23129}
+        \end{subfigure}
+    ~ %add desired spacing between images. e. g. ~. \quad. \qquad. \hfill etc. 
+    %(or a blank line to force the subfigure onto a new line)
+    \begin{subfigure}[ID=56]{
+    \includegraphics[width=0.45\textwidth]{./Figures/calhouse_233/60-resultado.jpg}
+    }
+    % \begin{subfigure}[t]{0.45\textwidth}
+%        \caption{Enhanced Image.  $\mathscr{H_Y}=0.0350595$. $SSIM_R=0.416776$. $SSIM_G=0.403636$. $SSIM_B=0.417654$}
+\label{fig:calhouse231102}
+\end{subfigure} 
+\begin{subfigure}[Imagen Original]{
+\includegraphics[width=0.45\textwidth]{./Figures/calhouse_233/calhouse_233.jpg}
+}
+    % \begin{subfigure}[t]{0.45\textwidth}
+        %\caption{Enhanced Image using \cite{morepso}. $\mathscr{H_Y}=0.788927$. $SSIM_R=0.000204143$. $SSIM_G=0.0000526475$. $SSIM_B=0.0000518143$}
+        \label{fig:calhouse231orig}
+        \end{subfigure}
+        \caption{Imágenes visualmente relevantes obtenidas mediante $CMOPSO-CLAHE$. Las variables y decisión y métricas de las imágenes se muestran en la tabla \ref{tab:calhouse_233}.}
+        \label{fig:anexocalhouse230}
+        \end{figure}
+
+        \begin{figure}[H]
+        \centering
+        %\begin{subfigure}[Gráfica de Frente Pareto para las soluciones no dominadas de \texttt{calhouse_231.jpg}]{
+        \includegraphics[width=\textwidth]{./Figures/calhouse_233/calhouse_233_2.jpg}
+        %}
+        %\end{subfigure}
+        \caption{Frente pareto que contrasta los objetivos de las soluciones no dominadas. para los resultados de imágenes que se muestran en la tabla \ref{tab:calhouse_233}.}
+        \label{fig:calhouse2312fp}
+        \end{figure}
 
 % \begin{table}[H]
 % \centering
@@ -335,11 +476,11 @@ ID & $\mathscr{R}_x$ & $\mathscr{R}_y$ & $\mathscr{C}$ & $f_1(I,\vv{x})$ & $f_2(
 % \begin{tabular}{|c|c|}
 % \hline
 % \begin{tabular}[c]{@{}c@{}}Nº de \\ ejecución\end{tabular} & \begin{tabular}[c]{@{}c@{}}t\\ (ms)\end{tabular} \\ \hline
-% 1                                                          & 1,145                                            \\
-% 2                                                          & 0,945                                            \\
-% 3                                                          & 0,97                                             \\
-% 4                                                          & 0,925                                            \\
-% 5                                                          & 0,95                                             \\ \hline
+% 1                                                          & 1.145                                            \\
+% 2                                                          & 0.945                                            \\
+% 3                                                          & 0.97                                             \\
+% 4                                                          & 0.925                                            \\
+% 5                                                          & 0.95                                             \\ \hline
 % Promedio                                                   & \textbf{0.987}                                   \\ \hline
 % \end{tabular}
 % \end{table}
@@ -357,13 +498,13 @@ ID & $\mathscr{R}_x$ & $\mathscr{R}_y$ & $\mathscr{C}$ & $f_1(I,\vv{x})$ & $f_2(
 % 		\hline
 % 		\multirow{2}{*}{Iter. (n)} & \multicolumn{5}{c|}{Nº de ejeciciones para el algoritmo MMCE} & \multirow{2}{*}{\begin{tabular}[c]{@{}c@{}}Promedios\\ t(ms)\end{tabular}} \\ \cline{2-6}
 % 		& 1           & 2          & 3         & 4         & 5          &                                                                            \\ \hline
-% 		1                          & 64,265      & 62,625     & 61,61     & 62,285    & 62,295     & \textbf{62,616}                                                            \\
-% 		2                          & 165,805     & 171,24     & 169,655   & 170,515   & 170,295    & \textbf{169,502}                                                           \\
-% 		3                          & 327,975     & 334,19     & 334,75    & 332,045   & 333,275    & \textbf{332,447}                                                           \\
-% 		4                          & 564,035     & 574,15     & 571,185   & 573,45    & 568,735    & \textbf{570,311}                                                           \\
-% 		5                          & 975,845     & 972,035    & 979,205   & 968,975   & 986,805    & \textbf{976,573}                                                           \\
-% 		6                          & 1454,415    & 1471,145   & 1449,78   & 1452,97   & 1463,74    & \textbf{1458,41}                                                           \\
-% 		7                          & 2037,11     & 2032,775   & 2041,54   & 2029,07   & 2038,735   & \textbf{2035,846}                                                          \\ \hline
+% 		1                          & 64.265      & 62.625     & 61.61     & 62.285    & 62.295     & \textbf{62.616}                                                            \\
+% 		2                          & 165.805     & 171.24     & 169.655   & 170.515   & 170.295    & \textbf{169.502}                                                           \\
+% 		3                          & 327.975     & 334.19     & 334.75    & 332.045   & 333.275    & \textbf{332.447}                                                           \\
+% 		4                          & 564.035     & 574.15     & 571.185   & 573.45    & 568.735    & \textbf{570.311}                                                           \\
+% 		5                          & 975.845     & 972.035    & 979.205   & 968.975   & 986.805    & \textbf{976.573}                                                           \\
+% 		6                          & 1454.415    & 1471.145   & 1449.78   & 1452.97   & 1463.74    & \textbf{1458.41}                                                           \\
+% 		7                          & 2037.11     & 2032.775   & 2041.54   & 2029.07   & 2038.735   & \textbf{2035.846}                                                          \\ \hline
 % 	\end{tabular}
 % \end{table}
 
@@ -380,13 +521,13 @@ ID & $\mathscr{R}_x$ & $\mathscr{R}_y$ & $\mathscr{C}$ & $f_1(I,\vv{x})$ & $f_2(
 % 		\hline
 % 		\multirow{2}{*}{Iter. (n)} & \multicolumn{5}{c|}{Nº de ejeciciones para el algoritmo propuesto} & \multirow{2}{*}{\begin{tabular}[c]{@{}c@{}}Promedios \\ t(ms)\end{tabular}} \\ \cline{2-6}
 % 		& 1            & 2           & 3           & 4          & 5          &                                                                             \\ \hline
-% 		1                          & 62,105       & 63,055      & 61,99       & 62,445     & 62,955     & 62,51                                                                       \\
-% 		2                          & 166,74       & 169,645     & 168,34      & 168,435    & 169,34     & 168,5                                                                       \\
-% 		3                          & 327,175      & 332,58      & 331,765     & 332,755    & 331,52     & 331,159                                                                     \\
-% 		4                          & 565,245      & 576,84      & 574,47      & 573,6      & 572,15     & 572,461                                                                     \\
-% 		5                          & 976,57       & 973,22      & 968,35      & 970,245    & 975,26     & 972,729                                                                     \\
-% 		6                          & 1463,175     & 1474,82     & 1458,765    & 1459,83    & 1470,06    & 1465,33                                                                     \\
-% 		7                          & 2047,435     & 2040,82     & 2041,915    & 2039,95    & 2044,16    & 2042,856                                                                    \\ \hline
+% 		1                          & 62.105       & 63.055      & 61.99       & 62.445     & 62.955     & 62.51                                                                       \\
+% 		2                          & 166.74       & 169.645     & 168.34      & 168.435    & 169.34     & 168.5                                                                       \\
+% 		3                          & 327.175      & 332.58      & 331.765     & 332.755    & 331.52     & 331.159                                                                     \\
+% 		4                          & 565.245      & 576.84      & 574.47      & 573.6      & 572.15     & 572.461                                                                     \\
+% 		5                          & 976.57       & 973.22      & 968.35      & 970.245    & 975.26     & 972.729                                                                     \\
+% 		6                          & 1463.175     & 1474.82     & 1458.765    & 1459.83    & 1470.06    & 1465.33                                                                     \\
+% 		7                          & 2047.435     & 2040.82     & 2041.915    & 2039.95    & 2044.16    & 2042.856                                                                    \\ \hline
 % 	\end{tabular}
 % \end{table}
 
