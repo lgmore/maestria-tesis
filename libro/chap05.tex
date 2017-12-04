@@ -1,9 +1,19 @@
 \chapter{CONCLUSIONES Y TRABAJOS\\ FUTUROS}
 \label{sec:conclusion}
 
-Se presentó un enfoque de Mejora de Contraste Basada en Optimización Multi-objetivo, el cual toma en cuenta la intensidad y la información de color como métricas Multi-Objetivo. Éste enfoque logra un grupo de imágenes resultantes, con diferentes nivees de compromiso entre contraste y similaridad estructural, de manera a maximizar la información disponible para el análisis posterior.
+Se presentó un enfoque de Mejora de Contraste Basada en Optimización Multi-objetivo, el cual toma en cuenta la intensidad y la información de color como métricas Multi-Objetivo. Éste enfoque logra un grupo de imágenes resultantes, con diferentes niveles de compromiso entre contraste y similaridad estructural, de manera a maximizar la información disponible para el análisis posterior.
 
-Los autores aún realizan pruebas con imágenes similares encontradas en la base de datos. Como trabajos futuros, sería útil analizar los parámetros utilizados por las metaheurísticas, el uso de métricas no marginales para evaluar las imágenes resultantes obtenidas mediante éste enfoque; y además realizar pruebas planteando la Mejora de contraste de imágenes a color como un problema de optimización bi-objetivo.
+Se realizó una comparación de la propuesta con una implementación Mono-Objetivo similar del estado del arte, basado solamente en la optimización del canal de intensidades de la imagen, como si se tratara de una imagen en escala de grises. Se puede verificar que el enfoque Mono-Objetivo es insuficiente debido a que no provee información adecuada para obtener variables de decisión útiles para la Mejora del Contraste en Imágenes a Color.
+
+Se demostró de manera satisfactoria la factibilidad del enfoque, con vistas a obtener variables de decisión adecuadas para la Mejora del Contraste de imágenes a color. Futuros experimentos podrían demostrar que las variables de decisión obtenidas son adecuadas para la mejora del contraste en imágenes de cierta categoría, además de encontrar aproximaciones de tiempo de entrenamiento más eficientes.
+
+Los principales aportes encontrados en este trabajo de Maestría pueden resumirse en lo siguiente:
+
+\begin{itemize}
+	\item Se demostró la factibilidad de la aplicación de Metaheurísticas para la obtención de variables de decisión adecuadas para la Mejora del Contraste de Imágenes a Color que permitan contrastar imágenes con distintos niveles de compromiso entre contraste y distorsión por introducción de ruido,
+
+	\item Se muestra una forma de cambiar el enfoque de la metaheurística de manera a reducir la cantidad de objetivos utilizados sin comprometer los resultados de los entrenamientos de Mejora del Contraste.
+\end{itemize}
 
 % A Multi-Objective approach for Contrast Enhancement of color images is presented, which takes into account intensity and color information as Multi-Objective metrics. This approach achieves several resultant images, with different compromise rates between contrast and structural-similarity, in order to maximize information available for further analysis.
 
@@ -53,6 +63,23 @@ Los autores aún realizan pruebas con imágenes similares encontradas en la base
 %El algoritmo propuesto fue comparado con otros algoritmos que mejoran el contraste de las imágenes los cuales fueron el \textit{Histogram Equalization} (HE), \textit{Contrast-Limited Adaptive Histogram Equalization} (CLAHE) y MMCE. Los resultados numéricos fueron evaluados con métricas que miden la mejora del contraste local y global, tanto para imágenes en escala de grises como para imágenes en color. La medición de la mejora en imágenes en escala de grises se realizó utilizando las métricas \textit{Contrast} (C) y \textit{Contrast Improvement Ratio} (CIR). Los algoritmos propuesto y multiescala mejoran el 100\% de las imágenes en escala de grises. La medición de la mejora de las imágenes en color se realizó utilizando las métricas \textit{Color Enhancement Factor} (CEF) y \textit{Contrast Improvement Ratio} (CIR). El algoritmo propuesto mejoró un 100\% la imágenes en color a partir de la 4ta iteración teniendo en cuenta el método de ordenamiento lexicográfico $V\longrightarrow H\longrightarrow S$ del espacio de color HSV. Los tiempos de ejecución de los algoritmos propuesto y MMCE son similares, pero el algoritmo propuesto consigue relsultados en la 3ra o 4ta iteración lo que el algoritmo MMCE obtiene en la 7ma iteración. La propuesta obtiene mejoras en las imágenes en escala de grises e imágenes en color y es una buena alternativa para realizar mejoras a imágenes con bajo contraste, tanto para imágenes en escala de grises como para imágenes en color.
 
 \section{Trabajos futuros}
+
+Los trabajos futuros considerados a partir de los resultados obtenidos se detallan a continuación. 
+
+\begin{itemize}
+	\item Utilizar métricas más adecuadas para la Mejora del Contraste, considerando que se tienen en cuenta imágenes a color,
+
+	\item Considerar experimentos utilizando solamente dos objetivos basados en el canal de luminancia de la imagen a color, considerando algún canal que separe la información de intensidad de la información de color de la imagen,
+
+	\item Considerar experimentos con Metaheurísticas diferentes y métricas diferentes, de manera a realizar comparaciones con la finalidad de alcanzar una posible generalización del trabajo de Mejora de Contraste basada en Metaheurísticas,
+
+	\item Considerar restricciones de tiempo, cantidad de resultados no dominados, e inclusive considerar información de soluciones no dominadas entre corridas, de manera a buscar mejorar la eficiencia de tiempo y recursos de los enfoques de Mejora del Contraste basados en Metaheurísticas,
+
+	\item Realizar experimentos relacionados a implementaciones de Metaheurísticas Robustas para la Mejoras de Contraste para imágenes a color,
+
+	\item Considerar otras categorías de imágenes para realizar experimentos, además de buscar enfoques adecuados para imágenes de tamaño relativamente grande.
+
+\end{itemize}
 
 % Con base en los resultados obtenidos, se presentan a continuación algunos trabajos futuros que han sido identificados.
 

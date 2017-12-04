@@ -11,3 +11,5 @@
 \contentsline {figure}{\numberline {4.2}{\ignorespaces Im\IeC {\'a}genes original y resultantes para la imagen de prueba Casa 1\relax }}{13}{figure.caption.11}
 \contentsline {figure}{\numberline {4.3}{\ignorespaces Frente Pareto dibujado utilizando datos de la Tabla \ref {table:nodominadas} \relax }}{14}{figure.caption.13}
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {1}{\ignorespaces Im\IeC {\'a}genes visualmente relevantes obtenidas mediante $CMOPSO-CLAHE$. Las variables y decisi\IeC {\'o}n y m\IeC {\'e}tricas de las im\IeC {\'a}genes se muestran en la tabla \ref {tab:calhouse_230}.\relax }}{22}{figure.caption.17}
+\contentsline {figure}{\numberline {2}{\ignorespaces Im\IeC {\'a}genes visualmente relevantes obtenidas mediante $CMOPSO-CLAHE$. Las variables y decisi\IeC {\'o}n y m\IeC {\'e}tricas de las im\IeC {\'a}genes se muestran en la tabla \ref {tab:calhouse_230}.\relax }}{24}{figure.caption.18}

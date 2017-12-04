@@ -1,13 +1,13 @@
 # Fdb version 3
-["pdflatex"] 1511701120 "/home/lg_more/github/maestria-tesis/libro/chap05.tex" "/home/lg_more/github/maestria-tesis/libro/chap05.pdf" "chap05" 1511701120
+["pdflatex"] 1512344383 "/home/lg_more/github/maestria-tesis/libro/chap05.tex" "/home/lg_more/github/maestria-tesis/libro/chap05.pdf" "chap05" 1512344384
   "/etc/texmf/web2c/texmf.cnf" 1509726437 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/lg_more/github/maestria-tesis/libro/chap05.aux" 1511639350 1441 eedfbf0e85a940f87b0721eb192d581b ""
-  "/home/lg_more/github/maestria-tesis/libro/chap05.tex" 1511701118 11530 a38c800ac19fa1e9e5a46bab80e33793 ""
+  "/home/lg_more/github/maestria-tesis/libro/chap05.aux" 1512341271 1469 58d6bc1100af0cff2a476e197cdf38f6 ""
+  "/home/lg_more/github/maestria-tesis/libro/chap05.tex" 1512344377 12033 4e666a221d147d93c26e1a6cb4c48107 ""
   "/usr/share/texlive/texmf-dist/web2c/texmf.cnf" 1503024366 32036 8f10cb8f6ef259fb5791f09c065d3d13 ""
   "/usr/share/texmf/web2c/texmf.cnf" 1503024366 32036 8f10cb8f6ef259fb5791f09c065d3d13 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1509726542 4128531 d055619ebcb377dd89772fe63b36c1da ""
-  "chap05.tex" 1511701118 11530 a38c800ac19fa1e9e5a46bab80e33793 ""
+  "chap05.tex" 1512344377 12033 4e666a221d147d93c26e1a6cb4c48107 ""
   (generated)
   "chap05.log"
-  "/home/lg_more/github/maestria-tesis/libro/chap05.log"
   "/home/lg_more/github/maestria-tesis/libro/chap05.pdf"
+  "/home/lg_more/github/maestria-tesis/libro/chap05.log"

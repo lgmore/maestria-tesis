@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2017.11.3)  30 NOV 2017 18:23
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2017.11.3)  3 DEC 2017 21:16
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -844,17 +844,34 @@ Document Style algorithmicx 1.2 - a greatly improved `algorithmic' style
 \ALG@tmplength=\skip80
 )
 Document Style - pseudocode environments for use with the `algorithmicx' style
+) (/usr/share/texlive/texmf-dist/tex/latex/tools/longtable.sty
+Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)
+\LTleft=\skip81
+\LTright=\skip82
+\LTpre=\skip83
+\LTpost=\skip84
+\LTchunksize=\count146
+\LTcapwidth=\dimen161
+\LT@head=\box59
+\LT@firsthead=\box60
+\LT@foot=\box61
+\LT@lastfoot=\box62
+\LT@cols=\count147
+\LT@rows=\count148
+\c@LT@tables=\count149
+\c@LT@chunks=\count150
+\LT@p@ftn=\toks38
 ) (/usr/share/texlive/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty (/usr/sha
 re/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty (/usr/share/texlive/texm
 f-dist/tex/latex/pgf/utilities/pgfrcs.sty (/usr/share/texlive/texmf-dist/tex/ge
 neric/pgf/utilities/pgfutil-common.tex
-\pgfutil@everybye=\toks38
-\pgfutil@tempdima=\dimen161
-\pgfutil@tempdimb=\dimen162
+\pgfutil@everybye=\toks39
+\pgfutil@tempdima=\dimen162
+\pgfutil@tempdimb=\dimen163
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-lists.t
 ex)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
-\pgfutil@abb=\box59
+\pgfutil@abb=\box63
 (/usr/share/texlive/texmf-dist/tex/latex/ms/everyshi.sty
 Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
 )) (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex
@@ -866,30 +883,30 @@ Package: pgf 2015/08/07 v3.0.1a (rcs-revision 1.15)
 xmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
 Package: pgfsys 2014/07/09 v3.0.1a (rcs-revision 1.48)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
-\pgfkeys@pathtoks=\toks39
-\pgfkeys@temptoks=\toks40
+\pgfkeys@pathtoks=\toks40
+\pgfkeys@temptoks=\toks41
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.code.t
 ex
-\pgfkeys@tmptoks=\toks41
+\pgfkeys@tmptoks=\toks42
 ))
-\pgf@x=\dimen163
-\pgf@y=\dimen164
-\pgf@xa=\dimen165
-\pgf@ya=\dimen166
-\pgf@xb=\dimen167
-\pgf@yb=\dimen168
-\pgf@xc=\dimen169
-\pgf@yc=\dimen170
+\pgf@x=\dimen164
+\pgf@y=\dimen165
+\pgf@xa=\dimen166
+\pgf@ya=\dimen167
+\pgf@xb=\dimen168
+\pgf@yb=\dimen169
+\pgf@xc=\dimen170
+\pgf@yc=\dimen171
 \w@pgf@writea=\write4
 \r@pgf@reada=\read1
-\c@pgf@counta=\count146
-\c@pgf@countb=\count147
-\c@pgf@countc=\count148
-\c@pgf@countd=\count149
-\t@pgf@toka=\toks42
-\t@pgf@tokb=\toks43
-\t@pgf@tokc=\toks44
+\c@pgf@counta=\count151
+\c@pgf@countb=\count152
+\c@pgf@countc=\count153
+\c@pgf@countd=\count154
+\t@pgf@toka=\toks43
+\t@pgf@tokb=\toks44
+\t@pgf@tokc=\toks45
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
 File: pgf.cfg 2008/05/14  (rcs-revision 1.7)
 )
@@ -904,8 +921,8 @@ File: pgfsys-common-pdf.def 2013/10/10  (rcs-revision 1.13)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.
 tex
 File: pgfsyssoftpath.code.tex 2013/09/09  (rcs-revision 1.9)
-\pgfsyssoftpath@smallbuffer@items=\count150
-\pgfsyssoftpath@bigbuffer@items=\count151
+\pgfsyssoftpath@smallbuffer@items=\count155
+\pgfsyssoftpath@bigbuffer@items=\count156
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.
 tex
@@ -931,12 +948,12 @@ Package: pgfcore 2010/04/11 v3.0.1a (rcs-revision 1.7)
 e/texlive/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex (/usr/share/texl
 ive/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex) (/usr/share/texlive/t
 exmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
-\pgfmath@dimen=\dimen171
-\pgfmath@count=\count152
-\pgfmath@box=\box60
-\pgfmath@toks=\toks45
-\pgfmath@stack@operand=\toks46
-\pgfmath@stack@operation=\toks47
+\pgfmath@dimen=\dimen172
+\pgfmath@count=\count157
+\pgfmath@box=\box64
+\pgfmath@toks=\toks46
+\pgfmath@stack@operand=\toks47
+\pgfmath@stack@operation=\toks48
 ) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code
@@ -956,57 +973,57 @@ tex)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerari
 thmetics.code.tex))) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmat
 hfloat.code.tex
-\c@pgfmathroundto@lastzeros=\count153
+\c@pgfmathroundto@lastzeros=\count158
 ))
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.te
 x
 File: pgfcorepoints.code.tex 2013/10/07  (rcs-revision 1.27)
-\pgf@picminx=\dimen172
-\pgf@picmaxx=\dimen173
-\pgf@picminy=\dimen174
-\pgf@picmaxy=\dimen175
-\pgf@pathminx=\dimen176
-\pgf@pathmaxx=\dimen177
-\pgf@pathminy=\dimen178
-\pgf@pathmaxy=\dimen179
-\pgf@xx=\dimen180
-\pgf@xy=\dimen181
-\pgf@yx=\dimen182
-\pgf@yy=\dimen183
-\pgf@zx=\dimen184
-\pgf@zy=\dimen185
+\pgf@picminx=\dimen173
+\pgf@picmaxx=\dimen174
+\pgf@picminy=\dimen175
+\pgf@picmaxy=\dimen176
+\pgf@pathminx=\dimen177
+\pgf@pathmaxx=\dimen178
+\pgf@pathminy=\dimen179
+\pgf@pathmaxy=\dimen180
+\pgf@xx=\dimen181
+\pgf@xy=\dimen182
+\pgf@yx=\dimen183
+\pgf@yy=\dimen184
+\pgf@zx=\dimen185
+\pgf@zy=\dimen186
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.
 code.tex
 File: pgfcorepathconstruct.code.tex 2013/10/07  (rcs-revision 1.29)
-\pgf@path@lastx=\dimen186
-\pgf@path@lasty=\dimen187
+\pgf@path@lastx=\dimen187
+\pgf@path@lasty=\dimen188
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code
 .tex
 File: pgfcorepathusage.code.tex 2014/11/02  (rcs-revision 1.24)
-\pgf@shorten@end@additional=\dimen188
-\pgf@shorten@start@additional=\dimen189
+\pgf@shorten@end@additional=\dimen189
+\pgf@shorten@start@additional=\dimen190
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.te
 x
 File: pgfcorescopes.code.tex 2015/05/08  (rcs-revision 1.46)
-\pgfpic=\box61
-\pgf@hbox=\box62
-\pgf@layerbox@main=\box63
-\pgf@picture@serial@count=\count154
+\pgfpic=\box65
+\pgf@hbox=\box66
+\pgf@layerbox@main=\box67
+\pgf@picture@serial@count=\count159
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.c
 ode.tex
 File: pgfcoregraphicstate.code.tex 2014/11/02  (rcs-revision 1.12)
-\pgflinewidth=\dimen190
+\pgflinewidth=\dimen191
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformation
 s.code.tex
 File: pgfcoretransformations.code.tex 2015/08/07  (rcs-revision 1.20)
-\pgf@pt@x=\dimen191
-\pgf@pt@y=\dimen192
-\pgf@pt@temp=\dimen193
+\pgf@pt@x=\dimen192
+\pgf@pt@y=\dimen193
+\pgf@pt@temp=\dimen194
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
 File: pgfcorequick.code.tex 2008/10/09  (rcs-revision 1.3)
@@ -1022,12 +1039,12 @@ File: pgfcorepathprocessing.code.tex 2013/09/09  (rcs-revision 1.9)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.te
 x
 File: pgfcorearrows.code.tex 2015/05/14  (rcs-revision 1.43)
-\pgfarrowsep=\dimen194
+\pgfarrowsep=\dimen195
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
 File: pgfcoreshade.code.tex 2013/07/15  (rcs-revision 1.15)
-\pgf@max=\dimen195
-\pgf@sys@shading@range@num=\count155
+\pgf@max=\dimen196
+\pgf@sys@shading@range@num=\count160
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
 File: pgfcoreimage.code.tex 2013/07/15  (rcs-revision 1.18)
@@ -1035,7 +1052,7 @@ File: pgfcoreimage.code.tex 2013/07/15  (rcs-revision 1.18)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.
 tex
 File: pgfcoreexternal.code.tex 2014/07/09  (rcs-revision 1.21)
-\pgfexternal@startupbox=\box64
+\pgfexternal@startupbox=\box68
 ))
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.code.te
 x
@@ -1051,15 +1068,15 @@ File: pgfcorepatterns.code.tex 2013/11/07  (rcs-revision 1.5)
 )))
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
 File: pgfmoduleshapes.code.tex 2014/03/21  (rcs-revision 1.35)
-\pgfnodeparttextbox=\box65
+\pgfnodeparttextbox=\box69
 ) (/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex
 File: pgfmoduleplot.code.tex 2015/08/03  (rcs-revision 1.13)
 )
 (/usr/share/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65
 .sty
 Package: pgfcomp-version-0-65 2007/07/03 v3.0.1a (rcs-revision 1.7)
-\pgf@nodesepstart=\dimen196
-\pgf@nodesepend=\dimen197
+\pgf@nodesepstart=\dimen197
+\pgf@nodesepend=\dimen198
 )
 (/usr/share/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18
 .sty
@@ -1072,10 +1089,10 @@ xmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex)) (/usr/share/texlive/texmf
 lities/pgffor.code.tex
 Package: pgffor 2013/12/13 v3.0.1a (rcs-revision 1.25)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
-\pgffor@iter=\dimen198
-\pgffor@skip=\dimen199
-\pgffor@stack=\toks48
-\pgffor@toks=\toks49
+\pgffor@iter=\dimen199
+\pgffor@skip=\dimen256
+\pgffor@stack=\toks49
+\pgffor@toks=\toks50
 ))
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
 Package: tikz 2015/08/07 v3.0.1a (rcs-revision 1.151)
@@ -1083,31 +1100,31 @@ Package: tikz 2015/08/07 v3.0.1a (rcs-revision 1.151)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers
 .code.tex
 File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.1a (rcs-revision 1.20)
-\pgf@plot@mark@count=\count156
-\pgfplotmarksize=\dimen256
+\pgf@plot@mark@count=\count161
+\pgfplotmarksize=\dimen257
 )
-\tikz@lastx=\dimen257
-\tikz@lasty=\dimen258
-\tikz@lastxsaved=\dimen259
-\tikz@lastysaved=\dimen260
-\tikzleveldistance=\dimen261
-\tikzsiblingdistance=\dimen262
-\tikz@figbox=\box66
-\tikz@figbox@bg=\box67
-\tikz@tempbox=\box68
-\tikz@tempbox@bg=\box69
-\tikztreelevel=\count157
-\tikznumberofchildren=\count158
-\tikznumberofcurrentchild=\count159
-\tikz@fig@count=\count160
+\tikz@lastx=\dimen258
+\tikz@lasty=\dimen259
+\tikz@lastxsaved=\dimen260
+\tikz@lastysaved=\dimen261
+\tikzleveldistance=\dimen262
+\tikzsiblingdistance=\dimen263
+\tikz@figbox=\box70
+\tikz@figbox@bg=\box71
+\tikz@tempbox=\box72
+\tikz@tempbox@bg=\box73
+\tikztreelevel=\count162
+\tikznumberofchildren=\count163
+\tikznumberofcurrentchild=\count164
+\tikz@fig@count=\count165
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
 File: pgfmodulematrix.code.tex 2013/09/17  (rcs-revision 1.8)
-\pgfmatrixcurrentrow=\count161
-\pgfmatrixcurrentcolumn=\count162
-\pgf@matrix@numberofcolumns=\count163
+\pgfmatrixcurrentrow=\count166
+\pgfmatrixcurrentcolumn=\count167
+\pgf@matrix@numberofcolumns=\count168
 )
-\tikz@expandcount=\count164
+\tikz@expandcount=\count169
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
 zlibrarytopaths.code.tex
@@ -1116,7 +1133,7 @@ File: tikzlibrarytopaths.code.tex 2008/06/17 v3.0.1a (rcs-revision 1.2)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
 zlibraryspy.code.tex
 File: tikzlibraryspy.code.tex 2011/05/19 v3.0.1a (rcs-revision 1.4)
-\tikz@lib@spybox=\box70
+\tikz@lib@spybox=\box74
 )
 \@labfile=\write5
 \openout5 = `thesis.abx'.
@@ -1152,8 +1169,32 @@ LaTeX Warning: Label `fig:casa1enhanced1' multiply defined.
 LaTeX Warning: Label `fig:casa1' multiply defined.
 
 ) (/home/lg_more/github/maestria-tesis/libro/chap05.aux) (/home/lg_more/github/
-maestria-tesis/libro/AnexoA.aux) (/home/lg_more/github/maestria-tesis/libro/Ane
-xoB.aux))
+maestria-tesis/libro/AnexoA.aux
+
+LaTeX Warning: Label `tab:calhouse_230' multiply defined.
+
+
+LaTeX Warning: Label `fig:calhouse2300' multiply defined.
+
+
+LaTeX Warning: Label `fig:calhouse2301' multiply defined.
+
+
+LaTeX Warning: Label `fig:calhouse23023' multiply defined.
+
+
+LaTeX Warning: Label `fig:calhouse23024' multiply defined.
+
+
+LaTeX Warning: Label `fig:calhouse23056' multiply defined.
+
+
+LaTeX Warning: Label `fig:calhouse230orig' multiply defined.
+
+
+LaTeX Warning: Label `fig:anexocalhouse230' multiply defined.
+
+))
 \openout1 = `thesis.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 59.
@@ -1177,14 +1218,14 @@ File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             https://www.ctan.org/pkg/pageslts
 (lastpage)             ! on input line 59.
-\AtBeginShipoutBox=\box71
+\AtBeginShipoutBox=\box75
 Package hyperref Info: Link coloring OFF on input line 59.
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count165
+\c@section@level=\count170
 )
 LaTeX Info: Redefining \ref on input line 59.
 LaTeX Info: Redefining \pageref on input line 59.
@@ -1196,17 +1237,17 @@ estria-tesis/libro/thesis.out)
 
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count166
-\scratchdimen=\dimen263
-\scratchbox=\box72
-\nofMPsegments=\count167
-\nofMParguments=\count168
-\everyMPshowfont=\toks50
-\MPscratchCnt=\count169
-\MPscratchDim=\dimen264
-\MPnumerator=\count170
-\makeMPintoPDFobject=\count171
-\everyMPtoPDFconversion=\toks51
+\scratchcounter=\count171
+\scratchdimen=\dimen264
+\scratchbox=\box76
+\nofMPsegments=\count172
+\nofMParguments=\count173
+\everyMPshowfont=\toks51
+\MPscratchCnt=\count174
+\MPscratchDim=\dimen265
+\MPnumerator=\count175
+\makeMPintoPDFobject=\count176
+\everyMPtoPDFconversion=\toks52
 )
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -1245,12 +1286,16 @@ estria-tesis/libro/thesis.out)
 LaTeX Info: Redefining \. on input line 59.
 LaTeX Info: Redefining \% on input line 59.
 Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: longtable package is loaded.
+(/usr/share/texlive/texmf-dist/tex/latex/caption/ltcaption.sty
+Package: ltcaption 2013/06/09 v1.4-94 longtable captions (AR)
+)
 Package caption Info: End \AtBeginDocument code.
 ABD: EveryShipout initializing macros
 Package hyperref Info: Option `breaklinks' set `true' on input line 104.
 Package hyperref Info: Option `raiselinks' set `true' on input line 104.
 Package hyperref Info: Option `pageanchor' set `true' on input line 104.
-<./Figures/logo-pol.png, id=107, 150.5625pt x 224.84pt>
+<./Figures/logo-pol.png, id=99, 150.5625pt x 224.84pt>
 File: ./Figures/logo-pol.png Graphic file (type png)
 <use ./Figures/logo-pol.png>
 Package pdftex.def Info: ./Figures/logo-pol.png  used on input line 104. on inp
@@ -1380,7 +1425,11 @@ LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
 LaTeX Info: Redefining \. on input line 3.
 LaTeX Info: Redefining \% on input line 3.
-)
+LaTeX Font Info:    Try loading font information for OT1+lmtt on input line 12.
+
+(/usr/share/texmf/tex/latex/lm/ot1lmtt.fd
+File: ot1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
+))
 \tf@lot=\write10
 \openout10 = `thesis.lot'.
 
@@ -1605,14 +1654,14 @@ Cap\IeC {\'\i }tulo 1.
 
 
 ]
-<./Figures/chest.jpg, id=266, 513.92pt x 421.575pt>
+<./Figures/chest.jpg, id=264, 513.92pt x 421.575pt>
 File: ./Figures/chest.jpg Graphic file (type jpg)
 <use ./Figures/chest.jpg>
 Package pdftex.def Info: ./Figures/chest.jpg  used on input line 31. on input l
 ine 31.
 Package pdftex.def Info: Requested size: 165.02347pt x 135.3699pt on input line
  31.
-<./Figures/chestclahe1.jpg, id=267, 513.92pt x 421.575pt>
+<./Figures/chestclahe1.jpg, id=265, 513.92pt x 421.575pt>
 File: ./Figures/chestclahe1.jpg Graphic file (type jpg)
 <use ./Figures/chestclahe1.jpg>
 Package pdftex.def Info: ./Figures/chestclahe1.jpg  used on input line 38. on i
@@ -1628,7 +1677,7 @@ Cap\IeC {\'\i }tulo 2.
 Package natbib Warning: Citation `Gonzalez02a' on page 4 undefined on input lin
 e 12.
 
-<./Figures/cubo-rgb.jpg, id=287, 755.82375pt x 644.4075pt>
+<./Figures/cubo-rgb.jpg, id=285, 755.82375pt x 644.4075pt>
 File: ./Figures/cubo-rgb.jpg Graphic file (type jpg)
 <use ./Figures/cubo-rgb.jpg>
 Package pdftex.def Info: ./Figures/cubo-rgb.jpg  used on input line 21. on inpu
@@ -1719,7 +1768,7 @@ LaTeX Warning: Reference `fig:casa1original' on page 12 undefined on input line
 
 
 ]
-<./Figures/calhouse_0230.jpg, id=373, 246.9225pt x 163.61125pt>
+<./Figures/calhouse_0230.jpg, id=371, 246.9225pt x 163.61125pt>
 File: ./Figures/calhouse_0230.jpg Graphic file (type jpg)
 <use ./Figures/calhouse_0230.jpg>
 Package pdftex.def Info: ./Figures/calhouse_0230.jpg  used on input line 53. on
@@ -1735,7 +1784,7 @@ Underfull \hbox (badness 2368) in paragraph at lines 53--53
 []\OT1/lmr/m/n/10 (a) Ima-gen Ori-gi-nal. $[] = 0[]207231$,
  []
 
-<./Figures/calhouse_0230_20-25165283474-10.jpg, id=374, 246.9225pt x 163.61125p
+<./Figures/calhouse_0230_20-25165283474-10.jpg, id=372, 246.9225pt x 163.61125p
 t>
 File: ./Figures/calhouse_0230_20-25165283474-10.jpg Graphic file (type jpg)
 <use ./Figures/calhouse_0230_20-25165283474-10.jpg>
@@ -1754,7 +1803,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 61--61
 ] \OT1/lmr/m/n/10 =
  []
 
-<./Figures/calhouse_0230_20-62968204656-00.jpg, id=375, 246.9225pt x 163.61125p
+<./Figures/calhouse_0230_20-62968204656-00.jpg, id=373, 246.9225pt x 163.61125p
 t>
 File: ./Figures/calhouse_0230_20-62968204656-00.jpg Graphic file (type jpg)
 <use ./Figures/calhouse_0230_20-62968204656-00.jpg>
@@ -1762,7 +1811,7 @@ Package pdftex.def Info: ./Figures/calhouse_0230_20-62968204656-00.jpg  used on
  input line 70. on input line 70.
 Package pdftex.def Info: Requested size: 185.65297pt x 123.0127pt on input line
  70.
-<./Figures/calhouse_0230_20-20-0020072469292179818.jpg, id=376, 246.9225pt x 16
+<./Figures/calhouse_0230_20-20-0020072469292179818.jpg, id=374, 246.9225pt x 16
 3.61125pt>
 File: ./Figures/calhouse_0230_20-20-0020072469292179818.jpg Graphic file (type 
 jpg)
@@ -1785,7 +1834,7 @@ M[] \OT1/lmr/m/n/10 =
 [13 <./Figures/calhouse_0230.jpg> <./Figures/calhouse_0230_20-25165283474-10.jp
 g> <./Figures/calhouse_0230_20-62968204656-00.jpg> <./Figures/calhouse_0230_20-
 20-0020072469292179818.jpg>]
-<./Figures/pareto_front.jpg, id=393, 441.22737pt x 300.49106pt>
+<./Figures/pareto_front.jpg, id=391, 441.22737pt x 300.49106pt>
 File: ./Figures/pareto_front.jpg Graphic file (type jpg)
 <use ./Figures/pareto_front.jpg>
 Package pdftex.def Info: ./Figures/pareto_front.jpg  used on input line 121. on
@@ -1801,33 +1850,141 @@ Cap\IeC {\'\i }tulo 5.
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\\' on input line 1.
 
-) [16
+[16
 
 
 
-] (/home/lg_more/github/maestria-tesis/libro/thesis.bbl [17
+]) [17] (/home/lg_more/github/maestria-tesis/libro/thesis.bbl [18
 
 
 
-]) [18]
+]) [19]
 \openout2 = `AnexoA.aux'.
 
-(/home/lg_more/github/maestria-tesis/libro/AnexoA.tex [19
-
-
-]) [20]
-\openout2 = `AnexoB.aux'.
-
-(/home/lg_more/github/maestria-tesis/libro/AnexoB.tex
-Overfull \hbox (4.34213pt too wide) in paragraph at lines 9--9
-|[]\OT1/lmr/bx/it/17.28 Contrast Li-mi-ted Adap-ti-ve His-to-gram Equa-
+(/home/lg_more/github/maestria-tesis/libro/AnexoA.tex
+Overfull \hbox (40.3631pt too wide) in alignment at lines 9--33
+ [] [] [] [] [] [] [] [] 
  []
 
-) [21
+
+Underfull \vbox (badness 10000) detected at line 33
+ []
 
 
+Overfull \hbox (40.3631pt too wide) in alignment at lines 33--53
+ [] [] [] [] [] [] [] [] 
+ []
 
-] [22]
+
+Overfull \hbox (40.3631pt too wide) in alignment at lines 53--76
+ [] [] [] [] [] [] [] [] 
+ []
+
+[20
+
+
+]
+<./Figures/calhouse_230/0-resultado.jpg, id=435, 246.9225pt x 163.61125pt>
+File: ./Figures/calhouse_230/0-resultado.jpg Graphic file (type jpg)
+<use ./Figures/calhouse_230/0-resultado.jpg>
+Package pdftex.def Info: ./Figures/calhouse_230/0-resultado.jpg  used on input 
+line 84. on input line 84.
+Package pdftex.def Info: Requested size: 185.65297pt x 123.0127pt on input line
+ 84.
+<./Figures/calhouse_230/1-resultado.jpg, id=436, 246.9225pt x 163.61125pt>
+File: ./Figures/calhouse_230/1-resultado.jpg Graphic file (type jpg)
+<use ./Figures/calhouse_230/1-resultado.jpg>
+Package pdftex.def Info: ./Figures/calhouse_230/1-resultado.jpg  used on input 
+line 92. on input line 92.
+Package pdftex.def Info: Requested size: 185.65297pt x 123.0127pt on input line
+ 92.
+<./Figures/calhouse_230/23-resultado.jpg, id=437, 246.9225pt x 163.61125pt>
+File: ./Figures/calhouse_230/23-resultado.jpg Graphic file (type jpg)
+<use ./Figures/calhouse_230/23-resultado.jpg>
+Package pdftex.def Info: ./Figures/calhouse_230/23-resultado.jpg  used on input
+ line 101. on input line 101.
+Package pdftex.def Info: Requested size: 185.65297pt x 123.0127pt on input line
+ 101.
+<./Figures/calhouse_230/24-resultado.jpg, id=438, 246.9225pt x 163.61125pt>
+File: ./Figures/calhouse_230/24-resultado.jpg Graphic file (type jpg)
+<use ./Figures/calhouse_230/24-resultado.jpg>
+Package pdftex.def Info: ./Figures/calhouse_230/24-resultado.jpg  used on input
+ line 108. on input line 108.
+Package pdftex.def Info: Requested size: 185.65297pt x 123.0127pt on input line
+ 108.
+<./Figures/calhouse_230/56-resultado.jpg, id=439, 246.9225pt x 163.61125pt>
+File: ./Figures/calhouse_230/56-resultado.jpg Graphic file (type jpg)
+<use ./Figures/calhouse_230/56-resultado.jpg>
+Package pdftex.def Info: ./Figures/calhouse_230/56-resultado.jpg  used on input
+ line 117. on input line 117.
+Package pdftex.def Info: Requested size: 185.65297pt x 123.0127pt on input line
+ 117.
+<./Figures/calhouse_230/calhouse_230.jpg, id=440, 246.9225pt x 163.61125pt>
+File: ./Figures/calhouse_230/calhouse_230.jpg Graphic file (type jpg)
+<use ./Figures/calhouse_230/calhouse_230.jpg>
+Package pdftex.def Info: ./Figures/calhouse_230/calhouse_230.jpg  used on input
+ line 124. on input line 124.
+Package pdftex.def Info: Requested size: 185.65297pt x 123.0127pt on input line
+ 124.
+[21]
+Overfull \hbox (40.3631pt too wide) in alignment at lines 133--157
+ [] [] [] [] [] [] [] [] 
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 157
+ []
+
+
+Overfull \hbox (40.3631pt too wide) in alignment at lines 157--177
+ [] [] [] [] [] [] [] [] 
+ []
+
+[22 <./Figures/calhouse_230/0-resultado.jpg> <./Figures/calhouse_230/1-resultad
+o.jpg> <./Figures/calhouse_230/23-resultado.jpg> <./Figures/calhouse_230/24-res
+ultado.jpg> <./Figures/calhouse_230/56-resultado.jpg> <./Figures/calhouse_230/c
+alhouse_230.jpg>]
+Overfull \hbox (40.3631pt too wide) in alignment at lines 177--200
+ [] [] [] [] [] [] [] [] 
+ []
+
+File: ./Figures/calhouse_230/0-resultado.jpg Graphic file (type jpg)
+<use ./Figures/calhouse_230/0-resultado.jpg>
+Package pdftex.def Info: ./Figures/calhouse_230/0-resultado.jpg  used on input 
+line 208. on input line 208.
+Package pdftex.def Info: Requested size: 185.65297pt x 123.0127pt on input line
+ 208.
+File: ./Figures/calhouse_230/1-resultado.jpg Graphic file (type jpg)
+<use ./Figures/calhouse_230/1-resultado.jpg>
+Package pdftex.def Info: ./Figures/calhouse_230/1-resultado.jpg  used on input 
+line 216. on input line 216.
+Package pdftex.def Info: Requested size: 185.65297pt x 123.0127pt on input line
+ 216.
+File: ./Figures/calhouse_230/23-resultado.jpg Graphic file (type jpg)
+<use ./Figures/calhouse_230/23-resultado.jpg>
+Package pdftex.def Info: ./Figures/calhouse_230/23-resultado.jpg  used on input
+ line 225. on input line 225.
+Package pdftex.def Info: Requested size: 185.65297pt x 123.0127pt on input line
+ 225.
+File: ./Figures/calhouse_230/24-resultado.jpg Graphic file (type jpg)
+<use ./Figures/calhouse_230/24-resultado.jpg>
+Package pdftex.def Info: ./Figures/calhouse_230/24-resultado.jpg  used on input
+ line 232. on input line 232.
+Package pdftex.def Info: Requested size: 185.65297pt x 123.0127pt on input line
+ 232.
+File: ./Figures/calhouse_230/56-resultado.jpg Graphic file (type jpg)
+<use ./Figures/calhouse_230/56-resultado.jpg>
+Package pdftex.def Info: ./Figures/calhouse_230/56-resultado.jpg  used on input
+ line 241. on input line 241.
+Package pdftex.def Info: Requested size: 185.65297pt x 123.0127pt on input line
+ 241.
+File: ./Figures/calhouse_230/calhouse_230.jpg Graphic file (type jpg)
+<use ./Figures/calhouse_230/calhouse_230.jpg>
+Package pdftex.def Info: ./Figures/calhouse_230/calhouse_230.jpg  used on input
+ line 248. on input line 248.
+Package pdftex.def Info: Requested size: 185.65297pt x 123.0127pt on input line
+ 248.
+[23]) [24]
 
 Package natbib Warning: There were undefined citations.
 
@@ -1848,12 +2005,11 @@ LaTeX Info: Redefining \% on input line 7.
 bro/chap01.aux) (/home/lg_more/github/maestria-tesis/libro/chap02.aux) (/home/l
 g_more/github/maestria-tesis/libro/chap03.aux) (/home/lg_more/github/maestria-t
 esis/libro/chap04.aux) (/home/lg_more/github/maestria-tesis/libro/chap05.aux) (
-/home/lg_more/github/maestria-tesis/libro/AnexoA.aux) (/home/lg_more/github/mae
-stria-tesis/libro/AnexoB.aux))
+/home/lg_more/github/maestria-tesis/libro/AnexoA.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 140.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 140.
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: F3A83D4EFB68D9202769265EAC9092F6;1801.
+(rerunfilecheck)             Checksum: 8F1BC30CA76F2269CF57AA039B86EE25;1608.
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
@@ -1866,37 +2022,39 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 140.
  ) 
 Here is how much of TeX's memory you used:
- 21643 strings out of 492990
- 385555 string characters out of 6135005
- 488069 words of memory out of 5000000
- 24502 multiletter control sequences out of 15000+600000
- 69973 words of font info for 71 fonts, out of 8000000 for 9000
+ 21846 strings out of 492990
+ 389069 string characters out of 6135005
+ 504396 words of memory out of 5000000
+ 24682 multiletter control sequences out of 15000+600000
+ 66370 words of font info for 72 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,18n,54p,2089b,659s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dv
-ips/lm/lm-mathit.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathex.enc}{/usr/s
-hare/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/enc/dvips/l
-m/lm-rmsc.enc}</usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/te
-xmf/fonts/type1/public/lm/lmbx8.pfb></usr/share/texmf/fonts/type1/public/lm/lmb
-xi10.pfb></usr/share/texmf/fonts/type1/public/lm/lmcsc10.pfb></usr/share/texmf/
-fonts/type1/public/lm/lmex10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi10
-.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi12.pfb></usr/share/texmf/fonts
-/type1/public/lm/lmmi5.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi6.pfb></
-usr/share/texmf/fonts/type1/public/lm/lmmi7.pfb></usr/share/texmf/fonts/type1/p
-ublic/lm/lmmi8.pfb></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb></usr/shar
-e/texmf/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/lm
-/lmr6.pfb></usr/share/texmf/fonts/type1/public/lm/lmr8.pfb></usr/share/texmf/fo
-nts/type1/public/lm/lmri12.pfb></usr/share/texmf/fonts/type1/public/lm/lmss10.p
-fb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/t
-ype1/public/lm/lmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsf
-onts/symbols/msbm10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/rsfs/
-rsfs10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/rsfs/rsfs7.pfb></u
-sr/share/texlive/texmf-dist/fonts/type1/public/esvect/vect10.pfb>
-Output written on /home/lg_more/github/maestria-tesis/libro/thesis.pdf (36 page
-s, 678191 bytes).
+ 55i,17n,54p,2089b,659s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texmf/fonts/enc/dvips/lm/lm-rmtt.enc}{/usr/share/texmf/fonts/enc/
+dvips/lm/lm-mathit.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/sha
+re/texmf/fonts/enc/dvips/lm/lm-mathex.enc}{/usr/share/texmf/fonts/enc/dvips/lm/
+lm-mathsy.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-rmsc.enc}</usr/share/texm
+f/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx
+8.pfb></usr/share/texmf/fonts/type1/public/lm/lmcsc10.pfb></usr/share/texmf/fon
+ts/type1/public/lm/lmex10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi10.pf
+b></usr/share/texmf/fonts/type1/public/lm/lmmi12.pfb></usr/share/texmf/fonts/ty
+pe1/public/lm/lmmi5.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi6.pfb></usr
+/share/texmf/fonts/type1/public/lm/lmmi7.pfb></usr/share/texmf/fonts/type1/publ
+ic/lm/lmmi8.pfb></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb></usr/share/t
+exmf/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/lm/lm
+r6.pfb></usr/share/texmf/fonts/type1/public/lm/lmr8.pfb></usr/share/texmf/fonts
+/type1/public/lm/lmri12.pfb></usr/share/texmf/fonts/type1/public/lm/lmss10.pfb>
+</usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type
+1/public/lm/lmsy8.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt12.pfb></usr/
+share/texmf/fonts/type1/public/lm/lmtt8.pfb></usr/share/texlive/texmf-dist/font
+s/type1/public/amsfonts/symbols/msbm10.pfb></usr/share/texlive/texmf-dist/fonts
+/type1/public/rsfs/rsfs10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
+/rsfs/rsfs7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/esvect/vect10
+.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/esvect/vect8.pfb>
+Output written on /home/lg_more/github/maestria-tesis/libro/thesis.pdf (38 page
+s, 869087 bytes).
 PDF statistics:
- 550 PDF objects out of 1000 (max. 8388607)
- 469 compressed objects within 5 object streams
- 114 named destinations out of 1000 (max. 500000)
- 258 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 590 PDF objects out of 1000 (max. 8388607)
+ 497 compressed objects within 5 object streams
+ 127 named destinations out of 1000 (max. 500000)
+ 272 words of extra memory for PDF output out of 10000 (max. 10000000)
 

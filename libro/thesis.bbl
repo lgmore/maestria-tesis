@@ -95,6 +95,9 @@ F.~Saitoh.
   Proceedings. 1999 IEEE International Conference on}, volume~4, pages 899--904
   vol.4, 1999.
 
+\bibitem[tim]{time}
+{\em time(1) - Linux User's Manual}.
+
 \bibitem[WBSS04]{wang2004image}
 Zhou Wang, Alan~C Bovik, Hamid~R Sheikh, and Eero~P Simoncelli.
 \newblock Image quality assessment: from error visibility to structural

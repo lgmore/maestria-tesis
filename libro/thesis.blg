@@ -19,53 +19,58 @@ A level-1 auxiliary file: chap04.aux
 A level-1 auxiliary file: chap05.aux
 The style file: alpha.bst
 A level-1 auxiliary file: AnexoA.aux
-A level-1 auxiliary file: AnexoB.aux
 Database file #1: referencias.bib
 Repeated entry---line 155 of file referencias.bib
  : @inproceedings{zuiderveld1994contrast
  :                                      ,
 I'm skipping whatever remains of this entry
+You're missing a field name---line 226 of file referencias.bib
+ :  
+ :  %author        = "David MacKenzie",
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Warning--to sort, need author, organization, or key in time
 Warning--empty journal in morepso
 Warning--empty year in morepso
-You've used 17 entries,
+You've used 18 entries,
             2543 wiz_defined-function locations,
-            684 strings with 7782 characters,
-and the built_in function-call counts, 7646 in all, are:
-= -- 763
-> -- 371
+            685 strings with 7805 characters,
+and the built_in function-call counts, 7833 in all, are:
+= -- 781
+> -- 372
 < -- 11
 + -- 131
 - -- 128
-* -- 568
-:= -- 1233
-add.period$ -- 54
-call.type$ -- 17
-change.case$ -- 114
-chr.to.int$ -- 16
-cite$ -- 19
-duplicate$ -- 296
-empty$ -- 554
+* -- 580
+:= -- 1253
+add.period$ -- 55
+call.type$ -- 18
+change.case$ -- 117
+chr.to.int$ -- 17
+cite$ -- 22
+duplicate$ -- 307
+empty$ -- 578
 format.name$ -- 147
-if$ -- 1585
+if$ -- 1628
 int.to.chr$ -- 2
 int.to.str$ -- 0
 missing$ -- 18
-newline$ -- 88
+newline$ -- 91
 num.names$ -- 51
-pop$ -- 120
+pop$ -- 127
 preamble$ -- 1
-purify$ -- 133
+purify$ -- 138
 quote$ -- 0
-skip$ -- 245
+skip$ -- 253
 stack$ -- 0
-substring$ -- 457
-swap$ -- 63
+substring$ -- 465
+swap$ -- 64
 text.length$ -- 11
 text.prefix$ -- 5
 top$ -- 0
-type$ -- 128
-warning$ -- 2
+type$ -- 136
+warning$ -- 3
 while$ -- 72
-width$ -- 21
-write$ -- 222
-(There were 2 error messages)
+width$ -- 22
+write$ -- 229
+(There were 3 error messages)
