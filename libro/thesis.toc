@@ -28,3 +28,5 @@
 \contentsline {section}{\numberline {.2}Imagen de prueba \texttt {calhouse\_231.jpg}}{23}{section.Alph0.2}
 \contentsline {section}{\numberline {.3}Imagen de prueba \texttt {calhouse\_233.jpg}}{27}{section.Alph0.3}
 \contentsline {section}{\numberline {.4}Imagen de prueba \texttt {calhouse\_234.jpg}}{30}{section.Alph0.4}
+\contentsline {section}{\numberline {.5}Imagen de prueba \texttt {calhouse\_236.jpg}}{33}{section.Alph0.5}
+\contentsline {section}{\numberline {.6}Imagen de prueba \texttt {calhouse\_237.jpg}}{37}{section.Alph0.6}
