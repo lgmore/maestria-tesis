@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2017.11.3)  7 DEC 2017 13:13
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2017.11.3)  7 DEC 2017 13:28
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1738,7 +1738,7 @@ LaTeX Font Info:    Try loading font information for T1+lmvtt on input line 58.
 (/usr/share/texmf/tex/latex/lm/t1lmvtt.fd
 File: t1lmvtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-<graphics/halfLogo.pdf, id=65, pagebox=cropbox, 245.2885pt x 406.51875pt>
+<graphics/halfLogo.pdf, id=69, pagebox=cropbox, 245.2885pt x 406.51875pt>
 File: graphics/halfLogo.pdf Graphic file (type pdf)
 <use graphics/halfLogo.pdf>
 Package pdftex.def Info: graphics/halfLogo.pdf  used on input line 58. on input
@@ -1750,7 +1750,7 @@ e 58.
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} </home/lg_more/github/maest
 ria-tesis/presentacion/graphics/halfLogo.pdf>] (/home/lg_more/github/maestria-t
 esis/presentacion/main.toc)
-<graphics/polloPallido.pdf, id=84, pagebox=cropbox, 406.51875pt x 406.51875pt>
+<graphics/polloPallido.pdf, id=89, pagebox=cropbox, 406.51875pt x 406.51875pt>
 File: graphics/polloPallido.pdf Graphic file (type pdf)
 <use graphics/polloPallido.pdf>
 Package pdftex.def Info: graphics/polloPallido.pdf  used on input line 62. on i
@@ -1765,7 +1765,7 @@ Overfull \hbox (56.90549pt too wide) in paragraph at lines 62--62
 [2
 
  </home/lg_more/github/maestria-tesis/presentacion/graphics/polloPallido.pdf>]
-<graphics/lena.jpg, id=97, 513.92pt x 513.92pt>
+<graphics/lena.jpg, id=103, 513.92pt x 513.92pt>
 File: graphics/lena.jpg Graphic file (type jpg)
 <use graphics/lena.jpg>
 Package pdftex.def Info: graphics/lena.jpg  used on input line 83. on input lin
@@ -1941,7 +1941,7 @@ Overfull \hbox (56.90549pt too wide) in paragraph at lines 212--212
 [8
 
 ]
-<graphics/RGB_Cube_Show_lowgamma_cutout_b.png, id=136, 1606.0pt x 1204.5pt>
+<graphics/RGB_Cube_Show_lowgamma_cutout_b.png, id=142, 1606.0pt x 1204.5pt>
 File: graphics/RGB_Cube_Show_lowgamma_cutout_b.png Graphic file (type png)
 <use graphics/RGB_Cube_Show_lowgamma_cutout_b.png>
 Package pdftex.def Info: graphics/RGB_Cube_Show_lowgamma_cutout_b.png  used on 
@@ -1991,7 +1991,7 @@ Overfull \hbox (56.90549pt too wide) in paragraph at lines 314--314
 [11
 
 ]
-<graphics/Clahe-redist.jpg, id=158, 397.485pt x 144.54pt>
+<graphics/Clahe-redist.jpg, id=164, 397.485pt x 144.54pt>
 File: graphics/Clahe-redist.jpg Graphic file (type jpg)
 <use graphics/Clahe-redist.jpg>
 Package pdftex.def Info: graphics/Clahe-redist.jpg  used on input line 333. on 
@@ -2097,27 +2097,41 @@ Overfull \hbox (56.90549pt too wide) in paragraph at lines 441--441
 [17
 
 ]
-<graphics/ccis2016.png, id=202, 1097.09875pt x 657.45625pt>
+<graphics/ccis2016.png, id=208, 1097.09875pt x 657.45625pt>
 File: graphics/ccis2016.png Graphic file (type png)
 <use graphics/ccis2016.png>
-Package pdftex.def Info: graphics/ccis2016.png  used on input line 502. on inpu
-t line 502.
+Package pdftex.def Info: graphics/ccis2016.png  used on input line 498. on inpu
+t line 498.
 Package pdftex.def Info: Requested size: 1097.09608pt x 657.45465pt on input li
-ne 502.
+ne 498.
 File: graphics/polloPallido.pdf Graphic file (type pdf)
 <use graphics/polloPallido.pdf>
-Package pdftex.def Info: graphics/polloPallido.pdf  used on input line 502. on 
-input line 502.
+Package pdftex.def Info: graphics/polloPallido.pdf  used on input line 498. on 
+input line 498.
 Package pdftex.def Info: Requested size: 24.18501pt x 24.17917pt on input line 
-502.
+498.
 
-Overfull \hbox (56.90549pt too wide) in paragraph at lines 502--502
+Overfull \hbox (56.90549pt too wide) in paragraph at lines 498--498
 [][]  
  []
 
 [18
 
  </home/lg_more/github/maestria-tesis/presentacion/graphics/ccis2016.png>]
+File: graphics/polloPallido.pdf Graphic file (type pdf)
+<use graphics/polloPallido.pdf>
+Package pdftex.def Info: graphics/polloPallido.pdf  used on input line 575. on 
+input line 575.
+Package pdftex.def Info: Requested size: 24.18501pt x 24.17917pt on input line 
+575.
+
+Overfull \hbox (56.90549pt too wide) in paragraph at lines 575--575
+[][]  
+ []
+
+[19
+
+]
 \tf@nav=\write10
 \openout10 = `main.nav'.
 
@@ -2127,22 +2141,22 @@ Overfull \hbox (56.90549pt too wide) in paragraph at lines 502--502
 \tf@snm=\write12
 \openout12 = `main.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 675.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 675.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 711.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 711.
 (/home/lg_more/github/maestria-tesis/presentacion/main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 675.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 675.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 711.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 711.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: EBBB25438EE50BABD6173C6BCECB7CEC;217.
+(rerunfilecheck)             Checksum: 7AD38AD90E211BED1F07B88826BD8DD7;277.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 41499 strings out of 492990
- 841598 string characters out of 6135005
- 1290968 words of memory out of 5000000
- 44271 multiletter control sequences out of 15000+600000
+ 41533 strings out of 492990
+ 842233 string characters out of 6135005
+ 1291015 words of memory out of 5000000
+ 44301 multiletter control sequences out of 15000+600000
  566596 words of font info for 94 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  65i,17n,103p,10563b,842s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2158,11 +2172,11 @@ fonts/type1/public/lm/lmvtt10.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
 blic/rsfs/rsfs10.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/up
 lr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb></
 usr/share/texlive/texmf-dist/fonts/type1/public/esvect/vect10.pfb>
-Output written on /home/lg_more/github/maestria-tesis/presentacion/main.pdf (18
- pages, 1065961 bytes).
+Output written on /home/lg_more/github/maestria-tesis/presentacion/main.pdf (19
+ pages, 1068860 bytes).
 PDF statistics:
- 264 PDF objects out of 1000 (max. 8388607)
- 193 compressed objects within 2 object streams
- 43 named destinations out of 1000 (max. 500000)
- 249 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 278 PDF objects out of 1000 (max. 8388607)
+ 205 compressed objects within 3 object streams
+ 47 named destinations out of 1000 (max. 500000)
+ 257 words of extra memory for PDF output out of 10000 (max. 10000000)
 

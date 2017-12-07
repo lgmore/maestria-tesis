@@ -539,12 +539,38 @@ f(I,\vv{x}) = [f_1(I,\vv{x}),f_2(I,\vv{x}),f_3(I,\vv{x}),f_4(I,\vv{x})]; \qquad 
 \begin{frame}
 \frametitle{Resultados y discusión} 
 % \framesubtitle{And also some blocks.} 
-\begin{exampleblock}{\textit{Diagrama esquemático de CMOPSO - CLAHE}}
-
-\centering
-\tcbox{\adjincludegraphics[width=0.75\linewidth,valign=t]{graphics/ccis2016.png}}
+\begin{exampleblock}{\textit{Parámetros Iniciales }}
 
 \end{exampleblock}
+
+\begin{table}[H]
+\setlength{\abovecaptionskip}{2pt plus 3pt minus 2pt} % Chosen fairly arbitrarily
+\caption[Parámetros de entrada para $MOPSO$]{Parámetros iniciales para $CMOPSO-CLAHE$}
+\begin{center}
+ \begin{tabular}{||c c | c c||} 
+ \hline
+ Parámetro & Valor & Parámetro & Valor \\ [0.5ex] 
+ \hline\hline
+ $lower\_limit_{\mathscr{R}_x}$ & $2$ & $upper\_limit_{\mathscr{R}_x}$ & $M/2$ \\ 
+ \hline
+ $lower\_limit_{\mathscr{R}_y}$ & $2$ & $upper\_limit_{\mathscr{R}_y}$ & $N/2$ \\  
+ \hline
+ $lower\_limit_{{\mathscr{C}}}$ & $0$ & $upper\_limit_{{\mathscr{C}}}$ & 0.5 \\
+\hline
+$\Omega$ & $100$ & $t_{max}$ & $100$ \\ 
+\hline
+$c_1$ $min$ & 1.5 & $c_1$ $max$ & 2.5 \\ 
+\hline
+$c_2$ $min$ & 1.5 & $c_2$ $max$ & 2.5 \\ 
+\hline
+$r_1$ $min$ & 0.0 & $r_1$ $max$ & 1.0 \\ 
+\hline
+$r_2$ $min$ & 0.0 & $r_2$ $max$ & 1.0 \\
+\hline
+\end{tabular}
+\end{center}
+\label{table:parametrospso}
+\end{table}
 
 \end{frame}
 
