@@ -2,10 +2,33 @@
 
 %\section{Theorethical Framework}%\label{sec:theorethical_framework}
 Éste capítulo presenta una introducción a los conceptos principales utilizados en éste trabajo. Solamente se busca presentar los conceptos fundamentales, necesarios para comprender los detalles técnicos del mismo.
+
+Primeramente se muestran conceptos relacionados al procesamiento de la imagen, y luego se enfoca en los conceptos fundamentales necesarios para comprender la metaheurística asociada.
 %This sections presents a brief introduction of the concepts used in the paper.
 %The solution proposed in this paper is based in the following concepts, which are to be described briefly below. It is fundamental to explain the color spaces, the meta-heuristic and the metrics adopted in this approach.
 
 \section{Ecualización del Histograma}
+
+La Ecualización del Histograma es un método de transformación de los pixeles de la imagen digital, cuya finalidad es ajustar el contraste de la misma. En general, la implementación básica de la Ecualización del Histograma toma todos los pixeles de la imagen, realiza una transformación del histograma de intensidades, e incrementa el contraste global de manera a tener una mejor distribución de intensidades dentro de la imagen. Una ventaja importante de esta técnica es que es una transformación directa y además un operador invertible; además los cálculos necesarios no son intensivos en el sentido computacional.
+
+Existen modificaciones de la técnica básica, que abordan el problema utilizando múltiples histogramas (llamados subhistogramas), cuyo efecto importante es que logran mejoras en el contraste a nivel local. Los ejemplos más importantes son \textit{Adaptive Histogram Equalization} \cite{pizer1987adaptive}, \textit{Contrast Limited Adaptive Histogram Equalization} \cite{zuiderveld1994contrast}, MultiPeak Histogram Equalization (MPHE) \cite{743808}, y \textit{Multipurpose Beta Optimized Bihistogram Equalization (MBOBHE)}. Con éstos algoritmos se busca principalmente la mejora en el contraste sin que ocurra desplazamiento en el brillo medio o artefactos que produzcan pérdidas en detalles a consecuencia de las transformaciones ocurridas.
+
+\subsection{Implementación Básica}
+
+Si se considera una imagen digital discreta en escala de grises $I$, sea $n_i$ el número de ocurrencias del nivel de gris $i$. La probabilidad de ocurrencia de un pixel de nivel $i$ dentro de la imagen digital está dada por:
+
+\begin{equation}
+    p_x(i)= p(x=i)=\frac{n_i}{n}, \qquad 0 \leq i < L
+\end{equation}
+
+Donde $L$ es el número total de niveles de gris representables dentro de la imagen, $n$ es el total de pixeles de la imagen, y $p_x(i)$ es el histograma de valor $i$ para el pixel, normalizado entre $[0,1]$.
+
+También, definamos la \textit{Función de distribución acumulativa} correspondiente a $p_x$ como:
+
+\begin{equation}
+    p_x(i)= p(x=i)=\frac{n_i}{n}, \qquad 0 \leq i < L
+\end{equation}
+ 
 
 \section{Espacios de Color Adoptados}\label{sec:color_spaces}
 

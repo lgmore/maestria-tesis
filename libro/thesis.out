@@ -9,21 +9,22 @@
 \BOOKMARK [1][-]{section.1.2}{Estructura de la tesis}{chapter.1}% 9
 \BOOKMARK [0][-]{chapter.2}{MARCO TE\323RICO}{}% 10
 \BOOKMARK [1][-]{section.2.1}{Ecualizaci\363n del Histograma}{chapter.2}% 11
-\BOOKMARK [1][-]{section.2.2}{Espacios de Color Adoptados}{chapter.2}% 12
-\BOOKMARK [2][-]{subsection.2.2.1}{Contrast Limited Adaptive Histogram Equalization \(CLAHE\)}{section.2.2}% 13
-\BOOKMARK [2][-]{subsection.2.2.2}{Multi-Objective Particle Swarm Optimization \(MOPSO\)}{section.2.2}% 14
-\BOOKMARK [2][-]{subsection.2.2.3}{Entrop\355a de la imagen}{section.2.2}% 15
-\BOOKMARK [2][-]{subsection.2.2.4}{\315ndice de Similaridad Estructural}{section.2.2}% 16
-\BOOKMARK [0][-]{chapter.3}{FORMULACI\323N DEL PROBLEMA PLANTEADO Y PROPUESTA}{}% 17
-\BOOKMARK [1][-]{section.3.1}{Formulaci\363n del problema planteado}{chapter.3}% 18
-\BOOKMARK [1][-]{section.3.2}{Propuesta}{chapter.3}% 19
-\BOOKMARK [0][-]{chapter.4}{RESULTADOS Y DISCUSI\323N}{}% 20
-\BOOKMARK [0][-]{chapter.5}{CONCLUSIONES Y TRABAJOS FUTUROS}{}% 21
-\BOOKMARK [1][-]{section.5.1}{Trabajos futuros}{chapter.5}% 22
-\BOOKMARK [0][-]{chapter*.15}{REFERENCIAS BIBLIOGR\301FICAS}{}% 23
-\BOOKMARK [1][-]{section.Alph0.1}{Imagen de prueba calhouse\137230.jpg}{chapter*.15}% 24
-\BOOKMARK [1][-]{section.Alph0.2}{Imagen de prueba calhouse\137231.jpg}{chapter*.15}% 25
-\BOOKMARK [1][-]{section.Alph0.3}{Imagen de prueba calhouse\137233.jpg}{chapter*.15}% 26
-\BOOKMARK [1][-]{section.Alph0.4}{Imagen de prueba calhouse\137234.jpg}{chapter*.15}% 27
-\BOOKMARK [1][-]{section.Alph0.5}{Imagen de prueba calhouse\137236.jpg}{chapter*.15}% 28
-\BOOKMARK [1][-]{section.Alph0.6}{Imagen de prueba calhouse\137237.jpg}{chapter*.15}% 29
+\BOOKMARK [2][-]{subsection.2.1.1}{Implementaci\363n B\341sica}{section.2.1}% 12
+\BOOKMARK [1][-]{section.2.2}{Espacios de Color Adoptados}{chapter.2}% 13
+\BOOKMARK [2][-]{subsection.2.2.1}{Contrast Limited Adaptive Histogram Equalization \(CLAHE\)}{section.2.2}% 14
+\BOOKMARK [2][-]{subsection.2.2.2}{Multi-Objective Particle Swarm Optimization \(MOPSO\)}{section.2.2}% 15
+\BOOKMARK [2][-]{subsection.2.2.3}{Entrop\355a de la imagen}{section.2.2}% 16
+\BOOKMARK [2][-]{subsection.2.2.4}{\315ndice de Similaridad Estructural}{section.2.2}% 17
+\BOOKMARK [0][-]{chapter.3}{FORMULACI\323N DEL PROBLEMA PLANTEADO Y PROPUESTA}{}% 18
+\BOOKMARK [1][-]{section.3.1}{Formulaci\363n del problema planteado}{chapter.3}% 19
+\BOOKMARK [1][-]{section.3.2}{Propuesta}{chapter.3}% 20
+\BOOKMARK [0][-]{chapter.4}{RESULTADOS Y DISCUSI\323N}{}% 21
+\BOOKMARK [0][-]{chapter.5}{CONCLUSIONES Y TRABAJOS FUTUROS}{}% 22
+\BOOKMARK [1][-]{section.5.1}{Trabajos futuros}{chapter.5}% 23
+\BOOKMARK [0][-]{chapter*.15}{REFERENCIAS BIBLIOGR\301FICAS}{}% 24
+\BOOKMARK [1][-]{section.Alph0.1}{Imagen de prueba calhouse\137230.jpg}{chapter*.15}% 25
+\BOOKMARK [1][-]{section.Alph0.2}{Imagen de prueba calhouse\137231.jpg}{chapter*.15}% 26
+\BOOKMARK [1][-]{section.Alph0.3}{Imagen de prueba calhouse\137233.jpg}{chapter*.15}% 27
+\BOOKMARK [1][-]{section.Alph0.4}{Imagen de prueba calhouse\137234.jpg}{chapter*.15}% 28
+\BOOKMARK [1][-]{section.Alph0.5}{Imagen de prueba calhouse\137236.jpg}{chapter*.15}% 29
+\BOOKMARK [1][-]{section.Alph0.6}{Imagen de prueba calhouse\137237.jpg}{chapter*.15}% 30

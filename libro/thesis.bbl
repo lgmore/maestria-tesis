@@ -104,6 +104,15 @@ Zhou Wang, Alan~C Bovik, Hamid~R Sheikh, and Eero~P Simoncelli.
   similarity.
 \newblock {\em IEEE transactions on image processing}, 13(4):600--612, 2004.
 
+\bibitem[WKC{\etalchar{+}}98]{743808}
+K.~Wongsritong, K.~Kittayaruasiriwat, F.~Cheevasuvit, K.~Dejhan, and
+  A.~Somboonkaew.
+\newblock Contrast enhancement using multipeak histogram equalization with
+  brightness preserving.
+\newblock In {\em IEEE. APCCAS 1998. 1998 IEEE Asia-Pacific Conference on
+  Circuits and Systems. Microelectronics and Integrating Systems. Proceedings
+  (Cat. No.98EX242)}, pages 455--458, Nov 1998.
+
 \bibitem[Zui94]{zuiderveld1994contrast}
 Karel Zuiderveld.
 \newblock Contrast limited adaptive histogram equalization.

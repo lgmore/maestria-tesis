@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"ven",
+				"ventx"
+			],
+			[
+				"idx",
+				"idxeval"
+			],
+			[
 				"ssim",
 				"ssimg"
 			],
@@ -32,15 +40,6 @@
 	"buffers":
 	[
 		{
-			"file": "chap01.tex",
-			"settings":
-			{
-				"buffer_size": 6688,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
 			"file": "chap05.tex",
 			"settings":
 			{
@@ -59,55 +58,73 @@
 			}
 		},
 		{
+			"file": "chap02.tex",
+			"settings":
+			{
+				"buffer_size": 42993,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/lg_more/github/maestria-tesis/presentacion/main.tex",
+			"settings":
+			{
+				"buffer_size": 19997,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/lg_more/drivePoli/maestria/micai 2017/Lecture Notes in Computer Science (LNCS) - camera ready/paper_micai.tex",
+			"settings":
+			{
+				"buffer_size": 24396,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "chap03.tex",
+			"settings":
+			{
+				"buffer_size": 27191,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
 			"file": "/home/lg_more/github/pso-ce-color.git/get_no_dominados.py",
 			"settings":
 			{
-				"buffer_size": 1379,
+				"buffer_size": 1971,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "AnexoA.tex",
+			"file": "/home/lg_more/github/pso-ce-color.git/calhouse_230/calhouse_230.csv",
 			"settings":
 			{
-				"buffer_size": 52104,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/home/lg_more/github/pso-ce-color.git/calhouse_236/calhouse_236/salida.txt",
-			"settings":
-			{
-				"buffer_size": 49,
+				"buffer_size": 312622,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "/home/lg_more/github/pso-ce-color.git/calhouse_236/calhouse_236/calhouse_236.csv",
+			"contents": "fm comercial 6.010.000\nmastersoft ???\n\n\ntoner brother 10 fm comercial\nalternativa\nolam\ncartucho tinta hp 940 negro 3 alternativa\ncartucho tinta hp 940 amarillo 3 master\n\n",
 			"settings":
 			{
-				"buffer_size": 869878,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/home/lg_more/github/pso-ce-color.git/calhouse_236/calhouse_236/calhouse_236_2.csv",
-			"settings":
-			{
-				"buffer_size": 660784,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
+				"buffer_size": 170,
+				"line_ending": "Unix",
+				"name": "fm comercial 6.010.000"
 			}
 		},
 		{
 			"file": "referencias.bib",
 			"settings":
 			{
-				"buffer_size": 8214,
+				"buffer_size": 9010,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -431,22 +448,30 @@
 	],
 	"file_history":
 	[
-		"/home/lg_more/github/pso-ce-color.git/calhouse_234/salida.txt",
-		"/home/lg_more/github/pso-ce-color.git/calhouse_234/calhouse_234_2.csv",
-		"/home/lg_more/github/pso-ce-color.git/calhouse_233/salida.txt",
-		"/home/lg_more/github/pso-ce-color.git/calhouse_234/calhouse_234.csv",
+		"/home/lg_more/github/pso-ce-color.git/calhouse_230/calhouse_230.csv",
+		"/home/lg_more/github/pso-ce-color.git/calhouse_230/calhouse_230/calhouse_230_2.csv",
+		"/home/lg_more/github/pso-ce-color.git/calhouse_237/calhouse_237.csv",
+		"/home/lg_more/github/maestria-tesis/libro/AnexoA.tex",
+		"/home/lg_more/github/pso-ce-color.git/calhouse_230/calhouse_230/calhouse_230.csv",
+		"/home/lg_more/github/pso-ce-color.git/calhouse_231/calhouse_231/calhouse_231_2.csv",
 		"/home/lg_more/github/pso-ce-color.git/calhouse_233/calhouse_233_2.csv",
+		"/home/lg_more/github/pso-ce-color.git/calhouse_231/calhouse_231/calhouse_231.csv",
+		"/home/lg_more/github/pso-ce-color.git/calhouse_234/calhouse_234_2.csv",
+		"/home/lg_more/github/pso-ce-color.git/calhouse_236/calhouse_236/calhouse_236_2.csv",
+		"/home/lg_more/github/pso-ce-color.git/calhouse_234/calhouse_234.csv",
+		"/home/lg_more/github/pso-ce-color.git/calhouse_236/calhouse_236/salida.txt",
+		"/home/lg_more/github/pso-ce-color.git/calhouse_237/calhouse_237_2.csv",
+		"/home/lg_more/github/pso-ce-color.git/calhouse_236/calhouse_236/calhouse_236.csv",
+		"/home/lg_more/github/maestria-tesis/libro/chap01.tex",
+		"/home/lg_more/github/pso-ce-color.git/calhouse_234/salida.txt",
+		"/home/lg_more/github/pso-ce-color.git/calhouse_233/salida.txt",
 		"/home/lg_more/github/pso-ce-color.git/calhouse_233/resultados.txt",
 		"/home/lg_more/github/pso-ce-color.git/calhouse_233/calhouse_233.csv",
 		"/home/lg_more/github/maestria-tesis/libro/thesis.toc",
-		"/home/lg_more/github/pso-ce-color.git/calhouse_230/calhouse_230/calhouse_230_2.csv",
-		"/home/lg_more/github/pso-ce-color.git/calhouse_231/calhouse_231/calhouse_231_2.csv",
 		"/home/lg_more/github/maestria-tesis/libro/AnexoB.tex",
-		"/home/lg_more/github/pso-ce-color.git/calhouse_231/calhouse_231/calhouse_231.csv",
 		"/home/lg_more/github/pso-ce-color.git/calhouse_231/calhouse_231/resultados.txt",
 		"/home/lg_more/github/pso-ce-color.git/calhouse_231/calhouse_231/salida.txt",
 		"/home/lg_more/github/pso-ce-color.git/get_no_dominados.py",
-		"/home/lg_more/github/pso-ce-color.git/calhouse_230/calhouse_230/calhouse_230.csv",
 		"/home/lg_more/github/pso-ce-color.git/implementacion-paper/consolidar.sh",
 		"/home/lg_more/github/pso-ce-color.git/calhouse_230/calhouse_230/salida.txt",
 		"/home/lg_more/github/maestria-tesis/libro/thesis.lot",
@@ -550,15 +575,7 @@
 		"/run/user/1000/gvfs/google-drive:host=pol.una.py,user=lmore/0B_uamuFbOYdWSk4yamo5X2I3TVE/0B_uamuFbOYdWNmdOZU9DREJsd2s/0B_uamuFbOYdWdE1sd1czcDVYYWs/0B_uamuFbOYdWbHlGVmd1YnFhYjg",
 		"/home/lg_more/MEGAsync/ayudantia 2017/primer final/puntos extra.txt",
 		"/home/lg_more/IdeaProjects/reportero/src/main/kotlin/Main.kt",
-		"/run/user/1000/gvfs/google-drive:host=pol.una.py,user=lmore/0B_uamuFbOYdWeC1pbGNoMEVfb00/0B_uamuFbOYdWRDViT1Y3UkoycE0/0B_uamuFbOYdWeW4wZkVYdHlERVE/tema 2 Samtiago Machuca.cpp",
-		"/home/lg_more/MEGAsync/maestria/micai/Lecture Notes in Computer Science (LNCS)/abstract_micai.tex",
-		"/tmp/ejemplo.txt",
-		"/tmp/specs_equipos_intermedios.csv",
-		"/run/user/1000/gvfs/google-drive",
-		"/home/lg_more/Escritorio/especs-conversor-wdm.csv",
-		"/home/lg_more/Escritorio/specs-toner.csv",
-		"/run/user/1000/gvfs/google-drive:host=pol.una.py,user=lmore/0B_uamuFbOYdWeC1pbGNoMEVfb00/0B_uamuFbOYdWMFVGSnBsZUNIbnc/0B_uamuFbOYdWbDd3Y2tPYmhiZVE/0B_uamuFbOYdWZUVNaC03eUxvOGs/0B_uamuFbOYdWdlJrelhoaFJJZmM/0B_uamuFbOYdWanlCUGw0eWVHWlE",
-		"/run/user/1000/gvfs/google-drive:host=pol.una.py,user=lmore/0B_uamuFbOYdWeC1pbGNoMEVfb00/0B_uamuFbOYdWMFVGSnBsZUNIbnc/0B_uamuFbOYdWbDd3Y2tPYmhiZVE/0B_uamuFbOYdWZDhNTEF3RXdCYjQ/0B_uamuFbOYdWTUdkMGNKZG5DSzg/0B_uamuFbOYdWOHM1VXc4b0ZjOEk"
+		"/run/user/1000/gvfs/google-drive:host=pol.una.py,user=lmore/0B_uamuFbOYdWeC1pbGNoMEVfb00/0B_uamuFbOYdWRDViT1Y3UkoycE0/0B_uamuFbOYdWeW4wZkVYdHlERVE/tema 2 Samtiago Machuca.cpp"
 	],
 	"find":
 	{
@@ -566,7 +583,7 @@
 	},
 	"find_in_files":
 	{
-		"height": 93.0,
+		"height": 101.0,
 		"where_history":
 		[
 		]
@@ -576,6 +593,56 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"entropy of intensity",
+			"include",
+			"\\n",
+			" \\n",
+			"\"N\"",
+			"N",
+			",",
+			".",
+			"adaptive",
+			",",
+			".",
+			">=",
+			"\\t",
+			">=",
+			"& N",
+			"\\t",
+			"& N",
+			"\\t",
+			"& N",
+			"\\t",
+			".",
+			"\\t",
+			"& N",
+			"\\t",
+			",",
+			".",
+			",",
+			"& N",
+			"\\t",
+			".",
+			"& N",
+			"\\t",
+			".",
+			"& N",
+			"\\t",
+			".",
+			"& N",
+			"\\t",
+			".",
+			"\\t",
+			".",
+			"\\n",
+			" \\n",
+			"\\t",
+			".",
+			" & N",
+			"\\t",
+			" & N",
+			" ",
+			",",
 			".",
 			"+AC0",
 			"A",
@@ -650,9 +717,53 @@
 		"highlight": false,
 		"in_selection": false,
 		"preserve_case": false,
-		"regex": false,
+		"regex": true,
 		"replace_history":
 		[
+			"\\n",
+			"",
+			"\"N\"",
+			".",
+			",",
+			"<=",
+			" ",
+			"<=",
+			" \\\\\\\\",
+			" & ",
+			" \\\\\\\\",
+			" & ",
+			" \\\\\\\\",
+			" & ",
+			",",
+			" ",
+			" \\\\\\\\",
+			" & ",
+			".",
+			",",
+			" ",
+			".",
+			" \\\\\\\\",
+			" & ",
+			",",
+			" \\\\\\\\",
+			" & ",
+			",",
+			" \\\\\\\\",
+			" & ",
+			",",
+			" \\\\\\\\",
+			" & ",
+			",",
+			" \\\\\\\\\\n",
+			" \\\\\\\\",
+			" & ",
+			"",
+			" \\\\\\\\",
+			"\\\\\\\\",
+			" & ",
+			" \\\\\\\\",
+			" & ",
+			".",
 			",",
 			"",
 			" \\\\\\\\",
@@ -714,40 +825,11 @@
 	"groups":
 	[
 		{
-			"selected": 4,
+			"selected": 3,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "chap01.tex",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 6688,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								4265,
-								4265
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/LaTeXing/support/LaTeX.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 513.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 8,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
 					"file": "chap05.tex",
 					"semi_transient": false,
 					"settings":
@@ -771,11 +853,11 @@
 						"translation.y": 1767.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 6,
+					"stack_index": 10,
 					"type": "text"
 				},
 				{
-					"buffer": 2,
+					"buffer": 1,
 					"file": "thesis.tex",
 					"semi_transient": false,
 					"settings":
@@ -787,27 +869,48 @@
 						"selection":
 						[
 							[
-								1128,
-								1128
+								1549,
+								1549
 							]
 						],
 						"settings":
 						{
-							"WordCount":
-							{
-								"changes": 0,
-								"count": 79,
-								"modified": false,
-								"selection": false,
-								"status": -1,
-								"syntax": "plain text"
-							},
 							"syntax": "Packages/LaTeXing/support/LaTeX.tmLanguage",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 342.0,
+						"translation.y": 836.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "chap02.tex",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 42993,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								828,
+								828
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/LaTeXing/support/LaTeX.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 223.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 5,
@@ -815,107 +918,167 @@
 				},
 				{
 					"buffer": 3,
-					"file": "/home/lg_more/github/pso-ce-color.git/get_no_dominados.py",
+					"file": "/home/lg_more/github/maestria-tesis/presentacion/main.tex",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1379,
+						"buffer_size": 19997,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								303,
-								303
+								13470,
+								13470
 							]
 						],
 						"settings":
 						{
 							"WordCount":
 							{
-								"changes": -1,
-								"modified": true,
-								"selection": true,
-								"status": -1,
-								"syntax": "python"
-							},
-							"syntax": "Packages/Python/Python.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 40.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "AnexoA.tex",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 52104,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								46872,
-								46872
-							]
-						],
-						"settings":
-						{
-							"WordCount":
-							{
-								"changes": 1043,
-								"count": 987,
+								"changes": 2206,
+								"count": 1581,
 								"modified": false,
 								"selection": false,
 								"status": -1,
 								"syntax": "plain text"
 							},
-							"syntax": "Packages/LaTeXing/support/LaTeX.tmLanguage",
-							"translate_tabs_to_spaces": false
+							"syntax": "Packages/LaTeXing/support/LaTeX Beamer.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 14278.0,
+						"translation.y": 8445.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
 					"type": "text"
 				},
 				{
-					"buffer": 5,
-					"file": "/home/lg_more/github/pso-ce-color.git/calhouse_236/calhouse_236/salida.txt",
+					"buffer": 4,
+					"file": "/home/lg_more/drivePoli/maestria/micai 2017/Lecture Notes in Computer Science (LNCS) - camera ready/paper_micai.tex",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 49,
+						"buffer_size": 24396,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								49,
-								49
+								7974,
+								7788
 							]
 						],
 						"settings":
 						{
 							"WordCount":
 							{
-								"changes": 1,
-								"count": 3,
+								"changes": 0,
+								"count": 2229,
 								"modified": false,
 								"selection": false,
 								"status": -1,
 								"syntax": "plain text"
 							},
+							"syntax": "Packages/LaTeXing/support/LaTeX.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 5212.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "chap03.tex",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 27191,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								27191,
+								27191
+							]
+						],
+						"settings":
+						{
+							"WordCount":
+							{
+								"changes": 0,
+								"count": 2668,
+								"modified": false,
+								"selection": false,
+								"status": -1,
+								"syntax": "plain text"
+							},
+							"syntax": "Packages/LaTeXing/support/LaTeX.tmLanguage",
+							"tab_size": 8,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 268.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "/home/lg_more/github/pso-ce-color.git/get_no_dominados.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1971,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1567,
+								1567
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 228.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "/home/lg_more/github/pso-ce-color.git/calhouse_230/calhouse_230.csv",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 312622,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1013,
+								1013
+							]
+						],
+						"settings":
+						{
 							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
 						"translation.x": 0.0,
@@ -926,94 +1089,48 @@
 					"type": "text"
 				},
 				{
-					"buffer": 6,
-					"file": "/home/lg_more/github/pso-ce-color.git/calhouse_236/calhouse_236/calhouse_236.csv",
+					"buffer": 8,
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 869878,
+						"buffer_size": 170,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								255313,
-								255313
+								170,
+								170
 							]
 						],
 						"settings":
 						{
-							"WordCount":
-							{
-								"changes": 17,
-								"count": 0,
-								"modified": false,
-								"selection": false,
-								"status": -1,
-								"syntax": "plain text"
-							},
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 44263.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 7,
-					"file": "/home/lg_more/github/pso-ce-color.git/calhouse_236/calhouse_236/calhouse_236_2.csv",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 660784,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1948,
-								1948
-							]
-						],
-						"settings":
-						{
-							"WordCount":
-							{
-								"changes": 63792,
-								"count": 7974,
-								"modified": false,
-								"selection": false,
-								"status": -1,
-								"syntax": "plain text"
-							},
+							"auto_name": "fm comercial 6.010.000",
 							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 8,
 					"type": "text"
 				},
 				{
-					"buffer": 8,
+					"buffer": 9,
 					"file": "referencias.bib",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 8214,
+						"buffer_size": 9010,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								8192,
-								8192
+								8231,
+								8237
 							]
 						],
 						"settings":
@@ -1023,14 +1140,14 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 4447.0,
+						"translation.y": 4248.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 7,
 					"type": "text"
 				},
 				{
-					"buffer": 9,
+					"buffer": 10,
 					"file": "chap04.tex",
 					"semi_transient": false,
 					"settings":
@@ -1053,7 +1170,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1622.0,
+						"translation.y": 197.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 9,
@@ -1099,7 +1216,7 @@
 	},
 	"output.exec":
 	{
-		"height": 185.0
+		"height": 134.0
 	},
 	"output.find_results":
 	{
@@ -1121,7 +1238,7 @@
 	"project": "tesis.sublime-project",
 	"replace":
 	{
-		"height": 72.0
+		"height": 50.0
 	},
 	"save_all_on_build": true,
 	"select_file":
