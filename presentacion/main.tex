@@ -22,6 +22,8 @@
 \usepackage[utf8]{inputenc}
 \usepackage{verbatim}
 \usepackage{adjustbox} % for \adjincludegraphics
+\usepackage{mathrsfs}  
+\usepackage{esvect}
 \usetheme{uniud}
 
 %%% Bibliography
@@ -129,7 +131,8 @@
 \end{column}
 \begin{column}{.7\textwidth}
 \begin{itemize}
-\item En éste trabajo se busca atacar el problema de la Mejora del Contraste con un enfoque de Optimización Multi-Objetivo aplicado sobre un algoritmo de Ecualización del Histograma bien conocido.
+\item En éste trabajo se busca atacar el problema de la Mejora del Contraste de imágenes digitales a color con un enfoque de Optimización Multi-Objetivo aplicado sobre un algoritmo de Ecualización del Histograma bien conocido.
+\item Se busca obtener un balance entre el realce de detalles de la imagen digital y el mantenimiento de la información de brillo y de color.
 \end{itemize}
 % \hfill-- Carl Friedrich Gauss
 \end{column}
@@ -162,7 +165,52 @@
 
 % \end{frame}
 
-\section{Theoretical Framework}
+\section{Marco Teórico}
+
+\begin{frame}{Marco Teórico}
+
+\begin{columns}[t]
+\begin{column}{.3\textwidth}
+\tcbox{\adjincludegraphics[width=0.85\linewidth,valign=t]{graphics/lena}}
+
+\end{column}
+\begin{column}{.7\textwidth}
+\begin{itemize}
+\item Es necesario revisar dos partes:
+	\begin{itemize}
+		\item El proceso de Ecualización del Histograma,
+		\item La Meta-Heurística Aplicada.
+	\end{itemize}
+\end{itemize}
+% \hfill-- Carl Friedrich Gauss
+\end{column}
+\end{columns}
+
+
+\end{frame}
+
+\begin{frame}{Marco Teórico}
+
+\begin{columns}[t]
+\begin{column}{.3\textwidth}
+\tcbox{\adjincludegraphics[width=0.85\linewidth,valign=t]{graphics/lena}}
+
+\end{column}
+\begin{column}{.7\textwidth}
+\begin{itemize}
+\item Se realiza una separación de la información de intensidad de la información de color para el proceso de ecualización del histograma.
+\item Se adoptaron representaciones de color bien conocidas para operar sobre la intensidad de la imagen digital:
+	\begin{itemize}
+		\item $RGB$ (\textit{Red, Green, Blue})
+		\item $YCbCr$
+	\end{itemize}
+\end{itemize}
+% \hfill-- Carl Friedrich Gauss
+\end{column}
+\end{columns}
+
+\end{frame}
+
 
 % \begin{frame}{Colors}
 
@@ -186,22 +234,211 @@
 
 %\section{Blocks}
 
-% \begin{frame} 
-% \frametitle{This is a page with a title and a subtitle} 
+\begin{frame} 
+\frametitle{Marco Teórico} 
 % \framesubtitle{And also some blocks.} 
-% \begin{block}{Goal of the mission}
-% Shoot in the Death Star's exhaust port and destroy it before the it can fire on the Rebel base.
-% \end{block} 
-% \begin{alertblock}{Take care!}
-% TIE Fighters may chase you while approaching the target.
-% \end{alertblock} 
-% \begin{exampleblock}{Use the force you must}
-% Remember your training with Obi-Wan, and use the Force to make the perfect shoot.
-% \end{exampleblock} 
+\begin{exampleblock}{\textit{Red, Green, Blue (RGB)}}
+Las imágenes digitales se representan inicialmente en $RGB$, por lo que se tiene un array de $N \times M \times 3$ pixeles de color.
 
-% \end{frame}
+Cada pixel se representa como un elemento $[z_r \quad z_g \quad z_b]$ donde $z_r,z_g,z_b$ son los componentes de rojo, verde y azul del pixel a color en una ubicación específica. Los componentes se mezclan para obtener el color representado por el pixel de la imagen.
+\end{exampleblock} 
 
-\section{Formulation of the Problem Posed}
+\centering
+% \tcbox{\adjincludegraphics[width=0.25\linewidth,valign=t]{graphics/lena}}
+\adjincludegraphics[width=0.30\linewidth,valign=t]{graphics/RGB_Cube_Show_lowgamma_cutout_b}
+
+\end{frame}
+
+\begin{frame} 
+\frametitle{Marco Teórico} 
+% \framesubtitle{And also some blocks.} 
+\begin{exampleblock}{\textit{YCbCr}}
+\textit{YCbCr} es un espacio de color definido a través de una transformación matemática de coordenadas, a partir de un espacio de color $RGB$ asociado.
+
+La ventaja de ésta representación es que separa la información de intensidades de la imagen digital de la información de color presente.
+\end{exampleblock}
+
+\centering
+% \tcbox{\adjincludegraphics[width=0.25\linewidth,valign=t]{graphics/lena}}
+% \adjincludegraphics[width=0.30\linewidth,valign=t]{graphics/RGB_Cube_Show_lowgamma_cutout_b}
+
+\end{frame}
+
+\begin{frame} 
+\frametitle{Marco Teórico} 
+% \framesubtitle{And also some blocks.} 
+\begin{exampleblock}{\textit{YCbCr}}
+\textit{YCbCr} es un espacio de color definido a través de una transformación matemática de coordenadas, a partir de un espacio de color $RGB$ asociado.
+
+Otra ventaja importante es que la conversión a partir de $RGB$, y luego de vuelta a $RGB$ es directa:
+\end{exampleblock}
+\begin{equation}
+\begin{bmatrix}
+    Y \\
+    C_b \\
+    C_r 
+\end{bmatrix} =
+ \begin{bmatrix}
+    16  \\
+    128 \\
+    128
+\end{bmatrix}
++
+ \begin{bmatrix}
+    65.481 & 128.553 & 24.966 \\
+    -37.797 & -74.203 & 112.000 \\
+    112.000 & -93.786 & -18.214 
+\end{bmatrix}
+\begin{bmatrix}
+   R \\
+   G \\
+   B 
+\end{bmatrix}
+\end{equation}
+\begin{equation}
+\begin{bmatrix}
+    R \\
+    G \\
+    B 
+\end{bmatrix} =
+ \begin{bmatrix}
+    Y + 1.402 \cdot (C_r - 128) \\
+    Y -0.34414 \cdot (C_b - 128) - 0.71414 \cdot (C_r - 128) \\
+    Y + 1.772 \cdot  (C_b - 128) 
+\end{bmatrix}
+\end{equation}
+\centering
+% \tcbox{\adjincludegraphics[width=0.25\linewidth,valign=t]{graphics/lena}}
+% \adjincludegraphics[width=0.30\linewidth,valign=t]{graphics/RGB_Cube_Show_lowgamma_cutout_b}
+
+\end{frame}
+
+\begin{frame} 
+\frametitle{Marco Teórico} 
+% \framesubtitle{And also some blocks.} 
+\begin{exampleblock}{\textit{Contrast Limited Adaptive Histogram Equalization}}
+
+Es un algoritmo de Mejora del Contraste bien conocido, diseñado para su aplicación en distintos tipos de imágenes. 
+
+$CLAHE$ es una variación del algoritmo \textit{Adaptive Histogram Equalization}, el cual es un algoritmo de Mejora del Contraste local. 
+
+\end{exampleblock}
+\centering
+\tcbox{\adjincludegraphics[width=0.55\linewidth,valign=t]{graphics/Clahe-redist.jpg}}
+
+\centering
+% \tcbox{\adjincludegraphics[width=0.25\linewidth,valign=t]{graphics/lena}}
+% \adjincludegraphics[width=0.30\linewidth,valign=t]{graphics/RGB_Cube_Show_lowgamma_cutout_b}
+
+\end{frame}
+
+\begin{frame} 
+\frametitle{Marco Teórico} 
+% \framesubtitle{And also some blocks.} 
+\begin{exampleblock}{\textit{Entropía de la Imagen}}
+
+La Entropía de la imagen es una métrica que muestra la cantidad de información representada en la imagen digital.
+
+La entropía de la imagen y su contraste están relacionados a la distribución de intensidad de las imágenes digitales, por lo que esta métrica es apta para medir variaciones del constraste como consecuencia de transformaciones aplicadas a la misma.
+
+\end{exampleblock}
+% \centering
+% \tcbox{\adjincludegraphics[width=0.55\linewidth,valign=t]{graphics/Clahe-redist.jpg}}
+
+\centering
+% \tcbox{\adjincludegraphics[width=0.25\linewidth,valign=t]{graphics/lena}}
+% \adjincludegraphics[width=0.30\linewidth,valign=t]{graphics/RGB_Cube_Show_lowgamma_cutout_b}
+
+\end{frame}
+
+\begin{frame} 
+\frametitle{Marco Teórico} 
+% \framesubtitle{And also some blocks.} 
+\begin{exampleblock}{\textit{Entropía de la Imagen}}
+
+La Entropía de la Imagen se define como se muestra abajo:
+
+\end{exampleblock}
+
+\begin{equation}
+\mathscr{H}= -\sum_{i=0}^{n-1} p_i \text{log}_2(p_i) \qquad \mathscr{H} \in \{0,...,\text{log}_2(n)\}
+\end{equation}
+
+donde
+
+\begin{equation}
+p_i=\frac{c_i}{N}, \qquad \sum_{i=1}^n c_i = N, \qquad i= 1,2, ..., n,
+\end{equation}
+
+\end{frame}    
+
+\begin{frame} 
+
+\frametitle{Marco Teórico} 
+% \framesubtitle{And also some blocks.} 
+\begin{exampleblock}{\textit{Structural Similarity Index}}
+Es una métrica bien conocida que mide atributos importantes de la imagen tales como la \textit{Luminancia, Contraste} y la \textit{Estructura}
+
+El objetivo de $SSIM$ es el de medir la distorsión de la imagen como consecuencia del proceso de mejora del contraste.
+
+Dadas una imagen de entrada $I_x$ y una de salida $T_y$ $SSIM$ se define como se muestra abajo:
+
+\end{exampleblock}
+
+\begin{equation}
+SSIM(I,T) = \frac{(2\mu_{I_x} \mu_{T_y}+E_1)(2\sigma_{I_xT_y}+E_2)}{(\mu^2_{I_x}+\mu^2_{T_y}+E_1)(\sigma^2_{I_x} + \sigma^2_{T_y}+E_2)} \qquad SSIM \in [0,1]
+\end{equation}
+
+\end{frame}    
+
+\begin{frame}
+\frametitle{Marco Teórico} 
+% \framesubtitle{And also some blocks.} 
+\begin{exampleblock}{\textit{Multi-Objective Particle Swarm Optimization (MOPSO)}}
+
+$MOPSO$ es una meta-heurística que emula el comportamiento social de las bandadas de pájaros.
+
+Cada partícula $\vv{x}$ realiza una búsqueda dentro de un espacio $\Omega$, y para cada generación $t$, cada solución $\vv{x}$ se actualiza de acuerdo a:
+
+\begin{equation}\label{eq:posicion1}
+\vv{x}_i(t) = \vv{x}_i(t-1) + \vv{v}_i(t)
+\end{equation}
+
+Donde $\vv{v}$ se conoce como el factor de velocidad, y está dado por:
+
+\begin{equation}\label{eq:velocidad1}
+ \vv{v}_i(t) = w \cdot (t-1) + C_1 \cdot r_1 \cdot (\vv{x}_{p_i} - \vv{x}_i) + C_2 \cdot r_2 \cdot (\vv{x}_{g_i} - \vv{x_i})
+\end{equation}
+
+\end{exampleblock}
+
+% \begin{equation}
+% SSIM(I,T) = \frac{(2\mu_{I_x} \mu_{T_y}+E_1)(2\sigma_{I_xT_y}+E_2)}{(\mu^2_{I_x}+\mu^2_{T_y}+E_1)(\sigma^2_{I_x} + \sigma^2_{T_y}+E_2)} \qquad SSIM \in [0,1]
+% \end{equation}
+
+\end{frame}
+
+\section{Formulación del Problema Planteado}
+
+\begin{frame}
+\frametitle{Formulación del Problema Planteado} 
+% \framesubtitle{And also some blocks.} 
+\begin{exampleblock}{\textit{Formulación del Problema Planteado}}
+
+Dada una imagen a color $I$, con $M \times N$ pixeles, y un vector $\vv{x}= (\mathscr{R}_x, \mathscr{R}_y, \mathscr{C})$, donde $\mathscr{R}_x$ y $\mathscr{R}_y$ son regiones contextuales y $\mathscr{C}$ es el \textit{Clip Limit}, se busca un conjunto de soluciones no dominadas $\mathscr{X}$, que maximiza simultáneamente las funciones objetivo $f_1,f_2,f_3,f_4$:
+
+\begin{equation}
+f(I,\vv{x}) = [f_1(I,\vv{x}),f_2(I,\vv{x}),f_3(I,\vv{x}),f_4(I,\vv{x})]; \qquad f_1,f_2,f_3,f_4 \in [0,1]
+\end{equation}
+
+
+\end{exampleblock}
+
+% \begin{equation}
+% SSIM(I,T) = \frac{(2\mu_{I_x} \mu_{T_y}+E_1)(2\sigma_{I_xT_y}+E_2)}{(\mu^2_{I_x}+\mu^2_{T_y}+E_1)(\sigma^2_{I_x} + \sigma^2_{T_y}+E_2)} \qquad SSIM \in [0,1]
+% \end{equation}
+
+\end{frame}
 
 % \subsection{Enumerates and itemizes}
 
@@ -246,7 +483,27 @@
 
 % \end{frame}
 
-\section{Proposal}
+\section{Propuesta}
+
+\begin{frame}
+\frametitle{Propuesta - CMOPSO-CLAHE} 
+% \framesubtitle{And also some blocks.} 
+\begin{exampleblock}{\textit{Formulación del Problema Planteado}}
+
+Dada una imagen a color $I$, con $M \times N$ pixeles, y un vector $\vv{x}= (\mathscr{R}_x, \mathscr{R}_y, \mathscr{C})$, donde $\mathscr{R}_x$ y $\mathscr{R}_y$ son regiones contextuales y $\mathscr{C}$ es el \textit{Clip Limit}, se busca un conjunto de soluciones no dominadas $\mathscr{X}$, que maximiza simultáneamente las funciones objetivo $f_1,f_2,f_3,f_4$:
+
+\begin{equation}
+f(I,\vv{x}) = [f_1(I,\vv{x}),f_2(I,\vv{x}),f_3(I,\vv{x}),f_4(I,\vv{x})]; \qquad f_1,f_2,f_3,f_4 \in [0,1]
+\end{equation}
+
+
+\end{exampleblock}
+
+% \begin{equation}
+% SSIM(I,T) = \frac{(2\mu_{I_x} \mu_{T_y}+E_1)(2\sigma_{I_xT_y}+E_2)}{(\mu^2_{I_x}+\mu^2_{T_y}+E_1)(\sigma^2_{I_x} + \sigma^2_{T_y}+E_2)} \qquad SSIM \in [0,1]
+% \end{equation}
+
+\end{frame}
 
 % \begin{frame}{Maths}
 % A formula will look like this: 
