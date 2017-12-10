@@ -15,20 +15,106 @@ Existen modificaciones de la técnica básica, que abordan el problema utilizand
 
 \subsection{Implementación Básica}
 
-Si se considera una imagen digital discreta en escala de grises $I$, sea $n_i$ el número de ocurrencias del nivel de gris $i$. La probabilidad de ocurrencia de un pixel de nivel $i$ dentro de la imagen digital está dada por:
+Si se considera una imagen digital discreta en escala de grises $I$, sea la probabilidad de ocurrencia de un nivel de gris $r_k$ dentro de la imagen una aproximación de la forma:
 
 \begin{equation}
-    p_x(i)= p(x=i)=\frac{n_i}{n}, \qquad 0 \leq i < L
+p_r(r_k)= \frac{n_k}{n} \qquad k=0,1,2,...,L-1
 \end{equation}
 
-Donde $L$ es el número total de niveles de gris representables dentro de la imagen, $n$ es el total de pixeles de la imagen, y $p_x(i)$ es el histograma de valor $i$ para el pixel, normalizado entre $[0,1]$.
-
-También, definamos la \textit{Función de distribución acumulativa} correspondiente a $p_x$ como:
+donde $n$ es es el número total de pixeles de la imagen, $n_k$ es el número de pixeles que poseen el nivel de gris $r_k$, y $L$ es número de pixeles representables en la imagen. Se busca una función de transformación de los niveles de intensidad de los pixeles de la forma:
 
 \begin{equation}
-    p_x(i)= p(x=i)=\frac{n_i}{n}, \qquad 0 \leq i < L
+\begin{split}
+s_k=T(r_k) & = \sum_{j=0}^k p_r(r_j) \\
+& = \sum_{j=0}^k \frac{n_j}{n} \qquad k=0,1,2,...,L-1
+\end{split}
+\label{eq:ecualizacionhistograma}
 \end{equation}
- 
+
+Entonces, una imagen resultante se obtiene a partir del mapeo de cada pixel de nivel de intensidad $r_k$ de la imagen de entrada con un pixel correspondiente de nivel de intensidad $s_k$ utilizando la ecuación \ref{eq:ecualizacionhistograma}. 
+
+\subsection{Ejemplo de aplicación}
+
+Mediante un ejemplo es posible clarificar el concepto presentado arriba. Por lo tanto, si asumimos una imagen digital de 4096 pixeles con $L=8$ niveles de gris. La tabla siguiente muestra de manera resumida el proceso correspondiente a la ecualización del histograma básica:
+
+\begin{table}[H]
+\centering
+\begin{tabular}{ ? r | r | c | c | c ?}
+\hlineB{2}
+\rowcolor{SeaGreen3!30!} $r_k$ & $n_i$ & $n_i/N$ & $cdf(r_k)$ & $s_k$ \\ \hlineB{2}
+0 & 790  & 0,19 & 0,19 & $0,19 \times 7 \approx 1$ \\ \hline
+1 & 1023 & 0,25 & 0,44 & $0,44 \times 7 \approx 3$ \\ \hline
+2 & 850  & 0,21 & 0,65 & $0,65 \times 7 \approx 5$ \\ \hline
+3 & 656  & 0,16 & 0,81 & $0,81 \times 7 \approx 6$ \\ \hline
+4 & 329  & 0,08 & 0,89 & $0,89 \times 7 \approx 6$ \\ \hline
+5 & 245  & 0,06 & 0,95 & $0,95 \times 7 \approx 7$ \\ \hline
+6 & 122  & 0,03 & 0,98 & $0,98 \times 7 \approx 7$ \\ \hline
+7 & 81   & 0,02 & 1,00 & $1,00 \times 7 = 7$ \\ \hlineB{2}
+\end{tabular}
+\caption{Proceso de ecualización de histograma básica. La columna $r_k$ representa los niveles de gris de la imagen original, y la columna $s_k$ muestra los niveles de gris que se mapean a partir del proceso, y que reemplazarán a los valores de $r_k$ en la imagen procesada.}
+\label{tab:ejemploeqhistograma}
+\end{table}
+
+La Tabla \ref{tab:ejemploeqhistograma} muestra el proceso de ecualización de una imagen de ejemplo. Si se representa una imagen digital con 3 bits (lo cual permite representar 8 niveles de intensidad en la imagen digital), y se tiene el conteo de pixeles para cada nivel como se muestra en la columna $n_i$, entonces el proceso de normalización será como se ve en la columna $n_i/N$, el $CDF$ se calcula como se muestra en la columna $cdf(r_k)$ y finalmente el nivel de gris mapeado será el que se muestra en la columna $s_k$.
+
+% \begin{figure}[H]
+%     \centering
+%     %\begin{subfigure}[t]{0.45\textwidth}
+%     \begin{subfigure}[]{
+%         \includegraphics[width=0.50\textwidth]{./Figures/equalize2.jpg}
+%     }
+% %        \caption{Imagen Original. $\mathscr{H_Y}=0.207231$, $SSIM_R=1$, $SSIM_G=1$, $SSIM_B=1$}
+% %        \label{fig:cuborgb}
+%     \end{subfigure}
+%     \caption{Histograma y $CDF$ de la imagen Original. Abajo, Histograma y $CDF$ de la imagen ecualizada.}\label{fig:ejemploeqhistograma2}
+% \end{figure}
+
+\begin{figure}[H]
+\centering
+\begin{subfigure}[]{\includegraphics[width=\textwidth]{./Figures/Paolina_256_hist.jpg}}
+\caption{Imagen original (sin procesar) y su correspondiente histograma y $CDF$}
+\label{fig:ejemploeqhistograma3}
+\end{subfigure} 
+
+    ~ %add desired spacing between images, e. g. ~, \quad, \qquad, \hfill etc. 
+    %(or a blank line to force the subfigure onto a new line)
+    \begin{subfigure}[]{\includegraphics[width=\textwidth]{./Figures/Paolina_256_hist_eq.jpg}}
+    \caption{Imagen con contraste mejorado (luego de la aplicación de la ecualización del histograma) con su correspondiente histograma y $CDF$}
+    \label{fig:ejemploeqhistograma4}
+    \end{subfigure}
+    \caption{Imágenes original y resultante luego de la aplicación de la ecualización del histograma. A la izquierda de cada una se observa el histograma y el $CDF$ respectivo a cada imagen.}\label{fig:ejemplohistograma5}
+    \end{figure}
+
+% En la Tabla \ref{tab:ejemploeqhistograma} se muestra cuál es el proceso de mapeo de niveles de intensidad a partir de los niveles de gris $r_k$ de la imagen digital original, hasta los nuevos niveles de gris mapeados $s_k$. 
+
+La Figura \ref{fig:ejemploeqhistograma3} muestra una imagen sin procesar, con su correspondiente histograma y $CDF$ previos al proceso de ecualización; en la Figura \ref{fig:ejemploeqhistograma4} se muestra la imagen obtenida luego de aplicar el proceso de ecualización, y los correspondientes histograma y $CDF$ resultantes luego de éste proceso. 
+
+\section{Contrast Limited Adaptive Histogram Equalization (CLAHE)}
+
+El algoritmo presentado en la sección anterior toma la imagen completa para realizar la tarea de ecualización del histograma. Ésto en general no es adecuado cuando se trabaja con imágenes cuyos detalles son cruciales para la posterior utilidad de la imagen transformada (imágenes aéreas, médicas, biométricas, y otras); es por éste motivo que se estudian (y en éste trabajo en particular se adoptan) algoritmos de mejora de contraste basados en ecualización del histograma por regiones, o algoritmos de ecualización locales.
+
+En particular, Contrast Limited Adaptive Histogram Equalization (CLAHE) \cite{zuiderveld1994contrast} es un algoritmo bien conocido para la Mejora del Contraste, diseñado para ser aplicado de manera amplia en el contexto del procesamiento digital de imágenes. CLAHE es una variación del algoritmo de Mejora del Contraste denominado \textit{Adaptive Histogram Equalization (AHE)} \cite{pizer1987adaptive}. Ambas técnicas se explican en las subsecciones siguientes debido a la cercanía existente por la similaridad en cuanto a la implementación.
+
+\subsection{Adaptive Histogram Equalization}
+
+El problema con la ecualización del histograma ordinaria, es que la imagen digital podría tener regines significativamente más oscuras o claras que el resto de la imagen, por lo que el contraste en esas regiones podría no mejorar significativamente.
+
+En AHE, una imagen es procesada transformando cada pixel utilizando una función basada en el histograma de los pixeles que lo rodean; en principio éste algoritmo se desarrolló para su uso en displays de cabina de aviones de guerra \cite{ketcham1974image}. En su forma más simple, cada pixel se transforma en base al histograma de la región que envuelve al pixel. La derivación de las funciones de transformación de los histogramas locales es exactamente el mismo que en la ecualización del histograma ordinaria: La función de transformación es proporcional a la función de distribución acumulativa $CDF$ de los valores de pixeles de la vecindad. 
+
+\subsubsection{Propiedades de AHE}
+
+\begin{itemize}
+    \item El tamaño de la región de vecindad es un parámetro del método. 
+    \item Cuando una región de la imagen que contiene a un vecindario de pixeles es relativamente homogénea en cuanto a intensidades, el histograma resultante posee picos fuertes, y la función de transformación mapea un rango de intensidades corto a todo el rango de la imagen resultante. Ésto causa que $AHE$ amplifique porciones pequeñas de ruido en regiones de la imagen con intensidades homogéneas.
+\end{itemize}
+
+\subsection{Contrast Limited AHE}
+
+Contrast Limited $AHE$ ($CLAHE$) es diferente a la ecualización adaptativa del histograma descrita arriba debido al esquema de limitación del contraste impuesto. $CLAHE$ se desarrolló para prevenir la sobre-amplificación de ruido que se percibe en $AHE$.
+
+Éste problema se supera limitando la mejora del contraste realizada por $AHE$. La amplificación del contraste en la vecindad de un pixel de intensidad dada está relacionada a la pendiente de la función de transformación. Ésto significa que la amplificación es proporcional a la pendiente de la $CDF$ del vecindario y por tanto al valor del histograma a partir de ese valor de pixel. $CLAHE$ limita la amplificación recortando el histograma de acuerdo a un coeficiente predefinido, denominado \textit{Clip Limit} antes de computar el $C$$d$
+
+% Contrast Limited Adaptive Histogram Equalization (CLAHE) \cite{zuiderveld1994contrast} is a well known CE algorithm, designed for broad applicability in the context of digital image proccessing. CLAHE is a variation of the \textit{Adaptive Histogram Equalization (AHE)}\cite{pizer1987adaptive} CE algorithm. In AHE, an image is processed transforming each pixel using a function based on the histogram of its surrounding pixels, defined by a \textit{Contextual Region $(\mathscr{R}_x,\mathscr{R}_y)$}. CLAHE limits the CE by clipping the resultant histogram based in a coefficient called \textit{Clip Limit} $\mathscr{C}$
 
 \section{Espacios de Color Adoptados}\label{sec:color_spaces}
 
@@ -37,52 +123,52 @@ Los Espacios de Color \cite{Gonzalez02a} son representaciones de color de las im
 El primer espacio importante a analizar en este trabajo es $RGB$ (del inglés $Red$, $Green$, $Blue$). En el modelo $RGB$, cada color aparece como un componente primario del $Rojo$, $Verde$ y $Azul$. Éste modelo sencillo se basa en el sistema de coordenadas Cartesianas. En la Figura \ref{fig:cuborgb} se pueden apreciar algunos colores notables representados en el espacio $RGB$: por ejemplo, el azul puro se representa como $(0,0,1)$, el verde puro como $(0,1,0)$ y el rojo puro como $(1,0,0)$; mientas que el negro se representa como $(0,0,0)$ y el blanco como $(1,1,1)$. Se puede apreciar la ventaja de usar ese sistema de representación de colores, el cual es sencillo. Se asume un sistema de coordenadas normalizado.
 
 \begin{figure}[H]
-    \centering
+\centering
     %\begin{subfigure}[t]{0.45\textwidth}
     \begin{subfigure}[]{
-        \includegraphics[width=0.50\textwidth]{./Figures/cubo-rgb.jpg}
+    \includegraphics[width=0.50\textwidth]{./Figures/cubo-rgb.jpg}
     }
 %        \caption{Imagen Original. $\mathscr{H_Y}=0.207231$, $SSIM_R=1$, $SSIM_G=1$, $SSIM_B=1$}
 %        \label{fig:cuborgb}
-    \end{subfigure}
-    \caption{Diagrama esquemático del cubo que representa al espacio de colores $RGB$. Se pueden apreciar algunos colores notables.}\label{fig:cuborgb}
+\end{subfigure}
+\caption{Diagrama esquemático del cubo que representa al espacio de colores $RGB$. Se pueden apreciar algunos colores notables.}\label{fig:cuborgb}
 \end{figure}
 
 En este trabajo, las imágenes originales se representan utilizando el espacio de colores $RGB$; en éste caso se tiene un arreglo de pixeles de color de tamaño $N \times M \times 3$. Cada pixel de color está representado por un elemento $[\begin{matrix}z_r & z_g & z_b\end{matrix}]$ del arreglo previamente mencionado, donde $z_r, z_g, z_b$ son los componentes rojo, verde y azul de un pixel de color en una ubicación específica. Las imágenes originales son luego transformadas al espacio de colores $YCbCr$ \cite{gonzalez2002processing}, el cual es una representación ampliamente utilizada en el video digital. La principal ventaja es que en esta representación $Y$ representa la información de luminancia de la imagen, mientras que el componente $Cb$ representa la diferencia entre el componente azul y un valor de referencia, mientras que el componente $Cr$ es la diferencia entre el componente rojo y un valor de referencia. Otra ventaja importante de ésta representación es que la conversión desde $RGB$, y nuevamente hacia $RGB$ es directa:
 
 \begin{equation}
 \begin{bmatrix}
-    Y \\
-    C_b \\
-    C_r 
+Y \\
+C_b \\
+C_r 
 \end{bmatrix} =
- \begin{bmatrix}
-    16  \\
-    128 \\
-    128
+\begin{bmatrix}
+16  \\
+128 \\
+128
 \end{bmatrix}
 +
- \begin{bmatrix}
-    65.481 & 128.553 & 24.966 \\
-    -37.797 & -74.203 & 112.000 \\
-    112.000 & -93.786 & -18.214 
+\begin{bmatrix}
+65.481 & 128.553 & 24.966 \\
+-37.797 & -74.203 & 112.000 \\
+112.000 & -93.786 & -18.214 
 \end{bmatrix}
 \begin{bmatrix}
-   R \\
-   G \\
-   B 
+R \\
+G \\
+B 
 \end{bmatrix}
 \end{equation}
 \begin{equation}
 \begin{bmatrix}
-    R \\
-    G \\
-    B 
+R \\
+G \\
+B 
 \end{bmatrix} =
- \begin{bmatrix}
-    Y + 1.402 \cdot (C_r - 128) \\
-    Y -0.34414 \cdot (C_b - 128) - 0.71414 \cdot (C_r - 128) \\
-    Y + 1.772 \cdot  (C_b - 128) 
+\begin{bmatrix}
+Y + 1.402 \cdot (C_r - 128) \\
+Y -0.34414 \cdot (C_b - 128) - 0.71414 \cdot (C_r - 128) \\
+Y + 1.772 \cdot  (C_b - 128) 
 \end{bmatrix}
 \end{equation}
 
@@ -126,11 +212,7 @@ En este trabajo, las imágenes originales se representan utilizando el espacio d
 % \end{bmatrix}
 % \end{equation}
 
-\subsection{Contrast Limited Adaptive Histogram Equalization (CLAHE)}
 
-% Contrast Limited Adaptive Histogram Equalization (CLAHE) \cite{zuiderveld1994contrast} es un algoritmo bien conocido para la Mejora del Contraste, diseñado para ser aplicado de manera amplia en el contexto del procesamiento digital de imágenes. CLAHE es una variación del algoritmo de Mejora del Contraste denominado \textit{Adaptive Histogram Equalization (AHE)} \cite{pizer1987adaptive}. En AHE, una imagen es procesada transformando cada pixel utilizando una función basada en el histograma de los pixeles que lo rodean, definido por una \textit{Contextual Region $(\mathscr{R}_x,\mathscr{R}_y)$}. CLAHE limita la Mejora del Contraste recortando el histograma resultante basado en un coeficiente denominado \textit{Clip Limit} $\mathscr{C}$.
-
-% Contrast Limited Adaptive Histogram Equalization (CLAHE) \cite{zuiderveld1994contrast} is a well known CE algorithm, designed for broad applicability in the context of digital image proccessing. CLAHE is a variation of the \textit{Adaptive Histogram Equalization (AHE)}\cite{pizer1987adaptive} CE algorithm. In AHE, an image is processed transforming each pixel using a function based on the histogram of its surrounding pixels, defined by a \textit{Contextual Region $(\mathscr{R}_x,\mathscr{R}_y)$}. CLAHE limits the CE by clipping the resultant histogram based in a coefficient called \textit{Clip Limit} $\mathscr{C}$
 
 \subsection{Multi-Objective Particle Swarm Optimization (MOPSO)}
 
@@ -150,7 +232,7 @@ Multi-Objective Particle Swarm Optimization ($MOPSO$) \cite{nebro2009smpso} es u
 Aquí, $\vv{v}$ es un factor conocido como la velocidad, y está dado por:
 
 \begin{equation}\label{eq:velocidad1}
- \vv{v}_i(t) = w \cdot (t-1) + C_1 \cdot r_1 \cdot (\vv{x}_{p_i} - \vv{x}_i) + C_2 \cdot r_2 \cdot (\vv{x}_{g_i} - \vv{x_i}) \text{,}
+\vv{v}_i(t) = w \cdot (t-1) + C_1 \cdot r_1 \cdot (\vv{x}_{p_i} - \vv{x}_i) + C_2 \cdot r_2 \cdot (\vv{x}_{g_i} - \vv{x_i}) \text{,}
 \end{equation}
 
 donde $\vv{x}_{p_i}$ es la mejor solución que $\vv{x}_i$ encontró hasta ahora, $\vv{x}_{g_i}$ es la mejor solución que el enjambre completo encontró durante una iteración, $w$ es un coeficiente conocido como el \textit{peso de la inercia}, que controla la tasa de velocidad de la búsquda de $PSO$; $r_1$ y $r_2$ son números aleatorios entre $[0,1]$. Finalmente, $C_1$ Y $C_2$ son los coeficientes que controlan la ponderación entre partículas globales y locales durante la búsqueda.
@@ -180,10 +262,10 @@ donde
 
 \begin{equation}
 % \[
-    \varphi= 
+\varphi= 
 \begin{cases}
-    C_1 + C_2 & \text{if } C_1 + C_2 > 4\\
-    0,              & \text{if } C_1 + C_2 \leq 4
+C_1 + C_2 & \text{if } C_1 + C_2 > 4\\
+0,              & \text{if } C_1 + C_2 \leq 4
 \end{cases}
 % \]
 \end{equation}
@@ -195,9 +277,9 @@ Además, la velocidad en $MOPSO$ se acota con la siguiente ecuación de constric
 % \[
 v_{i,j}(t)= 
 \begin{cases}
-    delta_j & \text{if } v_{i,j}(t) > delta_j\\
-    -delta_j,      & \text{if } v_{i,j}(t) \leq delta_j \\
-    v_{i,j}(t),      & \text{otherwise }
+delta_j & \text{if } v_{i,j}(t) > delta_j\\
+-delta_j,      & \text{if } v_{i,j}(t) \leq delta_j \\
+v_{i,j}(t),      & \text{otherwise }
 \end{cases}
 % \]
 \end{equation}

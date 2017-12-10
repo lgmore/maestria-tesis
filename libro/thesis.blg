@@ -10,7 +10,7 @@ A level-1 auxiliary file: abreviaturas.aux
 A level-1 auxiliary file: chap01.aux
 A level-1 auxiliary file: chap02.aux
 Case mismatch error between cite keys Gonzalez02a and gonzalez02a
----line 11 of file chap02.aux
+---line 28 of file chap02.aux
  : \citation{Gonzalez02a
  :                      }
 I'm skipping whatever remains of this command
@@ -32,45 +32,45 @@ I'm skipping whatever remains of this entry
 Warning--to sort, need author, organization, or key in time
 Warning--empty journal in morepso
 Warning--empty year in morepso
-You've used 19 entries,
+You've used 20 entries,
             2543 wiz_defined-function locations,
-            692 strings with 8151 characters,
-and the built_in function-call counts, 8455 in all, are:
-= -- 840
-> -- 407
+            697 strings with 8328 characters,
+and the built_in function-call counts, 8808 in all, are:
+= -- 876
+> -- 432
 < -- 12
-+ -- 144
-- -- 141
-* -- 627
-:= -- 1345
-add.period$ -- 58
-call.type$ -- 19
-change.case$ -- 126
-chr.to.int$ -- 18
-cite$ -- 23
-duplicate$ -- 333
-empty$ -- 622
-format.name$ -- 160
-if$ -- 1764
++ -- 153
+- -- 150
+* -- 651
+:= -- 1412
+add.period$ -- 61
+call.type$ -- 20
+change.case$ -- 134
+chr.to.int$ -- 19
+cite$ -- 24
+duplicate$ -- 344
+empty$ -- 640
+format.name$ -- 170
+if$ -- 1831
 int.to.chr$ -- 2
 int.to.str$ -- 0
 missing$ -- 19
-newline$ -- 96
-num.names$ -- 54
-pop$ -- 138
+newline$ -- 101
+num.names$ -- 57
+pop$ -- 143
 preamble$ -- 1
-purify$ -- 148
+purify$ -- 156
 quote$ -- 0
-skip$ -- 278
+skip$ -- 288
 stack$ -- 0
-substring$ -- 500
+substring$ -- 507
 swap$ -- 75
 text.length$ -- 12
 text.prefix$ -- 5
 top$ -- 0
-type$ -- 144
+type$ -- 152
 warning$ -- 3
-while$ -- 77
-width$ -- 22
-write$ -- 242
+while$ -- 80
+width$ -- 23
+write$ -- 255
 (There were 3 error messages)
