@@ -112,7 +112,22 @@ En AHE, una imagen es procesada transformando cada pixel utilizando una función
 
 Contrast Limited $AHE$ ($CLAHE$) es diferente a la ecualización adaptativa del histograma descrita arriba debido al esquema de limitación del contraste impuesto. $CLAHE$ se desarrolló para prevenir la sobre-amplificación de ruido que se percibe en $AHE$.
 
-Éste problema se supera limitando la mejora del contraste realizada por $AHE$. La amplificación del contraste en la vecindad de un pixel de intensidad dada está relacionada a la pendiente de la función de transformación. Ésto significa que la amplificación es proporcional a la pendiente de la $CDF$ del vecindario y por tanto al valor del histograma a partir de ese valor de pixel. $CLAHE$ limita la amplificación recortando el histograma de acuerdo a un coeficiente predefinido, denominado \textit{Clip Limit} antes de computar el $C$$d$
+Éste problema se supera limitando la mejora del contraste realizada por $AHE$. La amplificación del contraste en la vecindad de un pixel de intensidad dada está relacionada a la pendiente de la función de transformación. Ésto significa que la amplificación es proporcional a la pendiente de la $CDF$ del vecindario y por tanto al valor del histograma a partir de ese valor de pixel. $CLAHE$ limita la amplificación recortando el histograma de acuerdo a un coeficiente predefinido, denominado \textit{Clip Limit} antes de computar el $CDF$. Ésto limita la pendiente del $CDF$ y por tanto la función de transformación.
+
+Es importante no descartar la parte del histograma que excede a \textit{Clip Limit} sino que se redistribuye de manera igualitaria entre todas las columnas del histograma, como se muestra en la Figura \ref{fig:redistclahe}.
+
+\begin{figure}[H]
+\centering
+    %\begin{subfigure}[t]{0.45\textwidth}
+    \begin{subfigure}[]{
+    \includegraphics[width=0.50\textwidth]{./Figures/495px-Clahe-redist.jpg}
+    }
+%        \caption{Imagen Original. $\mathscr{H_Y}=0.207231$, $SSIM_R=1$, $SSIM_G=1$, $SSIM_B=1$}
+%        \label{fig:cuborgb}
+\end{subfigure}
+\caption{Redistribución de niveles de intensidad dentro del histograma de una región de una imagen, como paso previo al cálculo del $CDF$. Ésto tiene como efecto la suaviación del proceso de mejora del contraste.}\label{fig:redistclahe}
+\end{figure}
+
 
 % Contrast Limited Adaptive Histogram Equalization (CLAHE) \cite{zuiderveld1994contrast} is a well known CE algorithm, designed for broad applicability in the context of digital image proccessing. CLAHE is a variation of the \textit{Adaptive Histogram Equalization (AHE)}\cite{pizer1987adaptive} CE algorithm. In AHE, an image is processed transforming each pixel using a function based on the histogram of its surrounding pixels, defined by a \textit{Contextual Region $(\mathscr{R}_x,\mathscr{R}_y)$}. CLAHE limits the CE by clipping the resultant histogram based in a coefficient called \textit{Clip Limit} $\mathscr{C}$
 

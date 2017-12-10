@@ -17,20 +17,21 @@
 \contentsline {section}{\numberline {2.2}Contrast Limited Adaptive Histogram Equalization (CLAHE)}{8}{section.2.2}
 \contentsline {subsection}{\numberline {2.2.1}Adaptive Histogram Equalization}{8}{subsection.2.2.1}
 \contentsline {subsubsection}{Propiedades de AHE}{8}{subsection.2.2.1}
-\contentsline {section}{\numberline {2.3}Espacios de Color Adoptados}{9}{section.2.3}
-\contentsline {subsection}{\numberline {2.3.1}Multi-Objective Particle Swarm Optimization (MOPSO)}{10}{subsection.2.3.1}
-\contentsline {subsection}{\numberline {2.3.2}Entrop\IeC {\'\i }a de la imagen}{11}{subsection.2.3.2}
-\contentsline {subsection}{\numberline {2.3.3}\IeC {\'I}ndice de Similaridad Estructural}{12}{subsection.2.3.3}
-\contentsline {chapter}{\numberline {3}FORMULACI\IeC {\'O}N DEL PROBLEMA PLANTEADO Y PROPUESTA}{13}{chapter.3}
-\contentsline {section}{\numberline {3.1}Formulaci\IeC {\'o}n del problema planteado}{13}{section.3.1}
-\contentsline {section}{\numberline {3.2}Propuesta}{14}{section.3.2}
-\contentsline {chapter}{\numberline {4}RESULTADOS Y DISCUSI\IeC {\'O}N}{16}{chapter.4}
-\contentsline {chapter}{\numberline {5}CONCLUSIONES Y TRABAJOS\\ FUTUROS}{20}{chapter.5}
-\contentsline {section}{\numberline {5.1}Trabajos futuros}{21}{section.5.1}
-\contentsline {chapter}{REFERENCIAS BIBLIOGR\IeC {\'A}FICAS}{22}{chapter*.17}
-\contentsline {section}{\numberline {.1}Imagen de prueba \texttt {calhouse\_230.jpg}}{25}{section.Alph0.1}
-\contentsline {section}{\numberline {.2}Imagen de prueba \texttt {calhouse\_231.jpg}}{35}{section.Alph0.2}
-\contentsline {section}{\numberline {.3}Imagen de prueba \texttt {calhouse\_233.jpg}}{46}{section.Alph0.3}
-\contentsline {section}{\numberline {.4}Imagen de prueba \texttt {calhouse\_234.jpg}}{57}{section.Alph0.4}
-\contentsline {section}{\numberline {.5}Imagen de prueba \texttt {calhouse\_236.jpg}}{68}{section.Alph0.5}
-\contentsline {section}{\numberline {.6}Imagen de prueba \texttt {calhouse\_237.jpg}}{79}{section.Alph0.6}
+\contentsline {subsection}{\numberline {2.2.2}Contrast Limited AHE}{9}{subsection.2.2.2}
+\contentsline {section}{\numberline {2.3}Espacios de Color Adoptados}{10}{section.2.3}
+\contentsline {subsection}{\numberline {2.3.1}Multi-Objective Particle Swarm Optimization (MOPSO)}{11}{subsection.2.3.1}
+\contentsline {subsection}{\numberline {2.3.2}Entrop\IeC {\'\i }a de la imagen}{12}{subsection.2.3.2}
+\contentsline {subsection}{\numberline {2.3.3}\IeC {\'I}ndice de Similaridad Estructural}{13}{subsection.2.3.3}
+\contentsline {chapter}{\numberline {3}FORMULACI\IeC {\'O}N DEL PROBLEMA PLANTEADO Y PROPUESTA}{14}{chapter.3}
+\contentsline {section}{\numberline {3.1}Formulaci\IeC {\'o}n del problema planteado}{14}{section.3.1}
+\contentsline {section}{\numberline {3.2}Propuesta}{15}{section.3.2}
+\contentsline {chapter}{\numberline {4}RESULTADOS Y DISCUSI\IeC {\'O}N}{17}{chapter.4}
+\contentsline {chapter}{\numberline {5}CONCLUSIONES Y TRABAJOS\\ FUTUROS}{21}{chapter.5}
+\contentsline {section}{\numberline {5.1}Trabajos futuros}{22}{section.5.1}
+\contentsline {chapter}{REFERENCIAS BIBLIOGR\IeC {\'A}FICAS}{23}{chapter*.18}
+\contentsline {section}{\numberline {.1}Imagen de prueba \texttt {calhouse\_230.jpg}}{26}{section.Alph0.1}
+\contentsline {section}{\numberline {.2}Imagen de prueba \texttt {calhouse\_231.jpg}}{36}{section.Alph0.2}
+\contentsline {section}{\numberline {.3}Imagen de prueba \texttt {calhouse\_233.jpg}}{47}{section.Alph0.3}
+\contentsline {section}{\numberline {.4}Imagen de prueba \texttt {calhouse\_234.jpg}}{58}{section.Alph0.4}
+\contentsline {section}{\numberline {.5}Imagen de prueba \texttt {calhouse\_236.jpg}}{69}{section.Alph0.5}
+\contentsline {section}{\numberline {.6}Imagen de prueba \texttt {calhouse\_237.jpg}}{80}{section.Alph0.6}
