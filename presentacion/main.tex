@@ -24,6 +24,8 @@
 \usepackage{adjustbox} % for \adjincludegraphics
 \usepackage{mathrsfs}  
 \usepackage{esvect}
+\usepackage{subcaption}
+% \usepackage[dvips]{graphicx}
 \usetheme{uniud}
 
 %%% Bibliography
@@ -45,9 +47,9 @@
 \title[Facultad Politécnica - UNA]{Contrast Enhancement of Color Images using a Multi-Objective Optimization Framework}
 \date[Oct 25, 2017]{Oct 25, 2017}
 \author[Luis G. Moré]{
-  Luis G. Moré
-  \pdfnewline
-  \texttt{lmore@pol.una.py}
+Luis G. Moré
+\pdfnewline
+\texttt{lmore@pol.una.py}
 }
 \institute{Facultad Politécnica - Universidad Nacional de Asunción}
 
@@ -71,9 +73,9 @@
 \end{column}
 \begin{column}{.7\textwidth}
 \begin{itemize}
-\item La mejora del contraste es un proceso de transformación de la imagen, con el objetivo de obtener una nueva imagen con un contraste más definido.
-\item Se busca obtener imágenes más aptas para algún proceso posterior.
-\item La mejora del contraste es un área de investigación atractiva en el procesamiento de imágenes.
+	\item La mejora del contraste es un proceso de transformación de la imagen, con el objetivo de obtener una nueva imagen con un contraste más definido.
+	\item Se busca obtener imágenes más aptas para algún proceso posterior.
+	\item La mejora del contraste es un área de investigación atractiva en el procesamiento de imágenes.
 \end{itemize}
 % \hfill-- Carl Friedrich Gauss
 \end{column}
@@ -91,10 +93,10 @@
 \end{column}
 \begin{column}{.7\textwidth}
 \begin{itemize}
-\item Una técnica importante para la Mejora del Contraste es la Ecualización del Histograma.
-\item Ésta técnica es directa y efectiva en el trabajo de Mejora del Contraste.
-\item Existen enfoques globales y locales de Ecualización del Histograma.
-\item Los enfoques locales son efectivos para el realce de detalles finos de la imagen digital.
+	\item Una técnica importante para la Mejora del Contraste es la Ecualización del Histograma.
+	\item Ésta técnica es directa y efectiva en el trabajo de Mejora del Contraste.
+	\item Existen enfoques globales y locales de Ecualización del Histograma.
+	\item Los enfoques locales son efectivos para el realce de detalles finos de la imagen digital.
 \end{itemize}
 % \hfill-- Carl Friedrich Gauss
 \end{column}
@@ -112,8 +114,8 @@
 \end{column}
 \begin{column}{.7\textwidth}
 \begin{itemize}
-\item En las imágenes digitales en escala de gris solamente es necesario considerar la información representada por los niveles de intensidad de los pixeles.
-\item En las imágenes a color, es necesario además tener en cuenta la información de color representada, lo cual representa un problema adicional en el proceso.
+	\item En las imágenes digitales en escala de gris solamente es necesario considerar la información representada por los niveles de intensidad de los pixeles.
+	\item En las imágenes a color, es necesario además tener en cuenta la información de color representada, lo cual representa un problema adicional en el proceso.
 \end{itemize}
 % \hfill-- Carl Friedrich Gauss
 \end{column}
@@ -131,8 +133,8 @@
 \end{column}
 \begin{column}{.7\textwidth}
 \begin{itemize}
-\item En éste trabajo se busca atacar el problema de la Mejora del Contraste de imágenes digitales a color con un enfoque de Optimización Multi-Objetivo aplicado sobre un algoritmo de Ecualización del Histograma bien conocido.
-\item Se busca obtener un balance entre el realce de detalles de la imagen digital y el mantenimiento de la información de brillo y de color.
+	\item En éste trabajo se busca atacar el problema de la Mejora del Contraste de imágenes digitales a color con un enfoque de Optimización Multi-Objetivo aplicado sobre un algoritmo de Ecualización del Histograma bien conocido.
+	\item Se busca obtener un balance entre el realce de detalles de la imagen digital y el mantenimiento de la información de brillo y de color.
 \end{itemize}
 % \hfill-- Carl Friedrich Gauss
 \end{column}
@@ -176,7 +178,7 @@
 \end{column}
 \begin{column}{.7\textwidth}
 \begin{itemize}
-\item Es necesario revisar dos partes:
+	\item Es necesario revisar dos partes:
 	\begin{itemize}
 		\item El proceso de Ecualización del Histograma,
 		\item La Meta-Heurística Aplicada.
@@ -198,8 +200,8 @@
 \end{column}
 \begin{column}{.7\textwidth}
 \begin{itemize}
-\item Se realiza una separación de la información de intensidad de la información de color para el proceso de ecualización del histograma.
-\item Se adoptaron representaciones de color bien conocidas para operar sobre la intensidad de la imagen digital:
+	\item Se realiza una separación de la información de intensidad de la información de color para el proceso de ecualización del histograma.
+	\item Se adoptaron representaciones de color bien conocidas para operar sobre la intensidad de la imagen digital:
 	\begin{itemize}
 		\item $RGB$ (\textit{Red, Green, Blue})
 		\item $YCbCr$
@@ -274,37 +276,37 @@ Otra ventaja importante es que la conversión a partir de $RGB$, y luego de vuel
 \end{exampleblock}
 \begin{equation}
 \begin{bmatrix}
-    Y \\
-    C_b \\
-    C_r 
+Y \\
+C_b \\
+C_r 
 \end{bmatrix} =
- \begin{bmatrix}
-    16  \\
-    128 \\
-    128
+\begin{bmatrix}
+16  \\
+128 \\
+128
 \end{bmatrix}
 +
- \begin{bmatrix}
-    65.481 & 128.553 & 24.966 \\
-    -37.797 & -74.203 & 112.000 \\
-    112.000 & -93.786 & -18.214 
+\begin{bmatrix}
+65.481 & 128.553 & 24.966 \\
+-37.797 & -74.203 & 112.000 \\
+112.000 & -93.786 & -18.214 
 \end{bmatrix}
 \begin{bmatrix}
-   R \\
-   G \\
-   B 
+R \\
+G \\
+B 
 \end{bmatrix}
 \end{equation}
 \begin{equation}
 \begin{bmatrix}
-    R \\
-    G \\
-    B 
+R \\
+G \\
+B 
 \end{bmatrix} =
- \begin{bmatrix}
-    Y + 1.402 \cdot (C_r - 128) \\
-    Y -0.34414 \cdot (C_b - 128) - 0.71414 \cdot (C_r - 128) \\
-    Y + 1.772 \cdot  (C_b - 128) 
+\begin{bmatrix}
+Y + 1.402 \cdot (C_r - 128) \\
+Y -0.34414 \cdot (C_b - 128) - 0.71414 \cdot (C_r - 128) \\
+Y + 1.772 \cdot  (C_b - 128) 
 \end{bmatrix}
 \end{equation}
 \centering
@@ -407,7 +409,7 @@ Cada partícula $\vv{x}$ realiza una búsqueda dentro de un espacio $\Omega$, y 
 Donde $\vv{v}$ se conoce como el factor de velocidad, y está dado por:
 
 \begin{equation}\label{eq:velocidad1}
- \vv{v}_i(t) = w \cdot (t-1) + C_1 \cdot r_1 \cdot (\vv{x}_{p_i} - \vv{x}_i) + C_2 \cdot r_2 \cdot (\vv{x}_{g_i} - \vv{x_i})
+\vv{v}_i(t) = w \cdot (t-1) + C_1 \cdot r_1 \cdot (\vv{x}_{p_i} - \vv{x}_i) + C_2 \cdot r_2 \cdot (\vv{x}_{g_i} - \vv{x_i})
 \end{equation}
 
 \end{exampleblock}
@@ -547,15 +549,17 @@ f(I,\vv{x}) = [f_1(I,\vv{x}),f_2(I,\vv{x}),f_3(I,\vv{x}),f_4(I,\vv{x})]; \qquad 
 \setlength{\abovecaptionskip}{2pt plus 3pt minus 2pt} % Chosen fairly arbitrarily
 \caption[Parámetros de entrada para $MOPSO$]{Parámetros iniciales para $CMOPSO-CLAHE$}
 \begin{center}
- \begin{tabular}{||c c | c c||} 
- \hline
- Parámetro & Valor & Parámetro & Valor \\ [0.5ex] 
- \hline\hline
- $lower\_limit_{\mathscr{R}_x}$ & $2$ & $upper\_limit_{\mathscr{R}_x}$ & $M/2$ \\ 
- \hline
- $lower\_limit_{\mathscr{R}_y}$ & $2$ & $upper\_limit_{\mathscr{R}_y}$ & $N/2$ \\  
- \hline
- $lower\_limit_{{\mathscr{C}}}$ & $0$ & $upper\_limit_{{\mathscr{C}}}$ & 0.5 \\
+\begin{tabular}{||c c | c c||} 
+\hline
+Parámetro & Valor & Parámetro & Valor \\ [0.5ex] 
+\hline\hline
+$M$ & $256$ & $N$ & $256$ \\ 
+\hline
+$lower\_limit_{\mathscr{R}_x}$ & $2$ & $upper\_limit_{\mathscr{R}_x}$ & $M/2$ \\ 
+\hline
+$lower\_limit_{\mathscr{R}_y}$ & $2$ & $upper\_limit_{\mathscr{R}_y}$ & $N/2$ \\  
+\hline
+$lower\_limit_{{\mathscr{C}}}$ & $0$ & $upper\_limit_{{\mathscr{C}}}$ & 0.5 \\
 \hline
 $\Omega$ & $100$ & $t_{max}$ & $100$ \\ 
 \hline
@@ -574,7 +578,163 @@ $r_2$ $min$ & 0.0 & $r_2$ $max$ & 1.0 \\
 
 \end{frame}
 
+\begin{frame}
+\frametitle{Resultados y discusión} 
+% \framesubtitle{And also some blocks.} 
 
+\begin{figure}[H]
+\centering
+\begin{subfigure}[t]{0.45\textwidth}
+\includegraphics[width=\textwidth]{graphics/calhouse_0230.jpg}
+\caption{Imagen Original. $\mathscr{H_Y}=0.207231$, $SSIM_R=1$, $SSIM_G=1$, $SSIM_B=1$}
+\label{fig:casa1original}
+\end{subfigure}
+    ~ %add desired spacing between images, e. g. ~, \quad, \qquad, \hfill etc. 
+      %(or a blank line to force the subfigure onto a new line)
+      \begin{subfigure}[t]{0.45\textwidth}
+      \includegraphics[width=\textwidth]{graphics/calhouse_0230_20-25165283474-10.jpg}
+      \caption{Imagen Contrastada utilizando $CMOPSO-CLAHE$. $\mathscr{H_Y}=0.611275$, $SSIM_R=0.00897331$, $SSIM_G=0.00823064$, $SSIM_B=0.00851013$}
+      \label{fig:casa1enhanced1}
+      \end{subfigure} \\
+    % ~ %add desired spacing between images, e. g. ~, \quad, \qquad, \hfill etc. 
+    % %(or a blank line to force the subfigure onto a new line)
+    % \begin{subfigure}[t]{0.45\textwidth}
+    %     \includegraphics[width=\textwidth]{graphics/calhouse_0230_20-62968204656-00.jpg}
+    %     \caption{Enhanced Image.  $\mathscr{H_Y}=0.0350595$, $SSIM_R=0.416776$, $SSIM_G=0.403636$, $SSIM_B=0.417654$}
+    %     \label{fig:casa1enhanced2}
+    % \end{subfigure} 
+    % \begin{subfigure}[t]{0.45\textwidth}
+    %     \includegraphics[width=\textwidth]{graphics/calhouse_0230_20-20-0020072469292179818.jpg}
+    %     \caption{Enhanced Image using \cite{morepso}. $\mathscr{H_Y}=0.788927$, $SSIM_R=0.000204143$, $SSIM_G=0.0000526475$, $SSIM_B=0.0000518143$}
+    %     \label{fig:casa1enhanced3}
+    % \end{subfigure}
+
+    \caption{Imágenes original y contrastadas para \texttt{calhouse\_230.jpg}}\label{fig:casa1}
+    \end{figure}
+
+    \end{frame}
+
+
+    \begin{frame}
+    \frametitle{Resultados y discusión} 
+% \framesubtitle{And also some blocks.} 
+
+\begin{figure}[H]
+\centering
+    % \begin{subfigure}[t]{0.45\textwidth}
+    %     \includegraphics[width=\textwidth]{graphics/calhouse_0230.jpg}
+    %     \caption{Original Image. $\mathscr{H_Y}=0.207231$, $SSIM_R=1$, $SSIM_G=1$, $SSIM_B=1$}
+    %     \label{fig:casa1original}
+    % \end{subfigure}
+    % ~ %add desired spacing between images, e. g. ~, \quad, \qquad, \hfill etc. 
+    %   %(or a blank line to force the subfigure onto a new line)
+    % \begin{subfigure}[t]{0.45\textwidth}
+    %     \includegraphics[width=\textwidth]{graphics/calhouse_0230_20-25165283474-10.jpg}
+    %     \caption{Enhanced Image. $\mathscr{H_Y}=0.611275$, $SSIM_R=0.00897331$, $SSIM_G=0.00823064$, $SSIM_B=0.00851013$}
+    %     \label{fig:casa1enhanced1}
+    % \end{subfigure} \\
+    ~ %add desired spacing between images, e. g. ~, \quad, \qquad, \hfill etc. 
+    %(or a blank line to force the subfigure onto a new line)
+    \begin{subfigure}[t]{0.45\textwidth}
+    \includegraphics[width=\textwidth]{graphics/calhouse_0230_20-62968204656-00.jpg}
+    \caption{Imagen contrastada utilizando $CMOPSO-CLAHE$.  $\mathscr{H_Y}=0.0350595$, $SSIM_R=0.416776$, $SSIM_G=0.403636$, $SSIM_B=0.417654$}
+    \label{fig:casa1enhanced2}
+    \end{subfigure} 
+    \begin{subfigure}[t]{0.45\textwidth}
+    \includegraphics[width=\textwidth]{graphics/calhouse_0230_20-20-0020072469292179818.jpg}
+    \caption{Imagen mejorada utilizando \cite{morepso}. $\mathscr{H_Y}=0.788927$, $SSIM_R=0.000204143$, $SSIM_G=0.0000526475$, $SSIM_B=0.0000518143$}
+    \label{fig:casa1enhanced3}
+    \end{subfigure}
+
+    \caption{Imágenes original y contrastadas para \texttt{calhouse\_230.jpg}}\label{fig:casa1}
+    \end{figure}
+
+    \end{frame}
+
+    \begin{frame}
+    \frametitle{Resultados y discusión} 
+% \framesubtitle{And also some blocks.} 
+\begin{exampleblock}{}
+
+\begin{itemize}
+	\item Se encontraron parámetros solución con la mejor relación contraste/distorsión
+	\item En promedio se encontraron 100 soluciones no dominadas por imagen.
+	\item La propuesta supera satisfactoriamente la etapa de prueba de concepto.
+	\item La propuesta muestra que los enfoques monoobjetivo son insuficientes para obtener todo el espectro de parámetros que proveen la mejor relación inversa contraste/distorsión.
+	\item La tabla de correlación de métricas sugiere que es posible realizar una implementación de mejora del contraste biobjetivo utilizando el canal de luminancia $Y$ de $YCbCr$
+\end{itemize}
+
+\end{exampleblock}
+
+\end{frame}
+
+\begin{frame}
+\frametitle{Resultados y discusión} 
+% \framesubtitle{And also some blocks.} 
+\begin{table}[H]
+\setlength{\abovecaptionskip}{2pt plus 3pt minus 2pt} % Chosen fairly arbitrarily
+\caption[Parámetros de entrada para $MOPSO$]{Tabla de análisis de correlación entre métricas.}
+\begin{center}
+\begin{tabular}{||c | c c c c||} 
+\hline
+Métricas & $\mathscr{H_Y}$ & $SSIM_R$ & $SSIM_G$ & $SSIM_B$ \\ 
+\hline
+$\mathscr{H_Y}$ & 1 &   &   &  \\ 
+\hline
+$SSIM_R$ & -0.9826  & 1 &  &  \\ 
+\hline
+$SSIM_G$ & -0.9823 & 0.9999   & 1   &  \\ 
+\hline
+$SSIM_B$ & -0.9826 & 0.9999   & 0.9999   & 1 \\ 
+\hline
+\end{tabular}
+\end{center}
+\label{table:correlacion}
+\end{table}
+
+\end{frame}
+
+
+\section{Conclusiones}
+
+\begin{frame}
+\frametitle{Conclusiones} 
+% \framesubtitle{And also some blocks.} 
+\begin{exampleblock}{}
+\begin{itemize}
+	\item La implementación propuesta demuestra ser satisfactoria para la realización de Mejora del Contraste Automática.
+	\item Se obtienen los parámetros con la mejor relación inversa entre contraste/distorsión.
+	\item La implementación es adecuada para la obtención de parámetros del algoritmo de mejora del contraste, aplicados sobre una imagen determinada.
+\end{itemize}
+\end{exampleblock}
+\end{frame}
+
+
+\section{Trabajos Futuros}
+
+\begin{frame}
+\frametitle{Trabajos futuros} 
+% \framesubtitle{And also some blocks.} 
+\begin{exampleblock}{}
+\begin{itemize}
+	\item Experimentar utilizando un enfoque de Mejora del Contraste de imágenes a color Biobjetivo basado en el canal de intensidades de alguna representación de color de imágenes digitales.
+	\item Experimentar la Mejora de Contraste basada en Metaheurísticas utilizando métricas más adecuadas para la medición de la información de color de la imagen.
+	\item Buscar mejoras en la eficiencia de los algoritmos de mejora de Contraste Basado en Metaheurísticas, en base a implementaciones de GPU, nuevas restricciones de las poblaciones de prueba, además de la cantidad de iteraciones impuestas a la metaheurística.
+\end{itemize}
+\end{exampleblock}
+\end{frame}
+
+\begin{frame}
+\frametitle{Trabajos futuros} 
+% \framesubtitle{And also some blocks.} 
+\begin{exampleblock}{}
+\begin{itemize}
+	\item Experimentar utilizando un enfoque de Mejora del Contraste de imágenes a color con metaheurísticas robustas.
+	\item Buscar implementaciones que eviten el ``efecto halo'' detectado en ciertas imágenes que se obtienen como resultado de la propuesta.
+	\item Buscar mejoras en la eficiencia de la implementación de La Mejora del Contraste basada en metaheurísticas, de manera a poder entrenar con imágenes de mayor tamaño.
+\end{itemize}
+\end{exampleblock}
+\end{frame}
 
 % \begin{frame}{Other blocks}
 
@@ -601,7 +761,6 @@ $r_2$ $min$ & 0.0 & $r_2$ $max$ & 1.0 \\
 
 % \end{frame}
 
-\section{Conclusions}
 % \begin{frame}[fragile]
 % \frametitle{Bibliography}
 
