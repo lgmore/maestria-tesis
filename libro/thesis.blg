@@ -9,22 +9,17 @@ A level-1 auxiliary file: symbols.aux
 A level-1 auxiliary file: abreviaturas.aux
 A level-1 auxiliary file: chap01.aux
 A level-1 auxiliary file: chap02.aux
-Case mismatch error between cite keys Gonzalez02a and gonzalez02a
----line 28 of file chap02.aux
- : \citation{Gonzalez02a
- :                      }
-I'm skipping whatever remains of this command
 A level-1 auxiliary file: chap03.aux
 A level-1 auxiliary file: chap04.aux
 A level-1 auxiliary file: chap05.aux
 The style file: alpha.bst
 A level-1 auxiliary file: AnexoA.aux
 Database file #1: referencias.bib
-Repeated entry---line 155 of file referencias.bib
+Repeated entry---line 154 of file referencias.bib
  : @inproceedings{zuiderveld1994contrast
  :                                      ,
 I'm skipping whatever remains of this entry
-You're missing a field name---line 226 of file referencias.bib
+You're missing a field name---line 225 of file referencias.bib
  :  
  :  %author        = "David MacKenzie",
 (Error may have been on previous line)
@@ -32,45 +27,45 @@ I'm skipping whatever remains of this entry
 Warning--to sort, need author, organization, or key in time
 Warning--empty journal in morepso
 Warning--empty year in morepso
-You've used 20 entries,
+You've used 22 entries,
             2543 wiz_defined-function locations,
-            697 strings with 8328 characters,
-and the built_in function-call counts, 8808 in all, are:
-= -- 876
-> -- 432
-< -- 12
-+ -- 153
-- -- 150
-* -- 651
-:= -- 1412
-add.period$ -- 61
-call.type$ -- 20
-change.case$ -- 134
-chr.to.int$ -- 19
-cite$ -- 24
-duplicate$ -- 344
-empty$ -- 640
-format.name$ -- 170
-if$ -- 1831
+            708 strings with 8687 characters,
+and the built_in function-call counts, 9923 in all, are:
+= -- 989
+> -- 470
+< -- 15
++ -- 166
+- -- 162
+* -- 724
+:= -- 1565
+add.period$ -- 67
+call.type$ -- 22
+change.case$ -- 146
+chr.to.int$ -- 21
+cite$ -- 26
+duplicate$ -- 396
+empty$ -- 734
+format.name$ -- 184
+if$ -- 2087
 int.to.chr$ -- 2
 int.to.str$ -- 0
-missing$ -- 19
-newline$ -- 101
-num.names$ -- 57
-pop$ -- 143
+missing$ -- 21
+newline$ -- 111
+num.names$ -- 63
+pop$ -- 158
 preamble$ -- 1
-purify$ -- 156
+purify$ -- 170
 quote$ -- 0
-skip$ -- 288
+skip$ -- 341
 stack$ -- 0
-substring$ -- 507
-swap$ -- 75
-text.length$ -- 12
+substring$ -- 596
+swap$ -- 98
+text.length$ -- 15
 text.prefix$ -- 5
 top$ -- 0
-type$ -- 152
+type$ -- 168
 warning$ -- 3
-while$ -- 80
-width$ -- 23
-write$ -- 255
-(There were 3 error messages)
+while$ -- 90
+width$ -- 25
+write$ -- 282
+(There were 2 error messages)

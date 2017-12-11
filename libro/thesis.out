@@ -15,19 +15,23 @@
 \BOOKMARK [2][-]{subsection.2.2.1}{Adaptive Histogram Equalization}{section.2.2}% 15
 \BOOKMARK [2][-]{subsection.2.2.2}{Contrast Limited AHE}{section.2.2}% 16
 \BOOKMARK [1][-]{section.2.3}{Espacios de Color Adoptados}{chapter.2}% 17
-\BOOKMARK [2][-]{subsection.2.3.1}{Multi-Objective Particle Swarm Optimization \(MOPSO\)}{section.2.3}% 18
-\BOOKMARK [2][-]{subsection.2.3.2}{Entrop\355a de la imagen}{section.2.3}% 19
-\BOOKMARK [2][-]{subsection.2.3.3}{\315ndice de Similaridad Estructural}{section.2.3}% 20
-\BOOKMARK [0][-]{chapter.3}{FORMULACI\323N DEL PROBLEMA PLANTEADO Y PROPUESTA}{}% 21
-\BOOKMARK [1][-]{section.3.1}{Formulaci\363n del problema planteado}{chapter.3}% 22
-\BOOKMARK [1][-]{section.3.2}{Propuesta}{chapter.3}% 23
-\BOOKMARK [0][-]{chapter.4}{RESULTADOS Y DISCUSI\323N}{}% 24
-\BOOKMARK [0][-]{chapter.5}{CONCLUSIONES Y TRABAJOS FUTUROS}{}% 25
-\BOOKMARK [1][-]{section.5.1}{Trabajos futuros}{chapter.5}% 26
-\BOOKMARK [0][-]{chapter*.18}{REFERENCIAS BIBLIOGR\301FICAS}{}% 27
-\BOOKMARK [1][-]{section.Alph0.1}{Imagen de prueba calhouse\137230.jpg}{chapter*.18}% 28
-\BOOKMARK [1][-]{section.Alph0.2}{Imagen de prueba calhouse\137231.jpg}{chapter*.18}% 29
-\BOOKMARK [1][-]{section.Alph0.3}{Imagen de prueba calhouse\137233.jpg}{chapter*.18}% 30
-\BOOKMARK [1][-]{section.Alph0.4}{Imagen de prueba calhouse\137234.jpg}{chapter*.18}% 31
-\BOOKMARK [1][-]{section.Alph0.5}{Imagen de prueba calhouse\137236.jpg}{chapter*.18}% 32
-\BOOKMARK [1][-]{section.Alph0.6}{Imagen de prueba calhouse\137237.jpg}{chapter*.18}% 33
+\BOOKMARK [2][-]{subsection.2.3.1}{El espacio de colores Red, Green, Blue}{section.2.3}% 18
+\BOOKMARK [2][-]{subsection.2.3.2}{El espacio de colores YCbCr}{section.2.3}% 19
+\BOOKMARK [1][-]{section.2.4}{Multi-Objective Particle Swarm Optimization \(MOPSO\)}{chapter.2}% 20
+\BOOKMARK [1][-]{section.2.5}{M\351tricas de Optimizaci\363n}{chapter.2}% 21
+\BOOKMARK [2][-]{subsection.2.5.1}{Entrop\355a de la imagen}{section.2.5}% 22
+\BOOKMARK [2][-]{subsection.2.5.2}{\315ndice de Similaridad Estructural}{section.2.5}% 23
+\BOOKMARK [0][-]{chapter.3}{FORMULACI\323N DEL PROBLEMA PLANTEADO Y PROPUESTA}{}% 24
+\BOOKMARK [1][-]{section.3.1}{Formulaci\363n del problema planteado}{chapter.3}% 25
+\BOOKMARK [1][-]{section.3.2}{Propuesta}{chapter.3}% 26
+\BOOKMARK [0][-]{chapter.4}{RESULTADOS Y DISCUSI\323N}{}% 27
+\BOOKMARK [1][-]{section.4.1}{Ambiente de Pruebas experimentales}{chapter.4}% 28
+\BOOKMARK [0][-]{chapter.5}{CONCLUSIONES Y TRABAJOS FUTUROS}{}% 29
+\BOOKMARK [1][-]{section.5.1}{Trabajos futuros}{chapter.5}% 30
+\BOOKMARK [0][-]{chapter*.21}{REFERENCIAS BIBLIOGR\301FICAS}{}% 31
+\BOOKMARK [1][-]{section.Alph0.1}{Imagen de prueba calhouse\137230.jpg}{chapter*.21}% 32
+\BOOKMARK [1][-]{section.Alph0.2}{Imagen de prueba calhouse\137231.jpg}{chapter*.21}% 33
+\BOOKMARK [1][-]{section.Alph0.3}{Imagen de prueba calhouse\137233.jpg}{chapter*.21}% 34
+\BOOKMARK [1][-]{section.Alph0.4}{Imagen de prueba calhouse\137234.jpg}{chapter*.21}% 35
+\BOOKMARK [1][-]{section.Alph0.5}{Imagen de prueba calhouse\137236.jpg}{chapter*.21}% 36
+\BOOKMARK [1][-]{section.Alph0.6}{Imagen de prueba calhouse\137237.jpg}{chapter*.21}% 37

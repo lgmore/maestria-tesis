@@ -47,6 +47,12 @@ A.~Khellaf, A.~Beghdadi, and H.~Dupoisot.
 \newblock Entropic contrast enhancement.
 \newblock {\em IEEE Transactions on Medical Imaging}, 10(4):589--592, Dec 1991.
 
+\bibitem[KE95]{488968}
+J.~Kennedy and R.~Eberhart.
+\newblock Particle swarm optimization.
+\newblock In {\em Neural Networks, 1995. Proceedings., IEEE International
+  Conference on}, volume~4, pages 1942--1948 vol.4, Nov 1995.
+
 \bibitem[Kim97]{580378}
 Yeong-Taeg Kim.
 \newblock Contrast enhancement using brightness preserving bi-histogram
@@ -100,6 +106,13 @@ F.~Saitoh.
 \newblock In {\em Systems, Man, and Cybernetics, 1999. IEEE SMC '99 Conference
   Proceedings. 1999 IEEE International Conference on}, volume~4, pages 899--904
   vol.4, 1999.
+
+\bibitem[SE98]{699146}
+Y.~Shi and R.~Eberhart.
+\newblock A modified particle swarm optimizer.
+\newblock In {\em 1998 IEEE International Conference on Evolutionary
+  Computation Proceedings. IEEE World Congress on Computational Intelligence
+  (Cat. No.98TH8360)}, pages 69--73, May 1998.
 
 \bibitem[tim]{time}
 {\em time(1) - Linux User's Manual}.

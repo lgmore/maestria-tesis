@@ -89,13 +89,13 @@ La Tabla \ref{tab:ejemploeqhistograma} muestra el proceso de ecualización de un
 
 La Figura \ref{fig:ejemploeqhistograma3} muestra una imagen sin procesar, con su correspondiente histograma y $CDF$ previos al proceso de ecualización; en la Figura \ref{fig:ejemploeqhistograma4} se muestra la imagen obtenida luego de aplicar el proceso de ecualización, y los correspondientes histograma y $CDF$ resultantes luego de éste proceso. 
 
-\section{Contrast Limited Adaptive Histogram Equalization (CLAHE)}
+\section{Contrast Limited Adaptive Histogram Equalization (CLAHE)}\label{sec:clahe}
 
 El algoritmo presentado en la sección anterior toma la imagen completa para realizar la tarea de ecualización del histograma. Ésto en general no es adecuado cuando se trabaja con imágenes cuyos detalles son cruciales para la posterior utilidad de la imagen transformada (imágenes aéreas, médicas, biométricas, y otras); es por éste motivo que se estudian (y en éste trabajo en particular se adoptan) algoritmos de mejora de contraste basados en ecualización del histograma por regiones, o algoritmos de ecualización locales.
 
 En particular, Contrast Limited Adaptive Histogram Equalization (CLAHE) \cite{zuiderveld1994contrast} es un algoritmo bien conocido para la Mejora del Contraste, diseñado para ser aplicado de manera amplia en el contexto del procesamiento digital de imágenes. CLAHE es una variación del algoritmo de Mejora del Contraste denominado \textit{Adaptive Histogram Equalization (AHE)} \cite{pizer1987adaptive}. Ambas técnicas se explican en las subsecciones siguientes debido a la cercanía existente por la similaridad en cuanto a la implementación.
 
-\subsection{Adaptive Histogram Equalization}
+\subsection{Adaptive Histogram Equalization}\label{sec:definicionclahe}
 
 El problema con la ecualización del histograma ordinaria, es que la imagen digital podría tener regines significativamente más oscuras o claras que el resto de la imagen, por lo que el contraste en esas regiones podría no mejorar significativamente.
 
@@ -133,9 +133,15 @@ Es importante no descartar la parte del histograma que excede a \textit{Clip Lim
 
 \section{Espacios de Color Adoptados}\label{sec:color_spaces}
 
-Los Espacios de Color \cite{Gonzalez02a} son representaciones de color de las imágenes digitales, que por lo general se aceptan mediante convención o por estándar de hecho. Por lo general, los Espacios de Color consisten en sistemas de coordenadas donde cada punto es un color representable dentro del Espacio.
+Los Espacios de Color \cite{gonzalez02a} son representaciones de color de las imágenes digitales, que por lo general se aceptan mediante convención o por estándar de hecho. Por lo general, los Espacios de Color consisten en sistemas de coordenadas donde cada punto es un color representable dentro del Espacio.
 
-El primer espacio importante a analizar en este trabajo es $RGB$ (del inglés $Red$, $Green$, $Blue$). En el modelo $RGB$, cada color aparece como un componente primario del $Rojo$, $Verde$ y $Azul$. Éste modelo sencillo se basa en el sistema de coordenadas Cartesianas. En la Figura \ref{fig:cuborgb} se pueden apreciar algunos colores notables representados en el espacio $RGB$: por ejemplo, el azul puro se representa como $(0,0,1)$, el verde puro como $(0,1,0)$ y el rojo puro como $(1,0,0)$; mientas que el negro se representa como $(0,0,0)$ y el blanco como $(1,1,1)$. Se puede apreciar la ventaja de usar ese sistema de representación de colores, el cual es sencillo. Se asume un sistema de coordenadas normalizado.
+En éste trabajo se utilizan dos espacios de color importantes dentro de la literatura, los cuales son analizados en las subsecciones siguientes: $RGB$ y $YCbCr$.
+
+\subsection{El espacio de colores \textit{Red, Green, Blue}} 
+
+El primer espacio importante a analizar en este trabajo es $RGB$ (del inglés $Red$, $Green$, $Blue$). $RGB$ es un modelo de color aditivo en el cual las luces de color $rojo$, $verde$, y $azul$ se agregan de varias maneras de forma a reproducir un conjunto amplio de clolores. El propósito principal de éste modelo es la percepción, representación y muestra de imágenes en sistemas electrónicos tales com televisores y computadoras, a pesar de que también se utilizó en la fotografía convencional.
+
+En el modelo $RGB$, cada color aparece como un componente primario del $Rojo$, $Verde$ y $Azul$. Éste modelo sencillo se basa en el sistema de coordenadas Cartesianas. En la Figura \ref{fig:cuborgb} se pueden apreciar algunos colores notables representados en el espacio $RGB$: por ejemplo, el azul puro se representa como $(0,0,1)$, el verde puro como $(0,1,0)$ y el rojo puro como $(1,0,0)$; mientas que el negro se representa como $(0,0,0)$ y el blanco como $(1,1,1)$. Se puede apreciar la ventaja de usar ese sistema de representación de colores, el cual es sencillo. Se asume un sistema de coordenadas normalizado.
 
 \begin{figure}[H]
 \centering
@@ -149,7 +155,11 @@ El primer espacio importante a analizar en este trabajo es $RGB$ (del inglés $R
 \caption{Diagrama esquemático del cubo que representa al espacio de colores $RGB$. Se pueden apreciar algunos colores notables.}\label{fig:cuborgb}
 \end{figure}
 
-En este trabajo, las imágenes originales se representan utilizando el espacio de colores $RGB$; en éste caso se tiene un arreglo de pixeles de color de tamaño $N \times M \times 3$. Cada pixel de color está representado por un elemento $[\begin{matrix}z_r & z_g & z_b\end{matrix}]$ del arreglo previamente mencionado, donde $z_r, z_g, z_b$ son los componentes rojo, verde y azul de un pixel de color en una ubicación específica. Las imágenes originales son luego transformadas al espacio de colores $YCbCr$ \cite{gonzalez2002processing}, el cual es una representación ampliamente utilizada en el video digital. La principal ventaja es que en esta representación $Y$ representa la información de luminancia de la imagen, mientras que el componente $Cb$ representa la diferencia entre el componente azul y un valor de referencia, mientras que el componente $Cr$ es la diferencia entre el componente rojo y un valor de referencia. Otra ventaja importante de ésta representación es que la conversión desde $RGB$, y nuevamente hacia $RGB$ es directa:
+En este trabajo, las imágenes originales se representan utilizando el espacio de colores $RGB$; en éste caso se tiene un arreglo de pixeles de color de tamaño $N \times M \times 3$. Cada pixel de color está representado por un elemento $[\begin{matrix}z_r & z_g & z_b\end{matrix}]$ del arreglo previamente mencionado, donde $z_r, z_g, z_b$ son los componentes rojo, verde y azul de un pixel de color en una ubicación específica. 
+
+\subsection{El espacio de colores $YCbCr$}
+
+Las imágenes originales son luego transformadas al espacio de colores $YCbCr$ \cite{gonzalez2002processing}, el cual es una representación ampliamente utilizada en el video digital. En esta representación $Y$ representa la información de luminancia de la imagen, mientras que el componente $Cb$ representa la diferencia entre el componente azul y un valor de referencia, mientras que el componente $Cr$ es la diferencia entre el componente rojo y un valor de referencia. Otra ventaja importante de ésta representación es que la conversión desde $RGB$, y nuevamente hacia $RGB$ es directa:
 
 \begin{equation}
 \begin{bmatrix}
@@ -186,6 +196,20 @@ Y -0.34414 \cdot (C_b - 128) - 0.71414 \cdot (C_r - 128) \\
 Y + 1.772 \cdot  (C_b - 128) 
 \end{bmatrix}
 \end{equation}
+
+En la Figura \ref{fig:ejemploycbcr} se muestra cómo se separan los planos de $Y$ (intensidad) de los planos de color $Cb$ y $Cr$ respectivamente. Ésta separación pone en evidencia la conveniencia de ésta representación de colores, considerando que utilizar un canal de intensidades es adecuado para el algoritmo de mejora de contraste descripto en la Sección \ref{sec:clahe}.
+\fboxrule=2pt
+\begin{figure}[H]
+\centering
+    %\begin{subfigure}[t]{0.45\textwidth}
+    % \begin{subfigure}[]{
+    \includegraphics[width=0.50\textwidth, frame]{./Figures/220px-Barns_grand_tetons_YCbCr_separation.jpg}
+    % }
+%        \caption{Imagen Original. $\mathscr{H_Y}=0.207231$, $SSIM_R=1$, $SSIM_G=1$, $SSIM_B=1$}
+%        \label{fig:cuborgb}
+% \end{subfigure}
+\caption{Imagen de ejemplo con las representaciones de intensidad ($Y$) y de color ($Cb,Cr$). Nótese que el mapa de intensidades $Y$ es una representación en escala de grises de la imagen digital.}\label{fig:ejemploycbcr}
+\end{figure}
 
 % Original images are represented using the $RGB$ color space \cite{gonzalez2002processing}, which is a $N \times M \times 3$  array of color pixels. Every color pixel is represented by an element $[\begin{matrix}z_r & z_g & z_b\end{matrix}]$ of the array previously mentioned, where $z_r, z_g, z_b$ are the red, green, and blue components of the color pixel in a specific location. Original images are then transformed to the $YCbCr$ color space \cite{gonzalez2002processing}, which is a representation widely used in digital video. The main advantage is that the $Y$ component here represents the luminance information of the image, meanwhile the $Cb$ component represents a difference between the blue component and a reference value, and the $Cr$ component is the difference between the red component and a reference value. Another important advantage of this representation is that the conversion from $RGB$, and back to $RGB$ is straightforward:
 
@@ -229,9 +253,18 @@ Y + 1.772 \cdot  (C_b - 128)
 
 
 
-\subsection{Multi-Objective Particle Swarm Optimization (MOPSO)}
+\section{Multi-Objective Particle Swarm Optimization (MOPSO)}
 
-Multi-Objective Particle Swarm Optimization ($MOPSO$) \cite{nebro2009smpso} es un algoritmo metaheurístico bien conocido. ES una metaheurística bio-inspirada que simula el comportamiento de las bandadas de pájaros. En $PSO$, cada solución potencial del problema que se trata se denomina \textit{particle} y la población actual de soluciones se llama \textit{swarm}. Cada partícula $\vv{x}$ realiza una búsqueda dentro de un espacio de búsqueda $\Omega$, y para cada generación $t$, cada solución $\vv{x}$ se actualiza de acuerdo a: 
+En este trabajo se aplica un enfoque Metaheurístico al problema de encontrar parámetros adecuados para el algoritmo de Mejora del Contraste, con miras a lograr una buena correlación entre objetivos de contraste y distorsión.
+
+
+\textit{Particle Swarm Optimization (PSO)} es una Metaheurística computacional que optimiza un problema buscando mejorar soluciones candidatas de manera iterativa, moviendo las partículas dentro de un espacio de búsqueda definido por los parámetros de entrada del algoritmo sobre el que se aplica, y moviendo las partículas de acuerdo a fórmulas matemáticas simples de velocidad y posición. 
+
+$PSO$ se atribuye originalmente a Kennedy, Eberhart y Shi \cite{488968,699146}
+
+En la Figura \ref{fig:comportamientopso} se puede ver como unas soluciones candidatas se mueven dentro de un espacio de búsqueda, de manera de optimizar un objetivo.
+
+En $PSO$, cada solución potencial del problema que se trata se denomina \textit{particle} y la población actual de soluciones se llama \textit{swarm}. Cada partícula $\vv{x}$ realiza una búsqueda dentro de un espacio de búsqueda $\Omega$, y para cada generación $t$, cada solución $\vv{x}$ se actualiza de acuerdo a: 
 
 
 \begin{equation}\label{eq:posicion1}
@@ -252,11 +285,83 @@ Aquí, $\vv{v}$ es un factor conocido como la velocidad, y está dado por:
 
 donde $\vv{x}_{p_i}$ es la mejor solución que $\vv{x}_i$ encontró hasta ahora, $\vv{x}_{g_i}$ es la mejor solución que el enjambre completo encontró durante una iteración, $w$ es un coeficiente conocido como el \textit{peso de la inercia}, que controla la tasa de velocidad de la búsquda de $PSO$; $r_1$ y $r_2$ son números aleatorios entre $[0,1]$. Finalmente, $C_1$ Y $C_2$ son los coeficientes que controlan la ponderación entre partículas globales y locales durante la búsqueda.
 
-En $MOPSO$, un \textit{coeficiente de constricción} $\chi$ se adopta de manera a controlar la velocidad de la partícula, como se describe abajo:
+
+Multi-Objective Particle Swarm Optimization ($MOPSO$) \cite{nebro2009smpso} es la versión de $PSO$ para enfoques de optimización con más de un objetivo. Se añaden determinadas características para lograr cierta eficiencia durante el proceso de optimización definido arriba, y se basa en el concepto de \textit{Dominancia Pareto} para determinar las soluciones que se proponen como óptimas en el contexto de optimización Multi-Objetivo.
+
+En $MOPSO$ se añaden algunas características a $PSO$, a saber: un \textit{coeficiente de constricción} $\chi$ se adopta de manera a controlar la velocidad de la partícula, como se describe abajo:
 
 \begin{equation}
 \chi = \frac{2}{2 - \varphi - \sqrt{\varphi^2 - 4 \varphi}}
 \end{equation}
+
+\begin{figure}[tbh]
+\centering
+    %\begin{subfigure}[t]{0.45\textwidth}
+    \begin{subfigure}[]{
+    \includegraphics[width=0.45\textwidth]{./Figures/ejemplopso/capas-0.png}
+    }
+%        \caption{Imagen Original. $\mathscr{H_Y}=0.207231$. $SSIM_R=1$. $SSIM_G=1$. $SSIM_B=1$}
+\end{subfigure}
+    ~ %add desired spacing between images. e. g. ~. \quad. \qquad. \hfill etc. 
+      %(or a blank line to force the subfigure onto a new line)
+      \begin{subfigure}[]{
+      \includegraphics[width=0.45\textwidth]{./Figures/ejemplopso/capas-8.png}   
+      }
+    %\begin{subfigure}[t]{0.45\textwidth}
+%        \caption{Enhanced Image. $\mathscr{H_Y}=0.611275$. $SSIM_R=0.00897331$. $SSIM_G=0.00823064$. $SSIM_B=0.00851013$}
+\end{subfigure}
+    ~ %add desired spacing between images. e. g. ~. \quad. \qquad. \hfill etc. 
+    %(or a blank line to force the subfigure onto a new line)
+    \begin{subfigure}[]{
+    \includegraphics[width=0.45\textwidth]{./Figures/ejemplopso/capas-21.png}
+    }
+    % \begin{subfigure}[t]{0.45\textwidth}
+%        \caption{Enhanced Image.  $\mathscr{H_Y}=0.0350595$. $SSIM_R=0.416776$. $SSIM_G=0.403636$. $SSIM_B=0.417654$}
+\end{subfigure} 
+\begin{subfigure}[]{
+\includegraphics[width=0.45\textwidth]{./Figures/ejemplopso/capas-42.png}
+}
+    % \begin{subfigure}[t]{0.45\textwidth}
+        %\caption{Enhanced Image using \cite{morepso}. $\mathscr{H_Y}=0.788927$. $SSIM_R=0.000204143$. $SSIM_G=0.0000526475$. $SSIM_B=0.0000518143$}
+        \label{fig:calhouse23129}
+        \end{subfigure}
+    ~ %add desired spacing between images. e. g. ~. \quad. \qquad. \hfill etc. 
+    %(or a blank line to force the subfigure onto a new line)
+    \begin{subfigure}[]{
+    \includegraphics[width=0.45\textwidth]{./Figures/ejemplopso/capas-75.png}
+    }
+    % \begin{subfigure}[t]{0.45\textwidth}
+%        \caption{Enhanced Image.  $\mathscr{H_Y}=0.0350595$. $SSIM_R=0.416776$. $SSIM_G=0.403636$. $SSIM_B=0.417654$}
+\label{fig:calhouse231102}
+\end{subfigure} 
+\begin{subfigure}[Imagen Original]{
+\includegraphics[width=0.45\textwidth]{./Figures/ejemplopso/capas-79.png}
+}
+    % \begin{subfigure}[t]{0.45\textwidth}
+        %\caption{Enhanced Image using \cite{morepso}. $\mathscr{H_Y}=0.788927$. $SSIM_R=0.000204143$. $SSIM_G=0.0000526475$. $SSIM_B=0.0000518143$}
+        \label{fig:calhouse233orig}
+        \end{subfigure}
+\begin{subfigure}[]{
+\includegraphics[width=0.45\textwidth]{./Figures/ejemplopso/capas-95.png}
+}
+    % \begin{subfigure}[t]{0.45\textwidth}
+        %\caption{Enhanced Image using \cite{morepso}. $\mathscr{H_Y}=0.788927$. $SSIM_R=0.000204143$. $SSIM_G=0.0000526475$. $SSIM_B=0.0000518143$}
+        \label{fig:calhouse23129}
+        \end{subfigure}
+    ~ %add desired spacing between images. e. g. ~. \quad. \qquad. \hfill etc. 
+    %(or a blank line to force the subfigure onto a new line)
+    \begin{subfigure}[]{
+    \includegraphics[width=0.45\textwidth]{./Figures/ejemplopso/capas-99.png}
+    }
+    % \begin{subfigure}[t]{0.45\textwidth}
+%        \caption{Enhanced Image.  $\mathscr{H_Y}=0.0350595$. $SSIM_R=0.416776$. $SSIM_G=0.403636$. $SSIM_B=0.417654$}
+\label{fig:calhouse231102}
+\end{subfigure}
+        \caption{Comportamiento de partículas en $PSO$ monobjetivo a través de la serie de iteraciones.}
+        \label{fig:comportamientopso}
+\end{figure}
+
+
 
 %Here, $\vv{v}$ is a factor known as the velocity, and is given by:
 
@@ -307,6 +412,7 @@ donde
 delta_j=\frac{upper\_limit_j - lower\_limit_j}{2}
 \end{equation}
 
+\section{Métricas de Optimización}
 
 \subsection{Entropía de la imagen}
 %\subsection{Entropy of image}
@@ -331,6 +437,16 @@ donde $N$ es la suma total de pixeles mostrados en una imagen $I$ y $n$ es cada 
 \mathscr{H}= -\sum_{i=0}^{n-1} p_i \text{log}_2(p_i) \qquad \mathscr{H} \in \{0,...,\text{log}_2(n)\}
 \end{equation}
 
+\begin{figure}[H]
+\centering
+    %\begin{subfigure}[t]{0.45\textwidth}
+    % \begin{subfigure}[]{
+    \includegraphics[width=0.85\textwidth]{./Figures/lennaejemplo.jpg}
+    % }
+        \caption{Datos de $\mathscr{H}$ para una imagen de ejemplo. A la derecha $\mathscr{H}$, a la izquierda $\mathscr{H}=$}
+        \label{fig:lenaejemploentropia}
+\end{figure}
+
 \subsection{Índice de Similaridad Estructural}
 
 El \textit{Índice de Similaridad Estructural} ($SSIM$) \cite{wang2004image} es una métrica bien conocida que mide atributos importantes de la imagen tales como la \textit{Luminancia, Contraste}y la \textit{Estructura}. $SSIM$ tiene como objetivo principal medir la distorsión agregada a la imagen como consecuencia del proceso de Mejora del Contraste. $SSIM$ es calculado por regiones, por lo tanto, dadas dos imágenes $I_x$ y $T_y$ que representan una imagen original y una mejorada, respectivamente, el índice $SSIM$ se define como se muestra abajo: 
@@ -342,6 +458,17 @@ SSIM(I,T) = \frac{(2\mu_{I_x} \mu_{T_y}+E_1)(2\sigma_{I_xT_y}+E_2)}{(\mu^2_{I_x}
 \end{equation}
 
 donde $\mu_{I_x}$, $\mu_{T_y}$ son los promedios de intensidad de $I_x$ y $T_y$, respectivamente; $\sigma^2_{I_x}$ y $\sigma^2_{T_y}$ son las varianzas de intensidad para $I_x$ y $T_y$, respectivamente; $\sigma_{I_xT_y}$ es la covarianza entre las intensidades $I_x$ y $T_y$. $E_1=(K_1L^2)$, donde $L$ es el rango dinámico de intensidades de los pixeles de la imagen, y $K_1 \ll 1$ es una constante pequeña; $E_2=(K_2L)^2$, y $K_2 \ll 1$; tanto $E_1$ como $E_2$ son constantes utilizadas para estabilizar la división cuando el denominador se acerca a cero.
+
+\begin{figure}[H]
+\centering
+    %\begin{subfigure}[t]{0.45\textwidth}
+    % \begin{subfigure}[]{
+    \includegraphics[width=0.85\textwidth]{./Figures/lennaejemplo.jpg}
+    % }
+        \caption{Datos de $SSIM$ para una imagen de ejemplo. A la derecha $SSIM$, a la izquierda $SSIM$}
+        \label{fig:lenaejemploSSIM}
+\end{figure}
+
 
 %where $\mu_{I_x}$, $\mu_{T_y}$ is the intensity averages of $I_x$ and $T_y$, respectively; $\sigma^2_{I_x}$ and  $\sigma^2_{T_y}$ are the intensity variances for $I_x$ and $T_y$, respectively; $\sigma_{I_xT_y}$ is the covariance between $I_x$ and $T_y$ intensities. $E_1=(K_1L^2)$, where $L$ is the dynamic range of intensities of image's pixels, and $K_1 \ll 1$ is a small constant; $E_2=(K_2L)^2$, and $K_2 \ll 1$; both $E_1$ and $E_2$ are constants used to stabilize division when denominator is close to zero.
 
