@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2017.11.3)  11 DEC 2017 21:05
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2017.11.3)  12 DEC 2017 15:23
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -241,8 +241,8 @@ Package: titlesec 2016/03/21 v2.10.2 Sectioning titles
 Package: babel 2017/06/29 3.12 The Babel package
 (/usr/share/texlive/texmf-dist/tex/generic/babel/switch.def
 File: switch.def 2017/06/29 3.12 Babel switching mechanism
-) (/usr/share/texlive/texmf-dist/tex/generic/babel-english/english.ldf
-Language: english 2017/06/06 v3.3r English support from the babel system
+) (/usr/share/texlive/texmf-dist/tex/generic/babel-spanish/spanish.ldf
+Language: spanish.ldf 2016/03/03 v5.0p Spanish support from the babel system
 (/usr/share/texlive/texmf-dist/tex/generic/babel/babel.def
 File: babel.def 2017/06/29 3.12 Babel common definitions
 (/usr/share/texlive/texmf-dist/tex/generic/babel/switch.def
@@ -251,17 +251,17 @@ File: switch.def 2017/06/29 3.12 Babel switching mechanism
 \babel@savecnt=\count106
 \U@D=\dimen130
 )
-\l@canadian = a dialect from \language\l@american 
-\l@australian = a dialect from \language\l@british 
-\l@newzealand = a dialect from \language\l@british 
-) (/usr/share/texlive/texmf-dist/tex/generic/babel-spanish/spanish.ldf
-Language: spanish.ldf 2016/03/03 v5.0p Spanish support from the babel system
 \es@quottoks=\toks20
 \es@quotdepth=\count107
 Package babel Info: Making " an active character on input line 561.
 Package babel Info: Making . an active character on input line 662.
 Package babel Info: Making < an active character on input line 707.
 Package babel Info: Making > an active character on input line 707.
+) (/usr/share/texlive/texmf-dist/tex/generic/babel-english/english.ldf
+Language: english 2017/06/06 v3.3r English support from the babel system
+\l@canadian = a dialect from \language\l@american 
+\l@australian = a dialect from \language\l@british 
+\l@newzealand = a dialect from \language\l@british 
 )) (/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
 Package: inputenc 2015/03/17 v1.2c Input encoding file
 \inpenc@prehook=\toks21
@@ -1205,6 +1205,114 @@ zlibraryspy.code.tex
 File: tikzlibraryspy.code.tex 2011/05/19 v3.0.1a (rcs-revision 1.4)
 \tikz@lib@spybox=\box76
 )
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibraryarrows.code.tex
+File: tikzlibraryarrows.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.code.
+tex
+File: pgflibraryarrows.code.tex 2013/09/23 v3.0.1a (rcs-revision 1.16)
+\arrowsize=\dimen287
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibraryshapes.code.tex
+File: tikzlibraryshapes.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibraryshapes.geometric.code.tex
+File: tikzlibraryshapes.geometric.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1
+)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshape
+s.geometric.code.tex
+File: pgflibraryshapes.geometric.code.tex 2008/06/26 v3.0.1a (rcs-revision 1.1)
+
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibraryshapes.misc.code.tex
+File: tikzlibraryshapes.misc.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshape
+s.misc.code.tex
+File: pgflibraryshapes.misc.code.tex 2013/07/18 v3.0.1a (rcs-revision 1.5)
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibraryshapes.symbols.code.tex
+File: tikzlibraryshapes.symbols.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshape
+s.symbols.code.tex
+File: pgflibraryshapes.symbols.code.tex 2013/09/11 v3.0.1a (rcs-revision 1.6)
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibraryshapes.arrows.code.tex
+File: tikzlibraryshapes.arrows.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshape
+s.arrows.code.tex
+File: pgflibraryshapes.arrows.code.tex 2008/06/26 v3.0.1a (rcs-revision 1.1)
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibraryshapes.callouts.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshape
+s.callouts.code.tex))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibraryshapes.multipart.code.tex
+File: tikzlibraryshapes.multipart.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1
+)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshape
+s.multipart.code.tex
+File: pgflibraryshapes.multipart.code.tex 2010/01/07 v3.0.1a (rcs-revision 1.2)
+
+\pgfnodepartlowerbox=\box77
+\pgfnodeparttwobox=\box78
+\pgfnodepartthreebox=\box79
+\pgfnodepartfourbox=\box80
+\pgfnodeparttwentybox=\box81
+\pgfnodepartnineteenbox=\box82
+\pgfnodeparteighteenbox=\box83
+\pgfnodepartseventeenbox=\box84
+\pgfnodepartsixteenbox=\box85
+\pgfnodepartfifteenbox=\box86
+\pgfnodepartfourteenbox=\box87
+\pgfnodepartthirteenbox=\box88
+\pgfnodeparttwelvebox=\box89
+\pgfnodepartelevenbox=\box90
+\pgfnodeparttenbox=\box91
+\pgfnodepartninebox=\box92
+\pgfnodeparteightbox=\box93
+\pgfnodepartsevenbox=\box94
+\pgfnodepartsixbox=\box95
+\pgfnodepartfivebox=\box96
+)))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarypositioning.code.tex
+File: tikzlibrarypositioning.code.tex 2008/10/06 v3.0.1a (rcs-revision 1.7)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarycalc.code.tex
+File: tikzlibrarycalc.code.tex 2013/07/15 v3.0.1a (rcs-revision 1.9)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarydecorations.markings.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarydecorations.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduledecorations.cod
+e.tex
+\pgfdecoratedcompleteddistance=\dimen288
+\pgfdecoratedremainingdistance=\dimen289
+\pgfdecoratedinputsegmentcompleteddistance=\dimen290
+\pgfdecoratedinputsegmentremainingdistance=\dimen291
+\pgf@decorate@distancetomove=\dimen292
+\pgf@decorate@repeatstate=\count178
+\pgfdecorationsegmentamplitude=\dimen293
+\pgfdecorationsegmentlength=\dimen294
+)
+\tikz@lib@dec@box=\box97
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrary
+decorations.markings.code.tex))
 \@labfile=\write5
 \openout5 = `thesis.abx'.
 
@@ -1213,17 +1321,16 @@ Writing index of abbreviations file thesis.abx
 \openout6 = `thesis.syx'.
 
 Writing index of symbols file thesis.syx
-(/home/lg_more/github/maestria-tesis/libro/thesis.aux
-LaTeX Info: Redefining \. on input line 25.
-LaTeX Info: Redefining \% on input line 25.
-(/home/lg_more/github/maestria-tesis/libro/dedicatoria.aux) (/home/lg_more/gith
-ub/maestria-tesis/libro/agradecimientos.aux) (/home/lg_more/github/maestria-tes
-is/libro/resumen.aux) (/home/lg_more/github/maestria-tesis/libro/abstract.aux
-LaTeX Info: Redefining \. on input line 7.
-LaTeX Info: Redefining \% on input line 7.
-) (/home/lg_more/github/maestria-tesis/libro/symbols.aux) (/home/lg_more/github
-/maestria-tesis/libro/abreviaturas.aux) (/home/lg_more/github/maestria-tesis/li
-bro/chap01.aux) (/home/lg_more/github/maestria-tesis/libro/chap02.aux
+(/home/lg_more/github/maestria-tesis/libro/thesis.aux (/home/lg_more/github/mae
+stria-tesis/libro/dedicatoria.aux) (/home/lg_more/github/maestria-tesis/libro/a
+gradecimientos.aux) (/home/lg_more/github/maestria-tesis/libro/resumen.aux) (/h
+ome/lg_more/github/maestria-tesis/libro/abstract.aux) (/home/lg_more/github/mae
+stria-tesis/libro/symbols.aux) (/home/lg_more/github/maestria-tesis/libro/abrev
+iaturas.aux) (/home/lg_more/github/maestria-tesis/libro/chap01.aux) (/home/lg_m
+ore/github/maestria-tesis/libro/chap02.aux
+
+LaTeX Warning: Label `symbol:ssimsigmat' multiply defined.
+
 
 LaTeX Warning: Label `fig:calhouse23129' multiply defined.
 
@@ -1267,39 +1374,39 @@ LaTeX Warning: Label `fig:calhouse233orig' multiply defined.
 ))
 \openout1 = `thesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 63.
-LaTeX Font Info:    ... okay on input line 63.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 63.
-LaTeX Font Info:    ... okay on input line 63.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 63.
-LaTeX Font Info:    ... okay on input line 63.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 63.
-LaTeX Font Info:    ... okay on input line 63.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 63.
-LaTeX Font Info:    ... okay on input line 63.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 63.
-LaTeX Font Info:    ... okay on input line 63.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 63.
-LaTeX Font Info:    ... okay on input line 63.
-LaTeX Font Info:    Try loading font information for OT1+lmr on input line 63.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 66.
+LaTeX Font Info:    ... okay on input line 66.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 66.
+LaTeX Font Info:    ... okay on input line 66.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 66.
+LaTeX Font Info:    ... okay on input line 66.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 66.
+LaTeX Font Info:    ... okay on input line 66.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 66.
+LaTeX Font Info:    ... okay on input line 66.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 66.
+LaTeX Font Info:    ... okay on input line 66.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 66.
+LaTeX Font Info:    ... okay on input line 66.
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 66.
 (/usr/share/texmf/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             https://www.ctan.org/pkg/pageslts
-(lastpage)             ! on input line 63.
-\AtBeginShipoutBox=\box77
-Package hyperref Info: Link coloring OFF on input line 63.
+(lastpage)             ! on input line 66.
+\AtBeginShipoutBox=\box98
+Package hyperref Info: Link coloring OFF on input line 66.
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count178
+\c@section@level=\count179
 )
-LaTeX Info: Redefining \ref on input line 63.
-LaTeX Info: Redefining \pageref on input line 63.
-LaTeX Info: Redefining \nameref on input line 63.
+LaTeX Info: Redefining \ref on input line 66.
+LaTeX Info: Redefining \pageref on input line 66.
+LaTeX Info: Redefining \nameref on input line 66.
 (/home/lg_more/github/maestria-tesis/libro/thesis.out) (/home/lg_more/github/ma
 estria-tesis/libro/thesis.out)
 \@outlinefile=\write7
@@ -1307,16 +1414,16 @@ estria-tesis/libro/thesis.out)
 
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count179
-\scratchdimen=\dimen287
-\scratchbox=\box78
-\nofMPsegments=\count180
-\nofMParguments=\count181
+\scratchcounter=\count180
+\scratchdimen=\dimen295
+\scratchbox=\box99
+\nofMPsegments=\count181
+\nofMParguments=\count182
 \everyMPshowfont=\toks54
-\MPscratchCnt=\count182
-\MPscratchDim=\dimen288
-\MPnumerator=\count183
-\makeMPintoPDFobject=\count184
+\MPscratchCnt=\count183
+\MPscratchDim=\dimen296
+\MPnumerator=\count184
+\makeMPintoPDFobject=\count185
 \everyMPtoPDFconversion=\toks55
 )
 *geometry* detected driver: pdftex
@@ -1353,8 +1460,6 @@ estria-tesis/libro/thesis.out)
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Info: Redefining \. on input line 63.
-LaTeX Info: Redefining \% on input line 63.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: longtable package is loaded.
 (/usr/share/texlive/texmf-dist/tex/latex/caption/ltcaption.sty
@@ -1362,17 +1467,17 @@ Package: ltcaption 2013/06/09 v1.4-94 longtable captions (AR)
 )
 Package caption Info: End \AtBeginDocument code.
 ABD: EveryShipout initializing macros
-Package hyperref Info: Option `breaklinks' set `true' on input line 108.
-Package hyperref Info: Option `raiselinks' set `true' on input line 108.
-Package hyperref Info: Option `pageanchor' set `true' on input line 108.
+Package hyperref Info: Option `breaklinks' set `true' on input line 111.
+Package hyperref Info: Option `raiselinks' set `true' on input line 111.
+Package hyperref Info: Option `pageanchor' set `true' on input line 111.
 <./Figures/logo-pol.png, id=155, 150.5625pt x 224.84pt>
 File: ./Figures/logo-pol.png Graphic file (type png)
 <use ./Figures/logo-pol.png>
-Package pdftex.def Info: ./Figures/logo-pol.png  used on input line 108. on inp
-ut line 108.
+Package pdftex.def Info: ./Figures/logo-pol.png  used on input line 111. on inp
+ut line 111.
 Package pdftex.def Info: Requested size: 85.35826pt x 127.47397pt on input line
- 108.
-LaTeX Font Info:    Try loading font information for OT1+lmss on input line 108
+ 111.
+LaTeX Font Info:    Try loading font information for OT1+lmss on input line 111
 .
 (/usr/share/texmf/tex/latex/lm/ot1lmss.fd
 File: ot1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
@@ -1381,7 +1486,7 @@ msy.fd) (/usr/share/texmf/tex/latex/lm/omxlmex.fd) (/usr/share/texlive/texmf-di
 st/tex/latex/amsfonts/umsa.fd) (/usr/share/texlive/texmf-dist/tex/latex/amsfont
 s/umsb.fd) (/usr/share/texlive/texmf-dist/tex/latex/jknapltx/ursfs.fd) (/usr/sh
 are/texlive/texmf-dist/tex/latex/esvect/uesvect.fd)
-Overfull \hbox (17.62482pt too wide) in paragraph at lines 108--108
+Overfull \hbox (17.62482pt too wide) in paragraph at lines 111--111
 []$[]$ 
  []
 
@@ -1418,7 +1523,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 (/home/lg_more/github/maestria-tesis/libro/resumen.tex
 Underfull \hbox (badness 10000) in paragraph at lines 1--1
-[]|\OT1/lmr/m/n/12 Luis Gui-ller-mo Mor^^Se
+[]|\OT1/lmr/m/n/12 Luis Guillermo Mor^^Se
  []
 
 ) [6
@@ -1428,39 +1533,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 1--1
 ]
 \openout2 = `abstract.aux'.
 
-(/home/lg_more/github/maestria-tesis/libro/abstract.tex
-LaTeX Info: Redefining \. on input line 13.
-LaTeX Info: Redefining \% on input line 13.
-) [7
+(/home/lg_more/github/maestria-tesis/libro/abstract.tex) [7
 
 
 
-] (/home/lg_more/github/maestria-tesis/libro/thesis.toc
-LaTeX Info: Redefining \. on input line 1.
-LaTeX Info: Redefining \% on input line 1.
-LaTeX Info: Redefining \. on input line 3.
-LaTeX Info: Redefining \% on input line 3.
-
-LaTeX Font Warning: Font shape `OT1/lmr/bx/sc' undefined
-(Font)              using `OT1/lmr/bx/n' instead on input line 4.
-
-
-Package spanish Warning: Replacing `OT1/lmr/bx/sc' by 
-(spanish)                faked small caps on input line 4.
-
-
-Package spanish Warning: Replacing `OT1/lmr/bx/sc' by 
-(spanish)                faked small caps on input line 5.
-
-
-Package spanish Warning: Replacing `OT1/lmr/bx/sc' by 
-(spanish)                faked small caps on input line 6.
-
-
-Package spanish Warning: Replacing `OT1/lmr/bx/sc' by 
-(spanish)                faked small caps on input line 7.
-
-[8
+] (/home/lg_more/github/maestria-tesis/libro/thesis.toc [8
 
 
 ]
@@ -1473,14 +1550,9 @@ File: ot1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 \openout8 = `thesis.toc'.
 
 [9] (/home/lg_more/github/maestria-tesis/libro/thesis.lof
-LaTeX Info: Redefining \. on input line 1.
-LaTeX Info: Redefining \% on input line 1.
-LaTeX Info: Redefining \. on input line 3.
-LaTeX Info: Redefining \% on input line 3.
-
 Overfull \hbox (8.64922pt too wide) in paragraph at lines 32--32
- [][] [][]\OT1/lmr/m/n/12 Im^^Sage-nes ori-gi-nal y re-sul-tan-tes pa-ra la ima
--gen de prue-ba \OT1/lmtt/m/n/12 calhouse[]- 
+ [][] [][]\OT1/lmr/m/n/12 Im^^Sagenes orig-i-nal y re-sul-tantes para la im-a-g
+en de prueba \OT1/lmtt/m/n/12 calhouse[]- 
  []
 
 [10
@@ -1489,12 +1561,7 @@ Overfull \hbox (8.64922pt too wide) in paragraph at lines 32--32
 \tf@lof=\write9
 \openout9 = `thesis.lof'.
 
-[11] [12] (/home/lg_more/github/maestria-tesis/libro/thesis.lot
-LaTeX Info: Redefining \. on input line 1.
-LaTeX Info: Redefining \% on input line 1.
-LaTeX Info: Redefining \. on input line 3.
-LaTeX Info: Redefining \% on input line 3.
-)
+[11] [12] (/home/lg_more/github/maestria-tesis/libro/thesis.lot)
 \tf@lot=\write10
 \openout10 = `thesis.lot'.
 
@@ -1505,149 +1572,82 @@ LaTeX Info: Redefining \% on input line 3.
 
 (/home/lg_more/github/maestria-tesis/libro/symbols.tex
 
-LaTeX Warning: Reference `symbol:hfk' on page \es@scroman {xiv} undefined on in
-put line 25.
-
-
-LaTeX Warning: Reference `symbol:nj' on page \es@scroman {xiv} undefined on inp
-ut line 26.
-
-
-LaTeX Warning: Reference `symbol:se' on page \es@scroman {xiv} undefined on inp
-ut line 27.
-
-
-LaTeX Warning: Reference `symbol:uv' on page \es@scroman {xiv} undefined on inp
-ut line 28.
-
-
-LaTeX Warning: Reference `symbol:st' on page \es@scroman {xiv} undefined on inp
-ut line 29.
-
-
-LaTeX Warning: Reference `symbol:dil' on page \es@scroman {xiv} undefined on in
-put line 30.
-
-
-LaTeX Warning: Reference `symbol:ero' on page \es@scroman {xiv} undefined on in
-put line 31.
-
-
-LaTeX Warning: Reference `symbol:ape' on page \es@scroman {xiv} undefined on in
-put line 32.
-
-
-LaTeX Warning: Reference `symbol:cie' on page \es@scroman {xiv} undefined on in
-put line 33.
-
-
-LaTeX Warning: Reference `symbol:wth' on page \es@scroman {xiv} undefined on in
-put line 34.
-
-
-LaTeX Warning: Reference `symbol:bth' on page \es@scroman {xiv} undefined on in
-put line 35.
-
-
-LaTeX Warning: Reference `symbol:fen' on page \es@scroman {xiv} undefined on in
-put line 36.
+LaTeX Warning: Reference `symbol:ssisigmai' on page xiv undefined on input line
+ 21.
 
 [14
 
 
 ]
-Overfull \vbox (32.62837pt too high) has occurred while \output is active []
 
-[15]
-
-LaTeX Warning: Reference `symbol:wthi' on page \es@scroman {xvi} undefined on i
-nput line 43.
+LaTeX Warning: Reference `symbol:wthi' on page xv undefined on input line 37.
 
 
-LaTeX Warning: Reference `symbol:bthi' on page \es@scroman {xvi} undefined on i
-nput line 44.
+LaTeX Warning: Reference `symbol:bthi' on page xv undefined on input line 38.
 
 
-LaTeX Warning: Reference `symbol:wthsi' on page \es@scroman {xvi} undefined on 
-input line 45.
+LaTeX Warning: Reference `symbol:wthsi' on page xv undefined on input line 39.
 
 
-LaTeX Warning: Reference `symbol:wthsi' on page \es@scroman {xvi} undefined on 
-input line 46.
+LaTeX Warning: Reference `symbol:wthsi' on page xv undefined on input line 40.
 
 
-LaTeX Warning: Reference `symbol:wthm' on page \es@scroman {xvi} undefined on i
-nput line 47.
+LaTeX Warning: Reference `symbol:wthm' on page xv undefined on input line 41.
 
 
-LaTeX Warning: Reference `symbol:bthm' on page \es@scroman {xvi} undefined on i
-nput line 48.
+LaTeX Warning: Reference `symbol:bthm' on page xv undefined on input line 42.
 
 
-LaTeX Warning: Reference `se_03_p' on page \es@scroman {xvi} undefined on input
- line 49.
+LaTeX Warning: Reference `se_03_p' on page xv undefined on input line 43.
 
 
-LaTeX Warning: Reference `se_04_p' on page \es@scroman {xvi} undefined on input
- line 50.
+LaTeX Warning: Reference `se_04_p' on page xv undefined on input line 44.
 
 
-LaTeX Warning: Reference `symbol:E' on page \es@scroman {xvi} undefined on inpu
-t line 51.
+LaTeX Warning: Reference `symbol:E' on page xv undefined on input line 45.
 
 
-LaTeX Warning: Reference `symbol:P' on page \es@scroman {xvi} undefined on inpu
-t line 52.
+LaTeX Warning: Reference `symbol:P' on page xv undefined on input line 46.
 
 
-LaTeX Warning: Reference `rho' on page \es@scroman {xvi} undefined on input lin
-e 53.
+LaTeX Warning: Reference `rho' on page xv undefined on input line 47.
 
 
-LaTeX Warning: Reference `iota' on page \es@scroman {xvi} undefined on input li
-ne 54.
+LaTeX Warning: Reference `iota' on page xv undefined on input line 48.
 
 
-LaTeX Warning: Reference `lc' on page \es@scroman {xvi} undefined on input line
- 55.
+LaTeX Warning: Reference `lc' on page xv undefined on input line 49.
 
 
-LaTeX Warning: Reference `D' on page \es@scroman {xvi} undefined on input line 
-56.
+LaTeX Warning: Reference `D' on page xv undefined on input line 50.
 
 
-LaTeX Warning: Reference `symbol:gamma' on page \es@scroman {xvi} undefined on 
-input line 57.
+LaTeX Warning: Reference `symbol:gamma' on page xv undefined on input line 51.
 
 
-LaTeX Warning: Reference `symbol:beta' on page \es@scroman {xvi} undefined on i
-nput line 58.
+LaTeX Warning: Reference `symbol:beta' on page xv undefined on input line 52.
 
 
-LaTeX Warning: Reference `symbol:cm' on page \es@scroman {xvi} undefined on inp
-ut line 59.
+LaTeX Warning: Reference `symbol:cm' on page xv undefined on input line 53.
 
 
-LaTeX Warning: Reference `symbol:cm' on page \es@scroman {xvi} undefined on inp
-ut line 60.
+LaTeX Warning: Reference `symbol:cm' on page xv undefined on input line 54.
 
 
-LaTeX Warning: Reference `symbol:cm' on page \es@scroman {xvi} undefined on inp
-ut line 61.
+LaTeX Warning: Reference `symbol:cm' on page xv undefined on input line 55.
 
 
-LaTeX Warning: Reference `symbol:cm' on page \es@scroman {xvi} undefined on inp
-ut line 62.
+LaTeX Warning: Reference `symbol:cm' on page xv undefined on input line 56.
 
 )
-Overfull \hbox (6.73631pt too wide) in paragraph at lines 41--125
+Overfull \hbox (6.73631pt too wide) in paragraph at lines 35--128
 [][] 
  []
 
-[16]
+[15]
 \openout2 = `abreviaturas.aux'.
 
-(/home/lg_more/github/maestria-tesis/libro/abreviaturas.tex) [17
+(/home/lg_more/github/maestria-tesis/libro/abreviaturas.tex) [16
 
 
 
@@ -1656,6 +1656,12 @@ Overfull \hbox (6.73631pt too wide) in paragraph at lines 41--125
 
 (/home/lg_more/github/maestria-tesis/libro/chap01.tex
 Cap\IeC {\'\i }tulo 1.
+LaTeX Font Info:    Try loading font information for OMS+lmr on input line 8.
+(/usr/share/texmf/tex/latex/lm/omslmr.fd
+File: omslmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <12> not available
+(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 8.
 [1
 
 
@@ -1681,6 +1687,12 @@ Package pdftex.def Info: Requested size: 165.02347pt x 135.3699pt on input line
 
 (/home/lg_more/github/maestria-tesis/libro/chap02.tex
 Cap\IeC {\'\i }tulo 2.
+
+Overfull \hbox (2.83505pt too wide) in paragraph at lines 14--15
+\OT1/lmr/m/n/12 [[]], y \OT1/lmr/m/it/12 Mul-ti-pur-pose Beta Op-ti-mized Bi-hi
+s-togram Equal-iza-tion (MBOBHE)\OT1/lmr/m/n/12 .
+ []
+
 [4
 
 
@@ -1701,17 +1713,17 @@ Package pdftex.def Info: ./Figures/Paolina_256_hist_eq.jpg  used on input line
 Package pdftex.def Info: Requested size: 412.56497pt x 203.10988pt on input lin
 e 81.
 
-Overfull \hbox (2.61107pt too wide) in paragraph at lines 81--82
- [] [][] 
+Overfull \hbox (5.22214pt too wide) in paragraph at lines 79--82
+ []  [][] 
  []
 
 [6] [7 <./Figures/Paolina_256_hist.jpg> <./Figures/Paolina_256_hist_eq.jpg>]
 Overfull \hbox (9.85pt too wide) in paragraph at lines 92--92
-|[]\OT1/lmr/bx/n/17.28 Contrast Li-mi-ted Adap-ti-ve His-to-gram Equa-
+|[]\OT1/lmr/bx/n/17.28 Contrast Lim-ited Adap-tive His-togram Equal-
  []
 
 [8]
-<./Figures/495px-Clahe-redist.jpg, id=521, 496.85625pt x 180.675pt>
+<./Figures/495px-Clahe-redist.jpg, id=520, 496.85625pt x 180.675pt>
 File: ./Figures/495px-Clahe-redist.jpg Graphic file (type jpg)
 <use ./Figures/495px-Clahe-redist.jpg>
 Package pdftex.def Info: ./Figures/495px-Clahe-redist.jpg  used on input line 1
@@ -1752,56 +1764,56 @@ Package pdftex.def Info: Requested size: 206.28249pt x 616.06215pt on input lin
 e 206.
 [11 <./Figures/cubo-rgb.jpg>] [12] [13 <./Figures/220px-Barns_grand_tetons_YCbC
 r_separation.jpg>] [14]
-<./Figures/ejemplopso/capas-0.png, id=568, 562.1pt x 421.575pt>
+<./Figures/ejemplopso/capas-0.png, id=567, 562.1pt x 421.575pt>
 File: ./Figures/ejemplopso/capas-0.png Graphic file (type png)
 <use ./Figures/ejemplopso/capas-0.png>
 Package pdftex.def Info: ./Figures/ejemplopso/capas-0.png  used on input line 3
 02. on input line 302.
 Package pdftex.def Info: Requested size: 185.65297pt x 139.23596pt on input lin
 e 302.
-<./Figures/ejemplopso/capas-8.png, id=569, 562.1pt x 421.575pt>
+<./Figures/ejemplopso/capas-8.png, id=568, 562.1pt x 421.575pt>
 File: ./Figures/ejemplopso/capas-8.png Graphic file (type png)
 <use ./Figures/ejemplopso/capas-8.png>
 Package pdftex.def Info: ./Figures/ejemplopso/capas-8.png  used on input line 3
 09. on input line 309.
 Package pdftex.def Info: Requested size: 185.65297pt x 139.23596pt on input lin
 e 309.
-<./Figures/ejemplopso/capas-21.png, id=570, 562.1pt x 421.575pt>
+<./Figures/ejemplopso/capas-21.png, id=569, 562.1pt x 421.575pt>
 File: ./Figures/ejemplopso/capas-21.png Graphic file (type png)
 <use ./Figures/ejemplopso/capas-21.png>
 Package pdftex.def Info: ./Figures/ejemplopso/capas-21.png  used on input line 
 317. on input line 317.
 Package pdftex.def Info: Requested size: 185.65297pt x 139.23596pt on input lin
 e 317.
-<./Figures/ejemplopso/capas-42.png, id=571, 562.1pt x 421.575pt>
+<./Figures/ejemplopso/capas-42.png, id=570, 562.1pt x 421.575pt>
 File: ./Figures/ejemplopso/capas-42.png Graphic file (type png)
 <use ./Figures/ejemplopso/capas-42.png>
 Package pdftex.def Info: ./Figures/ejemplopso/capas-42.png  used on input line 
 323. on input line 323.
 Package pdftex.def Info: Requested size: 185.65297pt x 139.23596pt on input lin
 e 323.
-<./Figures/ejemplopso/capas-75.png, id=572, 562.1pt x 421.575pt>
+<./Figures/ejemplopso/capas-75.png, id=571, 562.1pt x 421.575pt>
 File: ./Figures/ejemplopso/capas-75.png Graphic file (type png)
 <use ./Figures/ejemplopso/capas-75.png>
 Package pdftex.def Info: ./Figures/ejemplopso/capas-75.png  used on input line 
 332. on input line 332.
 Package pdftex.def Info: Requested size: 185.65297pt x 139.23596pt on input lin
 e 332.
-<./Figures/ejemplopso/capas-79.png, id=573, 562.1pt x 421.575pt>
+<./Figures/ejemplopso/capas-79.png, id=572, 562.1pt x 421.575pt>
 File: ./Figures/ejemplopso/capas-79.png Graphic file (type png)
 <use ./Figures/ejemplopso/capas-79.png>
 Package pdftex.def Info: ./Figures/ejemplopso/capas-79.png  used on input line 
 339. on input line 339.
 Package pdftex.def Info: Requested size: 185.65297pt x 139.23596pt on input lin
 e 339.
-<./Figures/ejemplopso/capas-95.png, id=574, 562.1pt x 421.575pt>
+<./Figures/ejemplopso/capas-95.png, id=573, 562.1pt x 421.575pt>
 File: ./Figures/ejemplopso/capas-95.png Graphic file (type png)
 <use ./Figures/ejemplopso/capas-95.png>
 Package pdftex.def Info: ./Figures/ejemplopso/capas-95.png  used on input line 
 346. on input line 346.
 Package pdftex.def Info: Requested size: 185.65297pt x 139.23596pt on input lin
 e 346.
-<./Figures/ejemplopso/capas-99.png, id=575, 562.1pt x 421.575pt>
+<./Figures/ejemplopso/capas-99.png, id=574, 562.1pt x 421.575pt>
 File: ./Figures/ejemplopso/capas-99.png Graphic file (type png)
 <use ./Figures/ejemplopso/capas-99.png>
 Package pdftex.def Info: ./Figures/ejemplopso/capas-99.png  used on input line 
@@ -1835,8 +1847,8 @@ capas-99.png>]
 (/home/lg_more/github/maestria-tesis/libro/chap03.tex
 Cap\IeC {\'\i }tulo 3.
 
-Overfull \hbox (40.99179pt too wide) in paragraph at lines 1--1
-|\OT1/lmr/bx/n/20.74 FORMULACI[]ON DEL PRO-BLE-MA PLAN-
+Overfull \hbox (117.78163pt too wide) in paragraph at lines 1--1
+|\OT1/lmr/bx/n/20.74 FORMULACI[]ON DEL PROB-LEMA PLANTEADO
  []
 
 
@@ -1854,12 +1866,22 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on in
 put line 99.
 [20]
-Overfull \hbox (18.98935pt too wide) in paragraph at lines 103--104
-[]\OT1/lmr/bx/sc/12 El Al-go-rit-mo []1[] \OT1/lmr/m/n/12 mues-tra c^^Somo PSO-
-CLAHE Co-lor Multi-Objetivo ($\OML/lmm/m/it/12 CMOPSO \OMS/lmsy/m/n/12 ^^@
+Overfull \hbox (1.36453pt too wide) in paragraph at lines 103--104
+\OT1/lmr/bx/n/12 El Al-go-ritmo []1[] \OT1/lmr/m/n/12 mues-tra c^^Somo PSO-CLAH
+E Color Multi-Objetivo ($\OML/lmm/m/it/12 CMOPSO \OMS/lmsy/m/n/12 ^^@
  []
 
-[21]) [22]
+[21]
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <17.28> on input line 488.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10.95> on input line 496.
+)
+Overfull \hbox (414.96149pt too wide) in paragraph at lines 517--135
+[][] 
+ []
+
+[22]
 \openout2 = `chap04.aux'.
 
 (/home/lg_more/github/maestria-tesis/libro/chap04.tex
@@ -1869,19 +1891,14 @@ Cap\IeC {\'\i }tulo 4.
 
 
 ]
-<./Figures/calhouse_0230.jpg, id=656, 246.9225pt x 163.61125pt>
+<./Figures/calhouse_0230.jpg, id=659, 246.9225pt x 163.61125pt>
 File: ./Figures/calhouse_0230.jpg Graphic file (type jpg)
 <use ./Figures/calhouse_0230.jpg>
 Package pdftex.def Info: ./Figures/calhouse_0230.jpg  used on input line 72. on
  input line 72.
 Package pdftex.def Info: Requested size: 185.65297pt x 123.0127pt on input line
  72.
-
-Underfull \hbox (badness 2368) in paragraph at lines 72--72
-[]\OT1/lmr/m/n/10 (a) Ima-gen Ori-gi-nal. $[] = 0[]207231$,
- []
-
-<./Figures/calhouse_0230_20-25165283474-10.jpg, id=657, 246.9225pt x 163.61125p
+<./Figures/calhouse_0230_20-25165283474-10.jpg, id=660, 246.9225pt x 163.61125p
 t>
 File: ./Figures/calhouse_0230_20-25165283474-10.jpg Graphic file (type jpg)
 <use ./Figures/calhouse_0230_20-25165283474-10.jpg>
@@ -1890,17 +1907,12 @@ Package pdftex.def Info: ./Figures/calhouse_0230_20-25165283474-10.jpg  used on
 Package pdftex.def Info: Requested size: 185.65297pt x 123.0127pt on input line
  80.
 
-Underfull \hbox (badness 1259) in paragraph at lines 80--80
-[]\OT1/lmr/m/n/10 (b) Ima-gen me-jo-ra-da. $[] = 0[]611275$,
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 80--80
-\OML/lmm/m/it/10 SSIM[] \OT1/lmr/m/n/10 = 0[]00897331$, $\OML/lmm/m/it/10 SSIM[
-] \OT1/lmr/m/n/10 =
+\OML/lmm/m/it/10 SSIM[] \OT1/lmr/m/n/10 = 0\OML/lmm/m/it/10 :\OT1/lmr/m/n/10 00
+897331$, $\OML/lmm/m/it/10 SSIM[] \OT1/lmr/m/n/10 =
  []
 
-<./Figures/calhouse_0230_20-62968204656-00.jpg, id=658, 246.9225pt x 163.61125p
+<./Figures/calhouse_0230_20-62968204656-00.jpg, id=661, 246.9225pt x 163.61125p
 t>
 File: ./Figures/calhouse_0230_20-62968204656-00.jpg Graphic file (type jpg)
 <use ./Figures/calhouse_0230_20-62968204656-00.jpg>
@@ -1908,7 +1920,7 @@ Package pdftex.def Info: ./Figures/calhouse_0230_20-62968204656-00.jpg  used on
  input line 89. on input line 89.
 Package pdftex.def Info: Requested size: 185.65297pt x 123.0127pt on input line
  89.
-<./Figures/calhouse_0230_20-20-0020072469292179818.jpg, id=659, 246.9225pt x 16
+<./Figures/calhouse_0230_20-20-0020072469292179818.jpg, id=662, 246.9225pt x 16
 3.61125pt>
 File: ./Figures/calhouse_0230_20-20-0020072469292179818.jpg Graphic file (type 
 jpg)
@@ -1918,18 +1930,13 @@ Package pdftex.def Info: ./Figures/calhouse_0230_20-20-0020072469292179818.jpg
 Package pdftex.def Info: Requested size: 185.65297pt x 123.0127pt on input line
  96.
 
-Underfull \hbox (badness 1259) in paragraph at lines 96--96
-[]\OT1/lmr/m/n/10 (d) Ima-gen me-jo-ra-da. $[] = 0[]788927$,
- []
-
-
-Underfull \hbox (badness 6792) in paragraph at lines 96--96
-\OML/lmm/m/it/10 SSIM[] \OT1/lmr/m/n/10 = 0[]000204143$, $\OML/lmm/m/it/10 SSIM
-[] \OT1/lmr/m/n/10 =
+Underfull \hbox (badness 6016) in paragraph at lines 96--96
+\OML/lmm/m/it/10 SSIM[] \OT1/lmr/m/n/10 = 0\OML/lmm/m/it/10 :\OT1/lmr/m/n/10 00
+0204143$, $\OML/lmm/m/it/10 SSIM[] \OT1/lmr/m/n/10 =
  []
 
 [24]
-<./Figures/pareto_front.jpg, id=666, 441.22737pt x 300.49106pt>
+<./Figures/pareto_front.jpg, id=669, 441.22737pt x 300.49106pt>
 File: ./Figures/pareto_front.jpg Graphic file (type jpg)
 <use ./Figures/pareto_front.jpg>
 Package pdftex.def Info: ./Figures/pareto_front.jpg  used on input line 140. on
@@ -1951,7 +1958,13 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 
 
 
-]) [29] (/home/lg_more/github/maestria-tesis/libro/thesis.bbl [30
+]
+Overfull \hbox (9.02376pt too wide) in paragraph at lines 82--83
+[]\OT1/lmr/m/n/12 Buscar al-go-rit-mos de mejora del con-traste que en-tre-na-d
+os con Meta-heur^^S^^Psticas
+ []
+
+) [29] (/home/lg_more/github/maestria-tesis/libro/thesis.bbl [30
 
 
 
@@ -1969,42 +1982,42 @@ Underfull \vbox (badness 10000) detected at line 35
 
 
 ] [34] [35]
-<./Figures/calhouse_230/0-resultado.jpg, id=729, 246.9225pt x 163.61125pt>
+<./Figures/calhouse_230/0-resultado.jpg, id=731, 246.9225pt x 163.61125pt>
 File: ./Figures/calhouse_230/0-resultado.jpg Graphic file (type jpg)
 <use ./Figures/calhouse_230/0-resultado.jpg>
 Package pdftex.def Info: ./Figures/calhouse_230/0-resultado.jpg  used on input 
 line 210. on input line 210.
 Package pdftex.def Info: Requested size: 185.65297pt x 123.0127pt on input line
  210.
-<./Figures/calhouse_230/1-resultado.jpg, id=730, 246.9225pt x 163.61125pt>
+<./Figures/calhouse_230/1-resultado.jpg, id=732, 246.9225pt x 163.61125pt>
 File: ./Figures/calhouse_230/1-resultado.jpg Graphic file (type jpg)
 <use ./Figures/calhouse_230/1-resultado.jpg>
 Package pdftex.def Info: ./Figures/calhouse_230/1-resultado.jpg  used on input 
 line 218. on input line 218.
 Package pdftex.def Info: Requested size: 185.65297pt x 123.0127pt on input line
  218.
-<./Figures/calhouse_230/23-resultado.jpg, id=731, 246.9225pt x 163.61125pt>
+<./Figures/calhouse_230/23-resultado.jpg, id=733, 246.9225pt x 163.61125pt>
 File: ./Figures/calhouse_230/23-resultado.jpg Graphic file (type jpg)
 <use ./Figures/calhouse_230/23-resultado.jpg>
 Package pdftex.def Info: ./Figures/calhouse_230/23-resultado.jpg  used on input
  line 227. on input line 227.
 Package pdftex.def Info: Requested size: 185.65297pt x 123.0127pt on input line
  227.
-<./Figures/calhouse_230/24-resultado.jpg, id=732, 246.9225pt x 163.61125pt>
+<./Figures/calhouse_230/24-resultado.jpg, id=734, 246.9225pt x 163.61125pt>
 File: ./Figures/calhouse_230/24-resultado.jpg Graphic file (type jpg)
 <use ./Figures/calhouse_230/24-resultado.jpg>
 Package pdftex.def Info: ./Figures/calhouse_230/24-resultado.jpg  used on input
  line 234. on input line 234.
 Package pdftex.def Info: Requested size: 185.65297pt x 123.0127pt on input line
  234.
-<./Figures/calhouse_230/56-resultado.jpg, id=733, 246.9225pt x 163.61125pt>
+<./Figures/calhouse_230/56-resultado.jpg, id=735, 246.9225pt x 163.61125pt>
 File: ./Figures/calhouse_230/56-resultado.jpg Graphic file (type jpg)
 <use ./Figures/calhouse_230/56-resultado.jpg>
 Package pdftex.def Info: ./Figures/calhouse_230/56-resultado.jpg  used on input
  line 243. on input line 243.
 Package pdftex.def Info: Requested size: 185.65297pt x 123.0127pt on input line
  243.
-<./Figures/calhouse_230/calhouse_230.jpg, id=734, 246.9225pt x 163.61125pt>
+<./Figures/calhouse_230/calhouse_230.jpg, id=736, 246.9225pt x 163.61125pt>
 File: ./Figures/calhouse_230/calhouse_230.jpg Graphic file (type jpg)
 <use ./Figures/calhouse_230/calhouse_230.jpg>
 Package pdftex.def Info: ./Figures/calhouse_230/calhouse_230.jpg  used on input
@@ -2012,7 +2025,7 @@ Package pdftex.def Info: ./Figures/calhouse_230/calhouse_230.jpg  used on input
 Package pdftex.def Info: Requested size: 185.65297pt x 123.0127pt on input line
  250.
 [36]
-<./Figures/calhouse_230/calhouse_230_2.jpg, id=742, 1112.65688pt x 632.17232pt>
+<./Figures/calhouse_230/calhouse_230_2.jpg, id=744, 1112.65688pt x 632.17232pt>
 
 File: ./Figures/calhouse_230/calhouse_230_2.jpg Graphic file (type jpg)
 <use ./Figures/calhouse_230/calhouse_230_2.jpg>
@@ -2028,42 +2041,42 @@ Underfull \vbox (badness 10000) detected at line 297
  []
 
 [38 <./Figures/calhouse_230/calhouse_230_2.jpg>] [39]
-<./Figures/calhouse_231/0-resultado.jpg, id=764, 246.9225pt x 163.61125pt>
+<./Figures/calhouse_231/0-resultado.jpg, id=766, 246.9225pt x 163.61125pt>
 File: ./Figures/calhouse_231/0-resultado.jpg Graphic file (type jpg)
 <use ./Figures/calhouse_231/0-resultado.jpg>
 Package pdftex.def Info: ./Figures/calhouse_231/0-resultado.jpg  used on input 
 line 401. on input line 401.
 Package pdftex.def Info: Requested size: 185.65297pt x 123.0127pt on input line
  401.
-<./Figures/calhouse_231/1-resultado.jpg, id=765, 246.9225pt x 163.61125pt>
+<./Figures/calhouse_231/1-resultado.jpg, id=767, 246.9225pt x 163.61125pt>
 File: ./Figures/calhouse_231/1-resultado.jpg Graphic file (type jpg)
 <use ./Figures/calhouse_231/1-resultado.jpg>
 Package pdftex.def Info: ./Figures/calhouse_231/1-resultado.jpg  used on input 
 line 409. on input line 409.
 Package pdftex.def Info: Requested size: 185.65297pt x 123.0127pt on input line
  409.
-<./Figures/calhouse_231/28-resultado.jpg, id=766, 246.9225pt x 163.61125pt>
+<./Figures/calhouse_231/28-resultado.jpg, id=768, 246.9225pt x 163.61125pt>
 File: ./Figures/calhouse_231/28-resultado.jpg Graphic file (type jpg)
 <use ./Figures/calhouse_231/28-resultado.jpg>
 Package pdftex.def Info: ./Figures/calhouse_231/28-resultado.jpg  used on input
  line 418. on input line 418.
 Package pdftex.def Info: Requested size: 185.65297pt x 123.0127pt on input line
  418.
-<./Figures/calhouse_231/29-resultado.jpg, id=767, 246.9225pt x 163.61125pt>
+<./Figures/calhouse_231/29-resultado.jpg, id=769, 246.9225pt x 163.61125pt>
 File: ./Figures/calhouse_231/29-resultado.jpg Graphic file (type jpg)
 <use ./Figures/calhouse_231/29-resultado.jpg>
 Package pdftex.def Info: ./Figures/calhouse_231/29-resultado.jpg  used on input
  line 425. on input line 425.
 Package pdftex.def Info: Requested size: 185.65297pt x 123.0127pt on input line
  425.
-<./Figures/calhouse_231/102-resultado.jpg, id=768, 246.9225pt x 163.61125pt>
+<./Figures/calhouse_231/102-resultado.jpg, id=770, 246.9225pt x 163.61125pt>
 File: ./Figures/calhouse_231/102-resultado.jpg Graphic file (type jpg)
 <use ./Figures/calhouse_231/102-resultado.jpg>
 Package pdftex.def Info: ./Figures/calhouse_231/102-resultado.jpg  used on inpu
 t line 434. on input line 434.
 Package pdftex.def Info: Requested size: 185.65297pt x 123.0127pt on input line
  434.
-<./Figures/calhouse_231/calhouse_231.jpg, id=769, 246.9225pt x 163.61125pt>
+<./Figures/calhouse_231/calhouse_231.jpg, id=771, 246.9225pt x 163.61125pt>
 File: ./Figures/calhouse_231/calhouse_231.jpg Graphic file (type jpg)
 <use ./Figures/calhouse_231/calhouse_231.jpg>
 Package pdftex.def Info: ./Figures/calhouse_231/calhouse_231.jpg  used on input
@@ -2071,7 +2084,7 @@ Package pdftex.def Info: ./Figures/calhouse_231/calhouse_231.jpg  used on input
 Package pdftex.def Info: Requested size: 185.65297pt x 123.0127pt on input line
  441.
 [40]
-<./Figures/calhouse_231/calhouse_231_2.jpg, id=776, 909.84126pt x 506.6428pt>
+<./Figures/calhouse_231/calhouse_231_2.jpg, id=778, 909.84126pt x 506.6428pt>
 File: ./Figures/calhouse_231/calhouse_231_2.jpg Graphic file (type jpg)
 <use ./Figures/calhouse_231/calhouse_231_2.jpg>
 Package pdftex.def Info: ./Figures/calhouse_231/calhouse_231_2.jpg  used on inp
@@ -2086,42 +2099,42 @@ Underfull \vbox (badness 10000) detected at line 488
  []
 
 [42 <./Figures/calhouse_231/calhouse_231_2.jpg>] [43]
-<./Figures/calhouse_233/6-resultado.jpg, id=797, 246.9225pt x 163.61125pt>
+<./Figures/calhouse_233/6-resultado.jpg, id=799, 246.9225pt x 163.61125pt>
 File: ./Figures/calhouse_233/6-resultado.jpg Graphic file (type jpg)
 <use ./Figures/calhouse_233/6-resultado.jpg>
 Package pdftex.def Info: ./Figures/calhouse_233/6-resultado.jpg  used on input 
 line 607. on input line 607.
 Package pdftex.def Info: Requested size: 185.65297pt x 123.0127pt on input line
  607.
-<./Figures/calhouse_233/7-resultado.jpg, id=798, 246.9225pt x 163.61125pt>
+<./Figures/calhouse_233/7-resultado.jpg, id=800, 246.9225pt x 163.61125pt>
 File: ./Figures/calhouse_233/7-resultado.jpg Graphic file (type jpg)
 <use ./Figures/calhouse_233/7-resultado.jpg>
 Package pdftex.def Info: ./Figures/calhouse_233/7-resultado.jpg  used on input 
 line 614. on input line 614.
 Package pdftex.def Info: Requested size: 185.65297pt x 123.0127pt on input line
  614.
-<./Figures/calhouse_233/46-resultado.jpg, id=799, 246.9225pt x 163.61125pt>
+<./Figures/calhouse_233/46-resultado.jpg, id=801, 246.9225pt x 163.61125pt>
 File: ./Figures/calhouse_233/46-resultado.jpg Graphic file (type jpg)
 <use ./Figures/calhouse_233/46-resultado.jpg>
 Package pdftex.def Info: ./Figures/calhouse_233/46-resultado.jpg  used on input
  line 622. on input line 622.
 Package pdftex.def Info: Requested size: 185.65297pt x 123.0127pt on input line
  622.
-<./Figures/calhouse_233/47-resultado.jpg, id=800, 246.9225pt x 163.61125pt>
+<./Figures/calhouse_233/47-resultado.jpg, id=802, 246.9225pt x 163.61125pt>
 File: ./Figures/calhouse_233/47-resultado.jpg Graphic file (type jpg)
 <use ./Figures/calhouse_233/47-resultado.jpg>
 Package pdftex.def Info: ./Figures/calhouse_233/47-resultado.jpg  used on input
  line 628. on input line 628.
 Package pdftex.def Info: Requested size: 185.65297pt x 123.0127pt on input line
  628.
-<./Figures/calhouse_233/60-resultado.jpg, id=801, 246.9225pt x 163.61125pt>
+<./Figures/calhouse_233/60-resultado.jpg, id=803, 246.9225pt x 163.61125pt>
 File: ./Figures/calhouse_233/60-resultado.jpg Graphic file (type jpg)
 <use ./Figures/calhouse_233/60-resultado.jpg>
 Package pdftex.def Info: ./Figures/calhouse_233/60-resultado.jpg  used on input
  line 637. on input line 637.
 Package pdftex.def Info: Requested size: 185.65297pt x 123.0127pt on input line
  637.
-<./Figures/calhouse_233/calhouse_233.jpg, id=802, 246.9225pt x 163.61125pt>
+<./Figures/calhouse_233/calhouse_233.jpg, id=804, 246.9225pt x 163.61125pt>
 File: ./Figures/calhouse_233/calhouse_233.jpg Graphic file (type jpg)
 <use ./Figures/calhouse_233/calhouse_233.jpg>
 Package pdftex.def Info: ./Figures/calhouse_233/calhouse_233.jpg  used on input
@@ -2129,7 +2142,7 @@ Package pdftex.def Info: ./Figures/calhouse_233/calhouse_233.jpg  used on input
 Package pdftex.def Info: Requested size: 185.65297pt x 123.0127pt on input line
  644.
 [44]
-<./Figures/calhouse_233/calhouse_233_2.jpg, id=810, 1142.01656pt x 803.3381pt>
+<./Figures/calhouse_233/calhouse_233_2.jpg, id=811, 1142.01656pt x 803.3381pt>
 File: ./Figures/calhouse_233/calhouse_233_2.jpg Graphic file (type jpg)
 <use ./Figures/calhouse_233/calhouse_233_2.jpg>
 Package pdftex.def Info: ./Figures/calhouse_233/calhouse_233_2.jpg  used on inp
@@ -2144,42 +2157,42 @@ Underfull \vbox (badness 10000) detected at line 692
  []
 
 [46 <./Figures/calhouse_233/calhouse_233_2.jpg>] [47]
-<./Figures/calhouse_234/1-resultado.jpg, id=832, 246.9225pt x 163.61125pt>
+<./Figures/calhouse_234/1-resultado.jpg, id=834, 246.9225pt x 163.61125pt>
 File: ./Figures/calhouse_234/1-resultado.jpg Graphic file (type jpg)
 <use ./Figures/calhouse_234/1-resultado.jpg>
 Package pdftex.def Info: ./Figures/calhouse_234/1-resultado.jpg  used on input 
 line 797. on input line 797.
 Package pdftex.def Info: Requested size: 185.65297pt x 123.0127pt on input line
  797.
-<./Figures/calhouse_234/2-resultado.jpg, id=833, 246.9225pt x 163.61125pt>
+<./Figures/calhouse_234/2-resultado.jpg, id=835, 246.9225pt x 163.61125pt>
 File: ./Figures/calhouse_234/2-resultado.jpg Graphic file (type jpg)
 <use ./Figures/calhouse_234/2-resultado.jpg>
 Package pdftex.def Info: ./Figures/calhouse_234/2-resultado.jpg  used on input 
 line 804. on input line 804.
 Package pdftex.def Info: Requested size: 185.65297pt x 123.0127pt on input line
  804.
-<./Figures/calhouse_234/51-resultado.jpg, id=834, 246.9225pt x 163.61125pt>
+<./Figures/calhouse_234/51-resultado.jpg, id=836, 246.9225pt x 163.61125pt>
 File: ./Figures/calhouse_234/51-resultado.jpg Graphic file (type jpg)
 <use ./Figures/calhouse_234/51-resultado.jpg>
 Package pdftex.def Info: ./Figures/calhouse_234/51-resultado.jpg  used on input
  line 812. on input line 812.
 Package pdftex.def Info: Requested size: 185.65297pt x 123.0127pt on input line
  812.
-<./Figures/calhouse_234/59-resultado.jpg, id=835, 246.9225pt x 163.61125pt>
+<./Figures/calhouse_234/59-resultado.jpg, id=837, 246.9225pt x 163.61125pt>
 File: ./Figures/calhouse_234/59-resultado.jpg Graphic file (type jpg)
 <use ./Figures/calhouse_234/59-resultado.jpg>
 Package pdftex.def Info: ./Figures/calhouse_234/59-resultado.jpg  used on input
  line 818. on input line 818.
 Package pdftex.def Info: Requested size: 185.65297pt x 123.0127pt on input line
  818.
-<./Figures/calhouse_234/60-resultado.jpg, id=836, 246.9225pt x 163.61125pt>
+<./Figures/calhouse_234/60-resultado.jpg, id=838, 246.9225pt x 163.61125pt>
 File: ./Figures/calhouse_234/60-resultado.jpg Graphic file (type jpg)
 <use ./Figures/calhouse_234/60-resultado.jpg>
 Package pdftex.def Info: ./Figures/calhouse_234/60-resultado.jpg  used on input
  line 827. on input line 827.
 Package pdftex.def Info: Requested size: 185.65297pt x 123.0127pt on input line
  827.
-<./Figures/calhouse_234/calhouse_234.jpg, id=837, 246.9225pt x 163.61125pt>
+<./Figures/calhouse_234/calhouse_234.jpg, id=839, 246.9225pt x 163.61125pt>
 File: ./Figures/calhouse_234/calhouse_234.jpg Graphic file (type jpg)
 <use ./Figures/calhouse_234/calhouse_234.jpg>
 Package pdftex.def Info: ./Figures/calhouse_234/calhouse_234.jpg  used on input
@@ -2187,7 +2200,7 @@ Package pdftex.def Info: ./Figures/calhouse_234/calhouse_234.jpg  used on input
 Package pdftex.def Info: Requested size: 185.65297pt x 123.0127pt on input line
  834.
 [48]
-<./Figures/calhouse_234/calhouse_234_2.jpg, id=844, 674.77357pt x 507.41147pt>
+<./Figures/calhouse_234/calhouse_234_2.jpg, id=846, 674.77357pt x 507.41147pt>
 File: ./Figures/calhouse_234/calhouse_234_2.jpg Graphic file (type jpg)
 <use ./Figures/calhouse_234/calhouse_234_2.jpg>
 Package pdftex.def Info: ./Figures/calhouse_234/calhouse_234_2.jpg  used on inp
@@ -2202,42 +2215,42 @@ Underfull \vbox (badness 10000) detected at line 883
  []
 
 [50 <./Figures/calhouse_234/calhouse_234_2.jpg>] [51]
-<./Figures/calhouse_236/56-resultado.jpg, id=866, 246.9225pt x 163.61125pt>
+<./Figures/calhouse_236/56-resultado.jpg, id=868, 246.9225pt x 163.61125pt>
 File: ./Figures/calhouse_236/56-resultado.jpg Graphic file (type jpg)
 <use ./Figures/calhouse_236/56-resultado.jpg>
 Package pdftex.def Info: ./Figures/calhouse_236/56-resultado.jpg  used on input
  line 989. on input line 989.
 Package pdftex.def Info: Requested size: 185.65297pt x 123.0127pt on input line
  989.
-<./Figures/calhouse_236/61-resultado.jpg, id=867, 246.9225pt x 163.61125pt>
+<./Figures/calhouse_236/61-resultado.jpg, id=869, 246.9225pt x 163.61125pt>
 File: ./Figures/calhouse_236/61-resultado.jpg Graphic file (type jpg)
 <use ./Figures/calhouse_236/61-resultado.jpg>
 Package pdftex.def Info: ./Figures/calhouse_236/61-resultado.jpg  used on input
  line 996. on input line 996.
 Package pdftex.def Info: Requested size: 185.65297pt x 123.0127pt on input line
  996.
-<./Figures/calhouse_236/82-resultado.jpg, id=868, 246.9225pt x 163.61125pt>
+<./Figures/calhouse_236/82-resultado.jpg, id=870, 246.9225pt x 163.61125pt>
 File: ./Figures/calhouse_236/82-resultado.jpg Graphic file (type jpg)
 <use ./Figures/calhouse_236/82-resultado.jpg>
 Package pdftex.def Info: ./Figures/calhouse_236/82-resultado.jpg  used on input
  line 1004. on input line 1004.
 Package pdftex.def Info: Requested size: 185.65297pt x 123.0127pt on input line
  1004.
-<./Figures/calhouse_236/101-resultado.jpg, id=869, 246.9225pt x 163.61125pt>
+<./Figures/calhouse_236/101-resultado.jpg, id=871, 246.9225pt x 163.61125pt>
 File: ./Figures/calhouse_236/101-resultado.jpg Graphic file (type jpg)
 <use ./Figures/calhouse_236/101-resultado.jpg>
 Package pdftex.def Info: ./Figures/calhouse_236/101-resultado.jpg  used on inpu
 t line 1010. on input line 1010.
 Package pdftex.def Info: Requested size: 185.65297pt x 123.0127pt on input line
  1010.
-<./Figures/calhouse_236/107-resultado.jpg, id=870, 246.9225pt x 163.61125pt>
+<./Figures/calhouse_236/107-resultado.jpg, id=872, 246.9225pt x 163.61125pt>
 File: ./Figures/calhouse_236/107-resultado.jpg Graphic file (type jpg)
 <use ./Figures/calhouse_236/107-resultado.jpg>
 Package pdftex.def Info: ./Figures/calhouse_236/107-resultado.jpg  used on inpu
 t line 1019. on input line 1019.
 Package pdftex.def Info: Requested size: 185.65297pt x 123.0127pt on input line
  1019.
-<./Figures/calhouse_236/calhouse_236.jpg, id=871, 246.9225pt x 163.61125pt>
+<./Figures/calhouse_236/calhouse_236.jpg, id=873, 246.9225pt x 163.61125pt>
 File: ./Figures/calhouse_236/calhouse_236.jpg Graphic file (type jpg)
 <use ./Figures/calhouse_236/calhouse_236.jpg>
 Package pdftex.def Info: ./Figures/calhouse_236/calhouse_236.jpg  used on input
@@ -2245,7 +2258,7 @@ Package pdftex.def Info: ./Figures/calhouse_236/calhouse_236.jpg  used on input
 Package pdftex.def Info: Requested size: 185.65297pt x 123.0127pt on input line
  1026.
 [52]
-<./Figures/calhouse_236/calhouse_236_2.jpg, id=878, 750.55406pt x 422.32782pt>
+<./Figures/calhouse_236/calhouse_236_2.jpg, id=880, 750.55406pt x 422.32782pt>
 File: ./Figures/calhouse_236/calhouse_236_2.jpg Graphic file (type jpg)
 <use ./Figures/calhouse_236/calhouse_236_2.jpg>
 Package pdftex.def Info: ./Figures/calhouse_236/calhouse_236_2.jpg  used on inp
@@ -2259,42 +2272,42 @@ resultado.jpg> <./Figures/calhouse_236/107-resultado.jpg> <./Figures/calhouse_2
 Underfull \vbox (badness 10000) detected at line 1063
  []
 
-<./Figures/calhouse_237/9048-resultado.jpg, id=891, 246.9225pt x 163.61125pt>
+<./Figures/calhouse_237/9048-resultado.jpg, id=893, 246.9225pt x 163.61125pt>
 File: ./Figures/calhouse_237/9048-resultado.jpg Graphic file (type jpg)
 <use ./Figures/calhouse_237/9048-resultado.jpg>
 Package pdftex.def Info: ./Figures/calhouse_237/9048-resultado.jpg  used on inp
 ut line 1071. on input line 1071.
 Package pdftex.def Info: Requested size: 185.65297pt x 123.0127pt on input line
  1071.
-<./Figures/calhouse_237/9090-resultado.jpg, id=892, 246.9225pt x 163.61125pt>
+<./Figures/calhouse_237/9090-resultado.jpg, id=894, 246.9225pt x 163.61125pt>
 File: ./Figures/calhouse_237/9090-resultado.jpg Graphic file (type jpg)
 <use ./Figures/calhouse_237/9090-resultado.jpg>
 Package pdftex.def Info: ./Figures/calhouse_237/9090-resultado.jpg  used on inp
 ut line 1078. on input line 1078.
 Package pdftex.def Info: Requested size: 185.65297pt x 123.0127pt on input line
  1078.
-<./Figures/calhouse_237/9095-resultado.jpg, id=893, 246.9225pt x 163.61125pt>
+<./Figures/calhouse_237/9095-resultado.jpg, id=895, 246.9225pt x 163.61125pt>
 File: ./Figures/calhouse_237/9095-resultado.jpg Graphic file (type jpg)
 <use ./Figures/calhouse_237/9095-resultado.jpg>
 Package pdftex.def Info: ./Figures/calhouse_237/9095-resultado.jpg  used on inp
 ut line 1086. on input line 1086.
 Package pdftex.def Info: Requested size: 185.65297pt x 123.0127pt on input line
  1086.
-<./Figures/calhouse_237/9162-resultado.jpg, id=894, 246.9225pt x 163.61125pt>
+<./Figures/calhouse_237/9162-resultado.jpg, id=896, 246.9225pt x 163.61125pt>
 File: ./Figures/calhouse_237/9162-resultado.jpg Graphic file (type jpg)
 <use ./Figures/calhouse_237/9162-resultado.jpg>
 Package pdftex.def Info: ./Figures/calhouse_237/9162-resultado.jpg  used on inp
 ut line 1092. on input line 1092.
 Package pdftex.def Info: Requested size: 185.65297pt x 123.0127pt on input line
  1092.
-<./Figures/calhouse_237/9175-resultado.jpg, id=895, 246.9225pt x 163.61125pt>
+<./Figures/calhouse_237/9175-resultado.jpg, id=897, 246.9225pt x 163.61125pt>
 File: ./Figures/calhouse_237/9175-resultado.jpg Graphic file (type jpg)
 <use ./Figures/calhouse_237/9175-resultado.jpg>
 Package pdftex.def Info: ./Figures/calhouse_237/9175-resultado.jpg  used on inp
 ut line 1101. on input line 1101.
 Package pdftex.def Info: Requested size: 185.65297pt x 123.0127pt on input line
  1101.
-<./Figures/calhouse_237/calhouse_237.jpg, id=896, 246.9225pt x 163.61125pt>
+<./Figures/calhouse_237/calhouse_237.jpg, id=898, 246.9225pt x 163.61125pt>
 File: ./Figures/calhouse_237/calhouse_237.jpg Graphic file (type jpg)
 <use ./Figures/calhouse_237/calhouse_237.jpg>
 Package pdftex.def Info: ./Figures/calhouse_237/calhouse_237.jpg  used on input
@@ -2302,7 +2315,7 @@ Package pdftex.def Info: ./Figures/calhouse_237/calhouse_237.jpg  used on input
 Package pdftex.def Info: Requested size: 185.65297pt x 123.0127pt on input line
  1108.
 [54 <./Figures/calhouse_236/calhouse_236_2.jpg>]
-<./Figures/calhouse_237/calhouse_237_2.jpg, id=903, 708.39656pt x 402.4298pt>
+<./Figures/calhouse_237/calhouse_237_2.jpg, id=905, 708.39656pt x 402.4298pt>
 File: ./Figures/calhouse_237/calhouse_237_2.jpg Graphic file (type jpg)
 <use ./Figures/calhouse_237/calhouse_237_2.jpg>
 Package pdftex.def Info: ./Figures/calhouse_237/calhouse_237_2.jpg  used on inp
@@ -2315,73 +2328,65 @@ sultado.jpg> <./Figures/calhouse_237/9095-resultado.jpg> <./Figures/calhouse_23
 lhouse_237/calhouse_237.jpg>]) [56 <./Figures/calhouse_237/calhouse_237_2.jpg>]
 
 AED: lastpage setting LastPage
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 144.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 144.
-(/home/lg_more/github/maestria-tesis/libro/thesis.aux
-LaTeX Info: Redefining \. on input line 25.
-LaTeX Info: Redefining \% on input line 25.
-(/home/lg_more/github/maestria-tesis/libro/dedicatoria.aux) (/home/lg_more/gith
-ub/maestria-tesis/libro/agradecimientos.aux) (/home/lg_more/github/maestria-tes
-is/libro/resumen.aux) (/home/lg_more/github/maestria-tesis/libro/abstract.aux
-LaTeX Info: Redefining \. on input line 7.
-LaTeX Info: Redefining \% on input line 7.
-) (/home/lg_more/github/maestria-tesis/libro/symbols.aux) (/home/lg_more/github
-/maestria-tesis/libro/abreviaturas.aux) (/home/lg_more/github/maestria-tesis/li
-bro/chap01.aux) (/home/lg_more/github/maestria-tesis/libro/chap02.aux) (/home/l
-g_more/github/maestria-tesis/libro/chap03.aux) (/home/lg_more/github/maestria-t
-esis/libro/chap04.aux) (/home/lg_more/github/maestria-tesis/libro/chap05.aux) (
-/home/lg_more/github/maestria-tesis/libro/AnexoA.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 144.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 144.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 147.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 147.
+(/home/lg_more/github/maestria-tesis/libro/thesis.aux (/home/lg_more/github/mae
+stria-tesis/libro/dedicatoria.aux) (/home/lg_more/github/maestria-tesis/libro/a
+gradecimientos.aux) (/home/lg_more/github/maestria-tesis/libro/resumen.aux) (/h
+ome/lg_more/github/maestria-tesis/libro/abstract.aux) (/home/lg_more/github/mae
+stria-tesis/libro/symbols.aux) (/home/lg_more/github/maestria-tesis/libro/abrev
+iaturas.aux) (/home/lg_more/github/maestria-tesis/libro/chap01.aux) (/home/lg_m
+ore/github/maestria-tesis/libro/chap02.aux) (/home/lg_more/github/maestria-tesi
+s/libro/chap03.aux) (/home/lg_more/github/maestria-tesis/libro/chap04.aux) (/ho
+me/lg_more/github/maestria-tesis/libro/chap05.aux) (/home/lg_more/github/maestr
+ia-tesis/libro/AnexoA.aux))
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 147.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 147.
 Package rerunfilecheck Info: File `thesis.out' has not changed.
 (rerunfilecheck)             Checksum: D62BB9415A42136E924A64CF583F52D6;2777.
-
-LaTeX Font Warning: Some font shapes were not available, defaults substituted.
-
 
 LaTeX Warning: There were undefined references.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 144.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 147.
  ) 
 Here is how much of TeX's memory you used:
- 23499 strings out of 492990
- 420880 string characters out of 6135005
- 577958 words of memory out of 5000000
- 26120 multiletter control sequences out of 15000+600000
- 72225 words of font info for 80 fonts, out of 8000000 for 9000
+ 26472 strings out of 492990
+ 509080 string characters out of 6135005
+ 679631 words of memory out of 5000000
+ 29027 multiletter control sequences out of 15000+600000
+ 75059 words of font info for 92 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,27n,86p,1750b,680s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 55i,27n,86p,1750b,634s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-rmtt.enc}{/usr/share/texmf/fonts/enc/
 dvips/lm/lm-mathit.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/sha
 re/texmf/fonts/enc/dvips/lm/lm-mathex.enc}{/usr/share/texmf/fonts/enc/dvips/lm/
-lm-mathsy.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-rmsc.enc}</usr/share/texm
-f/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx
-8.pfb></usr/share/texmf/fonts/type1/public/lm/lmbxi10.pfb></usr/share/texmf/fon
-ts/type1/public/lm/lmcsc10.pfb></usr/share/texmf/fonts/type1/public/lm/lmex10.p
-fb></usr/share/texmf/fonts/type1/public/lm/lmmi10.pfb></usr/share/texmf/fonts/t
-ype1/public/lm/lmmi12.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi5.pfb></u
-sr/share/texmf/fonts/type1/public/lm/lmmi6.pfb></usr/share/texmf/fonts/type1/pu
-blic/lm/lmmi7.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi8.pfb></usr/share
-/texmf/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/
-lmr12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr6.pfb></usr/share/texmf/fo
-nts/type1/public/lm/lmr8.pfb></usr/share/texmf/fonts/type1/public/lm/lmri12.pfb
-></usr/share/texmf/fonts/type1/public/lm/lmss10.pfb></usr/share/texmf/fonts/typ
-e1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy8.pfb></usr
-/share/texmf/fonts/type1/public/lm/lmtk10.pfb></usr/share/texmf/fonts/type1/pub
-lic/lm/lmtt12.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt8.pfb></usr/share
-/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/share/
-texlive/texmf-dist/fonts/type1/public/rsfs/rsfs10.pfb></usr/share/texlive/texmf
--dist/fonts/type1/public/rsfs/rsfs7.pfb></usr/share/texlive/texmf-dist/fonts/ty
-pe1/public/esvect/vect10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
-esvect/vect8.pfb>
-Output written on /home/lg_more/github/maestria-tesis/libro/thesis.pdf (73 page
-s, 2538567 bytes).
+lm-mathsy.enc}</usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/te
+xmf/fonts/type1/public/lm/lmbx8.pfb></usr/share/texmf/fonts/type1/public/lm/lmb
+xi10.pfb></usr/share/texmf/fonts/type1/public/lm/lmex10.pfb></usr/share/texmf/f
+onts/type1/public/lm/lmmi10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi12.
+pfb></usr/share/texmf/fonts/type1/public/lm/lmmi5.pfb></usr/share/texmf/fonts/t
+ype1/public/lm/lmmi6.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi7.pfb></us
+r/share/texmf/fonts/type1/public/lm/lmmi8.pfb></usr/share/texmf/fonts/type1/pub
+lic/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr12.pfb></usr/share/
+texmf/fonts/type1/public/lm/lmr17.pfb></usr/share/texmf/fonts/type1/public/lm/l
+mr6.pfb></usr/share/texmf/fonts/type1/public/lm/lmr8.pfb></usr/share/texmf/font
+s/type1/public/lm/lmri12.pfb></usr/share/texmf/fonts/type1/public/lm/lmss10.pfb
+></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/typ
+e1/public/lm/lmsy8.pfb></usr/share/texmf/fonts/type1/public/lm/lmtk10.pfb></usr
+/share/texmf/fonts/type1/public/lm/lmtt12.pfb></usr/share/texmf/fonts/type1/pub
+lic/lm/lmtt8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/sym
+bols/msbm10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/rsfs/rsfs10.p
+fb></usr/share/texlive/texmf-dist/fonts/type1/public/rsfs/rsfs7.pfb></usr/share
+/texlive/texmf-dist/fonts/type1/public/esvect/vect10.pfb></usr/share/texlive/te
+xmf-dist/fonts/type1/public/esvect/vect8.pfb>
+Output written on /home/lg_more/github/maestria-tesis/libro/thesis.pdf (72 page
+s, 2548270 bytes).
 PDF statistics:
- 1068 PDF objects out of 1200 (max. 8388607)
- 873 compressed objects within 9 object streams
- 241 named destinations out of 1000 (max. 500000)
+ 1066 PDF objects out of 1200 (max. 8388607)
+ 872 compressed objects within 9 object streams
+ 240 named destinations out of 1000 (max. 500000)
  629 words of extra memory for PDF output out of 10000 (max. 10000000)
 

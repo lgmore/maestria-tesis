@@ -1,10 +1,10 @@
-\select@language {spanish}
 \select@language {english}
-\select@language {spanish}
-\contentsline {chapter}{LISTA DE FIGURAS}{\es@scroman {x}}{chapter*.4}
-\contentsline {chapter}{LISTA DE TABLAS}{\es@scroman {xiii}}{chapter*.5}
-\contentsline {chapter}{LISTA DE S\'IMBOLOS}{\es@scroman {xv}}{chapter*.6}
-\contentsline {chapter}{LISTA DE ABREVIATURAS}{\es@scroman {xvii}}{chapter*.7}
+\select@language {english}
+\select@language {english}
+\contentsline {chapter}{LISTA DE FIGURAS}{x}{chapter*.4}
+\contentsline {chapter}{LISTA DE TABLAS}{xiii}{chapter*.5}
+\contentsline {chapter}{LISTA DE S\'IMBOLOS}{xiv}{chapter*.6}
+\contentsline {chapter}{LISTA DE ABREVIATURAS}{xvi}{chapter*.7}
 \contentsline {chapter}{\numberline {1}INTRODUCCI\IeC {\'O}N}{1}{chapter.1}
 \contentsline {section}{\numberline {1.1}Objetivos}{2}{section.1.1}
 \contentsline {subsection}{\numberline {1.1.1}Objetivo General}{2}{subsection.1.1.1}
@@ -16,7 +16,7 @@
 \contentsline {subsection}{\numberline {2.1.2}Ejemplo de aplicaci\IeC {\'o}n}{5}{subsection.2.1.2}
 \contentsline {section}{\numberline {2.2}Contrast Limited Adaptive Histogram Equalization (CLAHE)}{8}{section.2.2}
 \contentsline {subsection}{\numberline {2.2.1}Adaptive Histogram Equalization}{8}{subsection.2.2.1}
-\contentsline {subsubsection}{Propiedades de AHE}{8}{subsection.2.2.1}
+\contentsline {subsubsection}{Propiedades de AHE}{9}{subsection.2.2.1}
 \contentsline {subsection}{\numberline {2.2.2}Contrast Limited AHE}{9}{subsection.2.2.2}
 \contentsline {section}{\numberline {2.3}Espacios de Color Adoptados}{10}{section.2.3}
 \contentsline {subsection}{\numberline {2.3.1}El espacio de colores \textit {Red, Green, Blue}}{10}{subsection.2.3.1}

@@ -66,7 +66,7 @@ Acotados por:
 \begin{algorithm}[H]
 \scriptsize
 \begin{algorithmic}[1]
-\Require Imagen de entrada $I$, cantidad de partículas $\Omega$, iteraciones $t_{max}$ 
+\Require Imagen de entrada $I$, cantidad de partículas $\Omega$\label{symbol:mopsocantparticulas}, iteraciones $t_{max}$ 
 \State Inicializar $\omega$, $c_1$, $c_2$, $t=0$, $lower\_limit_1$, $lower\_limit_2$, $lower\_limit_3$, $upper\_limit_1$, $upper\_limit_2$, $upper\_limit_3$, $\mathscr{X}$
         %\For{cada $i$-ésima partícula del enjambre}
         %    \State Inicializar la posición $x_i$ aleatoriamente
@@ -476,3 +476,42 @@ Acotados por:
 
 % \section{Resumen}
 % Este capítulo presentó un nuevo algoritmo de mejora de contraste utilizando la morfología matemática multiescala; en el mismo se detalla cada uno de los pasos llevados a cabo para lograr la mejora del contraste para las imágenes. En el siguiente capítulo veremos los resultados experimentales obtenidos de comparar el algoritmo propuesto con otros algoritmos de mejora de contraste.
+
+\begin{tikzpicture}
+
+%textos
+
+%\node[draw,align=center] at (3,4) {\textbf{MANY-PSO-CLAHE}};
+                                   
+\node[draw,align=center,minimum width=200pt] (manypsoclahe) {\LARGE \textbf{MANY-PSO} \\ \LARGE \textbf{CLAHE}};
+
+\node[draw,align=center,below= 75pt of manypsoclahe] (evaluationfunctions) {\Large \textbf{Evaluation Function}\\ $\mathscr{H}$ \qquad \Large $SSIM_R$ \qquad $SSIM_G$ \qquad $SSIM_B$};
+                                   
+\node[draw,align=center,below= 75pt of evaluationfunctions] (paretoset) {\Large Pareto Set (group of resultant images)};
+
+\node[draw,align=center,left= 250pt of manypsoclahe] (inputimage) {\Large Input \\ \Large Image};
+
+\node[draw,align=center,right= 250pt of manypsoclahe] (outputimage) {\Large Output \\ \Large Image};
+
+\node[draw,circle,minimum size=1cm,inner sep=0pt,above left= 65pt and -40pt of manypsoclahe] (partic1) {\small $\mathscr{R}_x,\mathscr{R}_Y,\mathscr{C}$};
+
+\node[draw,circle,minimum size=1cm,inner sep=0pt,above = 65pt of manypsoclahe] (partic2) {\large $\mathscr{R}_x,\mathscr{R}_Y,\mathscr{C}$};
+
+\node[draw,circle,minimum size=1cm,inner sep=0pt,above right= 65pt and -40pt of manypsoclahe] (partic3) {\small $\mathscr{R}_x,\mathscr{R}_Y,\mathscr{C}$};
+
+\node[align=center,left= 75pt of manypsoclahe] (ycrcb) {\Large $YC_bC_r$};
+
+\node[align=center,right= 75pt of manypsoclahe] (rgb) {\Large $RGB$};
+
+\draw[->,draw=black,solid,line width=2pt]
+  (partic1) edge (manypsoclahe) (partic2) edge (manypsoclahe)
+  (partic3) edge (manypsoclahe)
+  (inputimage) edge (ycrcb)
+  (ycrcb) edge (manypsoclahe)
+  (manypsoclahe) edge (rgb)
+  (rgb) edge (outputimage)
+  (outputimage) edge (evaluationfunctions)
+  (inputimage) edge (evaluationfunctions)
+  (evaluationfunctions) edge (paretoset);
+
+\end{tikzpicture}

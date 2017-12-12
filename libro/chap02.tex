@@ -114,7 +114,7 @@ Contrast Limited $AHE$ ($CLAHE$) es diferente a la ecualización adaptativa del 
 
 Éste problema se supera limitando la mejora del contraste realizada por $AHE$. La amplificación del contraste en la vecindad de un pixel de intensidad dada está relacionada a la pendiente de la función de transformación. Ésto significa que la amplificación es proporcional a la pendiente de la $CDF$ del vecindario y por tanto al valor del histograma a partir de ese valor de pixel. $CLAHE$ limita la amplificación recortando el histograma de acuerdo a un coeficiente predefinido, denominado \textit{Clip Limit} antes de computar el $CDF$. Ésto limita la pendiente del $CDF$ y por tanto la función de transformación.
 
-Es importante no descartar la parte del histograma que excede a \textit{Clip Limit} sino que se redistribuye de manera igualitaria entre todas las columnas del histograma, como se muestra en la Figura \ref{fig:redistclahe}.
+Es importante no descartar la parte del histograma que excede a \textit{Clip Limit}\label{symbol:clahecliplimit} sino que se redistribuye de manera igualitaria entre todas las columnas del histograma, como se muestra en la Figura \ref{fig:redistclahe}.
 
 \begin{figure}[H]
 \centering
@@ -457,7 +457,7 @@ El \textit{Índice de Similaridad Estructural} ($SSIM$) \cite{wang2004image} es 
 SSIM(I,T)\label{symbol:ssim} = \frac{(2\mu_{I_x} \mu_{T_y}+E_1)(2\sigma_{I_xT_y}+E_2)}{(\mu^2_{I_x}+\mu^2_{T_y}+E_1)(\sigma^2_{I_x} + \sigma^2_{T_y}+E_2)} \qquad SSIM \in [0,1]
 \end{equation}
 
-donde $\mu_{I_x}$, $\mu_{T_y}$ son los promedios de intensidad de $I_x$ y $T_y$, respectivamente; $\sigma^2_{I_x}$ y $\sigma^2_{T_y}$ son las varianzas de intensidad para $I_x$ y $T_y$, respectivamente; $\sigma_{I_xT_y}$ es la covarianza entre las intensidades $I_x$ y $T_y$. $E_1=(K_1L^2)$, donde $L$ es el rango dinámico de intensidades de los pixeles de la imagen, y $K_1 \ll 1$ es una constante pequeña; $E_2=(K_2L)^2$, y $K_2 \ll 1$; tanto $E_1$ como $E_2$ son constantes utilizadas para estabilizar la división cuando el denominador se acerca a cero.
+donde $\mu_{I_x}$\label{symbol:ssimmui}, $\mu_{T_y}$\label{symbol:ssimmut} son los promedios de intensidad de $I_x$ y $T_y$, respectivamente; $\sigma^2_{I_x}$\label{symbol:ssimsigmat} y $\sigma^2_{T_y}$\label{symbol:ssimsigmat} son las varianzas de intensidad para $I_x$ y $T_y$, respectivamente; $\sigma_{I_xT_y}$\label{symbol:ssimsigmait} es la covarianza entre las intensidades $I_x$ y $T_y$. $E_1=(K_1L^2)$, donde $L$ es el rango dinámico de intensidades de los pixeles de la imagen, y $K_1 \ll 1$ es una constante pequeña; $E_2=(K_2L)^2$, y $K_2 \ll 1$; tanto $E_1$ como $E_2$ son constantes utilizadas para estabilizar la división cuando el denominador se acerca a cero.
 
 \begin{figure}[H]
 \centering
