@@ -3,8 +3,8 @@
 \select@language {spanish}
 \contentsline {chapter}{LISTA DE FIGURAS}{\es@scroman {x}}{chapter*.4}
 \contentsline {chapter}{LISTA DE TABLAS}{\es@scroman {xiii}}{chapter*.5}
-\contentsline {chapter}{LISTA DE S\'IMBOLOS}{\es@scroman {xiv}}{chapter*.6}
-\contentsline {chapter}{LISTA DE ABREVIATURAS}{\es@scroman {xvi}}{chapter*.7}
+\contentsline {chapter}{LISTA DE S\'IMBOLOS}{\es@scroman {xv}}{chapter*.6}
+\contentsline {chapter}{LISTA DE ABREVIATURAS}{\es@scroman {xvii}}{chapter*.7}
 \contentsline {chapter}{\numberline {1}INTRODUCCI\IeC {\'O}N}{1}{chapter.1}
 \contentsline {section}{\numberline {1.1}Objetivos}{2}{section.1.1}
 \contentsline {subsection}{\numberline {1.1.1}Objetivo General}{2}{subsection.1.1.1}

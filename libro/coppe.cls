@@ -761,9 +761,9 @@ T\kern-.1667em\lower.5ex\hbox{E}\kern-.125emX\spacefactor1000}
 %  \newcommand\local@approvedname{Examinada por}%
 %}
 \ifthenelse{\boolean{maledoc}}{%
-	\newcommand\local@approvedname{Aprobado en Agosto de 2017 por}%
+	\newcommand\local@approvedname{Aprobado en Diciembre de 2017 por}%
 }{%
-	\newcommand\local@approvedname{Aprobado en Agosto de 2017 por}%
+	\newcommand\local@approvedname{Aprobado en Diciembre de 2017 por}%
 }
 \newcommand\local@universityname{Universidad Nacional de Asunci\'on}
 \newcommand\local@deptstring{Programa}
