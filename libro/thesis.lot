@@ -6,8 +6,8 @@
 \contentsline {table}{\numberline {2.1}{\ignorespaces Proceso de ecualizaci\IeC {\'o}n de histograma b\IeC {\'a}sica. La columna $r_k$ representa los niveles de gris de la imagen original, y la columna $s_k$ muestra los niveles de gris que se mapean a partir del proceso, y que reemplazar\IeC {\'a}n a los valores de $r_k$ en la imagen procesada.\relax }}{6}{table.caption.9}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {4.1}{\ignorespaces Par\IeC {\'a}metros de entrada para $MOPSO$}}{24}{table.caption.17}
-\contentsline {table}{\numberline {4.2}{\ignorespaces Par\IeC {\'a}metros de entrada para $MOPSO$}}{26}{table.caption.20}
+\contentsline {table}{\numberline {4.1}{\ignorespaces Par\IeC {\'a}metros de entrada para $MOPSO$}}{24}{table.caption.18}
+\contentsline {table}{\numberline {4.2}{\ignorespaces Par\IeC {\'a}metros de entrada para $MOPSO$}}{26}{table.caption.21}
 \addvspace {10\p@ }
 \contentsline {table}{\numberline {1}{\ignorespaces Resultados no dominados para la imagen de prueba \texttt {calhouse\_230.jpg}\relax }}{36}{table.Alph0.1}
 \contentsline {table}{\numberline {2}{\ignorespaces Resultados no dominados para la imagen de prueba \texttt {calhouse\_231.jpg}\relax }}{40}{table.Alph0.2}
