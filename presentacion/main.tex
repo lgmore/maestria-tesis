@@ -438,18 +438,24 @@ Y + 1.772 \cdot  (C_b - 128)
 Es un algoritmo de Mejora del Contraste de tipo local, diseñado para su aplicación en distintos tipos de imágenes. 
 
 Sus parámetros de entrada principales consisten en:
-
 \begin{equation}
-\mathscr{H}= -\sum_{i=0}^{n-1} p_i \text{log}_2(p_i) \qquad \mathscr{H} \in \{0,...,\text{log}_2(n)\}
+\begin{split}
+(\mathscr{R}_x, \mathscr{R}_y, \mathscr{C}) & \qquad (\mathscr{R}_x, \mathscr{R}_y) \in ([2,M/2],[2,N/2]) \\
+											& \qquad \mathscr{C} \in [0,256]
+\end{split}
 \end{equation}
 
 
 donde
 \end{exampleblock}
 \centering
-\tcbox{\adjincludegraphics[width=0.55\linewidth,valign=t]{graphics/Clahe-redist.jpg}}
+% \tcbox{\adjincludegraphics[width=0.55\linewidth,valign=t]{graphics/Clahe-redist.jpg}}
 
-\centering
+\begin{itemize}
+	\item $(\mathscr{R}_x, \mathscr{R}_y)$ son las dimensiones de la región de la imagen donde se realiza la Ecualización del Histograma.
+	\item $\mathscr{C}$ es el coeficiente de recorte del histograma previo al proceso, \textit{Clip Limit}. 
+\end{itemize}
+
 % \tcbox{\adjincludegraphics[width=0.25\linewidth,valign=t]{graphics/lena}}
 % \adjincludegraphics[width=0.30\linewidth,valign=t]{graphics/RGB_Cube_Show_lowgamma_cutout_b}
 
