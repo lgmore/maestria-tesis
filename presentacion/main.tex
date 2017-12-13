@@ -63,8 +63,52 @@ Luis G. Moré
 \tableofcontents
 \end{frame}
 
+% \section{Introducción}
+
 \section{Introducción}
 \begin{frame}{Introducción}
+
+       \begin{tabular}{cl}  
+           \begin{tabular}{c}
+              \includegraphics[width=3.5cm]{graphics/lenalc} \\
+              \includegraphics[width=3.5cm]{graphics/lenahc}
+           \end{tabular}
+           & \begin{tabular}{l}
+             \parbox{0.6\linewidth}{%  change the parbox width as appropiate
+             	
+             		\begin{itemize}
+             		\item La mejora del contraste es un proceso de transformación de la imagen, con el objetivo de obtener una nueva imagen con un contraste más definido.
+					\item Se busca obtener imágenes más aptas para algún proceso posterior.
+					\item La mejora del contraste es un área de investigación atractiva en el procesamiento de imágenes.
+				    \end{itemize}
+
+             }
+         \end{tabular}  \\
+\end{tabular}
+
+\end{frame}
+
+% \begin{frame}{Introducción}
+
+% \begin{columns}[t]
+% \begin{column}{.3\textwidth}
+% \tcbox{\adjincludegraphics[width=0.85\linewidth,valign=t]{graphics/lena}}
+
+% \end{column}
+% \begin{column}{.7\textwidth}
+% \begin{itemize}
+% 	\item La mejora del contraste es un proceso de transformación de la imagen, con el objetivo de obtener una nueva imagen con un contraste más definido.
+% 	\item Se busca obtener imágenes más aptas para algún proceso posterior.
+% 	\item La mejora del contraste es un área de investigación atractiva en el procesamiento de imágenes.
+% \end{itemize}
+% % \hfill-- Carl Friedrich Gauss
+% \end{column}
+% \end{columns}
+% \end{frame}
+\begin{frame}{Introducción}
+\begin{alertblock}{Problemática}
+Mejora del Contraste de imágenes a color.
+\end{alertblock}
 
 \begin{columns}[t]
 \begin{column}{.3\textwidth}
@@ -73,15 +117,12 @@ Luis G. Moré
 \end{column}
 \begin{column}{.7\textwidth}
 \begin{itemize}
-	\item La mejora del contraste es un proceso de transformación de la imagen, con el objetivo de obtener una nueva imagen con un contraste más definido.
-	\item Se busca obtener imágenes más aptas para algún proceso posterior.
-	\item La mejora del contraste es un área de investigación atractiva en el procesamiento de imágenes.
+	\item En las imágenes digitales en escala de gris solamente es necesario considerar la información representada por los niveles de intensidad de los pixeles.
+	\item En las imágenes a color, es necesario además tener en cuenta la información de color representada, lo cual representa un problema adicional en el proceso.
 \end{itemize}
 % \hfill-- Carl Friedrich Gauss
 \end{column}
 \end{columns}
-
-
 \end{frame}
 
 \begin{frame}{Introducción}
@@ -105,27 +146,13 @@ Luis G. Moré
 
 \end{frame}
 
-\begin{frame}{Introducción}
-
-\begin{columns}[t]
-\begin{column}{.3\textwidth}
-\tcbox{\adjincludegraphics[width=0.85\linewidth,valign=t]{graphics/lena}}
-
-\end{column}
-\begin{column}{.7\textwidth}
-\begin{itemize}
-	\item En las imágenes digitales en escala de gris solamente es necesario considerar la información representada por los niveles de intensidad de los pixeles.
-	\item En las imágenes a color, es necesario además tener en cuenta la información de color representada, lo cual representa un problema adicional en el proceso.
-\end{itemize}
-% \hfill-- Carl Friedrich Gauss
-\end{column}
-\end{columns}
-
-
-\end{frame}
 
 \begin{frame}{Introducción}
-
+\vspace{-0.5cm}
+\begin{alertblock}{Objetivo}
+Desarrollar un algoritmo para obtención de parámetros adecuados de Mejora del Contraste.
+\end{alertblock}
+\vspace{-0.2cm}
 \begin{columns}[t]
 \begin{column}{.3\textwidth}
 \tcbox{\adjincludegraphics[width=0.85\linewidth,valign=t]{graphics/lena}}
@@ -169,39 +196,40 @@ Luis G. Moré
 
 \section{Marco Teórico}
 
-\begin{frame}{Marco Teórico}
+% \begin{frame}{Marco Teórico}
 
+% \begin{columns}[t]
+% \begin{column}{.3\textwidth}
+% \tcbox{\adjincludegraphics[width=0.85\linewidth,valign=t]{graphics/lena}}
+
+% \end{column}
+% \begin{column}{.7\textwidth}
+% \begin{itemize}
+% 	\item Es necesario revisar dos partes:
+% 	\begin{itemize}
+% 		\item El proceso de Ecualización del Histograma,
+% 		\item La Meta-Heurística Aplicada.
+% 	\end{itemize}
+% \end{itemize}
+% % \hfill-- Carl Friedrich Gauss
+% \end{column}
+% \end{columns}
+
+
+% \end{frame}
+
+\begin{frame}{Marco Teórico}
+\begin{alertblock}{Primeros pasos}
+Separación de información de intensidad - Selección de espacios de color
+\end{alertblock}
 \begin{columns}[t]
 \begin{column}{.3\textwidth}
 \tcbox{\adjincludegraphics[width=0.85\linewidth,valign=t]{graphics/lena}}
-
-\end{column}
-\begin{column}{.7\textwidth}
-\begin{itemize}
-	\item Es necesario revisar dos partes:
-	\begin{itemize}
-		\item El proceso de Ecualización del Histograma,
-		\item La Meta-Heurística Aplicada.
-	\end{itemize}
-\end{itemize}
-% \hfill-- Carl Friedrich Gauss
-\end{column}
-\end{columns}
-
-
-\end{frame}
-
-\begin{frame}{Marco Teórico}
-
-\begin{columns}[t]
-\begin{column}{.3\textwidth}
-\tcbox{\adjincludegraphics[width=0.85\linewidth,valign=t]{graphics/lena}}
-
 \end{column}
 \begin{column}{.7\textwidth}
 \begin{itemize}
 	\item Se realiza una separación de la información de intensidad de la información de color para el proceso de ecualización del histograma.
-	\item Se adoptaron representaciones de color bien conocidas para operar sobre la intensidad de la imagen digital:
+	\item Se adoptaron representaciones de color bien conocidas para operar sobre la información de color de la imagen digital:
 	\begin{itemize}
 		\item $RGB$ (\textit{Red, Green, Blue})
 		\item $YCbCr$
@@ -210,7 +238,7 @@ Luis G. Moré
 % \hfill-- Carl Friedrich Gauss
 \end{column}
 \end{columns}
-
+s ded
 \end{frame}
 
 
@@ -240,16 +268,82 @@ Luis G. Moré
 \frametitle{Marco Teórico} 
 % \framesubtitle{And also some blocks.} 
 \begin{exampleblock}{\textit{Red, Green, Blue (RGB)}}
-Las imágenes digitales se representan inicialmente en $RGB$, por lo que se tiene un array de $N \times M \times 3$ pixeles de color.
+\end{exampleblock}
 
-Cada pixel se representa como un elemento $[z_r \quad z_g \quad z_b]$ donde $z_r,z_g,z_b$ son los componentes de rojo, verde y azul del pixel a color en una ubicación específica. Los componentes se mezclan para obtener el color representado por el pixel de la imagen.
-\end{exampleblock} 
+\begin{columns}[onlytextwidth]
+\begin{column}{.45\textwidth}
+\begin{figure}
+  \includegraphics[width=4.5cm]{graphics/RGB_Cube_Show_lowgamma_cutout_b.png}
+  \caption{$RGB$ es un espacio de representación de colores cartesiano}
+\end{figure}
+\end{column}
+\hfill
+\begin{column}{.45\textwidth}
+    %             \begin{exampleblock}{\textit{Ventajas}}
+				% \end{exampleblock}
+             	
+				Las imágenes digitales se representan inicialmente en $RGB$, por lo que se tiene un array de $N \times M \times 3$ pixeles de color.
 
-\centering
+				Cada pixel se representa como un elemento $[z_r \quad z_g \quad z_b]$ donde $z_r,z_g,z_b$ son los componentes de rojo, verde y azul del pixel a color en una ubicación específica.
+\end{column}
+\end{columns} 
+%        \begin{tabular}{ll}  
+%        	   \hspace{-1cm}
+%            \begin{tabular}{l}
+%               \includegraphics[width=4.5cm]{graphics/RGB_Cube_Show_lowgamma_cutout_b.png}
+%            \end{tabular}
+%            & \begin{tabular}{l}
+%              \parbox{0.6\linewidth}{%  change the parbox width as appropiate
+             	
+% 				Las imágenes digitales se representan inicialmente en $RGB$, por lo que se tiene un array de $N \times M \times 3$ pixeles de color.
+
+% 				Cada pixel se representa como un elemento $[z_r \quad z_g \quad z_b]$ donde $z_r,z_g,z_b$ son los componentes de rojo, verde y azul del pixel a color en una ubicación específica. Los componentes se mezclan para obtener el color representado por el pixel de la imagen.
+
+%              }
+%          \end{tabular}  \\
+% \end{tabular}
+
+
+
+
+% \centering
 % \tcbox{\adjincludegraphics[width=0.25\linewidth,valign=t]{graphics/lena}}
-\adjincludegraphics[width=0.30\linewidth,valign=t]{graphics/RGB_Cube_Show_lowgamma_cutout_b}
+% \adjincludegraphics[width=0.30\linewidth,valign=t]{graphics/RGB_Cube_Show_lowgamma_cutout_b}
 
 \end{frame}
+
+\begin{frame} 
+\frametitle{Marco Teórico} 
+% \framesubtitle{And also some blocks.} 
+\begin{exampleblock}{\textit{Red, Green, Blue (RGB)}}
+\end{exampleblock} 
+
+\begin{columns}[onlytextwidth]
+\begin{column}{.45\textwidth}
+\begin{figure}
+  \includegraphics[width=\textwidth]{graphics/RGBCube.png}
+  \caption{Representación de colores de ejemplo en el espacio $RGB$}
+\end{figure}
+\end{column}
+\hfill
+\begin{column}{.45\textwidth}
+                \begin{exampleblock}{\textit{Ventajas}}
+				\end{exampleblock}
+             	
+				\begin{itemize}
+					\item Representación Sencilla
+					\item Representación Bien conocida
+					\item Implementación en varios lenguajes
+				\end{itemize}
+\end{column}
+\end{columns}
+
+% \centering
+% \tcbox{\adjincludegraphics[width=0.25\linewidth,valign=t]{graphics/lena}}
+% \adjincludegraphics[width=0.30\linewidth,valign=t]{graphics/RGB_Cube_Show_lowgamma_cutout_b}
+
+\end{frame}
+
 
 \begin{frame} 
 \frametitle{Marco Teórico} 
@@ -269,11 +363,32 @@ La ventaja de ésta representación es que separa la información de intensidade
 \begin{frame} 
 \frametitle{Marco Teórico} 
 % \framesubtitle{And also some blocks.} 
+\vspace{-1cm}
+\begin{figure}
+  \includegraphics[width=11cm]{graphics/IC676790.png}
+  \caption{Planos de componentes $rojo$, $verde$ y $azul$ en la representación $RGB$}
+\end{figure}
+\vspace{-1cm}
+\begin{figure}
+  \includegraphics[width=11cm]{graphics/IC676791.png}
+  \caption{Planos de componentes $Y$, $Cb$, $Cr$ en la representación $YCbCr$}
+\end{figure}
+
+% \tcbox{\adjincludegraphics[width=0.25\linewidth,valign=t]{graphics/lena}}
+% \adjincludegraphics[width=0.30\linewidth,valign=t]{graphics/RGB_Cube_Show_lowgamma_cutout_b}
+
+\end{frame}
+
+
+\begin{frame} 
+\frametitle{Marco Teórico} 
+% \framesubtitle{And also some blocks.} 
 \begin{exampleblock}{\textit{YCbCr}}
 \textit{YCbCr} es un espacio de color definido a través de una transformación matemática de coordenadas, a partir de un espacio de color $RGB$ asociado.
 
 Otra ventaja importante es que la conversión a partir de $RGB$, y luego de vuelta a $RGB$ es directa:
 \end{exampleblock}
+\vspace{-0.5cm}
 \begin{equation}
 \begin{bmatrix}
 Y \\
@@ -320,10 +435,16 @@ Y + 1.772 \cdot  (C_b - 128)
 % \framesubtitle{And also some blocks.} 
 \begin{exampleblock}{\textit{Contrast Limited Adaptive Histogram Equalization}}
 
-Es un algoritmo de Mejora del Contraste bien conocido, diseñado para su aplicación en distintos tipos de imágenes. 
+Es un algoritmo de Mejora del Contraste de tipo local, diseñado para su aplicación en distintos tipos de imágenes. 
 
-$CLAHE$ es una variación del algoritmo \textit{Adaptive Histogram Equalization}, el cual es un algoritmo de Mejora del Contraste local. 
+Sus parámetros de entrada principales consisten en:
 
+\begin{equation}
+\mathscr{H}= -\sum_{i=0}^{n-1} p_i \text{log}_2(p_i) \qquad \mathscr{H} \in \{0,...,\text{log}_2(n)\}
+\end{equation}
+
+
+donde
 \end{exampleblock}
 \centering
 \tcbox{\adjincludegraphics[width=0.55\linewidth,valign=t]{graphics/Clahe-redist.jpg}}
