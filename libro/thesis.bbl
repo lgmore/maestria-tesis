@@ -1,6 +1,18 @@
 \newcommand{\etalchar}[1]{$^{#1}$}
 \begin{thebibliography}{NDGN{\etalchar{+}}09}
 
+\bibitem[BN89]{BEGHDADI1989162}
+Azeddine Beghdadi and Alain~Le Negrate.
+\newblock Contrast enhancement technique based on local detection of edges.
+\newblock {\em Computer Vision, Graphics, and Image Processing}, 46(2):162 --
+  174, 1989.
+
+\bibitem[BP11]{bennet2011fingerprint}
+D~Bennet and Dr~S~Arumuga Perumal.
+\newblock Fingerprint: Dwt, svd based enhancement and significant contrast for
+  ridges and valleys using fuzzy measures.
+\newblock {\em arXiv preprint arXiv:1106.5737}, 2011.
+
 \bibitem[Bra00]{bradski2000opencv}
 Gary Bradski.
 \newblock The opencv library.
@@ -13,6 +25,13 @@ Juan~J Durillo, Antonio~J Nebro, and Enrique Alba.
   architecture.
 \newblock In {\em Evolutionary Computation (CEC), 2010 IEEE Congress on}, pages
   1--8. IEEE, 2010.
+
+\bibitem[DOA10]{demirel2010satellite}
+Hasan Demirel, Cagri Ozcinar, and Gholamreza Anbarjafari.
+\newblock Satellite image contrast enhancement using discrete wavelet transform
+  and singular value decomposition.
+\newblock {\em IEEE Geoscience and remote sensing letters}, 7(2):333--337,
+  2010.
 
 \bibitem[Doi07]{doi2007computer}
 Kunio Doi.
@@ -35,6 +54,12 @@ Rafael~C. Gonzalez and Richard~E. Woods.
 \bibitem[GW02b]{gonzalez2002processing}
 Rafael~C Gonzalez and Richard~E Woods.
 \newblock Processing, 2002.
+
+\bibitem[HLMS14]{CPLX:CPLX21499}
+Yan~Chai Hum, Khin~Wee Lai, and Maheza~Irna Mohamad~Salim.
+\newblock Multiobjectives bihistogram equalization for image contrast
+  enhancement.
+\newblock {\em Complexity}, 20(2):22--36, 2014.
 
 \bibitem[HS13]{HOSEINI2013879}
 Pourya Hoseini and Mahrokh~G. Shayesteh.
@@ -71,10 +96,16 @@ Thomas Lillesand, Ralph~W Kiefer, and Jonathan Chipman.
 \newblock {\em Remote sensing and image interpretation}.
 \newblock John Wiley \& Sons, 2014.
 
-\bibitem[MB]{morepso}
+\bibitem[Mal81]{doi:10.1080/00223638.1981.11738127}
+David Malin.
+\newblock Direct photographic image enhancement in astronomy.
+\newblock {\em The Journal of Photographic Science}, 29(5):199--205, 1981.
+
+\bibitem[MB14]{morepso}
 LG~Mor{\'e} and MA~Brizuela.
 \newblock Pso applied to parameter tuning of clahe based on entropy and
   structural similarity index.
+\newblock 2014.
 
 \bibitem[MBA{\etalchar{+}}15]{more2015parameter}
 Luis~G More, Marcos~A Brizuela, Horacio~Legal Ayala, Diego~P Pinto-Roa, and
@@ -116,6 +147,11 @@ Y.~Shi and R.~Eberhart.
 
 \bibitem[tim]{time}
 {\em time(1) - Linux User's Manual}.
+
+\bibitem[Voo03]{voorneveld2003characterization}
+Mark Voorneveld.
+\newblock Characterization of pareto dominance.
+\newblock {\em Operations Research Letters}, 31(1):7--11, 2003.
 
 \bibitem[WBSS04]{wang2004image}
 Zhou Wang, Alan~C Bovik, Hamid~R Sheikh, and Eero~P Simoncelli.

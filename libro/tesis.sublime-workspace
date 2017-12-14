@@ -43,18 +43,18 @@
 			"file": "thesis.tex",
 			"settings":
 			{
-				"buffer_size": 3921,
+				"buffer_size": 4043,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "symbols.tex",
+			"file": "/home/lg_more/github/maestria-tesis/presentacion/main.tex",
 			"settings":
 			{
-				"buffer_size": 5678,
+				"buffer_size": 34488,
 				"encoding": "UTF-8",
-				"line_ending": "Windows"
+				"line_ending": "Unix"
 			}
 		},
 		{
@@ -70,7 +70,7 @@
 			"file": "chap03.tex",
 			"settings":
 			{
-				"buffer_size": 29723,
+				"buffer_size": 31863,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -79,34 +79,42 @@
 			"file": "chap02.tex",
 			"settings":
 			{
-				"buffer_size": 57413,
+				"buffer_size": 57562,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "abstract.tex",
+			"file": "symbols.tex",
 			"settings":
 			{
-				"buffer_size": 3641,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "resumen.tex",
-			"settings":
-			{
-				"buffer_size": 4050,
+				"buffer_size": 5237,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/home/lg_more/MEGAsync/maestria/2do encuentro de investigadores/banner tesis/conference_poster_6.tex",
+			"settings":
+			{
+				"buffer_size": 11489,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/lg_more/drivePoli/maestria/tesis/poster micai/esquema.tex",
+			"settings":
+			{
+				"buffer_size": 1899,
+				"line_ending": "Unix"
 			}
 		},
 		{
 			"file": "thesis.lof",
 			"settings":
 			{
-				"buffer_size": 7365,
+				"buffer_size": 7506,
 				"line_ending": "Unix"
 			}
 		},
@@ -429,6 +437,12 @@
 	],
 	"file_history":
 	[
+		"/tmp/mozilla_lg_more0/curriculum.docx",
+		"/home/lg_more/MEGAsync/maestria/ccis 2016/banner tesis/conference_poster_6.tex",
+		"/home/lg_more/drivePoli/maestria/micai 2017/Lecture Notes in Computer Science (LNCS)/paper_micai.tex",
+		"/home/lg_more/github/maestria-tesis/libro/abstract.tex",
+		"/home/lg_more/github/maestria-tesis/libro/resumen.tex",
+		"/home/lg_more/github/maestria-tesis/libro/symbols.tex",
 		"/home/lg_more/github/maestria-tesis/libro/coppe.cls",
 		"/home/lg_more/github/maestria-tesis/libro/tesis.fls",
 		"/tmp/tesis jmello/chap03.tex",
@@ -481,8 +495,6 @@
 		"/tmp/calhouse_230/resultados.csv",
 		"/home/lg_more/github/maestria-tesis/libro/AnexoB.aux",
 		"/home/lg_more/MEGAsync/maestria/micai 2017/Lecture Notes in Computer Science (LNCS) - camera ready/paper_micai.tex",
-		"/home/lg_more/github/maestria-tesis/libro/resumen.tex",
-		"/home/lg_more/github/maestria-tesis/libro/abstract.tex",
 		"/home/lg_more/github/maestria-tesis/libro/abreviaturas.tex",
 		"/home/lg_more/drivePoli/maestria/tesis/libro/0B_uamuFbOYdWN0otSmptbTFoYkU_FILES/thesis.tex",
 		"/home/lg_more/drivePoli/maestria/tesis/libro/0B_uamuFbOYdWN0otSmptbTFoYkU_FILES/chap03.aux",
@@ -552,11 +564,7 @@
 		"/home/lg_more/MEGAsync/maestria/micai 2017/funcalhouse/funcalhouse_0238.csv",
 		"/home/lg_more/MEGAsync/maestria/micai 2017/funcalhouse/funcalhouse_0240.csv",
 		"/home/lg_more/MEGAsync/maestria/micai 2017/funcalhouse/funcalhouse_0230.csv",
-		"/home/lg_more/MEGAsync/maestria/micai 2017/varcalhouse/varcalhouse_0230.csv",
-		"/home/lg_more/MEGAsync/maestria/micai 2017/funcalhouse/funcalhouse_0231.csv",
-		"/home/lg_more/MEGAsync/maestria/micai 2017/funcalhouse/funcalhouse_0233.csv",
-		"/home/lg_more/MEGAsync/maestria/ccis 2016/Template_Poster_CCIS2016/poster_ccis2016.tex",
-		"/home/lg_more/MEGAsync/maestria/micai 2017/varcalhouse/varcalhouse_0231.csv"
+		"/home/lg_more/MEGAsync/maestria/micai 2017/varcalhouse/varcalhouse_0230.csv"
 	],
 	"find":
 	{
@@ -575,6 +583,23 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"La Entropía de la Imagen",
+			"consisten en",
+			"consisten en:",
+			"equation",
+			"es un algoritmo",
+			"cartesiano",
+			"es un espacio de color definido",
+			"luego de vuelta a RGB",
+			"vspace",
+			"es necesario revisar dos partes",
+			"en este trabajo",
+			"alert",
+			"block",
+			"color multi-objetivo",
+			"include",
+			"tikz",
+			"ssim",
 			"mopso",
 			"Noviembre",
 			"Aprobado en Agosto de 2017 por",
@@ -685,29 +710,12 @@
 			"  ",
 			" \\n",
 			"  ",
-			",",
-			"calhouse_230",
-			",",
-			"& \\\\",
-			"N",
-			"\\t",
-			".",
-			",",
-			"  ",
-			"id",
-			"idID",
-			"id",
-			",",
-			" & \\\\",
-			"\\t",
-			"N",
-			" & \\\\",
-			"\\t"
+			","
 		],
 		"highlight": false,
 		"in_selection": false,
 		"preserve_case": false,
-		"regex": true,
+		"regex": false,
 		"replace_history":
 		[
 			" \\\\\\\\",
@@ -828,34 +836,25 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3921,
+						"buffer_size": 4043,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2074,
-								2074
+								684,
+								684
 							]
 						],
 						"settings":
 						{
-							"WordCount":
-							{
-								"changes": 15,
-								"count": 83,
-								"modified": false,
-								"selection": false,
-								"status": -1,
-								"syntax": "plain text"
-							},
 							"syntax": "Packages/LaTeXing/support/LaTeX.tmLanguage",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1368.0,
+						"translation.y": 456.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
@@ -863,37 +862,37 @@
 				},
 				{
 					"buffer": 1,
-					"file": "symbols.tex",
+					"file": "/home/lg_more/github/maestria-tesis/presentacion/main.tex",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 5678,
+						"buffer_size": 34488,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2826,
-								2826
+								18111,
+								18111
 							]
 						],
 						"settings":
 						{
 							"WordCount":
 							{
-								"changes": 832,
-								"count": 270,
+								"changes": 527,
+								"count": 2455,
 								"modified": false,
 								"selection": false,
 								"status": -1,
 								"syntax": "plain text"
 							},
-							"syntax": "Packages/LaTeXing/support/LaTeX.tmLanguage",
+							"syntax": "Packages/LaTeXing/support/LaTeX Beamer.tmLanguage",
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 608.0,
+						"translation.y": 10984.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -918,21 +917,12 @@
 						],
 						"settings":
 						{
-							"WordCount":
-							{
-								"changes": 0,
-								"count": 858,
-								"modified": false,
-								"selection": false,
-								"status": -1,
-								"syntax": "plain text"
-							},
 							"syntax": "Packages/LaTeXing/support/LaTeX.tmLanguage",
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1007.0,
+						"translation.y": 209.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 3,
@@ -944,34 +934,25 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 29723,
+						"buffer_size": 31863,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								9095,
-								9095
+								29950,
+								29950
 							]
 						],
 						"settings":
 						{
-							"WordCount":
-							{
-								"changes": 130,
-								"count": 2934,
-								"modified": false,
-								"selection": false,
-								"status": -1,
-								"syntax": "plain text"
-							},
 							"syntax": "Packages/LaTeXing/support/LaTeX.tmLanguage",
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 2736.0,
+						"translation.y": 12312.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 2,
@@ -983,71 +964,54 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 57413,
+						"buffer_size": 57562,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								20489,
-								20489
+								10729,
+								10729
 							]
 						],
 						"settings":
 						{
-							"WordCount":
-							{
-								"changes": 95,
-								"count": 6213,
-								"modified": false,
-								"selection": false,
-								"status": -1,
-								"syntax": "plain text"
-							},
 							"syntax": "Packages/LaTeXing/support/LaTeX.tmLanguage",
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 7735.0,
+						"translation.y": 3211.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 7,
 					"type": "text"
 				},
 				{
 					"buffer": 5,
-					"file": "abstract.tex",
+					"file": "symbols.tex",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3641,
+						"buffer_size": 5237,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1575,
-								1575
+								3305,
+								3305
 							]
 						],
 						"settings":
 						{
-							"WordCount":
-							{
-								"changes": 1953,
-								"count": 527,
-								"modified": false,
-								"selection": false,
-								"status": -1,
-								"syntax": "plain text"
-							},
-							"syntax": "Packages/LaTeXing/support/LaTeX.tmLanguage"
+							"syntax": "Packages/LaTeXing/support/LaTeX.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 855.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 6,
@@ -1055,48 +1019,67 @@
 				},
 				{
 					"buffer": 6,
-					"file": "resumen.tex",
+					"file": "/home/lg_more/MEGAsync/maestria/2do encuentro de investigadores/banner tesis/conference_poster_6.tex",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 4050,
+						"buffer_size": 11489,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2049,
-								2049
+								765,
+								765
 							]
 						],
 						"settings":
 						{
-							"WordCount":
-							{
-								"changes": 2132,
-								"count": 612,
-								"modified": false,
-								"selection": false,
-								"status": -1,
-								"syntax": "plain text"
-							},
+							"syntax": "Packages/LaTeXing/support/LaTeX.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 157.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "/home/lg_more/drivePoli/maestria/tesis/poster micai/esquema.tex",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1899,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								87,
+								87
+							]
+						],
+						"settings":
+						{
 							"syntax": "Packages/LaTeXing/support/LaTeX.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 7,
+					"stack_index": 4,
 					"type": "text"
 				},
 				{
-					"buffer": 7,
+					"buffer": 8,
 					"file": "thesis.lof",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 7365,
+						"buffer_size": 7506,
 						"regions":
 						{
 						},
@@ -1109,26 +1092,17 @@
 						],
 						"settings":
 						{
-							"WordCount":
-							{
-								"changes": 9,
-								"count": 487,
-								"modified": true,
-								"selection": true,
-								"status": -1,
-								"syntax": "plain text"
-							},
 							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 1.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 5,
+					"stack_index": 8,
 					"type": "text"
 				},
 				{
-					"buffer": 8,
+					"buffer": 9,
 					"file": "referencias.bib",
 					"semi_transient": false,
 					"settings":
@@ -1146,14 +1120,6 @@
 						],
 						"settings":
 						{
-							"WordCount":
-							{
-								"changes": -1,
-								"modified": false,
-								"selection": false,
-								"status": -1,
-								"syntax": "plain text"
-							},
 							"syntax": "Packages/Text/Plain text.tmLanguage",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
@@ -1162,7 +1128,7 @@
 						"translation.y": 342.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 8,
+					"stack_index": 9,
 					"type": "text"
 				}
 			]
@@ -1205,7 +1171,7 @@
 	},
 	"output.exec":
 	{
-		"height": 144.0
+		"height": 191.0
 	},
 	"output.find_results":
 	{
@@ -1269,7 +1235,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 130.0,
+	"side_bar_width": 176.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

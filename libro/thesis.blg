@@ -15,57 +15,56 @@ A level-1 auxiliary file: chap05.aux
 The style file: alpha.bst
 A level-1 auxiliary file: AnexoA.aux
 Database file #1: referencias.bib
-Repeated entry---line 154 of file referencias.bib
+Repeated entry---line 180 of file referencias.bib
  : @inproceedings{zuiderveld1994contrast
  :                                      ,
 I'm skipping whatever remains of this entry
-You're missing a field name---line 225 of file referencias.bib
+You're missing a field name---line 251 of file referencias.bib
  :  
  :  %author        = "David MacKenzie",
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
 Warning--to sort, need author, organization, or key in time
 Warning--empty journal in morepso
-Warning--empty year in morepso
-You've used 22 entries,
+You've used 28 entries,
             2543 wiz_defined-function locations,
-            708 strings with 8687 characters,
-and the built_in function-call counts, 9923 in all, are:
-= -- 989
-> -- 470
-< -- 15
-+ -- 166
-- -- 162
-* -- 724
-:= -- 1565
-add.period$ -- 67
-call.type$ -- 22
-change.case$ -- 146
-chr.to.int$ -- 21
-cite$ -- 26
-duplicate$ -- 396
-empty$ -- 734
-format.name$ -- 184
-if$ -- 2087
+            749 strings with 9770 characters,
+and the built_in function-call counts, 12235 in all, are:
+= -- 1228
+> -- 574
+< -- 17
++ -- 200
+- -- 196
+* -- 900
+:= -- 1952
+add.period$ -- 86
+call.type$ -- 28
+change.case$ -- 182
+chr.to.int$ -- 27
+cite$ -- 31
+duplicate$ -- 481
+empty$ -- 901
+format.name$ -- 226
+if$ -- 2551
 int.to.chr$ -- 2
 int.to.str$ -- 0
-missing$ -- 21
-newline$ -- 111
-num.names$ -- 63
-pop$ -- 158
+missing$ -- 27
+newline$ -- 142
+num.names$ -- 81
+pop$ -- 176
 preamble$ -- 1
-purify$ -- 170
+purify$ -- 212
 quote$ -- 0
-skip$ -- 341
+skip$ -- 416
 stack$ -- 0
-substring$ -- 596
-swap$ -- 98
-text.length$ -- 15
-text.prefix$ -- 5
+substring$ -- 746
+swap$ -- 104
+text.length$ -- 17
+text.prefix$ -- 7
 top$ -- 0
-type$ -- 168
-warning$ -- 3
-while$ -- 90
-width$ -- 25
-write$ -- 282
+type$ -- 216
+warning$ -- 2
+while$ -- 114
+width$ -- 31
+write$ -- 361
 (There were 2 error messages)
