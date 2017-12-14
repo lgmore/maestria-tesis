@@ -12,42 +12,24 @@
 \contentsline {figure}{\numberline {2.6}{\ignorespaces Redistribuci\IeC {\'o}n de niveles de intensidad dentro del histograma de una regi\IeC {\'o}n de una imagen, como paso previo al c\IeC {\'a}lculo del $CDF$. \IeC {\'E}sto tiene como efecto la suaviaci\IeC {\'o}n del proceso de mejora del contraste.\relax }}{11}{figure.caption.15}
 \contentsline {figure}{\numberline {2.7}{\ignorespaces Diagrama esquem\IeC {\'a}tico del cubo que representa al espacio de colores $RGB$. Se pueden apreciar algunos colores notables.\relax }}{13}{figure.caption.16}
 \contentsline {figure}{\numberline {2.8}{\ignorespaces Imagen de ejemplo con las representaciones de intensidad ($Y$) y de color ($Cb,Cr$). N\IeC {\'o}tese que el mapa de intensidades $Y$ es una representaci\IeC {\'o}n en escala de grises de la imagen digital.\relax }}{14}{figure.caption.17}
-\contentsline {figure}{\numberline {2.10}{\ignorespaces Datos de $\mathscr {H}$ para una imagen de ejemplo. A la derecha $\mathscr {H}$, a la izquierda $\mathscr {H}=$\relax }}{17}{figure.caption.19}
-\contentsline {figure}{\numberline {2.11}{\ignorespaces Datos de $SSIM$ para una imagen de ejemplo. A la derecha $SSIM$, a la izquierda $SSIM$\relax }}{18}{figure.caption.20}
-\contentsline {figure}{\numberline {2.9}{\ignorespaces Comportamiento de part\IeC {\'\i }culas en $PSO$ monobjetivo a trav\IeC {\'e}s de la serie de iteraciones.\relax }}{19}{figure.caption.18}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Imagen Original}}}{19}{figure.caption.18}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Imagen con contraste mejorado}}}{19}{figure.caption.18}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{19}{figure.caption.18}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {ID=1}}}{19}{figure.caption.18}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{19}{figure.caption.18}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{19}{figure.caption.18}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{19}{figure.caption.18}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{19}{figure.caption.18}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{19}{figure.caption.18}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{19}{figure.caption.18}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{19}{figure.caption.18}
-\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {}}}{19}{figure.caption.18}
-\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {}}}{19}{figure.caption.18}
-\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {Imagen Original}}}{19}{figure.caption.18}
-\contentsline {subfigure}{\numberline {(g)}{\ignorespaces {}}}{19}{figure.caption.18}
-\contentsline {subfigure}{\numberline {(h)}{\ignorespaces {}}}{19}{figure.caption.18}
+\contentsline {figure}{\numberline {2.9}{\ignorespaces Comportamiento de part\IeC {\'\i }culas en $PSO$ Monobjetivo a trav\IeC {\'e}s de la serie de iteraciones. N\IeC {\'o}tese que las equis (x) indican un punto o soluci\IeC {\'o}n potencial que se mueve sobre la superficie donde los colores m\IeC {\'a}s fr\IeC {\'\i }os son mejores soluciones.\relax }}{16}{figure.caption.18}
+\contentsline {figure}{\numberline {2.10}{\ignorespaces Datos de $\mathscr {H}$ para una imagen de ejemplo. En (a) $\mathscr {H}=7,053228$, en (b) $\mathscr {H}=7,953866$\relax }}{18}{figure.caption.19}
+\contentsline {figure}{\numberline {2.11}{\ignorespaces Datos de $SSIM$ para una imagen de ejemplo. En (a) $SSIM_R=1$, $SSIM_G=1$, $SSIM_B=1$ en (b) $SSIM_R=0,484719$, $SSIM_G=0,525963$, $SSIM_B=0,533241$\relax }}{19}{figure.caption.20}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Interacci\IeC {\'o}n entre elementos de la propuesta.\relax }}{23}{figure.caption.21}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{23}{figure.caption.21}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{23}{figure.caption.21}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Proceso de evaluaci\IeC {\'o}n de una soluci\IeC {\'o}n potencial, para una iteraci\IeC {\'o}n $t$ del Algoritmo \ref {alg:pso_clahe}.\relax }}{22}{figure.caption.21}
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {4.1}{\ignorespaces Im\IeC {\'a}genes original y resultantes para la imagen de prueba \texttt {calhouse\_230.jpg}\relax }}{26}{figure.caption.23}
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Frente Pareto dibujado utilizando datos de referencia m\IeC {\'e}tricas de la imagen de prueba \texttt {calhouse\_230.jpg} \relax }}{27}{figure.caption.24}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Frente Pareto dibujado utilizando datos de referencia m\IeC {\'e}tricas de la imagen de prueba \texttt {calhouse\_230.jpg} \relax }}{27}{figure.caption.25}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {1}{\ignorespaces Im\IeC {\'a}genes visualmente relevantes obtenidas mediante $CMOPSO-CLAHE$. Las variables y decisi\IeC {\'o}n y m\IeC {\'e}tricas de las im\IeC {\'a}genes se muestran en la tabla \ref {tab:calhouse_230}.\relax }}{38}{figure.caption.28}
-\contentsline {figure}{\numberline {2}{\ignorespaces Frente pareto que contrasta los objetivos de las soluciones no dominadas. para los resultados de im\IeC {\'a}genes que se muestran en la tabla \ref {tab:calhouse_230}.\relax }}{39}{figure.caption.29}
-\contentsline {figure}{\numberline {3}{\ignorespaces Im\IeC {\'a}genes visualmente relevantes obtenidas mediante $CMOPSO-CLAHE$. Las variables y decisi\IeC {\'o}n y m\IeC {\'e}tricas de las im\IeC {\'a}genes se muestran en la tabla \ref {tab:calhouse_231}.\relax }}{42}{figure.caption.30}
-\contentsline {figure}{\numberline {4}{\ignorespaces Frente pareto que contrasta los objetivos de las soluciones no dominadas. para los resultados de im\IeC {\'a}genes que se muestran en la tabla \ref {tab:calhouse_231}.\relax }}{43}{figure.caption.31}
-\contentsline {figure}{\numberline {5}{\ignorespaces Im\IeC {\'a}genes visualmente relevantes obtenidas mediante $CMOPSO-CLAHE$. Las variables y decisi\IeC {\'o}n y m\IeC {\'e}tricas de las im\IeC {\'a}genes se muestran en la tabla \ref {tab:calhouse_233}.\relax }}{46}{figure.caption.32}
-\contentsline {figure}{\numberline {6}{\ignorespaces Frente pareto que contrasta los objetivos de las soluciones no dominadas. para los resultados de im\IeC {\'a}genes que se muestran en la tabla \ref {tab:calhouse_233}.\relax }}{47}{figure.caption.33}
-\contentsline {figure}{\numberline {7}{\ignorespaces Im\IeC {\'a}genes visualmente relevantes obtenidas mediante $CMOPSO-CLAHE$. Las variables y decisi\IeC {\'o}n y m\IeC {\'e}tricas de las im\IeC {\'a}genes se muestran en la tabla \ref {tab:calhouse_234}.\relax }}{50}{figure.caption.34}
-\contentsline {figure}{\numberline {8}{\ignorespaces Frente pareto que contrasta los objetivos de las soluciones no dominadas. para los resultados de im\IeC {\'a}genes que se muestran en la tabla \ref {tab:calhouse_234}.\relax }}{51}{figure.caption.35}
-\contentsline {figure}{\numberline {9}{\ignorespaces Im\IeC {\'a}genes visualmente relevantes obtenidas mediante $CMOPSO-CLAHE$. Las variables y decisi\IeC {\'o}n y m\IeC {\'e}tricas de las im\IeC {\'a}genes se muestran en la tabla \ref {tab:calhouse_234}.\relax }}{54}{figure.caption.36}
-\contentsline {figure}{\numberline {10}{\ignorespaces Frente pareto que contrasta los objetivos de las soluciones no dominadas. para los resultados de im\IeC {\'a}genes que se muestran en la tabla \ref {tab:calhouse_236}.\relax }}{55}{figure.caption.37}
-\contentsline {figure}{\numberline {11}{\ignorespaces Im\IeC {\'a}genes visualmente relevantes obtenidas mediante $CMOPSO-CLAHE$. Las variables y decisi\IeC {\'o}n y m\IeC {\'e}tricas de las im\IeC {\'a}genes se muestran en la tabla \ref {tab:calhouse_237}.\relax }}{56}{figure.caption.38}
-\contentsline {figure}{\numberline {12}{\ignorespaces Frente pareto que contrasta los objetivos de las soluciones no dominadas. para los resultados de im\IeC {\'a}genes que se muestran en la tabla \ref {tab:calhouse_237}.\relax }}{57}{figure.caption.39}
+\contentsline {figure}{\numberline {A.1.1}{\ignorespaces Im\IeC {\'a}genes visualmente relevantes obtenidas mediante $CMOPSO-CLAHE$. Las variables y decisi\IeC {\'o}n y m\IeC {\'e}tricas de las im\IeC {\'a}genes se muestran en la tabla \ref {tab:calhouse_230}.\relax }}{38}{figure.caption.28}
+\contentsline {figure}{\numberline {A.2.2}{\ignorespaces Frente pareto que contrasta los objetivos de las soluciones no dominadas. para los resultados de im\IeC {\'a}genes que se muestran en la tabla \ref {tab:calhouse_230}.\relax }}{39}{figure.caption.29}
+\contentsline {figure}{\numberline {A.3.3}{\ignorespaces Im\IeC {\'a}genes visualmente relevantes obtenidas mediante $CMOPSO-CLAHE$. Las variables y decisi\IeC {\'o}n y m\IeC {\'e}tricas de las im\IeC {\'a}genes se muestran en la tabla \ref {tab:calhouse_231}.\relax }}{42}{figure.caption.30}
+\contentsline {figure}{\numberline {A.4.4}{\ignorespaces Frente pareto que contrasta los objetivos de las soluciones no dominadas. para los resultados de im\IeC {\'a}genes que se muestran en la tabla \ref {tab:calhouse_231}.\relax }}{43}{figure.caption.31}
+\contentsline {figure}{\numberline {A.5.5}{\ignorespaces Im\IeC {\'a}genes visualmente relevantes obtenidas mediante $CMOPSO-CLAHE$. Las variables y decisi\IeC {\'o}n y m\IeC {\'e}tricas de las im\IeC {\'a}genes se muestran en la tabla \ref {tab:calhouse_233}.\relax }}{46}{figure.caption.32}
+\contentsline {figure}{\numberline {A.6.6}{\ignorespaces Frente pareto que contrasta los objetivos de las soluciones no dominadas. para los resultados de im\IeC {\'a}genes que se muestran en la tabla \ref {tab:calhouse_233}.\relax }}{47}{figure.caption.33}
+\contentsline {figure}{\numberline {A.7.7}{\ignorespaces Im\IeC {\'a}genes visualmente relevantes obtenidas mediante $CMOPSO-CLAHE$. Las variables y decisi\IeC {\'o}n y m\IeC {\'e}tricas de las im\IeC {\'a}genes se muestran en la tabla \ref {tab:calhouse_234}.\relax }}{50}{figure.caption.34}
+\contentsline {figure}{\numberline {A.8.8}{\ignorespaces Frente pareto que contrasta los objetivos de las soluciones no dominadas. para los resultados de im\IeC {\'a}genes que se muestran en la tabla \ref {tab:calhouse_234}.\relax }}{51}{figure.caption.35}
+\contentsline {figure}{\numberline {A.9.9}{\ignorespaces Im\IeC {\'a}genes visualmente relevantes obtenidas mediante $CMOPSO-CLAHE$. Las variables y decisi\IeC {\'o}n y m\IeC {\'e}tricas de las im\IeC {\'a}genes se muestran en la tabla \ref {tab:calhouse_234}.\relax }}{54}{figure.caption.36}
+\contentsline {figure}{\numberline {A.10.10}{\ignorespaces Frente pareto que contrasta los objetivos de las soluciones no dominadas. para los resultados de im\IeC {\'a}genes que se muestran en la tabla \ref {tab:calhouse_236}.\relax }}{55}{figure.caption.37}
+\contentsline {figure}{\numberline {A.11.11}{\ignorespaces Im\IeC {\'a}genes visualmente relevantes obtenidas mediante $CMOPSO-CLAHE$. Las variables y decisi\IeC {\'o}n y m\IeC {\'e}tricas de las im\IeC {\'a}genes se muestran en la tabla \ref {tab:calhouse_237}.\relax }}{56}{figure.caption.38}
+\contentsline {figure}{\numberline {A.12.12}{\ignorespaces Frente pareto que contrasta los objetivos de las soluciones no dominadas. para los resultados de im\IeC {\'a}genes que se muestran en la tabla \ref {tab:calhouse_237}.\relax }}{57}{figure.caption.39}

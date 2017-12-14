@@ -386,13 +386,13 @@ donde $\vv{x}_{p_i}$ es la mejor solución que $\vv{x}_i$ encontró hasta la ite
 
 Multi-Objective Particle Swarm Optimization ($MOPSO$) \cite{nebro2009smpso} es la versión de $PSO$ para enfoques de optimización con más de un objetivo. Se añaden determinadas características para lograr cierta eficiencia durante el proceso de optimización definido arriba, y se basa en el concepto de \textit{Dominancia Pareto}\cite{voorneveld2003characterization} para determinar las soluciones que se proponen como óptimas en el contexto de optimización Multi-Objetivo. Se dice que una solución potencial domina a otra (se escribe $a \succ b$) cuando todos los objetivos son menores o iguales, y al menos un objetivo es estrictamente menor.
 
-En $MOPSO$ se añaden algunas características a $PSO$, a saber: un \textit{coeficiente de constricción} $\chi$ se adopta de manera a controlar la velocidad de la partícula, como se describe abajo:
+En $MOPSO$ se añaden algunas características a $PSO$, a saber: un \textit{coeficiente de constricción} $\chi$\label{symbol:mopsoconstriccion1} se adopta de manera a controlar la velocidad de la partícula, como se describe abajo:
 
 \begin{equation}
 \chi = \frac{2}{2 - \varphi - \sqrt{\varphi^2 - 4 \varphi}}
 \end{equation}
 
-\begin{figure}[tbh]
+\begin{figure}[H]
 \centering
     %\begin{subfigure}[t]{0.45\textwidth}
     \begin{subfigure}[]{
@@ -432,7 +432,7 @@ En $MOPSO$ se añaden algunas características a $PSO$, a saber: un \textit{coef
 %        \caption{Enhanced Image.  $\mathscr{H_Y}=0.0350595$. $SSIM_R=0.416776$. $SSIM_G=0.403636$. $SSIM_B=0.417654$}
 \label{fig:calhouse231102}
 \end{subfigure} 
-\begin{subfigure}[Imagen Original]{
+\begin{subfigure}[]{
 \includegraphics[width=0.45\textwidth]{./Figures/ejemplopso/capas-79.png}
 }
     % \begin{subfigure}[t]{0.45\textwidth}
@@ -455,7 +455,7 @@ En $MOPSO$ se añaden algunas características a $PSO$, a saber: un \textit{coef
 %        \caption{Enhanced Image.  $\mathscr{H_Y}=0.0350595$. $SSIM_R=0.416776$. $SSIM_G=0.403636$. $SSIM_B=0.417654$}
 \label{fig:calhouse231102}
 \end{subfigure}
-        \caption{Comportamiento de partículas en $PSO$ monobjetivo a través de la serie de iteraciones.}
+        \caption{Comportamiento de partículas en $PSO$ Monobjetivo a través de la serie de iteraciones. Nótese que las equis (x) indican un punto o solución potencial que se mueve sobre la superficie donde los colores más fríos son mejores soluciones.}
         \label{fig:comportamientopso}
 \end{figure}
 
@@ -474,7 +474,7 @@ En $MOPSO$ se añaden algunas características a $PSO$, a saber: un \textit{coef
 % \chi = \frac{2}{2 - \varphi - \sqrt{\varphi^2 - 4 \varphi}}
 % \end{equation}
 
-donde
+donde $\varphi$\label{symbol:varphi}
 
 % where
 
@@ -509,6 +509,8 @@ donde
 \begin{equation}
 delta_j=\frac{upper\_limit_j - lower\_limit_j}{2}
 \end{equation}
+
+$upper\_limit_j$ y $lower\_limit_j$ son coeficientes definidos para la restricción de velocidad.
 
 \section{Métricas de Optimización}
 
@@ -557,7 +559,7 @@ En la Figura \ref{fig:lenaejemploentropia} se puede notar el efecto que tiene el
 
 \subsection{Índice de Similaridad Estructural}
 
-El \textit{Índice de Similaridad Estructural} ($SSIM$) \cite{wang2004image} es una métrica bien conocida que mide atributos importantes de la imagen tales como la \textit{Luminancia, Contraste}y la \textit{Estructura}. $SSIM$ tiene como objetivo principal medir la distorsión agregada a la imagen como consecuencia del proceso de Mejora del Contraste. $SSIM$ es calculado por regiones, por lo tanto, dadas dos imágenes $I_x$ y $T_y$ que representan una imagen original y una mejorada, respectivamente, el índice $SSIM$ se define como se muestra abajo: 
+El \textit{Índice de Similaridad Estructural} ($SSIM$) \cite{wang2004image} es una métrica bien conocida que mide atributos importantes de la imagen tales como la \textit{Luminancia, Contraste} y la \textit{Estructura}. $SSIM$ tiene como objetivo principal medir la distorsión agregada a la imagen como consecuencia del proceso de Mejora del Contraste. $SSIM$ es calculado por regiones, por lo tanto, dadas dos imágenes $I_x$ y $T_y$ que representan una imagen original y una mejorada, respectivamente, el índice $SSIM$ se define como se muestra abajo: 
 
 %The \textit{Structural Similarity Index} ($SSIM$) \cite{wang2004image} is a well known metric that measures important image's attributes such as \textit{Luminance, Contrast} and \textit{Structure}. SSIM main aim is to measure the distortion added to the image as a consecuence of the CE proccess. $SSIM$ is calculated by windows, so given two images $I_x$ and $T_y$ which represent an original and an enhanced image, respectively, the $SSIM$ index is defined as below:
 

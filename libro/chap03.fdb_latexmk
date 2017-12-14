@@ -1,8 +1,8 @@
 # Fdb version 3
-["pdflatex"] 1512996393 "/home/lg_more/github/maestria-tesis/libro/chap03.tex" "/home/lg_more/github/maestria-tesis/libro/chap03.pdf" "chap03" 1512996394
+["pdflatex"] 1513289676 "/home/lg_more/github/maestria-tesis/libro/chap03.tex" "/home/lg_more/github/maestria-tesis/libro/chap03.pdf" "chap03" 1513289685
   "/etc/texmf/web2c/texmf.cnf" 1509726437 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/lg_more/github/maestria-tesis/libro/chap03.aux" 1512996362 1949 260bfbfc9eb7e174dc29ae5cb0fa7aae ""
-  "/home/lg_more/github/maestria-tesis/libro/chap03.tex" 1512996294 29042 03f9a34ef23176541c85d316f805a281 ""
+  "/home/lg_more/github/maestria-tesis/libro/chap03.aux" 1513289626 3608 684a08e1813c32714566fc866cf582d8 ""
+  "/home/lg_more/github/maestria-tesis/libro/chap03.tex" 1513289672 32678 27e364f5ab2acdc74bf279dddad1bad7 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1480098670 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm" 1480098701 1328 c834bbb027764024c09d3d2bf908b5f0 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmti10.tfm" 1480098701 1480 aa8e34af0eb6a2941b776984cf1dfdc4 ""
@@ -10,11 +10,11 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1503024366 32036 8f10cb8f6ef259fb5791f09c065d3d13 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1509726445 2377213 8bc19c9e6d8db8e1c35694d1be199981 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1509726542 4128531 d055619ebcb377dd89772fe63b36c1da ""
-  "chap03.tex" 1512996294 29042 03f9a34ef23176541c85d316f805a281 ""
+  "chap03.tex" 1513289672 32678 27e364f5ab2acdc74bf279dddad1bad7 ""
   (generated)
-  "/home/lg_more/github/maestria-tesis/libro/chap03.pdf"
   "/home/lg_more/drivePoli/maestria/tesis/libro/0B_uamuFbOYdWN0otSmptbTFoYkU_FILES/chap03.pdf"
-  "chap03.pdf"
+  "/home/lg_more/drivePoli/maestria/tesis/libro/0B_uamuFbOYdWN0otSmptbTFoYkU_FILES/chap03.log"
   "chap03.log"
   "/home/lg_more/github/maestria-tesis/libro/chap03.log"
-  "/home/lg_more/drivePoli/maestria/tesis/libro/0B_uamuFbOYdWN0otSmptbTFoYkU_FILES/chap03.log"
+  "chap03.pdf"
+  "/home/lg_more/github/maestria-tesis/libro/chap03.pdf"

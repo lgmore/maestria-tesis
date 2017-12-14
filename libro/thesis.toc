@@ -22,20 +22,21 @@
 \contentsline {subsection}{\numberline {2.3.1}El espacio de colores \textit {Red, Green, Blue}}{12}{subsection.2.3.1}
 \contentsline {subsection}{\numberline {2.3.2}El espacio de colores $YCbCr$}{13}{subsection.2.3.2}
 \contentsline {section}{\numberline {2.4}Multi-Objective Particle Swarm Optimization (MOPSO)}{14}{section.2.4}
-\contentsline {section}{\numberline {2.5}M\IeC {\'e}tricas de Optimizaci\IeC {\'o}n}{16}{section.2.5}
-\contentsline {subsection}{\numberline {2.5.1}Entrop\IeC {\'\i }a de la imagen}{16}{subsection.2.5.1}
-\contentsline {subsection}{\numberline {2.5.2}\IeC {\'I}ndice de Similaridad Estructural}{17}{subsection.2.5.2}
-\contentsline {chapter}{\numberline {3}FORMULACI\IeC {\'O}N DEL PROBLEMA PLANTEADO Y PROPUESTA}{20}{chapter.3}
+\contentsline {section}{\numberline {2.5}M\IeC {\'e}tricas de Optimizaci\IeC {\'o}n}{17}{section.2.5}
+\contentsline {subsection}{\numberline {2.5.1}Entrop\IeC {\'\i }a de la imagen}{17}{subsection.2.5.1}
+\contentsline {subsection}{\numberline {2.5.2}\IeC {\'I}ndice de Similaridad Estructural}{18}{subsection.2.5.2}
+\contentsline {chapter}{\numberline {3}PLANTEAMIENTO DEL PROBLEMA}{20}{chapter.3}
 \contentsline {section}{\numberline {3.1}Formulaci\IeC {\'o}n del problema planteado}{20}{section.3.1}
-\contentsline {section}{\numberline {3.2}Propuesta}{22}{section.3.2}
+\contentsline {section}{\numberline {3.2}Propuesta}{21}{section.3.2}
 \contentsline {chapter}{\numberline {4}RESULTADOS Y DISCUSI\IeC {\'O}N}{24}{chapter.4}
 \contentsline {section}{\numberline {4.1}Ambiente de Pruebas experimentales}{24}{section.4.1}
-\contentsline {chapter}{\numberline {5}CONCLUSIONES Y TRABAJOS\\ FUTUROS}{29}{chapter.5}
-\contentsline {section}{\numberline {5.1}Trabajos futuros}{30}{section.5.1}
+\contentsline {section}{\numberline {4.2}Descripci\IeC {\'o}n de resultados obtenidos}{24}{section.4.2}
+\contentsline {chapter}{\numberline {5}CONCLUSIONES Y TRABAJOS\\ FUTUROS}{28}{chapter.5}
+\contentsline {section}{\numberline {5.1}Trabajos futuros}{29}{section.5.1}
 \contentsline {chapter}{REFERENCIAS BIBLIOGR\IeC {\'A}FICAS}{31}{chapter*.26}
-\contentsline {section}{\numberline {.1}Imagen de prueba \texttt {calhouse\_230.jpg}}{34}{section.Alph0.1}
-\contentsline {section}{\numberline {.2}Imagen de prueba \texttt {calhouse\_231.jpg}}{39}{section.Alph0.2}
-\contentsline {section}{\numberline {.3}Imagen de prueba \texttt {calhouse\_233.jpg}}{43}{section.Alph0.3}
-\contentsline {section}{\numberline {.4}Imagen de prueba \texttt {calhouse\_234.jpg}}{47}{section.Alph0.4}
-\contentsline {section}{\numberline {.5}Imagen de prueba \texttt {calhouse\_236.jpg}}{51}{section.Alph0.5}
-\contentsline {section}{\numberline {.6}Imagen de prueba \texttt {calhouse\_237.jpg}}{55}{section.Alph0.6}
+\contentsline {section}{\numberline {A.0}Imagen de prueba \texttt {calhouse\_230.jpg}}{34}{section.Alph0.1}
+\contentsline {section}{\numberline {A.2}Imagen de prueba \texttt {calhouse\_231.jpg}}{39}{section.Alph0.2}
+\contentsline {section}{\numberline {A.4}Imagen de prueba \texttt {calhouse\_233.jpg}}{43}{section.Alph0.3}
+\contentsline {section}{\numberline {A.6}Imagen de prueba \texttt {calhouse\_234.jpg}}{47}{section.Alph0.4}
+\contentsline {section}{\numberline {A.8}Imagen de prueba \texttt {calhouse\_236.jpg}}{51}{section.Alph0.5}
+\contentsline {section}{\numberline {A.10}Imagen de prueba \texttt {calhouse\_237.jpg}}{55}{section.Alph0.6}

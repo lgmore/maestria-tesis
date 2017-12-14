@@ -539,9 +539,10 @@ INPUT ./Figures/peppers_color_lc.jpg
 INPUT /home/lg_more/github/maestria-tesis/libro/./Figures/peppers_color_hc.jpg
 INPUT ./Figures/peppers_color_hc.jpg
 INPUT ./Figures/peppers_color_hc.jpg
-INPUT /home/lg_more/github/maestria-tesis/libro/./Figures/lennaejemplo.jpg
-INPUT ./Figures/lennaejemplo.jpg
-INPUT ./Figures/lennaejemplo.jpg
+INPUT /home/lg_more/github/maestria-tesis/libro/./Figures/peppers_color_lc.jpg
+INPUT ./Figures/peppers_color_lc.jpg
+INPUT /home/lg_more/github/maestria-tesis/libro/./Figures/peppers_color_hc.jpg
+INPUT ./Figures/peppers_color_hc.jpg
 OUTPUT /home/lg_more/github/maestria-tesis/libro/chap03.aux
 INPUT /home/lg_more/github/maestria-tesis/libro/chap03.tex
 INPUT /home/lg_more/github/maestria-tesis/libro/chap03.tex
@@ -554,13 +555,6 @@ INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm5.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/rsfs/rsfs5.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/esvect/vect5.tfm
 INPUT /usr/share/texmf/fonts/tfm/public/lm/lmmi12.tfm
-INPUT /usr/share/texmf/fonts/tfm/public/lm/lmsy10.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/rsfs/rsfs10.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/esvect/vect10.tfm
-INPUT /usr/share/texmf/fonts/tfm/public/lm/rm-lmr10.tfm
-INPUT /usr/share/texmf/fonts/tfm/public/lm/lmmi10.tfm
 INPUT /usr/share/texmf/fonts/tfm/public/lm/lmsy10.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
@@ -750,8 +744,8 @@ INPUT /home/lg_more/github/maestria-tesis/libro/thesis.out
 INPUT /usr/share/texmf/fonts/enc/dvips/lm/lm-rmtt.enc
 INPUT /usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc
 INPUT /usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc
-INPUT /usr/share/texmf/fonts/enc/dvips/lm/lm-mathex.enc
 INPUT /usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc
+INPUT /usr/share/texmf/fonts/enc/dvips/lm/lm-mathex.enc
 INPUT /usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb
 INPUT /usr/share/texmf/fonts/type1/public/lm/lmbx8.pfb
 INPUT /usr/share/texmf/fonts/type1/public/lm/lmbxi10.pfb

@@ -1,6 +1,11 @@
+\renewcommand\thesection{A.\arabic{figure}}
+\renewcommand\thefigure{\thesection.\arabic{figure}}
+\renewcommand{\thetable}{A.\arabic{table}} 
+
 \chapter*{ANEXO A: Resultados extendidos}
 \label{ch:anexo}
-
+\setcounter{figure}{0}
+\setcounter{table}{0} 
 En este capítulo se muestra el detalle numérico de las métricas componentes de $CMOPSO-CLAHE$. además de valores resultantes de las variables de decisión y tiempos de ejecución para las imágenes de prueba. para los resultados no dominados. Los tiempos de ejecución detallados corresponden a \texttt{time())} \cite{time}.
 
 %Los resultados de este apartado son los promedios de los tiempos de ejecución. de los algoritmos \textit{Histogram Equalization} (HE). \textit{Multiscale Morphological Contrast Enhancement} (MMCE) y el algoritmo propuesto. para las 200 imágenes en escala de grises. Los algoritmos se implementaron con el framewok ImageJ y se hizo ejecutar 5 veces los experimentos. En la Tabla \ref{tabla22} se muestran los promedios de los tiempos de ejecución del algoritmo HE para las imágenes en escala de grises.

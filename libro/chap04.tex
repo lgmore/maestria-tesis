@@ -13,6 +13,11 @@ El conjunto de pruebas se realizó sobre el siguiente hardware disponible: Una P
     \item Sistema Operativo CentOS 7 (centos-release-7-3.1611.el7.centos.x86\_64).
 \end{itemize}
 
+
+\section{Descripción de resultados obtenidos}
+
+Se realizaron pruebas utilizando 8 imágenes a color a partir del conjunto de datos disponible en http://www.vision.caltech.edu/archive.html. La tabla \ref{table:parametrospso} muestra cómo $SMPSO$ fué configurada para la ejecución de prueba experimentales. Los detalles de implementación de $SMPSO$ está disponible en \cite{durillo2010jmetal}, mientras que los detalles de implementación para $CLAHE$, $\mathscr{H}$ y $SSIM$ están disponibles en \cite{bradski2000opencv}.
+
 \begin{table}[H]
 \setlength{\abovecaptionskip}{2pt plus 3pt minus 2pt} % Chosen fairly arbitrarily
 \caption[Parámetros de entrada para $MOPSO$]{Parámetros de entrada iniciales para CMOPSO-CLAHE.}
@@ -21,6 +26,8 @@ El conjunto de pruebas se realizó sobre el siguiente hardware disponible: Una P
  \hline
  Parámetro & Valor & Parámetro & Valor \\ [0.5ex] 
  \hline\hline
+ $L$ & $256$ &     &       \\ 
+ \hline
  $M$ & $256$ & $N$ & $163$ \\ 
  \hline
  $lower\_limit_{\mathscr{R}_x}$ & $2$ & $upper\_limit_{\mathscr{R}_x}$ & $M/2$ \\ 
@@ -44,11 +51,9 @@ $r_2$ $min$ & 0.0 & $r_2$ $max$ & 1.0 \\
 \label{table:parametrospso}
 \end{table}
 
-Se realizaron pruebas utilizando 8 imágenes a color a partir del conjunto de datos disponible en http://www.vision.caltech.edu/archive.html. La tabla \ref{table:parametrospso} muestra cómo $SMPSO$ fué configurada para la ejecuciónde prueba experimentales. Los detalles de implementación de $SMPSO$ está disponible en \cite{durillo2010jmetal}, mientras que los detalles de implementación para $CLAHE$, $\mathscr{H}$ y $SSIM$ están disponibles en \cite{bradski2000opencv}. 
+Para cada imagen de prueba, se realizaron 50 ejecuciones, y en promedio se encontraron 100 soluciones no dominadas. De la Figura \ref{fig:casa1} se puede verificar que es notable la manera en que las variables de decisión entrenadas logran la Mejora del Contraste en las imágenes de prueba; además de que se puede evidenciar también la existencia una relación de compromiso con respecto a la variación de coeficientes entre $\mathscr{H}$ y $SSIM_R,SSIM_G,SSIM_B$. Es también notable a partir de la Figura (\ref{fig:casa1})(c) cómo los valores más altos de $\mathscr{H}$ degradan severamente a la imagen, mientras que los valores altos de $SSIM_R,SSIM_G,SSIM_B$ no logran el Contraste suficiente, en ocasiones siendo apenas perceptible; por lo que es necesario encontrar el balance correcto entre $\mathscr{H}$ y $SSIM_R,SSIM_G,SSIM_B$.
 
-Para cada imagen de prueba, se realizaron 50 ejecuciones, y en promedio se encontraron 100 soluciones no dominadas. De la figura (\ref{fig:casa1}) se puede verificar que es notable la manera en que las variables de decisión entrenadas logran la Mejora del Contraste en las imágenes de prueba; además de que se puede evidenciar también la existencia una relación de compromiso con respecto a la variación de coeficientes entre $\mathscr{H}$ y $SSIM_R,SSIM_G,SSIM_B$. Es también notable a partir de la Figura (\ref{fig:casa1})(c) cómo los valores más altos de $\mathscr{H}$ degradan severamente a la imagen, mientras que los valores altos de $SSIM_R,SSIM_G,SSIM_B$ no logran el Contraste suficiente, en ocasiones siendo apenas perceptible; por lo que es necesario encontrar el balance correcto entre $\mathscr{H}$ y $SSIM_R,SSIM_G,SSIM_B$.
-
-En el Anexo se puede apreciar el detalle de coeficientes obtenidos para las métricas utilizadas en el trabajo.
+En el Anexo A se puede apreciar el detalle de coeficientes obtenidos para las métricas utilizadas en el trabajo.
 
 %Tests were performed using 8 color images from the dataset available at http://www.vision.caltech.edu/archive.html. Table \ref{table:parametrospso} shows how $SMPSO$ was configured for the tests. $SMPSO$ implementation is available at \cite{durillo2010jmetal}, meanwhile the implementations for $CLAHE$, $\mathscr{H}$ and $SSIM$ are available at \cite{bradski2000opencv}. For every test image, 50 test were performed, and 10 non-dominated solutions were found in average. From Figures (\ref{fig:casa1original},\ref{fig:casa1enhanced1},\ref{fig:casa1enhanced2}) it is noticeable how CE is achieved; there is also a compromise relation between $\mathscr{H}$ and $SSIM_R,SSIM_G,SSIM_B$. It is noteworthy from Figure (\ref{fig:casa1enhanced2}) how higher values of $\mathscr{H}$ degrade images severely, so it is neccesary to find the correct balance between $\mathscr{H}$ and $SSIM_R,SSIM_G,SSIM_B$. In Figure (\ref{fig:casa1enhanced3}) it is shown the resultant image enhanced using the proposal described in \cite{morepso}; it is noticeable that the resultant image does not achieve good CE; this is because the mono-objective approach does not use color information properly, and this result is the same for other test images. In Table \ref{table:nodominadas}, the non-dominated metric coefficients are shown, and in the last line it is shown the metric coefficients for image (\ref{fig:casa1original}), enhanced using the mono-objective proposal. Although its metrics seem to fall in the Pareto Front, the visual information obtained is not enough to state that the mono-objective proposal is feasible for color images. These results are similar for every test image used.
 
@@ -134,13 +139,6 @@ En el Anexo se puede apreciar el detalle de coeficientes obtenidos para las mét
 % \label{table:nodominadas}
 % \end{table}
 
-
-\begin{figure}[H]
-    \centering
-        \includegraphics[width=0.80\textwidth]{./Figures/pareto_front.jpg}
-    \caption{Frente Pareto dibujado utilizando datos de referencia métricas de la imagen de prueba \texttt{calhouse\_230.jpg} }\label{fig:pareto_front}
-\end{figure}
-
 \begin{table}[H]
 \setlength{\abovecaptionskip}{2pt plus 3pt minus 2pt} % Chosen fairly arbitrarily
 \caption[Parámetros de entrada para $MOPSO$]{Tabla de correlación entre métricas. Los datos fueron tomados de la Tabla de Anexo para la imagen \texttt{calhouse\_230.jpg}}
@@ -161,6 +159,13 @@ $SSIM_B$ & -0.9826 & 0.9999   & 0.9999   & 1 \\
 \end{center}
 \label{table:correlacion}
 \end{table}
+
+\begin{figure}[H]
+    \centering
+        \includegraphics[width=0.80\textwidth]{./Figures/pareto_front.jpg}
+    \caption{Frente Pareto dibujado utilizando datos de referencia métricas de la imagen de prueba \texttt{calhouse\_230.jpg} }\label{fig:pareto_front}
+\end{figure}
+
 
 La Figura (\ref{fig:pareto_front}) muestra el Frente pareto creado a partir de los datos de coeficientes de métricas de la imagen de prueba \texttt{calhouse\_230.jpg}, y también la Tabla \ref{table:correlacion} muestra la correlación entre métricas, analizadas a partir de los resultados de coeficientes de métricas de dicha imagen. Es notable cómo hay una correlación positiva muy fuerte entre $SSIM_R$, $SSIM_G$ y $SSIM_B$; también existe una correlación negativa entre las métricas previamente mencionadas y $\mathscr{H_Y}$. Éstas correlaciones indican que los canales  $R,G,B$ de las imágenes se ven afectadas directamente por el proceso que modifica el canal $Y$ (véase el Algoritmo (\ref{alg:pso_clahe})). Ésto también indica que la Mejora del Contraste de las imágenes a color se puede plantear como un problema de optimización bi-objetivo, utlizando simplemente $\mathscr{H_Y}$ y $SSIM$ aplicados sobre el canal $Y$, o posiblemente tomando como métrica de distorsión alguna métrica relacionada a la medición de variación de color.
 
