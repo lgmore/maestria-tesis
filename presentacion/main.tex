@@ -522,14 +522,16 @@ La Entropía de la Imagen se define como se muestra abajo:
 \end{exampleblock}
 
 \begin{equation}
-\mathscr{H}= -\sum_{i=0}^{n-1} p_i \text{log}_2(p_i) \qquad \mathscr{H} \in \{0,...,\text{log}_2(n)\}
+\mathscr{H}= -\sum_{i=0}^{L-1} p_i \text{log}_2(p_i) \qquad \mathscr{H} \in [0,\text{log}_2(L)]
 \end{equation}
 
 donde
 
 \begin{equation}
-p_i=\frac{c_i}{N}, \qquad \sum_{i=1}^n c_i = N, \qquad i= 1,2, ..., n,
+p_i=\frac{c_i}{M \times N}, \qquad \sum_{i=1}^L c_i = M \times N, \qquad i= 1,2, ..., L
 \end{equation}
+
+$L$ es la cantidad de niveles de intensidad representables en la imagen, $M \times N$ es la cantidad de pixeles de la imagen.
 
 \end{frame}    
 
@@ -538,17 +540,23 @@ p_i=\frac{c_i}{N}, \qquad \sum_{i=1}^n c_i = N, \qquad i= 1,2, ..., n,
 \frametitle{Marco Teórico} 
 % \framesubtitle{And also some blocks.} 
 \begin{exampleblock}{\textit{Structural Similarity Index}}
-Es una métrica bien conocida que mide atributos importantes de la imagen tales como la \textit{Luminancia, Contraste} y la \textit{Estructura}
+Es una métrica que mide atributos importantes de la imagen tales como la \textit{Luminancia, Contraste} y la \textit{Estructura}.
 
-El objetivo de $SSIM$ es el de medir la distorsión de la imagen como consecuencia del proceso de mejora del contraste.
+El objetivo de $SSIM$ es el de medir la distorsión de la imagen.
 
 Dadas una imagen de entrada $I_x$ y una de salida $T_y$ $SSIM$ se define como se muestra abajo:
 
 \end{exampleblock}
-
+\vspace{-0.5cm}
 \begin{equation}
 SSIM(I,T) = \frac{(2\mu_{I_x} \mu_{T_y}+E_1)(2\sigma_{I_xT_y}+E_2)}{(\mu^2_{I_x}+\mu^2_{T_y}+E_1)(\sigma^2_{I_x} + \sigma^2_{T_y}+E_2)} \qquad SSIM \in [0,1]
 \end{equation}
+
+\begin{itemize}
+	\item $\mu_{I_x}$ es el promedio de intensidades de los pixeles,
+	\item $\sigma_{T_y}$ es la varianza intensidades de los pixeles,
+	\item $\sigma_{I_xT_y}$ es el promedio de intensidades de los pixeles.
+\end{itemize}
 
 \end{frame}    
 
