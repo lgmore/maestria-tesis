@@ -483,15 +483,29 @@ La entropía de la imagen y su contraste están relacionados a la distribución 
 \begin{frame} 
 \frametitle{Marco Teórico} 
 % \framesubtitle{And also some blocks.} 
-\begin{exampleblock}{\textit{Entropía de la Imagen}}
-
-
+\begin{exampleblock}{\textit{Efecto de la variación de Entropía de la Imagen}}
 
 \end{exampleblock}
 % \centering
 % \tcbox{\adjincludegraphics[width=0.55\linewidth,valign=t]{graphics/Clahe-redist.jpg}}
 
 \centering
+\begin{columns}[onlytextwidth]
+\begin{column}{.45\textwidth}
+\begin{figure}
+  \includegraphics[width=\textwidth]{graphics/peppers_color_lc.jpg}
+  \caption{$\mathscr{H}=7,053228$}
+\end{figure}
+\end{column}
+\hfill
+\begin{column}{.45\textwidth}
+		\begin{figure}
+		  \includegraphics[width=\textwidth]{graphics/peppers_color_hc.jpg}
+		  \caption{$\mathscr{H}=7,953866$}
+		\end{figure}
+\end{column}
+\end{columns}
+
 % \tcbox{\adjincludegraphics[width=0.25\linewidth,valign=t]{graphics/lena}}
 % \adjincludegraphics[width=0.30\linewidth,valign=t]{graphics/RGB_Cube_Show_lowgamma_cutout_b}
 
