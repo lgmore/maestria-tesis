@@ -1,0 +1,39 @@
+\BOOKMARK [0][-]{chapter*.4}{LISTA DE FIGURAS}{}% 1
+\BOOKMARK [0][-]{chapter*.5}{LISTA DE TABLAS}{}% 2
+\BOOKMARK [0][-]{chapter*.6}{LISTA DE S\315MBOLOS}{}% 3
+\BOOKMARK [0][-]{chapter*.7}{LISTA DE ABREVIATURAS}{}% 4
+\BOOKMARK [0][-]{chapter.1}{INTRODUCCI\323N}{}% 5
+\BOOKMARK [1][-]{section.1.1}{Objetivos}{chapter.1}% 6
+\BOOKMARK [2][-]{subsection.1.1.1}{Objetivo General}{section.1.1}% 7
+\BOOKMARK [2][-]{subsection.1.1.2}{Objetivos espec\355ficos}{section.1.1}% 8
+\BOOKMARK [1][-]{section.1.2}{Estructura de la tesis}{chapter.1}% 9
+\BOOKMARK [0][-]{chapter.2}{MARCO TE\323RICO}{}% 10
+\BOOKMARK [1][-]{section.2.1}{Ecualizaci\363n del Histograma}{chapter.2}% 11
+\BOOKMARK [2][-]{subsection.2.1.1}{Implementaci\363n B\341sica}{section.2.1}% 12
+\BOOKMARK [2][-]{subsection.2.1.2}{Ejemplo de aplicaci\363n}{section.2.1}% 13
+\BOOKMARK [1][-]{section.2.2}{Contrast Limited Adaptive Histogram Equalization \(CLAHE\)}{chapter.2}% 14
+\BOOKMARK [2][-]{subsection.2.2.1}{Adaptive Histogram Equalization}{section.2.2}% 15
+\BOOKMARK [2][-]{subsection.2.2.2}{Contrast Limited AHE}{section.2.2}% 16
+\BOOKMARK [1][-]{section.2.3}{Espacios de Color Adoptados}{chapter.2}% 17
+\BOOKMARK [2][-]{subsection.2.3.1}{El espacio de colores Red, Green, Blue}{section.2.3}% 18
+\BOOKMARK [2][-]{subsection.2.3.2}{El espacio de colores YCbCr}{section.2.3}% 19
+\BOOKMARK [1][-]{section.2.4}{Multi-Objective Particle Swarm Optimization \(MOPSO\)}{chapter.2}% 20
+\BOOKMARK [1][-]{section.2.5}{M\351tricas de Optimizaci\363n}{chapter.2}% 21
+\BOOKMARK [2][-]{subsection.2.5.1}{Entrop\355a de la imagen}{section.2.5}% 22
+\BOOKMARK [2][-]{subsection.2.5.2}{\315ndice de Similaridad Estructural}{section.2.5}% 23
+\BOOKMARK [0][-]{chapter.3}{PLANTEAMIENTO DEL PROBLEMA}{}% 24
+\BOOKMARK [1][-]{section.3.1}{Formulaci\363n del problema planteado}{chapter.3}% 25
+\BOOKMARK [1][-]{section.3.2}{Propuesta}{chapter.3}% 26
+\BOOKMARK [0][-]{chapter.4}{RESULTADOS Y DISCUSI\323N}{}% 27
+\BOOKMARK [1][-]{section.4.1}{Ambiente de Pruebas experimentales}{chapter.4}% 28
+\BOOKMARK [1][-]{section.4.2}{Descripci\363n de resultados obtenidos}{chapter.4}% 29
+\BOOKMARK [0][-]{chapter.5}{CONCLUSIONES Y TRABAJOS FUTUROS}{}% 30
+\BOOKMARK [1][-]{section.5.1}{Trabajos futuros}{chapter.5}% 31
+\BOOKMARK [0][-]{chapter*.26}{REFERENCIAS BIBLIOGR\301FICAS}{}% 32
+\BOOKMARK [1][-]{section.Alph0.1}{Imagen de prueba calhouse\137230.jpg}{chapter*.26}% 33
+\BOOKMARK [1][-]{section.Alph0.2}{Imagen de prueba calhouse\137231.jpg}{chapter*.26}% 34
+\BOOKMARK [1][-]{section.Alph0.3}{Imagen de prueba calhouse\137232.jpg}{chapter*.26}% 35
+\BOOKMARK [1][-]{section.Alph0.4}{Imagen de prueba calhouse\137233.jpg}{chapter*.26}% 36
+\BOOKMARK [1][-]{section.Alph0.5}{Imagen de prueba calhouse\137234.jpg}{chapter*.26}% 37
+\BOOKMARK [1][-]{section.Alph0.6}{Imagen de prueba calhouse\137236.jpg}{chapter*.26}% 38
+\BOOKMARK [1][-]{section.Alph0.7}{Imagen de prueba calhouse\137237.jpg}{chapter*.26}% 39
