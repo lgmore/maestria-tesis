@@ -35,8 +35,9 @@
 \contentsline {section}{\numberline {5.1}Trabajos futuros}{29}{section.5.1}
 \contentsline {chapter}{REFERENCIAS BIBLIOGR\IeC {\'A}FICAS}{31}{chapter*.26}
 \contentsline {section}{\numberline {A.0}Imagen de prueba \texttt {calhouse\_230.jpg}}{34}{section.Alph0.1}
-\contentsline {section}{\numberline {A.2}Imagen de prueba \texttt {calhouse\_231.jpg}}{39}{section.Alph0.2}
-\contentsline {section}{\numberline {A.4}Imagen de prueba \texttt {calhouse\_233.jpg}}{43}{section.Alph0.3}
-\contentsline {section}{\numberline {A.6}Imagen de prueba \texttt {calhouse\_234.jpg}}{47}{section.Alph0.4}
-\contentsline {section}{\numberline {A.8}Imagen de prueba \texttt {calhouse\_236.jpg}}{51}{section.Alph0.5}
-\contentsline {section}{\numberline {A.10}Imagen de prueba \texttt {calhouse\_237.jpg}}{55}{section.Alph0.6}
+\contentsline {section}{\numberline {A.2}Imagen de prueba \texttt {calhouse\_231.jpg}}{38}{section.Alph0.2}
+\contentsline {section}{\numberline {A.4}Imagen de prueba \texttt {calhouse\_232.jpg}}{43}{section.Alph0.3}
+\contentsline {section}{\numberline {A.6}Imagen de prueba \texttt {calhouse\_233.jpg}}{52}{section.Alph0.4}
+\contentsline {section}{\numberline {A.8}Imagen de prueba \texttt {calhouse\_234.jpg}}{57}{section.Alph0.5}
+\contentsline {section}{\numberline {A.10}Imagen de prueba \texttt {calhouse\_236.jpg}}{63}{section.Alph0.6}
+\contentsline {section}{\numberline {A.12}Imagen de prueba \texttt {calhouse\_237.jpg}}{67}{section.Alph0.7}

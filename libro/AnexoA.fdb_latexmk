@@ -1,16 +1,16 @@
 # Fdb version 3
-["pdflatex"] 1512341085 "/home/lg_more/github/maestria-tesis/libro/AnexoA.tex" "/home/lg_more/github/maestria-tesis/libro/AnexoA.pdf" "AnexoA" 1512341085
+["pdflatex"] 1513317662 "/home/lg_more/github/maestria-tesis/libro/AnexoA.tex" "/home/lg_more/github/maestria-tesis/libro/AnexoA.pdf" "AnexoA" 1513317662
   "/etc/texmf/web2c/texmf.cnf" 1509726437 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/lg_more/github/maestria-tesis/libro/AnexoA.aux" 1512336616 4796 9330dcd93af36d0165e7d6da2b5e3221 ""
-  "/home/lg_more/github/maestria-tesis/libro/AnexoA.tex" 1512341082 14674 b39892fbb83cf01bdb3f2e2a1664b730 ""
+  "/home/lg_more/github/maestria-tesis/libro/AnexoA.aux" 1513317543 16945 8c0770d2abfd0654d311832e9c2ed5b6 ""
+  "/home/lg_more/github/maestria-tesis/libro/AnexoA.tex" 1513317657 89850 0ae40223e1c4dc6c7d0eb16a55176ea4 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1480098670 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm" 1480098701 1328 c834bbb027764024c09d3d2bf908b5f0 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmtt10.tfm" 1480098701 768 1321e9409b4137d6fb428ac9dc956269 ""
   "/usr/share/texlive/texmf-dist/web2c/texmf.cnf" 1503024366 32036 8f10cb8f6ef259fb5791f09c065d3d13 ""
   "/usr/share/texmf/web2c/texmf.cnf" 1503024366 32036 8f10cb8f6ef259fb5791f09c065d3d13 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1509726542 4128531 d055619ebcb377dd89772fe63b36c1da ""
-  "AnexoA.tex" 1512341082 14674 b39892fbb83cf01bdb3f2e2a1664b730 ""
+  "AnexoA.tex" 1513317657 89850 0ae40223e1c4dc6c7d0eb16a55176ea4 ""
   (generated)
   "/home/lg_more/github/maestria-tesis/libro/AnexoA.pdf"
-  "AnexoA.log"
   "/home/lg_more/github/maestria-tesis/libro/AnexoA.log"
+  "AnexoA.log"
