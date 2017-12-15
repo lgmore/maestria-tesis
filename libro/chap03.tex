@@ -63,13 +63,14 @@ Acotados por:
 \section{Propuesta}\label{sec:proposal}
 % \section{Proposal}\label{sec:proposal}
 
-En éste trabajo se propone abordar el problema planteado utilizando la Metaheurística $MOPSO$ que sintoniza los parámetros de $CLAHE$. La propuesta se describe en el \textbf{Algoritmo \ref{alg:pso_clahe}}:
+En éste trabajo se propone abordar el problema planteado utilizando la Metaheurística $MOPSO$ que sintoniza los parámetros de $CLAHE$. La propuesta se muestra en el \textbf{Algoritmo \ref{alg:pso_clahe}}:
 
 \begin{algorithm}[H]
 \scriptsize
 \begin{algorithmic}[1]
 \Require Imagen de entrada $I$, cantidad de partículas $\Omega$\label{symbol:mopsocantparticulas}, iteraciones $t_{max}$ 
 \State Inicializar $\omega$, $c_1$, $c_2$, $t=0$, $lower\_limit_1$, $lower\_limit_2$, $lower\_limit_3$, $upper\_limit_1$, $upper\_limit_2$, $upper\_limit_3$, $\mathscr{X}$
+\State inicializar aleatoriamente los valores de partículas (posiciones iniciales)
         %\For{cada $i$-ésima partícula del enjambre}
         %    \State Inicializar la posición $x_i$ aleatoriamente
         %    \State Inicializar la velocidad $v_i$ a 0
@@ -149,10 +150,22 @@ En éste trabajo se propone abordar el problema planteado utilizando la Metaheur
 \label{fig:interaccioncmopsoclahe}
 \end{figure}
 
-                Los parámetros recibidos por $CLAHE$ son almacenados por un conjunto de partículas $(\{\vv{x}_1, \vv{x}_2,...,\vv{x}_{\Omega}\})=(\mathscr{R}_x,\mathscr{Y}_x,\mathscr{C})$, las cuales representan soluciones candidatas al problema de Mejora de Contraste; la imagen original $I$ se transforma a su representación $YCrCb$, y $(\{\vv{x}_1, \vv{x}_2,...,\vv{x}_{\Omega}\})$ son aplicados al canal $Y$ de la imagen digital original, de manera a obtener un grupo de mapas  de intensidades $T_(y,i)$, el cual es utilizado para realizar la transformación inversa hacia $RGB$, para así obtener un conjunto de imágenes resultantes $T_i$. 
-                Las imágenes resultantes son evaluadas de acuerdo a las métricas $\mathscr{H}(T_y)$, $SSIM_R$, $SSIM_G$, $SSIM_B$, que son la entropía de las imágenes resultantes medidas en el canal $Y$ de la representación $YCrCb$ de dichas imágenes, y $SSIM_R,SSIM_G,SSIM_B$ son las medidas $SSIM$ de las imagénes original y resultantes utilizando los canales $R,G,B$ de las representaciones $RGB$ de las imágenes. Éstas evaluaciones determinan cuáles soluciones candidatas se pueden considerar no dominadas con respecto al conjunto completo $\Omega$ de soluciones obtenidas en una iteración del enfoque Metahuerístico. Las soluciones no dominadas se almacenan finalmente en el conjunto Pareto. El proceso de $CMOPSO-CLAHE$ se repite hasta que se alcanza un criterio de parada.
 
-                El resultado final del proceso es un conjunto de parámetros de $CLAHE$ no dominados entre sí $\mathscr{X}$\label{symbol:nodominadas}, los cuales aplicados sobre la imagen deben dar imágenes con distintos niveles de de compromiso entre contraste obtenido y distorsión producida por el algoritmo de Mejora del Contraste.  
+El Algoritmo \ref{alg:pso_clahe} se puede describir como sigue: en principio se inicializan los parámetros de la Metaheurística $MOPSO$, para luego realizar el siguiente proceso iterativo, el cual termina de acuerdo al criterio de parada propuesto (100 iteraciones):
+\begin{itemize}
+
+  \item Se realizan actualizaciones de posición y velocidad del conjunto de partículas (soluciones candidatas) para una nueva serie de aplicaciones de parámetros al algoritmo de Mejora de Cotraste
+
+  \item Los parámetros recibidos por $CLAHE$ son almacenados por un conjunto de partículas $(\{\vv{x}_1, \vv{x}_2,...,\vv{x}_{\Omega}\})=(\mathscr{R}_x,\mathscr{Y}_x,\mathscr{C})$, las cuales representan soluciones candidatas al problema de Mejora de Contraste; la imagen original $I$ se transforma a su representación $YCrCb$, y $(\{\vv{x}_1, \vv{x}_2,...,\vv{x}_{\Omega}\})$ son aplicados al canal $Y$ de la imagen digital original, de manera a obtener un grupo de mapas  de intensidades $T_(y,i)$, el cual es utilizado para realizar la transformación inversa hacia $RGB$, para así obtener un conjunto de imágenes resultantes $T_i$.
+  \item Las imágenes resultantes son evaluadas de acuerdo a las métricas $\mathscr{H}(T_y)$, $SSIM_R$, $SSIM_G$, $SSIM_B$, que son la entropía de las imágenes resultantes medidas en el canal $Y$ de la representación $YCrCb$ de dichas imágenes, y $SSIM_R,SSIM_G,SSIM_B$ son las medidas $SSIM$ de las imagénes original y resultantes utilizando los canales $R,G,B$ de las representaciones $RGB$ de las imágenes. Éstas evaluaciones determinan cuáles soluciones candidatas se pueden considerar no dominadas con respecto al conjunto completo $\Omega$ de soluciones obtenidas en una iteración del enfoque Metahuerístico. Las soluciones no dominadas actualizan el conjunto Pareto, de acuerdo a si se determina dominancia dentro del conjunto.
+
+  \item Se actualiza el contador de iteraciones. Ésto se realiza hasta alcanzar el criterio de parada, para luego finalizar el proceso.
+
+\end{itemize}
+                 
+El resultado final del proceso es un conjunto de parámetros de $CLAHE$ no dominados entre sí $\mathscr{X}$\label{symbol:nodominadas}, los cuales aplicados sobre la imagen deben dar imágenes con distintos niveles de de compromiso entre contraste obtenido y distorsión producida por el algoritmo de Mejora del Contraste.                 
+
+                  
 
 %                \textbf{Algorithm \ref{alg:pso_clahe}} shows how Color Multi-Objective PSO-CLAHE ($CMOPSO-CLAHE$) is implemented, in order to tune parameters of $CLAHE$. The parameters received by $CLAHE$ are stored by a particle $\vv{x}=(\mathscr{R}_x,\mathscr{Y}_x,\mathscr{C})$, the original image $I$ is transformed to its $YCrCb$ representation,and $\vv{x}$ is applied to the $Y$ channel, in order to obtain a $Y_T$ intensity map, which is used to transform back to $RGB$, to obtain the resulting image $T$. The resulting images are evaluated according to the metrics $\mathscr{H}_Y$, $SSIM_R$, $SSIM_G$, $SSIM_B$, which are the entropy of resulting images measured in the $Y$ channel of the $YCrCb$ representation of these, and $SSIM_R,SSIM_G,SSIM_B$ are the $SSIM$ measures for original and resulting images using the $R,G,B$ channels of the $RGB$ representations of these. The non-dominated solutions are then stored in the Pareto set. $CMOPSO-CLAHE$ proccess is repeated until a criterion stop is reached.
 
