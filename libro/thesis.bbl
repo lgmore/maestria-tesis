@@ -9,8 +9,8 @@ Azeddine Beghdadi and Alain~Le Negrate.
 
 \bibitem[BP11]{bennet2011fingerprint}
 D~Bennet and Dr~S~Arumuga Perumal.
-\newblock Fingerprint: Dwt, svd based enhancement and significant contrast for
-  ridges and valleys using fuzzy measures.
+\newblock Fingerprint: {DWT, SVD} based enhancement and significant contrast
+  for ridges and valleys using fuzzy measures.
 \newblock {\em arXiv preprint arXiv:1106.5737}, 2011.
 
 \bibitem[Bra00]{bradski2000opencv}
@@ -103,14 +103,14 @@ David Malin.
 
 \bibitem[MB14]{morepso}
 LG~Mor{\'e} and MA~Brizuela.
-\newblock Pso applied to parameter tuning of clahe based on entropy and
+\newblock {PSO} applied to parameter tuning of {CLAHE} based on entropy and
   structural similarity index.
 \newblock 2014.
 
 \bibitem[MBA{\etalchar{+}}15]{more2015parameter}
 Luis~G More, Marcos~A Brizuela, Horacio~Legal Ayala, Diego~P Pinto-Roa, and
   Jose Luis~Vazquez Noguera.
-\newblock Parameter tuning of clahe based on multi-objective optimization to
+\newblock Parameter tuning of {CLAHE} based on multi-objective optimization to
   achieve different contrast levels in medical images.
 \newblock In {\em Image Processing (ICIP), 2015 IEEE International Conference
   on}, pages 4644--4648. IEEE, 2015.
@@ -118,7 +118,7 @@ Luis~G More, Marcos~A Brizuela, Horacio~Legal Ayala, Diego~P Pinto-Roa, and
 \bibitem[NDGN{\etalchar{+}}09]{nebro2009smpso}
 Antonio~J Nebro, Juan~Jos{\'e} Durillo, Jose Garcia-Nieto, CA~Coello Coello,
   Francisco Luna, and Enrique Alba.
-\newblock Smpso: A new pso-based metaheuristic for multi-objective
+\newblock {SMPSO}: A new {PSO}-based metaheuristic for multi-objective
   optimization.
 \newblock In {\em Computational intelligence in miulti-criteria
   decision-making, 2009. mcdm'09. ieee symposium on}, pages 66--73. IEEE, 2009.

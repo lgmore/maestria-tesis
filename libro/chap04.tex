@@ -16,7 +16,7 @@ El conjunto de pruebas se realizó sobre el siguiente hardware disponible: Una P
 
 \section{Descripción de resultados obtenidos}
 
-Se realizaron pruebas utilizando 10 imágenes a color a partir del conjunto de datos disponible en http://www.vision.caltech.edu/archive.html. La tabla \ref{table:parametrospso} muestra cómo $SMPSO$ fué configurada para la ejecución de prueba experimentales. Los detalles de implementación de $SMPSO$ está disponible en \cite{durillo2010jmetal}, mientras que los detalles de implementación para $CLAHE$, $\mathscr{H}$ y $SSIM$ están disponibles en \cite{bradski2000opencv}.
+Se realizaron pruebas de \textit{Color MOPSO-CLAHE}($CMOPSO-CLAHE$) utilizando 10 imágenes a color obtenidas del conjunto de datos que se encuentra disponible en http://www.vision.caltech.edu/archive.html. La tabla \ref{table:parametrospso} muestra cómo $SMPSO$ fué configurada para la ejecución de prueba experimentales. Los detalles de implementación de $SMPSO$ está disponible en \cite{durillo2010jmetal}, mientras que los detalles de implementación para $CLAHE$, $\mathscr{H}$ y $SSIM$ están disponibles en \cite{bradski2000opencv}.
 
 \begin{table}[H]
 \setlength{\abovecaptionskip}{2pt plus 3pt minus 2pt} % Chosen fairly arbitrarily
@@ -51,9 +51,9 @@ $r_2$ $min$ & 0.0 & $r_2$ $max$ & 1.0 \\
 \label{table:parametrospso}
 \end{table}
 
-Para cada imagen de prueba, se realizaron 50 ejecuciones, y en promedio se encontraron entre 100 y 250 soluciones no dominadas. De la Figura \ref{fig:casa1} se puede verificar que es notable la manera en que las variables de decisión entrenadas logran la Mejora del Contraste en las imágenes de prueba; además de que se puede evidenciar también la existencia una relación de compromiso con respecto a la variación de coeficientes entre $\mathscr{H}$ y $SSIM_R,SSIM_G,SSIM_B$. Es también notable a partir de la Figura (\ref{fig:casa1})(c) cómo los valores más altos de $\mathscr{H}$ degradan severamente a la imagen, mientras que los valores altos de $SSIM_R,SSIM_G,SSIM_B$ no logran el Contraste suficiente, en ocasiones siendo apenas perceptible; por lo que es necesario encontrar el balance correcto entre $\mathscr{H}$ y $SSIM_R,SSIM_G,SSIM_B$.
+Para cada imagen de prueba, se realizaron 50 ejecuciones, y en promedio se encontraron entre 100 y 250 soluciones no dominadas. De la Figura \ref{fig:casa1}, es posible verificar que es notable la manera en que las variables de decisión entrenadas logran la Mejora del Contraste en las imágenes de prueba; además de que se puede evidenciar también la existencia una relación de compromiso con respecto a la variación de coeficientes entre $\mathscr{H}$ y $SSIM_R,SSIM_G,SSIM_B$. Es también notable a partir de la Figura (\ref{fig:casa1})(c) cómo los valores más altos de $\mathscr{H}$ degradan severamente a la imagen, mientras que los valores altos de $SSIM_R,SSIM_G,SSIM_B$ no logran el Contraste suficiente, en ocasiones siendo apenas perceptible; por lo que es necesario encontrar el balance correcto entre $\mathscr{H}$ y $SSIM_R,SSIM_G,SSIM_B$.
 
-En el Anexo A se puede apreciar el detalle de coeficientes obtenidos para las métricas utilizadas en el trabajo.
+En el Apéndice A se puede apreciar el detalle de coeficientes obtenidos para las métricas utilizadas en el trabajo.
 
 %Tests were performed using 8 color images from the dataset available at http://www.vision.caltech.edu/archive.html. Table \ref{table:parametrospso} shows how $SMPSO$ was configured for the tests. $SMPSO$ implementation is available at \cite{durillo2010jmetal}, meanwhile the implementations for $CLAHE$, $\mathscr{H}$ and $SSIM$ are available at \cite{bradski2000opencv}. For every test image, 50 test were performed, and 10 non-dominated solutions were found in average. From Figures (\ref{fig:casa1original},\ref{fig:casa1enhanced1},\ref{fig:casa1enhanced2}) it is noticeable how CE is achieved; there is also a compromise relation between $\mathscr{H}$ and $SSIM_R,SSIM_G,SSIM_B$. It is noteworthy from Figure (\ref{fig:casa1enhanced2}) how higher values of $\mathscr{H}$ degrade images severely, so it is neccesary to find the correct balance between $\mathscr{H}$ and $SSIM_R,SSIM_G,SSIM_B$. In Figure (\ref{fig:casa1enhanced3}) it is shown the resultant image enhanced using the proposal described in \cite{morepso}; it is noticeable that the resultant image does not achieve good CE; this is because the mono-objective approach does not use color information properly, and this result is the same for other test images. In Table \ref{table:nodominadas}, the non-dominated metric coefficients are shown, and in the last line it is shown the metric coefficients for image (\ref{fig:casa1original}), enhanced using the mono-objective proposal. Although its metrics seem to fall in the Pareto Front, the visual information obtained is not enough to state that the mono-objective proposal is feasible for color images. These results are similar for every test image used.
 
@@ -72,7 +72,7 @@ En el Anexo A se puede apreciar el detalle de coeficientes obtenidos para las m�
 \begin{figure}[H]
     \centering
     %\begin{subfigure}[t]{0.45\textwidth}
-    \begin{subfigure}[Imagen Original. $\mathscr{H_Y}=0.207231$, $SSIM_R=1$, $SSIM_G=1$, $SSIM_B=1$]{
+    \begin{subfigure}[Imagen Original. $\mathscr{H_Y}=7,792769$, $SSIM_R=1$, $SSIM_G=1$, $SSIM_B=1$]{
         \includegraphics[width=0.45\textwidth]{./Figures/calhouse_0230.jpg}
     }
 %        \caption{Imagen Original. $\mathscr{H_Y}=0.207231$, $SSIM_R=1$, $SSIM_G=1$, $SSIM_B=1$}
@@ -80,7 +80,7 @@ En el Anexo A se puede apreciar el detalle de coeficientes obtenidos para las m�
     \end{subfigure}
     ~ %add desired spacing between images, e. g. ~, \quad, \qquad, \hfill etc. 
       %(or a blank line to force the subfigure onto a new line)
-    \begin{subfigure}[Imagen mejorada. $\mathscr{H_Y}=0.611275$, $SSIM_R=0.00897331$, $SSIM_G=0.00823064$, $SSIM_B=0.00851013$]{
+    \begin{subfigure}[Imagen mejorada. $\mathscr{H_Y}=7,388725$, $SSIM_R=0,99102669$, $SSIM_G=0,99176936$, $SSIM_B=0,99148987$]{
         \includegraphics[width=0.45\textwidth]{./Figures/calhouse_0230_20-25165283474-10.jpg}   
     }
     %\begin{subfigure}[t]{0.45\textwidth}
@@ -89,14 +89,14 @@ En el Anexo A se puede apreciar el detalle de coeficientes obtenidos para las m�
     \end{subfigure}
     ~ %add desired spacing between images, e. g. ~, \quad, \qquad, \hfill etc. 
     %(or a blank line to force the subfigure onto a new line)
-    \begin{subfigure}[Imagen mejorada. $\mathscr{H_Y}=0.0350595$, $SSIM_R=0.416776$, $SSIM_G=0.403636$, $SSIM_B=0.417654$]{
+    \begin{subfigure}[Imagen mejorada. $\mathscr{H_Y}=7,9649405$, $SSIM_R=0,583224$, $SSIM_G=0,596364$, $SSIM_B=0,582346$]{
         \includegraphics[width=0.45\textwidth]{calhouse_0230_20-62968204656-00.jpg}
     }
     % \begin{subfigure}[t]{0.45\textwidth}
 %        \caption{Enhanced Image.  $\mathscr{H_Y}=0.0350595$, $SSIM_R=0.416776$, $SSIM_G=0.403636$, $SSIM_B=0.417654$}
         \label{fig:casa1enhanced2}
     \end{subfigure} 
-    \begin{subfigure}[Imagen mejorada. $\mathscr{H_Y}=0.788927$, $SSIM_R=0.000204143$, $SSIM_G=0.0000526475$, $SSIM_B=0.0000518143$]{
+    \begin{subfigure}[Imagen mejorada. $\mathscr{H_Y}=7,211073$, $SSIM_R=0,999795857$, $SSIM_G=0,9999473525$, $SSIM_B=0,9999481857$]{
         \includegraphics[width=0.45\textwidth]{calhouse_0230_20-20-0020072469292179818.jpg}
     }
     % \begin{subfigure}[t]{0.45\textwidth}
@@ -157,17 +157,17 @@ $SSIM_B$ & -0,8565 & 0,9998   & 0.9999   & 1 \\
 \hline
 \end{tabular}
 \end{center}
-\label{table:correlacion}
+\label{table:correlacion1}
 \end{table}
 
 \begin{figure}[H]
     \centering
-        \includegraphics[width=0.80\textwidth]{./Figures/pareto_front.jpg}
+        \includegraphics[width=0.80\textwidth]{./Figures/calhouse_230/calhouse_230_2.jpg}
     \caption{Frente Pareto dibujado utilizando datos de referencia métricas de la imagen de prueba \texttt{calhouse\_230.jpg} }\label{fig:pareto_front}
 \end{figure}
 
 
-La Figura (\ref{fig:pareto_front}) muestra el Frente pareto creado a partir de los datos de coeficientes de métricas de la imagen de prueba \texttt{calhouse\_230.jpg}, y también la Tabla \ref{table:correlacion} muestra la correlación entre métricas, analizadas a partir de los resultados de coeficientes de métricas de dicha imagen. Es notable cómo hay una correlación positiva muy fuerte entre $SSIM_R$, $SSIM_G$ y $SSIM_B$; también existe una correlación negativa entre las métricas previamente mencionadas y $\mathscr{H_Y}$. Éstas correlaciones indican que los canales  $R,G,B$ de las imágenes se ven afectadas directamente por el proceso que modifica el canal $Y$ (véase el Algoritmo (\ref{alg:pso_clahe})). Ésto también indica que la Mejora del Contraste de las imágenes a color se puede plantear como un problema de optimización bi-objetivo, utlizando simplemente $\mathscr{H_Y}$ y $SSIM$ aplicados sobre el canal $Y$, o posiblemente tomando como métrica de distorsión alguna métrica relacionada a la medición de variación de color.
+La Figura (\ref{fig:pareto_front}) muestra el Frente Pareto creado a partir de los datos de coeficientes de métricas de la imagen de prueba \texttt{calhouse\_230.jpg}, y también la Tabla \ref{table:correlacion1} muestra la correlación entre métricas, analizadas a partir de los resultados de coeficientes de métricas de dicha imagen. Es notable cómo hay una correlación positiva muy fuerte entre $SSIM_R$, $SSIM_G$ y $SSIM_B$; también se verifica la existencia una correlación negativa entre las métricas previamente mencionadas y $\mathscr{H_Y}$. Éstas correlaciones indican que los canales  $R,G,B$ de las imágenes se ven afectadas directamente por el proceso que modifica el canal $Y$ (véase el Algoritmo (\ref{alg:pso_clahe})). Ésto también indica que la Mejora del Contraste de las imágenes a color se puede plantear como un problema de optimización bi-objetivo, utlizando simplemente $\mathscr{H_Y}$ y $SSIM$ aplicados sobre el canal $Y$, o posiblemente tomando como métrica de distorsión alguna métrica relacionada a la medición de variación de color.
 
 Finalmente, se puede mencionar que los tiempos de ejecución de las pruebas (las cuales se detallan en el Anexo), muestran que es temporalmente factible realizar entrenamientos que posibilitan la obtención de variables de decisión adecuadas para el algoritmo de Mejora del Contraste, cuya aplicación posterior garantiza la posibilidad de resaltar distintos detalles de la imagen de acuerdo al contraste aplicado.
 

@@ -14,33 +14,33 @@
 \contentsline {section}{\numberline {2.1}Ecualizaci\IeC {\'o}n del Histograma}{4}{section.2.1}
 \contentsline {subsection}{\numberline {2.1.1}Implementaci\IeC {\'o}n B\IeC {\'a}sica}{5}{subsection.2.1.1}
 \contentsline {subsection}{\numberline {2.1.2}Ejemplo de aplicaci\IeC {\'o}n}{5}{subsection.2.1.2}
-\contentsline {section}{\numberline {2.2}Contrast Limited Adaptive Histogram Equalization (CLAHE)}{10}{section.2.2}
-\contentsline {subsection}{\numberline {2.2.1}Adaptive Histogram Equalization}{10}{subsection.2.2.1}
-\contentsline {subsubsection}{Propiedades de AHE}{10}{subsection.2.2.1}
-\contentsline {subsection}{\numberline {2.2.2}Contrast Limited AHE}{11}{subsection.2.2.2}
-\contentsline {section}{\numberline {2.3}Espacios de Color Adoptados}{12}{section.2.3}
-\contentsline {subsection}{\numberline {2.3.1}El espacio de colores \textit {Red, Green, Blue}}{12}{subsection.2.3.1}
-\contentsline {subsection}{\numberline {2.3.2}El espacio de colores $YCbCr$}{13}{subsection.2.3.2}
-\contentsline {section}{\numberline {2.4}Multi-Objective Particle Swarm Optimization (MOPSO)}{14}{section.2.4}
-\contentsline {section}{\numberline {2.5}M\IeC {\'e}tricas de Optimizaci\IeC {\'o}n}{17}{section.2.5}
-\contentsline {subsection}{\numberline {2.5.1}Entrop\IeC {\'\i }a de la imagen}{17}{subsection.2.5.1}
-\contentsline {subsection}{\numberline {2.5.2}\IeC {\'I}ndice de Similaridad Estructural}{18}{subsection.2.5.2}
-\contentsline {chapter}{\numberline {3}PLANTEAMIENTO DEL PROBLEMA}{20}{chapter.3}
-\contentsline {section}{\numberline {3.1}Formulaci\IeC {\'o}n del problema planteado}{20}{section.3.1}
-\contentsline {section}{\numberline {3.2}Propuesta}{21}{section.3.2}
-\contentsline {chapter}{\numberline {4}RESULTADOS Y DISCUSI\IeC {\'O}N}{24}{chapter.4}
-\contentsline {section}{\numberline {4.1}Ambiente de Pruebas experimentales}{24}{section.4.1}
-\contentsline {section}{\numberline {4.2}Descripci\IeC {\'o}n de resultados obtenidos}{24}{section.4.2}
-\contentsline {chapter}{\numberline {5}CONCLUSIONES Y TRABAJOS\\ FUTUROS}{28}{chapter.5}
-\contentsline {section}{\numberline {5.1}Trabajos futuros}{29}{section.5.1}
-\contentsline {chapter}{REFERENCIAS BIBLIOGR\IeC {\'A}FICAS}{31}{chapter*.26}
-\contentsline {section}{\numberline {A.0}Imagen de prueba \texttt {calhouse\_230.jpg}}{34}{section.Alph0.1}
-\contentsline {section}{\numberline {A.2}Imagen de prueba \texttt {calhouse\_231.jpg}}{38}{section.Alph0.2}
-\contentsline {section}{\numberline {A.4}Imagen de prueba \texttt {calhouse\_232.jpg}}{43}{section.Alph0.3}
-\contentsline {section}{\numberline {A.6}Imagen de prueba \texttt {calhouse\_233.jpg}}{52}{section.Alph0.4}
-\contentsline {section}{\numberline {A.8}Imagen de prueba \texttt {calhouse\_234.jpg}}{57}{section.Alph0.5}
-\contentsline {section}{\numberline {A.10}Imagen de prueba \texttt {calhouse\_236.jpg}}{63}{section.Alph0.6}
-\contentsline {section}{\numberline {A.12}Imagen de prueba \texttt {calhouse\_237.jpg}}{70}{section.Alph0.7}
-\contentsline {section}{\numberline {A.14}Imagen de prueba \texttt {calhouse\_238.jpg}}{75}{section.Alph0.8}
-\contentsline {section}{\numberline {A.16}Imagen de prueba \texttt {calhouse\_239.jpg}}{82}{section.Alph0.9}
-\contentsline {section}{\numberline {A.18}Imagen de prueba \texttt {calhouse\_240.jpg}}{89}{section.Alph0.10}
+\contentsline {section}{\numberline {2.2}Contrast Limited Adaptive Histogram Equalization (CLAHE)}{11}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}Adaptive Histogram Equalization}{11}{subsection.2.2.1}
+\contentsline {subsubsection}{Propiedades de AHE}{11}{subsection.2.2.1}
+\contentsline {subsection}{\numberline {2.2.2}Contrast Limited AHE}{12}{subsection.2.2.2}
+\contentsline {section}{\numberline {2.3}Espacios de Color Adoptados}{13}{section.2.3}
+\contentsline {subsection}{\numberline {2.3.1}El espacio de colores \textit {Red, Green, Blue}}{13}{subsection.2.3.1}
+\contentsline {subsection}{\numberline {2.3.2}El espacio de colores $YCbCr$}{14}{subsection.2.3.2}
+\contentsline {section}{\numberline {2.4}Multi-Objective Particle Swarm Optimization (MOPSO)}{15}{section.2.4}
+\contentsline {section}{\numberline {2.5}M\IeC {\'e}tricas de Optimizaci\IeC {\'o}n}{18}{section.2.5}
+\contentsline {subsection}{\numberline {2.5.1}Entrop\IeC {\'\i }a de la imagen}{18}{subsection.2.5.1}
+\contentsline {subsection}{\numberline {2.5.2}\IeC {\'I}ndice de Similaridad Estructural}{19}{subsection.2.5.2}
+\contentsline {chapter}{\numberline {3}PLANTEAMIENTO DEL PROBLEMA}{21}{chapter.3}
+\contentsline {section}{\numberline {3.1}Formulaci\IeC {\'o}n del problema planteado}{21}{section.3.1}
+\contentsline {section}{\numberline {3.2}Propuesta}{22}{section.3.2}
+\contentsline {chapter}{\numberline {4}RESULTADOS Y DISCUSI\IeC {\'O}N}{25}{chapter.4}
+\contentsline {section}{\numberline {4.1}Ambiente de Pruebas experimentales}{25}{section.4.1}
+\contentsline {section}{\numberline {4.2}Descripci\IeC {\'o}n de resultados obtenidos}{25}{section.4.2}
+\contentsline {chapter}{\numberline {5}CONCLUSIONES Y TRABAJOS\\ FUTUROS}{29}{chapter.5}
+\contentsline {section}{\numberline {5.1}Trabajos futuros}{30}{section.5.1}
+\contentsline {chapter}{REFERENCIAS BIBLIOGR\IeC {\'A}FICAS}{32}{chapter*.26}
+\contentsline {chapter}{\numberline {A}AP\IeC {\'E}NDICE A: Resultados extendidos}{35}{appendix.A}
+\contentsline {section}{\numberline {A.2}Imagen de prueba \texttt {calhouse\_231.jpg}}{39}{section.A.1}
+\contentsline {section}{\numberline {A.4}Imagen de prueba \texttt {calhouse\_232.jpg}}{44}{section.A.2}
+\contentsline {section}{\numberline {A.6}Imagen de prueba \texttt {calhouse\_233.jpg}}{53}{section.A.3}
+\contentsline {section}{\numberline {A.8}Imagen de prueba \texttt {calhouse\_234.jpg}}{58}{section.A.4}
+\contentsline {section}{\numberline {A.10}Imagen de prueba \texttt {calhouse\_236.jpg}}{64}{section.A.5}
+\contentsline {section}{\numberline {A.12}Imagen de prueba \texttt {calhouse\_237.jpg}}{71}{section.A.6}
+\contentsline {section}{\numberline {A.14}Imagen de prueba \texttt {calhouse\_238.jpg}}{76}{section.A.7}
+\contentsline {section}{\numberline {A.16}Imagen de prueba \texttt {calhouse\_239.jpg}}{83}{section.A.8}
+\contentsline {section}{\numberline {A.18}Imagen de prueba \texttt {calhouse\_240.jpg}}{90}{section.A.9}

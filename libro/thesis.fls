@@ -575,9 +575,9 @@ INPUT ./Figures/calhouse_0230_20-62968204656-00.jpg
 INPUT /home/lg_more/github/maestria-tesis/libro/./Figures/calhouse_0230_20-20-0020072469292179818.jpg
 INPUT ./Figures/calhouse_0230_20-20-0020072469292179818.jpg
 INPUT ./Figures/calhouse_0230_20-20-0020072469292179818.jpg
-INPUT /home/lg_more/github/maestria-tesis/libro/./Figures/pareto_front.jpg
-INPUT ./Figures/pareto_front.jpg
-INPUT ./Figures/pareto_front.jpg
+INPUT /home/lg_more/github/maestria-tesis/libro/./Figures/calhouse_230/calhouse_230_2.jpg
+INPUT ./Figures/calhouse_230/calhouse_230_2.jpg
+INPUT ./Figures/calhouse_230/calhouse_230_2.jpg
 OUTPUT /home/lg_more/github/maestria-tesis/libro/chap05.aux
 INPUT /home/lg_more/github/maestria-tesis/libro/chap05.tex
 INPUT /home/lg_more/github/maestria-tesis/libro/chap05.tex
@@ -607,7 +607,6 @@ INPUT /home/lg_more/github/maestria-tesis/libro/./Figures/calhouse_230/calhouse_
 INPUT ./Figures/calhouse_230/calhouse_230.jpg
 INPUT ./Figures/calhouse_230/calhouse_230.jpg
 INPUT /home/lg_more/github/maestria-tesis/libro/./Figures/calhouse_230/calhouse_230_2.jpg
-INPUT ./Figures/calhouse_230/calhouse_230_2.jpg
 INPUT ./Figures/calhouse_230/calhouse_230_2.jpg
 INPUT /home/lg_more/github/maestria-tesis/libro/./Figures/calhouse_231/0-resultado.jpg
 INPUT ./Figures/calhouse_231/0-resultado.jpg

@@ -15,13 +15,13 @@ Existen modificaciones de la técnica básica, que abordan el problema utilizand
 
 \subsection{Implementación Básica}
 
-Si se considera una imagen digital discreta en escala de grises $I$, sea la probabilidad de ocurrencia de un nivel de gris $i_k$ dentro de la imagen una aproximación de la forma:
+Si se considera una imagen digital discreta en escala de grises $I$, sea entonces la probabilidad de ocurrencia de un nivel de intensidad $i_k$ dentro de la imagen una aproximación de la forma:
 
 \begin{equation}
 p_r(i_k)= \frac{n_k}{M \times N} \qquad k=0,1,2,...,L-1
 \end{equation}
 
-donde $M \times N$ es el número total de pixeles de la imagen, $n_k$ es el número de pixeles que poseen el nivel de gris $i_k$, y $L$ es número de pixeles representables en la imagen. Se busca una función de transformación de los niveles de intensidad de los pixeles de la forma:
+donde $M \times N$ es el número total de pixeles de la imagen, $n_k$ es el número de pixeles que poseen el nivel de intensidad $i_k$, y $L$ es número de pixeles representables en la imagen. Se busca una función de transformación de los niveles de intensidad de los pixeles de la forma:
 
 \begin{equation}
 \begin{split}
@@ -43,7 +43,7 @@ con $i'_k \leq L-1$.
 
 \subsection{Ejemplo de aplicación}
 
-Mediante un ejemplo es posible clarificar el concepto presentado arriba. Por lo tanto, si asumimos una imagen digital de 64 pixeles con $L=256$ niveles de gris, con el mapa de intensidades que se muestra abajo, y su respectiva representación visual:
+Mediante un ejemplo es posible clarificar el concepto presentado arriba. Por lo tanto, si asumimos una imagen digital de 64 pixeles con $L=256$ niveles de intensidad, con el mapa de intensidades que se muestra en la Figura \ref{fig:mapaintej}, y su respectiva representación visual se muestra en la Figura \ref{fig:mapaintejvis}:
 
 \begin{figure}[H]
 \centering
@@ -60,12 +60,14 @@ Mediante un ejemplo es posible clarificar el concepto presentado arriba. Por lo 
 \end{bmatrix}
 \]
 \caption{Mapa de intensidades de una imagen de nivel de gris de ejemplo.}
+\label{fig:mapaintej}
 \end{figure}
 
 \begin{figure}[H]
 \centering
 \includegraphics[width=0.5\textwidth]{./Figures/JPEG_example_subimage.png}
 \caption{Imagen original representada en la matriz de intensidades.}
+\label{fig:mapaintejvis}
 \end{figure}
 
 La tabla siguiente muestra de manera resumida el proceso correspondiente a la ecualización del histograma básica, para la imagen de ejemplo:
@@ -127,7 +129,7 @@ La tabla siguiente muestra de manera resumida el proceso correspondiente a la ec
 
 La Tabla \ref{tab:ejemploeqhistograma} muestra el proceso de ecualización de la imagen de ejemplo. Si se representa una imagen digital con 8 bits (lo cual permite representar 256 niveles de intensidad en la imagen digital), y se tiene el conteo de pixeles para cada nivel como se muestra en la columna $n_k$, entonces el proceso de normalización será como se ve en la columna $n_k/(M \times N)$, el $CDF$ se calcula como se muestra en la columna $CDF(i_k)$ y finalmente el nivel de gris mapeado será el que se muestra en la columna $i'_k$.
 
-Éste proceso arroja un nuevo mapa de intensidades, que se obtiene a partir del reemplazo de los valores $i_k$ por $i'_k$ en el mapa original, como se muestra abajo:
+Éste proceso arroja un nuevo mapa de intensidades, que se obtiene a partir del reemplazo de los valores $i_k$ por $i'_k$ en el mapa original, como se muestra en la Figura \ref{fig:mapaintmej}:
 
 \begin{figure}[H]
 \centering
@@ -144,7 +146,10 @@ La Tabla \ref{tab:ejemploeqhistograma} muestra el proceso de ecualización de la
 \end{bmatrix}
 \]
 \caption{Mapa de intensidades luego del proceso de ecualización.}
+\label{fig:mapaintmej}
 \end{figure}
+
+En la Figura \ref{fig:ejemploeqhistograma2} se puede verificar visualmente la diferencia de Contraste entre la imagen previa al proceso de mejora, y la imagen luego de la ecualización.
 
 \begin{figure}[H]
     \centering
@@ -164,7 +169,8 @@ La Tabla \ref{tab:ejemploeqhistograma} muestra el proceso de ecualización de la
 %        \caption{Enhanced Image. $\mathscr{H_Y}=0.611275$. $SSIM_R=0.00897331$. $SSIM_G=0.00823064$. $SSIM_B=0.00851013$}
 \label{fig:calhouse2301}
 \end{subfigure}
-    \caption{Imágenes original y ecualizada, al final del proceso de ecualización.}\label{fig:ejemploeqhistograma2}
+    \caption{Imágenes original y ecualizada, al final del proceso de ecualización.}
+    \label{fig:ejemploeqhistograma2}
 \end{figure}
 
 \begin{figure}[H]
@@ -185,7 +191,7 @@ La Tabla \ref{tab:ejemploeqhistograma} muestra el proceso de ecualización de la
 
 % En la Tabla \ref{tab:ejemploeqhistograma} se muestra cuál es el proceso de mapeo de niveles de intensidad a partir de los niveles de gris $r_k$ de la imagen digital original, hasta los nuevos niveles de gris mapeados $s_k$. 
 
-La Figura \ref{fig:ejemplohistograma5}(a) muestra una imagen sin procesar, con su correspondiente histograma y $CDF$ previos al proceso de ecualización; en la Figura \ref{fig:ejemplohistograma5}(b) se muestra la imagen obtenida luego de aplicar el proceso de ecualización, y los correspondientes histograma y $CDF$ resultantes luego de éste proceso. 
+Otro ejemplo es observable en la Figura \ref{fig:ejemplohistograma5}(a), en la que se muestra una imagen sin procesar, con su correspondiente histograma y $CDF$ previos al proceso de ecualización; en la Figura \ref{fig:ejemplohistograma5}(b) se muestra la imagen obtenida luego de aplicar el proceso de ecualización, y los correspondientes histograma y $CDF$ resultantes luego de éste proceso. 
 
 \section{Contrast Limited Adaptive Histogram Equalization (CLAHE)}\label{sec:clahe}
 
@@ -388,9 +394,52 @@ Multi-Objective Particle Swarm Optimization ($MOPSO$) \cite{nebro2009smpso} es l
 
 En $MOPSO$ se añaden algunas características a $PSO$, a saber: un \textit{coeficiente de constricción} $\chi$\label{symbol:mopsoconstriccion1} se adopta de manera a controlar la velocidad de la partícula, como se describe abajo:
 
+
+
+
+%Here, $\vv{v}$ is a factor known as the velocity, and is given by:
+
+% \begin{equation}\label{eq:velocidad1}
+%  \vv{v}_i(t) = w \cdot (t-1) + C_1 \cdot r_1 \cdot (\vv{x}_{p_i} - \vv{x}_i) + C_2 \cdot r_2 \cdot (\vv{x}_{g_i} - \vv{x_i}) \text{,}
+% \end{equation}
+% where $\vv{x}_{p_i}$ is the best solution that $\vv{x}_i$ has found so far, $\vv{x}_{g_i}$ is the best solution that the entire swarm has found at the current iteration, $w$ is a coeficient known as the \textit{inertia weight}, which controls the search speed rate of $PSO$; $r_1$ and $r_2$ are random numbers between $[0,1]$. Finally, $C_1$ and $C_2$ are coefficient which control the weight between global and local particles during the search.
+
+% In $MOPSO$, a \textit{constriction coefficient} $\chi$ is adopted in order to control the particle's velocity, as described below:
+
+% \begin{equation}
+% \chi = \frac{2}{2 - \varphi - \sqrt{\varphi^2 - 4 \varphi}}
+% \end{equation}
+
+donde
+
+% where
+
+\begin{equation}\label{symbol:varphi}
+% \[
+\varphi= 
+\begin{cases}
+C_1 + C_2 & \text{if } C_1 + C_2 > 4\\
+0,              & \text{if } C_1 + C_2 \leq 4
+\end{cases}
+% \]
+\end{equation}
+
+
 \begin{equation}
 \chi = \frac{2}{2 - \varphi - \sqrt{\varphi^2 - 4 \varphi}}
 \end{equation}
+
+
+donde
+
+% where
+
+\begin{equation}
+delta_j=\frac{upper\_limit_j - lower\_limit_j}{2}
+\end{equation}
+
+$upper\_limit_j$ y $lower\_limit_j$ son coeficientes definidos para la restricción de velocidad.
+
 
 \begin{figure}[H]
 \centering
@@ -459,35 +508,6 @@ En $MOPSO$ se añaden algunas características a $PSO$, a saber: un \textit{coef
         \label{fig:comportamientopso}
 \end{figure}
 
-
-
-%Here, $\vv{v}$ is a factor known as the velocity, and is given by:
-
-% \begin{equation}\label{eq:velocidad1}
-%  \vv{v}_i(t) = w \cdot (t-1) + C_1 \cdot r_1 \cdot (\vv{x}_{p_i} - \vv{x}_i) + C_2 \cdot r_2 \cdot (\vv{x}_{g_i} - \vv{x_i}) \text{,}
-% \end{equation}
-% where $\vv{x}_{p_i}$ is the best solution that $\vv{x}_i$ has found so far, $\vv{x}_{g_i}$ is the best solution that the entire swarm has found at the current iteration, $w$ is a coeficient known as the \textit{inertia weight}, which controls the search speed rate of $PSO$; $r_1$ and $r_2$ are random numbers between $[0,1]$. Finally, $C_1$ and $C_2$ are coefficient which control the weight between global and local particles during the search.
-
-% In $MOPSO$, a \textit{constriction coefficient} $\chi$ is adopted in order to control the particle's velocity, as described below:
-
-% \begin{equation}
-% \chi = \frac{2}{2 - \varphi - \sqrt{\varphi^2 - 4 \varphi}}
-% \end{equation}
-
-donde $\varphi$\label{symbol:varphi}
-
-% where
-
-\begin{equation}
-% \[
-\varphi= 
-\begin{cases}
-C_1 + C_2 & \text{if } C_1 + C_2 > 4\\
-0,              & \text{if } C_1 + C_2 \leq 4
-\end{cases}
-% \]
-\end{equation}
-
 Además, la velocidad en $MOPSO$ se acota con la siguiente ecuación de constricción de velocidad:
 
 % Furthermore, the velocity in $MOPSO$ is bounded by the following \textit{velocity constriction} equation:
@@ -502,19 +522,11 @@ v_{i,j}(t),      & \text{otherwise }
 % \]
 \end{equation}
 
-donde
-
-% where
-
-\begin{equation}
-delta_j=\frac{upper\_limit_j - lower\_limit_j}{2}
-\end{equation}
-
-$upper\_limit_j$ y $lower\_limit_j$ son coeficientes definidos para la restricción de velocidad.
-
 \section{Métricas de Optimización}
 
-Las soluciones potenciales obtenidas mediante el proceso descrito en éste trabajo deben ser evaluadas para determinar las mejores soluciones en términos de las características descritas en secciones anteriores. Una solución se considera de mejor calidad que otra cuando se tienen mejores valores de \textit{Entropía} (Contraste de la imagen obtenida) y \textit{Índice de Similaridad Estructural} ($SSIM$). Éstas \textit{Métricas de evaluación} guían el proceso de búsqueda $MOPSO$ descrito en la sección anterior. 
+Las soluciones potenciales obtenidas mediante el proceso descrito en éste trabajo deben ser evaluadas de forma a determinar las mejores soluciones en términos de las características descritas en secciones anteriores. Una solución se considera de mejor calidad que otra cuando se tienen mejores valores de \textit{Entropía} (Contraste de la imagen obtenida) y \textit{Índice de Similaridad Estructural} ($SSIM$). Éstas \textit{Métricas de evaluación} guían el proceso de búsqueda $MOPSO$ descrito en la sección anterior. 
+
+Éstas métricas se eligen debido a la seguridad que otorgan considerando que son implementaciones bien probadas \cite{bradski2000opencv}, y aplicadas de manera efectiva en implementaciones similares \cite{morepso,more2015parameter}.
 
 \subsection{Entropía de la imagen}
 %\subsection{Entropy of image}

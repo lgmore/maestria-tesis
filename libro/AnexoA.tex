@@ -1,18 +1,18 @@
 \renewcommand\thesection{A.\arabic{figure}}
-\renewcommand\thefigure{\thesection.\arabic{figure}}
+\renewcommand\thefigure{\thesection}
 \renewcommand{\thetable}{A.\arabic{table}} 
 
-\chapter*{ANEXO A: Resultados extendidos}
+\chapter{APÉNDICE A: Resultados extendidos}
 \label{ch:anexo}
 \setcounter{figure}{0}
 \setcounter{table}{0} 
-En este capítulo se muestra el detalle numérico de las métricas componentes de $CMOPSO-CLAHE$. además de valores resultantes de las variables de decisión y tiempos de ejecución para las imágenes de prueba. para los resultados no dominados. Los tiempos de ejecución detallados corresponden a \texttt{time())} \cite{time}.
+En este apéndice se muestra el detalle numérico de las métricas componentes de $CMOPSO-CLAHE$. Además de valores resultantes de las variables de decisión y tiempos de ejecución para las imágenes de prueba. para los resultados no dominados. Los tiempos de ejecución detallados corresponden a \texttt{time())} \cite{time}.
 
-En este Aéndice, se muestra un detalle de las soluciones no dominadas obtenid
+En este apéndice, se muestra un detalle de las soluciones no dominadas obtenidas, en términos de las variables de decisión componentes (Conjunto Pareto) y las métricas resultantes (Frente Pareto); además de la correlación de coeficientes de métricas, y algunas imágenes resultantes obtenidas a partir de los parámetros de sintonización que se dan como soluciones.
 
 %Los resultados de este apartado son los promedios de los tiempos de ejecución. de los algoritmos \textit{Histogram Equalization} (HE). \textit{Multiscale Morphological Contrast Enhancement} (MMCE) y el algoritmo propuesto. para las 200 imágenes en escala de grises. Los algoritmos se implementaron con el framewok ImageJ y se hizo ejecutar 5 veces los experimentos. En la Tabla \ref{tabla22} se muestran los promedios de los tiempos de ejecución del algoritmo HE para las imágenes en escala de grises.
 
-\section{Imagen de prueba \texttt{calhouse\_230.jpg}}
+\section*{Imagen de prueba \texttt{calhouse\_230.jpg}}
 
 \scriptsize
 \begin{longtable}{|c|c|c|c|c|c|c|c|}
@@ -150,7 +150,7 @@ ID & $\mathscr{R}_x$ & $\mathscr{R}_y$ & $\mathscr{C}$ & $f_1(I.\vv{x})$ & $f_2(
 \begin{figure}[H]
 \centering
   %\begin{subfigure}[t]{0.45\textwidth}
-  \begin{subfigure}[ID=0]{
+  \begin{subfigure}[]{
   \includegraphics[width=0.45\textwidth]{./Figures/calhouse_230/0-resultado.jpg}
   }
 %    \caption{Imagen Original. $\mathscr{H_Y}=0.207231$. $SSIM_R=1$. $SSIM_G=1$. $SSIM_B=1$}
@@ -158,7 +158,7 @@ ID & $\mathscr{R}_x$ & $\mathscr{R}_y$ & $\mathscr{C}$ & $f_1(I.\vv{x})$ & $f_2(
 \end{subfigure}
   ~ %add desired spacing between images. e. g. ~. \quad. \qquad. \hfill etc. 
    %(or a blank line to force the subfigure onto a new line)
-   \begin{subfigure}[ID=1]{
+   \begin{subfigure}[]{
    \includegraphics[width=0.45\textwidth]{./Figures/calhouse_230/1-resultado.jpg}  
    }
   %\begin{subfigure}[t]{0.45\textwidth}
@@ -167,14 +167,14 @@ ID & $\mathscr{R}_x$ & $\mathscr{R}_y$ & $\mathscr{C}$ & $f_1(I.\vv{x})$ & $f_2(
 \end{subfigure}
   ~ %add desired spacing between images. e. g. ~. \quad. \qquad. \hfill etc. 
   %(or a blank line to force the subfigure onto a new line)
-  \begin{subfigure}[ID=23]{
+  \begin{subfigure}[]{
   \includegraphics[width=0.45\textwidth]{./Figures/calhouse_230/23-resultado.jpg}
   }
   % \begin{subfigure}[t]{0.45\textwidth}
 %    \caption{Enhanced Image. $\mathscr{H_Y}=0.0350595$. $SSIM_R=0.416776$. $SSIM_G=0.403636$. $SSIM_B=0.417654$}
 \label{fig:calhouse23023}
 \end{subfigure} 
-\begin{subfigure}[ID=24]{
+\begin{subfigure}[]{
 \includegraphics[width=0.45\textwidth]{./Figures/calhouse_230/24-resultado.jpg}
 }
   % \begin{subfigure}[t]{0.45\textwidth}
@@ -183,7 +183,7 @@ ID & $\mathscr{R}_x$ & $\mathscr{R}_y$ & $\mathscr{C}$ & $f_1(I.\vv{x})$ & $f_2(
     \end{subfigure}
   ~ %add desired spacing between images. e. g. ~. \quad. \qquad. \hfill etc. 
   %(or a blank line to force the subfigure onto a new line)
-  \begin{subfigure}[ID=56]{
+  \begin{subfigure}[]{
   \includegraphics[width=0.45\textwidth]{./Figures/calhouse_230/56-resultado.jpg}
   }
   % \begin{subfigure}[t]{0.45\textwidth}
@@ -394,7 +394,7 @@ ID & $\mathscr{R}_x$ & $\mathscr{R}_y$ & $\mathscr{C}$ & $f_1(I.\vv{x})$ & $f_2(
 \begin{figure}[H]
 \centering
   %\begin{subfigure}[t]{0.45\textwidth}
-  \begin{subfigure}[ID=0]{
+  \begin{subfigure}[]{
   \includegraphics[width=0.45\textwidth]{./Figures/calhouse_231/0-resultado.jpg}
   }
 %    \caption{Imagen Original. $\mathscr{H_Y}=0.207231$. $SSIM_R=1$. $SSIM_G=1$. $SSIM_B=1$}
@@ -402,7 +402,7 @@ ID & $\mathscr{R}_x$ & $\mathscr{R}_y$ & $\mathscr{C}$ & $f_1(I.\vv{x})$ & $f_2(
 \end{subfigure}
   ~ %add desired spacing between images. e. g. ~. \quad. \qquad. \hfill etc. 
    %(or a blank line to force the subfigure onto a new line)
-   \begin{subfigure}[ID=1]{
+   \begin{subfigure}[]{
    \includegraphics[width=0.45\textwidth]{./Figures/calhouse_231/1-resultado.jpg}  
    }
   %\begin{subfigure}[t]{0.45\textwidth}
@@ -411,14 +411,14 @@ ID & $\mathscr{R}_x$ & $\mathscr{R}_y$ & $\mathscr{C}$ & $f_1(I.\vv{x})$ & $f_2(
 \end{subfigure}
   ~ %add desired spacing between images. e. g. ~. \quad. \qquad. \hfill etc. 
   %(or a blank line to force the subfigure onto a new line)
-  \begin{subfigure}[ID=23]{
+  \begin{subfigure}[]{
   \includegraphics[width=0.45\textwidth]{./Figures/calhouse_231/28-resultado.jpg}
   }
   % \begin{subfigure}[t]{0.45\textwidth}
 %    \caption{Enhanced Image. $\mathscr{H_Y}=0.0350595$. $SSIM_R=0.416776$. $SSIM_G=0.403636$. $SSIM_B=0.417654$}
 \label{fig:calhouse23128}
 \end{subfigure} 
-\begin{subfigure}[ID=24]{
+\begin{subfigure}[]{
 \includegraphics[width=0.45\textwidth]{./Figures/calhouse_231/29-resultado.jpg}
 }
   % \begin{subfigure}[t]{0.45\textwidth}
@@ -427,7 +427,7 @@ ID & $\mathscr{R}_x$ & $\mathscr{R}_y$ & $\mathscr{C}$ & $f_1(I.\vv{x})$ & $f_2(
     \end{subfigure}
   ~ %add desired spacing between images. e. g. ~. \quad. \qquad. \hfill etc. 
   %(or a blank line to force the subfigure onto a new line)
-  \begin{subfigure}[ID=56]{
+  \begin{subfigure}[]{
   \includegraphics[width=0.45\textwidth]{./Figures/calhouse_231/102-resultado.jpg}
   }
   % \begin{subfigure}[t]{0.45\textwidth}
@@ -450,7 +450,7 @@ ID & $\mathscr{R}_x$ & $\mathscr{R}_y$ & $\mathscr{C}$ & $f_1(I.\vv{x})$ & $f_2(
     %\begin{subfigure}[Gráfica de Frente Pareto para las soluciones no dominadas de \texttt{calhouse_231.jpg}]{
     \includegraphics[width=\textwidth]{./Figures/calhouse_231/calhouse_231_2.jpg}
     %}
-    %\end{subfigure}
+    %\end{subfigure    }
     \caption{Frente pareto que contrasta los objetivos de las soluciones no dominadas. para los resultados de imágenes que se muestran en la tabla \ref{tab:calhouse_231}.}
     \label{fig:calhouse2312fp}
     \end{figure}
@@ -905,14 +905,14 @@ ID & $\mathscr{R}_x$ & $\mathscr{R}_y$ & $\mathscr{C}$ & $f_1(I.\vv{x})$ & $f_2(
 \begin{figure}[H]
 \centering
   %\begin{subfigure}[t]{0.45\textwidth}
-  \begin{subfigure}[ID=0]{
+  \begin{subfigure}[]{
   \includegraphics[width=0.45\textwidth]{./Figures/calhouse_232/4-resultado.jpg}
   }
 %    \caption{Imagen Original. $\mathscr{H_Y}=0.207231$. $SSIM_R=1$. $SSIM_G=1$. $SSIM_B=1$}
 \end{subfigure}
   ~ %add desired spacing between images. e. g. ~. \quad. \qquad. \hfill etc. 
    %(or a blank line to force the subfigure onto a new line)
-   \begin{subfigure}[ID=1]{
+   \begin{subfigure}[]{
    \includegraphics[width=0.45\textwidth]{./Figures/calhouse_232/5-resultado.jpg}  
    }
   %\begin{subfigure}[t]{0.45\textwidth}
@@ -920,13 +920,13 @@ ID & $\mathscr{R}_x$ & $\mathscr{R}_y$ & $\mathscr{C}$ & $f_1(I.\vv{x})$ & $f_2(
 \end{subfigure}
   ~ %add desired spacing between images. e. g. ~. \quad. \qquad. \hfill etc. 
   %(or a blank line to force the subfigure onto a new line)
-  \begin{subfigure}[ID=23]{
+  \begin{subfigure}[]{
   \includegraphics[width=0.45\textwidth]{./Figures/calhouse_232/204-resultado.jpg}
   }
   % \begin{subfigure}[t]{0.45\textwidth}
 %    \caption{Enhanced Image. $\mathscr{H_Y}=0.0350595$. $SSIM_R=0.416776$. $SSIM_G=0.403636$. $SSIM_B=0.417654$}
 \end{subfigure} 
-\begin{subfigure}[ID=24]{
+\begin{subfigure}[]{
 \includegraphics[width=0.45\textwidth]{./Figures/calhouse_232/205-resultado.jpg}
 }
   % \begin{subfigure}[t]{0.45\textwidth}
@@ -935,7 +935,7 @@ ID & $\mathscr{R}_x$ & $\mathscr{R}_y$ & $\mathscr{C}$ & $f_1(I.\vv{x})$ & $f_2(
     \end{subfigure}
   ~ %add desired spacing between images. e. g. ~. \quad. \qquad. \hfill etc. 
   %(or a blank line to force the subfigure onto a new line)
-  \begin{subfigure}[ID=56]{
+  \begin{subfigure}[]{
   \includegraphics[width=0.45\textwidth]{./Figures/calhouse_232/407-resultado.jpg}
   }
   % \begin{subfigure}[t]{0.45\textwidth}
@@ -981,7 +981,7 @@ $SSIM_B$ & -0,8676 & 0,9998  & 0.9999  & 1 \\
 \hline
 \end{tabular}
 \end{center}
-\label{table:correlacion}
+\label{table:correlacion232}
 \end{table}
 
 
@@ -1194,14 +1194,14 @@ ID & $\mathscr{R}_x$ & $\mathscr{R}_y$ & $\mathscr{C}$ & $f_1(I.\vv{x})$ & $f_2(
 \begin{figure}[H]
 \centering
   %\begin{subfigure}[t]{0.45\textwidth}
-  \begin{subfigure}[ID=0]{
+  \begin{subfigure}[]{
   \includegraphics[width=0.45\textwidth]{./Figures/calhouse_233/6-resultado.jpg}
   }
 %    \caption{Imagen Original. $\mathscr{H_Y}=0.207231$. $SSIM_R=1$. $SSIM_G=1$. $SSIM_B=1$}
 \end{subfigure}
   ~ %add desired spacing between images. e. g. ~. \quad. \qquad. \hfill etc. 
    %(or a blank line to force the subfigure onto a new line)
-   \begin{subfigure}[ID=1]{
+   \begin{subfigure}[]{
    \includegraphics[width=0.45\textwidth]{./Figures/calhouse_233/7-resultado.jpg}  
    }
   %\begin{subfigure}[t]{0.45\textwidth}
@@ -1209,13 +1209,13 @@ ID & $\mathscr{R}_x$ & $\mathscr{R}_y$ & $\mathscr{C}$ & $f_1(I.\vv{x})$ & $f_2(
 \end{subfigure}
   ~ %add desired spacing between images. e. g. ~. \quad. \qquad. \hfill etc. 
   %(or a blank line to force the subfigure onto a new line)
-  \begin{subfigure}[ID=23]{
+  \begin{subfigure}[]{
   \includegraphics[width=0.45\textwidth]{./Figures/calhouse_233/46-resultado.jpg}
   }
   % \begin{subfigure}[t]{0.45\textwidth}
 %    \caption{Enhanced Image. $\mathscr{H_Y}=0.0350595$. $SSIM_R=0.416776$. $SSIM_G=0.403636$. $SSIM_B=0.417654$}
 \end{subfigure} 
-\begin{subfigure}[ID=24]{
+\begin{subfigure}[]{
 \includegraphics[width=0.45\textwidth]{./Figures/calhouse_233/47-resultado.jpg}
 }
   % \begin{subfigure}[t]{0.45\textwidth}
@@ -1224,7 +1224,7 @@ ID & $\mathscr{R}_x$ & $\mathscr{R}_y$ & $\mathscr{C}$ & $f_1(I.\vv{x})$ & $f_2(
     \end{subfigure}
   ~ %add desired spacing between images. e. g. ~. \quad. \qquad. \hfill etc. 
   %(or a blank line to force the subfigure onto a new line)
-  \begin{subfigure}[ID=56]{
+  \begin{subfigure}[]{
   \includegraphics[width=0.45\textwidth]{./Figures/calhouse_233/60-resultado.jpg}
   }
   % \begin{subfigure}[t]{0.45\textwidth}
@@ -1521,14 +1521,14 @@ ID & $\mathscr{R}_x$ & $\mathscr{R}_y$ & $\mathscr{C}$ & $f_1(I.\vv{x})$ & $f_2(
 \begin{figure}[H]
 \centering
   %\begin{subfigure}[t]{0.45\textwidth}
-  \begin{subfigure}[ID=0]{
+  \begin{subfigure}[]{
   \includegraphics[width=0.45\textwidth]{./Figures/calhouse_234/1-resultado.jpg}
   }
 %    \caption{Imagen Original. $\mathscr{H_Y}=0.207231$. $SSIM_R=1$. $SSIM_G=1$. $SSIM_B=1$}
 \end{subfigure}
   ~ %add desired spacing between images. e. g. ~. \quad. \qquad. \hfill etc. 
    %(or a blank line to force the subfigure onto a new line)
-   \begin{subfigure}[ID=1]{
+   \begin{subfigure}[]{
    \includegraphics[width=0.45\textwidth]{./Figures/calhouse_234/2-resultado.jpg}  
    }
   %\begin{subfigure}[t]{0.45\textwidth}
@@ -1536,13 +1536,13 @@ ID & $\mathscr{R}_x$ & $\mathscr{R}_y$ & $\mathscr{C}$ & $f_1(I.\vv{x})$ & $f_2(
 \end{subfigure}
   ~ %add desired spacing between images. e. g. ~. \quad. \qquad. \hfill etc. 
   %(or a blank line to force the subfigure onto a new line)
-  \begin{subfigure}[ID=23]{
+  \begin{subfigure}[]{
   \includegraphics[width=0.45\textwidth]{./Figures/calhouse_234/51-resultado.jpg}
   }
   % \begin{subfigure}[t]{0.45\textwidth}
 %    \caption{Enhanced Image. $\mathscr{H_Y}=0.0350595$. $SSIM_R=0.416776$. $SSIM_G=0.403636$. $SSIM_B=0.417654$}
 \end{subfigure} 
-\begin{subfigure}[ID=24]{
+\begin{subfigure}[]{
 \includegraphics[width=0.45\textwidth]{./Figures/calhouse_234/59-resultado.jpg}
 }
   % \begin{subfigure}[t]{0.45\textwidth}
@@ -1551,7 +1551,7 @@ ID & $\mathscr{R}_x$ & $\mathscr{R}_y$ & $\mathscr{C}$ & $f_1(I.\vv{x})$ & $f_2(
     \end{subfigure}
   ~ %add desired spacing between images. e. g. ~. \quad. \qquad. \hfill etc. 
   %(or a blank line to force the subfigure onto a new line)
-  \begin{subfigure}[ID=56]{
+  \begin{subfigure}[]{
   \includegraphics[width=0.45\textwidth]{./Figures/calhouse_234/60-resultado.jpg}
   }
   % \begin{subfigure}[t]{0.45\textwidth}
@@ -1882,14 +1882,14 @@ ID & $\mathscr{R}_x$ & $\mathscr{R}_y$ & $\mathscr{C}$ & $f_1(I.\vv{x})$ & $f_2(
 \begin{figure}[H]
 \centering
   %\begin{subfigure}[t]{0.45\textwidth}
-  \begin{subfigure}[ID=0]{
+  \begin{subfigure}[]{
   \includegraphics[width=0.45\textwidth]{./Figures/calhouse_236/56-resultado.jpg}
   }
 %    \caption{Imagen Original. $\mathscr{H_Y}=0.207231$. $SSIM_R=1$. $SSIM_G=1$. $SSIM_B=1$}
 \end{subfigure}
   ~ %add desired spacing between images. e. g. ~. \quad. \qquad. \hfill etc. 
    %(or a blank line to force the subfigure onto a new line)
-   \begin{subfigure}[ID=1]{
+   \begin{subfigure}[]{
    \includegraphics[width=0.45\textwidth]{./Figures/calhouse_236/61-resultado.jpg}  
    }
   %\begin{subfigure}[t]{0.45\textwidth}
@@ -1897,13 +1897,13 @@ ID & $\mathscr{R}_x$ & $\mathscr{R}_y$ & $\mathscr{C}$ & $f_1(I.\vv{x})$ & $f_2(
 \end{subfigure}
   ~ %add desired spacing between images. e. g. ~. \quad. \qquad. \hfill etc. 
   %(or a blank line to force the subfigure onto a new line)
-  \begin{subfigure}[ID=23]{
+  \begin{subfigure}[]{
   \includegraphics[width=0.45\textwidth]{./Figures/calhouse_236/82-resultado.jpg}
   }
   % \begin{subfigure}[t]{0.45\textwidth}
 %    \caption{Enhanced Image. $\mathscr{H_Y}=0.0350595$. $SSIM_R=0.416776$. $SSIM_G=0.403636$. $SSIM_B=0.417654$}
 \end{subfigure} 
-\begin{subfigure}[ID=24]{
+\begin{subfigure}[]{
 \includegraphics[width=0.45\textwidth]{./Figures/calhouse_236/101-resultado.jpg}
 }
   % \begin{subfigure}[t]{0.45\textwidth}
@@ -1912,7 +1912,7 @@ ID & $\mathscr{R}_x$ & $\mathscr{R}_y$ & $\mathscr{C}$ & $f_1(I.\vv{x})$ & $f_2(
     \end{subfigure}
   ~ %add desired spacing between images. e. g. ~. \quad. \qquad. \hfill etc. 
   %(or a blank line to force the subfigure onto a new line)
-  \begin{subfigure}[ID=56]{
+  \begin{subfigure}[]{
   \includegraphics[width=0.45\textwidth]{./Figures/calhouse_236/107-resultado.jpg}
   }
   % \begin{subfigure}[t]{0.45\textwidth}
@@ -2120,14 +2120,14 @@ ID & $\mathscr{R}_x$ & $\mathscr{R}_y$ & $\mathscr{C}$ & $f_1(I.\vv{x})$ & $f_2(
 \begin{figure}[H]
 \centering
   %\begin{subfigure}[t]{0.45\textwidth}
-  \begin{subfigure}[ID=0]{
+  \begin{subfigure}[]{
   \includegraphics[width=0.45\textwidth]{./Figures/calhouse_237/9048-resultado.jpg}
   }
 %    \caption{Imagen Original. $\mathscr{H_Y}=0.207231$. $SSIM_R=1$. $SSIM_G=1$. $SSIM_B=1$}
 \end{subfigure}
   ~ %add desired spacing between images. e. g. ~. \quad. \qquad. \hfill etc. 
    %(or a blank line to force the subfigure onto a new line)
-   \begin{subfigure}[ID=1]{
+   \begin{subfigure}[]{
    \includegraphics[width=0.45\textwidth]{./Figures/calhouse_237/9090-resultado.jpg}  
    }
   %\begin{subfigure}[t]{0.45\textwidth}
@@ -2135,13 +2135,13 @@ ID & $\mathscr{R}_x$ & $\mathscr{R}_y$ & $\mathscr{C}$ & $f_1(I.\vv{x})$ & $f_2(
 \end{subfigure}
   ~ %add desired spacing between images. e. g. ~. \quad. \qquad. \hfill etc. 
   %(or a blank line to force the subfigure onto a new line)
-  \begin{subfigure}[ID=23]{
+  \begin{subfigure}[]{
   \includegraphics[width=0.45\textwidth]{./Figures/calhouse_237/9095-resultado.jpg}
   }
   % \begin{subfigure}[t]{0.45\textwidth}
 %    \caption{Enhanced Image. $\mathscr{H_Y}=0.0350595$. $SSIM_R=0.416776$. $SSIM_G=0.403636$. $SSIM_B=0.417654$}
 \end{subfigure} 
-\begin{subfigure}[ID=24]{
+\begin{subfigure}[]{
 \includegraphics[width=0.45\textwidth]{./Figures/calhouse_237/9162-resultado.jpg}
 }
   % \begin{subfigure}[t]{0.45\textwidth}
@@ -2150,7 +2150,7 @@ ID & $\mathscr{R}_x$ & $\mathscr{R}_y$ & $\mathscr{C}$ & $f_1(I.\vv{x})$ & $f_2(
     \end{subfigure}
   ~ %add desired spacing between images. e. g. ~. \quad. \qquad. \hfill etc. 
   %(or a blank line to force the subfigure onto a new line)
-  \begin{subfigure}[ID=56]{
+  \begin{subfigure}[]{
   \includegraphics[width=0.45\textwidth]{./Figures/calhouse_237/9175-resultado.jpg}
   }
   % \begin{subfigure}[t]{0.45\textwidth}
@@ -2502,14 +2502,14 @@ ID & $\mathscr{R}_x$ & $\mathscr{R}_y$ & $\mathscr{C}$ & $f_1(I.\vv{x})$ & $f_2(
 \begin{figure}[H]
 \centering
   %\begin{subfigure}[t]{0.45\textwidth}
-  \begin{subfigure}[ID=0]{
+  \begin{subfigure}[]{
   \includegraphics[width=0.45\textwidth]{./Figures/calhouse_238/0-resultado.jpg}
   }
 %    \caption{Imagen Original. $\mathscr{H_Y}=0.207231$. $SSIM_R=1$. $SSIM_G=1$. $SSIM_B=1$}
 \end{subfigure}
   ~ %add desired spacing between images. e. g. ~. \quad. \qquad. \hfill etc. 
    %(or a blank line to force the subfigure onto a new line)
-   \begin{subfigure}[ID=1]{
+   \begin{subfigure}[]{
    \includegraphics[width=0.45\textwidth]{./Figures/calhouse_238/1-resultado.jpg}  
    }
   %\begin{subfigure}[t]{0.45\textwidth}
@@ -2517,13 +2517,13 @@ ID & $\mathscr{R}_x$ & $\mathscr{R}_y$ & $\mathscr{C}$ & $f_1(I.\vv{x})$ & $f_2(
 \end{subfigure}
   ~ %add desired spacing between images. e. g. ~. \quad. \qquad. \hfill etc. 
   %(or a blank line to force the subfigure onto a new line)
-  \begin{subfigure}[ID=23]{
+  \begin{subfigure}[]{
   \includegraphics[width=0.45\textwidth]{./Figures/calhouse_238/108-resultado.jpg}
   }
   % \begin{subfigure}[t]{0.45\textwidth}
 %    \caption{Enhanced Image. $\mathscr{H_Y}=0.0350595$. $SSIM_R=0.416776$. $SSIM_G=0.403636$. $SSIM_B=0.417654$}
 \end{subfigure} 
-\begin{subfigure}[ID=24]{
+\begin{subfigure}[]{
 \includegraphics[width=0.45\textwidth]{./Figures/calhouse_238/109-resultado.jpg}
 }
   % \begin{subfigure}[t]{0.45\textwidth}
@@ -2532,7 +2532,7 @@ ID & $\mathscr{R}_x$ & $\mathscr{R}_y$ & $\mathscr{C}$ & $f_1(I.\vv{x})$ & $f_2(
     \end{subfigure}
   ~ %add desired spacing between images. e. g. ~. \quad. \qquad. \hfill etc. 
   %(or a blank line to force the subfigure onto a new line)
-  \begin{subfigure}[ID=56]{
+  \begin{subfigure}[]{
   \includegraphics[width=0.45\textwidth]{./Figures/calhouse_238/281-resultado.jpg}
   }
   % \begin{subfigure}[t]{0.45\textwidth}
@@ -2856,14 +2856,14 @@ ID & $\mathscr{R}_x$ & $\mathscr{R}_y$ & $\mathscr{C}$ & $f_1(I.\vv{x})$ & $f_2(
 \begin{figure}[H]
 \centering
   %\begin{subfigure}[t]{0.45\textwidth}
-  \begin{subfigure}[ID=0]{
+  \begin{subfigure}[]{
   \includegraphics[width=0.45\textwidth]{./Figures/calhouse_239/0-resultado.jpg}
   }
 %    \caption{Imagen Original. $\mathscr{H_Y}=0.207231$. $SSIM_R=1$. $SSIM_G=1$. $SSIM_B=1$}
 \end{subfigure}
   ~ %add desired spacing between images. e. g. ~. \quad. \qquad. \hfill etc. 
    %(or a blank line to force the subfigure onto a new line)
-   \begin{subfigure}[ID=1]{
+   \begin{subfigure}[]{
    \includegraphics[width=0.45\textwidth]{./Figures/calhouse_239/1-resultado.jpg}  
    }
   %\begin{subfigure}[t]{0.45\textwidth}
@@ -2871,13 +2871,13 @@ ID & $\mathscr{R}_x$ & $\mathscr{R}_y$ & $\mathscr{C}$ & $f_1(I.\vv{x})$ & $f_2(
 \end{subfigure}
   ~ %add desired spacing between images. e. g. ~. \quad. \qquad. \hfill etc. 
   %(or a blank line to force the subfigure onto a new line)
-  \begin{subfigure}[ID=23]{
+  \begin{subfigure}[]{
   \includegraphics[width=0.45\textwidth]{./Figures/calhouse_239/2-resultado.jpg}
   }
   % \begin{subfigure}[t]{0.45\textwidth}
 %    \caption{Enhanced Image. $\mathscr{H_Y}=0.0350595$. $SSIM_R=0.416776$. $SSIM_G=0.403636$. $SSIM_B=0.417654$}
 \end{subfigure} 
-\begin{subfigure}[ID=24]{
+\begin{subfigure}[]{
 \includegraphics[width=0.45\textwidth]{./Figures/calhouse_239/86-resultado.jpg}
 }
   % \begin{subfigure}[t]{0.45\textwidth}
@@ -2886,7 +2886,7 @@ ID & $\mathscr{R}_x$ & $\mathscr{R}_y$ & $\mathscr{C}$ & $f_1(I.\vv{x})$ & $f_2(
     \end{subfigure}
   ~ %add desired spacing between images. e. g. ~. \quad. \qquad. \hfill etc. 
   %(or a blank line to force the subfigure onto a new line)
-  \begin{subfigure}[ID=56]{
+  \begin{subfigure}[]{
   \includegraphics[width=0.45\textwidth]{./Figures/calhouse_239/172-resultado.jpg}
   }
   % \begin{subfigure}[t]{0.45\textwidth}
@@ -3246,14 +3246,14 @@ ID & $\mathscr{R}_x$ & $\mathscr{R}_y$ & $\mathscr{C}$ & $f_1(I.\vv{x})$ & $f_2(
 \begin{figure}[H]
 \centering
   %\begin{subfigure}[t]{0.45\textwidth}
-  \begin{subfigure}[ID=0]{
+  \begin{subfigure}[]{
   \includegraphics[width=0.45\textwidth]{./Figures/calhouse_240/0-resultado.jpg}
   }
 %    \caption{Imagen Original. $\mathscr{H_Y}=0.207231$. $SSIM_R=1$. $SSIM_G=1$. $SSIM_B=1$}
 \end{subfigure}
   ~ %add desired spacing between images. e. g. ~. \quad. \qquad. \hfill etc. 
    %(or a blank line to force the subfigure onto a new line)
-   \begin{subfigure}[ID=1]{
+   \begin{subfigure}[]{
    \includegraphics[width=0.45\textwidth]{./Figures/calhouse_240/1-resultado.jpg}  
    }
   %\begin{subfigure}[t]{0.45\textwidth}
@@ -3261,13 +3261,13 @@ ID & $\mathscr{R}_x$ & $\mathscr{R}_y$ & $\mathscr{C}$ & $f_1(I.\vv{x})$ & $f_2(
 \end{subfigure}
   ~ %add desired spacing between images. e. g. ~. \quad. \qquad. \hfill etc. 
   %(or a blank line to force the subfigure onto a new line)
-  \begin{subfigure}[ID=23]{
+  \begin{subfigure}[]{
   \includegraphics[width=0.45\textwidth]{./Figures/calhouse_240/78-resultado.jpg}
   }
   % \begin{subfigure}[t]{0.45\textwidth}
 %    \caption{Enhanced Image. $\mathscr{H_Y}=0.0350595$. $SSIM_R=0.416776$. $SSIM_G=0.403636$. $SSIM_B=0.417654$}
 \end{subfigure} 
-\begin{subfigure}[ID=24]{
+\begin{subfigure}[]{
 \includegraphics[width=0.45\textwidth]{./Figures/calhouse_240/85-resultado.jpg}
 }
   % \begin{subfigure}[t]{0.45\textwidth}
@@ -3276,7 +3276,7 @@ ID & $\mathscr{R}_x$ & $\mathscr{R}_y$ & $\mathscr{C}$ & $f_1(I.\vv{x})$ & $f_2(
     \end{subfigure}
   ~ %add desired spacing between images. e. g. ~. \quad. \qquad. \hfill etc. 
   %(or a blank line to force the subfigure onto a new line)
-  \begin{subfigure}[ID=56]{
+  \begin{subfigure}[]{
   \includegraphics[width=0.45\textwidth]{./Figures/calhouse_240/288-resultado.jpg}
   }
   % \begin{subfigure}[t]{0.45\textwidth}

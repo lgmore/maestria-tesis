@@ -6,26 +6,27 @@
 \contentsline {table}{\numberline {2.2}{\ignorespaces Proceso de ecualizaci\IeC {\'o}n de histograma b\IeC {\'a}sica. Se omiten los niveles de intensidad cuyo conteo es cero.\relax }}{7}{table.caption.11}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {4.1}{\ignorespaces Par\IeC {\'a}metros de entrada para $MOPSO$}}{25}{table.caption.22}
-\contentsline {table}{\numberline {4.2}{\ignorespaces Par\IeC {\'a}metros de entrada para $MOPSO$}}{26}{table.caption.24}
+\contentsline {table}{\numberline {4.1}{\ignorespaces Par\IeC {\'a}metros de entrada para $MOPSO$}}{26}{table.caption.22}
+\contentsline {table}{\numberline {4.2}{\ignorespaces Par\IeC {\'a}metros de entrada para $MOPSO$}}{27}{table.caption.24}
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {A.1}{\ignorespaces Resultados no dominados para la imagen de prueba \texttt {calhouse\_230.jpg}\relax }}{36}{table.Alph0.1}
-\contentsline {table}{\numberline {A.2}{\ignorespaces Par\IeC {\'a}metros de entrada para $MOPSO$}}{38}{table.caption.30}
-\contentsline {table}{\numberline {A.3}{\ignorespaces Resultados no dominados para la imagen de prueba \texttt {calhouse\_231.jpg}\relax }}{41}{table.Alph0.3}
-\contentsline {table}{\numberline {A.4}{\ignorespaces Par\IeC {\'a}metros de entrada para $MOPSO$}}{43}{table.caption.33}
-\contentsline {table}{\numberline {A.5}{\ignorespaces Resultados no dominados para la imagen de prueba \texttt {calhouse\_232.jpg}\relax }}{50}{table.Alph0.5}
-\contentsline {table}{\numberline {A.6}{\ignorespaces Par\IeC {\'a}metros de entrada para $MOPSO$}}{52}{table.caption.36}
-\contentsline {table}{\numberline {A.7}{\ignorespaces Resultados no dominados para la imagen de prueba \texttt {calhouse\_233.jpg}\relax }}{56}{table.Alph0.7}
-\contentsline {table}{\numberline {A.8}{\ignorespaces Par\IeC {\'a}metros de entrada para $MOPSO$}}{57}{table.caption.39}
-\contentsline {table}{\numberline {A.9}{\ignorespaces Resultados no dominados para la imagen de prueba \texttt {calhouse\_234.jpg}\relax }}{61}{table.Alph0.9}
-\contentsline {table}{\numberline {A.10}{\ignorespaces Par\IeC {\'a}metros de entrada para $MOPSO$}}{63}{table.caption.42}
-\contentsline {table}{\numberline {A.11}{\ignorespaces Resultados no dominados para la imagen de prueba \texttt {calhouse\_236.jpg}\relax }}{68}{table.Alph0.11}
-\contentsline {table}{\numberline {A.12}{\ignorespaces Par\IeC {\'a}metros de entrada para $MOPSO$}}{70}{table.caption.45}
-\contentsline {table}{\numberline {A.13}{\ignorespaces Resultados no dominados para la imagen de prueba \texttt {calhouse\_237.jpg}\relax }}{73}{table.Alph0.13}
-\contentsline {table}{\numberline {A.14}{\ignorespaces Par\IeC {\'a}metros de entrada para $MOPSO$}}{75}{table.caption.48}
-\contentsline {table}{\numberline {A.15}{\ignorespaces Resultados no dominados para la imagen de prueba \texttt {calhouse\_238.jpg}\relax }}{80}{table.Alph0.15}
-\contentsline {table}{\numberline {A.16}{\ignorespaces Par\IeC {\'a}metros de entrada para $MOPSO$}}{82}{table.caption.51}
-\contentsline {table}{\numberline {A.17}{\ignorespaces Resultados no dominados para la imagen de prueba \texttt {calhouse\_239.jpg}\relax }}{87}{table.Alph0.17}
-\contentsline {table}{\numberline {A.18}{\ignorespaces Par\IeC {\'a}metros de entrada para $MOPSO$}}{89}{table.caption.54}
-\contentsline {table}{\numberline {A.19}{\ignorespaces Resultados no dominados para la imagen de prueba \texttt {calhouse\_240.jpg}\relax }}{94}{table.Alph0.19}
-\contentsline {table}{\numberline {A.20}{\ignorespaces Par\IeC {\'a}metros de entrada para $MOPSO$}}{96}{table.caption.57}
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {A.1}{\ignorespaces Resultados no dominados para la imagen de prueba \texttt {calhouse\_230.jpg}\relax }}{37}{table.A.1}
+\contentsline {table}{\numberline {A.2}{\ignorespaces Par\IeC {\'a}metros de entrada para $MOPSO$}}{39}{table.caption.29}
+\contentsline {table}{\numberline {A.3}{\ignorespaces Resultados no dominados para la imagen de prueba \texttt {calhouse\_231.jpg}\relax }}{42}{table.A.3}
+\contentsline {table}{\numberline {A.4}{\ignorespaces Par\IeC {\'a}metros de entrada para $MOPSO$}}{44}{table.caption.32}
+\contentsline {table}{\numberline {A.5}{\ignorespaces Resultados no dominados para la imagen de prueba \texttt {calhouse\_232.jpg}\relax }}{51}{table.A.5}
+\contentsline {table}{\numberline {A.6}{\ignorespaces Par\IeC {\'a}metros de entrada para $MOPSO$}}{53}{table.caption.35}
+\contentsline {table}{\numberline {A.7}{\ignorespaces Resultados no dominados para la imagen de prueba \texttt {calhouse\_233.jpg}\relax }}{57}{table.A.7}
+\contentsline {table}{\numberline {A.8}{\ignorespaces Par\IeC {\'a}metros de entrada para $MOPSO$}}{58}{table.caption.38}
+\contentsline {table}{\numberline {A.9}{\ignorespaces Resultados no dominados para la imagen de prueba \texttt {calhouse\_234.jpg}\relax }}{62}{table.A.9}
+\contentsline {table}{\numberline {A.10}{\ignorespaces Par\IeC {\'a}metros de entrada para $MOPSO$}}{64}{table.caption.41}
+\contentsline {table}{\numberline {A.11}{\ignorespaces Resultados no dominados para la imagen de prueba \texttt {calhouse\_236.jpg}\relax }}{69}{table.A.11}
+\contentsline {table}{\numberline {A.12}{\ignorespaces Par\IeC {\'a}metros de entrada para $MOPSO$}}{71}{table.caption.44}
+\contentsline {table}{\numberline {A.13}{\ignorespaces Resultados no dominados para la imagen de prueba \texttt {calhouse\_237.jpg}\relax }}{74}{table.A.13}
+\contentsline {table}{\numberline {A.14}{\ignorespaces Par\IeC {\'a}metros de entrada para $MOPSO$}}{76}{table.caption.47}
+\contentsline {table}{\numberline {A.15}{\ignorespaces Resultados no dominados para la imagen de prueba \texttt {calhouse\_238.jpg}\relax }}{81}{table.A.15}
+\contentsline {table}{\numberline {A.16}{\ignorespaces Par\IeC {\'a}metros de entrada para $MOPSO$}}{83}{table.caption.50}
+\contentsline {table}{\numberline {A.17}{\ignorespaces Resultados no dominados para la imagen de prueba \texttt {calhouse\_239.jpg}\relax }}{88}{table.A.17}
+\contentsline {table}{\numberline {A.18}{\ignorespaces Par\IeC {\'a}metros de entrada para $MOPSO$}}{90}{table.caption.53}
+\contentsline {table}{\numberline {A.19}{\ignorespaces Resultados no dominados para la imagen de prueba \texttt {calhouse\_240.jpg}\relax }}{95}{table.A.19}
+\contentsline {table}{\numberline {A.20}{\ignorespaces Par\IeC {\'a}metros de entrada para $MOPSO$}}{97}{table.caption.56}
