@@ -40,4 +40,4 @@
 \contentsline {section}{\numberline {A.6}Imagen de prueba \texttt {calhouse\_233.jpg}}{52}{section.Alph0.4}
 \contentsline {section}{\numberline {A.8}Imagen de prueba \texttt {calhouse\_234.jpg}}{57}{section.Alph0.5}
 \contentsline {section}{\numberline {A.10}Imagen de prueba \texttt {calhouse\_236.jpg}}{63}{section.Alph0.6}
-\contentsline {section}{\numberline {A.12}Imagen de prueba \texttt {calhouse\_237.jpg}}{67}{section.Alph0.7}
+\contentsline {section}{\numberline {A.12}Imagen de prueba \texttt {calhouse\_237.jpg}}{70}{section.Alph0.7}
