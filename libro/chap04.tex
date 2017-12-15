@@ -16,7 +16,7 @@ El conjunto de pruebas se realizó sobre el siguiente hardware disponible: Una P
 
 \section{Descripción de resultados obtenidos}
 
-Se realizaron pruebas utilizando 8 imágenes a color a partir del conjunto de datos disponible en http://www.vision.caltech.edu/archive.html. La tabla \ref{table:parametrospso} muestra cómo $SMPSO$ fué configurada para la ejecución de prueba experimentales. Los detalles de implementación de $SMPSO$ está disponible en \cite{durillo2010jmetal}, mientras que los detalles de implementación para $CLAHE$, $\mathscr{H}$ y $SSIM$ están disponibles en \cite{bradski2000opencv}.
+Se realizaron pruebas utilizando 10 imágenes a color a partir del conjunto de datos disponible en http://www.vision.caltech.edu/archive.html. La tabla \ref{table:parametrospso} muestra cómo $SMPSO$ fué configurada para la ejecución de prueba experimentales. Los detalles de implementación de $SMPSO$ está disponible en \cite{durillo2010jmetal}, mientras que los detalles de implementación para $CLAHE$, $\mathscr{H}$ y $SSIM$ están disponibles en \cite{bradski2000opencv}.
 
 \begin{table}[H]
 \setlength{\abovecaptionskip}{2pt plus 3pt minus 2pt} % Chosen fairly arbitrarily
@@ -51,7 +51,7 @@ $r_2$ $min$ & 0.0 & $r_2$ $max$ & 1.0 \\
 \label{table:parametrospso}
 \end{table}
 
-Para cada imagen de prueba, se realizaron 50 ejecuciones, y en promedio se encontraron 100 soluciones no dominadas. De la Figura \ref{fig:casa1} se puede verificar que es notable la manera en que las variables de decisión entrenadas logran la Mejora del Contraste en las imágenes de prueba; además de que se puede evidenciar también la existencia una relación de compromiso con respecto a la variación de coeficientes entre $\mathscr{H}$ y $SSIM_R,SSIM_G,SSIM_B$. Es también notable a partir de la Figura (\ref{fig:casa1})(c) cómo los valores más altos de $\mathscr{H}$ degradan severamente a la imagen, mientras que los valores altos de $SSIM_R,SSIM_G,SSIM_B$ no logran el Contraste suficiente, en ocasiones siendo apenas perceptible; por lo que es necesario encontrar el balance correcto entre $\mathscr{H}$ y $SSIM_R,SSIM_G,SSIM_B$.
+Para cada imagen de prueba, se realizaron 50 ejecuciones, y en promedio se encontraron entre 100 y 250 soluciones no dominadas. De la Figura \ref{fig:casa1} se puede verificar que es notable la manera en que las variables de decisión entrenadas logran la Mejora del Contraste en las imágenes de prueba; además de que se puede evidenciar también la existencia una relación de compromiso con respecto a la variación de coeficientes entre $\mathscr{H}$ y $SSIM_R,SSIM_G,SSIM_B$. Es también notable a partir de la Figura (\ref{fig:casa1})(c) cómo los valores más altos de $\mathscr{H}$ degradan severamente a la imagen, mientras que los valores altos de $SSIM_R,SSIM_G,SSIM_B$ no logran el Contraste suficiente, en ocasiones siendo apenas perceptible; por lo que es necesario encontrar el balance correcto entre $\mathscr{H}$ y $SSIM_R,SSIM_G,SSIM_B$.
 
 En el Anexo A se puede apreciar el detalle de coeficientes obtenidos para las métricas utilizadas en el trabajo.
 
