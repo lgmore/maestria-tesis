@@ -4,12 +4,12 @@
 \defcounter {refsection}{0}\relax 
 \beamer@sectionintoc {2}{Marco Te\IeC {\'o}rico}{7}{0}{2}
 \defcounter {refsection}{0}\relax 
-\beamer@sectionintoc {3}{Formulaci\IeC {\'o}n del Problema Planteado}{21}{0}{3}
+\beamer@sectionintoc {3}{Formulaci\IeC {\'o}n del Problema Planteado}{20}{0}{3}
 \defcounter {refsection}{0}\relax 
-\beamer@sectionintoc {4}{Propuesta}{22}{0}{4}
+\beamer@sectionintoc {4}{Propuesta}{23}{0}{4}
 \defcounter {refsection}{0}\relax 
-\beamer@sectionintoc {5}{Resultados y discusi\IeC {\'o}n}{23}{0}{5}
+\beamer@sectionintoc {5}{Resultados y discusi\IeC {\'o}n}{24}{0}{5}
 \defcounter {refsection}{0}\relax 
-\beamer@sectionintoc {6}{Conclusiones}{28}{0}{6}
+\beamer@sectionintoc {6}{Conclusiones}{30}{0}{6}
 \defcounter {refsection}{0}\relax 
-\beamer@sectionintoc {7}{Trabajos Futuros}{29}{0}{7}
+\beamer@sectionintoc {7}{Trabajos Futuros}{31}{0}{7}

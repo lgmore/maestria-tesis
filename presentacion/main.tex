@@ -42,7 +42,9 @@
 \newcommand{\pdfnewline}{\texorpdfstring{\newline}{ }} 
 % Fill the vertical space in a slide (to put text at the bottom)
 \newcommand{\framefill}{\vskip0pt plus 1filll}
-
+\usetikzlibrary{spy}
+\usetikzlibrary{arrows,shapes,positioning}
+\usetikzlibrary{calc,decorations.markings}
 
 \title[Facultad Politécnica - UNA]{Mejora de Contraste de Imágenes a Color Usando un Framework de Optimización Multi-Objetivo}
 \date[Dic 19, 2017]{Dic 15, 2017}
@@ -481,36 +483,36 @@ La entropía de la imagen y su contraste están relacionados a la distribución 
 
 \end{frame}
 
-\begin{frame} 
-\frametitle{Marco Teórico} 
-% \framesubtitle{And also some blocks.} 
-\begin{exampleblock}{\textit{Efecto de la variación de Entropía de la Imagen}}
+% \begin{frame} 
+% \frametitle{Marco Teórico} 
+% % \framesubtitle{And also some blocks.} 
+% \begin{exampleblock}{\textit{Efecto de la variación de Entropía de la Imagen}}
 
-\end{exampleblock}
+% \end{exampleblock}
+% % \centering
+% % \tcbox{\adjincludegraphics[width=0.55\linewidth,valign=t]{graphics/Clahe-redist.jpg}}
+
 % \centering
-% \tcbox{\adjincludegraphics[width=0.55\linewidth,valign=t]{graphics/Clahe-redist.jpg}}
-
-\centering
-\begin{columns}[onlytextwidth]
-\begin{column}{.45\textwidth}
-\begin{figure}
-  \includegraphics[width=\textwidth]{graphics/peppers_color_lc.jpg}
-  \caption{$\mathscr{H}=7,053228$}
-\end{figure}
-\end{column}
-\hfill
-\begin{column}{.45\textwidth}
-		\begin{figure}
-		  \includegraphics[width=\textwidth]{graphics/peppers_color_hc.jpg}
-		  \caption{$\mathscr{H}=7,953866$}
-		\end{figure}
-\end{column}
-\end{columns}
+% \begin{columns}[onlytextwidth]
+% \begin{column}{.45\textwidth}
+% \begin{figure}
+%   \includegraphics[width=\textwidth]{graphics/peppers_color_lc.jpg}
+%   \caption{$\mathscr{H}=7,053228$}
+% \end{figure}
+% \end{column}
+% \hfill
+% \begin{column}{.45\textwidth}
+% 		\begin{figure}
+% 		  \includegraphics[width=\textwidth]{graphics/peppers_color_hc.jpg}
+% 		  \caption{$\mathscr{H}=7,953866$}
+% 		\end{figure}
+% \end{column}
+% \end{columns}
 
 % \tcbox{\adjincludegraphics[width=0.25\linewidth,valign=t]{graphics/lena}}
 % \adjincludegraphics[width=0.30\linewidth,valign=t]{graphics/RGB_Cube_Show_lowgamma_cutout_b}
 
-\end{frame}
+% \end{frame}
 
 \begin{frame} 
 \frametitle{Marco Teórico} 
@@ -657,11 +659,94 @@ Donde $\vv{v}$ se conoce como el factor de velocidad, y está dado por:
 Dada una imagen a color $I$, con $M \times N$ pixeles, y un vector $\vv{x}= (\mathscr{R}_x, \mathscr{R}_y, \mathscr{C})$, donde $\mathscr{R}_x$ y $\mathscr{R}_y$ son regiones contextuales y $\mathscr{C}$ es el \textit{Clip Limit}, se busca un conjunto de soluciones no dominadas $\mathscr{X}$, que maximiza simultáneamente las funciones objetivo $f_1,f_2,f_3,f_4$:
 
 \begin{equation}
-f(I,\vv{x}) = [f_1(I,\vv{x}),f_2(I,\vv{x}),f_3(I,\vv{x}),f_4(I,\vv{x})]; \qquad f_1,f_2,f_3,f_4 \in [0,1]
+\begin{split}
+\mathscr{P} &= (\mathscr{X}) \longrightarrow \text{max}[f_1(T_y),f_2(I_R,T_R),f_3(I_G,T_G),f_4(I_B,T_B)]; \\
+            & \qquad f_1,f_2,f_3,f_4 \in [0,1]
+\end{split}
 \end{equation}
 
-
 \end{exampleblock}
+
+donde
+
+\begin{itemize}
+        \item $I$ es la imagen a la que se aplica el proceso de Mejora del Contraste, y $T$\label{symbol:imejorada} es una de las imágenes resultantes del proceso,
+\end{itemize}
+
+% \begin{equation}
+% SSIM(I,T) = \frac{(2\mu_{I_x} \mu_{T_y}+E_1)(2\sigma_{I_xT_y}+E_2)}{(\mu^2_{I_x}+\mu^2_{T_y}+E_1)(\sigma^2_{I_x} + \sigma^2_{T_y}+E_2)} \qquad SSIM \in [0,1]
+% \end{equation}
+
+\end{frame}
+
+\begin{frame}
+\frametitle{Formulación del Problema Planteado} 
+% \framesubtitle{And also some blocks.} 
+% \begin{exampleblock}{\textit{Formulación del Problema Planteado}}
+
+\begin{equation}
+\begin{split}
+\mathscr{P} &= (\mathscr{X}) \longrightarrow \text{max}[f_1(T_y),f_2(I_R,T_R),f_3(I_G,T_G),f_4(I_B,T_B)]; \\
+            & \qquad f_1,f_2,f_3,f_4 \in [0,1]
+\end{split}
+\end{equation}
+
+% \end{exampleblock}
+
+donde
+
+\begin{itemize}
+	\item $T_y$ es el mapa de intensidades mejoradas, al aplicar $\vv{x}$ a $I_y$; ésto es: $T_y=CLAHE(\vv{x},I_y\label{symbol:ioriginaly})$. $T_y$ e $I_y$ son los canales $Y$ de la representación $YCbCr$  de las imágenes $I$ y $T$, respectivamente,
+	\item $f_1(T_y)\label{symbol:imejoraday}=\frac{\mathscr{H}(T_y)}{\text{log}_2L}$ es la Entropía Normalizada del mapa de intensidades mejoradas $T_y$
+	\item $f_2(I_R\label{symbol:ioriginalr},T_R\label{symbol:imejoradar})=SSIM(I_R,T_R)$ es la medición del $SSIM$ entre $I_R$ y $T_R$. $I_R$ y $T_R$ son los canales $R$ de las representaciones $RGB$ de $I$ y $T$, respectivamente,
+	% \item $f_2(I_G\label{symbol:ioriginalg},T_G\label{symbol:imejoradag})=SSIM(I_G,T_G)$ es la medición del $SSIM$ entre $I_G$ y $T_G$. $I_G$ y $T_G$ son los canales $G$ de las representaciones $RGB$ de $I$ y $T$, respectivamente,
+	% \item $f_2(I_B\label{symbol:ioriginalb},T_B\label{symbol:imejoradab})=SSIM(I_B,T_B)$ es la medición del $SSIM$ entre $I_B$ y $T_B$. $I_B$ y $T_B$ son los canales $G$ de las representaciones $RGB$ de $I$ y $T$, respectivamente,
+\end{itemize}
+
+% Acotados por:
+
+% %Bounded to:
+
+% \begin{itemize}
+% 	\item $\mathscr{R}_x \in [2,...,M]$ dentro de $\mathbb{N}$,
+% 	\item $\mathscr{R}_y \in [2,...,N]$ dentro de $\mathbb{N}$,
+% 	\item $\mathscr{C} \in (0,...,1]$ dentro $\mathbb{R}$.
+% \end{itemize}
+
+% \begin{equation}
+% SSIM(I,T) = \frac{(2\mu_{I_x} \mu_{T_y}+E_1)(2\sigma_{I_xT_y}+E_2)}{(\mu^2_{I_x}+\mu^2_{T_y}+E_1)(\sigma^2_{I_x} + \sigma^2_{T_y}+E_2)} \qquad SSIM \in [0,1]
+% \end{equation}
+
+\end{frame}
+
+\begin{frame}
+\frametitle{Formulación del Problema Planteado} 
+% \framesubtitle{And also some blocks.} 
+% \begin{exampleblock}{\textit{Formulación del Problema Planteado}}
+
+\begin{equation}
+\begin{split}
+\mathscr{P} &= (\mathscr{X}) \longrightarrow \text{max}[f_1(T_y),f_2(I_R,T_R),f_3(I_G,T_G),f_4(I_B,T_B)]; \\
+            & \qquad f_1,f_2,f_3,f_4 \in [0,1]
+\end{split}
+\end{equation}
+
+% \end{exampleblock}
+
+donde
+
+\begin{itemize}
+	\item $f_2(I_G\label{symbol:ioriginalg},T_G\label{symbol:imejoradag})=SSIM(I_G,T_G)$ es la medición del $SSIM$ entre $I_G$ y $T_G$. $I_G$ y $T_G$ son los canales $G$ de las representaciones $RGB$ de $I$ y $T$, respectivamente,
+	\item $f_2(I_B\label{symbol:ioriginalb},T_B\label{symbol:imejoradab})=SSIM(I_B,T_B)$ es la medición del $SSIM$ entre $I_B$ y $T_B$. $I_B$ y $T_B$ son los canales $G$ de las representaciones $RGB$ de $I$ y $T$, respectivamente,
+\end{itemize}
+
+%Bounded to:
+
+\begin{itemize}
+	\item $\mathscr{R}_x \in [2,...,M]$ dentro de $\mathbb{N}$,
+	\item $\mathscr{R}_y \in [2,...,N]$ dentro de $\mathbb{N}$,
+	\item $\mathscr{C} \in (0,...,1]$ dentro $\mathbb{R}$.
+\end{itemize}
 
 % \begin{equation}
 % SSIM(I,T) = \frac{(2\mu_{I_x} \mu_{T_y}+E_1)(2\sigma_{I_xT_y}+E_2)}{(\mu^2_{I_x}+\mu^2_{T_y}+E_1)(\sigma^2_{I_x} + \sigma^2_{T_y}+E_2)} \qquad SSIM \in [0,1]
@@ -719,10 +804,52 @@ f(I,\vv{x}) = [f_1(I,\vv{x}),f_2(I,\vv{x}),f_3(I,\vv{x}),f_4(I,\vv{x})]; \qquad 
 % \framesubtitle{And also some blocks.} 
 \begin{exampleblock}{\textit{Diagrama esquemático de CMOPSO - CLAHE}}
 
-\centering
-\tcbox{\adjincludegraphics[width=0.75\linewidth,valign=t]{graphics/ccis2016.png}}
-
 \end{exampleblock}
+
+\begin{figure}[H]
+\centering
+\begin{tikzpicture}[scale=0.3, transform shape]
+
+%textos
+
+%\node[draw,align=center] at (3,4) {\textbf{MANY-PSO-CLAHE}};
+                                   
+\node[draw,align=center,minimum width=200pt] (manypsoclahe) {\LARGE \textbf{CLAHE}};
+
+\node[draw,align=center,below= 75pt of manypsoclahe] (evaluationfunctions) {\Large \textbf{Funciones de Evaluación}\\ $\mathscr{H}(T_y)$ \qquad \Large $SSIM_R(I,T)$ \qquad $SSIM_G(I,T)$ \qquad $SSIM_B(I,T)$};
+                                   
+\node[draw,align=center,below= 75pt of evaluationfunctions] (paretoset) {\Large Conjunto Pareto $\mathscr{X}$ (parámetros del algoritmo de Mejora del Contraste)};
+
+\node[draw,align=center,left= 250pt of manypsoclahe] (inputimage) {\Large Imagen de \\ \Large Entrada $I$};
+
+\node[draw,align=center,right= 250pt of manypsoclahe] (outputimage) {\Large Imagen de \\ \Large Salida $T$};
+
+% \node[draw,circle,minimum size=1cm,inner sep=0pt,above left= 65pt and -40pt of manypsoclahe] (partic1) {\small $\mathscr{R}_x,\mathscr{R}_Y,\mathscr{C}$};
+
+\node[draw,circle,minimum size=1cm,inner sep=0pt,above = 65pt of manypsoclahe] (partic2) {\Large $\vv{x_i}=\{\mathscr{R}_x,\mathscr{R}_Y,\mathscr{C}\}$};
+
+% \node[draw,circle,minimum size=1cm,inner sep=0pt,above right= 65pt and -40pt of manypsoclahe] (partic3) {\small $\mathscr{R}_x,\mathscr{R}_Y,\mathscr{C}$};
+
+\node[align=center,left= 75pt of manypsoclahe] (ycrcb) {\Large $YC_bC_r$};
+
+\node[align=center,right= 75pt of manypsoclahe] (rgb) {\Large $RGB$};
+
+\draw[->,draw=black,line width=1pt]
+  % (partic1) edge (manypsoclahe) 
+  (partic2) edge (manypsoclahe)
+  % (partic3) edge (manypsoclahe)
+  (inputimage) edge (ycrcb)
+  (ycrcb) edge (manypsoclahe)
+  (manypsoclahe) edge (rgb)
+  (rgb) edge (outputimage)
+  (outputimage) edge (evaluationfunctions)
+  (inputimage) edge (evaluationfunctions)
+  (evaluationfunctions) edge (paretoset);
+
+\end{tikzpicture}
+\caption{Proceso de evaluación de una solución potencial, para una iteración $t$ de la implementación.}
+\label{fig:interaccioncmopsoclahe}
+\end{figure}
 
 \end{frame}
 
@@ -813,14 +940,14 @@ $r_2$ $min$ & 0.0 & $r_2$ $max$ & 1.0 \\
 \centering
 \begin{subfigure}[t]{0.45\textwidth}
 \includegraphics[width=\textwidth]{graphics/calhouse_0230.jpg}
-\caption{Imagen Original. $\mathscr{H_Y}=0.207231$, $SSIM_R=1$, $SSIM_G=1$, $SSIM_B=1$}
+\caption{Imagen Original. $\mathscr{H_Y}=7,792769$, $SSIM_R=1$, $SSIM_G=1$, $SSIM_B=1$}
 \label{fig:casa1original}
 \end{subfigure}
     ~ %add desired spacing between images, e. g. ~, \quad, \qquad, \hfill etc. 
       %(or a blank line to force the subfigure onto a new line)
       \begin{subfigure}[t]{0.45\textwidth}
       \includegraphics[width=\textwidth]{graphics/calhouse_0230_20-25165283474-10.jpg}
-      \caption{Imagen Contrastada utilizando $CMOPSO-CLAHE$. $\mathscr{H_Y}=0.611275$, $SSIM_R=0.00897331$, $SSIM_G=0.00823064$, $SSIM_B=0.00851013$}
+      \caption{Imagen Contrastada utilizando $CMOPSO-CLAHE$. $\mathscr{H_Y}=7,388725$, $SSIM_R=0,99102669$, $SSIM_G=0,99176936$, $SSIM_B=0,99148987$}
       \label{fig:casa1enhanced1}
       \end{subfigure} \\
     % ~ %add desired spacing between images, e. g. ~, \quad, \qquad, \hfill etc. 
@@ -864,12 +991,12 @@ $r_2$ $min$ & 0.0 & $r_2$ $max$ & 1.0 \\
     %(or a blank line to force the subfigure onto a new line)
     \begin{subfigure}[t]{0.45\textwidth}
     \includegraphics[width=\textwidth]{graphics/calhouse_0230_20-62968204656-00.jpg}
-    \caption{Imagen contrastada utilizando $CMOPSO-CLAHE$.  $\mathscr{H_Y}=0.0350595$, $SSIM_R=0.416776$, $SSIM_G=0.403636$, $SSIM_B=0.417654$}
+    \caption{Imagen contrastada utilizando $CMOPSO-CLAHE$.  $\mathscr{H_Y}=7,9649405$, $SSIM_R=0,583224$, $SSIM_G=0,596364$, $SSIM_B=0,582346$}
     \label{fig:casa1enhanced2}
     \end{subfigure} 
     \begin{subfigure}[t]{0.45\textwidth}
     \includegraphics[width=\textwidth]{graphics/calhouse_0230_20-20-0020072469292179818.jpg}
-    \caption{Imagen mejorada. $\mathscr{H_Y}=0.788927$, $SSIM_R=0.000204143$, $SSIM_G=0.0000526475$, $SSIM_B=0.0000518143$}
+    \caption{Imagen mejorada. $\mathscr{H_Y}=7,211073$, $SSIM_R=0,999795857$, $SSIM_G=0,9999473525$, $SSIM_B=0,99994818587$}
     \label{fig:casa1enhanced3}
     \end{subfigure}
 
@@ -877,6 +1004,22 @@ $r_2$ $min$ & 0.0 & $r_2$ $max$ & 1.0 \\
     \end{figure}
 
     \end{frame}
+
+
+\begin{frame}
+\frametitle{Resultados y discusión} 
+% \framesubtitle{And also some blocks.} 
+
+\begin{figure}[H]
+\centering
+    \includegraphics[width=0.75\textwidth]{graphics/calhouse_230_2.jpg}
+    \caption{Gráfica de Frente Pareto para las variables de decisión obtenidas para la imagen \texttt{calhouse\_230.jpg}}
+    \label{fig:casa1enhancedfp}
+\end{figure}
+
+\end{frame}
+
+
 
     \begin{frame}
     \frametitle{Resultados y discusión} 
@@ -887,7 +1030,6 @@ $r_2$ $min$ & 0.0 & $r_2$ $max$ & 1.0 \\
 	\item Se encontraron parámetros solución con la mejor relación contraste/distorsión
 	\item En promedio se encontraron 100 soluciones no dominadas por imagen.
 	\item La propuesta supera satisfactoriamente la etapa de prueba de concepto.
-	\item La propuesta muestra que los enfoques monoobjetivo son insuficientes para obtener todo el espectro de parámetros que proveen la mejor relación inversa contraste/distorsión.
 	\item La tabla de correlación de métricas sugiere que es posible realizar una implementación de mejora del contraste biobjetivo utilizando el canal de luminancia $Y$ de $YCbCr$
 \end{itemize}
 
@@ -961,6 +1103,28 @@ $SSIM_B$ & -0.9826 & 0.9999   & 0.9999   & 1 \\
 	\item Buscar mejoras en la eficiencia de la implementación de La Mejora del Contraste basada en metaheurísticas, de manera a poder entrenar con imágenes de mayor tamaño.
 \end{itemize}
 \end{exampleblock}
+\end{frame}
+
+\begin{frame}
+\frametitle{Congresos}  
+\begin{exampleblock}{}
+ Los resultados del trabajo se presentaron en los siguientes congresos:
+\end{exampleblock}
+\begin{columns}[onlytextwidth]
+\begin{column}{.45\textwidth}
+\begin{figure}
+  \includegraphics[width=\textwidth]{graphics/Flyer-CCIS-2016v6.png}
+  \caption{4th Conference of Computational Interdisciplinary Sciences - São José Dos Campos - Brasil - 2016}
+\end{figure}
+\end{column}
+\hfill
+\begin{column}{.45\textwidth}
+		\begin{figure}
+		  \includegraphics[width=\textwidth]{graphics/LOGO-MICAI-2015-OK.jpg}
+		  \caption{Mexican Internactional Conference of Artificial Intelligence - Ensenada, Baja California - México - 2017}
+		\end{figure}
+\end{column}
+\end{columns}
 \end{frame}
 
 % \begin{frame}{Other blocks}

@@ -1,17 +1,9 @@
 [0] Config.pm:354> INFO - This is Biber 2.7 (beta)
-[1] Config.pm:357> INFO - Logfile is 'main.blg'
-[49] biber:303> INFO - === vie dic 15, 2017, 11:39:06
-[67] Biber.pm:360> INFO - Reading 'main.bcf'
-[169] Biber.pm:836> INFO - Found 1 citekeys in bib section 0
-[190] Biber.pm:3671> INFO - Processing section 0
-[212] Biber.pm:3841> INFO - Looking for bibtex format file 'bibliography.bib' for section 0
-[2702] bibtex.pm:1424> INFO - Decoding LaTeX character macros into UTF-8
-[2716] bibtex.pm:1281> INFO - Found BibTeX data source 'bibliography.bib'
-[2718] Utils.pm:164> WARN - I didn't find a database entry for 'morepso' (section 0)
-[2731] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[2732] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[2732] Biber.pm:3500> INFO - Sorting list 'nyt/global/' of type 'entry' with scheme 'nyt' and locale 'en-US'
-[2732] Biber.pm:3506> INFO - No sort tailoring available for locale 'en-US'
-[2733] bbl.pm:608> INFO - Writing 'main.bbl' with encoding 'UTF-8'
-[2733] bbl.pm:712> INFO - Output to main.bbl
-[2733] Biber.pm:110> INFO - WARNINGS: 1
+[0] Config.pm:357> INFO - Logfile is 'main.blg'
+[51] biber:303> INFO - === sáb dic 16, 2017, 10:52:46
+[75] Biber.pm:360> INFO - Reading 'main.bcf'
+[204] Biber.pm:836> INFO - Found 0 citekeys in bib section 0
+[219] Utils.pm:164> WARN - The file 'main.bcf' does not contain any citations!
+[228] bbl.pm:608> INFO - Writing 'main.bbl' with encoding 'UTF-8'
+[228] bbl.pm:712> INFO - Output to main.bbl
+[229] Biber.pm:110> INFO - WARNINGS: 1
