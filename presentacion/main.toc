@@ -2,14 +2,14 @@
 \defcounter {refsection}{0}\relax 
 \beamer@sectionintoc {1}{Introducci\IeC {\'o}n}{3}{0}{1}
 \defcounter {refsection}{0}\relax 
-\beamer@sectionintoc {2}{Marco Te\IeC {\'o}rico}{7}{0}{2}
+\beamer@sectionintoc {2}{Marco Te\IeC {\'o}rico}{8}{0}{2}
 \defcounter {refsection}{0}\relax 
-\beamer@sectionintoc {3}{Formulaci\IeC {\'o}n del Problema Planteado}{22}{0}{3}
+\beamer@sectionintoc {3}{Formulaci\IeC {\'o}n del Problema Planteado}{26}{0}{3}
 \defcounter {refsection}{0}\relax 
-\beamer@sectionintoc {4}{Propuesta}{25}{0}{4}
+\beamer@sectionintoc {4}{Propuesta}{30}{0}{4}
 \defcounter {refsection}{0}\relax 
-\beamer@sectionintoc {5}{Resultados y discusi\IeC {\'o}n}{26}{0}{5}
+\beamer@sectionintoc {5}{Resultados y discusi\IeC {\'o}n}{32}{0}{5}
 \defcounter {refsection}{0}\relax 
-\beamer@sectionintoc {6}{Conclusiones}{32}{0}{6}
+\beamer@sectionintoc {6}{Conclusiones}{39}{0}{6}
 \defcounter {refsection}{0}\relax 
-\beamer@sectionintoc {7}{Trabajos Futuros}{33}{0}{7}
+\beamer@sectionintoc {7}{Trabajos Futuros}{41}{0}{7}

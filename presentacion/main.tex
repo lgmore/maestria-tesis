@@ -27,7 +27,7 @@
 \usepackage{subcaption}
 % \usepackage[dvips]{graphicx}
 \usetheme{uniud}
-
+%\usepackage{subfigure}
 %%% Bibliography
 \usepackage[style=authoryear,backend=biber]{biblatex}
 \addbibresource{bibliography.bib}
@@ -45,6 +45,14 @@
 \usetikzlibrary{spy}
 \usetikzlibrary{arrows,shapes,positioning}
 \usetikzlibrary{calc,decorations.markings}
+
+\AtBeginSection[]
+{
+  \begin{frame}<beamer>
+    \frametitle{Outline}
+    \tableofcontents[currentsection]
+  \end{frame}
+}
 
 \title[Facultad Politécnica - UNA]{Mejora de Contraste de Imágenes a Color Usando un Framework de Optimización Multi-Objetivo}
 \date[Dic 19, 2017]{Dic 15, 2017}
@@ -81,7 +89,7 @@ Luis G. Moré
              	
              		\begin{itemize}
              		\item La mejora del contraste es un proceso de transformación de la imagen, con el objetivo de obtener una nueva imagen con un contraste más definido.
-					\item Se busca obtener imágenes más aptas para algún proceso posterior.
+					\item Se busca obtener imágenes más aptas para algún proceso posterior o toma de decisiones.
 					\item La mejora del contraste es un área de investigación atractiva en el procesamiento de imágenes.
 				    \end{itemize}
 
@@ -110,7 +118,7 @@ Luis G. Moré
 % \end{frame}
 \begin{frame}{Introducción}
 \begin{alertblock}{Problemática}
-Mejora del Contraste de imágenes a color.
+Mejora del Contraste automática de imágenes a color.
 \end{alertblock}
 
 \begin{columns}[t]
@@ -164,7 +172,7 @@ Desarrollar un algoritmo para obtención de parámetros adecuados de Mejora del 
 \begin{column}{.7\textwidth}
 \begin{itemize}
 	\item En éste trabajo se busca atacar el problema de la Mejora del Contraste de imágenes digitales a color con un enfoque de Optimización Multi-Objetivo aplicado sobre un algoritmo de Ecualización del Histograma bien conocido.
-	\item Se busca obtener un balance entre el realce de detalles de la imagen digital y el mantenimiento de la información de brillo y de color.
+	\item Se busca lograr un balance entre el realce de detalles de la imagen digital y el mantenimiento de la información de brillo y de color.
 \end{itemize}
 % \hfill-- Carl Friedrich Gauss
 \end{column}
@@ -225,6 +233,7 @@ Desarrollar un algoritmo para obtención de parámetros adecuados de Mejora del 
 \begin{alertblock}{Primeros pasos}
 Separación de información de intensidad - Selección de espacios de color
 \end{alertblock}
+\vspace{-0.5cm}
 \begin{columns}[t]
 \begin{column}{.3\textwidth}
 \tcbox{\adjincludegraphics[width=0.85\linewidth,valign=t]{graphics/lena}}
@@ -467,10 +476,13 @@ donde
 \frametitle{Marco Teórico} 
 % \framesubtitle{And also some blocks.} 
 \begin{exampleblock}{\textit{Entropía de la Imagen}}
+\begin{itemize}
 
-La Entropía de la imagen es una métrica que muestra la cantidad de información representada en la imagen digital.
+\item La Entropía de la imagen es una métrica que muestra la cantidad de información representada en la imagen digital.
 
-La entropía de la imagen y su contraste están relacionados a la distribución de intensidad de las imágenes digitales, por lo que esta métrica es apta para medir variaciones del constraste como consecuencia de transformaciones aplicadas a la misma.
+\item La entropía de la imagen y su contraste están relacionados a la distribución de intensidad de las imágenes digitales, por lo que esta métrica es apta para medir variaciones del constraste como consecuencia de transformaciones aplicadas a la misma.
+
+\end{itemize}
 
 \end{exampleblock}
 % \centering
@@ -698,6 +710,206 @@ Donde:
 
 
 \end{exampleblock}
+%         \label{fig:calhouse233orig}
+%         \end{subfigure}
+% \begin{subfigure}[]{
+% \includegraphics[width=0.45\textwidth]{./graphics/ejemplopso/capas-95.png}
+% }
+%     % \begin{subfigure}[t]{0.45\textwidth}
+%         %\caption{Enhanced Image using \cite{morepso}. $\mathscr{H_Y}=0.788927$. $SSIM_R=0.000204143$. $SSIM_G=0.0000526475$. $SSIM_B=0.0000518143$}
+%         \label{fig:calhouse23129}
+%         \end{subfigure}
+%     ~ %add desired spacing between images. e. g. ~. \quad. \qquad. \hfill etc. 
+%     %(or a blank line to force the subfigure onto a new line)
+%     \begin{subfigure}[]{
+%     \includegraphics[width=0.45\textwidth]{./graphics/ejemplopso/capas-99.png}
+%     }
+%     % \begin{subfigure}[t]{0.45\textwidth}
+% %        \caption{Enhanced Image.  $\mathscr{H_Y}=0.0350595$. $SSIM_R=0.416776$. $SSIM_G=0.403636$. $SSIM_B=0.417654$}
+% \label{fig:calhouse231102}
+% \end{subfigure}
+%         \caption{Comportamiento de partículas en $PSO$ Monobjetivo a través de la serie de iteraciones. Nótese que las equis (x) indican un punto o solución potencial que se mueve sobre la superficie donde los colores más fríos son mejores soluciones.}
+%         \label{fig:comportamientopso}
+% \end{figure}
+
+% \begin{equation}
+% SSIM(I,T) = \frac{(2\mu_{I_x} \mu_{T_y}+E_1)(2\sigma_{I_xT_y}+E_2)}{(\mu^2_{I_x}+\mu^2_{T_y}+E_1)(\sigma^2_{I_x} + \sigma^2_{T_y}+E_2)} \qquad SSIM \in [0,1]
+% \end{equation}
+
+\end{frame}
+
+
+\begin{frame}
+\frametitle{Marco Teórico} 
+% \framesubtitle{And also some blocks.} 
+\begin{exampleblock}{\textit{Multi-Objective Particle Swarm Optimization (MOPSO)}}
+
+\end{exampleblock}
+\vspace{-0.5cm}
+\begin{columns}[t]
+\begin{column}{.45\textwidth}
+\begin{figure}[H]
+\centering
+    %\begin{subfigure}[t]{0.45\textwidth}
+    
+    \includegraphics[width=\textwidth]{./graphics/ejemplopso/capas-0.png}
+    
+%        \caption{Imagen Original. $\mathscr{H_Y}=0.207231$. $SSIM_R=1$. $SSIM_G=1$. $SSIM_B=1$}
+\end{figure}
+\end{column}
+\begin{column}{.45\textwidth}
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=\textwidth]{./graphics/ejemplopso/capas-8.png}   
+    \end{figure}
+\end{column}
+\end{columns}
+Comportamiento de partículas en $PSO$ Monobjetivo a través de la serie de iteraciones.
+% \begin{figure}[H]
+% \centering
+%     %\begin{subfigure}[t]{0.45\textwidth}
+% %     \begin{subfigure}[]{
+% %     \includegraphics[width=0.45\textwidth]{./graphics/ejemplopso/capas-0.png}
+% %     }
+% % %        \caption{Imagen Original. $\mathscr{H_Y}=0.207231$. $SSIM_R=1$. $SSIM_G=1$. $SSIM_B=1$}
+% % \end{subfigure}
+%     % ~ %add desired spacing between images. e. g. ~. \quad. \qquad. \hfill etc. 
+%       %(or a blank line to force the subfigure onto a new line)
+% %       \begin{subfigure}[]{
+% %       \includegraphics[width=0.45\textwidth]{./graphics/ejemplopso/capas-8.png}   
+% %       }
+% %     %\begin{subfigure}[t]{0.45\textwidth}
+% % %        \caption{Enhanced Image. $\mathscr{H_Y}=0.611275$. $SSIM_R=0.00897331$. $SSIM_G=0.00823064$. $SSIM_B=0.00851013$}
+% % \end{subfigure}
+% %     ~ %add desired spacing between images. e. g. ~. \quad. \qquad. \hfill etc. 
+%     %(or a blank line to force the subfigure onto a new line)
+%     \begin{subfigure}[]{
+%     \includegraphics[width=0.45\textwidth]{./graphics/ejemplopso/capas-21.png}
+%     }
+%     % \begin{subfigure}[t]{0.45\textwidth}
+% %        \caption{Enhanced Image.  $\mathscr{H_Y}=0.0350595$. $SSIM_R=0.416776$. $SSIM_G=0.403636$. $SSIM_B=0.417654$}
+% \end{subfigure} 
+% \begin{subfigure}[]{
+% \includegraphics[width=0.45\textwidth]{./graphics/ejemplopso/capas-42.png}
+% }
+%     % \begin{subfigure}[t]{0.45\textwidth}
+%         %\caption{Enhanced Image using \cite{morepso}. $\mathscr{H_Y}=0.788927$. $SSIM_R=0.000204143$. $SSIM_G=0.0000526475$. $SSIM_B=0.0000518143$}
+%         \label{fig:calhouse23129}
+%         \end{subfigure}
+%     ~ %add desired spacing between images. e. g. ~. \quad. \qquad. \hfill etc. 
+%     %(or a blank line to force the subfigure onto a new line)
+%     \begin{subfigure}[]{
+%     \includegraphics[width=0.45\textwidth]{./graphics/ejemplopso/capas-75.png}
+%     }
+%     % \begin{subfigure}[t]{0.45\textwidth}
+% %        \caption{Enhanced Image.  $\mathscr{H_Y}=0.0350595$. $SSIM_R=0.416776$. $SSIM_G=0.403636$. $SSIM_B=0.417654$}
+% \label{fig:calhouse231102}
+% \end{subfigure} 
+% \begin{subfigure}[]{
+% \includegraphics[width=0.45\textwidth]{./graphics/ejemplopso/capas-79.png}
+% }
+%     % \begin{subfigure}[t]{0.45\textwidth}
+%         %\caption{Enhanced Image using \cite{morepso}. $\mathscr{H_Y}=0.788927$. $SSIM_R=0.000204143$. $SSIM_G=0.0000526475$. $SSIM_B=0.0000518143$}
+%         \label{fig:calhouse233orig}
+%         \end{subfigure}
+% \begin{subfigure}[]{
+% \includegraphics[width=0.45\textwidth]{./graphics/ejemplopso/capas-95.png}
+% }
+%     % \begin{subfigure}[t]{0.45\textwidth}
+%         %\caption{Enhanced Image using \cite{morepso}. $\mathscr{H_Y}=0.788927$. $SSIM_R=0.000204143$. $SSIM_G=0.0000526475$. $SSIM_B=0.0000518143$}
+%         \label{fig:calhouse23129}
+%         \end{subfigure}
+%     ~ %add desired spacing between images. e. g. ~. \quad. \qquad. \hfill etc. 
+%     %(or a blank line to force the subfigure onto a new line)
+%     \begin{subfigure}[]{
+%     \includegraphics[width=0.45\textwidth]{./graphics/ejemplopso/capas-99.png}
+%     }
+%     % \begin{subfigure}[t]{0.45\textwidth}
+% %        \caption{Enhanced Image.  $\mathscr{H_Y}=0.0350595$. $SSIM_R=0.416776$. $SSIM_G=0.403636$. $SSIM_B=0.417654$}
+% \label{fig:calhouse231102}
+% \end{subfigure}
+%         \caption{Comportamiento de partículas en $PSO$ Monobjetivo a través de la serie de iteraciones. Nótese que las equis (x) indican un punto o solución potencial que se mueve sobre la superficie donde los colores más fríos son mejores soluciones.}
+%         \label{fig:comportamientopso}
+% \end{figure}
+
+% \begin{equation}
+% SSIM(I,T) = \frac{(2\mu_{I_x} \mu_{T_y}+E_1)(2\sigma_{I_xT_y}+E_2)}{(\mu^2_{I_x}+\mu^2_{T_y}+E_1)(\sigma^2_{I_x} + \sigma^2_{T_y}+E_2)} \qquad SSIM \in [0,1]
+% \end{equation}
+
+\end{frame}
+
+\begin{frame}
+\frametitle{Marco Teórico} 
+% \framesubtitle{And also some blocks.} 
+\begin{exampleblock}{\textit{Multi-Objective Particle Swarm Optimization (MOPSO)}}
+
+\end{exampleblock}
+\vspace{-0.5cm}
+\begin{columns}[t]
+\begin{column}{.45\textwidth}
+\begin{figure}[H]
+\centering
+    %\begin{subfigure}[t]{0.45\textwidth}
+    
+    \includegraphics[width=\textwidth]{./graphics/ejemplopso/capas-95.png}
+    
+%        \caption{Imagen Original. $\mathscr{H_Y}=0.207231$. $SSIM_R=1$. $SSIM_G=1$. $SSIM_B=1$}
+\end{figure}
+\end{column}
+\begin{column}{.45\textwidth}
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=\textwidth]{./graphics/ejemplopso/capas-99.png}   
+    \end{figure}
+\end{column}
+\end{columns}
+Comportamiento de partículas en $PSO$ Monobjetivo a través de la serie de iteraciones.
+% \begin{figure}[H]
+% \centering
+%     %\begin{subfigure}[t]{0.45\textwidth}
+% %     \begin{subfigure}[]{
+% %     \includegraphics[width=0.45\textwidth]{./graphics/ejemplopso/capas-0.png}
+% %     }
+% % %        \caption{Imagen Original. $\mathscr{H_Y}=0.207231$. $SSIM_R=1$. $SSIM_G=1$. $SSIM_B=1$}
+% % \end{subfigure}
+%     % ~ %add desired spacing between images. e. g. ~. \quad. \qquad. \hfill etc. 
+%       %(or a blank line to force the subfigure onto a new line)
+% %       \begin{subfigure}[]{
+% %       \includegraphics[width=0.45\textwidth]{./graphics/ejemplopso/capas-8.png}   
+% %       }
+% %     %\begin{subfigure}[t]{0.45\textwidth}
+% % %        \caption{Enhanced Image. $\mathscr{H_Y}=0.611275$. $SSIM_R=0.00897331$. $SSIM_G=0.00823064$. $SSIM_B=0.00851013$}
+% % \end{subfigure}
+% %     ~ %add desired spacing between images. e. g. ~. \quad. \qquad. \hfill etc. 
+%     %(or a blank line to force the subfigure onto a new line)
+%     \begin{subfigure}[]{
+%     \includegraphics[width=0.45\textwidth]{./graphics/ejemplopso/capas-21.png}
+%     }
+%     % \begin{subfigure}[t]{0.45\textwidth}
+% %        \caption{Enhanced Image.  $\mathscr{H_Y}=0.0350595$. $SSIM_R=0.416776$. $SSIM_G=0.403636$. $SSIM_B=0.417654$}
+% \end{subfigure} 
+% \begin{subfigure}[]{
+% \includegraphics[width=0.45\textwidth]{./graphics/ejemplopso/capas-42.png}
+% }
+%     % \begin{subfigure}[t]{0.45\textwidth}
+%         %\caption{Enhanced Image using \cite{morepso}. $\mathscr{H_Y}=0.788927$. $SSIM_R=0.000204143$. $SSIM_G=0.0000526475$. $SSIM_B=0.0000518143$}
+%         \label{fig:calhouse23129}
+%         \end{subfigure}
+%     ~ %add desired spacing between images. e. g. ~. \quad. \qquad. \hfill etc. 
+%     %(or a blank line to force the subfigure onto a new line)
+%     \begin{subfigure}[]{
+%     \includegraphics[width=0.45\textwidth]{./graphics/ejemplopso/capas-75.png}
+%     }
+%     % \begin{subfigure}[t]{0.45\textwidth}
+% %        \caption{Enhanced Image.  $\mathscr{H_Y}=0.0350595$. $SSIM_R=0.416776$. $SSIM_G=0.403636$. $SSIM_B=0.417654$}
+% \label{fig:calhouse231102}
+% \end{subfigure} 
+% \begin{subfigure}[]{
+% \includegraphics[width=0.45\textwidth]{./graphics/ejemplopso/capas-79.png}
+% }
+%     % \begin{subfigure}[t]{0.45\textwidth}
+%         %\caption{Enhanced Image using \cite{morepso}. $\mathscr{H_Y}=0.788927$. $SSIM_R=0.000204143$. $SSIM_G=0.0000526475$. $SSIM_B=0.0000518143$}
+
 
 % \begin{equation}
 % SSIM(I,T) = \frac{(2\mu_{I_x} \mu_{T_y}+E_1)(2\sigma_{I_xT_y}+E_2)}{(\mu^2_{I_x}+\mu^2_{T_y}+E_1)(\sigma^2_{I_x} + \sigma^2_{T_y}+E_2)} \qquad SSIM \in [0,1]
@@ -713,7 +925,7 @@ Donde:
 % \framesubtitle{And also some blocks.} 
 \begin{exampleblock}{\textit{Formulación del Problema Planteado}}
 
-Dada una imagen a color $I$, con $M \times N$ pixeles, y un vector $\vv{x}= (\mathscr{R}_x, \mathscr{R}_y, \mathscr{C})$, donde $\mathscr{R}_x$ y $\mathscr{R}_y$ son regiones contextuales y $\mathscr{C}$ es el \textit{Clip Limit}, se busca un conjunto de soluciones no dominadas $\mathscr{X}$, que maximiza simultáneamente las funciones objetivo $f_1,f_2,f_3,f_4$:
+Dada una imagen a color $I$, con $M \times N$ pixeles, se busca un conjunto de soluciones no dominadas $\mathscr{X}$, que maximiza simultáneamente las funciones objetivo $f_1,f_2,f_3,f_4$:
 
 \begin{equation}
 \begin{split}
@@ -1069,30 +1281,13 @@ $r_2$ $min$ & 0.0 & $r_2$ $max$ & 1.0 \\
 
 \begin{figure}[H]
 \centering
-    \includegraphics[width=0.75\textwidth]{graphics/calhouse_230_2.jpg}
+    \includegraphics[width=\textwidth]{graphics/calhouse_230_2.jpg}
     \caption{Gráfica de Frente Pareto para las variables de decisión obtenidas para la imagen \texttt{calhouse\_230.jpg}}
     \label{fig:casa1enhancedfp}
 \end{figure}
 
 \end{frame}
 
-
-
-    \begin{frame}
-    \frametitle{Resultados y discusión} 
-% \framesubtitle{And also some blocks.} 
-\begin{exampleblock}{}
-
-\begin{itemize}
-	\item Se encontraron parámetros solución con la mejor relación contraste/distorsión
-	\item En promedio se encontraron 100 soluciones no dominadas por imagen.
-	\item La propuesta supera satisfactoriamente la etapa de prueba de concepto.
-	\item La tabla de correlación de métricas sugiere que es posible realizar una implementación de mejora del contraste biobjetivo utilizando el canal de luminancia $Y$ de $YCbCr$
-\end{itemize}
-
-\end{exampleblock}
-
-\end{frame}
 
 \begin{frame}
 \frametitle{Resultados y discusión} 
@@ -1118,7 +1313,30 @@ $SSIM_B$ & -0.9826 & 0.9999   & 0.9999   & 1 \\
 \label{table:correlacion}
 \end{table}
 
+\begin{itemize}
+\item Se puede notar la correlación positiva fuerte entre métricas de similaridad,
+\item Además se evidencia una correlación negativa entre la métrica de entropía y las de similaridad,
+\item Ésto se reproduce en todas las imágenes de prueba.
+\end{itemize}
+
 \end{frame}
+
+\begin{frame}
+\frametitle{Resultados y discusión} 
+% \framesubtitle{And also some blocks.} 
+\begin{exampleblock}{}
+
+\begin{itemize}
+	\item Se encontraron parámetros solución con la mejor relación contraste/distorsión
+	\item Se encontraron entre 100 y 250 soluciones no dominadas por imagen.
+	\item La propuesta supera satisfactoriamente la etapa de prueba de concepto.
+	\item La tabla de correlación de métricas sugiere que es posible realizar una implementación de mejora del contraste biobjetivo utilizando el canal de luminancia $Y$ de $YCbCr$
+\end{itemize}
+
+\end{exampleblock}
+
+\end{frame}
+
 
 
 \section{Conclusiones}
