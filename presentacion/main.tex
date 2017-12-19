@@ -241,7 +241,6 @@ Separación de información de intensidad - Selección de espacios de color
 % \hfill-- Carl Friedrich Gauss
 \end{column}
 \end{columns}
-s ded
 \end{frame}
 
 
@@ -527,14 +526,14 @@ La entropía de la imagen y su contraste están relacionados a la distribución 
 \begin{columns}[onlytextwidth]
 \begin{column}{.45\textwidth}
 \begin{figure}
-  \includegraphics[width=\textwidth]{graphics/peppers_color_lc.jpg}
+  \includegraphics[width=\textwidth]{graphics/peppers_gray_lc.jpg}
   \caption{$\mathscr{H}=7,053228$}
 \end{figure}
 \end{column}
 \hfill
 \begin{column}{.45\textwidth}
 		\begin{figure}
-		  \includegraphics[width=\textwidth]{graphics/peppers_color_hc.jpg}
+		  \includegraphics[width=\textwidth]{graphics/peppers_gray_hc.jpg}
 		  \caption{$\mathscr{H}=7,953866$}
 		\end{figure}
 \end{column}
@@ -542,6 +541,36 @@ La entropía de la imagen y su contraste están relacionados a la distribución 
 
 % \tcbox{\adjincludegraphics[width=0.25\linewidth,valign=t]{graphics/lena}}
 % \adjincludegraphics[width=0.30\linewidth,valign=t]{graphics/RGB_Cube_Show_lowgamma_cutout_b}
+\end{frame}
+
+\begin{frame} 
+\frametitle{Marco Teórico} 
+% \framesubtitle{And also some blocks.} 
+\begin{exampleblock}{\textit{Efecto de la variación de Entropía de la Imagen}}
+
+\end{exampleblock}
+% \centering
+% \tcbox{\adjincludegraphics[width=0.55\linewidth,valign=t]{graphics/Clahe-redist.jpg}}
+
+\centering
+\begin{columns}[onlytextwidth]
+\begin{column}{.50\textwidth}
+\begin{figure}
+  \includegraphics[width=\textwidth]{graphics/peppers_gray_lc_hist.jpg}
+  \caption{$\mathscr{H}=7,053228$}
+\end{figure}
+\end{column}
+\hfill
+\begin{column}{.50\textwidth}
+		\begin{figure}
+		  \includegraphics[width=\textwidth]{graphics/peppers_gray_hc_hist.jpg}
+		  \caption{$\mathscr{H}=7,953866$}
+		\end{figure}
+\end{column}
+\end{columns}
+
+% \tcbox{\adjincludegraphics[width=0.25\linewidth,valign=t]{graphics/lena}}
+% \adjincludegraphics[width=0.30\linewidth,valign=t]{graphics/RGB_Cube_Show_lowgamma_cutout_b}   
 \end{frame}
 
 
@@ -605,14 +634,14 @@ SSIM(I,T) = \frac{(2\mu_{I_x} \mu_{T_y}+E_1)(2\sigma_{I_xT_y}+E_2)}{(\mu^2_{I_x}
 \begin{columns}[onlytextwidth]
 \begin{column}{.45\textwidth}
 \begin{figure}
-  \includegraphics[width=\textwidth]{graphics/peppers_color_lc.jpg}
+  \includegraphics[width=\textwidth]{graphics/peppers_gray_lc.jpg}
   \caption{$SSIM_R=1 ; SSIM_G=1 ; SSIM_B=1$}
 \end{figure}
 \end{column}
 \hfill
 \begin{column}{.45\textwidth}
 		\begin{figure}
-		  \includegraphics[width=\textwidth]{graphics/peppers_color_hc.jpg}
+		  \includegraphics[width=\textwidth]{graphics/peppers_gray_hc.jpg}
 		  \caption{$SSIM_R=0.484719; SSIM_G=0.525963; SSIM_B=0.533241$}
 		\end{figure}
 \end{column}
@@ -648,6 +677,34 @@ Donde $\vv{v}$ se conoce como el factor de velocidad, y está dado por:
 % \end{equation}
 
 \end{frame}
+
+\begin{frame}
+\frametitle{Marco Teórico} 
+% \framesubtitle{And also some blocks.} 
+\begin{exampleblock}{\textit{Multi-Objective Particle Swarm Optimization (MOPSO)}}
+
+\begin{equation}\label{eq:velocidad1}
+\vv{v}_i(t) = w \cdot (t-1) + C_1 \cdot r_1 \cdot (\vv{x}_{p_i} - \vv{x}_i) + C_2 \cdot r_2 \cdot (\vv{x}_{g_i} - \vv{x_i})
+\end{equation}
+
+
+Donde:
+
+\begin{itemize}
+\item $w$ es el peso de la inercia,
+\item $C_1,C_2$ son parámetros específicos que controlan el efecto de las partículas locales y globales,
+\item $r_1,r_2$ son variables aleatorias en el rango [0,1].
+\end{itemize}
+
+
+\end{exampleblock}
+
+% \begin{equation}
+% SSIM(I,T) = \frac{(2\mu_{I_x} \mu_{T_y}+E_1)(2\sigma_{I_xT_y}+E_2)}{(\mu^2_{I_x}+\mu^2_{T_y}+E_1)(\sigma^2_{I_x} + \sigma^2_{T_y}+E_2)} \qquad SSIM \in [0,1]
+% \end{equation}
+
+\end{frame}
+
 
 \section{Formulación del Problema Planteado}
 

@@ -49,19 +49,28 @@
 			}
 		},
 		{
-			"file": "/home/lg_more/github/maestria-tesis/presentacion/main.tex",
+			"file": "referencias.bib",
 			"settings":
 			{
-				"buffer_size": 36296,
+				"buffer_size": 13139,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "chap03.tex",
+			"file": "chap05.tex",
 			"settings":
 			{
-				"buffer_size": 32761,
+				"buffer_size": 14209,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "resumen.tex",
+			"settings":
+			{
+				"buffer_size": 4050,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -70,25 +79,7 @@
 			"file": "AnexoA.tex",
 			"settings":
 			{
-				"buffer_size": 221873,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "abreviaturas.tex",
-			"settings":
-			{
-				"buffer_size": 1219,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "symbols.tex",
-			"settings":
-			{
-				"buffer_size": 3366,
+				"buffer_size": 221923,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -97,16 +88,16 @@
 			"file": "chap04.tex",
 			"settings":
 			{
-				"buffer_size": 64887,
+				"buffer_size": 64993,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "/home/lg_more/github/pso-ce-color.git/calhouse_234/calhouse_234_2.csv",
+			"file": "/home/lg_more/github/maestria-tesis/presentacion/main.tex",
 			"settings":
 			{
-				"buffer_size": 1932018,
+				"buffer_size": 36342,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -421,6 +412,14 @@
 	],
 	"file_history":
 	[
+		"/home/lg_more/github/maestria-tesis/libro/chap02.tex",
+		"/home/lg_more/github/maestria-tesis/libro/chap04.tex",
+		"/home/lg_more/github/maestria-tesis/libro/chap03.tex",
+		"/home/lg_more/github/maestria-tesis/libro/chap01.tex",
+		"/home/lg_more/github/maestria-tesis/libro/symbols.tex",
+		"/home/lg_more/github/maestria-tesis/libro/abreviaturas.tex",
+		"/home/lg_more/github/pso-ce-color.git/calhouse_234/calhouse_234_2.csv",
+		"/home/lg_more/github/maestria-tesis/libro/AnexoA.tex",
 		"/home/lg_more/github/maestria-tesis/presentacion/main.tex",
 		"/home/lg_more/github/pso-ce-color.git/calhouse_237/salida.log",
 		"/home/lg_more/github/pso-ce-color.git/calhouse_236/calhouse_236_2.csv",
@@ -435,19 +434,13 @@
 		"/home/lg_more/github/pso-ce-color.git/calhouse_232/calhouse_232.csv",
 		"/home/lg_more/github/pso-ce-color.git/calhouse_230/calhouse_230.csv",
 		"/home/lg_more/github/pso-ce-color.git/calhouse_231/calhouse_231_2.csv",
-		"/home/lg_more/github/maestria-tesis/libro/chap02.tex",
-		"/home/lg_more/github/maestria-tesis/libro/chap03.tex",
 		"/home/lg_more/github/pso-ce-color.git/calhouse_230/calhouse_230_2.csv",
 		"/home/lg_more/github/maestria-tesis/libro/chap05.tex",
 		"/home/lg_more/github/maestria-tesis/libro/thesis.lof",
 		"/home/lg_more/drivePoli/maestria/tesis/poster micai/esquema.tex",
-		"/home/lg_more/github/maestria-tesis/libro/AnexoA.tex",
-		"/home/lg_more/github/maestria-tesis/libro/chap04.tex",
-		"/home/lg_more/github/maestria-tesis/libro/chap01.tex",
 		"/tmp/mozilla_lg_more0/10.1002%2Fcplx.21499.bib",
 		"/home/lg_more/MEGAsync/maestria/2do encuentro de investigadores/banner tesis/conference_poster_6.tex",
 		"/home/lg_more/github/maestria-tesis/libro/referencias.bib",
-		"/home/lg_more/github/maestria-tesis/libro/symbols.tex",
 		"/tmp/mozilla_lg_more0/0734189X89901667.bib",
 		"/tmp/mozilla_lg_more0/tandf_yims1929_199.bib",
 		"/tmp/mozilla_lg_more0/curriculum.docx",
@@ -469,7 +462,6 @@
 		"/home/lg_more/github/pso-ce-color.git/calhouse_230/calhouse_230/calhouse_230.csv",
 		"/home/lg_more/github/pso-ce-color.git/calhouse_231/calhouse_231/calhouse_231_2.csv",
 		"/home/lg_more/github/pso-ce-color.git/calhouse_231/calhouse_231/calhouse_231.csv",
-		"/home/lg_more/github/pso-ce-color.git/calhouse_234/calhouse_234_2.csv",
 		"/home/lg_more/github/pso-ce-color.git/calhouse_236/calhouse_236/calhouse_236_2.csv",
 		"/home/lg_more/github/pso-ce-color.git/calhouse_234/calhouse_234.csv",
 		"/home/lg_more/github/pso-ce-color.git/calhouse_236/calhouse_236/salida.txt",
@@ -494,7 +486,6 @@
 		"/tmp/calhouse_230/resultados.csv",
 		"/home/lg_more/github/maestria-tesis/libro/AnexoB.aux",
 		"/home/lg_more/MEGAsync/maestria/micai 2017/Lecture Notes in Computer Science (LNCS) - camera ready/paper_micai.tex",
-		"/home/lg_more/github/maestria-tesis/libro/abreviaturas.tex",
 		"/home/lg_more/drivePoli/maestria/tesis/libro/0B_uamuFbOYdWN0otSmptbTFoYkU_FILES/thesis.tex",
 		"/home/lg_more/drivePoli/maestria/tesis/libro/0B_uamuFbOYdWN0otSmptbTFoYkU_FILES/chap03.aux",
 		"/tmp/mozilla_lg_more0/final1-aled3-2017.tex",
@@ -567,6 +558,17 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"efecto de la variación",
+			"0.788927",
+			"nebro",
+			"ridges",
+			"Anexo",
+			"Comportamiento de part",
+			"brizuela",
+			"more",
+			"dr",
+			"bob",
+			"256",
 			"morepso",
 			"SSIM_R",
 			"7,053228",
@@ -683,18 +685,7 @@
 			"equation",
 			"es un algoritmo",
 			"cartesiano",
-			"es un espacio de color definido",
-			"luego de vuelta a RGB",
-			"vspace",
-			"es necesario revisar dos partes",
-			"en este trabajo",
-			"alert",
-			"block",
-			"color multi-objetivo",
-			"include",
-			"tikz",
-			"ssim",
-			"mopso"
+			"es un espacio de color definido"
 		],
 		"highlight": false,
 		"in_selection": false,
@@ -840,7 +831,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 6,
 			"sheets":
 			[
 				{
@@ -856,84 +847,8 @@
 						"selection":
 						[
 							[
-								2196,
-								2196
-							]
-						],
-						"settings":
-						{
-							"WordCount":
-							{
-								"changes": 0,
-								"count": 83,
-								"modified": false,
-								"selection": false,
-								"status": -1,
-								"syntax": "plain text"
-							},
-							"syntax": "Packages/LaTeXing/support/LaTeX.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 166.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "/home/lg_more/github/maestria-tesis/presentacion/main.tex",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 36296,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								28650,
-								28650
-							]
-						],
-						"settings":
-						{
-							"WordCount":
-							{
-								"changes": 45,
-								"count": 2487,
-								"modified": false,
-								"selection": false,
-								"status": -1,
-								"syntax": "plain text"
-							},
-							"syntax": "Packages/LaTeXing/support/LaTeX Beamer.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 17884.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "chap03.tex",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 32761,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								11885,
-								11885
+								1906,
+								1906
 							]
 						],
 						"settings":
@@ -943,85 +858,57 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 4275.0,
+						"translation.y": 1192.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 2,
 					"type": "text"
 				},
 				{
-					"buffer": 3,
-					"file": "AnexoA.tex",
+					"buffer": 1,
+					"file": "referencias.bib",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 221873,
+						"buffer_size": 13139,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								218396,
-								218396
+								6089,
+								6089
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/LaTeXing/support/LaTeX.tmLanguage",
+							"syntax": "Packages/LaTeX/Bibtex.sublime-syntax",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 65099.0,
+						"translation.y": 3346.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 4,
 					"type": "text"
 				},
 				{
-					"buffer": 4,
-					"file": "abreviaturas.tex",
+					"buffer": 2,
+					"file": "chap05.tex",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1219,
+						"buffer_size": 14209,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								305,
-								305
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/LaTeXing/support/LaTeX.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 171.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 7,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "symbols.tex",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 3366,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								3352,
-								3352
+								2031,
+								2031
 							]
 						],
 						"settings":
@@ -1030,27 +917,85 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 570.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 5,
 					"type": "text"
 				},
 				{
-					"buffer": 6,
-					"file": "chap04.tex",
+					"buffer": 3,
+					"file": "resumen.tex",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 64887,
+						"buffer_size": 4050,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2309,
-								2309
+								2597,
+								2597
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/LaTeXing/support/LaTeX.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 229.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "AnexoA.tex",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 221923,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								29077,
+								29077
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/LaTeXing/support/LaTeX.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 9099.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "chap04.tex",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 64993,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								6911,
+								6911
 							]
 						],
 						"settings":
@@ -1060,38 +1005,47 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 876.0,
+						"translation.y": 1427.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
-					"buffer": 7,
-					"file": "/home/lg_more/github/pso-ce-color.git/calhouse_234/calhouse_234_2.csv",
+					"buffer": 6,
+					"file": "/home/lg_more/github/maestria-tesis/presentacion/main.tex",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1932018,
+						"buffer_size": 36342,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								16246,
+								16246
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
+							"WordCount":
+							{
+								"changes": 0,
+								"count": 2487,
+								"modified": false,
+								"selection": false,
+								"status": -1,
+								"syntax": "plain text"
+							},
+							"syntax": "Packages/LaTeXing/support/LaTeX Beamer.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 10055.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 6,
+					"stack_index": 0,
 					"type": "text"
 				}
 			]
@@ -1198,7 +1152,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 284.0,
+	"side_bar_width": 212.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

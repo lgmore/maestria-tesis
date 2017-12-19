@@ -1,0 +1,24 @@
+\begin{thebibliography}{1}
+
+\bibitem{4938830}
+A.~Nebro, J.~Durillo, J.~Garcia-Nieto, C.~Coello~Coello, F.~Luna, and E.~Alba,
+  ``\uppercase{SMPSO}: A new pso-based metaheuristic for multi-objective
+  optimization,'' in {\em Computational intelligence in miulti-criteria
+  decision-making, 2009. mcdm '09. ieee symposium on}, pp.~66--73, March 2009.
+
+\bibitem{Zuiderveld:1994:CLA:180895.180940}
+K.~Zuiderveld, ``Graphics gems iv,'' ch.~Contrast Limited Adaptive Histogram
+  Equalization, pp.~474--485, San Diego, CA, USA: Academic Press Professional,
+  Inc., 1994.
+
+\bibitem{tsai2008information}
+D.-Y. Tsai, Y.~Lee, and E.~Matsuyama, ``Information entropy measure for
+  evaluation of image quality,'' {\em Journal of digital imaging}, vol.~21,
+  no.~3, pp.~338--347, 2008.
+
+\bibitem{wang2004image}
+Z.~Wang, A.~C. Bovik, H.~R. Sheikh, and E.~P. Simoncelli, ``Image quality
+  assessment: from error visibility to structural similarity,'' {\em Image
+  Processing, IEEE Transactions on}, vol.~13, no.~4, pp.~600--612, 2004.
+
+\end{thebibliography}
