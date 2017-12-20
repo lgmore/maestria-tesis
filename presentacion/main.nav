@@ -216,8 +216,12 @@
 \headcommand {\slideentry {7}{0}{4}{44/44}{}{0}}
 \defcounter {refsection}{0}\relax 
 \headcommand {\beamer@framepages {44}{44}}
-\headcommand {\beamer@partpages {1}{44}}
-\headcommand {\beamer@subsectionpages {41}{44}}
-\headcommand {\beamer@sectionpages {41}{44}}
-\headcommand {\beamer@documentpages {44}}
-\headcommand {\def \inserttotalframenumber {44}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {7}{0}{5}{45/45}{}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {45}{45}}
+\headcommand {\beamer@partpages {1}{45}}
+\headcommand {\beamer@subsectionpages {41}{45}}
+\headcommand {\beamer@sectionpages {41}{45}}
+\headcommand {\beamer@documentpages {45}}
+\headcommand {\def \inserttotalframenumber {45}}

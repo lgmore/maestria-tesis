@@ -55,7 +55,7 @@
 }
 
 \title[Facultad Politécnica - UNA]{Mejora de Contraste de Imágenes a Color Usando un Framework de Optimización Multi-Objetivo}
-\date[Dic 19, 2017]{Dic 15, 2017}
+\date[Dic 20, 2017]{Dic 20, 2017}
 \author[Luis G. Moré]{
 \vspace{1cm}
 Luis G. Moré
@@ -139,11 +139,13 @@ Mejora del Contraste automática de imágenes a color.
 \begin{frame}{Introducción}
 
 \begin{columns}[t]
-\begin{column}{.3\textwidth}
-\tcbox{\adjincludegraphics[width=0.85\linewidth,valign=t]{graphics/lena}}
-
+\begin{column}{.45\textwidth}
+\begin{figure}[H]
+\adjincludegraphics[width=1.1\linewidth]{graphics/histogramaejemplo.jpg}
+\caption{Histograma de niveles de intensidad de una imagen.}
+\end{figure}
 \end{column}
-\begin{column}{.7\textwidth}
+\begin{column}{.55\textwidth}
 \begin{itemize}
 	\item Una técnica importante para la Mejora del Contraste es la Ecualización del Histograma.
 	\item Ésta técnica es directa y efectiva en el trabajo de Mejora del Contraste.
@@ -161,7 +163,7 @@ Mejora del Contraste automática de imágenes a color.
 \begin{frame}{Introducción}
 \vspace{-0.5cm}
 \begin{alertblock}{Objetivo}
-Desarrollar un algoritmo para obtención de parámetros adecuados de Mejora del Contraste.
+Desarrollar un enfoque para obtención de parámetros adecuados de Mejora del Contraste.
 \end{alertblock}
 \vspace{-0.2cm}
 \begin{columns}[t]
@@ -171,8 +173,8 @@ Desarrollar un algoritmo para obtención de parámetros adecuados de Mejora del 
 \end{column}
 \begin{column}{.7\textwidth}
 \begin{itemize}
-	\item En éste trabajo se busca atacar el problema de la Mejora del Contraste de imágenes digitales a color con un enfoque de Optimización Multi-Objetivo aplicado sobre un algoritmo de Ecualización del Histograma bien conocido.
-	\item Se busca lograr un balance entre el realce de detalles de la imagen digital y el mantenimiento de la información de brillo y de color.
+	\item En éste trabajo se busca atacar el problema de la Mejora del Contraste de imágenes digitales a color con un enfoque de Optimización Multi-Objetivo aplicado sobre un algoritmo de Ecualización del Histograma local.
+	\item Se busca lograr un balance entre el realce de detalles de la imagen digital y el mantenimiento de la información de intensidades y de color.
 \end{itemize}
 % \hfill-- Carl Friedrich Gauss
 \end{column}
@@ -360,9 +362,11 @@ Separación de información de intensidad - Selección de espacios de color
 \frametitle{Marco Teórico} 
 % \framesubtitle{And also some blocks.} 
 \begin{exampleblock}{\textit{YCbCr}}
-\textit{YCbCr} es un espacio de color definido a través de una transformación matemática de coordenadas, a partir de un espacio de color $RGB$ asociado.
+\begin{itemize}
+\item \textit{YCbCr} es un espacio de color definido a través de una transformación matemática de coordenadas, a partir de un espacio de color $RGB$ asociado.
 
-La ventaja de ésta representación es que separa la información de intensidades de la imagen digital de la información de color presente.
+\item La ventaja de ésta representación es que separa la información de intensidades de la imagen digital de la información de color presente.
+\end{itemize}
 \end{exampleblock}
 
 \centering
@@ -444,7 +448,7 @@ Y + 1.772 \cdot  (C_b - 128)
 \begin{frame} 
 \frametitle{Marco Teórico} 
 % \framesubtitle{And also some blocks.} 
-\begin{exampleblock}{\textit{Contrast Limited Adaptive Histogram Equalization}}
+\begin{exampleblock}{\textit{Contrast Limited Adaptive Histogram Equalization - CLAHE}}
 
 Es un algoritmo de Mejora del Contraste de tipo local, diseñado para su aplicación en distintos tipos de imágenes. 
 
@@ -613,7 +617,7 @@ $L$ es la cantidad de niveles de intensidad representables en la imagen, $M \tim
 
 \frametitle{Marco Teórico} 
 % \framesubtitle{And also some blocks.} 
-\begin{exampleblock}{\textit{Structural Similarity Index}}
+\begin{exampleblock}{\textit{Structural Similarity Index - SSIM}}
 Es una métrica que mide atributos importantes de la imagen tales como la \textit{Luminancia, Contraste} y la \textit{Estructura}.
 
 El objetivo de $SSIM$ es el de medir la distorsión de la imagen.
@@ -629,7 +633,7 @@ SSIM(I,T) = \frac{(2\mu_{I_x} \mu_{T_y}+E_1)(2\sigma_{I_xT_y}+E_2)}{(\mu^2_{I_x}
 \begin{itemize}
 	\item $\mu_{I_x}$ es el promedio de intensidades de los pixeles,
 	\item $\sigma_{T_y}$ es la varianza intensidades de los pixeles,
-	\item $\sigma_{I_xT_y}$ es el promedio de intensidades de los pixeles.
+	\item $\sigma_{I_xT_y}$ es la covarianza de intensidades de los pixeles.
 \end{itemize}
 
 \end{frame}  
@@ -646,14 +650,14 @@ SSIM(I,T) = \frac{(2\mu_{I_x} \mu_{T_y}+E_1)(2\sigma_{I_xT_y}+E_2)}{(\mu^2_{I_x}
 \begin{columns}[onlytextwidth]
 \begin{column}{.45\textwidth}
 \begin{figure}
-  \includegraphics[width=\textwidth]{graphics/peppers_gray_lc.jpg}
+  \includegraphics[width=\textwidth]{graphics/peppers_color_lc.jpg}
   \caption{$SSIM_R=1 ; SSIM_G=1 ; SSIM_B=1$}
 \end{figure}
 \end{column}
 \hfill
 \begin{column}{.45\textwidth}
 		\begin{figure}
-		  \includegraphics[width=\textwidth]{graphics/peppers_gray_hc.jpg}
+		  \includegraphics[width=\textwidth]{graphics/peppers_color_hc.jpg}
 		  \caption{$SSIM_R=0.484719; SSIM_G=0.525963; SSIM_B=0.533241$}
 		\end{figure}
 \end{column}
@@ -670,7 +674,7 @@ SSIM(I,T) = \frac{(2\mu_{I_x} \mu_{T_y}+E_1)(2\sigma_{I_xT_y}+E_2)}{(\mu^2_{I_x}
 
 $MOPSO$ es una meta-heurística que emula el comportamiento social de las bandadas de pájaros.
 
-Cada partícula $\vv{x}$ realiza una búsqueda dentro de un espacio $\Omega$, y para cada generación $t$, cada solución $\vv{x}$ se actualiza de acuerdo a:
+Cada partícula $\vv{x}=(\mathscr{R}_x, \mathscr{R}_y, \mathscr{C})$ realiza una búsqueda dentro de un conjunto de partículas $\Omega$, y para cada generación $t$, cada solución $\vv{x}$ se actualiza de acuerdo a:
 
 \begin{equation}\label{eq:posicion1}
 \vv{x}_i(t) = \vv{x}_i(t-1) + \vv{v}_i(t)
@@ -696,16 +700,16 @@ Donde $\vv{v}$ se conoce como el factor de velocidad, y está dado por:
 \begin{exampleblock}{\textit{Multi-Objective Particle Swarm Optimization (MOPSO)}}
 
 \begin{equation}\label{eq:velocidad1}
-\vv{v}_i(t) = w \cdot (t-1) + C_1 \cdot r_1 \cdot (\vv{x}_{p_i} - \vv{x}_i) + C_2 \cdot r_2 \cdot (\vv{x}_{g_i} - \vv{x_i})
+\vv{v}_i(t) = w \vv{v}_i(t-1) + C_1 \cdot r_1 \cdot (\vv{x}_{p_i} - \vv{x}_i) + C_2 \cdot r_2 \cdot (\vv{x}_{g_i} - \vv{x_i})
 \end{equation}
 
 
 Donde:
 
 \begin{itemize}
-\item $w$ es el peso de la inercia,
+\item $w$ es el peso de la inercia (control de velocidad de partículas),
 \item $C_1,C_2$ son parámetros específicos que controlan el efecto de las partículas locales y globales,
-\item $r_1,r_2$ son variables aleatorias en el rango [0,1].
+\item $r_1,r_2$ son variables que aleatorizan la búsqueda en el rango [0,1].
 \end{itemize}
 
 
@@ -925,7 +929,7 @@ Comportamiento de partículas en $PSO$ Monobjetivo a través de la serie de iter
 % \framesubtitle{And also some blocks.} 
 \begin{exampleblock}{\textit{Formulación del Problema Planteado}}
 
-Dada una imagen a color $I$, con $M \times N$ pixeles, se busca un conjunto de soluciones no dominadas $\mathscr{X}$, que maximiza simultáneamente las funciones objetivo $f_1,f_2,f_3,f_4$:
+Dada una imagen a color $I$, con $M \times N$ pixeles, se busca un conjunto de soluciones no dominadas $\mathscr{X}$ (parámetros del algoritmo de ecualización), que maximiza simultáneamente las funciones objetivo $f_1,f_2,f_3,f_4$:
 
 \begin{equation}
 \begin{split}
@@ -1005,16 +1009,16 @@ donde
 donde
 
 \begin{itemize}
-	\item $f_2(I_G\label{symbol:ioriginalg},T_G\label{symbol:imejoradag})=SSIM(I_G,T_G)$ es la medición del $SSIM$ entre $I_G$ y $T_G$. $I_G$ y $T_G$ son los canales $G$ de las representaciones $RGB$ de $I$ y $T$, respectivamente,
-	\item $f_2(I_B\label{symbol:ioriginalb},T_B\label{symbol:imejoradab})=SSIM(I_B,T_B)$ es la medición del $SSIM$ entre $I_B$ y $T_B$. $I_B$ y $T_B$ son los canales $G$ de las representaciones $RGB$ de $I$ y $T$, respectivamente,
+	\item $f_3(I_G\label{symbol:ioriginalg},T_G\label{symbol:imejoradag})=SSIM(I_G,T_G)$ es la medición del $SSIM$ entre $I_G$ y $T_G$. $I_G$ y $T_G$ son los canales $G$ de las representaciones $RGB$ de $I$ y $T$, respectivamente,
+	\item $f_4(I_B\label{symbol:ioriginalb},T_B\label{symbol:imejoradab})=SSIM(I_B,T_B)$ es la medición del $SSIM$ entre $I_B$ y $T_B$. $I_B$ y $T_B$ son los canales $G$ de las representaciones $RGB$ de $I$ y $T$, respectivamente,
 \end{itemize}
 
 %Bounded to:
 
 \begin{itemize}
-	\item $\mathscr{R}_x \in [2,...,M]$ dentro de $\mathbb{N}$,
-	\item $\mathscr{R}_y \in [2,...,N]$ dentro de $\mathbb{N}$,
-	\item $\mathscr{C} \in (0,...,1]$ dentro $\mathbb{R}$.
+	\item $\mathscr{R}_x \in [2,...,M/2]$ dentro de $\mathbb{N}$,
+	\item $\mathscr{R}_y \in [2,...,N/2]$ dentro de $\mathbb{N}$,
+	\item $\mathscr{C} \in (0,...,256]$ dentro $\mathbb{R}$.
 \end{itemize}
 
 % \begin{equation}
@@ -1176,13 +1180,13 @@ donde
 \hline
 Parámetro & Valor & Parámetro & Valor \\ [0.5ex] 
 \hline\hline
-$M$ & $256$ & $N$ & $256$ \\ 
+$M$ & $256$ & $N$ & $163$ \\ 
 \hline
 $lower\_limit_{\mathscr{R}_x}$ & $2$ & $upper\_limit_{\mathscr{R}_x}$ & $M/2$ \\ 
 \hline
 $lower\_limit_{\mathscr{R}_y}$ & $2$ & $upper\_limit_{\mathscr{R}_y}$ & $N/2$ \\  
 \hline
-$lower\_limit_{{\mathscr{C}}}$ & $0$ & $upper\_limit_{{\mathscr{C}}}$ & 0.5 \\
+$lower\_limit_{{\mathscr{C}}}$ & $0$ & $upper\_limit_{{\mathscr{C}}}$ & 256 \\
 \hline
 $\Omega$ & $100$ & $t_{max}$ & $100$ \\ 
 \hline
@@ -1215,8 +1219,8 @@ $r_2$ $min$ & 0.0 & $r_2$ $max$ & 1.0 \\
     ~ %add desired spacing between images, e. g. ~, \quad, \qquad, \hfill etc. 
       %(or a blank line to force the subfigure onto a new line)
       \begin{subfigure}[t]{0.45\textwidth}
-      \includegraphics[width=\textwidth]{graphics/calhouse_0230_20-25165283474-10.jpg}
-      \caption{Imagen Contrastada utilizando $CMOPSO-CLAHE$. $\mathscr{H_Y}=7,388725$, $SSIM_R=0,99102669$, $SSIM_G=0,99176936$, $SSIM_B=0,99148987$}
+      \includegraphics[width=\textwidth]{graphics/69-resultado.jpg}
+      \caption{Imagen Contrastada utilizando $CMOPSO-CLAHE$. $\mathscr{H_Y}=7,77002$, $SSIM_R=0,894431$, $SSIM_G=0,9022998$, $SSIM_B=0,898023$}
       \label{fig:casa1enhanced1}
       \end{subfigure} \\
     % ~ %add desired spacing between images, e. g. ~, \quad, \qquad, \hfill etc. 
@@ -1330,7 +1334,7 @@ $SSIM_B$ & -0.9826 & 0.9999   & 0.9999   & 1 \\
 	\item Se encontraron parámetros solución con la mejor relación contraste/distorsión
 	\item Se encontraron entre 100 y 250 soluciones no dominadas por imagen.
 	\item La propuesta supera satisfactoriamente la etapa de prueba de concepto.
-	\item La tabla de correlación de métricas sugiere que es posible realizar una implementación de mejora del contraste biobjetivo utilizando el canal de luminancia $Y$ de $YCbCr$
+	\item La tabla de correlación de métricas sugiere que es posible realizar una implementación de mejora del contraste biobjetivo utilizando el canal de intensidades $Y$ de $YCbCr$
 \end{itemize}
 
 \end{exampleblock}
@@ -1347,7 +1351,7 @@ $SSIM_B$ & -0.9826 & 0.9999   & 0.9999   & 1 \\
 \begin{exampleblock}{}
 \begin{itemize}
 	\item La implementación propuesta demuestra ser satisfactoria para la realización de Mejora del Contraste Automática.
-	\item Se obtienen los parámetros con la mejor relación inversa entre contraste/distorsión.
+	\item Se obtienen los parámetros con buena relación inversa entre contraste/distorsión.
 	\item La implementación es adecuada para la obtención de parámetros del algoritmo de mejora del contraste, aplicados sobre una imagen determinada.
 \end{itemize}
 \end{exampleblock}
@@ -1397,6 +1401,28 @@ $SSIM_B$ & -0.9826 & 0.9999   & 0.9999   & 1 \\
 		\begin{figure}
 		  \includegraphics[width=\textwidth]{graphics/LOGO-MICAI-2015-OK.jpg}
 		  \caption{Mexican Internactional Conference of Artificial Intelligence - Ensenada, Baja California - México - 2017}
+		\end{figure}
+\end{column}
+\end{columns}
+\end{frame}
+
+\begin{frame}
+\frametitle{¡Muchas Gracias!}  
+% \begin{exampleblock}{}
+%  Los resultados del trabajo se presentaron en los siguientes congresos:
+% \end{exampleblock}
+\begin{columns}[onlytextwidth]
+\begin{column}{.45\textwidth}
+\begin{figure}
+  \includegraphics[width=1.3\textwidth]{graphics/fin__lc.jpg}
+  \caption{}
+\end{figure}
+\end{column}
+\hfill
+\begin{column}{.45\textwidth}
+		\begin{figure}
+		  \includegraphics[width=1.3\textwidth]{graphics/fin_lc.jpg}
+		  \caption{}
 		\end{figure}
 \end{column}
 \end{columns}

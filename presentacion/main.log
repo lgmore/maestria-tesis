@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2017.11.3)  19 DEC 2017 16:56
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2017.11.3)  19 DEC 2017 21:14
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2014,50 +2014,52 @@ Overfull \hbox (56.90549pt too wide) in paragraph at lines 137--137
 [5
 
  </home/lg_more/github/maestria-tesis/presentacion/graphics/lena.jpg>]
-File: graphics/lena.jpg Graphic file (type jpg)
-<use graphics/lena.jpg>
-Package pdftex.def Info: graphics/lena.jpg  used on input line 158. on input li
-ne 158.
-Package pdftex.def Info: Requested size: 513.91873pt x 513.91873pt on input lin
-e 158.
+<graphics/histogramaejemplo.jpg, id=148, 623.32875pt x 385.44pt>
+File: graphics/histogramaejemplo.jpg Graphic file (type jpg)
+<use graphics/histogramaejemplo.jpg>
+Package pdftex.def Info: graphics/histogramaejemplo.jpg  used on input line 160
+. on input line 160.
+Package pdftex.def Info: Requested size: 623.32722pt x 385.43906pt on input lin
+e 160.
 
-Overfull \hbox (17.46507pt too wide) in paragraph at lines 158--158
-[][]  
+Overfull \hbox (13.8239pt too wide) in paragraph at lines 160--160
+ [] 
  []
 
 File: graphics/polloPallido.pdf Graphic file (type pdf)
 <use graphics/polloPallido.pdf>
-Package pdftex.def Info: graphics/polloPallido.pdf  used on input line 158. on 
-input line 158.
+Package pdftex.def Info: graphics/polloPallido.pdf  used on input line 160. on 
+input line 160.
 Package pdftex.def Info: Requested size: 24.18501pt x 36.16829pt on input line 
-158.
+160.
 
-Overfull \hbox (56.90549pt too wide) in paragraph at lines 158--158
+Overfull \hbox (56.90549pt too wide) in paragraph at lines 160--160
 [][]  
  []
 
 [6
 
-]
+ </home/lg_more/github/maestria-tesis/presentacion/graphics/histogramaejemplo.j
+pg>]
 File: graphics/lena.jpg Graphic file (type jpg)
 <use graphics/lena.jpg>
-Package pdftex.def Info: graphics/lena.jpg  used on input line 182. on input li
-ne 182.
+Package pdftex.def Info: graphics/lena.jpg  used on input line 184. on input li
+ne 184.
 Package pdftex.def Info: Requested size: 513.91873pt x 513.91873pt on input lin
-e 182.
+e 184.
 
-Overfull \hbox (17.46507pt too wide) in paragraph at lines 182--182
+Overfull \hbox (17.46507pt too wide) in paragraph at lines 184--184
 [][]  
  []
 
 File: graphics/polloPallido.pdf Graphic file (type pdf)
 <use graphics/polloPallido.pdf>
-Package pdftex.def Info: graphics/polloPallido.pdf  used on input line 182. on 
-input line 182.
+Package pdftex.def Info: graphics/polloPallido.pdf  used on input line 184. on 
+input line 184.
 Package pdftex.def Info: Requested size: 24.18501pt x 36.16829pt on input line 
-182.
+184.
 
-Overfull \hbox (56.90549pt too wide) in paragraph at lines 182--182
+Overfull \hbox (56.90549pt too wide) in paragraph at lines 184--184
 [][]  
  []
 
@@ -2066,12 +2068,12 @@ Overfull \hbox (56.90549pt too wide) in paragraph at lines 182--182
 ] (/home/lg_more/github/maestria-tesis/presentacion/main.toc)
 File: graphics/polloPallido.pdf Graphic file (type pdf)
 <use graphics/polloPallido.pdf>
-Package pdftex.def Info: graphics/polloPallido.pdf  used on input line 208. on 
-input line 208.
+Package pdftex.def Info: graphics/polloPallido.pdf  used on input line 210. on 
+input line 210.
 Package pdftex.def Info: Requested size: 24.18501pt x 36.16829pt on input line 
-208.
+210.
 
-Overfull \hbox (56.90549pt too wide) in paragraph at lines 208--208
+Overfull \hbox (56.90549pt too wide) in paragraph at lines 210--210
 [][]  
  []
 
@@ -2080,46 +2082,46 @@ Overfull \hbox (56.90549pt too wide) in paragraph at lines 208--208
 ]
 File: graphics/lena.jpg Graphic file (type jpg)
 <use graphics/lena.jpg>
-Package pdftex.def Info: graphics/lena.jpg  used on input line 253. on input li
-ne 253.
+Package pdftex.def Info: graphics/lena.jpg  used on input line 255. on input li
+ne 255.
 Package pdftex.def Info: Requested size: 513.91873pt x 513.91873pt on input lin
-e 253.
+e 255.
 
-Overfull \hbox (17.46507pt too wide) in paragraph at lines 253--253
+Overfull \hbox (17.46507pt too wide) in paragraph at lines 255--255
 [][]  
  []
 
 LaTeX Font Info:    Font shape `OMS/ppl/m/n' in size <9> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 253.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 255.
 File: graphics/polloPallido.pdf Graphic file (type pdf)
 <use graphics/polloPallido.pdf>
-Package pdftex.def Info: graphics/polloPallido.pdf  used on input line 253. on 
-input line 253.
+Package pdftex.def Info: graphics/polloPallido.pdf  used on input line 255. on 
+input line 255.
 Package pdftex.def Info: Requested size: 24.18501pt x 36.16829pt on input line 
-253.
+255.
 
-Overfull \hbox (56.90549pt too wide) in paragraph at lines 253--253
+Overfull \hbox (56.90549pt too wide) in paragraph at lines 255--255
 [][]  
  []
 
 [9
 
 ]
-<graphics/RGB_Cube_Show_lowgamma_cutout_b.png, id=182, 1606.0pt x 1204.5pt>
+<graphics/RGB_Cube_Show_lowgamma_cutout_b.png, id=183, 1606.0pt x 1204.5pt>
 File: graphics/RGB_Cube_Show_lowgamma_cutout_b.png Graphic file (type png)
 <use graphics/RGB_Cube_Show_lowgamma_cutout_b.png>
 Package pdftex.def Info: graphics/RGB_Cube_Show_lowgamma_cutout_b.png  used on 
-input line 324. on input line 324.
+input line 326. on input line 326.
 Package pdftex.def Info: Requested size: 128.0374pt x 96.01276pt on input line 
-324.
+326.
 File: graphics/polloPallido.pdf Graphic file (type pdf)
 <use graphics/polloPallido.pdf>
-Package pdftex.def Info: graphics/polloPallido.pdf  used on input line 324. on 
-input line 324.
+Package pdftex.def Info: graphics/polloPallido.pdf  used on input line 326. on 
+input line 326.
 Package pdftex.def Info: Requested size: 24.18501pt x 36.16829pt on input line 
-324.
+326.
 
-Overfull \hbox (56.90549pt too wide) in paragraph at lines 324--324
+Overfull \hbox (56.90549pt too wide) in paragraph at lines 326--326
 [][]  
  []
 
@@ -2127,21 +2129,21 @@ Overfull \hbox (56.90549pt too wide) in paragraph at lines 324--324
 
  </home/lg_more/github/maestria-tesis/presentacion/graphics/RGB_Cube_Show_lowga
 mma_cutout_b.png>]
-<graphics/RGBCube.png, id=191, 493.845pt x 324.21124pt>
+<graphics/RGBCube.png, id=192, 493.845pt x 324.21124pt>
 File: graphics/RGBCube.png Graphic file (type png)
 <use graphics/RGBCube.png>
-Package pdftex.def Info: graphics/RGBCube.png  used on input line 356. on input
- line 356.
+Package pdftex.def Info: graphics/RGBCube.png  used on input line 358. on input
+ line 358.
 Package pdftex.def Info: Requested size: 138.2795pt x 90.77852pt on input line 
-356.
+358.
 File: graphics/polloPallido.pdf Graphic file (type pdf)
 <use graphics/polloPallido.pdf>
-Package pdftex.def Info: graphics/polloPallido.pdf  used on input line 356. on 
-input line 356.
+Package pdftex.def Info: graphics/polloPallido.pdf  used on input line 358. on 
+input line 358.
 Package pdftex.def Info: Requested size: 24.18501pt x 36.16829pt on input line 
-356.
+358.
 
-Overfull \hbox (56.90549pt too wide) in paragraph at lines 356--356
+Overfull \hbox (56.90549pt too wide) in paragraph at lines 358--358
 [][]  
  []
 
@@ -2150,50 +2152,50 @@ Overfull \hbox (56.90549pt too wide) in paragraph at lines 356--356
  </home/lg_more/github/maestria-tesis/presentacion/graphics/RGBCube.png>]
 File: graphics/polloPallido.pdf Graphic file (type pdf)
 <use graphics/polloPallido.pdf>
-Package pdftex.def Info: graphics/polloPallido.pdf  used on input line 372. on 
-input line 372.
+Package pdftex.def Info: graphics/polloPallido.pdf  used on input line 376. on 
+input line 376.
 Package pdftex.def Info: Requested size: 24.18501pt x 36.16829pt on input line 
-372.
+376.
 
-Overfull \hbox (56.90549pt too wide) in paragraph at lines 372--372
+Overfull \hbox (56.90549pt too wide) in paragraph at lines 376--376
 [][]  
  []
 
 [12
 
 ]
-<graphics/IC676790.png, id=206, 469.755pt x 118.94438pt>
+<graphics/IC676790.png, id=207, 469.755pt x 118.94438pt>
 File: graphics/IC676790.png Graphic file (type png)
 <use graphics/IC676790.png>
-Package pdftex.def Info: graphics/IC676790.png  used on input line 391. on inpu
-t line 391.
+Package pdftex.def Info: graphics/IC676790.png  used on input line 395. on inpu
+t line 395.
 Package pdftex.def Info: Requested size: 312.9803pt x 79.24765pt on input line 
-391.
+395.
 
-Overfull \hbox (5.69043pt too wide) in paragraph at lines 391--391
+Overfull \hbox (5.69043pt too wide) in paragraph at lines 395--395
  [] 
  []
 
-<graphics/IC676791.png, id=207, 469.755pt x 118.94438pt>
+<graphics/IC676791.png, id=208, 469.755pt x 118.94438pt>
 File: graphics/IC676791.png Graphic file (type png)
 <use graphics/IC676791.png>
-Package pdftex.def Info: graphics/IC676791.png  used on input line 391. on inpu
-t line 391.
+Package pdftex.def Info: graphics/IC676791.png  used on input line 395. on inpu
+t line 395.
 Package pdftex.def Info: Requested size: 312.9803pt x 79.24765pt on input line 
-391.
+395.
 
-Overfull \hbox (5.69043pt too wide) in paragraph at lines 391--391
+Overfull \hbox (5.69043pt too wide) in paragraph at lines 395--395
  [] 
  []
 
 File: graphics/polloPallido.pdf Graphic file (type pdf)
 <use graphics/polloPallido.pdf>
-Package pdftex.def Info: graphics/polloPallido.pdf  used on input line 391. on 
-input line 391.
+Package pdftex.def Info: graphics/polloPallido.pdf  used on input line 395. on 
+input line 395.
 Package pdftex.def Info: Requested size: 24.18501pt x 36.16829pt on input line 
-391.
+395.
 
-Overfull \hbox (56.90549pt too wide) in paragraph at lines 391--391
+Overfull \hbox (56.90549pt too wide) in paragraph at lines 395--395
 [][]  
  []
 
@@ -2203,12 +2205,12 @@ Overfull \hbox (56.90549pt too wide) in paragraph at lines 391--391
 e/lg_more/github/maestria-tesis/presentacion/graphics/IC676791.png>]
 File: graphics/polloPallido.pdf Graphic file (type pdf)
 <use graphics/polloPallido.pdf>
-Package pdftex.def Info: graphics/polloPallido.pdf  used on input line 442. on 
-input line 442.
+Package pdftex.def Info: graphics/polloPallido.pdf  used on input line 446. on 
+input line 446.
 Package pdftex.def Info: Requested size: 24.18501pt x 36.16829pt on input line 
-442.
+446.
 
-Overfull \hbox (56.90549pt too wide) in paragraph at lines 442--442
+Overfull \hbox (56.90549pt too wide) in paragraph at lines 446--446
 [][]  
  []
 
@@ -2217,12 +2219,12 @@ Overfull \hbox (56.90549pt too wide) in paragraph at lines 442--442
 ]
 File: graphics/polloPallido.pdf Graphic file (type pdf)
 <use graphics/polloPallido.pdf>
-Package pdftex.def Info: graphics/polloPallido.pdf  used on input line 473. on 
-input line 473.
+Package pdftex.def Info: graphics/polloPallido.pdf  used on input line 477. on 
+input line 477.
 Package pdftex.def Info: Requested size: 24.18501pt x 36.16829pt on input line 
-473.
+477.
 
-Overfull \hbox (56.90549pt too wide) in paragraph at lines 473--473
+Overfull \hbox (56.90549pt too wide) in paragraph at lines 477--477
 [][]  
  []
 
@@ -2231,40 +2233,40 @@ Overfull \hbox (56.90549pt too wide) in paragraph at lines 473--473
 ]
 File: graphics/polloPallido.pdf Graphic file (type pdf)
 <use graphics/polloPallido.pdf>
-Package pdftex.def Info: graphics/polloPallido.pdf  used on input line 495. on 
-input line 495.
+Package pdftex.def Info: graphics/polloPallido.pdf  used on input line 499. on 
+input line 499.
 Package pdftex.def Info: Requested size: 24.18501pt x 36.16829pt on input line 
-495.
+499.
 
-Overfull \hbox (56.90549pt too wide) in paragraph at lines 495--495
+Overfull \hbox (56.90549pt too wide) in paragraph at lines 499--499
 [][]  
  []
 
 [16
 
 ]
-<graphics/peppers_gray_lc.jpg, id=235, 521.15831pt x 521.15831pt>
+<graphics/peppers_gray_lc.jpg, id=236, 521.15831pt x 521.15831pt>
 File: graphics/peppers_gray_lc.jpg Graphic file (type jpg)
 <use graphics/peppers_gray_lc.jpg>
-Package pdftex.def Info: graphics/peppers_gray_lc.jpg  used on input line 556. 
-on input line 556.
+Package pdftex.def Info: graphics/peppers_gray_lc.jpg  used on input line 560. 
+on input line 560.
 Package pdftex.def Info: Requested size: 138.2795pt x 138.27328pt on input line
- 556.
-<graphics/peppers_gray_hc.jpg, id=236, 513.92pt x 513.92pt>
+ 560.
+<graphics/peppers_gray_hc.jpg, id=237, 513.92pt x 513.92pt>
 File: graphics/peppers_gray_hc.jpg Graphic file (type jpg)
 <use graphics/peppers_gray_hc.jpg>
-Package pdftex.def Info: graphics/peppers_gray_hc.jpg  used on input line 556. 
-on input line 556.
+Package pdftex.def Info: graphics/peppers_gray_hc.jpg  used on input line 560. 
+on input line 560.
 Package pdftex.def Info: Requested size: 138.2795pt x 138.28189pt on input line
- 556.
+ 560.
 File: graphics/polloPallido.pdf Graphic file (type pdf)
 <use graphics/polloPallido.pdf>
-Package pdftex.def Info: graphics/polloPallido.pdf  used on input line 556. on 
-input line 556.
+Package pdftex.def Info: graphics/polloPallido.pdf  used on input line 560. on 
+input line 560.
 Package pdftex.def Info: Requested size: 24.18501pt x 36.16829pt on input line 
-556.
+560.
 
-Overfull \hbox (56.90549pt too wide) in paragraph at lines 556--556
+Overfull \hbox (56.90549pt too wide) in paragraph at lines 560--560
 [][]  
  []
 
@@ -2273,28 +2275,28 @@ Overfull \hbox (56.90549pt too wide) in paragraph at lines 556--556
  </home/lg_more/github/maestria-tesis/presentacion/graphics/peppers_gray_lc.jpg
 > </home/lg_more/github/maestria-tesis/presentacion/graphics/peppers_gray_hc.jp
 g>]
-<graphics/peppers_gray_lc_hist.jpg, id=243, 1557.82pt x 867.24pt>
+<graphics/peppers_gray_lc_hist.jpg, id=244, 1557.82pt x 867.24pt>
 File: graphics/peppers_gray_lc_hist.jpg Graphic file (type jpg)
 <use graphics/peppers_gray_lc_hist.jpg>
 Package pdftex.def Info: graphics/peppers_gray_lc_hist.jpg  used on input line 
-586. on input line 586.
+590. on input line 590.
 Package pdftex.def Info: Requested size: 153.64493pt x 85.52487pt on input line
- 586.
-<graphics/peppers_gray_hc_hist.jpg, id=244, 1595.9625pt x 898.35625pt>
+ 590.
+<graphics/peppers_gray_hc_hist.jpg, id=245, 1595.9625pt x 898.35625pt>
 File: graphics/peppers_gray_hc_hist.jpg Graphic file (type jpg)
 <use graphics/peppers_gray_hc_hist.jpg>
 Package pdftex.def Info: graphics/peppers_gray_hc_hist.jpg  used on input line 
-586. on input line 586.
+590. on input line 590.
 Package pdftex.def Info: Requested size: 153.64493pt x 86.48247pt on input line
- 586.
+ 590.
 File: graphics/polloPallido.pdf Graphic file (type pdf)
 <use graphics/polloPallido.pdf>
-Package pdftex.def Info: graphics/polloPallido.pdf  used on input line 586. on 
-input line 586.
+Package pdftex.def Info: graphics/polloPallido.pdf  used on input line 590. on 
+input line 590.
 Package pdftex.def Info: Requested size: 24.18501pt x 36.16829pt on input line 
-586.
+590.
 
-Overfull \hbox (56.90549pt too wide) in paragraph at lines 586--586
+Overfull \hbox (56.90549pt too wide) in paragraph at lines 590--590
 [][]  
  []
 
@@ -2305,12 +2307,12 @@ t.jpg> </home/lg_more/github/maestria-tesis/presentacion/graphics/peppers_gray_
 hc_hist.jpg>]
 File: graphics/polloPallido.pdf Graphic file (type pdf)
 <use graphics/polloPallido.pdf>
-Package pdftex.def Info: graphics/polloPallido.pdf  used on input line 610. on 
-input line 610.
+Package pdftex.def Info: graphics/polloPallido.pdf  used on input line 614. on 
+input line 614.
 Package pdftex.def Info: Requested size: 24.18501pt x 36.16829pt on input line 
-610.
+614.
 
-Overfull \hbox (56.90549pt too wide) in paragraph at lines 610--610
+Overfull \hbox (56.90549pt too wide) in paragraph at lines 614--614
 [][]  
  []
 
@@ -2319,52 +2321,56 @@ Overfull \hbox (56.90549pt too wide) in paragraph at lines 610--610
 ]
 File: graphics/polloPallido.pdf Graphic file (type pdf)
 <use graphics/polloPallido.pdf>
-Package pdftex.def Info: graphics/polloPallido.pdf  used on input line 635. on 
-input line 635.
+Package pdftex.def Info: graphics/polloPallido.pdf  used on input line 639. on 
+input line 639.
 Package pdftex.def Info: Requested size: 24.18501pt x 36.16829pt on input line 
-635.
+639.
 
-Overfull \hbox (56.90549pt too wide) in paragraph at lines 635--635
+Overfull \hbox (56.90549pt too wide) in paragraph at lines 639--639
 [][]  
  []
 
 [20
 
 ]
-File: graphics/peppers_gray_lc.jpg Graphic file (type jpg)
-<use graphics/peppers_gray_lc.jpg>
-Package pdftex.def Info: graphics/peppers_gray_lc.jpg  used on input line 664. 
-on input line 664.
+<graphics/peppers_color_lc.jpg, id=267, 521.15831pt x 521.15831pt>
+File: graphics/peppers_color_lc.jpg Graphic file (type jpg)
+<use graphics/peppers_color_lc.jpg>
+Package pdftex.def Info: graphics/peppers_color_lc.jpg  used on input line 668.
+ on input line 668.
 Package pdftex.def Info: Requested size: 138.2795pt x 138.27328pt on input line
- 664.
-File: graphics/peppers_gray_hc.jpg Graphic file (type jpg)
-<use graphics/peppers_gray_hc.jpg>
-Package pdftex.def Info: graphics/peppers_gray_hc.jpg  used on input line 664. 
-on input line 664.
+ 668.
+<graphics/peppers_color_hc.jpg, id=268, 513.92pt x 513.92pt>
+File: graphics/peppers_color_hc.jpg Graphic file (type jpg)
+<use graphics/peppers_color_hc.jpg>
+Package pdftex.def Info: graphics/peppers_color_hc.jpg  used on input line 668.
+ on input line 668.
 Package pdftex.def Info: Requested size: 138.2795pt x 138.28189pt on input line
- 664.
+ 668.
 File: graphics/polloPallido.pdf Graphic file (type pdf)
 <use graphics/polloPallido.pdf>
-Package pdftex.def Info: graphics/polloPallido.pdf  used on input line 664. on 
-input line 664.
+Package pdftex.def Info: graphics/polloPallido.pdf  used on input line 668. on 
+input line 668.
 Package pdftex.def Info: Requested size: 24.18501pt x 36.16829pt on input line 
-664.
+668.
 
-Overfull \hbox (56.90549pt too wide) in paragraph at lines 664--664
+Overfull \hbox (56.90549pt too wide) in paragraph at lines 668--668
 [][]  
  []
 
 [21
 
-]
+ </home/lg_more/github/maestria-tesis/presentacion/graphics/peppers_color_lc.jp
+g> </home/lg_more/github/maestria-tesis/presentacion/graphics/peppers_color_hc.
+jpg>]
 File: graphics/polloPallido.pdf Graphic file (type pdf)
 <use graphics/polloPallido.pdf>
-Package pdftex.def Info: graphics/polloPallido.pdf  used on input line 691. on 
-input line 691.
+Package pdftex.def Info: graphics/polloPallido.pdf  used on input line 695. on 
+input line 695.
 Package pdftex.def Info: Requested size: 24.18501pt x 36.16829pt on input line 
-691.
+695.
 
-Overfull \hbox (56.90549pt too wide) in paragraph at lines 691--691
+Overfull \hbox (56.90549pt too wide) in paragraph at lines 695--695
 [][]  
  []
 
@@ -2374,72 +2380,72 @@ Overfull \hbox (56.90549pt too wide) in paragraph at lines 691--691
 1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.739 \end{frame}
+l.743 \end{frame}
                  
 File: graphics/polloPallido.pdf Graphic file (type pdf)
 <use graphics/polloPallido.pdf>
-Package pdftex.def Info: graphics/polloPallido.pdf  used on input line 739. on 
-input line 739.
+Package pdftex.def Info: graphics/polloPallido.pdf  used on input line 743. on 
+input line 743.
 Package pdftex.def Info: Requested size: 24.18501pt x 36.16829pt on input line 
-739.
+743.
 
-Overfull \hbox (56.90549pt too wide) in paragraph at lines 739--739
+Overfull \hbox (56.90549pt too wide) in paragraph at lines 743--743
 [][]  
  []
 
 [23
 
 ]
-<./graphics/ejemplopso/capas-0.png, id=287, 562.1pt x 421.575pt>
+<./graphics/ejemplopso/capas-0.png, id=290, 562.1pt x 421.575pt>
 File: ./graphics/ejemplopso/capas-0.png Graphic file (type png)
 <use ./graphics/ejemplopso/capas-0.png>
 Package pdftex.def Info: ./graphics/ejemplopso/capas-0.png  used on input line 
-839. on input line 839.
+843. on input line 843.
 Package pdftex.def Info: Requested size: 138.2795pt x 103.70811pt on input line
- 839.
-<./graphics/ejemplopso/capas-8.png, id=288, 562.1pt x 421.575pt>
+ 843.
+<./graphics/ejemplopso/capas-8.png, id=291, 562.1pt x 421.575pt>
 File: ./graphics/ejemplopso/capas-8.png Graphic file (type png)
 <use ./graphics/ejemplopso/capas-8.png>
 Package pdftex.def Info: ./graphics/ejemplopso/capas-8.png  used on input line 
-839. on input line 839.
+843. on input line 843.
 Package pdftex.def Info: Requested size: 138.2795pt x 103.70811pt on input line
- 839.
+ 843.
 File: graphics/polloPallido.pdf Graphic file (type pdf)
 <use graphics/polloPallido.pdf>
-Package pdftex.def Info: graphics/polloPallido.pdf  used on input line 839. on 
-input line 839.
+Package pdftex.def Info: graphics/polloPallido.pdf  used on input line 843. on 
+input line 843.
 Package pdftex.def Info: Requested size: 24.18501pt x 36.16829pt on input line 
-839.
+843.
 
-Overfull \hbox (56.90549pt too wide) in paragraph at lines 839--839
+Overfull \hbox (56.90549pt too wide) in paragraph at lines 843--843
 [][]  
  []
 
 [24
 
  <./graphics/ejemplopso/capas-0.png> <./graphics/ejemplopso/capas-8.png>]
-<./graphics/ejemplopso/capas-95.png, id=297, 562.1pt x 421.575pt>
+<./graphics/ejemplopso/capas-95.png, id=300, 562.1pt x 421.575pt>
 File: ./graphics/ejemplopso/capas-95.png Graphic file (type png)
 <use ./graphics/ejemplopso/capas-95.png>
 Package pdftex.def Info: ./graphics/ejemplopso/capas-95.png  used on input line
- 918. on input line 918.
+ 922. on input line 922.
 Package pdftex.def Info: Requested size: 138.2795pt x 103.70811pt on input line
- 918.
-<./graphics/ejemplopso/capas-99.png, id=298, 562.1pt x 421.575pt>
+ 922.
+<./graphics/ejemplopso/capas-99.png, id=301, 562.1pt x 421.575pt>
 File: ./graphics/ejemplopso/capas-99.png Graphic file (type png)
 <use ./graphics/ejemplopso/capas-99.png>
 Package pdftex.def Info: ./graphics/ejemplopso/capas-99.png  used on input line
- 918. on input line 918.
+ 922. on input line 922.
 Package pdftex.def Info: Requested size: 138.2795pt x 103.70811pt on input line
- 918.
+ 922.
 File: graphics/polloPallido.pdf Graphic file (type pdf)
 <use graphics/polloPallido.pdf>
-Package pdftex.def Info: graphics/polloPallido.pdf  used on input line 918. on 
-input line 918.
+Package pdftex.def Info: graphics/polloPallido.pdf  used on input line 922. on 
+input line 922.
 Package pdftex.def Info: Requested size: 24.18501pt x 36.16829pt on input line 
-918.
+922.
 
-Overfull \hbox (56.90549pt too wide) in paragraph at lines 918--918
+Overfull \hbox (56.90549pt too wide) in paragraph at lines 922--922
 [][]  
  []
 
@@ -2449,12 +2455,12 @@ Overfull \hbox (56.90549pt too wide) in paragraph at lines 918--918
 ome/lg_more/github/maestria-tesis/presentacion/main.toc)
 File: graphics/polloPallido.pdf Graphic file (type pdf)
 <use graphics/polloPallido.pdf>
-Package pdftex.def Info: graphics/polloPallido.pdf  used on input line 921. on 
-input line 921.
+Package pdftex.def Info: graphics/polloPallido.pdf  used on input line 925. on 
+input line 925.
 Package pdftex.def Info: Requested size: 24.18501pt x 36.16829pt on input line 
-921.
+925.
 
-Overfull \hbox (56.90549pt too wide) in paragraph at lines 921--921
+Overfull \hbox (56.90549pt too wide) in paragraph at lines 925--925
 [][]  
  []
 
@@ -2463,12 +2469,12 @@ Overfull \hbox (56.90549pt too wide) in paragraph at lines 921--921
 ]
 File: graphics/polloPallido.pdf Graphic file (type pdf)
 <use graphics/polloPallido.pdf>
-Package pdftex.def Info: graphics/polloPallido.pdf  used on input line 949. on 
-input line 949.
+Package pdftex.def Info: graphics/polloPallido.pdf  used on input line 953. on 
+input line 953.
 Package pdftex.def Info: Requested size: 24.18501pt x 36.16829pt on input line 
-949.
+953.
 
-Overfull \hbox (56.90549pt too wide) in paragraph at lines 949--949
+Overfull \hbox (56.90549pt too wide) in paragraph at lines 953--953
 [][]  
  []
 
@@ -2477,12 +2483,12 @@ Overfull \hbox (56.90549pt too wide) in paragraph at lines 949--949
 ]
 File: graphics/polloPallido.pdf Graphic file (type pdf)
 <use graphics/polloPallido.pdf>
-Package pdftex.def Info: graphics/polloPallido.pdf  used on input line 989. on 
-input line 989.
+Package pdftex.def Info: graphics/polloPallido.pdf  used on input line 993. on 
+input line 993.
 Package pdftex.def Info: Requested size: 24.18501pt x 36.16829pt on input line 
-989.
+993.
 
-Overfull \hbox (56.90549pt too wide) in paragraph at lines 989--989
+Overfull \hbox (56.90549pt too wide) in paragraph at lines 993--993
 [][]  
  []
 
@@ -2491,12 +2497,12 @@ Overfull \hbox (56.90549pt too wide) in paragraph at lines 989--989
 ]
 File: graphics/polloPallido.pdf Graphic file (type pdf)
 <use graphics/polloPallido.pdf>
-Package pdftex.def Info: graphics/polloPallido.pdf  used on input line 1024. on
- input line 1024.
+Package pdftex.def Info: graphics/polloPallido.pdf  used on input line 1028. on
+ input line 1028.
 Package pdftex.def Info: Requested size: 24.18501pt x 36.16829pt on input line 
-1024.
+1028.
 
-Overfull \hbox (56.90549pt too wide) in paragraph at lines 1024--1024
+Overfull \hbox (56.90549pt too wide) in paragraph at lines 1028--1028
 [][]  
  []
 
@@ -2505,12 +2511,12 @@ Overfull \hbox (56.90549pt too wide) in paragraph at lines 1024--1024
 ] (/home/lg_more/github/maestria-tesis/presentacion/main.toc)
 File: graphics/polloPallido.pdf Graphic file (type pdf)
 <use graphics/polloPallido.pdf>
-Package pdftex.def Info: graphics/polloPallido.pdf  used on input line 1069. on
- input line 1069.
+Package pdftex.def Info: graphics/polloPallido.pdf  used on input line 1073. on
+ input line 1073.
 Package pdftex.def Info: Requested size: 24.18501pt x 36.16829pt on input line 
-1069.
+1073.
 
-Overfull \hbox (56.90549pt too wide) in paragraph at lines 1069--1069
+Overfull \hbox (56.90549pt too wide) in paragraph at lines 1073--1073
 [][]  
  []
 
@@ -2518,17 +2524,17 @@ Overfull \hbox (56.90549pt too wide) in paragraph at lines 1069--1069
 
 ]
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <17.28> not available
-(Font)              Font shape `T1/ppl/b/n' tried instead on input line 1123.
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 1127.
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <14.4> not available
-(Font)              Font shape `T1/ppl/b/n' tried instead on input line 1123.
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 1127.
 File: graphics/polloPallido.pdf Graphic file (type pdf)
 <use graphics/polloPallido.pdf>
-Package pdftex.def Info: graphics/polloPallido.pdf  used on input line 1123. on
- input line 1123.
+Package pdftex.def Info: graphics/polloPallido.pdf  used on input line 1127. on
+ input line 1127.
 Package pdftex.def Info: Requested size: 24.18501pt x 36.16829pt on input line 
-1123.
+1127.
 
-Overfull \hbox (56.90549pt too wide) in paragraph at lines 1123--1123
+Overfull \hbox (56.90549pt too wide) in paragraph at lines 1127--1127
 [][]  
  []
 
@@ -2537,12 +2543,12 @@ Overfull \hbox (56.90549pt too wide) in paragraph at lines 1123--1123
 ] (/home/lg_more/github/maestria-tesis/presentacion/main.toc)
 File: graphics/polloPallido.pdf Graphic file (type pdf)
 <use graphics/polloPallido.pdf>
-Package pdftex.def Info: graphics/polloPallido.pdf  used on input line 1162. on
- input line 1162.
+Package pdftex.def Info: graphics/polloPallido.pdf  used on input line 1166. on
+ input line 1166.
 Package pdftex.def Info: Requested size: 24.18501pt x 36.16829pt on input line 
-1162.
+1166.
 
-Overfull \hbox (56.90549pt too wide) in paragraph at lines 1162--1162
+Overfull \hbox (56.90549pt too wide) in paragraph at lines 1166--1166
 [][]  
  []
 
@@ -2551,80 +2557,78 @@ Overfull \hbox (56.90549pt too wide) in paragraph at lines 1162--1162
 ]
 File: graphics/polloPallido.pdf Graphic file (type pdf)
 <use graphics/polloPallido.pdf>
-Package pdftex.def Info: graphics/polloPallido.pdf  used on input line 1202. on
- input line 1202.
+Package pdftex.def Info: graphics/polloPallido.pdf  used on input line 1206. on
+ input line 1206.
 Package pdftex.def Info: Requested size: 24.18501pt x 36.16829pt on input line 
-1202.
+1206.
 
-Overfull \hbox (56.90549pt too wide) in paragraph at lines 1202--1202
+Overfull \hbox (56.90549pt too wide) in paragraph at lines 1206--1206
 [][]  
  []
 
 [33
 
 ]
-<graphics/calhouse_0230.jpg, id=391, 246.9225pt x 163.61125pt>
+<graphics/calhouse_0230.jpg, id=394, 246.9225pt x 163.61125pt>
 File: graphics/calhouse_0230.jpg Graphic file (type jpg)
 <use graphics/calhouse_0230.jpg>
-Package pdftex.def Info: graphics/calhouse_0230.jpg  used on input line 1238. o
-n input line 1238.
+Package pdftex.def Info: graphics/calhouse_0230.jpg  used on input line 1242. o
+n input line 1242.
 Package pdftex.def Info: Requested size: 138.2795pt x 91.62416pt on input line 
-1238.
-<graphics/calhouse_0230_20-25165283474-10.jpg, id=392, 246.9225pt x 163.61125pt
->
-File: graphics/calhouse_0230_20-25165283474-10.jpg Graphic file (type jpg)
-<use graphics/calhouse_0230_20-25165283474-10.jpg>
-Package pdftex.def Info: graphics/calhouse_0230_20-25165283474-10.jpg  used on 
-input line 1238. on input line 1238.
+1242.
+<graphics/69-resultado.jpg, id=395, 246.9225pt x 163.61125pt>
+File: graphics/69-resultado.jpg Graphic file (type jpg)
+<use graphics/69-resultado.jpg>
+Package pdftex.def Info: graphics/69-resultado.jpg  used on input line 1242. on
+ input line 1242.
 Package pdftex.def Info: Requested size: 138.2795pt x 91.62416pt on input line 
-1238.
+1242.
 File: graphics/polloPallido.pdf Graphic file (type pdf)
 <use graphics/polloPallido.pdf>
-Package pdftex.def Info: graphics/polloPallido.pdf  used on input line 1238. on
- input line 1238.
+Package pdftex.def Info: graphics/polloPallido.pdf  used on input line 1242. on
+ input line 1242.
 Package pdftex.def Info: Requested size: 24.18501pt x 36.16829pt on input line 
-1238.
+1242.
 
-Overfull \hbox (56.90549pt too wide) in paragraph at lines 1238--1238
+Overfull \hbox (56.90549pt too wide) in paragraph at lines 1242--1242
 [][]  
  []
 
 [34
 
  </home/lg_more/github/maestria-tesis/presentacion/graphics/calhouse_0230.jpg> 
-</home/lg_more/github/maestria-tesis/presentacion/graphics/calhouse_0230_20-251
-65283474-10.jpg>]
-<graphics/calhouse_0230_20-62968204656-00.jpg, id=405, 246.9225pt x 163.61125pt
+</home/lg_more/github/maestria-tesis/presentacion/graphics/69-resultado.jpg>]
+<graphics/calhouse_0230_20-62968204656-00.jpg, id=408, 246.9225pt x 163.61125pt
 >
 File: graphics/calhouse_0230_20-62968204656-00.jpg Graphic file (type jpg)
 <use graphics/calhouse_0230_20-62968204656-00.jpg>
 Package pdftex.def Info: graphics/calhouse_0230_20-62968204656-00.jpg  used on 
-input line 1275. on input line 1275.
+input line 1279. on input line 1279.
 Package pdftex.def Info: Requested size: 138.2795pt x 91.62416pt on input line 
-1275.
-<graphics/calhouse_0230_20-20-0020072469292179818.jpg, id=406, 246.9225pt x 163
+1279.
+<graphics/calhouse_0230_20-20-0020072469292179818.jpg, id=409, 246.9225pt x 163
 .61125pt>
 File: graphics/calhouse_0230_20-20-0020072469292179818.jpg Graphic file (type j
 pg)
 <use graphics/calhouse_0230_20-20-0020072469292179818.jpg>
 Package pdftex.def Info: graphics/calhouse_0230_20-20-0020072469292179818.jpg  
-used on input line 1275. on input line 1275.
+used on input line 1279. on input line 1279.
 Package pdftex.def Info: Requested size: 138.2795pt x 91.62416pt on input line 
-1275.
+1279.
 pdfTeX warning (ext4): destination with the same identifier (name{fig:casa1}) h
 as been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1275     \end{frame}
+l.1279     \end{frame}
                       
 File: graphics/polloPallido.pdf Graphic file (type pdf)
 <use graphics/polloPallido.pdf>
-Package pdftex.def Info: graphics/polloPallido.pdf  used on input line 1275. on
- input line 1275.
+Package pdftex.def Info: graphics/polloPallido.pdf  used on input line 1279. on
+ input line 1279.
 Package pdftex.def Info: Requested size: 24.18501pt x 36.16829pt on input line 
-1275.
+1279.
 
-Overfull \hbox (56.90549pt too wide) in paragraph at lines 1275--1275
+Overfull \hbox (56.90549pt too wide) in paragraph at lines 1279--1279
 [][]  
  []
 
@@ -2633,21 +2637,21 @@ Overfull \hbox (56.90549pt too wide) in paragraph at lines 1275--1275
  </home/lg_more/github/maestria-tesis/presentacion/graphics/calhouse_0230_20-62
 968204656-00.jpg> </home/lg_more/github/maestria-tesis/presentacion/graphics/ca
 lhouse_0230_20-20-0020072469292179818.jpg>]
-<graphics/calhouse_230_2.jpg, id=417, 1360.19748pt x 730.22812pt>
+<graphics/calhouse_230_2.jpg, id=420, 1360.19748pt x 730.22812pt>
 File: graphics/calhouse_230_2.jpg Graphic file (type jpg)
 <use graphics/calhouse_230_2.jpg>
-Package pdftex.def Info: graphics/calhouse_230_2.jpg  used on input line 1289. 
-on input line 1289.
+Package pdftex.def Info: graphics/calhouse_230_2.jpg  used on input line 1293. 
+on input line 1293.
 Package pdftex.def Info: Requested size: 307.28987pt x 164.96277pt on input lin
-e 1289.
+e 1293.
 File: graphics/polloPallido.pdf Graphic file (type pdf)
 <use graphics/polloPallido.pdf>
-Package pdftex.def Info: graphics/polloPallido.pdf  used on input line 1289. on
- input line 1289.
+Package pdftex.def Info: graphics/polloPallido.pdf  used on input line 1293. on
+ input line 1293.
 Package pdftex.def Info: Requested size: 24.18501pt x 36.16829pt on input line 
-1289.
+1293.
 
-Overfull \hbox (56.90549pt too wide) in paragraph at lines 1289--1289
+Overfull \hbox (56.90549pt too wide) in paragraph at lines 1293--1293
 [][]  
  []
 
@@ -2657,32 +2661,18 @@ Overfull \hbox (56.90549pt too wide) in paragraph at lines 1289--1289
 ]
 File: graphics/polloPallido.pdf Graphic file (type pdf)
 <use graphics/polloPallido.pdf>
-Package pdftex.def Info: graphics/polloPallido.pdf  used on input line 1322. on
- input line 1322.
+Package pdftex.def Info: graphics/polloPallido.pdf  used on input line 1326. on
+ input line 1326.
 Package pdftex.def Info: Requested size: 24.18501pt x 36.16829pt on input line 
-1322.
+1326.
 
-Overfull \hbox (56.90549pt too wide) in paragraph at lines 1322--1322
+Overfull \hbox (56.90549pt too wide) in paragraph at lines 1326--1326
 [][]  
  []
 
 [37
 
 ]
-File: graphics/polloPallido.pdf Graphic file (type pdf)
-<use graphics/polloPallido.pdf>
-Package pdftex.def Info: graphics/polloPallido.pdf  used on input line 1338. on
- input line 1338.
-Package pdftex.def Info: Requested size: 24.18501pt x 36.16829pt on input line 
-1338.
-
-Overfull \hbox (56.90549pt too wide) in paragraph at lines 1338--1338
-[][]  
- []
-
-[38
-
-] (/home/lg_more/github/maestria-tesis/presentacion/main.toc)
 File: graphics/polloPallido.pdf Graphic file (type pdf)
 <use graphics/polloPallido.pdf>
 Package pdftex.def Info: graphics/polloPallido.pdf  used on input line 1342. on
@@ -2694,17 +2684,31 @@ Overfull \hbox (56.90549pt too wide) in paragraph at lines 1342--1342
 [][]  
  []
 
+[38
+
+] (/home/lg_more/github/maestria-tesis/presentacion/main.toc)
+File: graphics/polloPallido.pdf Graphic file (type pdf)
+<use graphics/polloPallido.pdf>
+Package pdftex.def Info: graphics/polloPallido.pdf  used on input line 1346. on
+ input line 1346.
+Package pdftex.def Info: Requested size: 24.18501pt x 36.16829pt on input line 
+1346.
+
+Overfull \hbox (56.90549pt too wide) in paragraph at lines 1346--1346
+[][]  
+ []
+
 [39
 
 ]
 File: graphics/polloPallido.pdf Graphic file (type pdf)
 <use graphics/polloPallido.pdf>
-Package pdftex.def Info: graphics/polloPallido.pdf  used on input line 1354. on
- input line 1354.
+Package pdftex.def Info: graphics/polloPallido.pdf  used on input line 1358. on
+ input line 1358.
 Package pdftex.def Info: Requested size: 24.18501pt x 36.16829pt on input line 
-1354.
+1358.
 
-Overfull \hbox (56.90549pt too wide) in paragraph at lines 1354--1354
+Overfull \hbox (56.90549pt too wide) in paragraph at lines 1358--1358
 [][]  
  []
 
@@ -2713,12 +2717,12 @@ Overfull \hbox (56.90549pt too wide) in paragraph at lines 1354--1354
 ] (/home/lg_more/github/maestria-tesis/presentacion/main.toc)
 File: graphics/polloPallido.pdf Graphic file (type pdf)
 <use graphics/polloPallido.pdf>
-Package pdftex.def Info: graphics/polloPallido.pdf  used on input line 1357. on
- input line 1357.
+Package pdftex.def Info: graphics/polloPallido.pdf  used on input line 1361. on
+ input line 1361.
 Package pdftex.def Info: Requested size: 24.18501pt x 36.16829pt on input line 
-1357.
+1361.
 
-Overfull \hbox (56.90549pt too wide) in paragraph at lines 1357--1357
+Overfull \hbox (56.90549pt too wide) in paragraph at lines 1361--1361
 [][]  
  []
 
@@ -2727,12 +2731,12 @@ Overfull \hbox (56.90549pt too wide) in paragraph at lines 1357--1357
 ]
 File: graphics/polloPallido.pdf Graphic file (type pdf)
 <use graphics/polloPallido.pdf>
-Package pdftex.def Info: graphics/polloPallido.pdf  used on input line 1369. on
- input line 1369.
+Package pdftex.def Info: graphics/polloPallido.pdf  used on input line 1373. on
+ input line 1373.
 Package pdftex.def Info: Requested size: 24.18501pt x 36.16829pt on input line 
-1369.
+1373.
 
-Overfull \hbox (56.90549pt too wide) in paragraph at lines 1369--1369
+Overfull \hbox (56.90549pt too wide) in paragraph at lines 1373--1373
 [][]  
  []
 
@@ -2741,40 +2745,40 @@ Overfull \hbox (56.90549pt too wide) in paragraph at lines 1369--1369
 ]
 File: graphics/polloPallido.pdf Graphic file (type pdf)
 <use graphics/polloPallido.pdf>
-Package pdftex.def Info: graphics/polloPallido.pdf  used on input line 1381. on
- input line 1381.
+Package pdftex.def Info: graphics/polloPallido.pdf  used on input line 1385. on
+ input line 1385.
 Package pdftex.def Info: Requested size: 24.18501pt x 36.16829pt on input line 
-1381.
+1385.
 
-Overfull \hbox (56.90549pt too wide) in paragraph at lines 1381--1381
+Overfull \hbox (56.90549pt too wide) in paragraph at lines 1385--1385
 [][]  
  []
 
 [43
 
 ]
-<graphics/Flyer-CCIS-2016v6.png, id=483, 298.83646pt x 109.48904pt>
+<graphics/Flyer-CCIS-2016v6.png, id=486, 298.83646pt x 109.48904pt>
 File: graphics/Flyer-CCIS-2016v6.png Graphic file (type png)
 <use graphics/Flyer-CCIS-2016v6.png>
 Package pdftex.def Info: graphics/Flyer-CCIS-2016v6.png  used on input line 140
-3. on input line 1403.
+7. on input line 1407.
 Package pdftex.def Info: Requested size: 138.2795pt x 50.66461pt on input line 
-1403.
-<graphics/LOGO-MICAI-2015-OK.jpg, id=484, 850.67813pt x 624.83438pt>
+1407.
+<graphics/LOGO-MICAI-2015-OK.jpg, id=487, 850.67813pt x 624.83438pt>
 File: graphics/LOGO-MICAI-2015-OK.jpg Graphic file (type jpg)
 <use graphics/LOGO-MICAI-2015-OK.jpg>
 Package pdftex.def Info: graphics/LOGO-MICAI-2015-OK.jpg  used on input line 14
-03. on input line 1403.
+07. on input line 1407.
 Package pdftex.def Info: Requested size: 138.2795pt x 101.56775pt on input line
- 1403.
+ 1407.
 File: graphics/polloPallido.pdf Graphic file (type pdf)
 <use graphics/polloPallido.pdf>
-Package pdftex.def Info: graphics/polloPallido.pdf  used on input line 1403. on
- input line 1403.
+Package pdftex.def Info: graphics/polloPallido.pdf  used on input line 1407. on
+ input line 1407.
 Package pdftex.def Info: Requested size: 24.18501pt x 36.16829pt on input line 
-1403.
+1407.
 
-Overfull \hbox (56.90549pt too wide) in paragraph at lines 1403--1403
+Overfull \hbox (56.90549pt too wide) in paragraph at lines 1407--1407
 [][]  
  []
 
@@ -2783,6 +2787,45 @@ Overfull \hbox (56.90549pt too wide) in paragraph at lines 1403--1403
  </home/lg_more/github/maestria-tesis/presentacion/graphics/Flyer-CCIS-2016v6.p
 ng> </home/lg_more/github/maestria-tesis/presentacion/graphics/LOGO-MICAI-2015-
 OK.jpg>]
+<graphics/fin__lc.jpg, id=495, 963.6pt x 516.93124pt>
+File: graphics/fin__lc.jpg Graphic file (type jpg)
+<use graphics/fin__lc.jpg>
+Package pdftex.def Info: graphics/fin__lc.jpg  used on input line 1429. on inpu
+t line 1429.
+Package pdftex.def Info: Requested size: 179.76376pt x 96.43532pt on input line
+ 1429.
+
+Overfull \hbox (41.48427pt too wide) in paragraph at lines 1429--1429
+ [] 
+ []
+
+<graphics/fin_lc.jpg, id=496, 963.6pt x 516.93124pt>
+File: graphics/fin_lc.jpg Graphic file (type jpg)
+<use graphics/fin_lc.jpg>
+Package pdftex.def Info: graphics/fin_lc.jpg  used on input line 1429. on input
+ line 1429.
+Package pdftex.def Info: Requested size: 179.76376pt x 96.43532pt on input line
+ 1429.
+
+Overfull \hbox (41.48427pt too wide) in paragraph at lines 1429--1429
+ [] 
+ []
+
+File: graphics/polloPallido.pdf Graphic file (type pdf)
+<use graphics/polloPallido.pdf>
+Package pdftex.def Info: graphics/polloPallido.pdf  used on input line 1429. on
+ input line 1429.
+Package pdftex.def Info: Requested size: 24.18501pt x 36.16829pt on input line 
+1429.
+
+Overfull \hbox (56.90549pt too wide) in paragraph at lines 1429--1429
+[][]  
+ []
+
+[45
+
+ </home/lg_more/github/maestria-tesis/presentacion/graphics/fin__lc.jpg> </home
+/lg_more/github/maestria-tesis/presentacion/graphics/fin_lc.jpg>]
 \tf@nav=\write10
 \openout10 = `main.nav'.
 
@@ -2792,11 +2835,11 @@ OK.jpg>]
 \tf@snm=\write12
 \openout12 = `main.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1536.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1536.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1562.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1562.
 (/home/lg_more/github/maestria-tesis/presentacion/main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1536.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1536.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1562.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1562.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 4A0F88B52DEC8E5BF5FA1C65C8821617;375.
@@ -2808,10 +2851,10 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 45952 strings out of 492990
- 957187 string characters out of 6135005
- 1412140 words of memory out of 5000000
- 48528 multiletter control sequences out of 15000+600000
+ 45980 strings out of 492990
+ 957799 string characters out of 6135005
+ 1412128 words of memory out of 5000000
+ 48549 multiletter control sequences out of 15000+600000
  580556 words of font info for 121 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  65i,22n,103p,10563b,869s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2832,11 +2875,11 @@ hare/texlive/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/share/texlive
 /texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/texlive/texmf-dist/
 fonts/type1/urw/palatino/uplri8a.pfb></usr/share/texlive/texmf-dist/fonts/type1
 /public/esvect/vect10.pfb>
-Output written on /home/lg_more/github/maestria-tesis/presentacion/main.pdf (44
- pages, 2428218 bytes).
+Output written on /home/lg_more/github/maestria-tesis/presentacion/main.pdf (45
+ pages, 2907482 bytes).
 PDF statistics:
- 578 PDF objects out of 1000 (max. 8388607)
- 446 compressed objects within 5 object streams
- 120 named destinations out of 1000 (max. 500000)
- 363 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 590 PDF objects out of 1000 (max. 8388607)
+ 452 compressed objects within 5 object streams
+ 122 named destinations out of 1000 (max. 500000)
+ 388 words of extra memory for PDF output out of 10000 (max. 10000000)
 
