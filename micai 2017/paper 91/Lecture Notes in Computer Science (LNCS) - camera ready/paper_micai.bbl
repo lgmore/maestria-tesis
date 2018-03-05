@@ -1,0 +1,114 @@
+\begin{thebibliography}{10}
+
+\bibitem{doi2007computer}
+Kunio Doi.
+\newblock Computer-aided diagnosis in medical imaging: historical review,
+  current status and future potential.
+\newblock {\em Computerized medical imaging and graphics}, 31(4):198--211,
+  2007.
+
+\bibitem{kak2001principles}
+Avinash~C Kak and Malcolm Slaney.
+\newblock {\em Principles of computerized tomographic imaging}.
+\newblock SIAM, 2001.
+
+\bibitem{doi:10.1056/NEJM199303113281008}
+Robert~R Edelman and Steven Warach.
+\newblock Magnetic resonance imaging.
+\newblock {\em New England Journal of Medicine}, 328(10):708--716, 1993.
+\newblock PMID: 8433731.
+
+\bibitem{lillesand2014remote}
+Thomas Lillesand, Ralph~W Kiefer, and Jonathan Chipman.
+\newblock {\em Remote sensing and image interpretation}.
+\newblock John Wiley \& Sons, 2014.
+
+\bibitem{Gonzalez02a}
+Rafael~C. Gonzalez and Richard~E. Woods.
+\newblock {\em Digital Image Processing (2nd Ed)}.
+\newblock Prentice Hall, 2002.
+
+\bibitem{pizer1987adaptive}
+Stephen~M Pizer, E~Philip Amburn, John~D Austin, Robert Cromartie, Ari
+  Geselowitz, Trey Greer, Bart ter Haar~Romeny, John~B Zimmerman, and Karel
+  Zuiderveld.
+\newblock Adaptive histogram equalization and its variations.
+\newblock {\em Computer vision, graphics, and image processing},
+  39(3):355--368, 1987.
+
+\bibitem{zuiderveld1994contrast}
+Karel Zuiderveld.
+\newblock Contrast limited adaptive histogram equalization.
+\newblock In {\em Graphics gems IV}, pages 474--485. Academic Press
+  Professional, Inc., 1994.
+
+\bibitem{580378}
+Yeong-Taeg Kim.
+\newblock Contrast enhancement using brightness preserving bi-histogram
+  equalization.
+\newblock {\em IEEE Transactions on Consumer Electronics}, 43(1):1--8, Feb
+  1997.
+
+\bibitem{morepso}
+LG~Mor{\'e} and MA~Brizuela.
+\newblock Pso applied to parameter tuning of clahe based on entropy and
+  structural similarity index.
+
+\bibitem{more2015parameter}
+Luis~G More, Marcos~A Brizuela, Horacio~Legal Ayala, Diego~P Pinto-Roa, and
+  Jose Luis~Vazquez Noguera.
+\newblock Parameter tuning of clahe based on multi-objective optimization to
+  achieve different contrast levels in medical images.
+\newblock In {\em Image Processing (ICIP), 2015 IEEE International Conference
+  on}, pages 4644--4648. IEEE, 2015.
+
+\bibitem{812529}
+F.~Saitoh.
+\newblock Image contrast enhancement using genetic algorithm.
+\newblock In {\em Systems, Man, and Cybernetics, 1999. IEEE SMC '99 Conference
+  Proceedings. 1999 IEEE International Conference on}, volume~4, pages 899--904
+  vol.4, 1999.
+
+\bibitem{HOSEINI2013879}
+Pourya Hoseini and Mahrokh~G. Shayesteh.
+\newblock Efficient contrast enhancement of images using hybrid ant colony
+  optimisation, genetic algorithm, and simulated annealing.
+\newblock {\em Digital Signal Processing}, 23(3):879 -- 893, 2013.
+
+\bibitem{gonzalez2002processing}
+Rafael~C Gonzalez and Richard~E Woods.
+\newblock Processing, 2002.
+
+\bibitem{nebro2009smpso}
+Antonio~J Nebro, Juan~Jos{\'e} Durillo, Jose Garcia-Nieto, CA~Coello Coello,
+  Francisco Luna, and Enrique Alba.
+\newblock Smpso: A new pso-based metaheuristic for multi-objective
+  optimization.
+\newblock In {\em Computational intelligence in miulti-criteria
+  decision-making, 2009. mcdm'09. ieee symposium on}, pages 66--73. IEEE, 2009.
+
+\bibitem{108593}
+A.~Khellaf, A.~Beghdadi, and H.~Dupoisot.
+\newblock Entropic contrast enhancement.
+\newblock {\em IEEE Transactions on Medical Imaging}, 10(4):589--592, Dec 1991.
+
+\bibitem{wang2004image}
+Zhou Wang, Alan~C Bovik, Hamid~R Sheikh, and Eero~P Simoncelli.
+\newblock Image quality assessment: from error visibility to structural
+  similarity.
+\newblock {\em IEEE transactions on image processing}, 13(4):600--612, 2004.
+
+\bibitem{durillo2010jmetal}
+Juan~J Durillo, Antonio~J Nebro, and Enrique Alba.
+\newblock The jmetal framework for multi-objective optimization: Design and
+  architecture.
+\newblock In {\em Evolutionary Computation (CEC), 2010 IEEE Congress on}, pages
+  1--8. IEEE, 2010.
+
+\bibitem{bradski2000opencv}
+Gary Bradski.
+\newblock The opencv library.
+\newblock {\em Dr. Dobb's Journal: Software Tools for the Professional
+  Programmer}, 25(11):120--123, 2000.
+
+\end{thebibliography}

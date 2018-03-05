@@ -1,0 +1,71 @@
+\documentclass[11pt]{article}
+
+\usepackage{graphics}
+\usepackage[dvips]{graphicx}
+\usepackage[left]{lineno}
+\usepackage{multicol}
+%\usepackage[a4paper,left=1.4cm,right=1.5cm,top=1.5cm]{geometry}
+\pagenumbering{arabic}
+\usepackage[utf8]{inputenc}
+\setcounter{page}{01}
+\usepackage[british]{babel}
+
+\begin{document}
+%\pagestyle{myheadings}
+%\markright{\footnotesize {doi:10.6062/jcis.2015.06.01.0091 \hspace{3.5cm} Dantas et al.}}  % para book, report article
+
+%\pagestyle{myheadings}
+%\markright{\footnotesize {doi:10.6062/jcis.2015.**.**.**** %\hspace{3.5cm} Rosa et al.}}  % para book, report article
+%\linenumbers
+\pagenumbering{gobble}
+
+
+%\includegraphics[height=1.96cm]{headP96.png}
+\vspace{1.2cm}
+
+
+\begin{center}
+%======
+%Title
+%======
+
+{\bf  {\Large Contrast Enhancement of Color Images using a Multi-Objective Optimization Framework}}
+\bigskip
+
+%============================
+%List of Authors and Address
+%============================
+
+{\small Luis G. Moré\footnote{E-mail Corresponding Author: lmore@pol.una.py}, Diego Pinto-Roa, José L. Vázquez N.
+}
+\smallskip
+
+{\small
+Facultad Politécnica - Universidad Nacional de Asunción\\
+}
+
+
+%{\footnotesize Received on January 01, 2015 / accepted on *****, 2015}
+
+\end{center}
+
+\quad
+
+%============================
+%Abstract and Keywords
+%============================
+%\hline
+%\cline{5cm}
+
+\begin{abstract}
+Contrast Enhancement(CE) is a fundamental preproccessing step for several applications. This task has been addressed successfully using Multi-Objective Optimization(MOO), for gray-scale images. Nevertheless, difficulties arise when performing MOO for color images. In this paper, a MOO approach is presented in which automatic CE is performed for color images, taking into account evaluation metrics better suited for color spaces, in which color images are represented. The results consist of a set of contrast enhanced images, with different compromise rates between contrast modification and noise introduction as a result of the process. The results obtained appear to be promising, and they are compared with a state-of-the-art deterministic approach for CE.
+
+
+\quad
+
+{\footnotesize
+{\bf Keywords}: Multi-Objective optimization, Contrast Enhancement, MOPSO, CLAHE, Color Spaces.}
+\end{abstract}
+
+
+\end{document}
