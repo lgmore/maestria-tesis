@@ -368,7 +368,7 @@ $PSO$ se atribuye originalmente a Kennedy, Eberhart y Shi \cite{699146}.
 
 En la Figura \ref{fig:comportamientopso} se puede ver como unas soluciones candidatas se mueven dentro de un espacio de búsqueda, de manera de optimizar un objetivo.
 
-En $PSO$, cada solución potencial del problema que se trata se denomina \textit{particle} y la población actual de soluciones se llama \textit{swarm}. Cada partícula $\vv{x}$\label{symbol:mopsoparticula} realiza una búsqueda dentro de un espacio de búsqueda $\Omega$, y para cada generación $t$, cada solución $\vv{x}$ se actualiza de acuerdo a: 
+En $PSO$, cada solución potencial del problema que se trata se denomina \textit{particle} y la población actual de soluciones se llama \textit{swarm}. Cada partícula $\vv{x}$\label{symbol:mopsoparticula} realiza una búsqueda dentro de un conjunto de partículas $\Omega$, y para cada generación $t$, cada solución $\vv{x}$ se actualiza de acuerdo a: 
 
 
 \begin{equation}\label{eq:posicion1}
@@ -384,7 +384,7 @@ En $PSO$, cada solución potencial del problema que se trata se denomina \textit
 Aquí, $\vv{v}$\label{symbol:mopsovelocidad} es un factor conocido como la velocidad, y está dado por:
 
 \begin{equation}\label{eq:velocidad1}
-\vv{v}_i(t) = w \cdot (t-1) + C_1 \cdot r_1 \cdot (\vv{x}_{p_i} - \vv{x}_i) + C_2 \cdot r_2 \cdot (\vv{x}_{g_i} - \vv{x_i}) \text{,}
+\vv{v}_i(t) = w \vv{v}_i\cdot (t-1) + C_1 \cdot r_1 \cdot (\vv{x}_{p_i} - \vv{x}_i) + C_2 \cdot r_2 \cdot (\vv{x}_{g_i} - \vv{x_i}) \text{,}
 \end{equation}
 
 donde $\vv{x}_{p_i}$ es la mejor solución que $\vv{x}_i$ encontró hasta la iteración $t-1$, $\vv{x}_{g_i}$ es la mejor solución que el enjambre completo encontró durante la iteración $t-1$, $w$ es un coeficiente conocido como el \textit{peso de la inercia}, que controla la tasa de velocidad de la búsquda de $PSO$; $r_1$ y $r_2$ son números aleatorios entre $[0,1]$. Finalmente, $C_1$ y $C_2$ son los coeficientes que controlan la ponderación entre partículas globales y locales durante la búsqueda.

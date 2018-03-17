@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2017.11.3)  15 DEC 2017 20:05
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2017.11.3)  20 DEC 2017 09:24
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1578,7 +1578,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 1--1
 ]
 \openout2 = `abstract.aux'.
 
-(/home/lg_more/github/maestria-tesis/libro/abstract.tex) [7
+(/home/lg_more/github/maestria-tesis/libro/abstract.tex
+Underfull \hbox (badness 5924) in paragraph at lines 2--2
+[]|\OT1/lmr/m/n/12 Jos^^Se Luis V^^Sazquez Noguera,
+ []
+
+) [7
 
 
 
@@ -2585,10 +2590,10 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 147.
  ) 
 Here is how much of TeX's memory you used:
- 26756 strings out of 492990
- 516745 string characters out of 6135005
- 687400 words of memory out of 5000000
- 29173 multiletter control sequences out of 15000+600000
+ 26761 strings out of 492990
+ 516841 string characters out of 6135005
+ 687404 words of memory out of 5000000
+ 29178 multiletter control sequences out of 15000+600000
  70796 words of font info for 85 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  55i,27n,86p,1750b,778s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2615,7 +2620,7 @@ fb></usr/share/texlive/texmf-dist/fonts/type1/public/rsfs/rsfs7.pfb></usr/share
 /texlive/texmf-dist/fonts/type1/public/esvect/vect10.pfb></usr/share/texlive/te
 xmf-dist/fonts/type1/public/esvect/vect8.pfb>
 Output written on /home/lg_more/github/maestria-tesis/libro/thesis.pdf (114 pag
-es, 4275326 bytes).
+es, 4275471 bytes).
 PDF statistics:
  1482 PDF objects out of 1728 (max. 8388607)
  1202 compressed objects within 13 object streams

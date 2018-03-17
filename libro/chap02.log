@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2017.11.3)  15 DEC 2017 17:45
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2017.11.3)  20 DEC 2017 09:24
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -18811,24 +18811,27 @@ Missing character: There is no d in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no u in font nullfont!
 Missing character: There is no n in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no s in font nullfont!
-Missing character: There is no p in font nullfont!
-Missing character: There is no a in font nullfont!
 Missing character: There is no c in font nullfont!
-Missing character: There is no i in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no j in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no t in font nullfont!
 Missing character: There is no o in font nullfont!
 Missing character: There is no d in font nullfont!
 Missing character: There is no e in font nullfont!
-Missing character: There is no b in font nullfont!
-Missing character: There is no Ã in font nullfont!
-Missing character: There is no º in font nullfont!
-Missing character: There is no s in font nullfont!
-Missing character: There is no q in font nullfont!
-Missing character: There is no u in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no d in font nullfont!
+Missing character: There is no p in font nullfont!
 Missing character: There is no a in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no Ã in font nullfont!
+Missing character: There is no ­ in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no s in font nullfont!
 Missing character: There is no , in font nullfont!
 Missing character: There is no y in font nullfont!
 Missing character: There is no p in font nullfont!
@@ -19070,7 +19073,7 @@ Overfull \hbox (20.0pt too wide) in paragraph at lines 386--386
 
 ! Undefined control sequence.
 l.387 \vv
-         {v}_i(t) = w \cdot (t-1) + C_1 \cdot r_1 \cdot (\vv{x}_{p_i} - \vv{...
+         {v}_i(t) = w \vv{v}_i\cdot (t-1) + C_1 \cdot r_1 \cdot (\vv{x}_{p_i...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -19078,7 +19081,16 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.387 ... w \cdot (t-1) + C_1 \cdot r_1 \cdot (\vv
+l.387 \vv{v}_i(t) = w \vv
+                         {v}_i\cdot (t-1) + C_1 \cdot r_1 \cdot (\vv{x}_{p_i...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.387 ...}_i\cdot (t-1) + C_1 \cdot r_1 \cdot (\vv
                                                   {x}_{p_i} - \vv{x}_i) + C_...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -19123,14 +19135,14 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-Overfull \hbox (213.96826pt too wide) detected at line 388
+Overfull \hbox (222.14478pt too wide) detected at line 388
 []\OML/cmm/m/it/10 v[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 t\OT1/cmr/m/n/10 ) = \O
-ML/cmm/m/it/10 w \OMS/cmsy/m/n/10 ^^A \OT1/cmr/m/n/10 (\OML/cmm/m/it/10 t \OMS/
-cmsy/m/n/10 ^^@ \OT1/cmr/m/n/10 1) + \OML/cmm/m/it/10 C[] \OMS/cmsy/m/n/10 ^^A 
-\OML/cmm/m/it/10 r[] \OMS/cmsy/m/n/10 ^^A \OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x[]
- \OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 x[]\OT1/cmr/m/n/10 ) + \OML/cmm/m/it/10 
-C[] \OMS/cmsy/m/n/10 ^^A \OML/cmm/m/it/10 r[] \OMS/cmsy/m/n/10 ^^A \OT1/cmr/m/n
-/10 (\OML/cmm/m/it/10 x[] \OMS/cmsy/m/n/10 ^^@ []\OT1/cmr/m/n/10 )[]
+ML/cmm/m/it/10 wv[] \OMS/cmsy/m/n/10 ^^A \OT1/cmr/m/n/10 (\OML/cmm/m/it/10 t \O
+MS/cmsy/m/n/10 ^^@ \OT1/cmr/m/n/10 1) + \OML/cmm/m/it/10 C[] \OMS/cmsy/m/n/10 ^
+^A \OML/cmm/m/it/10 r[] \OMS/cmsy/m/n/10 ^^A \OT1/cmr/m/n/10 (\OML/cmm/m/it/10 
+x[] \OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 x[]\OT1/cmr/m/n/10 ) + \OML/cmm/m/it/
+10 C[] \OMS/cmsy/m/n/10 ^^A \OML/cmm/m/it/10 r[] \OMS/cmsy/m/n/10 ^^A \OT1/cmr/
+m/n/10 (\OML/cmm/m/it/10 x[] \OMS/cmsy/m/n/10 ^^@ []\OT1/cmr/m/n/10 )[]
  []
 
 Missing character: There is no d in font nullfont!

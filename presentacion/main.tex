@@ -618,7 +618,7 @@ $L$ es la cantidad de niveles de intensidad representables en la imagen, $M \tim
 \frametitle{Marco Teórico} 
 % \framesubtitle{And also some blocks.} 
 \begin{exampleblock}{\textit{Structural Similarity Index - SSIM}}
-Es una métrica que mide atributos importantes de la imagen tales como la \textit{Luminancia, Contraste} y la \textit{Estructura}.
+Es una métrica local que mide atributos importantes de la imagen tales como la \textit{Luminancia, Contraste} y la \textit{Estructura}.
 
 El objetivo de $SSIM$ es el de medir la distorsión de la imagen.
 
@@ -683,7 +683,7 @@ Cada partícula $\vv{x}=(\mathscr{R}_x, \mathscr{R}_y, \mathscr{C})$ realiza una
 Donde $\vv{v}$ se conoce como el factor de velocidad, y está dado por:
 
 \begin{equation}\label{eq:velocidad1}
-\vv{v}_i(t) = w \cdot (t-1) + C_1 \cdot r_1 \cdot (\vv{x}_{p_i} - \vv{x}_i) + C_2 \cdot r_2 \cdot (\vv{x}_{g_i} - \vv{x_i})
+\vv{v}_i(t) = w \vv{v}_i\cdot (t-1) + C_1 \cdot r_1 \cdot (\vv{x}_{p_i} - \vv{x}_i) + C_2 \cdot r_2 \cdot (\vv{x}_{g_i} - \vv{x_i})
 \end{equation}
 
 \end{exampleblock}
@@ -1353,6 +1353,7 @@ $SSIM_B$ & -0.9826 & 0.9999   & 0.9999   & 1 \\
 	\item La implementación propuesta demuestra ser satisfactoria para la realización de Mejora del Contraste Automática.
 	\item Se obtienen los parámetros con buena relación inversa entre contraste/distorsión.
 	\item La implementación es adecuada para la obtención de parámetros del algoritmo de mejora del contraste, aplicados sobre una imagen determinada.
+	\item Los tiempos de entrenamiento son adecuados para lograr los resultados esperados.
 \end{itemize}
 \end{exampleblock}
 \end{frame}
