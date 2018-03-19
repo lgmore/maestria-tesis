@@ -26,45 +26,45 @@ You're missing a field name---line 251 of file referencias.bib
 I'm skipping whatever remains of this entry
 Warning--to sort, need author, organization, or key in time
 Warning--empty journal in morepso
-You've used 28 entries,
+You've used 29 entries,
             2543 wiz_defined-function locations,
-            749 strings with 9782 characters,
-and the built_in function-call counts, 12235 in all, are:
-= -- 1228
-> -- 574
+            755 strings with 9981 characters,
+and the built_in function-call counts, 12747 in all, are:
+= -- 1280
+> -- 605
 < -- 17
-+ -- 200
-- -- 196
-* -- 900
-:= -- 1952
-add.period$ -- 86
-call.type$ -- 28
-change.case$ -- 182
-chr.to.int$ -- 27
-cite$ -- 31
-duplicate$ -- 481
-empty$ -- 901
-format.name$ -- 226
-if$ -- 2551
++ -- 212
+- -- 208
+* -- 946
+:= -- 2038
+add.period$ -- 89
+call.type$ -- 29
+change.case$ -- 190
+chr.to.int$ -- 28
+cite$ -- 32
+duplicate$ -- 495
+empty$ -- 933
+format.name$ -- 239
+if$ -- 2650
 int.to.chr$ -- 2
 int.to.str$ -- 0
-missing$ -- 27
-newline$ -- 142
-num.names$ -- 81
-pop$ -- 176
+missing$ -- 28
+newline$ -- 147
+num.names$ -- 84
+pop$ -- 181
 preamble$ -- 1
-purify$ -- 212
+purify$ -- 221
 quote$ -- 0
-skip$ -- 416
+skip$ -- 428
 stack$ -- 0
-substring$ -- 746
-swap$ -- 104
+substring$ -- 784
+swap$ -- 105
 text.length$ -- 17
 text.prefix$ -- 7
 top$ -- 0
-type$ -- 216
+type$ -- 224
 warning$ -- 2
-while$ -- 114
-width$ -- 31
-write$ -- 361
+while$ -- 119
+width$ -- 32
+write$ -- 374
 (There were 2 error messages)

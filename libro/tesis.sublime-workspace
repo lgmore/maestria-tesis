@@ -40,35 +40,6 @@
 	"buffers":
 	[
 		{
-			"contents": "mostrar el proceso siguiente  al modificar el canal, se aplica ce en Y y se obtiene la nueva imagen 11\ncómo hacen los otros trabajos ",
-			"settings":
-			{
-				"buffer_size": 133,
-				"line_ending": "Unix",
-				"name": "mostrar el proceso siguiente  al modificar el cana"
-			}
-		},
-		{
-			"contents": "Searching for adequate input parameters of a Contrast Enhancement Algorithm is a fundamental task, aimed to get more suitable images for decision making or further applications. Several Optimization approaches take a single image as the input of the proccess. In this proposal, a group of several images of the same type are taken as input of a Robust Multi-Objective Optimization approach, in order to achieve more suitable input parameters for a kind of images, instead of a single image.\n\n\n\nLa selección correcta de las métricas para la evaluación de la calidad de la imagen, que permita evaluar la ganancia o perdida de información, así como la distorsión en la misma y que posibilite establecer un criterio objetivo de calidad, en el contexto de mejora de constraste, es el ideal buscado; así como también obtener una solución óptima para un grupo de imágenes del mismo tipo, para lo cual se deben diseñar los algoritmos de optimización multiobjetivos adecuados.\n\nLa determinación efectiva de las métricas de evaluación de calidad en una imagen es importante debido a que pueden utilizarse para optimizar algoritmos, detectar cambios que no son perceptibles a simple vista, ect. en aplicaciones de procesado de imágenes y de esta forma obtener imágenes más adecuadas para cierta aplicación específica.\n\nEn este trabajo se propone un estudio de distintas métricas disponibles en la literatura, de forma a definir en base a un estudio de correlación, cuáles de ellas serán utilizadas en un proceso de optimización multiobjetivo robusta. Los métodos de optimización robusta se utilizan para asegurar la calidad de las soluciones, así como criterios de selección para la determinación del resultado óptimo.\n\nUna optimización Robusta basada en la metaheurística de enjambre de partículas $SMPSO$ (por sus siglas en inglés, Speed-constrained Multi-Objective Particle Swarm Optimization), es aplicada a un conjunto de imágenes médicas (radiografías), el cuál sintoniza los parámetros del algoritmo \\textit{Ecualización de histograma adaptativa por medio de limitación de contraste} $CLAHE$ (por sus siglas en inglés, Contrast Limited Adaptive Histogram Equalization), con el que se realiza la mejora de la imagen de manera a determinar las variables de decisión adecuadas para ciertos tipos de imágenes.\n\nSe tomaron 4 métricas de calidad, \\textit{Entropía}, \\textit{Entropía Local}, \\textit{Índice de Similitud Estructural}, \\textit{SSIM} (por sus siglas en inglés, Structural Similarity Index) y \\textit{Local Tuned Global Model}, con las cuales se realizaron comparaciones de a pares para medir la correlación entre ellas. Los resultados muestran que las métricas \\textit{Entropía Local} y el \\textit{SSIM} tienen una alta correlación negativa por lo que el problema debe ser planteado en un contexto multiobjetivo basado en no dominancia. Además se observa que el $SMPSO$ es una herramienta factible para el cálculo de soluciones no dominadas sobre las cuales el algoritmo que toma las decisiones seleccionará la imagen más adecuada en base al contexto de trabajo.\n\nLas pruebas experimentales realizadas muestran que es factible obtener Frentes Pareto Robustos, para un grupo de imágenes del mismo tipo, lo que nos indica que dicho Frente pareto robusto no necesariamente es la solución óptima para ese grupo de imágenes.\n\nAl analizar los Frentes Pareto óptimos de las imágenes procesadas, se observa que la solución óptima de una imagen no necesariamente es la mejor solución para el conjunto de imágenes.",
-			"settings":
-			{
-				"buffer_size": 3507,
-				"line_ending": "Unix",
-				"name": "Searching for adequate input parameters of a Contr"
-			}
-		},
-		{
-			"contents": "%- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -\n% \tDO NOT MODIFY HERE, SCROLL DOWN\n%- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -\n\n\\documentclass[a4paper,11pt]{article}\n%\\usepackage[latin1]{inputenc}\n\\usepackage[utf8]{inputenc}\n\\usepackage[spanish]{babel}\n\\usepackage{graphicx,amsmath,amsfonts,amssymb,a4wide}\n\\usepackage{mathtools}\n\\usepackage{mathrsfs}\n\\usepackage{caption}\n\\usepackage{subfigure}\n\\usepackage[tablename=Tabla]{caption}\n\\usepackage{adjustbox}\n\\usepackage{xcolor}\n\n\\newenvironment{vuoto}{}{}\n\\newenvironment{abst}{\n\\textbf{Resumen.}\\begin{vuoto}}{\n\\end{vuoto}}\n\n\\newenvironment{keyw}{\n\\textbf{Keywords:}\\begin{vuoto}}{\n\\end{vuoto}}\n\n\n\n\\newcommand{\\papertitle}[1]{%\n\\begin{center}\n\\LARGE \\textbf{#1} \\\\\n\\vspace*{0.5cm}\n}\n\\newcommand{\\session}[1]{%\n\\newpage\n\\begin{center}\n%\\Large \n\\textit{#1} \\\\\n\\end{center}\n\\vspace*{0.5cm}\n}\n\\newcommand{\\presentername}[1]{%\n\\normalsize\n\\textbf{#1}$^*$ \\\\\n}\n\\newcommand{\\presenteraffiliation}[2]{%\n\\normalsize \\emph{#1}, \\texttt{#2} \\\\\n\\vspace*{1ex} \n}\n\\newcommand{\\coauthorname}[1]{%\n\\normalsize\n\\textbf{#1} \\\\\n}\n\\newcommand{\\coauthoraffiliation}[2]{%\n\\normalsize \\emph{#1}, \\texttt{#2} \\\\\n\\vspace*{1ex}\n}\n\n\\newcommand{\\paperabstract}[1]{%\n\\setcounter{figure}{0}\n\\end{center}\n\\begin{abst}\n\\normalsize #1\n\\end{abst}\n\\vspace*{1ex}\n}\n\n\\newcommand{\\paperkeywords}[1]{%\n\n\\begin{keyw}\n\\normalsize \\emph{#1}\n\\end{keyw}\n\\vspace*{1ex}\n}\n\n\\newenvironment{papertext}{}\n\n\\newcommand{\\vref}[1]{\n\\item #1\n}\n\n\\newcommand{\\paperreferences}[1]{%\n~\\\\\n\\noindent \\large \\textbf{Referencias}\n\\renewcommand{\\theenumi}{[\\arabic{enumi}]}\n\\renewcommand{\\labelenumi}{\\theenumi}\n\\begin{enumerate}\n\\normalsize\n#1\n\\end{enumerate}\n\\newpage\n}\n\n\\begin{document}\n\n%------- Title of the talk\n% \\papertitle{Mejora de Constraste basada en PSO-CLAHE Multiobjetiva Robusta}\n%\\papertitle{Análisis de la Calidad de Imagen en un Contexto Multiobjetivo Robusto basado en el MSPSO-CLAHE}\n\\papertitle{Analysis of the Image Quality in a Robust Multiobjective Context based on MSPSO-CLAHE}\n\n\\coauthorname{Monserrat Mora B.}\n\\presenteraffiliation{Facultad Politécnica, Universidad Nacional de Asunción}{monserratmorab@gmail.com}\n\n\\coauthorname{Adriana D. Coronel Sotelo}\n\\coauthoraffiliation{Facultad Politécnica, Universidad Nacional de Asunción}{adrianapy04@gmail.com}\n\n\n%------- Abstract (max 1500 characters)\n\\paperabstract{\nSearching for adequate input parameters of a Contrast Enhancement Algorithm is a fundamental task, aimed to get more suitable images, in terms of conttrast, for decision making or further applications. Several Optimization approaches take a single image as the input of the proccess. In this proposal, a group of several images of the same type are taken as input of a Robust Multi-Objective Optimization approach, in order to achieve more suitable input parameters for a kind of images, instead of a single image. The results are a set of input parameters for the contrast Enhancement Algorithm, suitable for Contrast Enhacement of a group of images of the same type. \n%La selección correcta de las métricas para la evaluación de la calidad de la imagen, que permita evaluar la ganancia o perdida de información, así como la distorsión en la misma y que posibilite establecer un criterio objetivo de calidad, en el contexto de mejora de constraste, es el ideal buscado; así como también obtener una solución óptima para un grupo de imágenes del mismo tipo, para lo cual se deben diseñar los algoritmos de optimización multiobjetivos adecuados.\n\n%La determinación efectiva de las métricas de evaluación de calidad en una imagen es importante debido a que pueden utilizarse para optimizar algoritmos, detectar cambios que no son perceptibles a simple vista, ect. en aplicaciones de procesado de imágenes y de esta forma obtener imágenes más adecuadas para cierta aplicación específica.\n\n%En este trabajo se propone un estudio de distintas métricas disponibles en la literatura, de forma a definir en base a un estudio de correlación, cuáles de ellas serán utilizadas en un proceso de optimización multiobjetivo robusta. Los métodos de optimización robusta se utilizan para asegurar la calidad de las soluciones, así como criterios de selección para la determinación del resultado óptimo.\n\n%Una optimización Robusta basada en la metaheurística de enjambre de partículas $SMPSO$ (por sus siglas en inglés, Speed-constrained Multi-Objective Particle Swarm Optimization), es aplicada a un conjunto de imágenes médicas (radiografías), el cuál sintoniza los parámetros del algoritmo \\textit{Ecualización de histograma adaptativa por medio de limitación de contraste} $CLAHE$ (por sus siglas en inglés, Contrast Limited Adaptive Histogram Equalization), con el que se realiza la mejora de la imagen de manera a determinar las variables de decisión adecuadas para ciertos tipos de imágenes.\n\n%Se tomaron 4 métricas de calidad, \\textit{Entropía}, \\textit{Entropía Local}, \\textit{Índice de Similitud Estructural}, \\textit{SSIM} (por sus siglas en inglés, Structural Similarity Index) y \\textit{Local Tuned Global Model}, con las cuales se realizaron comparaciones de a pares para medir la correlación entre ellas. Los resultados muestran que las métricas \\textit{Entropía Local} y el \\textit{SSIM} tienen una alta correlación negativa por lo que el problema debe ser planteado en un contexto multiobjetivo basado en no dominancia. Además se observa que el $SMPSO$ es una herramienta factible para el cálculo de soluciones no dominadas sobre las cuales el algoritmo que toma las decisiones seleccionará la imagen más adecuada en base al contexto de trabajo.\n\n%Las pruebas experimentales realizadas muestran que es factible obtener Frentes Pareto Robustos, para un grupo de imágenes del mismo tipo, lo que nos indica que dicho Frente pareto robusto no necesariamente es la solución óptima para ese grupo de imágenes.\n\n%Al analizar los Frentes Pareto óptimos de las imágenes procesadas, se observa que la solución óptima de una imagen no necesariamente es la mejor solución para el conjunto de imágenes.\n}\n\n\\paperkeywords{Contrast Enhacement, Optimization, CLAHE, SMPSO, Entropy, Local Entropy, SSIM, LTG, Robust Pareto Front.}\n% {Contrast enhacement, Optimization, CLAHE, SMPSO, Local Entropy, SSIM, Robust Pareto Front.}\n\n\\section{Introducción}\\label{intro}\n\nLas imágenes digitales están expuestas a sufrir una variedad de distorsiones durante su procesamiento, compresión, almacenamiento, transmisión y reproducción, cualquiera de estas puede resultar en la degradación de la calidad visual \\ref{RG13}.\n\nAunque el campo de procesamiento digital de imágenes está construido sobre una base de formulaciones matemáticas y probabilísticas, la intuición y el análisis humano juegan un papel central en la elección de una técnica frente a otra. Esta elección se hace a menudo sobre la base de juicios subjetivos visuales, por lo tanto, se necesitan conseguir medidas cuantitativas que puedan valorar de forma objetiva la calidad de la imagen percibida.\n\nEl histograma de una imagen $HE$ \\ref{PTS+13} es ampliamente utilizado como herramienta tanto cualitativa como cuantitativa, es una buena herramienta para la mejora de contraste. Sin embargo, éste y la mayoría de los otros métodos de mejora de contraste pueden producir imágenes de aspecto no naturales, lo que ocaciona que aquellas obtenidas por estos métodos no son las deseables. \n\nExisten varias técnicas de mejoras de contraste basadas en $HE$, usando técnicas de optimización con el uso de Algoritmos Genéticos \\ref{hashemi2010image}, la Lógica Difusa \\ref{jenifer2016contrast}, Optimización por Enjambres de Partículas con parámetros del Contrast Limited Adaptive Histogram Equalization $PSO$-$CLAHE$ \\ref{morebrizuela2014}.\n\nEl objetivo de la optimización es encontrar una solución que represente el valor óptimo para una función objetivo. La optimización multi-objetivo no se restringe a la búsqueda de una única solución, sino de un conjunto de soluciones que representan los mejores compromisos entre los distintos criterios, llamados \\textbf{soluciones no-dominadas} o \\textbf{conjunto Pareto Óptimo} con el fin de ofrecer al algoritmo que tomará las decisiones las mejores alternativas entre las disponibles, para que este último seleccione una de ellas \\ref{coello2001short}.\n\nEn la literatura, los enfoques de mejora local demuestran ser sumamente útiles al momento de resaltar detalles en imágenes con gran cantidad de detalles finos. Existen diversas propuestas que se centran en mejorar el contraste en radiografías \\ref{1625082}, \\ref{4712472}, \\ref{5360176}. Debido a ello en esta propuesta se analizan pares de métricas de calidad, realizando una comparación de la correlación entre las mismas, para identificar las métricas más adecuadas para la optimización multi-objetivo de la mejora de contraste de una imagen.\n\nSe utilizará una metaheurística de optimización de objetivos $SMPSO$, de manera a sintonizar los parámetros de entrada del algoritmo de mejora del contraste $CLAHE$ y de esta forma obtener un grupo de imágenes contrastadas, las cuales serán evaluadas en cuanto a la ganancia de información proveída y distorsión introducida por la ecualización.\n\nEl resto del trabajo se organiza de la siguiente manera: En la sección \\ref{sec:metricas} se describen las métricas de evaluación de calidad utilizadas; en la sección \\ref{sec:planteamiento} se plantea de manera formal el problema que se intenta resolver; en la sección \\ref{sec:propuesta} se describe la selección de las métricas de evaluación de calidad y la metaheurísticas de optimización robusta; en la sección \\ref{sec:resultadosdiscusion} se discuten los resultados obtenidos, y finalmente en la sección \\ref{sec:conclusion} se detallan las conclusiones correspondientes.\n\n\\section{Métricas de Evaluación de Imágenes}\n\\label{sec:metricas}\nExisten varios mecanismos para determinar la calidad de la imagen, generalmente asociados a una medida comparativa frente a una referencia. Se realiza una selección de alternativas a partir de la necesidad de encontrar métricas que proporcionen el mejor balance entre mejora del contraste y distorsión.\n% Se muestran las cuatro métricas seleccionadas para el análisis y comparaciones de correlación entre las mismas.\n\n\\subsection{Entropía}\n\\label{sec:entropia}\nLa Entropía de la Información es un concepto definido originalmente por Shannon \\ref{shannon}. La \\textit{Entropía} nos indica la riqueza de los detalles de una imagen. Cuanto más cercano sea el valor de la entropía de la imagen resultante con respecto a la imagen original, se puede decir que los detalles de la imagen se han conservado \\ref{daumasjara}.\n\nMatemáticamente se lo define como:\n\\begin{equation}\\label{eq:entropia}\n\\mathscr{H}=-\\sum_{k=0}^{L-1}\\mathcal{P}_k log_2(\\mathcal{P}_k)  \\quad \\mathscr{H} \\in \\left ( 0,log_2(L-1) \\right ) \n\\end{equation}\n\nDonde: \n\\begin{itemize} \n    \\item $\\mathcal{P}_k=\\frac{n_k}{Z}$,  $\\mathcal{P}_k$ es la probabilidad de ocurrencias del nivel de gris $k$ en el histograma;\n    \\item $L-1$ es el máximo nivel de gris que se puede utilizar para representar la imagen\n\\end{itemize}\n\n\\subsection{Entropía Local}\n\\label{sec:entropialocal}\n\nLa \\textit{Entropía Local} \\ref{localentropy} está relacionada con la variación de los niveles de gris en la vecindad de un pixel. Divide la imagen en bloques y luego analiza cada región como fuente de información separada. Mide la aleatoriedad de la imagen calculando la media de la muestra de la \\textit{Entropía} sobre una serie de bloques no superpuestos de la imagen y seleccionados al azar, debido a esto es capaz de superar algunas debilidades de la Entropía de Shannon \\ref{localshanonentropy}.\n\nMatemáticamente se lo define como:\n\\begin{equation}\\label{eq:entropialocal}\n \\mathscr E{(\\nu_{ij})}=\\sum_{k=0}^{L-1}\\mathcal P_k log_2(\\frac{1}{P}_k)\n\\end{equation}\n\nDonde:\n\\begin{itemize} \n    \\item $\\nu_{ij}$ representa una vecindad de tamaño $M$ $\\times$ $N$ de una imagen;\n    \\item $n_k$ es la cantidad de píxeles con nivel de gris $k$ en  $\\nu_{ij}$;\n    \\item $\\mathcal P_k=\\frac{n_k}{M \\times N}$, denota la probabilidad del nivel de gris de $k$ en la vecindad $\\nu_{ij}$.\n\\end{itemize}\n\n\\subsection{Índice de Similitud Estructural (SSIM)} \n\\label{sec:ssim}\n\nEl $SSIM$ \\ref{ssim} pretende cuantificar de forma numérica y automática la calidad visual de una imagen para un observador humano, comparando entre la imagen original y reconstruida en cuanto a sus luminancias, contrastes e información de estructura; proporciona un valor de calidad acotado entre 0 y 1. \n% El valor del $SSIM$ depende de tres factores claves: la luminancia (intensidad media), el contraste y la estructura. \nMatemáticamente se lo define como:\n\\begin{equation}\\label{eq:ssim}\n    SSIM(f,f')=\\frac{(2\\mu_f\\mu_{f'}+C_1)(2\\sigma_{ff'}+C_2)}{(\\mu_f^2+\\mu_{f'}^2+C_1)(\\sigma_f^2+\\sigma_{f'}^2+C_2)}\n\\end{equation}\n\nDonde:\n\\begin{itemize}\n\\item $\\mu_f$ es el promedio de intensidades de $f$;\n\\item $\\mu_f'$ es el promedio de intensidades de $f'$; \n\\item $\\sigma_f^2$ y $\\sigma_{f'}^2$ son las varianzas de intensidades de $f$ e $f'$, respectivamente;\n\\item $\\sigma_{ff'}$ es la covarianza entre $f$ e $f'$;\n\\item $C_1=(K_1L^2)$, $K_1 \\ll 1$ es una constante pequeña;\n\\item $C_2=(K_2 L)^2$, y $K_2 \\ll 1$;\n\\item tanto $C_1$ y $C_2$ son constantes que se usan para estabilizar la división en caso de que el denominador tienda a cero.\n\\end{itemize}\n\n\\subsection{Local Tuned Global Model (LTG)}\n\\label{sec:ltg}\nEl modelo $LTG$ \\ref{ltg2014} es un enfoque basado en el gradiente de la imagen, ya que ésta es muy sensible a las distorsiones de la misma; así también extrae información sobre la luminancia (brillo percibido por el ojo humano) y la crominancia (información del color) de la imagen de entrada y la imagen distorsionada, luego mide la distorsión local resaltante y la degradación global de la calidad en la información obtenida sobre la luminancia y compara las diferencias en la información obtenida sobre la crominancia, derivando así el valor global de la calidad de la imagen \\ref{jahne1999handbook}.\n\nLa magnitud del gradiente para una imagen $f$ está definida por:\n\\begin{equation}\\label{eq:gm}\nG = \\sqrt[]{G_{h}^{2} + G_{v}^{2}}\n\\end{equation}\n\nDonde: \n\\begin{itemize}\n\\item $G_{h}$ y  $G_{v}$ son las derivadas parciales de la imagen a lo largo de las direcciones horizontal y vertical utilizando el operador Scharr \\ref{jahne1999handbook}.\n\\end{itemize}\n\n\\begin{equation}\\label{eq:ltg}\nLTG(f, f') = \\frac{\\Phi(G_{s}^{\\theta_1})}{\\Phi(G_{m}^{\\theta_2})} \\Phi(I_{m}^{\\theta_3}.Q_{m}^{\\theta_3})\n\\end{equation}\n\nDonde:\n\\begin{itemize}\n \\item $G_{m}$ es el gradiente medio de la imagen original y distorsionada;\n \\item $ G_{s}$ indica los píxeles con valores $s\\%$ más altos en $G_{m}$;\n \\item $I_{m}$ and $Q_{m}$ indica la información de crominancia de la imagen original y distorsionada.\n \\item $\\theta_1$ a $\\theta_3$ ( $\\theta_1 > \\theta_2$ ) son parámetros del modelo.\n\\end{itemize}\n\n\n\n\\section{Planteamiento del problema}\n\\label{sec:planteamiento}\n\nEn el tratamiento de imágenes, frecuentemente es necesario detectar características de interés que pueden ser utilizadas para un análisis posterior, por ello es necesario ajustar la apariencia de la imagen. Por ejemplo, con la mejora de contraste, se resaltan ciertas características para el ojo humano.\n\nLa selección correcta de las métricas para la evaluación de la calidad de la imagen, que permita evaluar la ganancia o perdida de información, así como la distorsión en la misma, en el contexto de mejora de constraste, y que ésto nos posibilite establecer un criterio objetivo de calidad, es el ideal buscado; así como también obtener una solución óptima para un grupo de imágenes del mismo tipo, para lo cual se deben diseñar los algoritmos de optimización multiobjetivo.\n\n% Para ello se realizaron 2 experimentos para la resolución del problema de mejora de contraste que se detallan a continuación.\n\n\\subsection{Contrast Limited Adaptive Histogram Equalization (CLAHE) }\n\\label{sec:clahe}\n\n$CLAHE$ \\ref{Zui94} se basa en la ecualización adaptativa del histograma $AHE$ (por sus siglas en inglés \\textit{Adaptive Histogram Equalization}), ambos métodos procesan la imagen por subregiones (regiones rectangulares de la imagen), o {\\it regiones contextuales}, con dimensiones de región definidas como $(\\mathcal{R}_i,\\mathcal{R}_j)$, sobre las cuales se aplica el procedimiento de ecualización de forma independiente, mejorando localmente el contraste \\ref{chulwoo2013}. \n\n$CLAHE$ es un refinamiento de $AHE$ donde el cálculo de realce se modifica imponiendo un máximo especificado por el usuario, llamado nivel del Clip Limit $\\mathscr{C}$, a la altura del histograma local, y por lo tanto sobre el factor de mejora del contraste máximo. La mejora se reduce de este modo en zonas muy uniformes de la imagen, lo que evita un aumento excesivo del ruido y resuelve el problema de “sobrecontraste” del $AHE$.\n\n%4\n\\section{Propuesta}\n\\label{sec:propuesta}\n\\subsection{Selección de métricas.}\n\\label{sec:sele_metricas}\n\nSe buscan métricas que aporten valores más cercanos a la realidad, de manera a obtener un resultado satisfactorio con respecto a la contradicción existente entre mejora del contraste y distorsión de la imagen en escala de grises.\n\nDados la imagen de entrada $f_1$, en escala de gris de tamaño $M \\times N$ y el algortimo $CLAHE$, se desea calcular la mejor solución que nos indique que dichas métricas son altamente contradictorias, minimizando la combinación de las funciones objetivos $T_A$ y $T_B$, tal que: \n\n\\begin{equation}\\label{eq:fitness}\n min (\\gamma_{{T_A}{T_B}})  \n\\end{equation}\n\nDonde:\n\\begin{itemize}\n\\item $\\gamma $ es la correlación entre ${T_A}$ y ${T_B}$.\n\\item $ T_A \\in [\\mathscr{H}, \\mathscr{E}]$. \n% Definidos en \\ref{sec:entropia}, \\ref{sec:entropialocal} respectivamente.\n\\item $ T_B \\in [{SSIM}, {LTG}]$. \n% Definidos en \\ref{sec:ssim}, \\ref{sec:ltg} respectivamente.\n\\end{itemize}\n\nSe hace uso de la correlación de Pearson \\ref{correlacion}; cuyo índice se utiliza para medir el grado de relación de dos métricas distintas, siempre y cuando ambas sean cuantitativas. El valor del  índice de correlación varía en el intervalo [-1,1], entonces:\n\n\\begin{equation}\\label{eq:correlacion}\n-1 < \\gamma_{xy} < 1\n\\end{equation}\n\nDonde:\n\\begin{itemize}\n\\item Si $\\gamma = 1$, existe una correlación positiva perfecta.  Cuando una de ellas aumenta, la otra también lo hace en proporción constante.\n\\item Si $0<\\gamma<1$, existe una correlación positiva.\n\\item Si $\\gamma= 0$, no existe relación lineal.\n\\item Si $-1<\\gamma<0$, existe una correlación negativa.\n\\item Si $\\gamma = -1$, existe una correlación negativa perfecta. El índice indica que existe una relación inversa entre las dos variables: cuando una de ellas aumenta, la otra disminuye en proporción constante.\n\\end{itemize}\n\nLos resultados obtenidos de las correlaciones entre los pares de métricas utilizados se muestran en la \\textbf{Tabla \\ref{tabla:correlacion}}. Los valores marcados en negrita demuestran la fuerte relación inversa lineal existente entre los pares de metricas, lo cual indica que estos pares de métricas se complementan para mantener el compromiso entre aumento de contraste y minimización de la distorsión\n\n\\begin{table}\n\\begin{center}\n\\caption{Resultados de la correlación de Pearson usando Entropía $\\mathscr{H}$, Entropía Local $\\mathscr E$, SSIM y LTG}\n\\begin{tabular}{|c|c|c|c|c|}\n\\hline\n& $\\mathscr{H}$/SSIM & $\\mathscr E$/SSIM & $\\mathscr{H}$/LTG & $\\mathscr E$/ LTG\\\\\n\\hline \\hline\nTórax frontal 1\t& -0.96144 & \\textbf{-0.98922} & -0.94591 & -0.97524 \\\\ \\hline\nTórax frontal 2\t& -0.96593 & \\textbf{-0.98262} & -0.96956 & -0.96667 \\\\ \\hline\nTórax frontal 3\t& -0.90827 & -0.98688 & -0.76528 & \\textbf{-0.98991} \\\\ \\hline\nTórax frontal 4\t& -0.94637 & \\textbf{-0.98674} & -0.93997 & -0.97990 \\\\ \\hline\nTórax frontal 5 & -0.97756 & \\textbf{-0.99421} & -0.95371 & -0.99215 \\\\ \\hline\nTórax frontal 6 & -0.95388 & \\textbf{-0.98591} & -0.93648 & -0.97583 \\\\ \\hline\nTórax frontal 7 & -0.93398 & \\textbf{-0.99384} & -0.92731 & -0.98412 \\\\ \\hline\nTórax frontal 8 & -0.93753 & \\textbf{-0.98069} & -0.95158 & -0.97246 \\\\ \\hline\nTórax frontal 9 & -0.97092 & \\textbf{-0.98479} & -0.95007 & -0.96898 \\\\ \\hline\nTórax frontal 10 & -0.97623 & \\textbf{-0.98317} & -0.95824 & -0.97025 \\\\ \\hline\nTórax frontal 11 & -0.96056 & \\textbf{-0.98899} & -0.92036 & -0.98069 \\\\ \\hline\nTórax lateral 1\t& -0.97190 & \\textbf{-0.99063} & -0.95249 & -0.97182 \\\\ \\hline\nTórax lateral 2\t& -0.94089 & \\textbf{-0.98513} & -0.91902 & -0.98113 \\\\ \\hline\nTórax lateral 3 & -0.96688 & \\textbf{-0.98144} & -0.87671 & -0.96848 \\\\ \\hline\nTórax lateral 4 & -0.95489 & \\textbf{-0.98424} & -0.94559 & -0.97289 \\\\ \\hline\nTórax lateral 5 & -0.95628 & \\textbf{-0.98503} & -0.88451 & -0.97466 \\\\ \\hline\nTórax lateral 6 & -0.97777 & \\textbf{-0.98377} & -0.92698 & -0.97129 \\\\ \\hline\nTórax lateral 7 & -0.95915 & \\textbf{-0.98538} & -0.92323 & -0.97565 \\\\ \\hline\nTórax lateral 8 & -0.96441 & \\textbf{-0.98168} & -0.94855 & -0.97541 \\\\ \\hline\nTórax lateral 9\t& -0.95236 & \\textbf{-0.98963} & -0.93932 & -0.93272 \\\\ \\hline\n\\end{tabular}\n\\label{tabla:correlacion}\n\\end{center}\n\\end{table}\n\n\n\\subsection{Mejora del contraste basada en Metaheurísticas de Optimización Robusta.}\n\\label{sec:mejora_opti}\n\nSe realiza la optimización multiobjetivo, dado un conjunto de imágenes de prueba con sus correspondientes imagenes mejoradas, tomando las métricas obtenidas como resultado de la Correlación  de Pearson, representadas en $T_A$ y $T_B$, durante el proceso.\n\nSe utiliza el algoritmo $SMPSO$ \\ref{NDGN+09}, donde las soluciones potenciales $\\overrightarrow{x}=(\\mathcal{R}_i, \\mathcal{R}_j, \\mathcal{C})$ se denominan {\\it partículas} y el conjunto de partículas $\\Omega$ se denomina {\\it enjambre}. Cada partícula $i$ se actualiza en cada generación $t$ de acuerdo a la siguiente ecuación:\n\n\\begin{equation}\\label{posicion}\n    \\chi^{t+1}_i = \\chi^{t}_i + v^{t+1}_i\n\\end{equation}\n\nDonde el factor $\\overrightarrow{v_i}$ se conoce como la velocidad y está dado por:\n\n\\begin{equation}\\label{velocidad}\n    v^{t+1}_i = \\omega v^{t}_i + \\varphi_1 \\times rand_1 \\times (\\rho{Best_i} - \\chi^{t}_i) + \\varphi_2 \\times rand_2 \\times (g_i - \\chi^{t}_i)\n\\end{equation}\n\n$\\rho{Best_i}$ es la mejor solución encontrada por la partícula $i$ hasta el momento, $g_i$ es la mejor partícula (también conocida como ({\\it líder}) que se encuentra en todo el enjambre, $\\omega$ es el peso de la inercia de la partícula, $r_1, r_2$ son dos números aleatorios entre 0 y 1, y $\\varphi_1, \\varphi_2$ son parámetros que controlan el efecto de las partículas locales  y globales. \n\nSe incorpora un mecanismo de restricción \\ref{restriccion} sobre la ecuación \\ref{velocidad} para limitar la velocidad máxima de las partículas y mejorar la capacidad de búsqueda del algoritmo \\ref{NDGN+09}.\n\n\\begin{equation}\\label{restriccion}\n    \\kappa   = \\frac{2}{2 - \\sigma - \\sqrt[]{ \\sigma^2 - 4 \\sigma}}\n\\end{equation}\n\n\nDado el conjunto de soluciones no dominadas $X_{f_1}$, con los parámetros del vector $\\overrightarrow{x_{f_1}}=(\\mathcal{R}_i, \\mathcal{R}_j$, $\\mathscr{C})$, se obtiene para cada grupo de imagenes de entrada $f_2$, $f_3$, $f_4$,...,$f_n$ el grupo de imagenes mejoradas $f'_2$, $f'_3$, $f'_4$,...,$f'_n$ calculando así el conjunto de soluciones no dominadas $X$, tal que: \n\n\\begin{equation}\\label{eq:non_dominated}\n    X = {x_1, x_2, x_3, \\ldots , x_n}\n\\end{equation}\nDonde:\n\\begin{itemize}\n\\item ${x_i}=(\\mathcal{R}_i, \\mathcal{R}_j$, $\\mathscr{C})$, es la i-ésima partícula.\n\\end{itemize}\nSujeto a:\n\\begin{itemize}\n\\item $\\mathcal{R}_i = [2, M] \\forall \\mathcal{R}_i \\in \\mathbb{N}$.\n\\item $\\mathcal{R}_j = [2,N] \\forall \\mathcal{R}_j \\in \\mathbb{N}$.\n\\item $\\mathscr{C} = (0,1]  \\forall  \\mathscr{C} \\in \\mathbb{R}$.\n\\end{itemize}\n\nLas imágenes resultantes se evalúan de acuerdo a las métricas \\eqref{eq:entropialocal} y \\eqref{eq:ssim}, y los mejores resultados que se obtienen en base a éstas métricas conforman el conjunto pareto $\\Gamma$ para cada imagen.\n\nEvaluamos de esta forma los valores de la entropía local y la similaridad de la solución $X$ respectivamente\n\n%ECUACIONES de las métricas seleccionadas%\n\\begin{equation}\\label{eq:optRobustaE}\n     \\overline{\\mathscr{E}}=\\sum_{k=1}^{M}\\mathscr{E}(f'_k);\\quad \\forall x_i\n\\end{equation}\n\n\\begin{equation}\\label{eq:optRobustaSSIM}\n     \\overline{SSIM}=\\sum_{k=1}^{M} SSIM(f'_k); \\quad \\forall x_i\n\\end{equation}\n\nDonde:\\\\\n$\\overline{\\mathscr{E}}$, $\\overline{SSIM}$, representan la Entropía Local solución y Similaridad solución de ${x_i}$, respectivamente.\n\n\nDe manera a obtener Frentes de Pareto Robusto de acuerdo a la ecuación \\ref{eq:optRobusta}.\n\n%  conjunto pareto robusto solución\n\\begin{equation}\\label{eq:optRobusta}\n     \\Re = \\left \\{ \\overline{\\mathscr{E}}, \\overline{SSIM}  \\right \\}\n\\end{equation}\n\n\\section{Resultados y Discusión}\n\\label{sec:resultadosdiscusion}\nLas pruebas se realizaron empleando 30 imágenes radiológicas previamente digitalizadas del tórax obtenidas del sitio https://openi.nlm.nih.gov/. Las mismas se seleccionaron a partir de la cantidad de detalles que poseen, lo que representa un desafío adecuado para la {\\it mejora del contraste}.\n\nDurante el proceso previo de optimización se realizaron 30 ejecuciones por cada imagen de prueba. Se obtuvieron aproximadamente 300 imágenes soluciones Pareto por cada una de ellas, las cuales fueron nuevamente filtradas una vez terminadas las ejecuciones. \n\nEn la \\textbf{Figura  \\ref{fig:resultado_entropia_local_ssim_img9}} se muestran dos de las soluciones que se encuentran en el conjunto Pareto para las métricas {\\it Entropía Local/SSIM}, en la \\textbf {Figura \\ref{fig:resultado_entropia_local_ltg_img9}}, dos de las soluciones que se encuentran en el conjunto pareto para las métricas  {\\it Entropía local/LTG}, además de las imágenes originales como referencia visual.\n\n\n%Imagen 9 entropia local/ssim\n\\begin{figure}[h]\n    \\begin{center}\n        \\subfigure[][\\label{fig:label:a}]{\\includegraphics[width=3cm]{Figuras/entropia_local_ssim/imagen9.png}}\n        \\subfigure[][\\label{fig:label:b} $SSIM=0.8871$ $\\mathscr{E}=3.4791$]{\\includegraphics[width=3cm]{Figuras/entropia_local_ssim/imagen9_2_256_0-005186957854_local_ssim.png}}\n        \\subfigure[][\\label{fig:label:c} $SSIM=0.9016$ $\\mathscr{E}=3.4296$]{\\includegraphics[width=3cm]{Figuras/entropia_local_ssim/imagen9_49_82_0_local_ssim.png}}\n    \\end{center}\n    \\caption{Tórax lateral 2. Resultados de PSO-CLAHE multiobjetivo Entropía Local/SSIM.}\n    \\captionsetup{aboveskip=0pt}\n    \\caption*{Imagen Original \\ref{fig:label:a}, Imágenes resultantes \\ref{fig:label:b} y \\ref{fig:label:c}}\n    \\label{fig:resultado_entropia_local_ssim_img9}\n\\end{figure}\n\n%figuras entropia local/ltg\n\\begin{figure}[h]\n    \\begin{center}\n        \\subfigure[][\\label{fig:label:d}]{\\includegraphics[width=3cm]{Figuras/entropia_local_ssim/imagen9.png}}\n        \\subfigure[][\\label{fig:label:e} $LTG= 0.8270$ $\\mathscr{E}=4.2687$]{\\includegraphics[width=3cm]{Figuras/entropia_local_ltg/imagen9_312_31_0_local_ltg.png}}\n        \\subfigure[][\\label{fig:label:f} $LTG=0.9979$ $\\mathscr{E}=2.9685$]{\\includegraphics[width=3cm]{Figuras/entropia_local_ltg/imagen9_147_2_0-00068597_local_ltg.png}}\n    \\end{center}\n    \\caption{Tórax lateral 2. Resultados de PSO-CLAHE multiobjetivo Entropía Local/LTG.}\n    \\captionsetup{aboveskip=0pt}\n    \\caption*{Imagen Original \\ref{fig:label:d} , Imágenes resultantes \\ref{fig:label:b} y \\ref{fig:label:c}}\n     \\label{fig:resultado_entropia_local_ltg_img9}\n\\end{figure}\n\nLa relación inversa entre las métricas se refleja en los resultados obtenidos. A partir de la Figura \\ref{fig:label:f} se observa que a medida que la métrica {\\it LTG} se aproxima a \\textbf{1} los resultados se asemejan más a la imagen original, Figura \\ref{fig:label:d}, en términos de contraste, y de visibilidad de detalles; en cambio, mientras la {\\it Entropía Local} aumenta se diferencian más los detalles no visibles debido al bajo contraste, Figura \\ref{fig:label:e}. \n\nLas imágenes que conforman el conjunto pareto resaltan distintos detalles a medida que los objetivos varían, lo cual se logra a partir de que se asegura la selección de las métricas más adecuadas para la optimización, basada en el análisis descrito anteriormente.\n\n\n%figuras FP entropia local/ssim tórax frontal imagen 9\n\\begin{figure}[ht]\n  \\begin{center}\n    \\leavevmode\n    \\includegraphics[width=15cm]{Figuras/FP-Local_SSIM_img9.png}\n    \\caption {Frente Pareto Entropía Local - SSIM. Tórax lateral 2.\\\\}{\n    { \\color{green} {$\\otimes$}} Frente pareto promedio \\\\\n    {\\color{yellow} {$\\otimes$}} Frente pareto robusto \\\\\n    {\\color{orange} {$\\otimes$}} Frente pareto óptimo}\n    \\label{fig:FP-imagen9}\n  \\end{center}\n\\end{figure}\n\nSe analizó el comportamiento del Conjunto Pareto resultante de cada imagen procesada, al considerar como una sola entrada el conjunto de todas las imágenes y realizar el cálculo de la Entropía Local \\ref{sec:entropialocal} y SSIM \\ref{sec:ssim} entre todas las imágenes; de esta forma se obtuvo el {\\it Frente Pareto Robusto}; y se consideró el {\\it Frente Pareto óptimo} de una imagen $f$, como el {\\it Frente Pareto} de las {\\it N-1} imágenes y se obtuvo el {\\it Frente Pareto Promedio} de la imagen $f$ como se observa en la Figura \\ref{fig:FP-imagen9}.\n\n\\section{Conclusiones y Trabajos Futuros}\n\\label{sec:conclusion}\n\nSe presentaron 4 pares de métricas, {\\it Entropía/SSIM}, {\\it Entropía local/SSIM}, {\\it Entropía/LTG} y {\\it Entropía local/LTG}, utilizados junto a un algoritmo metaheurístico y el algoritmo $CLAHE$, con el objetivo de obtener las métricas que de manera simultánea maximicen el contraste y minimicen la distorsión de la imagen. Los resultados experimentales obtenidos en \\textbf{Tabla \\ref{tabla:promcorrelacion}} muestran que los pares de métricas {\\it Entropía local/SSIM} demuestran ser los más contradictorios según la correlación obtenida.\n\n\\begin{table}[ht]\n\\begin{center}\n\\begin{tabular}{|l|l|}\n\\hline\nMétricas & Correlación \\\\\n\\hline \\hline \nEntropía / SSIM & -0.9554 \\\\ \\hline\nEntropía Local / SSIM & \\textbf{-0.9870}\\\\ \\hline\nEntropía / LTG & -0.9319 \\\\ \\hline\nEntropía Local / LTG & -0.9731 \\\\ \\hline\n\\end{tabular}\n\\caption{Promedio de la correlación de Pearson.}\n\\label{tabla:promcorrelacion}\n\\end{center}\n\\end{table}\n\nAl analizar los {\\it Frentes Paretos óptimos} de las imágenes procesadas, se observa que la solución óptima de una imagen $f$ no necesariamente es la mejor solución para una imagen $f'$.\n\n\\bigskip\nComo trabajos futuros de manera a seguir con esta tesis de grado se propone: \n\n\\begin{itemize}\n\\item Utilizar la implementación {\\it PSO-CLAHE} con otras métricas de evaluación de calidad y hallar el índice de correlación.\n\\item Utilizar otros índices de Correlación y realizar una comparación con la utilizada en este trabajo.\n\\end{itemize}\n\n\n% ------- References\n\\paperreferences{\n%\\vref{\\label{CY59} Civin, P., and B. Yood, \\emph{Involutions on Banach algebras}, Pacific J. Math. \\textbf{9} (1959), 415--436.}\n\n%\\vref{\\label{CP61} Clifford, A. H., and G. B. Preston, ``The Algebraic Theory of Semigroups,'' Math. Surveys \\textbf{7}, Amer. Math. Soc., Providence, R.I., 1961.}\n%1\n\\vref{\\label{Zui94} Zuiderveld, K. (1994, August). Contrast limited adaptive histogram equalization. In Graphics gems IV (pp. 474-485). Academic Press Professional, Inc..}\n%2\n\\vref{\\label{NDGN+09} Nebro, A. J., Durillo, J. J., Garcia-Nieto, J., Coello, C. C., Luna, F., and Alba, E. (2009, March). Smpso: A new pso-based metaheuristic for multi-objective optimization. In Computational intelligence in miulti-criteria decision-making, 2009. mcdm'09. ieee symposium on (pp. 66-73). IEEE.}\n%3\n\\vref{\\label{RG13} Roman-Gonzalez, A. (2012). Digital Images Analysis. Revista ECIPeru, 9(1), 61-68.}\n%4\n\\vref{\\label{PTS+13} Poddar, S., Tewary, S., Sharma, D., Karar, V., Ghosh, A., \\& Pal, S. K. (2013). Non-parametric modified histogram equalisation for contrast enhancement. IET Image Processing, 7(7), 641-652.}\n%5\n\\vref{\\label{hashemi2010image} Hashemi, Sara, et al. \"An image contrast enhancement method based on genetic algorithm.\" Pattern Recognition Letters 31.13 (2010): 1816-1824.}\n%6\n\\vref{\\label{jenifer2016contrast}\nJenifer, Sheeba, S. Parasuraman, and Amudha Kadirvelu. \"Contrast enhancement and brightness preserving of digital mammograms using fuzzy clipped contrast-limited adaptive histogram equalization algorithm.\" Applied Soft Computing 42 (2016): 167-177.}\n%7\n\\vref{\\label{morebrizuela2014}\nMoré, L. G., and M. A. Brizuela. \"PSO applied to parameter tuning of CLAHE based on Entropy and Structural Similarity Index.\"}\n%8\n\\vref{\\label{coello2001short}\nCoello, Carlos A. \"A short tutorial on evolutionary multiobjective optimization\". International Conference on Evolutionary Multi-Criterion Optimization. (2001).}\n% 9\n\\vref{\\label{1625082}\nFrosio, Iuri, and N. Alberto Borghese. \"Real time enhancement of cephalometric radiographies.\" 3rd IEEE International Symposium on Biomedical Imaging: Nano to Macro, 2006.. IEEE, 2006. (pp. 972-975). IEEE. \\\\ doi:10.1109/ISBI.2006.1625082.}\n% 10\n\\vref{\\label{4712472}\nMou, Xuanqin, and Min Zhang. \"Nonlinear multi-scale contrast enhancement for chest radiograph.\" 2008 15th IEEE International Conference on Image Processing. IEEE, 2008. \\\\ doi:10.1109/ICIP.2008.4712472.}\n% 11\n\\vref{\\label{5360176}\nParveen, N. Ravia Shabnam, and M. Mohammed Sathik. \"Enhancement of bone fracture images by equalization methods.\" Computer Technology and Development, 2009. ICCTD'09. International Conference on. Vol. 2. IEEE, 2009.\\\\doi:10.1109/ICCTD.2009.115.}\n%12\n\\vref{\\label{shannon}\nShannon, Claude Elwood. A mathematical theory of communication. The Bell System Technical Journal, 1948.}\n%13\n\\vref{\\label{daumasjara} Daumas Ladouce, Federico J. and Jara G., Diana E. Ecualizacion del histograma en un contexto Multiobjetivo Pareto, 2016.}\n%14\n\\vref{\\label{localentropy}\nMaji, Pradipta, et al., eds. Pattern Recognition and Machine Intelligence: 5th International Conference, PReMI 2013, Kolkata, India, December 10-14, 2013. Proceedings. Vol. 8251. Springer, 2013.}\n%15\n\\vref{\\label{localshanonentropy}\nWu, Zhou, Saveriades, Agaian, Noonan, Natarajan. Local Shannon Entropy Measure with Statistical Tests for Image Randomness.}\n%16\n\\vref{\\label{ssim}\nWang, Zhou, et al. \"Image quality assessment: from error visibility to structural similarity.\" IEEE transactions on image processing 13.4 (2004): 600-612.}\n%17\n\\vref{\\label{ltg2014}\nGu, Ke, et al. \"An efficient color image quality metric with local-tuned-global model.\" 2014 IEEE International Conference on Image Processing (ICIP). IEEE, 2014.}\n%18\n\\vref{\\label{jahne1999handbook}\nJähne, Bernd, Horst Haussecker, and Peter Geissler, eds. Handbook of computer vision and applications. Vol. 2. San Diego: Academic Press, 1999.}\n%19\n\\vref{\\label{chulwoo2013}\nLee, Chulwoo and Lee, Chul and Kim, Chang-Su. \"Contrast Enhancement Based on Layered Difference Representation of 2D Histograms.\" IEEE Transactions on Image Processing, 2013.}\n%20\n\\vref{\\label{correlacion}\nNIEVES HURTADO, A. N. T. O. N. I. O., Domíngues Sánchez, and FEDERICO CLICERO. \"Probabilidad y Estadística para Ingeniería, un enfoque moderno.\" México DF: McGra-Hill (2010).}\n\n%\\vref{\\label{swarmintelligence} Kennedy J., Eberhart R., Shi y.. Swarm Intelligence. Morgan Kaufmann, 2001.}\n%21\n\\vref{\\label{Durillo2011} Durillo, J. J., and Nebro, A. J. (2011). jMetal: A Java framework for multi-objective optimization. Advances in Engineering Software, 42(10), 760-771.}\n}\n\n\n\\end{document}\n\n",
-			"file": "/tmp/alio_euro/ALIO_EURO_2018/template_short_abstract.tex",
-			"file_size": 35813,
-			"file_write_time": 131600781380000000,
-			"settings":
-			{
-				"buffer_size": 35579,
-				"line_ending": "Unix"
-			}
-		},
-		{
 			"contents": "jnoguera@asepasa.com.py\nmalvarez@asepasa.com.py\nmarcos alvarez\njuan noguera\n\n\ncuantos toner brother se llevo\n\nfm comercial 021644943",
 			"settings":
 			{
@@ -78,12 +49,67 @@
 			}
 		},
 		{
-			"file": "/home/lg_more/github/maestria-tesis/micai 2017/paper 91/Lecture Notes in Computer Science (LNCS) - camera ready/paper_micai.tex",
+			"file": "thesis.tex",
 			"settings":
 			{
-				"buffer_size": 25670,
+				"buffer_size": 4039,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "chap01.tex",
+			"settings":
+			{
+				"buffer_size": 7302,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "referencias.bib",
+			"settings":
+			{
+				"buffer_size": 13470,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "chap02.tex",
+			"settings":
+			{
+				"buffer_size": 64420,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "Searching 275 files for \"sec:proposal\"\n\n/home/lg_more/github/maestria-tesis/libro/chap01.log:\n 3717  Missing character: There is no o in font nullfont!\n 3718  ! Undefined control sequence.\n 3719: <write> ...erence `sec:proposal' on page \\thepage \n 3720                                                    \\space undefined\\on@line .\n 3721: l.87 ...sentan; en el capÃ­tulo \\ref{sec:proposal}\n 3722                                                     se presenta el problema d...\n 3723  The control sequence at the end of the top line\n ....\n 3728  \n 3729  \n 3730: LaTeX Warning: Reference `sec:proposal' on page  undefined on input line 87.\n 3731  \n 3732  Missing character: There is no s in font nullfont!\n\n/home/lg_more/github/maestria-tesis/libro/chap01.tex:\n   51  %Our proposal consist in testing images transformed from $RGB$ color space to $YCbCr$ in order to perform MMO-based CE. Contrast Limited Adaptive Histogram Equialization (CLAHE) is applied over the $Y$ channel of the test image in order to modify contrast, and the resultant image is transformed back to $RGB$ in order to evaluate the similarity between color channels.\n   52  \n   53: %The rest of the paper is organized as follows: in Section \\ref{sec:theorethical_framework}, the fundametal concepts for this work are presented, in Section \\ref{sec:proposal} the CE problem is posed, and our approach is presented, in Section \\ref{sec:results_discussion} the results achieved are discussed in detail, and finally in \\ref{sec:conclusion} some final points are remarked.\n   54  \n   55  \n   ..\n   85  \n   86  \\section{Estructura de la tesis}\n   87: El trabajo, en las secciones siguientes se organiza de la siguiente manera: en el capítulo \\ref{sec:theorethical_framework}, los conceptos fundamentales de éste trabajo se presentan; en el capítulo \\ref{sec:proposal} se presenta el problema de Mejora de Contraste, y el enfoque de éste trabajo se muestra; en el capítulo \\ref{sec:results_discussion} se discute en detalle los resultados obtenidos, y finalmente en el capítulo \\ref{sec:conclusion} se hacen algunos comentarios finales.\n   88  \n\n/home/lg_more/github/maestria-tesis/libro/chap03.aux:\n    4  \\@writefile{lof}{\\addvspace {10\\p@ }}\n    5  \\@writefile{lot}{\\addvspace {10\\p@ }}\n    6: \\newlabel{sec:proposal}{{3}{21}{PLANTEAMIENTO DEL PROBLEMA}{chapter.3}{}}\n    7  \\@writefile{toc}{\\contentsline {section}{\\numberline {3.1}Formulaci\\IeC {\\'o}n del problema planteado}{21}{section.3.1}}\n    8  \\newlabel{sec:formulation}{{3.1}{21}{Formulación del problema planteado}{section.3.1}{}}\n    .\n   20  \\newlabel{symbol:imejoradab}{{3.1}{22}{Formulación del problema planteado}{equation.3.1.1}{}}\n   21  \\@writefile{toc}{\\contentsline {section}{\\numberline {3.2}Propuesta}{22}{section.3.2}}\n   22: \\newlabel{sec:proposal}{{3.2}{22}{Propuesta}{section.3.2}{}}\n   23  \\newlabel{symbol:mopsocantparticulas}{{0}{23}{Propuesta}{section.3.2}{}}\n   24  \\@writefile{loa}{\\contentsline {algorithm}{\\numberline {1}{\\ignorespaces MOPSO-CLAHE\\relax }}{23}{algorithm.1}}\n\n/home/lg_more/github/maestria-tesis/libro/chap03.log:\n 2552  ! Undefined control sequence.\n 2553  l.63 \\section\n 2554:              {Propuesta}\\label{sec:proposal}\n 2555  The control sequence at the end of the top line\n 2556  of your error message was never \\def'ed. If you have\n ....\n 3578  [1\n 3579  ! Undefined control sequence.\n 3580: <write> \\newlabel{sec:proposal}{{}{\\thepage \n 3581                                              }}\n 3582  l.104 \n ....\n 3588  and I'll forget about whatever was undefined.\n 3589  \n 3590: \\newlabel{sec:proposal}{{}{}}\n 3591  {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}\n 3592  ! Undefined control sequence.\n ....\n 3747  \\newlabel{symbol:imejoradab}{{}{}}\n 3748  ! Undefined control sequence.\n 3749: <write> \\newlabel{sec:proposal}{{}{\\thepage \n 3750                                              }}\n 3751  l.104 \n ....\n 3757  and I'll forget about whatever was undefined.\n 3758  \n 3759: \\newlabel{sec:proposal}{{}{}}\n 3760  ! Undefined control sequence.\n 3761  <write> ...ymbol:mopsocantparticulas}{{}{\\thepage \n\n/home/lg_more/github/maestria-tesis/libro/chap03.tex:\n    1  \\chapter{PLANTEAMIENTO DEL PROBLEMA}\n    2: \\label{sec:proposal}\n    3  \n    4  El problema de Mejora de Contraste es considerado como un Problema de Optimización Multiobjetivo, el cual tiene las siguientes funciones objetivo consideradas en éste trabajo, a optimizar:\n    .\n   61  % \\end{itemize}\t\n   62  \n   63: \\section{Propuesta}\\label{sec:proposal}\n   64: % \\section{Proposal}\\label{sec:proposal}\n   65  \n   66  En éste trabajo se propone abordar el problema planteado utilizando la Metaheurística $MOPSO$ que sintoniza los parámetros de $CLAHE$. La propuesta se muestra en el \\textbf{Algoritmo \\ref{alg:pso_clahe}}:\n\n/home/lg_more/github/maestria-tesis/libro/thesis.log:\n 1337  ) (/home/lg_more/github/maestria-tesis/libro/chap03.aux\n 1338  \n 1339: LaTeX Warning: Label `sec:proposal' multiply defined.\n 1340  \n 1341  ) (/home/lg_more/github/maestria-tesis/libro/chap04.aux\n\n16 matches across 6 files\n",
+			"settings":
+			{
+				"buffer_size": 5050,
+				"line_ending": "Unix",
+				"name": "Find Results",
+				"scratch": true
+			}
+		},
+		{
+			"file": "chap03.tex",
+			"settings":
+			{
+				"buffer_size": 33192,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "symbols.tex",
+			"settings":
+			{
+				"buffer_size": 3367,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
 			}
 		},
 		{
@@ -413,12 +439,17 @@
 	],
 	"file_history":
 	[
+		"/home/lg_more/github/maestria-tesis/libro/chap02.tex",
+		"/home/lg_more/github/maestria-tesis/libro/agradecimientos.tex",
+		"/home/lg_more/github/maestria-tesis/libro/abreviaturas.tex",
+		"/home/lg_more/github/maestria-tesis/libro/abreviaturas.aux",
+		"/tmp/alio_euro/ALIO_EURO_2018/template_short_abstract.tex",
+		"/home/lg_more/github/maestria-tesis/micai 2017/paper 91/Lecture Notes in Computer Science (LNCS) - camera ready/paper_micai.tex",
 		"/tmp/index.html",
 		"/home/lg_more/github/maestria-tesis/poster micai/conference_poster_6.tex",
 		"/home/lg_more/github/maestria-tesis/presentacion/main.tex",
 		"/tmp/wallet.dat",
 		"/tmp/correos-rec.txt",
-		"/home/lg_more/github/maestria-tesis/libro/chap02.tex",
 		"/home/lg_more/github/maestria-tesis/libro/AnexoA.tex",
 		"/home/lg_more/github/maestria-tesis/libro/chap05.tex",
 		"/home/lg_more/github/maestria-tesis/libro/referencias.bib",
@@ -430,7 +461,6 @@
 		"/home/lg_more/github/maestria-tesis/libro/chap03.tex",
 		"/home/lg_more/github/maestria-tesis/libro/chap01.tex",
 		"/home/lg_more/github/maestria-tesis/libro/symbols.tex",
-		"/home/lg_more/github/maestria-tesis/libro/abreviaturas.tex",
 		"/home/lg_more/github/pso-ce-color.git/calhouse_234/calhouse_234_2.csv",
 		"/home/lg_more/github/pso-ce-color.git/calhouse_237/salida.log",
 		"/home/lg_more/github/pso-ce-color.git/calhouse_236/calhouse_236_2.csv",
@@ -489,7 +519,6 @@
 		"/home/lg_more/github/maestria-tesis/libro/AnexoA.tex:74 Missing } inserted sys",
 		"/tmp/calhouse_230/resultados.txt",
 		"/tmp/calhouse_230/calhouse_230.csv",
-		"/home/lg_more/github/maestria-tesis/libro/abreviaturas.aux",
 		"/tmp/calhouse_230/resultados.csv",
 		"/home/lg_more/github/maestria-tesis/libro/AnexoB.aux",
 		"/home/lg_more/MEGAsync/maestria/micai 2017/Lecture Notes in Computer Science (LNCS) - camera ready/paper_micai.tex",
@@ -537,10 +566,7 @@
 		"/home/lg_more/MEGAsync/maestria/micai 2017/Lecture Notes in Computer Science (LNCS) - camera ready/llncs.tex",
 		"/home/lg_more/MEGAsync/maestria/micai 2017/Lecture Notes in Computer Science (LNCS) - camera ready/llncsdoc.tex",
 		"/tmp/evaluaciones.csv",
-		"/run/user/1000/gvfs/google-drive:host=rec.una.py,user=lmore/0B-pyZJd15frgdVA2bWtENS1vcE0/0B-pyZJd15frgS09Udm0ySEVjU2c/0B-pyZJd15frgMF91ZjI2NTNRRnM/evaluaciones.csv",
-		"/home/lg_more/telegrambot/dolarbot.rb",
-		"/media/lg_more/lgmore/clases.txt",
-		"/tmp/descarga_FILES/Lista/src/Lista/Nodo.java"
+		"/run/user/1000/gvfs/google-drive:host=rec.una.py,user=lmore/0B-pyZJd15frgdVA2bWtENS1vcE0/0B-pyZJd15frgS09Udm0ySEVjU2c/0B-pyZJd15frgMF91ZjI2NTNRRnM/evaluaciones.csv"
 	],
 	"find":
 	{
@@ -559,6 +585,23 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"la transformación inversa",
+			"Woods",
+			"rango dinámico",
+			"se define de la siguiente manera",
+			"de la imagen",
+			"son los coeficientes",
+			"clolores",
+			"de hecho",
+			"suaviación",
+			"regines",
+			"original y ecualizada",
+			"sec:proposal",
+			"estructura de la tesis",
+			"debe de",
+			"varianza",
+			"symbol:ssisigmai",
+			"varianza",
 			" ",
 			".",
 			"\\t",
@@ -669,29 +712,12 @@
 			" ",
 			"  ",
 			"    ",
-			"      ",
-			".",
-			"\\n",
-			" ",
-			"  ",
-			"     ",
-			"       ",
-			".",
-			"\\n",
-			" ",
-			"  ",
-			"   ",
-			"               ",
-			"                ",
-			".",
-			",",
-			"\\n",
-			" "
+			"      "
 		],
 		"highlight": false,
 		"in_selection": false,
 		"preserve_case": false,
-		"regex": false,
+		"regex": true,
 		"replace_history":
 		[
 			"",
@@ -832,96 +858,11 @@
 	"groups":
 	[
 		{
-			"selected": 5,
+			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 133,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								133,
-								133
-							]
-						],
-						"settings":
-						{
-							"auto_name": "mostrar el proceso siguiente  al modificar el cana",
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 5,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 3507,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								490,
-								490
-							]
-						],
-						"settings":
-						{
-							"auto_name": "Searching for adequate input parameters of a Contr",
-							"syntax": "Packages/Text/Plain text.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 6,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "/tmp/alio_euro/ALIO_EURO_2018/template_short_abstract.tex",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 35579,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								3052,
-								2384
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/LaTeXing/support/LaTeX.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 133.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
 					"semi_transient": false,
 					"settings":
 					{
@@ -945,52 +886,63 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 7,
 					"type": "text"
 				},
 				{
-					"buffer": 4,
-					"file": "/home/lg_more/github/maestria-tesis/micai 2017/paper 91/Lecture Notes in Computer Science (LNCS) - camera ready/paper_micai.tex",
+					"buffer": 1,
+					"file": "thesis.tex",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 25670,
+						"buffer_size": 4039,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								23143,
-								23143
-							],
+								460,
+								460
+							]
+						],
+						"settings":
+						{
+							"WordCount":
+							{
+								"changes": 0,
+								"count": 83,
+								"modified": false,
+								"selection": false,
+								"status": -1,
+								"syntax": "plain text"
+							},
+							"syntax": "Packages/LaTeXing/support/LaTeX.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 57.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "chap01.tex",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 7302,
+						"regions":
+						{
+						},
+						"selection":
+						[
 							[
-								23224,
-								23224
-							],
-							[
-								23306,
-								23306
-							],
-							[
-								23385,
-								23385
-							],
-							[
-								23465,
-								23465
-							],
-							[
-								23545,
-								23545
-							],
-							[
-								23627,
-								23627
-							],
-							[
-								23710,
-								23710
+								7020,
+								7032
 							]
 						],
 						"settings":
@@ -1000,14 +952,238 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 6595.0,
+						"translation.y": 1902.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "referencias.bib",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 13470,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								6092,
+								6092
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/LaTeX/Bibtex.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 3270.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "chap02.tex",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 64420,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								37507,
+								37507
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/LaTeXing/support/LaTeX.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 15601.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5050,
+						"regions":
+						{
+							"match":
+							{
+								"flags": 112,
+								"regions":
+								[
+									[
+										215,
+										227
+									],
+									[
+										375,
+										387
+									],
+									[
+										586,
+										598
+									],
+									[
+										1312,
+										1324
+									],
+									[
+										1816,
+										1828
+									],
+									[
+										2268,
+										2280
+									],
+									[
+										2774,
+										2786
+									],
+									[
+										3175,
+										3187
+									],
+									[
+										3382,
+										3394
+									],
+									[
+										3561,
+										3573
+									],
+									[
+										3787,
+										3799
+									],
+									[
+										3966,
+										3978
+									],
+									[
+										4194,
+										4206
+									],
+									[
+										4483,
+										4495
+									],
+									[
+										4531,
+										4543
+									],
+									[
+										4920,
+										4932
+									]
+								],
+								"scope": ""
+							}
+						},
+						"selection":
+						[
+							[
+								4476,
+								4476
+							]
+						],
+						"settings":
+						{
+							"detect_indentation": false,
+							"line_numbers": false,
+							"output_tag": 1,
+							"result_base_dir": "",
+							"result_file_regex": "^([^ \t].*):$",
+							"result_line_regex": "^ +([0-9]+):",
+							"scroll_past_end": true,
+							"syntax": "Packages/Default/Find Results.hidden-tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 1368.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "chap03.tex",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 33192,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								10999,
+								10999
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/LaTeXing/support/LaTeX.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 4011.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
 					"type": "text"
 				},
 				{
-					"buffer": 5,
+					"buffer": 7,
+					"file": "symbols.tex",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3367,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1898,
+								1898
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/LaTeXing/support/LaTeX.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 399.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
 					"semi_transient": false,
 					"settings":
 					{
@@ -1018,21 +1194,12 @@
 						"selection":
 						[
 							[
-								103,
-								103
+								120,
+								120
 							]
 						],
 						"settings":
 						{
-							"WordCount":
-							{
-								"changes": 75,
-								"count": 12,
-								"modified": false,
-								"selection": false,
-								"status": -1,
-								"syntax": "plain text"
-							},
 							"auto_name": "Blas Vera bvera@rec.una.py ok",
 							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
@@ -1040,11 +1207,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 8,
 					"type": "text"
 				},
 				{
-					"buffer": 6,
+					"buffer": 9,
 					"semi_transient": false,
 					"settings":
 					{
@@ -1067,7 +1234,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 9,
 					"type": "text"
 				}
 			]
@@ -1174,7 +1341,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 50.0,
+	"side_bar_width": 282.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

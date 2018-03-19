@@ -155,15 +155,15 @@ En la Figura \ref{fig:ejemploeqhistograma2} se puede verificar visualmente la di
     \centering
     %\begin{subfigure}[t]{0.45\textwidth}
     \begin{subfigure}[]{
-        \includegraphics[width=0.45\textwidth]{./Figures/JPEG_example_subimage.png}
+        \includegraphics[width=0.40\textwidth]{./Figures/JPEG_example_subimage.png}
     }
 %        \caption{Imagen Original. $\mathscr{H_Y}=0.207231$, $SSIM_R=1$, $SSIM_G=1$, $SSIM_B=1$}
 %        \label{fig:cuborgb}
     \end{subfigure}
         ~ %add desired spacing between images. e. g. ~. \quad. \qquad. \hfill etc. 
       %(or a blank line to force the subfigure onto a new line)
-      \begin{subfigure}[ID=1]{
-      \includegraphics[width=0.45\textwidth]{./Figures/JPEG_example_subimage_eq.png}   
+      \begin{subfigure}[]{
+      \includegraphics[width=0.40\textwidth]{./Figures/JPEG_example_subimage_eq.png}   
       }
     %\begin{subfigure}[t]{0.45\textwidth}
 %        \caption{Enhanced Image. $\mathscr{H_Y}=0.611275$. $SSIM_R=0.00897331$. $SSIM_G=0.00823064$. $SSIM_B=0.00851013$}
@@ -195,7 +195,7 @@ Otro ejemplo es observable en la Figura \ref{fig:ejemplohistograma5}(a), en la q
 
 \section{Contrast Limited Adaptive Histogram Equalization (CLAHE)}\label{sec:clahe}
 
-El algoritmo presentado en la sección anterior toma la imagen completa para realizar la tarea de ecualización del histograma. Ésto en general no es adecuado cuando se trabaja con imágenes cuyos detalles contenidos son cruciales para la posterior utilidad de la imagen transformada (imágenes aéreas, médicas, biométricas, y otras); es por éste motivo que se estudian (y en éste trabajo en particular se adoptan) algoritmos de mejora de contraste basados en ecualización del histograma por regiones, o algoritmos de ecualización locales.
+El algoritmo presentado en la sección anterior toma la imagen completa para realizar la tarea de ecualización del histograma. Ésto en general no es adecuado cuando se trabaja con imágenes cuyos detalles contenidos son cruciales para la posterior utilidad de la imagen transformada \cite{sundaram2011histogram} (imágenes aéreas, médicas, biométricas, y otras); es por éste motivo que se estudian (y en éste trabajo en particular se adoptan) algoritmos de mejora de contraste basados en ecualización del histograma por regiones, o algoritmos de ecualización locales.
 
 En particular, \textit{Contrast Limited Adaptive Histogram Equalization} (CLAHE) \cite{zuiderveld1994contrast} es un algoritmo bien conocido para la Mejora del Contraste, diseñado para ser aplicado de manera amplia en el contexto del procesamiento digital de imágenes. CLAHE es una variación del algoritmo de Mejora del Contraste denominado \textit{Adaptive Histogram Equalization (AHE)} \cite{pizer1987adaptive}. Ambas técnicas se explican en las subsecciones siguientes debido a la cercanía existente por la similaridad en cuanto a la implementación.
 
@@ -203,7 +203,7 @@ En particular, \textit{Contrast Limited Adaptive Histogram Equalization} (CLAHE)
 
 El problema con la ecualización del histograma ordinaria, es que la imagen digital podría tener regiones significativamente más oscuras o claras que el resto de la imagen, por lo que el contraste en esas regiones podría no mejorar significativamente.
 
-En AHE, una imagen es procesada transformando cada pixel utilizando una función basada en el histograma de los pixeles que lo rodean; en principio éste algoritmo se desarrolló para su uso en displays de cabina de aviones de guerra \cite{ketcham1974image}. En su forma más simple, cada pixel se transforma en base al histograma de la región que envuelve al pixel. La derivación de las funciones de transformación de los histogramas locales es exactamente el mismo que en la ecualización del histograma ordinaria: La función de transformación es proporcional a la función de distribución acumulativa $CDF$ de los valores de pixeles de la vecindad. 
+En AHE, una imagen es procesada transformando cada pixel utilizando una función basada en el histograma de los pixeles que lo rodean; en principio éste algoritmo se desarrolló para su uso en displays de cabinas de aviones de guerra \cite{ketcham1974image}. En su forma más simple, cada pixel se transforma en base al histograma de la región que envuelve al pixel. La derivación de las funciones de transformación de los histogramas locales es exactamente el mismo que en la ecualización del histograma ordinaria: La función de transformación es proporcional a la función de distribución acumulativa $CDF$ de los valores de pixeles de la vecindad. 
 
 \subsubsection{Propiedades de AHE}
 
@@ -229,7 +229,7 @@ Es importante no descartar la parte del histograma que excede a \textit{Clip Lim
 %        \caption{Imagen Original. $\mathscr{H_Y}=0.207231$, $SSIM_R=1$, $SSIM_G=1$, $SSIM_B=1$}
 %        \label{fig:cuborgb}
 \end{subfigure}
-\caption{Redistribución de niveles de intensidad dentro del histograma de una región de una imagen, como paso previo al cálculo del $CDF$. Ésto tiene como efecto la suaviación del proceso de mejora del contraste.}\label{fig:redistclahe}
+\caption{Redistribución de niveles de intensidad dentro del histograma de una región de una imagen, como paso previo al cálculo del $CDF$. Ésto tiene como efecto la suavización del proceso de mejora del contraste.}\label{fig:redistclahe}
 \end{figure}
 
 
@@ -237,15 +237,15 @@ Es importante no descartar la parte del histograma que excede a \textit{Clip Lim
 
 \section{Espacios de Color Adoptados}\label{sec:color_spaces}
 
-Los Espacios de Color \cite{gonzalez02a} son representaciones de color de las imágenes digitales, que por lo general se aceptan mediante convención o por estándar de hecho. Por lo general, los Espacios de Color consisten en sistemas de coordenadas donde cada punto es un color representable dentro del Espacio.
+Los Espacios de Color \cite{gonzalez02a} son representaciones de color de las imágenes digitales, que por lo general se aceptan mediante convención o por estándar. Por lo general, los Espacios de Color consisten en sistemas de coordenadas donde cada punto es un color representable dentro del Espacio.
 
 En éste trabajo se utilizan dos espacios de color importantes encontrados en la literatura, los cuales son analizados en las subsecciones siguientes: $RGB$ y $YCbCr$.
 
 \subsection{El espacio de colores \textit{Red, Green, Blue}} 
 
-El primer espacio importante a analizar en este trabajo es $RGB$ (del inglés $Red$, $Green$, $Blue$). $RGB$ es un modelo de color aditivo en el cual las luces de color $rojo$, $verde$, y $azul$ se agregan de varias maneras de forma a reproducir un conjunto amplio de clolores. El propósito principal de éste modelo es la percepción, representación y muestra de imágenes en sistemas electrónicos tales com televisores y computadoras, a pesar de que también se utilizó en la fotografía convencional.
+El primer espacio importante a analizar en este trabajo es $RGB$ (del inglés $Red$, $Green$, $Blue$). $RGB$ es un modelo de color aditivo en el cual las luces de color $rojo$, $verde$, y $azul$ se agregan de varias maneras de forma a reproducir un conjunto amplio de colores. El propósito principal de éste modelo es la percepción, representación y muestra de imágenes en sistemas electrónicos tales com televisores y computadoras, a pesar de que también se utilizó en la fotografía convencional.
 
-En el modelo $RGB$, cada color aparece como un componente primario del $Rojo$, $Verde$ y $Azul$. Éste modelo sencillo se basa en el sistema de coordenadas Cartesianas. En la Figura \ref{fig:cuborgb} se pueden apreciar algunos colores notables representados en el espacio $RGB$: por ejemplo, el azul puro se representa como $(0,0,1)$, el verde puro como $(0,1,0)$ y el rojo puro como $(1,0,0)$; mientas que el negro se representa como $(0,0,0)$ y el blanco como $(1,1,1)$. Se puede apreciar la ventaja de usar ese sistema de representación de colores, el cual es sencillo. Se asume un sistema de coordenadas normalizado.
+En el modelo $RGB$, cada color se representa por composición de los clores primarios $Rojo$, $Verde$ y $Azul$. Éste modelo sencillo se basa en el sistema de coordenadas Cartesianas. En la Figura \ref{fig:cuborgb} se pueden apreciar algunos colores notables representados en el espacio $RGB$: por ejemplo, el azul puro se representa como $(0,0,1)$, el verde puro como $(0,1,0)$ y el rojo puro como $(1,0,0)$; mientas que el negro se representa como $(0,0,0)$ y el blanco como $(1,1,1)$. Se puede apreciar la ventaja de usar ese sistema de representación de colores, el cual es sencillo. Se asume un sistema de coordenadas normalizado.
 
 \begin{figure}[H]
 \centering
@@ -259,7 +259,7 @@ En el modelo $RGB$, cada color aparece como un componente primario del $Rojo$, $
 \caption{Diagrama esquemático del cubo que representa al espacio de colores $RGB$. Se pueden apreciar algunos colores notables.}\label{fig:cuborgb}
 \end{figure}
 
-En este trabajo, las imágenes originales se representan utilizando el espacio de colores $RGB$; en éste caso se tiene un arreglo de pixeles de color de tamaño $N \times M \times 3$. Cada pixel de color está representado por un elemento $[\begin{matrix}z_r & z_g & z_b\end{matrix}]$ del arreglo previamente mencionado, donde $z_r, z_g, z_b$ son los componentes rojo, verde y azul de un pixel de color en una ubicación específica. 
+En este trabajo, las imágenes originales se representan utilizando el espacio de colores $RGB$; en éste caso se tiene un arreglo de pixeles de color de tamaño $N \times M \times 3$, donde 3 son los planos necesarios para la representación. Cada pixel de color está representado por un elemento $[\begin{matrix}z_r & z_g & z_b\end{matrix}]$ del arreglo previamente mencionado, donde $z_r, z_g, z_b$ son los componentes rojo, verde y azul de un pixel de color en una ubicación específica. 
 
 \subsection{El espacio de colores $YCbCr$}
 
@@ -543,13 +543,15 @@ Primero, es necesario definir el \textit{Histograma} de intensidades de una imag
 p_k=\frac{n_k}{M \times N}, \qquad \sum_{k=1}^L n_i = {M \times N}, \qquad k= 1,2,...,L
 \end{equation}
 
-donde $M \times N$ es la suma total de pixeles mostrados en una imagen $I$ y $k$ es cada nivel de intensidad representable por el espacio de colores de $I$. Entonces, $H$ se define como la distribución de probabilidad en el que cada $p_k$ representa la probabilidad de ocurrencia de una intensidad $k$. Entonces, la Entropía de la Imagen se define de la siguiente manera:
+donde $M \times N$ es la suma total de pixeles mostrados en una imagen $I$ y $k$ es cada nivel de intensidad representable por el espacio de colores de $I$. Entonces, $H$ se define como la distribución de probabilidad en el que cada $p_k$ representa la probabilidad de ocurrencia de una intensidad $k$. Entonces, la Entropía de la Imagen $\mathscr{H}$ se define de la siguiente manera:
 
 %where $N$ is the total sum of pixels shown in an image $I$ and $n$ is every intensity level representable by the color space of $I$. Then $H$ is defined as a probability distribution in which every $p_i$ represents the probability of occurrence of an intensity $i$. Then, Entropy of Image is defined as below:
 
 \begin{equation}
 \mathscr{H}\label{symbol:entropia}= -\sum_{i=0}^{L-1} p_i \text{log}_2(p_i) \qquad \mathscr{H} \in \{0,...,\text{log}_2(L)\}
 \end{equation}
+
+Ésto es, los valores que puede tomar $\mathscr{H}$ (dados en escala logarítmica) van de cero a $\text{log}_2(L)$.
 
 \begin{figure}[H]
 \centering
@@ -579,7 +581,7 @@ El \textit{Índice de Similaridad Estructural} ($SSIM$) \cite{wang2004image} es 
 SSIM(I,T)\label{symbol:ssim} = \frac{(2\mu_{I_x} \mu_{T_y}+E_1)(2\sigma_{I_xT_y}+E_2)}{(\mu^2_{I_x}+\mu^2_{T_y}+E_1)(\sigma^2_{I_x} + \sigma^2_{T_y}+E_2)} \qquad SSIM \in [0,1]
 \end{equation}
 
-donde $\mu_{I_x}$\label{symbol:ssimmui}, $\mu_{T_y}$\label{symbol:ssimmut} son los promedios de intensidad de $I_x$ y $T_y$, respectivamente; $\sigma^2_{I_x}$\label{symbol:ssimsigmat} y $\sigma^2_{T_y}$\label{symbol:ssimsigmat} son las varianzas de intensidad para $I_x$ y $T_y$, respectivamente; $\sigma_{I_xT_y}$\label{symbol:ssimsigmait} es la covarianza entre las intensidades $I_x$ y $T_y$. $E_1=(K_1L^2)$, donde $L$ es el rango dinámico de intensidades de los pixeles de la imagen, y $0 < K_1 \ll 1$ es una constante pequeña; $E_2=(K_2L)^2$, y $0 < K_2 \ll 1$; tanto $E_1$ como $E_2$ son constantes utilizadas para estabilizar la división cuando el denominador se acerca a cero.
+donde $\mu_{I_x}$\label{symbol:ssimmui}, $\mu_{T_y}$\label{symbol:ssimmut} son los promedios de intensidad de $I_x$ y $T_y$, respectivamente; $\sigma^2_{I_x}$\label{symbol:ssimsigmai} y $\sigma^2_{T_y}$\label{symbol:ssimsigmat} son las varianzas de intensidad para $I_x$ y $T_y$, respectivamente; $\sigma_{I_xT_y}$\label{symbol:ssimsigmait} es la covarianza entre las intensidades $I_x$ y $T_y$. $E_1=(K_1L^2)$, donde $L$ es el rango dinámico de intensidades de los pixeles de la imagen (es decir, los niveles de gris representables en la imagen), y $0 < K_1 \ll 1$ es una constante pequeña; $E_2=(K_2L)^2$, y $0 < K_2 \ll 1$; tanto $E_1$ como $E_2$ son constantes utilizadas para estabilizar la división cuando el denominador se acerca a cero.
 
 \begin{figure}[H]
 \centering

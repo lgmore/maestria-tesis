@@ -46,14 +46,14 @@ Robert~R Edelman and Steven Warach.
 \newblock {\em New England Journal of Medicine}, 328(10):708--716, 1993.
 \newblock PMID: 8433731.
 
-\bibitem[GW02a]{gonzalez02a}
+\bibitem[GW02a]{gonzalez2002processing}
+Rafael~C Gonzalez and Richard~E Woods.
+\newblock Digital image processing, 2002.
+
+\bibitem[GW02b]{gonzalez02a}
 Rafael~C. Gonzalez and Richard~E. Woods.
 \newblock {\em Digital Image Processing (2nd Ed)}.
 \newblock Prentice Hall, 2002.
-
-\bibitem[GW02b]{gonzalez2002processing}
-Rafael~C Gonzalez and Richard~E Woods.
-\newblock Processing, 2002.
 
 \bibitem[HLMS14]{CPLX:CPLX21499}
 Yan~Chai Hum, Khin~Wee Lai, and Maheza~Irna Mohamad~Salim.
@@ -144,6 +144,11 @@ Y.~Shi and R.~Eberhart.
 \newblock In {\em 1998 IEEE International Conference on Evolutionary
   Computation Proceedings. IEEE World Congress on Computational Intelligence
   (Cat. No.98TH8360)}, pages 69--73, May 1998.
+
+\bibitem[SRAP11]{sundaram2011histogram}
+M~Sundaram, K~Ramar, N~Arumugam, and G~Prabin.
+\newblock Histogram modified local contrast enhancement for mammogram images.
+\newblock {\em Applied soft computing}, 11(8):5809--5816, 2011.
 
 \bibitem[tim]{time}
 {\em time(1) - Linux User's Manual}.

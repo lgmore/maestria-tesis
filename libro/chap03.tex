@@ -60,7 +60,7 @@ Acotados por:
 % 	\item $\mathscr{C} \in (0,...,1]$ for the $\mathbb{R}$ numbers.
 % \end{itemize}	
 
-\section{Propuesta}\label{sec:proposal}
+\section{Propuesta}%\label{sec:proposal}
 % \section{Proposal}\label{sec:proposal}
 
 En éste trabajo se propone abordar el problema planteado utilizando la Metaheurística $MOPSO$ que sintoniza los parámetros de $CLAHE$. La propuesta se muestra en el \textbf{Algoritmo \ref{alg:pso_clahe}}:
@@ -156,7 +156,7 @@ El Algoritmo \ref{alg:pso_clahe} se puede describir como sigue: en principio (en
 
   \item Se realizan actualizaciones de posición y velocidad del conjunto de partículas (soluciones candidatas) para una nueva serie de aplicaciones de parámetros al algoritmo de Mejora de Cotraste. Ésto se realiza en las líneas 5 y 6.
 
-  \item Los parámetros recibidos por $CLAHE$ son almacenados por un conjunto de partículas $(\{\vv{x}_1, \vv{x}_2,...,\vv{x}_{\Omega}\})=(\mathscr{R}_x,\mathscr{Y}_x,\mathscr{C})$, las cuales representan soluciones candidatas al problema de Mejora de Contraste; la imagen original $I$ se transforma a su representación $YCrCb$, y $(\{\vv{x}_1, \vv{x}_2,...,\vv{x}_{\Omega}\})$ son aplicados al canal $Y$ de la imagen digital original, de manera a obtener un grupo de mapas  de intensidades $T_(y,i)$, el cual es utilizado para realizar la transformación inversa hacia $RGB$, para así obtener un conjunto de imágenes resultantes $T_i$. Ésto ocurre en las líneas 7 y 8.
+  \item Los parámetros recibidos por $CLAHE$ son almacenados por un conjunto de partículas $(\{\vv{x}_1, \vv{x}_2,...,\vv{x}_{\Omega}\})=(\mathscr{R}_x,\mathscr{Y}_x,\mathscr{C})$, las cuales representan soluciones candidatas al problema de Mejora de Contraste; la imagen original $I$ se transforma a su representación $YCrCb$, y $(\{\vv{x}_1, \vv{x}_2,...,\vv{x}_{\Omega}\})$ son aplicados al canal $Y$ de la imagen digital original, de manera a obtener un grupo de mapas  de intensidades $T_{(y,i)}$, el cual es utilizado para realizar la transformación inversa hacia $RGB$, para así obtener un conjunto de imágenes resultantes $T_i$. Ésto ocurre en las líneas 7 y 8.
   
   \item Las imágenes resultantes son evaluadas de acuerdo a las métricas $\mathscr{H}(T_y)$, $SSIM_R$, $SSIM_G$, $SSIM_B$, que son la entropía de las imágenes resultantes medidas en el canal $Y$ de la representación $YCrCb$ de dichas imágenes, y $SSIM_R,SSIM_G,SSIM_B$ son las medidas $SSIM$ de las imagénes original y resultantes utilizando los canales $R,G,B$ de las representaciones $RGB$ de las imágenes. Se mide tanto la dominancia con respecto a soluciones locales a la partícula (líneas 10 y 11) y con respecto a las soluciones globales (Conjunto Pareto transitorio), utilizando para el efecto las métricas descritas en el Capítulo 2. Éstas evaluaciones determinan cuáles soluciones candidatas se pueden considerar no dominadas con respecto al conjunto completo de soluciones obtenidas en una iteración del enfoque Metahuerístico. Las soluciones no dominadas actualizan el conjunto Pareto, de acuerdo a si se determina dominancia dentro del conjunto. Ésto ocurre en las líneas 9 a 15.
 
