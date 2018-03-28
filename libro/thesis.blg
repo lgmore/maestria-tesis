@@ -15,56 +15,60 @@ A level-1 auxiliary file: chap05.aux
 The style file: alpha.bst
 A level-1 auxiliary file: AnexoA.aux
 Database file #1: referencias.bib
-Repeated entry---line 180 of file referencias.bib
+Repeated entry---line 223 of file referencias.bib
  : @inproceedings{zuiderveld1994contrast
  :                                      ,
 I'm skipping whatever remains of this entry
-You're missing a field name---line 251 of file referencias.bib
+You're missing a field name---line 294 of file referencias.bib
  :  
  :  %author        = "David MacKenzie",
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
+Warning--entry type for "pict1" isn't style-file defined
+--line 423 of file referencias.bib
+Warning--entry type for "pict2" isn't style-file defined
+--line 432 of file referencias.bib
 Warning--to sort, need author, organization, or key in time
 Warning--empty journal in morepso
-You've used 29 entries,
+You've used 36 entries,
             2543 wiz_defined-function locations,
-            755 strings with 9981 characters,
-and the built_in function-call counts, 12747 in all, are:
-= -- 1280
-> -- 605
-< -- 17
-+ -- 212
-- -- 208
-* -- 946
-:= -- 2038
-add.period$ -- 89
-call.type$ -- 29
-change.case$ -- 190
-chr.to.int$ -- 28
-cite$ -- 32
-duplicate$ -- 495
-empty$ -- 933
-format.name$ -- 239
-if$ -- 2650
+            793 strings with 11363 characters,
+and the built_in function-call counts, 15872 in all, are:
+= -- 1603
+> -- 735
+< -- 25
++ -- 259
+- -- 253
+* -- 1145
+:= -- 2510
+add.period$ -- 113
+call.type$ -- 36
+change.case$ -- 234
+chr.to.int$ -- 35
+cite$ -- 39
+duplicate$ -- 629
+empty$ -- 1177
+format.name$ -- 294
+if$ -- 3326
 int.to.chr$ -- 2
 int.to.str$ -- 0
-missing$ -- 28
-newline$ -- 147
-num.names$ -- 84
-pop$ -- 181
+missing$ -- 33
+newline$ -- 182
+num.names$ -- 105
+pop$ -- 240
 preamble$ -- 1
-purify$ -- 221
+purify$ -- 272
 quote$ -- 0
-skip$ -- 428
+skip$ -- 547
 stack$ -- 0
-substring$ -- 784
-swap$ -- 105
-text.length$ -- 17
-text.prefix$ -- 7
+substring$ -- 958
+swap$ -- 147
+text.length$ -- 25
+text.prefix$ -- 10
 top$ -- 0
-type$ -- 224
+type$ -- 280
 warning$ -- 2
-while$ -- 119
-width$ -- 32
-write$ -- 374
+while$ -- 148
+width$ -- 40
+write$ -- 467
 (There were 2 error messages)

@@ -212,7 +212,7 @@ T\kern-.1667em\lower.5ex\hbox{E}\kern-.125emX\spacefactor1000}
 }
 \newcount\@examiner\@examiner0
 \newcommand\examiner[3]{%
-  \global\@namedef{CoppeExaminer:\expandafter\the\@examiner}{#1\ #2, #3}
+  \global\@namedef{CoppeExaminer:\expandafter\the\@examiner}{#1\ #2 #3}
   \global\advance\@examiner by 1
 }
 \renewcommand\author[2]{%
@@ -365,12 +365,18 @@ T\kern-.1667em\lower.5ex\hbox{E}\kern-.125emX\spacefactor1000}
 			\count1=0
 			\@whilenum \count1<\@examiner \do {
 				\vskip26\p@ \baselineskip12pt
-				\eqmakebox[signture@list][c]{\hrulefill}\\
+				% \eqmakebox[signture@list][c]{\hrulefill}\\
 				\eqmakebox[signture@list][c]{%
-					\ \ \ \protect\csname CoppeExaminer:\the\count1 \endcsname\ \ \ }\\
+					\hspace*{\fill}\ \ \ \protect\csname CoppeExaminer:\the\count1 \endcsname\ \ \ }\\
 				\advance\count1 by 1}
 		\end{flushright}
 	\end{center}
+  \vspace*{40mm}
+  \hspace*{-5mm}\textbf{Prof. Dr. Horacio A. Legal Ayala} \hspace*{10mm} \textbf{Prof. DSc. Diego Pedro Pinto}
+   \hspace*{-5mm}         Coordinador Acad\'emico     \hspace*{38mm}       Orientador \\
+\hspace*{-5mm} Postgrado en Ciencias de la Computaci\'on \\
+      \hspace*{-5mm}            Facultad Polit\'ecnica \\
+      \hspace*{-5mm} Universidad Nacional de Asunci\'on
 	\vspace*{\fill}
 	%\frontpage@bottomtext
 }
@@ -761,9 +767,9 @@ T\kern-.1667em\lower.5ex\hbox{E}\kern-.125emX\spacefactor1000}
 %  \newcommand\local@approvedname{Examinada por}%
 %}
 \ifthenelse{\boolean{maledoc}}{%
-	\newcommand\local@approvedname{Aprobado en Diciembre de 2017 por}%
+	\newcommand\local@approvedname{Tesis de Maestr\'ia aprobada el 20 de Diciembre de 2017 por los siguientes miembros del Jurado de Defensa}%
 }{%
-	\newcommand\local@approvedname{Aprobado en Diciembre de 2017 por}%
+	\newcommand\local@approvedname{Tesis de Maestr\'ia aprobada el 20 de Diciembre de 2017 por los siguientes miembros del Jurado de Defensa}%
 }
 \newcommand\local@universityname{Universidad Nacional de Asunci\'on}
 \newcommand\local@deptstring{Programa}

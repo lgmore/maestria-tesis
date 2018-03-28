@@ -6,4 +6,6 @@ INPUT /var/lib/texmf/web2c/pdftex/pdflatex.fmt
 INPUT /home/lg_more/github/maestria-tesis/libro/chap04.tex
 OUTPUT /home/lg_more/github/maestria-tesis/libro/chap04.log
 INPUT /usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmti10.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmtt10.tfm

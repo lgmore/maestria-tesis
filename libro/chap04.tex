@@ -145,7 +145,7 @@ En el Apéndice A se puede apreciar el detalle de coeficientes obtenidos para la
 \begin{center}
  \begin{tabular}{||c | c c c c||} 
  \hline
-Metrics & $\mathscr{H_Y}$ & $SSIM_R$ & $SSIM_G$ & $SSIM_B$ \\ 
+Métricas & $\mathscr{H_Y}$ & $SSIM_R$ & $SSIM_G$ & $SSIM_B$ \\ 
 \hline
 $\mathscr{H_Y}$ & 1 &   &   &  \\ 
 \hline
@@ -169,7 +169,72 @@ $SSIM_B$ & -0,8565 & 0,9998   & 0.9999   & 1 \\
 
 La Figura (\ref{fig:pareto_front}) muestra el Frente Pareto creado a partir de los datos de coeficientes de métricas de la imagen de prueba \texttt{calhouse\_230.jpg}, y también la Tabla \ref{table:correlacion1} muestra la correlación entre métricas, analizadas a partir de los resultados de coeficientes de métricas de dicha imagen. Es notable cómo hay una correlación positiva muy fuerte entre $SSIM_R$, $SSIM_G$ y $SSIM_B$; también se verifica la existencia una correlación negativa entre las métricas previamente mencionadas y $\mathscr{H_Y}$. Éstas correlaciones indican que los canales  $R,G,B$ de las imágenes se ven afectadas directamente por el proceso que modifica el canal $Y$ (véase el Algoritmo (\ref{alg:pso_clahe})). Ésto también indica que la Mejora del Contraste de las imágenes a color se puede plantear como un problema de optimización bi-objetivo, utlizando simplemente $\mathscr{H_Y}$ y $SSIM$ aplicados sobre el canal $Y$, o posiblemente tomando como métrica de distorsión alguna métrica relacionada a la medición de variación de color.
 
-Finalmente, se puede mencionar que los tiempos de ejecución de las pruebas (las cuales se detallan en el Anexo), muestran que es temporalmente factible realizar entrenamientos que posibilitan la obtención de variables de decisión adecuadas para el algoritmo de Mejora del Contraste, cuya aplicación posterior garantiza la posibilidad de resaltar distintos detalles de la imagen de acuerdo al contraste aplicado.
+Además, se puede mencionar que los tiempos de ejecución de las pruebas (las cuales se detallan en el Anexo), muestran que es temporalmente factible realizar entrenamientos que posibilitan la obtención de variables de decisión adecuadas para el algoritmo de Mejora del Contraste, cuya aplicación posterior garantiza la posibilidad de resaltar distintos detalles de la imagen de acuerdo al contraste aplicado.
+
+\section{Análisis del Hipervolumen basada en la implementación propuesta}
+
+La medida del Hipervolumen (o bien el \textit{indicador de  Hipervolumen}) denota el `tamaño de espacio cubierto por el Frente Pareto'\cite{zitzler2007hypervolume}; es una medida de performance muy popular entre los optimizadores multiobjetivo, por lo que está en el foco de la investigación reciente\cite{while2005heuristics,while2006faster}.
+
+Para realizar las mediciones necesarias, se tomó una base de datos de imágenes disponible propuesta por \cite{schaefer2003ucid}. Se tomaron 10 imágenes de prueba, a las que se aplicó $CMOPSO-CLAHE$ con las mismas condiciones descritas en la Tabla \ref{table:parametrospso}. Se tomó como punto de referencia $(0,0,0,0)$, considerando el contexto de maximización de la propuesta. La herramienta para cálculo de hipervolúmenes está disponible en \cite{izzo2012pygmo}.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.90\textwidth]{./Figures/grafico-de-caja.PNG}
+    %\begin{subfigure}[t]{0.45\textwidth}
+    % \begin{subfigure}[]{
+    %     \includegraphics[width=0.90\textwidth]{./Figures/grafico-de-caja.PNG}
+    % }
+%        \caption{Imagen Original. $\mathscr{H_Y}=0.207231$, $SSIM_R=1$, $SSIM_G=1$, $SSIM_B=1$}
+    %     \label{fig:graficocaja}
+    % \end{subfigure}
+
+
+    \caption{Gráfico de caja para los hipervolúmenes de los Frentes Pareto Resultantes.}\label{fig:graficocaja1}
+\end{figure}
+
+En la Figura \ref{fig:graficocaja1} se puede apreciar el gráfico de cajas de los hipervolúmenes obtenidos para cada una de las 30 pruebas, para las imágenes tomadas de la base de datos. Es fácil de verificar que los resultados son estables entre pruebas, y aunque existen ciertos estancamientos entre pruebas (lo cual se puede deducir a partir de los máximos que se aprecian en los diagramas), por lo general se puede considerar la robustez de las pruebas realizadas.
+
+\begin{table}[H]
+\setlength{\abovecaptionskip}{2pt plus 3pt minus 2pt} % Chosen fairly arbitrarily
+\caption[Parámetros de entrada para $MOPSO$]{Tabla de Resultados de Hipervolumen para las imágenes de prueba tomadas de \cite{schaefer2003ucid}}
+\begin{center}
+ \begin{tabular}{||c | c c c||} 
+ \hline
+Nombre & $Hipervolumen$ & Mas Contribuidor & Promedio de contribuciones \\ 
+\hline
+ucid00001.jpg & 0.003358  & 1.21614e-05 & 6.20272e-07\\ 
+\hline
+ucid00002.jpg & 0.001318 & 9.55146e-06  & 1.68656e-08  \\ 
+ucid00003.jpg & 0.000108 & 5.099e-06   & 3.81174e-09  \\ 
+\hline
+ucid00004.jpg & 0.00294 & 2.72965e-06   & 9.91360e-09  \\ 
+\hline
+ucid00005.jpg & 0.00066 & 2.42466e-06   & 7.956168e-09  \\ 
+\hline
+ucid00006.jpg & 0.00082 & 3.74129e-06   & 5.53981e-09  \\ 
+\hline
+ucid00007.jpg & 9.74946e-5 & 1.5712e-05   & 7.3319e-09  \\ 
+\hline
+ucid00008.jpg & 0.001485 & 1.44612e-05   & 1.70912e-08  \\ 
+\hline
+ucid00009.jpg & 0.001485 & 2.88823e-06   & 8.1886e-09  \\ 
+\hline
+ucid00010.jpg & 0.001168 & 3.46999e-06   & 1.01378e-08  \\ 
+\hline
+\hline
+\end{tabular}
+\end{center}
+\label{table:hipervolumen}
+\end{table}
+
+En la Tabla \ref{table:hipervolumen} se puede verificar la métrica de Hipervolumen para cada dato de prueba de la base de datos obtenida consolidada luego de descartar los elementos dominados entre pruebas, además del punto que aporta más contribución al coeficiente de cada conjunto Pareto (columna Más Contribuidor), y el promedio de contribuciones de los puntos Pareto de cada Frente de las imágenes de prueba(Columna Promedio de contribuciones). Los frentes Pareto consolidados se calculan de la siguiente manera:
+
+\begin{equation}
+\{x: x \in \cup_{i=1}^{30} c_i \wedge x \cup_{i=1}^{30} \not\prec c_i \}
+\end{equation}
+
+Es notable que la contribución es relativamente uniforme, y no mucho menor que el punto de mayor contribución. Ésto induce a pensar que el Frente Pareto es relativamente bien distribuido dentro del espacio de Frente Pareto.
+
 
 %Figure (\ref{fig:pareto_front}) shows the Pareto Front created from the data in Table \ref{table:nodominadas}, and also Table \ref{table:correlacion} shows the correlation between metrics, analized from the results in Table \ref{table:nodominadas}. It is remarkable that there is a strong positive correlation between $SSIM_R$, $SSIM_G$ and $SSIM_B$; and there is a negative correlation between the previously mentioned metrics and $\mathscr{H_Y}$. These correlations indicate that the channels $R,G,B$ of images are directly affected by the proccess that modifies $Y$ channel (see Algorithm (\ref{alg:pso_clahe})). This also indicates that CE of color images can be posed as a bi-objective optimization problem, using only $\mathscr{H_Y}$ and $SSIM$ applied over $Y$ channel.
 

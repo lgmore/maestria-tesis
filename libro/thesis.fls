@@ -578,11 +578,15 @@ INPUT ./Figures/calhouse_0230_20-20-0020072469292179818.jpg
 INPUT /home/lg_more/github/maestria-tesis/libro/./Figures/calhouse_230/calhouse_230_2.jpg
 INPUT ./Figures/calhouse_230/calhouse_230_2.jpg
 INPUT ./Figures/calhouse_230/calhouse_230_2.jpg
+INPUT /home/lg_more/github/maestria-tesis/libro/./Figures/grafico-de-caja.PNG
+INPUT ./Figures/grafico-de-caja.PNG
+INPUT ./Figures/grafico-de-caja.PNG
 OUTPUT /home/lg_more/github/maestria-tesis/libro/chap05.aux
 INPUT /home/lg_more/github/maestria-tesis/libro/chap05.tex
 INPUT /home/lg_more/github/maestria-tesis/libro/chap05.tex
 INPUT /home/lg_more/github/maestria-tesis/libro/thesis.bbl
 INPUT /home/lg_more/github/maestria-tesis/libro/thesis.bbl
+INPUT /usr/share/texmf/fonts/tfm/public/lm/rm-lmtti10.tfm
 OUTPUT /home/lg_more/github/maestria-tesis/libro/AnexoA.aux
 INPUT /home/lg_more/github/maestria-tesis/libro/AnexoA.tex
 INPUT /home/lg_more/github/maestria-tesis/libro/AnexoA.tex
@@ -851,6 +855,7 @@ INPUT /usr/share/texmf/fonts/type1/public/lm/lmsy8.pfb
 INPUT /usr/share/texmf/fonts/type1/public/lm/lmtk10.pfb
 INPUT /usr/share/texmf/fonts/type1/public/lm/lmtt12.pfb
 INPUT /usr/share/texmf/fonts/type1/public/lm/lmtt8.pfb
+INPUT /usr/share/texmf/fonts/type1/public/lm/lmtti10.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/rsfs/rsfs10.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/rsfs/rsfs7.pfb

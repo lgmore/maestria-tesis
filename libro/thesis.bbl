@@ -19,6 +19,12 @@ Gary Bradski.
 \newblock {\em Dr. Dobb's Journal: Software Tools for the Professional
   Programmer}, 25(11):120--123, 2000.
 
+\bibitem[Com07]{pict2}
+Wikimedia Commons.
+\newblock Excess redistribution in contrast-limited adaptive histogram
+  equalization., 2007.
+\newblock File: \ttfamily{Clahe-redist.svg}.
+
 \bibitem[DNA10]{durillo2010jmetal}
 Juan~J Durillo, Antonio~J Nebro, and Enrique Alba.
 \newblock The jmetal framework for multi-objective optimization: Design and
@@ -66,6 +72,14 @@ Pourya Hoseini and Mahrokh~G. Shayesteh.
 \newblock Efficient contrast enhancement of images using hybrid ant colony
   optimisation, genetic algorithm, and simulated annealing.
 \newblock {\em Digital Signal Processing}, 23(3):879 -- 893, 2013.
+
+\bibitem[Izz12]{izzo2012pygmo}
+Dario Izzo.
+\newblock Pygmo and pykep: Open source tools for massively parallel
+  optimization in astrodynamics (the case of interplanetary trajectory
+  optimization).
+\newblock In {\em Proceedings of the Fifth International Conference on
+  Astrodynamics Tools and Techniques, ICATT}, 2012.
 
 \bibitem[KBD91]{108593}
 A.~Khellaf, A.~Beghdadi, and H.~Dupoisot.
@@ -150,19 +164,44 @@ M~Sundaram, K~Ramar, N~Arumugam, and G~Prabin.
 \newblock Histogram modified local contrast enhancement for mammogram images.
 \newblock {\em Applied soft computing}, 11(8):5809--5816, 2011.
 
+\bibitem[SS03]{schaefer2003ucid}
+Gerald Schaefer and Michal Stich.
+\newblock Ucid: An uncompressed color image database.
+\newblock In {\em Storage and Retrieval Methods and Applications for Multimedia
+  2004}, volume 5307, pages 472--481. International Society for Optics and
+  Photonics, 2003.
+
 \bibitem[tim]{time}
 {\em time(1) - Linux User's Manual}.
+
+\bibitem[Vis07]{pict1}
+Caltech Vision.
+\newblock Paolina, 2007.
+\newblock File: \ttfamily{LambdaPlaques.jpg}.
 
 \bibitem[Voo03]{voorneveld2003characterization}
 Mark Voorneveld.
 \newblock Characterization of pareto dominance.
 \newblock {\em Operations Research Letters}, 31(1):7--11, 2003.
 
+\bibitem[WBBH05]{while2005heuristics}
+Lyndon While, Lucas Bradstreet, Luigi Barone, and Philip Hingston.
+\newblock Heuristics for optimizing the calculation of hypervolume for
+  multi-objective optimization problems.
+\newblock In {\em Evolutionary Computation, 2005. The 2005 IEEE Congress on},
+  volume~3, pages 2225--2232. IEEE, 2005.
+
 \bibitem[WBSS04]{wang2004image}
 Zhou Wang, Alan~C Bovik, Hamid~R Sheikh, and Eero~P Simoncelli.
 \newblock Image quality assessment: from error visibility to structural
   similarity.
 \newblock {\em IEEE transactions on image processing}, 13(4):600--612, 2004.
+
+\bibitem[WHBH06]{while2006faster}
+Lyndon While, Philip Hingston, Luigi Barone, and Simon Huband.
+\newblock A faster algorithm for calculating hypervolume.
+\newblock {\em IEEE transactions on evolutionary computation}, 10(1):29--38,
+  2006.
 
 \bibitem[WKC{\etalchar{+}}98]{743808}
 K.~Wongsritong, K.~Kittayaruasiriwat, F.~Cheevasuvit, K.~Dejhan, and
@@ -172,6 +211,13 @@ K.~Wongsritong, K.~Kittayaruasiriwat, F.~Cheevasuvit, K.~Dejhan, and
 \newblock In {\em IEEE. APCCAS 1998. 1998 IEEE Asia-Pacific Conference on
   Circuits and Systems. Microelectronics and Integrating Systems. Proceedings
   (Cat. No.98EX242)}, pages 455--458, Nov 1998.
+
+\bibitem[ZBT07]{zitzler2007hypervolume}
+Eckart Zitzler, Dimo Brockhoff, and Lothar Thiele.
+\newblock The hypervolume indicator revisited: On the design of
+  pareto-compliant indicators via weighted integration.
+\newblock In {\em International Conference on Evolutionary Multi-Criterion
+  Optimization}, pages 862--876. Springer, 2007.
 
 \bibitem[Zui94]{zuiderveld1994contrast}
 Karel Zuiderveld.

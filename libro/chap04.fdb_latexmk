@@ -1,17 +1,19 @@
 # Fdb version 3
-["pdflatex"] 1511639328 "/home/lg_more/github/maestria-tesis/libro/chap04.tex" "/home/lg_more/github/maestria-tesis/libro/chap04.pdf" "chap04" 1511639329
+["pdflatex"] 1522194761 "/home/lg_more/github/maestria-tesis/libro/chap04.tex" "/home/lg_more/github/maestria-tesis/libro/chap04.pdf" "chap04" 1522194762
   "/etc/texmf/web2c/texmf.cnf" 1509726437 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/lg_more/github/maestria-tesis/libro/chap04.aux" 1511638970 4341 5ef2376cf5df1616712fc516e36df564 ""
-  "/home/lg_more/github/maestria-tesis/libro/chap04.tex" 1511639319 64725 79acb80bd8a56487a8609d3303868d1a ""
+  "/home/lg_more/github/maestria-tesis/libro/chap04.aux" 1522194639 4422 569635c667e09263b4376d32426d8590 ""
+  "/home/lg_more/github/maestria-tesis/libro/chap04.tex" 1522194761 70107 6f04f21bfe65e9034214ba9126112022 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1480098670 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm" 1480098701 1328 c834bbb027764024c09d3d2bf908b5f0 ""
+  "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmti10.tfm" 1480098701 1480 aa8e34af0eb6a2941b776984cf1dfdc4 ""
+  "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmtt10.tfm" 1480098701 768 1321e9409b4137d6fb428ac9dc956269 ""
   "/usr/share/texlive/texmf-dist/web2c/texmf.cnf" 1503024366 32036 8f10cb8f6ef259fb5791f09c065d3d13 ""
   "/usr/share/texmf/web2c/texmf.cnf" 1503024366 32036 8f10cb8f6ef259fb5791f09c065d3d13 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1509726542 4128531 d055619ebcb377dd89772fe63b36c1da ""
-  "chap04.tex" 1511639319 64725 79acb80bd8a56487a8609d3303868d1a ""
+  "chap04.tex" 1522194761 70107 6f04f21bfe65e9034214ba9126112022 ""
   (generated)
-  "/home/lg_more/github/maestria-tesis/libro/chap04.pdf"
-  "/home/lg_more/drivePoli/maestria/tesis/libro/0B_uamuFbOYdWN0otSmptbTFoYkU_FILES/chap04.pdf"
   "chap04.log"
-  "/home/lg_more/github/maestria-tesis/libro/chap04.log"
   "/home/lg_more/drivePoli/maestria/tesis/libro/0B_uamuFbOYdWN0otSmptbTFoYkU_FILES/chap04.log"
+  "/home/lg_more/github/maestria-tesis/libro/chap04.log"
+  "/home/lg_more/drivePoli/maestria/tesis/libro/0B_uamuFbOYdWN0otSmptbTFoYkU_FILES/chap04.pdf"
+  "/home/lg_more/github/maestria-tesis/libro/chap04.pdf"
