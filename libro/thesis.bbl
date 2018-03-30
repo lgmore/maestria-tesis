@@ -25,6 +25,11 @@ Wikimedia Commons.
   equalization., 2007.
 \newblock File: \ttfamily{Clahe-redist.svg}.
 
+\bibitem[Com17]{pict4}
+Wikimedia Commons.
+\newblock 2d-partikelschwarm sucht globales minimum, 2017.
+\newblock File: \ttfamily{ParticleSwarmArrowsAnimation.gif}.
+
 \bibitem[DNA10]{durillo2010jmetal}
 Juan~J Durillo, Antonio~J Nebro, and Enrique Alba.
 \newblock The jmetal framework for multi-objective optimization: Design and
@@ -128,6 +133,11 @@ Luis~G More, Marcos~A Brizuela, Horacio~Legal Ayala, Diego~P Pinto-Roa, and
   achieve different contrast levels in medical images.
 \newblock In {\em Image Processing (ICIP), 2015 IEEE International Conference
   on}, pages 4644--4648. IEEE, 2015.
+
+\bibitem[MSD12]{pict3}
+Microsoft MSDN.
+\newblock About jpeg ycbcr data, 2012.
+\newblock File: \ttfamily{Clahe-redist.svg}.
 
 \bibitem[NDGN{\etalchar{+}}09]{nebro2009smpso}
 Antonio~J Nebro, Juan~Jos{\'e} Durillo, Jose Garcia-Nieto, CA~Coello Coello,
