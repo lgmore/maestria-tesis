@@ -1,11 +1,11 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2017.11.3)  30 MAR 2018 16:49
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.5.4)  20 MAY 2018 20:06
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **/home/lg_more/github/maestria-tesis/libro/thesis.tex
 (/home/lg_more/github/maestria-tesis/libro/thesis.tex
 LaTeX2e <2017-04-15>
-Babel <3.12> and hyphenation patterns for 84 language(s) loaded.
+Babel <3.18> and hyphenation patterns for 84 language(s) loaded.
 (/home/lg_more/github/maestria-tesis/libro/coppe.cls
 Document Class: coppe 2009/11/17\ v2.1.1\ COPPE Dissertations and Thesis
 (/usr/share/texlive/texmf-dist/tex/latex/base/book.cls
@@ -38,7 +38,7 @@ LaTeX Info: Redefining \_ on input line 43.
 ) (/usr/share/texlive/texmf-dist/tex/latex/lastpage/lastpage.sty
 Package: lastpage 2015/03/29 v1.2m Refers to last page's name (HMM; JPG)
 ) (/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
-Package: hyperref 2017/03/14 v6.85a Hypertext links for LaTeX
+Package: hyperref 2018/02/06 v6.86b Hypertext links for LaTeX
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
 Package: hobsub-hyperref 2016/05/16 v1.14 Bundle oberdiek, subset hyperref (HO)
 
@@ -60,7 +60,7 @@ Package etexcmds Info: Could not find \expanded.
 (etexcmds)             In the latter case, load this package earlier.
 Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
 Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
-Package: pdftexcmds 2017/03/19 v0.25 Utility functions of pdfTeX for LuaTeX (HO
+Package: pdftexcmds 2018/01/21 v0.26 Utility functions of pdfTeX for LuaTeX (HO
 )
 Package pdftexcmds Info: LuaTeX not detected.
 Package pdftexcmds Info: \pdf@primitive is available.
@@ -95,49 +95,47 @@ Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
 \Hy@linkcounter=\count89
 \Hy@pagecounter=\count90
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def
-File: pd1enc.def 2017/03/14 v6.85a Hyperref: PDFDocEncoding definition (HO)
+File: pd1enc.def 2018/02/06 v6.86b Hyperref: PDFDocEncoding definition (HO)
 )
 \Hy@SavedSpaceFactor=\count91
 (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/hyperref.cfg
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
 )
-Package hyperref Info: Option `plainpages' set `false' on input line 4374.
-Package hyperref Info: Option `pdfpagelabels' set `true' on input line 4374.
-Package hyperref Info: Hyper figures OFF on input line 4498.
-Package hyperref Info: Link nesting OFF on input line 4503.
-Package hyperref Info: Hyper index ON on input line 4506.
-Package hyperref Info: Plain pages OFF on input line 4513.
-Package hyperref Info: Backreferencing OFF on input line 4518.
+Package hyperref Info: Option `plainpages' set `false' on input line 4383.
+Package hyperref Info: Option `pdfpagelabels' set `true' on input line 4383.
+Package hyperref Info: Hyper figures OFF on input line 4509.
+Package hyperref Info: Link nesting OFF on input line 4514.
+Package hyperref Info: Hyper index ON on input line 4517.
+Package hyperref Info: Plain pages OFF on input line 4524.
+Package hyperref Info: Backreferencing OFF on input line 4529.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
-Package hyperref Info: Bookmarks ON on input line 4751.
+Package hyperref Info: Bookmarks ON on input line 4762.
 \c@Hy@tempcnt=\count92
 (/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip10
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-LaTeX Info: Redefining \url on input line 5104.
+LaTeX Info: Redefining \url on input line 5115.
 \XeTeXLinkMargin=\dimen104
 \Fld@menulength=\count93
 \Field@Width=\dimen105
 \Fld@charsize=\dimen106
-Package hyperref Info: Hyper figures OFF on input line 6358.
-Package hyperref Info: Link nesting OFF on input line 6363.
-Package hyperref Info: Hyper index ON on input line 6366.
-Package hyperref Info: backreferencing OFF on input line 6373.
-Package hyperref Info: Link coloring OFF on input line 6378.
-Package hyperref Info: Link coloring with OCG OFF on input line 6383.
-Package hyperref Info: PDF/A mode OFF on input line 6388.
-LaTeX Info: Redefining \ref on input line 6428.
-LaTeX Info: Redefining \pageref on input line 6432.
+Package hyperref Info: Hyper figures OFF on input line 6369.
+Package hyperref Info: Link nesting OFF on input line 6374.
+Package hyperref Info: Hyper index ON on input line 6377.
+Package hyperref Info: backreferencing OFF on input line 6384.
+Package hyperref Info: Link coloring OFF on input line 6389.
+Package hyperref Info: Link coloring with OCG OFF on input line 6394.
+Package hyperref Info: PDF/A mode OFF on input line 6399.
+LaTeX Info: Redefining \ref on input line 6439.
+LaTeX Info: Redefining \pageref on input line 6443.
 \Hy@abspage=\count94
 \c@Item=\count95
 \c@Hfootnote=\count96
 )
-
-Package hyperref Message: Driver: hpdftex.
-
+Package hyperref Info: Driver: hpdftex.
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
-File: hpdftex.def 2017/03/14 v6.85a Hyperref driver for pdfTeX
+File: hpdftex.def 2018/02/06 v6.86b Hyperref driver for pdfTeX
 \Fld@listcount=\count97
 \c@bookmark@seq@number=\count98
 (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
@@ -159,7 +157,7 @@ File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 99.
 (/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def
-File: pdftex.def 2017/06/24 v1.0g Graphics/color driver for pdftex
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 ))
 \Gin@req@height=\dimen107
 \Gin@req@width=\dimen108
@@ -183,7 +181,7 @@ Package: array 2016/10/06 v2.4d Tabular extension package (FMi)
 \TX@cols=\count99
 \TX@ftn=\toks16
 ) (/usr/share/texlive/texmf-dist/tex/latex/eqparbox/eqparbox.sty
-Package: eqparbox 2013/03/15 v4.0 Create equal-widthed boxes
+Package: eqparbox 2017/09/03 v4.1 Create equal-widthed boxes
 \eqp@tempdima=\skip48
 \eqp@tempdimb=\skip49
 \eqp@tabular@box=\box26
@@ -238,21 +236,20 @@ Package: titlesec 2016/03/21 v2.10.2 Sectioning titles
 \c@keywords=\count105
 \bibindent=\dimen129
 ) (/usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty
-Package: babel 2017/06/29 3.12 The Babel package
+Package: babel 2018/02/14 3.18 The Babel package
 (/usr/share/texlive/texmf-dist/tex/generic/babel/switch.def
-File: switch.def 2017/06/29 3.12 Babel switching mechanism
+File: switch.def 2018/02/14 3.18 Babel switching mechanism
 ) (/usr/share/texlive/texmf-dist/tex/generic/babel-spanish/spanish.ldf
 Language: spanish.ldf 2016/03/03 v5.0p Spanish support from the babel system
 (/usr/share/texlive/texmf-dist/tex/generic/babel/babel.def
-File: babel.def 2017/06/29 3.12 Babel common definitions
-(/usr/share/texlive/texmf-dist/tex/generic/babel/switch.def
-File: switch.def 2017/06/29 3.12 Babel switching mechanism
-)
+File: babel.def 2018/02/14 3.18 Babel common definitions
 \babel@savecnt=\count106
 \U@D=\dimen130
+(/usr/share/texlive/texmf-dist/tex/generic/babel/txtbabel.def)
+\bbl@dirlevel=\count107
 )
 \es@quottoks=\toks20
-\es@quotdepth=\count107
+\es@quotdepth=\count108
 Package babel Info: Making " an active character on input line 561.
 Package babel Info: Making . an active character on input line 662.
 Package babel Info: Making < an active character on input line 707.
@@ -578,7 +575,7 @@ Now handling font encoding PD1 ...
    defining Unicode char U+2122 (decimal 8482)
    defining Unicode char U+2423 (decimal 9251)
 )) (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
-Package: amsmath 2016/11/05 v2.16a AMS math features
+Package: amsmath 2017/09/02 v2.17a AMS math features
 \@mathmargin=\skip62
 For additional information on amsmath, use the `?' option.
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
@@ -593,13 +590,13 @@ Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 ) (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2016/03/08 v2.02 operator names
 )
-\inf@bad=\count108
+\inf@bad=\count109
 LaTeX Info: Redefining \frac on input line 213.
-\uproot@=\count109
-\leftroot@=\count110
+\uproot@=\count110
+\leftroot@=\count111
 LaTeX Info: Redefining \overline on input line 375.
-\classnum@=\count111
-\DOTSCASE@=\count112
+\classnum@=\count112
+\DOTSCASE@=\count113
 LaTeX Info: Redefining \ldots on input line 472.
 LaTeX Info: Redefining \dots on input line 475.
 LaTeX Info: Redefining \cdots on input line 596.
@@ -608,15 +605,15 @@ LaTeX Info: Redefining \cdots on input line 596.
 \big@size=\dimen133
 LaTeX Font Info:    Redeclaring font encoding OML on input line 712.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
-\macc@depth=\count113
-\c@MaxMatrixCols=\count114
+\macc@depth=\count114
+\c@MaxMatrixCols=\count115
 \dotsspace@=\muskip11
-\c@parentequation=\count115
-\dspbrk@lvl=\count116
+\c@parentequation=\count116
+\dspbrk@lvl=\count117
 \tag@help=\toks24
-\row@=\count117
-\column@=\count118
-\maxfields@=\count119
+\row@=\count118
+\column@=\count119
+\maxfields@=\count120
 \andhelp@=\toks25
 \eqnshift@=\dimen134
 \alignsep@=\dimen135
@@ -642,7 +639,7 @@ LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 Package: mathrsfs 1996/01/01 Math RSFS package v1.0 (jk)
 \symrsfs=\mathgroup6
 ) (/usr/share/texlive/texmf-dist/tex/latex/amscls/amsthm.sty
-Package: amsthm 2015/03/04 v2.20.2
+Package: amsthm 2017/10/31 v2.20.4
 \thm@style=\toks28
 \thm@bodyfont=\toks29
 \thm@headfont=\toks30
@@ -694,10 +691,10 @@ Package: subfigure 2002/03/15 v2.1.5 subfigure package
 \subfigbottomskip=\skip70
 \subfigcapmargin=\dimen141
 \subfiglabelskip=\skip71
-\c@subfigure=\count120
-\c@lofdepth=\count121
-\c@subtable=\count122
-\c@lotdepth=\count123
+\c@subfigure=\count121
+\c@lofdepth=\count122
+\c@subtable=\count123
+\c@lotdepth=\count124
 ****************************************
 * Local config file subfigure.cfg used *
 ****************************************
@@ -706,7 +703,7 @@ Package: subfigure 2002/03/15 v2.1.5 subfigure package
 \subfig@bottom=\skip73
 ) (/usr/share/texlive/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count124
+\c@float@type=\count125
 \float@exts=\toks34
 \float@box=\box31
 \@float@everytoks=\toks35
@@ -740,8 +737,8 @@ Package: suffix 2006/07/15 1.5a Variant command support
 ) (/usr/share/texlive/texmf-dist/tex/generic/xstring/xstring.sty (/usr/share/te
 xlive/texmf-dist/tex/generic/xstring/xstring.tex
 \@xs@message=\write3
-\integerpart=\count125
-\decimalpart=\count126
+\integerpart=\count126
+\decimalpart=\count127
 )
 Package: xstring 2013/10/13  v1.7c  String manipulations (C Tellechea)
 )
@@ -749,19 +746,19 @@ Package: xstring 2013/10/13  v1.7c  String manipulations (C Tellechea)
 ) (/usr/share/texlive/texmf-dist/tex/latex/multirow/multirow.sty
 Package: multirow 2016/11/25 v2.2 Span multiple rows of a table
 \multirow@colwidth=\skip74
-\multirow@cntb=\count127
+\multirow@cntb=\count128
 \multirow@dima=\skip75
 \bigstrutjot=\dimen144
 ) (/usr/share/texlive/texmf-dist/tex/latex/tools/multicol.sty
 Package: multicol 2017/04/11 v1.8q multicolumn formatting (FMi)
-\c@tracingmulticols=\count128
+\c@tracingmulticols=\count129
 \mult@box=\box33
 \multicol@leftmargin=\dimen145
-\c@unbalance=\count129
-\c@collectmore=\count130
-\doublecol@number=\count131
-\multicoltolerance=\count132
-\multicolpretolerance=\count133
+\c@unbalance=\count130
+\c@collectmore=\count131
+\doublecol@number=\count132
+\multicoltolerance=\count133
+\multicolpretolerance=\count134
 \full@width=\dimen146
 \page@free=\dimen147
 \premulticols=\dimen148
@@ -792,14 +789,14 @@ Package: multicol 2017/04/11 v1.8q multicolumn formatting (FMi)
 \@tempa=\box54
 \@tempa=\box55
 \@tempa=\box56
-\c@columnbadness=\count134
-\c@finalcolumnbadness=\count135
+\c@columnbadness=\count135
+\c@finalcolumnbadness=\count136
 \last@try=\dimen151
 \multicolovershoot=\dimen152
 \multicolundershoot=\dimen153
 \mult@nat@firstbox=\box57
 \colbreak@box=\box58
-\mc@col@check@num=\count136
+\mc@col@check@num=\count137
 ) (/usr/share/texlive/texmf-dist/tex/latex/tools/hhline.sty
 Package: hhline 2014/10/28 v2.03 Table rule package (DPC)
 ) (/usr/share/texlive/texmf-dist/tex/latex/esvect/esvect.sty
@@ -816,7 +813,7 @@ Package: colortbl 2012/02/13 v1.0a Color table columns (DPC)
 \everycr=\toks37
 \minrowclearance=\skip78
 )
-\rownum=\count137
+\rownum=\count138
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
 Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
 Package xcolor Info: Model `RGB' extended on input line 1364.
@@ -840,12 +837,12 @@ Package: booktabs 2016/04/27 v1.618033 publication quality tables
 \cmidrulesep=\dimen161
 \cmidrulekern=\dimen162
 \defaultaddspace=\dimen163
-\@cmidla=\count138
-\@cmidlb=\count139
+\@cmidla=\count139
+\@cmidlb=\count140
 \@aboverulesep=\dimen164
 \@belowrulesep=\dimen165
-\@thisruleclass=\count140
-\@lastruleclass=\count141
+\@thisruleclass=\count141
+\@lastruleclass=\count142
 \@thisrulewidth=\dimen166
 ) (/usr/share/texlive/texmf-dist/tex/latex/shipunov/boldline.sty
 Package: boldline 2008/02/04 v0.2 Adjust line width in tables
@@ -862,7 +859,7 @@ Package caption3 Info: TeX engine: e-TeX on input line 67.
 \caption@parindent=\dimen172
 \caption@hangindent=\dimen173
 )
-\c@ContinuedFloat=\count142
+\c@ContinuedFloat=\count143
 Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
 Package caption Info: subfigure package is loaded.
@@ -870,21 +867,21 @@ Package caption Info: subfigure package is loaded.
 Package: algorithm 2009/08/24 v0.1 Document Style `algorithm' - floating enviro
 nment
 \@float@every@algorithm=\toks38
-\c@algorithm=\count143
+\c@algorithm=\count144
 ) (/usr/share/texlive/texmf-dist/tex/latex/algorithmicx/algpseudocode.sty
 Package: algpseudocode 
 (/usr/share/texlive/texmf-dist/tex/latex/algorithmicx/algorithmicx.sty
 Package: algorithmicx 2005/04/27 v1.2 Algorithmicx
 Document Style algorithmicx 1.2 - a greatly improved `algorithmic' style
-\c@ALG@line=\count144
-\c@ALG@rem=\count145
-\c@ALG@nested=\count146
+\c@ALG@line=\count145
+\c@ALG@rem=\count146
+\c@ALG@nested=\count147
 \ALG@tlm=\skip79
 \ALG@thistlm=\skip80
-\c@ALG@Lnr=\count147
-\c@ALG@blocknr=\count148
-\c@ALG@storecount=\count149
-\c@ALG@tmpcounter=\count150
+\c@ALG@Lnr=\count148
+\c@ALG@blocknr=\count149
+\c@ALG@storecount=\count150
+\c@ALG@tmpcounter=\count151
 \ALG@tmplength=\skip81
 )
 Document Style - pseudocode environments for use with the `algorithmicx' style
@@ -894,16 +891,16 @@ Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)
 \LTright=\skip83
 \LTpre=\skip84
 \LTpost=\skip85
-\LTchunksize=\count151
+\LTchunksize=\count152
 \LTcapwidth=\dimen174
 \LT@head=\box59
 \LT@firsthead=\box60
 \LT@foot=\box61
 \LT@lastfoot=\box62
-\LT@cols=\count152
-\LT@rows=\count153
-\c@LT@tables=\count154
-\c@LT@chunks=\count155
+\LT@cols=\count153
+\LT@rows=\count154
+\c@LT@tables=\count155
+\c@LT@chunks=\count156
 \LT@p@ftn=\toks39
 ) (/usr/share/texlive/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty (/usr/sha
 re/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty (/usr/share/texlive/texm
@@ -944,10 +941,10 @@ ex
 \pgf@yc=\dimen184
 \w@pgf@writea=\write4
 \r@pgf@reada=\read1
-\c@pgf@counta=\count156
-\c@pgf@countb=\count157
-\c@pgf@countc=\count158
-\c@pgf@countd=\count159
+\c@pgf@counta=\count157
+\c@pgf@countb=\count158
+\c@pgf@countc=\count159
+\c@pgf@countd=\count160
 \t@pgf@toka=\toks44
 \t@pgf@tokb=\toks45
 \t@pgf@tokc=\toks46
@@ -965,8 +962,8 @@ File: pgfsys-common-pdf.def 2013/10/10  (rcs-revision 1.13)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.
 tex
 File: pgfsyssoftpath.code.tex 2013/09/09  (rcs-revision 1.9)
-\pgfsyssoftpath@smallbuffer@items=\count160
-\pgfsyssoftpath@bigbuffer@items=\count161
+\pgfsyssoftpath@smallbuffer@items=\count161
+\pgfsyssoftpath@bigbuffer@items=\count162
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.
 tex
@@ -978,7 +975,7 @@ e/texlive/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex (/usr/share/texl
 ive/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex) (/usr/share/texlive/t
 exmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
 \pgfmath@dimen=\dimen185
-\pgfmath@count=\count162
+\pgfmath@count=\count163
 \pgfmath@box=\box64
 \pgfmath@toks=\toks47
 \pgfmath@stack@operand=\toks48
@@ -1002,7 +999,7 @@ tex)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerari
 thmetics.code.tex))) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmat
 hfloat.code.tex
-\c@pgfmathroundto@lastzeros=\count163
+\c@pgfmathroundto@lastzeros=\count164
 ))
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.te
 x
@@ -1040,7 +1037,7 @@ File: pgfcorescopes.code.tex 2015/05/08  (rcs-revision 1.46)
 \pgfpic=\box65
 \pgf@hbox=\box66
 \pgf@layerbox@main=\box67
-\pgf@picture@serial@count=\count164
+\pgf@picture@serial@count=\count165
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.c
 ode.tex
@@ -1073,7 +1070,7 @@ File: pgfcorearrows.code.tex 2015/05/14  (rcs-revision 1.43)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
 File: pgfcoreshade.code.tex 2013/07/15  (rcs-revision 1.15)
 \pgf@max=\dimen265
-\pgf@sys@shading@range@num=\count165
+\pgf@sys@shading@range@num=\count166
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
 File: pgfcoreimage.code.tex 2013/07/15  (rcs-revision 1.18)
@@ -1129,7 +1126,7 @@ Package: tikz 2015/08/07 v3.0.1a (rcs-revision 1.151)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers
 .code.tex
 File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.1a (rcs-revision 1.20)
-\pgf@plot@mark@count=\count166
+\pgf@plot@mark@count=\count167
 \pgfplotmarksize=\dimen270
 )
 \tikz@lastx=\dimen271
@@ -1142,18 +1139,18 @@ File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.1a (rcs-revision 1.20)
 \tikz@figbox@bg=\box71
 \tikz@tempbox=\box72
 \tikz@tempbox@bg=\box73
-\tikztreelevel=\count167
-\tikznumberofchildren=\count168
-\tikznumberofcurrentchild=\count169
-\tikz@fig@count=\count170
+\tikztreelevel=\count168
+\tikznumberofchildren=\count169
+\tikznumberofcurrentchild=\count170
+\tikz@fig@count=\count171
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
 File: pgfmodulematrix.code.tex 2013/09/17  (rcs-revision 1.8)
-\pgfmatrixcurrentrow=\count171
-\pgfmatrixcurrentcolumn=\count172
-\pgf@matrix@numberofcolumns=\count173
+\pgfmatrixcurrentrow=\count172
+\pgfmatrixcurrentcolumn=\count173
+\pgf@matrix@numberofcolumns=\count174
 )
-\tikz@expandcount=\count174
+\tikz@expandcount=\count175
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
 zlibrarytopaths.code.tex
@@ -1167,7 +1164,7 @@ ive/texmf-dist/tex/generic/xkeyval/xkvutils.tex
 \XKV@toks=\toks52
 \XKV@tempa@toks=\toks53
 )
-\XKV@depth=\count175
+\XKV@depth=\count176
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 )) (/usr/share/texlive/texmf-dist/tex/latex/adjustbox/adjcalc.sty
 Package: adjcalc 2012/05/16 v1.1 Provides advanced setlength with multiple back
@@ -1192,18 +1189,154 @@ File: tc-pdftex.def 2012/05/13 v1.0 Clipping driver for pdftex
 \adjbox@Totalheight=\dimen284
 (/usr/share/texlive/texmf-dist/tex/latex/ifoddpage/ifoddpage.sty
 Package: ifoddpage 2016/04/23 v1.1 Conditionals for odd/even page detection
-\c@checkoddpage=\count176
+\c@checkoddpage=\count177
 ) (/usr/share/texlive/texmf-dist/tex/latex/varwidth/varwidth.sty
 Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
 \@vwid@box=\box75
-\sift@deathcycles=\count177
+\sift@deathcycles=\count178
 \@vwid@loff=\dimen285
 \@vwid@roff=\dimen286
+)) (/usr/share/texlive/texmf-dist/tex/latex/pgfplots/pgfplots.sty (/usr/share/t
+exlive/texmf-dist/tex/generic/pgfplots/pgfplots.revision.tex)
+Package: pgfplots 2017/06/05 v1.15 Data Visualization (1.15)
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplots.code.tex (/usr/sha
+re/texlive/texmf-dist/tex/generic/pgfplots/pgfplotscore.code.tex
+\t@pgfplots@toka=\toks54
+\t@pgfplots@tokb=\toks55
+\t@pgfplots@tokc=\toks56
+\pgfplots@tmpa=\dimen287
+\c@pgfplots@coordindex=\count179
+\c@pgfplots@scanlineindex=\count180
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/sys/pgfplotssysgeneric.code
+.tex))
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/libs/pgfplotslibrary.code.t
+ex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldp
+gfsupp_loader.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryfpu.code.tex
+)
+Package pgfplots: loading complementary arithmetics for your pgf version...
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldp
+gfsupp_pgflibraryfpu.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldp
+gfsupp_pgfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count181
+)) (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/util/pgfplotsutil.code.t
+ex
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotslists
+tructure.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotslists
+tructureext.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsarray
+.code.tex
+\c@pgfplotsarray@tmp=\count182
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsmatri
+x.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/numtable/pgfplotstableshare
+d.code.tex
+\c@pgfplotstable@counta=\count183
+\t@pgfplotstable@a=\toks57
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsdeque
+.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/util/pgfplotsbinary.code.te
+x
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/util/pgfplotsbinary.data.co
+de.tex))
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/util/pgfplotsutil.verb.code
+.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/libs/pgflibrarypgfplots.sur
+fshading.code.tex
+\c@pgfplotslibrarysurf@no=\count184
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/sys/pgflibrarypgfplots.surf
+shading.pgfsys-pdftex.def)))
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/util/pgfplotscolormap.code.
+tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/util/pgfplotscolor.code.tex
 ))
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplotsstackedplots.code.t
+ex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplotsplothandlers.code.t
+ex
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplotsmeshplothandler.cod
+e.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplotsmeshplotimage.code.
+tex))) (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplots.scaling.cod
+e.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplotscoordprocessing.cod
+e.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplots.errorbars.code.tex
+) (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplots.markers.code.tex
+) (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplotsticks.code.tex) (
+/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplots.paths.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarydecorations.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduledecorations.cod
+e.tex
+\pgfdecoratedcompleteddistance=\dimen288
+\pgfdecoratedremainingdistance=\dimen289
+\pgfdecoratedinputsegmentcompleteddistance=\dimen290
+\pgfdecoratedinputsegmentremainingdistance=\dimen291
+\pgf@decorate@distancetomove=\dimen292
+\pgf@decorate@repeatstate=\count185
+\pgfdecorationsegmentamplitude=\dimen293
+\pgfdecorationsegmentlength=\dimen294
+)
+\tikz@lib@dec@box=\box76
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarydecorations.pathmorphing.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrary
+decorations.pathmorphing.code.tex))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarydecorations.pathreplacing.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrary
+decorations.pathreplacing.code.tex))
+\pgfplots@numplots=\count186
+\pgfplots@xmin@reg=\dimen295
+\pgfplots@xmax@reg=\dimen296
+\pgfplots@ymin@reg=\dimen297
+\pgfplots@ymax@reg=\dimen298
+\pgfplots@zmin@reg=\dimen299
+\pgfplots@zmax@reg=\dimen300
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibraryplotmarks.code.tex
+File: tikzlibraryplotmarks.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryplotmarks.co
+de.tex
+File: pgflibraryplotmarks.code.tex 2015/08/03 v3.0.1a (rcs-revision 1.14)
+))) (/usr/share/texlive/texmf-dist/tex/latex/tools/verbatim.sty
+Package: verbatim 2014/10/28 v1.5q LaTeX2e package for verbatim enhancements
+\every@verbatim=\toks58
+\verbatim@line=\toks59
+\verbatim@in@stream=\read2
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/libs/tikzlibrarypgfplots.fi
+llbetween.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfcontrib/tikzlibraryfillb
+etween.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibraryintersections.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryintersection
+s.code.tex
+\pgf@intersect@solutions=\count187
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfcontrib/tikzlibrarydecor
+ations.softclip.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfcontrib/pgflibraryfillbe
+tween.code.tex)))
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/libs/tikzlibrarypgfplots.de
+corations.softclip.code.tex))
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
 zlibraryspy.code.tex
 File: tikzlibraryspy.code.tex 2011/05/19 v3.0.1a (rcs-revision 1.4)
-\tikz@lib@spybox=\box76
+\tikz@lib@spybox=\box77
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
 zlibraryarrows.code.tex
@@ -1212,7 +1345,7 @@ File: tikzlibraryarrows.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.code.
 tex
 File: pgflibraryarrows.code.tex 2013/09/23 v3.0.1a (rcs-revision 1.16)
-\arrowsize=\dimen287
+\arrowsize=\dimen301
 ))
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
 zlibraryshapes.code.tex
@@ -1265,26 +1398,26 @@ File: tikzlibraryshapes.multipart.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1
 s.multipart.code.tex
 File: pgflibraryshapes.multipart.code.tex 2010/01/07 v3.0.1a (rcs-revision 1.2)
 
-\pgfnodepartlowerbox=\box77
-\pgfnodeparttwobox=\box78
-\pgfnodepartthreebox=\box79
-\pgfnodepartfourbox=\box80
-\pgfnodeparttwentybox=\box81
-\pgfnodepartnineteenbox=\box82
-\pgfnodeparteighteenbox=\box83
-\pgfnodepartseventeenbox=\box84
-\pgfnodepartsixteenbox=\box85
-\pgfnodepartfifteenbox=\box86
-\pgfnodepartfourteenbox=\box87
-\pgfnodepartthirteenbox=\box88
-\pgfnodeparttwelvebox=\box89
-\pgfnodepartelevenbox=\box90
-\pgfnodeparttenbox=\box91
-\pgfnodepartninebox=\box92
-\pgfnodeparteightbox=\box93
-\pgfnodepartsevenbox=\box94
-\pgfnodepartsixbox=\box95
-\pgfnodepartfivebox=\box96
+\pgfnodepartlowerbox=\box78
+\pgfnodeparttwobox=\box79
+\pgfnodepartthreebox=\box80
+\pgfnodepartfourbox=\box81
+\pgfnodeparttwentybox=\box82
+\pgfnodepartnineteenbox=\box83
+\pgfnodeparteighteenbox=\box84
+\pgfnodepartseventeenbox=\box85
+\pgfnodepartsixteenbox=\box86
+\pgfnodepartfifteenbox=\box87
+\pgfnodepartfourteenbox=\box88
+\pgfnodepartthirteenbox=\box89
+\pgfnodeparttwelvebox=\box90
+\pgfnodepartelevenbox=\box91
+\pgfnodeparttenbox=\box92
+\pgfnodepartninebox=\box93
+\pgfnodeparteightbox=\box94
+\pgfnodepartsevenbox=\box95
+\pgfnodepartsixbox=\box96
+\pgfnodepartfivebox=\box97
 )))
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
 zlibrarypositioning.code.tex
@@ -1296,21 +1429,6 @@ File: tikzlibrarycalc.code.tex 2013/07/15 v3.0.1a (rcs-revision 1.9)
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
 zlibrarydecorations.markings.code.tex
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
-zlibrarydecorations.code.tex
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduledecorations.cod
-e.tex
-\pgfdecoratedcompleteddistance=\dimen288
-\pgfdecoratedremainingdistance=\dimen289
-\pgfdecoratedinputsegmentcompleteddistance=\dimen290
-\pgfdecoratedinputsegmentremainingdistance=\dimen291
-\pgf@decorate@distancetomove=\dimen292
-\pgf@decorate@repeatstate=\count178
-\pgfdecorationsegmentamplitude=\dimen293
-\pgfdecorationsegmentlength=\dimen294
-)
-\tikz@lib@dec@box=\box97
-)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrary
 decorations.markings.code.tex))
 \@labfile=\write5
@@ -1413,39 +1531,39 @@ LaTeX Warning: Label `table:correlacion' multiply defined.
 ))
 \openout1 = `thesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 66.
-LaTeX Font Info:    ... okay on input line 66.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 66.
-LaTeX Font Info:    ... okay on input line 66.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 66.
-LaTeX Font Info:    ... okay on input line 66.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 66.
-LaTeX Font Info:    ... okay on input line 66.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 66.
-LaTeX Font Info:    ... okay on input line 66.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 66.
-LaTeX Font Info:    ... okay on input line 66.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 66.
-LaTeX Font Info:    ... okay on input line 66.
-LaTeX Font Info:    Try loading font information for OT1+lmr on input line 66.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 77.
+LaTeX Font Info:    ... okay on input line 77.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 77.
+LaTeX Font Info:    ... okay on input line 77.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 77.
+LaTeX Font Info:    ... okay on input line 77.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 77.
+LaTeX Font Info:    ... okay on input line 77.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 77.
+LaTeX Font Info:    ... okay on input line 77.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 77.
+LaTeX Font Info:    ... okay on input line 77.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 77.
+LaTeX Font Info:    ... okay on input line 77.
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 77.
 (/usr/share/texmf/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             https://www.ctan.org/pkg/pageslts
-(lastpage)             ! on input line 66.
+(lastpage)             ! on input line 77.
 \AtBeginShipoutBox=\box98
-Package hyperref Info: Link coloring OFF on input line 66.
+Package hyperref Info: Link coloring OFF on input line 77.
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count179
+\c@section@level=\count188
 )
-LaTeX Info: Redefining \ref on input line 66.
-LaTeX Info: Redefining \pageref on input line 66.
-LaTeX Info: Redefining \nameref on input line 66.
+LaTeX Info: Redefining \ref on input line 77.
+LaTeX Info: Redefining \pageref on input line 77.
+LaTeX Info: Redefining \nameref on input line 77.
 (/home/lg_more/github/maestria-tesis/libro/thesis.out) (/home/lg_more/github/ma
 estria-tesis/libro/thesis.out)
 \@outlinefile=\write7
@@ -1453,17 +1571,17 @@ estria-tesis/libro/thesis.out)
 
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count180
-\scratchdimen=\dimen295
+\scratchcounter=\count189
+\scratchdimen=\dimen302
 \scratchbox=\box99
-\nofMPsegments=\count181
-\nofMParguments=\count182
-\everyMPshowfont=\toks54
-\MPscratchCnt=\count183
-\MPscratchDim=\dimen296
-\MPnumerator=\count184
-\makeMPintoPDFobject=\count185
-\everyMPtoPDFconversion=\toks55
+\nofMPsegments=\count190
+\nofMParguments=\count191
+\everyMPshowfont=\toks60
+\MPscratchCnt=\count192
+\MPscratchDim=\dimen303
+\MPnumerator=\count193
+\makeMPintoPDFobject=\count194
+\everyMPtoPDFconversion=\toks61
 )
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -1506,17 +1624,21 @@ Package: ltcaption 2013/06/09 v1.4-94 longtable captions (AR)
 )
 Package caption Info: End \AtBeginDocument code.
 ABD: EveryShipout initializing macros
-Package hyperref Info: Option `breaklinks' set `true' on input line 116.
-Package hyperref Info: Option `raiselinks' set `true' on input line 116.
-Package hyperref Info: Option `pageanchor' set `true' on input line 116.
+
+Package pgfplots Warning: running in backwards compatibility mode (unsuitable t
+ick labels; missing features). Consider writing \pgfplotsset{compat=1.15} into 
+your preamble.
+ on input line 77.
+
+Package hyperref Info: Option `breaklinks' set `true' on input line 127.
+Package hyperref Info: Option `raiselinks' set `true' on input line 127.
+Package hyperref Info: Option `pageanchor' set `true' on input line 127.
 <./Figures/logo-pol.png, id=179, 150.5625pt x 224.84pt>
 File: ./Figures/logo-pol.png Graphic file (type png)
 <use ./Figures/logo-pol.png>
-Package pdftex.def Info: ./Figures/logo-pol.png  used on input line 116. on inp
-ut line 116.
-Package pdftex.def Info: Requested size: 85.35826pt x 127.47397pt on input line
- 116.
-LaTeX Font Info:    Try loading font information for OT1+lmss on input line 116
+Package pdftex.def Info: ./Figures/logo-pol.png  used on input line 127.
+(pdftex.def)             Requested size: 85.35826pt x 127.47397pt.
+LaTeX Font Info:    Try loading font information for OT1+lmss on input line 127
 .
 (/usr/share/texmf/tex/latex/lm/ot1lmss.fd
 File: ot1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
@@ -1525,7 +1647,7 @@ msy.fd) (/usr/share/texmf/tex/latex/lm/omxlmex.fd) (/usr/share/texlive/texmf-di
 st/tex/latex/amsfonts/umsa.fd) (/usr/share/texlive/texmf-dist/tex/latex/amsfont
 s/umsb.fd) (/usr/share/texlive/texmf-dist/tex/latex/jknapltx/ursfs.fd) (/usr/sh
 are/texlive/texmf-dist/tex/latex/esvect/uesvect.fd)
-Overfull \hbox (17.62482pt too wide) in paragraph at lines 116--116
+Overfull \hbox (17.62482pt too wide) in paragraph at lines 127--127
 []$[]$ 
  []
 
@@ -1605,22 +1727,22 @@ en de prueba \OT1/lmtt/m/n/12 calhouse[]-
 \tf@lof=\write9
 \openout9 = `thesis.lof'.
 
-[12] (/home/lg_more/github/maestria-tesis/libro/thesis.lot [13
+[12] [13] (/home/lg_more/github/maestria-tesis/libro/thesis.lot [14
 
 ])
 \tf@lot=\write10
 \openout10 = `thesis.lot'.
 
-[14]
+[15]
 \openout2 = `symbols.aux'.
 
-(/home/lg_more/github/maestria-tesis/libro/symbols.tex [15
+(/home/lg_more/github/maestria-tesis/libro/symbols.tex [16
 
 
-]) [16]
+]) [17]
 \openout2 = `abreviaturas.aux'.
 
-(/home/lg_more/github/maestria-tesis/libro/abreviaturas.tex) [17
+(/home/lg_more/github/maestria-tesis/libro/abreviaturas.tex) [18
 
 
 
@@ -1641,20 +1763,16 @@ LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <12> not available
 
 
 ]
-<./Figures/chest.jpg, id=601, 513.92pt x 421.575pt>
+<./Figures/chest.jpg, id=608, 513.92pt x 421.575pt>
 File: ./Figures/chest.jpg Graphic file (type jpg)
 <use ./Figures/chest.jpg>
-Package pdftex.def Info: ./Figures/chest.jpg  used on input line 31. on input l
-ine 31.
-Package pdftex.def Info: Requested size: 165.02347pt x 135.3699pt on input line
- 31.
-<./Figures/chestclahe1.jpg, id=602, 513.92pt x 421.575pt>
+Package pdftex.def Info: ./Figures/chest.jpg  used on input line 31.
+(pdftex.def)             Requested size: 165.02347pt x 135.3699pt.
+<./Figures/chestclahe1.jpg, id=609, 513.92pt x 421.575pt>
 File: ./Figures/chestclahe1.jpg Graphic file (type jpg)
 <use ./Figures/chestclahe1.jpg>
-Package pdftex.def Info: ./Figures/chestclahe1.jpg  used on input line 38. on i
-nput line 38.
-Package pdftex.def Info: Requested size: 165.02347pt x 135.3699pt on input line
- 38.
+Package pdftex.def Info: ./Figures/chestclahe1.jpg  used on input line 38.
+(pdftex.def)             Requested size: 165.02347pt x 135.3699pt.
 [2 <./Figures/chest.jpg> <./Figures/chestclahe1.jpg>]) [3]
 \openout2 = `chap02.aux'.
 
@@ -1665,13 +1783,12 @@ Cap\IeC {\'\i }tulo 2.
 
 
 ] [5]
-<./Figures/JPEG_example_subimage.png, id=646, 401.5pt x 401.5pt>
+<./Figures/JPEG_example_subimage.png, id=652, 401.5pt x 401.5pt>
 File: ./Figures/JPEG_example_subimage.png Graphic file (type png)
 <use ./Figures/JPEG_example_subimage.png>
 Package pdftex.def Info: ./Figures/JPEG_example_subimage.png  used on input lin
-e 68. on input line 68.
-Package pdftex.def Info: Requested size: 206.28249pt x 206.28775pt on input lin
 e 68.
+(pdftex.def)             Requested size: 206.28249pt x 206.28775pt.
 [6 <./Figures/JPEG_example_subimage.png>]
 Overfull \vbox (62.05858pt too high) has occurred while \output is active []
 
@@ -1679,30 +1796,26 @@ Overfull \vbox (62.05858pt too high) has occurred while \output is active []
 File: ./Figures/JPEG_example_subimage.png Graphic file (type png)
 <use ./Figures/JPEG_example_subimage.png>
 Package pdftex.def Info: ./Figures/JPEG_example_subimage.png  used on input lin
-e 159. on input line 159.
-Package pdftex.def Info: Requested size: 165.02347pt x 165.02652pt on input lin
 e 159.
-<./Figures/JPEG_example_subimage_eq.png, id=659, 401.5pt x 401.5pt>
+(pdftex.def)             Requested size: 165.02347pt x 165.02652pt.
+<./Figures/JPEG_example_subimage_eq.png, id=666, 401.5pt x 401.5pt>
 File: ./Figures/JPEG_example_subimage_eq.png Graphic file (type png)
 <use ./Figures/JPEG_example_subimage_eq.png>
 Package pdftex.def Info: ./Figures/JPEG_example_subimage_eq.png  used on input 
-line 167. on input line 167.
-Package pdftex.def Info: Requested size: 165.02347pt x 165.02652pt on input lin
-e 167.
-<./Figures/Paolina_256_hist.jpg, id=661, 521.95pt x 254.9525pt>
+line 167.
+(pdftex.def)             Requested size: 165.02347pt x 165.02652pt.
+<./Figures/Paolina_256_hist.jpg, id=668, 521.95pt x 254.9525pt>
 File: ./Figures/Paolina_256_hist.jpg Graphic file (type jpg)
 <use ./Figures/Paolina_256_hist.jpg>
 Package pdftex.def Info: ./Figures/Paolina_256_hist.jpg  used on input line 178
-. on input line 178.
-Package pdftex.def Info: Requested size: 412.56497pt x 201.52307pt on input lin
-e 178.
-<./Figures/Paolina_256_hist_eq.jpg, id=662, 521.95pt x 256.96pt>
+.
+(pdftex.def)             Requested size: 412.56497pt x 201.52307pt.
+<./Figures/Paolina_256_hist_eq.jpg, id=669, 521.95pt x 256.96pt>
 File: ./Figures/Paolina_256_hist_eq.jpg Graphic file (type jpg)
 <use ./Figures/Paolina_256_hist_eq.jpg>
 Package pdftex.def Info: ./Figures/Paolina_256_hist_eq.jpg  used on input line 
-185. on input line 185.
-Package pdftex.def Info: Requested size: 412.56497pt x 203.10988pt on input lin
-e 185.
+185.
+(pdftex.def)             Requested size: 412.56497pt x 203.10988pt.
 
 Overfull \hbox (5.22214pt too wide) in paragraph at lines 183--189
  []  [][] 
@@ -1714,101 +1827,107 @@ Overfull \hbox (9.85pt too wide) in paragraph at lines 196--196
  []
 
 [9 <./Figures/Paolina_256_hist.jpg> <./Figures/Paolina_256_hist_eq.jpg>] [10]
-<./Figures/495px-Clahe-redist.jpg, id=692, 496.85625pt x 180.675pt>
-File: ./Figures/495px-Clahe-redist.jpg Graphic file (type jpg)
-<use ./Figures/495px-Clahe-redist.jpg>
-Package pdftex.def Info: ./Figures/495px-Clahe-redist.jpg  used on input line 2
-28. on input line 228.
-Package pdftex.def Info: Requested size: 206.28249pt x 75.0118pt on input line 
-228.
-[11 <./Figures/495px-Clahe-redist.jpg>]
-<./Figures/cubo-rgb.jpg, id=702, 755.82375pt x 644.4075pt>
+Package pgfplots info on input line 274: fill between: activating layered graph
+ics
+\pgf@layerbox@axis background=\box100
+\pgf@layerboxsaved@axis background=\box101
+\pgf@layerbox@axis grid=\box102
+\pgf@layerboxsaved@axis grid=\box103
+\pgf@layerbox@axis ticks=\box104
+\pgf@layerboxsaved@axis ticks=\box105
+\pgf@layerbox@axis lines=\box106
+\pgf@layerboxsaved@axis lines=\box107
+\pgf@layerbox@axis tick labels=\box108
+\pgf@layerboxsaved@axis tick labels=\box109
+\pgf@layerbox@pre main=\box110
+\pgf@layerboxsaved@pre main=\box111
+\pgf@layerbox@axis descriptions=\box112
+\pgf@layerboxsaved@axis descriptions=\box113
+\pgf@layerbox@axis foreground=\box114
+\pgf@layerboxsaved@axis foreground=\box115
+Package pgfplots info on input line 274: Setting layers 'axis background,axis g
+rid,axis ticks,axis lines,axis tick labels,pre main,main,axis descriptions,axis
+ foreground'...
+Package pgfplots info on input line 274: fill between: activating layered graph
+ics
+Package pgfplots info on input line 274: Setting layers 'axis background,axis g
+rid,axis ticks,axis lines,axis tick labels,pre main,main,axis descriptions,axis
+ foreground'...
+[11]
+<./Figures/cubo-rgb.jpg, id=704, 755.82375pt x 644.4075pt>
 File: ./Figures/cubo-rgb.jpg Graphic file (type jpg)
 <use ./Figures/cubo-rgb.jpg>
-Package pdftex.def Info: ./Figures/cubo-rgb.jpg  used on input line 255. on inp
-ut line 255.
-Package pdftex.def Info: Requested size: 206.28249pt x 175.87042pt on input lin
-e 255.
+Package pdftex.def Info: ./Figures/cubo-rgb.jpg  used on input line 301.
+(pdftex.def)             Requested size: 185.65297pt x 158.27945pt.
 [12]
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <14.4> on input line 264.
+(Font)              <14.4> on input line 310.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 264.
+(Font)              <10> on input line 310.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 264.
+(Font)              <7> on input line 310.
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 264.
+(hyperref)                removing `math shift' on input line 310.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 264.
+(hyperref)                removing `math shift' on input line 310.
 
-[13 <./Figures/cubo-rgb.jpg>]
-<./Figures/IC676791.png, id=718, 469.755pt x 118.94438pt>
+<./Figures/IC676791.png, id=713, 469.755pt x 118.94438pt>
 File: ./Figures/IC676791.png Graphic file (type png)
 <use ./Figures/IC676791.png>
-Package pdftex.def Info: ./Figures/IC676791.png  used on input line 310. on inp
-ut line 310.
-Package pdftex.def Info: Requested size: 371.30595pt x 94.01584pt on input line
- 310.
-[14 <./Figures/IC676791.png>]
-<./Figures/ejemplopso/capas-0.png, id=735, 562.1pt x 421.575pt>
+Package pdftex.def Info: ./Figures/IC676791.png  used on input line 356.
+(pdftex.def)             Requested size: 371.30595pt x 94.01584pt.
+[13 <./Figures/cubo-rgb.jpg>] [14 <./Figures/IC676791.png>]
+<./Figures/ejemplopso/capas-0.png, id=737, 562.1pt x 421.575pt>
 File: ./Figures/ejemplopso/capas-0.png Graphic file (type png)
 <use ./Figures/ejemplopso/capas-0.png>
 Package pdftex.def Info: ./Figures/ejemplopso/capas-0.png  used on input line 4
-49. on input line 449.
-Package pdftex.def Info: Requested size: 177.3999pt x 133.0477pt on input line 
-449.
-<./Figures/ejemplopso/capas-8.png, id=736, 562.1pt x 421.575pt>
+95.
+(pdftex.def)             Requested size: 177.3999pt x 133.0477pt.
+<./Figures/ejemplopso/capas-8.png, id=738, 562.1pt x 421.575pt>
 File: ./Figures/ejemplopso/capas-8.png Graphic file (type png)
 <use ./Figures/ejemplopso/capas-8.png>
-Package pdftex.def Info: ./Figures/ejemplopso/capas-8.png  used on input line 4
-56. on input line 456.
-Package pdftex.def Info: Requested size: 177.3999pt x 133.0477pt on input line 
-456.
-<./Figures/ejemplopso/capas-21.png, id=737, 562.1pt x 421.575pt>
+Package pdftex.def Info: ./Figures/ejemplopso/capas-8.png  used on input line 5
+02.
+(pdftex.def)             Requested size: 177.3999pt x 133.0477pt.
+<./Figures/ejemplopso/capas-21.png, id=739, 562.1pt x 421.575pt>
 File: ./Figures/ejemplopso/capas-21.png Graphic file (type png)
 <use ./Figures/ejemplopso/capas-21.png>
 Package pdftex.def Info: ./Figures/ejemplopso/capas-21.png  used on input line 
-464. on input line 464.
-Package pdftex.def Info: Requested size: 177.3999pt x 133.0477pt on input line 
-464.
-<./Figures/ejemplopso/capas-42.png, id=738, 562.1pt x 421.575pt>
+510.
+(pdftex.def)             Requested size: 177.3999pt x 133.0477pt.
+<./Figures/ejemplopso/capas-42.png, id=740, 562.1pt x 421.575pt>
 File: ./Figures/ejemplopso/capas-42.png Graphic file (type png)
 <use ./Figures/ejemplopso/capas-42.png>
 Package pdftex.def Info: ./Figures/ejemplopso/capas-42.png  used on input line 
-470. on input line 470.
-Package pdftex.def Info: Requested size: 177.3999pt x 133.0477pt on input line 
-470.
-<./Figures/ejemplopso/capas-75.png, id=739, 562.1pt x 421.575pt>
+516.
+(pdftex.def)             Requested size: 177.3999pt x 133.0477pt.
+<./Figures/ejemplopso/capas-75.png, id=741, 562.1pt x 421.575pt>
 File: ./Figures/ejemplopso/capas-75.png Graphic file (type png)
 <use ./Figures/ejemplopso/capas-75.png>
 Package pdftex.def Info: ./Figures/ejemplopso/capas-75.png  used on input line 
-479. on input line 479.
-Package pdftex.def Info: Requested size: 177.3999pt x 133.0477pt on input line 
-479.
-<./Figures/ejemplopso/capas-79.png, id=740, 562.1pt x 421.575pt>
+525.
+(pdftex.def)             Requested size: 177.3999pt x 133.0477pt.
+<./Figures/ejemplopso/capas-79.png, id=742, 562.1pt x 421.575pt>
 File: ./Figures/ejemplopso/capas-79.png Graphic file (type png)
 <use ./Figures/ejemplopso/capas-79.png>
 Package pdftex.def Info: ./Figures/ejemplopso/capas-79.png  used on input line 
-486. on input line 486.
-Package pdftex.def Info: Requested size: 177.3999pt x 133.0477pt on input line 
-486.
-<./Figures/ejemplopso/capas-95.png, id=741, 562.1pt x 421.575pt>
+532.
+(pdftex.def)             Requested size: 177.3999pt x 133.0477pt.
+<./Figures/ejemplopso/capas-95.png, id=743, 562.1pt x 421.575pt>
 File: ./Figures/ejemplopso/capas-95.png Graphic file (type png)
 <use ./Figures/ejemplopso/capas-95.png>
 Package pdftex.def Info: ./Figures/ejemplopso/capas-95.png  used on input line 
-493. on input line 493.
-Package pdftex.def Info: Requested size: 177.3999pt x 133.0477pt on input line 
-493.
-<./Figures/ejemplopso/capas-99.png, id=742, 562.1pt x 421.575pt>
+539.
+(pdftex.def)             Requested size: 177.3999pt x 133.0477pt.
+<./Figures/ejemplopso/capas-99.png, id=744, 562.1pt x 421.575pt>
 File: ./Figures/ejemplopso/capas-99.png Graphic file (type png)
 <use ./Figures/ejemplopso/capas-99.png>
 Package pdftex.def Info: ./Figures/ejemplopso/capas-99.png  used on input line 
-502. on input line 502.
-Package pdftex.def Info: Requested size: 177.3999pt x 133.0477pt on input line 
-502.
+548.
+(pdftex.def)             Requested size: 177.3999pt x 133.0477pt.
 [15]
 Overfull \vbox (50.8383pt too high) has occurred while \output is active []
 
@@ -1816,33 +1935,29 @@ Overfull \vbox (50.8383pt too high) has occurred while \output is active []
 gures/ejemplopso/capas-21.png> <./Figures/ejemplopso/capas-42.png> <./Figures/e
 jemplopso/capas-75.png> <./Figures/ejemplopso/capas-79.png> <./Figures/ejemplop
 so/capas-95.png> <./Figures/ejemplopso/capas-99.png>] [17]
-<./Figures/peppers_color_lc.jpg, id=785, 521.15831pt x 521.15831pt>
+<./Figures/peppers_color_lc.jpg, id=787, 521.15831pt x 521.15831pt>
 File: ./Figures/peppers_color_lc.jpg Graphic file (type jpg)
 <use ./Figures/peppers_color_lc.jpg>
-Package pdftex.def Info: ./Figures/peppers_color_lc.jpg  used on input line 561
-. on input line 561.
-Package pdftex.def Info: Requested size: 185.65297pt x 185.65265pt on input lin
-e 561.
-<./Figures/peppers_color_hc.jpg, id=786, 513.92pt x 513.92pt>
+Package pdftex.def Info: ./Figures/peppers_color_lc.jpg  used on input line 607
+.
+(pdftex.def)             Requested size: 185.65297pt x 185.65265pt.
+<./Figures/peppers_color_hc.jpg, id=788, 513.92pt x 513.92pt>
 File: ./Figures/peppers_color_hc.jpg Graphic file (type jpg)
 <use ./Figures/peppers_color_hc.jpg>
-Package pdftex.def Info: ./Figures/peppers_color_hc.jpg  used on input line 566
-. on input line 566.
-Package pdftex.def Info: Requested size: 185.65297pt x 185.65407pt on input lin
-e 566.
+Package pdftex.def Info: ./Figures/peppers_color_hc.jpg  used on input line 612
+.
+(pdftex.def)             Requested size: 185.65297pt x 185.65407pt.
 [18 <./Figures/peppers_color_lc.jpg> <./Figures/peppers_color_hc.jpg>]
 File: ./Figures/peppers_color_lc.jpg Graphic file (type jpg)
 <use ./Figures/peppers_color_lc.jpg>
-Package pdftex.def Info: ./Figures/peppers_color_lc.jpg  used on input line 591
-. on input line 591.
-Package pdftex.def Info: Requested size: 185.65297pt x 185.65265pt on input lin
-e 591.
+Package pdftex.def Info: ./Figures/peppers_color_lc.jpg  used on input line 637
+.
+(pdftex.def)             Requested size: 185.65297pt x 185.65265pt.
 File: ./Figures/peppers_color_hc.jpg Graphic file (type jpg)
 <use ./Figures/peppers_color_hc.jpg>
-Package pdftex.def Info: ./Figures/peppers_color_hc.jpg  used on input line 596
-. on input line 596.
-Package pdftex.def Info: Requested size: 185.65297pt x 185.65407pt on input lin
-e 596.
+Package pdftex.def Info: ./Figures/peppers_color_hc.jpg  used on input line 642
+.
+(pdftex.def)             Requested size: 185.65297pt x 185.65407pt.
 ) [19]
 \openout2 = `chap03.aux'.
 
@@ -1875,44 +1990,39 @@ Cap\IeC {\'\i }tulo 4.
 
 
 ]
-<./Figures/calhouse_0230.jpg, id=847, 246.9225pt x 163.61125pt>
+<./Figures/calhouse_0230.jpg, id=851, 246.9225pt x 163.61125pt>
 File: ./Figures/calhouse_0230.jpg Graphic file (type jpg)
 <use ./Figures/calhouse_0230.jpg>
-Package pdftex.def Info: ./Figures/calhouse_0230.jpg  used on input line 77. on
- input line 77.
-Package pdftex.def Info: Requested size: 185.65297pt x 123.0127pt on input line
- 77.
-<./Figures/calhouse_0230_20-25165283474-10.jpg, id=848, 246.9225pt x 163.61125p
+Package pdftex.def Info: ./Figures/calhouse_0230.jpg  used on input line 77.
+(pdftex.def)             Requested size: 185.65297pt x 123.0127pt.
+<./Figures/calhouse_0230_20-25165283474-10.jpg, id=852, 246.9225pt x 163.61125p
 t>
 File: ./Figures/calhouse_0230_20-25165283474-10.jpg Graphic file (type jpg)
 <use ./Figures/calhouse_0230_20-25165283474-10.jpg>
 Package pdftex.def Info: ./Figures/calhouse_0230_20-25165283474-10.jpg  used on
- input line 85. on input line 85.
-Package pdftex.def Info: Requested size: 185.65297pt x 123.0127pt on input line
- 85.
+ input line 85.
+(pdftex.def)             Requested size: 185.65297pt x 123.0127pt.
 
 Underfull \hbox (badness 7613) in paragraph at lines 85--85
 \OML/lmm/m/it/10 SSIM[] \OT1/lmr/m/n/10 = 0\OML/lmm/m/it/10 ; \OT1/lmr/m/n/10 9
 9102669$, $\OML/lmm/m/it/10 SSIM[] \OT1/lmr/m/n/10 =
  []
 
-<./Figures/calhouse_0230_20-62968204656-00.jpg, id=849, 246.9225pt x 163.61125p
+<./Figures/calhouse_0230_20-62968204656-00.jpg, id=853, 246.9225pt x 163.61125p
 t>
 File: ./Figures/calhouse_0230_20-62968204656-00.jpg Graphic file (type jpg)
 <use ./Figures/calhouse_0230_20-62968204656-00.jpg>
 Package pdftex.def Info: ./Figures/calhouse_0230_20-62968204656-00.jpg  used on
- input line 94. on input line 94.
-Package pdftex.def Info: Requested size: 185.65297pt x 123.0127pt on input line
- 94.
-<./Figures/calhouse_0230_20-20-0020072469292179818.jpg, id=850, 246.9225pt x 16
+ input line 94.
+(pdftex.def)             Requested size: 185.65297pt x 123.0127pt.
+<./Figures/calhouse_0230_20-20-0020072469292179818.jpg, id=854, 246.9225pt x 16
 3.61125pt>
 File: ./Figures/calhouse_0230_20-20-0020072469292179818.jpg Graphic file (type 
 jpg)
 <use ./Figures/calhouse_0230_20-20-0020072469292179818.jpg>
 Package pdftex.def Info: ./Figures/calhouse_0230_20-20-0020072469292179818.jpg 
- used on input line 101. on input line 101.
-Package pdftex.def Info: Requested size: 185.65297pt x 123.0127pt on input line
- 101.
+ used on input line 101.
+(pdftex.def)             Requested size: 185.65297pt x 123.0127pt.
 
 Underfull \hbox (badness 5302) in paragraph at lines 101--101
 \OML/lmm/m/it/10 SSIM[] \OT1/lmr/m/n/10 = 0\OML/lmm/m/it/10 ; \OT1/lmr/m/n/10 9
@@ -1920,30 +2030,39 @@ Underfull \hbox (badness 5302) in paragraph at lines 101--101
  []
 
 [25]
-<./Figures/calhouse_230/calhouse_230_2.jpg, id=856, 1360.19748pt x 730.22812pt>
+<./Figures/calhouse_230/calhouse_230_2.jpg, id=861, 1360.19748pt x 730.22812pt>
 
 File: ./Figures/calhouse_230/calhouse_230_2.jpg Graphic file (type jpg)
 <use ./Figures/calhouse_230/calhouse_230_2.jpg>
 Package pdftex.def Info: ./Figures/calhouse_230/calhouse_230_2.jpg  used on inp
-ut line 165. on input line 165.
-Package pdftex.def Info: Requested size: 330.05322pt x 177.18596pt on input lin
-e 165.
+ut line 165.
+(pdftex.def)             Requested size: 330.05322pt x 177.18596pt.
 [26 <./Figures/calhouse_0230.jpg> <./Figures/calhouse_0230_20-25165283474-10.jp
 g> <./Figures/calhouse_0230_20-62968204656-00.jpg> <./Figures/calhouse_0230_20-
 20-0020072469292179818.jpg>] [27 <./Figures/calhouse_230/calhouse_230_2.jpg>]
-<./Figures/grafico-de-caja.PNG, id=882, 679.03688pt x 314.67563pt>
+<./Figures/grafico-de-caja.PNG, id=886, 679.03688pt x 314.67563pt>
 File: ./Figures/grafico-de-caja.PNG Graphic file (type png)
 <use ./Figures/grafico-de-caja.PNG>
-Package pdftex.def Info: ./Figures/grafico-de-caja.PNG  used on input line 182.
- on input line 182.
-Package pdftex.def Info: Requested size: 371.30595pt x 172.06859pt on input lin
-e 182.
+Package pdftex.def Info: ./Figures/grafico-de-caja.PNG  used on input line 184.
 
-Overfull \hbox (21.84898pt too wide) in paragraph at lines 201--226
+(pdftex.def)             Requested size: 371.30595pt x 172.06859pt.
+
+Overfull \hbox (21.84898pt too wide) in paragraph at lines 203--228
  [] 
  []
 
-[28 <./Figures/grafico-de-caja.PNG>]) [29]
+[28 <./Figures/grafico-de-caja.PNG>]
+<./Figures/ucid00010.jpg, id=900, 385.44pt x 289.08pt>
+File: ./Figures/ucid00010.jpg Graphic file (type jpg)
+<use ./Figures/ucid00010.jpg>
+Package pdftex.def Info: ./Figures/ucid00010.jpg  used on input line 237.
+(pdftex.def)             Requested size: 185.65297pt x 139.23761pt.
+<./Figures/ucid000102.jpg, id=901, 513.92pt x 385.44pt>
+File: ./Figures/ucid000102.jpg Graphic file (type jpg)
+<use ./Figures/ucid000102.jpg>
+Package pdftex.def Info: ./Figures/ucid000102.jpg  used on input line 245.
+(pdftex.def)             Requested size: 185.65297pt x 139.24055pt.
+[29 <./Figures/ucid00010.jpg> <./Figures/ucid000102.jpg>]) [30]
 \openout2 = `chap05.aux'.
 
 (/home/lg_more/github/maestria-tesis/libro/chap05.tex
@@ -1952,7 +2071,7 @@ Cap\IeC {\'\i }tulo 5.
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\\' on input line 1.
 
-[30
+[31
 
 
 
@@ -1962,468 +2081,485 @@ Overfull \hbox (9.02376pt too wide) in paragraph at lines 89--90
 os con Meta-heur^^S^^Psticas
  []
 
-[31]) [32] (/home/lg_more/github/maestria-tesis/libro/thesis.bbl
-Underfull \hbox (badness 10000) in paragraph at lines 29--32
-[]\OT1/lmtt/m/n/12 Wikimedia Commons.  2d-partikelschwarm sucht globales
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 34--39
+[32]) [33] (/home/lg_more/github/maestria-tesis/libro/thesis.bbl
+Underfull \hbox (badness 10000) in paragraph at lines 28--33
 []\OT1/lmtt/m/n/12 Juan J Durillo, Antonio J Nebro, and Enrique Alba.  The
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 34--39
+Underfull \hbox (badness 10000) in paragraph at lines 28--33
 \OT1/lmtt/m/n/12 jmetal framework for multi-objective optimization: Design
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 41--46
+Underfull \hbox (badness 10000) in paragraph at lines 35--40
 []\OT1/lmtt/m/n/12 Hasan Demirel, Cagri Ozcinar, and Gholamreza Anbarjafari.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 41--46
+Underfull \hbox (badness 10000) in paragraph at lines 35--40
 \OT1/lmtt/m/n/12 Satellite image contrast enhancement using discrete
  []
 
 
-Underfull \hbox (badness 2903) in paragraph at lines 41--46
+Underfull \hbox (badness 2903) in paragraph at lines 35--40
 \OT1/lmtt/m/n/12 wavelet transform and singular value decomposition.  \OT1/lmtt
 /m/it/12 IEEE
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 41--46
+Underfull \hbox (badness 10000) in paragraph at lines 35--40
 \OT1/lmtt/m/it/12 Geoscience and remote sensing letters\OT1/lmtt/m/n/12 , 7(2):
 333--337,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 48--53
+Underfull \hbox (badness 10000) in paragraph at lines 42--47
 []\OT1/lmtt/m/n/12 Kunio Doi.  Computer-aided diagnosis in medical
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 48--53
+Underfull \hbox (badness 10000) in paragraph at lines 42--47
 \OT1/lmtt/m/n/12 imaging: historical review, current status and future
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 48--53
+Underfull \hbox (badness 10000) in paragraph at lines 42--47
 \OT1/lmtt/m/n/12 potential.  \OT1/lmtt/m/it/12 Computerized medical imaging and
  graphics\OT1/lmtt/m/n/12 ,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 55--59
+Underfull \hbox (badness 10000) in paragraph at lines 49--53
 []\OT1/lmtt/m/n/12 Robert R Edelman and Steven Warach.  Magnetic
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 55--59
+Underfull \hbox (badness 10000) in paragraph at lines 49--53
 \OT1/lmtt/m/n/12 resonance imaging.  \OT1/lmtt/m/it/12 New England Journal of M
 edicine\OT1/lmtt/m/n/12 ,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 61--63
+Underfull \hbox (badness 10000) in paragraph at lines 55--57
 []\OT1/lmtt/m/n/12 Rafael C Gonzalez and Richard E Woods.  Digital image
  []
 
-[33
 
-
-
-]
-Underfull \hbox (badness 10000) in paragraph at lines 65--68
+Underfull \hbox (badness 10000) in paragraph at lines 59--62
 []\OT1/lmtt/m/n/12 Rafael C. Gonzalez and Richard E. Woods.  \OT1/lmtt/m/it/12 
 Digital Image
  []
 
+[34
 
-Underfull \hbox (badness 10000) in paragraph at lines 70--74
+
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 64--68
 []\OT1/lmtt/m/n/12 Yan Chai Hum, Khin Wee Lai, and Maheza Irna
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 70--74
+Underfull \hbox (badness 10000) in paragraph at lines 64--68
 \OT1/lmtt/m/n/12 Mohamad Salim.  Multiobjectives bihistogram equalization
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 76--80
+Underfull \hbox (badness 10000) in paragraph at lines 70--74
 []\OT1/lmtt/m/n/12 Pourya Hoseini and Mahrokh G. Shayesteh.  Efficient
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 76--80
+Underfull \hbox (badness 10000) in paragraph at lines 70--74
 \OT1/lmtt/m/n/12 contrast enhancement of images using hybrid ant colony
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 76--80
+Underfull \hbox (badness 10000) in paragraph at lines 70--74
 \OT1/lmtt/m/n/12 optimisation, genetic algorithm, and simulated annealing.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 82--88
+Underfull \hbox (badness 10000) in paragraph at lines 76--82
 []\OT1/lmtt/m/n/12 Dario Izzo.  Pygmo and pykep: Open source tools for
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 82--88
+Underfull \hbox (badness 10000) in paragraph at lines 76--82
 \OT1/lmtt/m/n/12 massively parallel optimization in astrodynamics (the case
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 82--88
+Underfull \hbox (badness 10000) in paragraph at lines 76--82
 \OT1/lmtt/m/it/12 of the Fifth International Conference on Astrodynamics
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 90--93
+Underfull \hbox (badness 10000) in paragraph at lines 84--87
 []\OT1/lmtt/m/n/12 A. Khellaf, A. Beghdadi, and H. Dupoisot.  Entropic
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 90--93
+Underfull \hbox (badness 10000) in paragraph at lines 84--87
 \OT1/lmtt/m/n/12 contrast enhancement.  \OT1/lmtt/m/it/12 IEEE Transactions on 
 Medical
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 95--99
+Underfull \hbox (badness 10000) in paragraph at lines 89--93
 \OT1/lmtt/m/it/12 Neural Networks, 1995. Proceedings., IEEE International
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 101--106
+Underfull \hbox (badness 10000) in paragraph at lines 95--100
 []\OT1/lmtt/m/n/12 Yeong-Taeg Kim.  Contrast enhancement using brightness
  []
 
 
-Underfull \hbox (badness 7344) in paragraph at lines 101--106
+Underfull \hbox (badness 7344) in paragraph at lines 95--100
 \OT1/lmtt/m/n/12 preserving bi-histogram equalization.  \OT1/lmtt/m/it/12 IEEE 
 Transactions
  []
 
 
-Underfull \hbox (badness 1533) in paragraph at lines 108--112
+Underfull \hbox (badness 1533) in paragraph at lines 102--106
 []\OT1/lmtt/m/n/12 David J Ketcham, Roger W Lowe, and J William Weber.  Image
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 108--112
+Underfull \hbox (badness 10000) in paragraph at lines 102--106
 \OT1/lmtt/m/n/12 enhancement techniques for cockpit displays.  Technical
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 108--112
+Underfull \hbox (badness 10000) in paragraph at lines 102--106
 \OT1/lmtt/m/n/12 report, HUGHES AIRCRAFT CO CULVER CITY CA DISPLAY SYSTEMS
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 114--117
+Underfull \hbox (badness 10000) in paragraph at lines 108--111
 []\OT1/lmtt/m/n/12 Thomas Lillesand, Ralph W Kiefer, and Jonathan Chipman.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 114--117
+Underfull \hbox (badness 10000) in paragraph at lines 108--111
 \OT1/lmtt/m/it/12 Remote sensing and image interpretation\OT1/lmtt/m/n/12 .  Jo
 hn Wiley &
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 119--122
+Underfull \hbox (badness 10000) in paragraph at lines 113--116
 []\OT1/lmtt/m/n/12 David Malin.  Direct photographic image enhancement
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 119--122
+Underfull \hbox (badness 10000) in paragraph at lines 113--116
 \OT1/lmtt/m/n/12 in astronomy.  \OT1/lmtt/m/it/12 The Journal of Photographic S
 cience\OT1/lmtt/m/n/12 ,
  []
 
-[34]
-Underfull \hbox (badness 10000) in paragraph at lines 124--128
+[35]
+Underfull \hbox (badness 10000) in paragraph at lines 118--122
 []\OT1/lmtt/m/n/12 LG Mor[]e and MA Brizuela.  PSO applied to parameter tuning
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 124--128
+Underfull \hbox (badness 10000) in paragraph at lines 118--122
 \OT1/lmtt/m/n/12 of CLAHE based on entropy and structural similarity index.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 130--136
+Underfull \hbox (badness 10000) in paragraph at lines 124--130
 []\OT1/lmtt/m/n/12 Luis G More, Marcos A Brizuela, Horacio Legal Ayala,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 130--136
+Underfull \hbox (badness 10000) in paragraph at lines 124--130
 \OT1/lmtt/m/n/12 Diego P Pinto-Roa, and Jose Luis Vazquez Noguera.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 130--136
+Underfull \hbox (badness 10000) in paragraph at lines 124--130
 \OT1/lmtt/m/n/12 Parameter tuning of CLAHE based on multi-objective
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 130--136
+Underfull \hbox (badness 10000) in paragraph at lines 124--130
 \OT1/lmtt/m/n/12 optimization to achieve different contrast levels in
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 130--136
+Underfull \hbox (badness 10000) in paragraph at lines 124--130
 \OT1/lmtt/m/n/12 medical images.  In \OT1/lmtt/m/it/12 Image Processing (ICIP),
  2015 IEEE
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 130--136
+Underfull \hbox (badness 10000) in paragraph at lines 124--130
 \OT1/lmtt/m/it/12 International Conference on\OT1/lmtt/m/n/12 , pages 4644--464
 8. IEEE,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 138--141
+Underfull \hbox (badness 10000) in paragraph at lines 132--135
 []\OT1/lmtt/m/n/12 Microsoft MSDN.  About jpeg ycbcr data, 2012.  File:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 143--149
+Underfull \hbox (badness 10000) in paragraph at lines 137--143
 []\OT1/lmtt/m/n/12 Antonio J Nebro, Juan Jos[]e Durillo, Jose Garcia-Nieto,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 143--149
+Underfull \hbox (badness 10000) in paragraph at lines 137--143
 \OT1/lmtt/m/n/12 CA Coello Coello, Francisco Luna, and Enrique Alba.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 143--149
+Underfull \hbox (badness 10000) in paragraph at lines 137--143
 \OT1/lmtt/m/n/12 SMPSO: A new PSO-based metaheuristic for multi-objective
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 143--149
+Underfull \hbox (badness 10000) in paragraph at lines 137--143
 \OT1/lmtt/m/n/12 optimization.  In \OT1/lmtt/m/it/12 Computational intelligence
  in
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 143--149
+Underfull \hbox (badness 10000) in paragraph at lines 137--143
 \OT1/lmtt/m/it/12 miulti-criteria decision-making, 2009. mcdm'09. ieee
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 151--157
+Underfull \hbox (badness 10000) in paragraph at lines 145--150
+[]\OT1/lmtt/m/n/12 Patrick Ngatchou, Anahita Zarei, and A El-Sharkawi.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 145--150
+\OT1/lmtt/m/n/12 Pareto multi objective optimization.  In \OT1/lmtt/m/it/12 Int
+elligent
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 145--150
+\OT1/lmtt/m/it/12 Systems Application to Power Systems, 2005. Proceedings
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 145--150
+\OT1/lmtt/m/it/12 of the 13th International Conference on\OT1/lmtt/m/n/12 , pag
+es 84--91.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 152--158
 []\OT1/lmtt/m/n/12 Stephen M Pizer, E Philip Amburn, John D Austin,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 151--157
+Underfull \hbox (badness 10000) in paragraph at lines 152--158
 \OT1/lmtt/m/n/12 Robert Cromartie, Ari Geselowitz, Trey Greer, Bart ter
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 151--157
+Underfull \hbox (badness 10000) in paragraph at lines 152--158
 \OT1/lmtt/m/n/12 Haar Romeny, John B Zimmerman, and Karel Zuiderveld.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 151--157
+Underfull \hbox (badness 10000) in paragraph at lines 152--158
 \OT1/lmtt/m/n/12 Adaptive histogram equalization and its variations.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 151--157
+Underfull \hbox (badness 10000) in paragraph at lines 152--158
 \OT1/lmtt/m/it/12 Computer vision, graphics, and image processing\OT1/lmtt/m/n/
 12 ,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 159--164
+Underfull \hbox (badness 10000) in paragraph at lines 160--165
 []\OT1/lmtt/m/n/12 F. Saitoh.  Image contrast enhancement using genetic
  []
 
 
-Underfull \hbox (badness 4120) in paragraph at lines 159--164
+Underfull \hbox (badness 4120) in paragraph at lines 160--165
 \OT1/lmtt/m/n/12 algorithm.  In \OT1/lmtt/m/it/12 Systems, Man, and Cybernetics
 , 1999. IEEE
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 159--164
+Underfull \hbox (badness 10000) in paragraph at lines 160--165
 \OT1/lmtt/m/it/12 SMC '99 Conference Proceedings. 1999 IEEE International
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 166--171
+[36]
+Underfull \hbox (badness 10000) in paragraph at lines 167--172
 []\OT1/lmtt/m/n/12 Y. Shi and R. Eberhart.  A modified particle swarm
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 166--171
+Underfull \hbox (badness 10000) in paragraph at lines 167--172
 \OT1/lmtt/m/n/12 optimizer.  In \OT1/lmtt/m/it/12 1998 IEEE International Confe
 rence on
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 166--171
+Underfull \hbox (badness 10000) in paragraph at lines 167--172
 \OT1/lmtt/m/it/12 Evolutionary Computation Proceedings. IEEE World Congress
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 166--171
+Underfull \hbox (badness 10000) in paragraph at lines 167--172
 \OT1/lmtt/m/it/12 on Computational Intelligence (Cat. No.98TH8360)\OT1/lmtt/m/n
 /12 , pages
  []
 
-[35]
-Underfull \hbox (badness 1533) in paragraph at lines 173--176
+
+Underfull \hbox (badness 1533) in paragraph at lines 174--177
 []\OT1/lmtt/m/n/12 M Sundaram, K Ramar, N Arumugam, and G Prabin.  Histogram
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 173--176
+Underfull \hbox (badness 10000) in paragraph at lines 174--177
 \OT1/lmtt/m/n/12 modified local contrast enhancement for mammogram images.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 178--183
+Underfull \hbox (badness 10000) in paragraph at lines 179--184
 []\OT1/lmtt/m/n/12 Gerald Schaefer and Michal Stich.  Ucid: An uncompressed
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 178--183
+Underfull \hbox (badness 10000) in paragraph at lines 179--184
 \OT1/lmtt/m/n/12 color image database.  In \OT1/lmtt/m/it/12 Storage and Retrie
 val Methods
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 178--183
+Underfull \hbox (badness 10000) in paragraph at lines 179--184
 \OT1/lmtt/m/it/12 and Applications for Multimedia 2004\OT1/lmtt/m/n/12 , volume
  5307, pages
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 178--183
+Underfull \hbox (badness 10000) in paragraph at lines 179--184
 \OT1/lmtt/m/n/12 472--481. International Society for Optics and Photonics,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 193--196
+Underfull \hbox (badness 10000) in paragraph at lines 194--197
 []\OT1/lmtt/m/n/12 Mark Voorneveld.  Characterization of pareto dominance.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 198--203
+Underfull \hbox (badness 10000) in paragraph at lines 199--204
 []\OT1/lmtt/m/n/12 Lyndon While, Lucas Bradstreet, Luigi Barone, and Philip
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 198--203
+Underfull \hbox (badness 10000) in paragraph at lines 199--204
 \OT1/lmtt/m/n/12 Hingston.  Heuristics for optimizing the calculation of
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 198--203
+Underfull \hbox (badness 10000) in paragraph at lines 199--204
 \OT1/lmtt/m/it/12 Evolutionary Computation, 2005. The 2005 IEEE Congress
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 205--209
+Underfull \hbox (badness 10000) in paragraph at lines 206--210
 []\OT1/lmtt/m/n/12 Zhou Wang, Alan C Bovik, Hamid R Sheikh, and Eero P
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 205--209
+Underfull \hbox (badness 10000) in paragraph at lines 206--210
 \OT1/lmtt/m/n/12 Simoncelli.  Image quality assessment: from error
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 205--209
+Underfull \hbox (badness 10000) in paragraph at lines 206--210
 \OT1/lmtt/m/n/12 visibility to structural similarity.  \OT1/lmtt/m/it/12 IEEE t
 ransactions
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 211--215
+Underfull \hbox (badness 10000) in paragraph at lines 212--216
 []\OT1/lmtt/m/n/12 Lyndon While, Philip Hingston, Luigi Barone, and Simon
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 211--215
+Underfull \hbox (badness 10000) in paragraph at lines 212--216
 \OT1/lmtt/m/n/12 Huband.  A faster algorithm for calculating hypervolume.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 211--215
+Underfull \hbox (badness 10000) in paragraph at lines 212--216
 \OT1/lmtt/m/it/12 IEEE transactions on evolutionary computation\OT1/lmtt/m/n/12
  ,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 217--224
+Underfull \hbox (badness 10000) in paragraph at lines 218--225
 []\OT1/lmtt/m/n/12 K. Wongsritong, K. Kittayaruasiriwat, F. Cheevasuvit,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 217--224
+Underfull \hbox (badness 10000) in paragraph at lines 218--225
 \OT1/lmtt/m/n/12 K. Dejhan, and A. Somboonkaew.  Contrast enhancement
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 217--224
+Underfull \hbox (badness 10000) in paragraph at lines 218--225
 \OT1/lmtt/m/n/12 using multipeak histogram equalization with brightness
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 217--224
+Underfull \hbox (badness 10000) in paragraph at lines 218--225
 \OT1/lmtt/m/it/12 Conference on Circuits and Systems. Microelectronics and
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 217--224
+Underfull \hbox (badness 10000) in paragraph at lines 218--225
 \OT1/lmtt/m/it/12 Integrating Systems. Proceedings (Cat. No.98EX242)\OT1/lmtt/m
 /n/12 , pages
  []
 
-[36]
-Underfull \hbox (badness 10000) in paragraph at lines 226--231
+[37]
+Underfull \hbox (badness 10000) in paragraph at lines 227--232
 []\OT1/lmtt/m/n/12 Eckart Zitzler, Dimo Brockhoff, and Lothar Thiele.  The
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 226--231
+Underfull \hbox (badness 10000) in paragraph at lines 227--232
 \OT1/lmtt/m/n/12 hypervolume indicator revisited: On the design of
  []
 
 
-Underfull \hbox (badness 3260) in paragraph at lines 226--231
+Underfull \hbox (badness 3260) in paragraph at lines 227--232
 \OT1/lmtt/m/n/12 pareto-compliant indicators via weighted integration.  In
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 226--231
+Underfull \hbox (badness 10000) in paragraph at lines 227--232
 \OT1/lmtt/m/it/12 International Conference on Evolutionary Multi-Criterion
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 233--237
+Underfull \hbox (badness 10000) in paragraph at lines 234--238
 []\OT1/lmtt/m/n/12 Karel Zuiderveld.  Contrast limited adaptive histogram
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 233--237
+Underfull \hbox (badness 10000) in paragraph at lines 234--238
 \OT1/lmtt/m/n/12 equalization.  In \OT1/lmtt/m/it/12 Graphics gems IV\OT1/lmtt/
 m/n/12 , pages 474--485.
  []
 
-) [37]
+) [38]
 \openout2 = `AnexoA.aux'.
 
 (/home/lg_more/github/maestria-tesis/libro/AnexoA.tex
@@ -2440,593 +2576,523 @@ LaTeX Font Info:    Font shape `OT1/lmtt/bx/n' in size <17.28> not available
 Underfull \vbox (badness 10000) detected at line 42
  []
 
-[38
+[39
 
 
-] [39]
-<./Figures/calhouse_230/0-resultado.jpg, id=950, 246.9225pt x 163.61125pt>
+] [40]
+<./Figures/calhouse_230/0-resultado.jpg, id=963, 246.9225pt x 163.61125pt>
 File: ./Figures/calhouse_230/0-resultado.jpg Graphic file (type jpg)
 <use ./Figures/calhouse_230/0-resultado.jpg>
 Package pdftex.def Info: ./Figures/calhouse_230/0-resultado.jpg  used on input 
-line 155. on input line 155.
-Package pdftex.def Info: Requested size: 185.65297pt x 123.0127pt on input line
- 155.
-<./Figures/calhouse_230/1-resultado.jpg, id=951, 246.9225pt x 163.61125pt>
+line 155.
+(pdftex.def)             Requested size: 185.65297pt x 123.0127pt.
+<./Figures/calhouse_230/1-resultado.jpg, id=964, 246.9225pt x 163.61125pt>
 File: ./Figures/calhouse_230/1-resultado.jpg Graphic file (type jpg)
 <use ./Figures/calhouse_230/1-resultado.jpg>
 Package pdftex.def Info: ./Figures/calhouse_230/1-resultado.jpg  used on input 
-line 163. on input line 163.
-Package pdftex.def Info: Requested size: 185.65297pt x 123.0127pt on input line
- 163.
-<./Figures/calhouse_230/23-resultado.jpg, id=952, 246.9225pt x 163.61125pt>
+line 163.
+(pdftex.def)             Requested size: 185.65297pt x 123.0127pt.
+<./Figures/calhouse_230/23-resultado.jpg, id=965, 246.9225pt x 163.61125pt>
 File: ./Figures/calhouse_230/23-resultado.jpg Graphic file (type jpg)
 <use ./Figures/calhouse_230/23-resultado.jpg>
 Package pdftex.def Info: ./Figures/calhouse_230/23-resultado.jpg  used on input
- line 172. on input line 172.
-Package pdftex.def Info: Requested size: 185.65297pt x 123.0127pt on input line
- 172.
-<./Figures/calhouse_230/24-resultado.jpg, id=953, 246.9225pt x 163.61125pt>
+ line 172.
+(pdftex.def)             Requested size: 185.65297pt x 123.0127pt.
+<./Figures/calhouse_230/24-resultado.jpg, id=966, 246.9225pt x 163.61125pt>
 File: ./Figures/calhouse_230/24-resultado.jpg Graphic file (type jpg)
 <use ./Figures/calhouse_230/24-resultado.jpg>
 Package pdftex.def Info: ./Figures/calhouse_230/24-resultado.jpg  used on input
- line 179. on input line 179.
-Package pdftex.def Info: Requested size: 185.65297pt x 123.0127pt on input line
- 179.
-<./Figures/calhouse_230/56-resultado.jpg, id=954, 246.9225pt x 163.61125pt>
+ line 179.
+(pdftex.def)             Requested size: 185.65297pt x 123.0127pt.
+<./Figures/calhouse_230/56-resultado.jpg, id=967, 246.9225pt x 163.61125pt>
 File: ./Figures/calhouse_230/56-resultado.jpg Graphic file (type jpg)
 <use ./Figures/calhouse_230/56-resultado.jpg>
 Package pdftex.def Info: ./Figures/calhouse_230/56-resultado.jpg  used on input
- line 188. on input line 188.
-Package pdftex.def Info: Requested size: 185.65297pt x 123.0127pt on input line
- 188.
-<./Figures/calhouse_230/calhouse_230.jpg, id=955, 246.9225pt x 163.61125pt>
+ line 188.
+(pdftex.def)             Requested size: 185.65297pt x 123.0127pt.
+<./Figures/calhouse_230/calhouse_230.jpg, id=968, 246.9225pt x 163.61125pt>
 File: ./Figures/calhouse_230/calhouse_230.jpg Graphic file (type jpg)
 <use ./Figures/calhouse_230/calhouse_230.jpg>
 Package pdftex.def Info: ./Figures/calhouse_230/calhouse_230.jpg  used on input
- line 195. on input line 195.
-Package pdftex.def Info: Requested size: 185.65297pt x 123.0127pt on input line
- 195.
-[40]
+ line 195.
+(pdftex.def)             Requested size: 185.65297pt x 123.0127pt.
+[41]
 File: ./Figures/calhouse_230/calhouse_230_2.jpg Graphic file (type jpg)
 <use ./Figures/calhouse_230/calhouse_230_2.jpg>
 Package pdftex.def Info: ./Figures/calhouse_230/calhouse_230_2.jpg  used on inp
-ut line 206. on input line 206.
-Package pdftex.def Info: Requested size: 412.56497pt x 221.48802pt on input lin
-e 206.
-[41 <./Figures/calhouse_230/0-resultado.jpg> <./Figures/calhouse_230/1-resultad
+ut line 206.
+(pdftex.def)             Requested size: 412.56497pt x 221.48802pt.
+[42 <./Figures/calhouse_230/0-resultado.jpg> <./Figures/calhouse_230/1-resultad
 o.jpg> <./Figures/calhouse_230/23-resultado.jpg> <./Figures/calhouse_230/24-res
 ultado.jpg> <./Figures/calhouse_230/56-resultado.jpg> <./Figures/calhouse_230/c
 alhouse_230.jpg>]
 Underfull \vbox (badness 10000) detected at line 262
  []
 
-[42] [43] [44]
-<./Figures/calhouse_231/0-resultado.jpg, id=988, 246.9225pt x 163.61125pt>
+[43] [44] [45]
+<./Figures/calhouse_231/0-resultado.jpg, id=1001, 246.9225pt x 163.61125pt>
 File: ./Figures/calhouse_231/0-resultado.jpg Graphic file (type jpg)
 <use ./Figures/calhouse_231/0-resultado.jpg>
 Package pdftex.def Info: ./Figures/calhouse_231/0-resultado.jpg  used on input 
-line 399. on input line 399.
-Package pdftex.def Info: Requested size: 185.65297pt x 123.0127pt on input line
- 399.
-<./Figures/calhouse_231/1-resultado.jpg, id=989, 246.9225pt x 163.61125pt>
+line 399.
+(pdftex.def)             Requested size: 185.65297pt x 123.0127pt.
+<./Figures/calhouse_231/1-resultado.jpg, id=1002, 246.9225pt x 163.61125pt>
 File: ./Figures/calhouse_231/1-resultado.jpg Graphic file (type jpg)
 <use ./Figures/calhouse_231/1-resultado.jpg>
 Package pdftex.def Info: ./Figures/calhouse_231/1-resultado.jpg  used on input 
-line 407. on input line 407.
-Package pdftex.def Info: Requested size: 185.65297pt x 123.0127pt on input line
- 407.
-<./Figures/calhouse_231/28-resultado.jpg, id=990, 246.9225pt x 163.61125pt>
+line 407.
+(pdftex.def)             Requested size: 185.65297pt x 123.0127pt.
+<./Figures/calhouse_231/28-resultado.jpg, id=1003, 246.9225pt x 163.61125pt>
 File: ./Figures/calhouse_231/28-resultado.jpg Graphic file (type jpg)
 <use ./Figures/calhouse_231/28-resultado.jpg>
 Package pdftex.def Info: ./Figures/calhouse_231/28-resultado.jpg  used on input
- line 416. on input line 416.
-Package pdftex.def Info: Requested size: 185.65297pt x 123.0127pt on input line
- 416.
-<./Figures/calhouse_231/29-resultado.jpg, id=991, 246.9225pt x 163.61125pt>
+ line 416.
+(pdftex.def)             Requested size: 185.65297pt x 123.0127pt.
+<./Figures/calhouse_231/29-resultado.jpg, id=1004, 246.9225pt x 163.61125pt>
 File: ./Figures/calhouse_231/29-resultado.jpg Graphic file (type jpg)
 <use ./Figures/calhouse_231/29-resultado.jpg>
 Package pdftex.def Info: ./Figures/calhouse_231/29-resultado.jpg  used on input
- line 423. on input line 423.
-Package pdftex.def Info: Requested size: 185.65297pt x 123.0127pt on input line
- 423.
-<./Figures/calhouse_231/102-resultado.jpg, id=992, 246.9225pt x 163.61125pt>
+ line 423.
+(pdftex.def)             Requested size: 185.65297pt x 123.0127pt.
+<./Figures/calhouse_231/102-resultado.jpg, id=1005, 246.9225pt x 163.61125pt>
 File: ./Figures/calhouse_231/102-resultado.jpg Graphic file (type jpg)
 <use ./Figures/calhouse_231/102-resultado.jpg>
 Package pdftex.def Info: ./Figures/calhouse_231/102-resultado.jpg  used on inpu
-t line 432. on input line 432.
-Package pdftex.def Info: Requested size: 185.65297pt x 123.0127pt on input line
- 432.
-<./Figures/calhouse_231/calhouse_231.jpg, id=993, 246.9225pt x 163.61125pt>
+t line 432.
+(pdftex.def)             Requested size: 185.65297pt x 123.0127pt.
+<./Figures/calhouse_231/calhouse_231.jpg, id=1006, 246.9225pt x 163.61125pt>
 File: ./Figures/calhouse_231/calhouse_231.jpg Graphic file (type jpg)
 <use ./Figures/calhouse_231/calhouse_231.jpg>
 Package pdftex.def Info: ./Figures/calhouse_231/calhouse_231.jpg  used on input
- line 439. on input line 439.
-Package pdftex.def Info: Requested size: 185.65297pt x 123.0127pt on input line
- 439.
-[45]
-<./Figures/calhouse_231/calhouse_231_2.jpg, id=1000, 1414.2098pt x 787.44188pt>
+ line 439.
+(pdftex.def)             Requested size: 185.65297pt x 123.0127pt.
+[46]
+<./Figures/calhouse_231/calhouse_231_2.jpg, id=1013, 1414.2098pt x 787.44188pt>
 
 File: ./Figures/calhouse_231/calhouse_231_2.jpg Graphic file (type jpg)
 <use ./Figures/calhouse_231/calhouse_231_2.jpg>
 Package pdftex.def Info: ./Figures/calhouse_231/calhouse_231_2.jpg  used on inp
-ut line 451. on input line 451.
-Package pdftex.def Info: Requested size: 412.56497pt x 229.72205pt on input lin
-e 451.
-[46 <./Figures/calhouse_231/0-resultado.jpg> <./Figures/calhouse_231/1-resultad
+ut line 451.
+(pdftex.def)             Requested size: 412.56497pt x 229.72205pt.
+[47 <./Figures/calhouse_231/0-resultado.jpg> <./Figures/calhouse_231/1-resultad
 o.jpg> <./Figures/calhouse_231/28-resultado.jpg> <./Figures/calhouse_231/29-res
 ultado.jpg> <./Figures/calhouse_231/102-resultado.jpg> <./Figures/calhouse_231/
 calhouse_231.jpg>]
 Underfull \vbox (badness 10000) detected at line 507
  []
 
-[47 <./Figures/calhouse_231/calhouse_231_2.jpg>] [48] [49] [50] [51] [52] [53]
-<./Figures/calhouse_232/4-resultado.jpg, id=1042, 246.9225pt x 163.61125pt>
+[48 <./Figures/calhouse_231/calhouse_231_2.jpg>] [49] [50] [51] [52] [53] [54]
+<./Figures/calhouse_232/4-resultado.jpg, id=1055, 246.9225pt x 163.61125pt>
 File: ./Figures/calhouse_232/4-resultado.jpg Graphic file (type jpg)
 <use ./Figures/calhouse_232/4-resultado.jpg>
 Package pdftex.def Info: ./Figures/calhouse_232/4-resultado.jpg  used on input 
-line 910. on input line 910.
-Package pdftex.def Info: Requested size: 185.65297pt x 123.0127pt on input line
- 910.
-<./Figures/calhouse_232/5-resultado.jpg, id=1043, 246.9225pt x 163.61125pt>
+line 910.
+(pdftex.def)             Requested size: 185.65297pt x 123.0127pt.
+<./Figures/calhouse_232/5-resultado.jpg, id=1056, 246.9225pt x 163.61125pt>
 File: ./Figures/calhouse_232/5-resultado.jpg Graphic file (type jpg)
 <use ./Figures/calhouse_232/5-resultado.jpg>
 Package pdftex.def Info: ./Figures/calhouse_232/5-resultado.jpg  used on input 
-line 917. on input line 917.
-Package pdftex.def Info: Requested size: 185.65297pt x 123.0127pt on input line
- 917.
-<./Figures/calhouse_232/204-resultado.jpg, id=1044, 246.9225pt x 163.61125pt>
+line 917.
+(pdftex.def)             Requested size: 185.65297pt x 123.0127pt.
+<./Figures/calhouse_232/204-resultado.jpg, id=1057, 246.9225pt x 163.61125pt>
 File: ./Figures/calhouse_232/204-resultado.jpg Graphic file (type jpg)
 <use ./Figures/calhouse_232/204-resultado.jpg>
 Package pdftex.def Info: ./Figures/calhouse_232/204-resultado.jpg  used on inpu
-t line 925. on input line 925.
-Package pdftex.def Info: Requested size: 185.65297pt x 123.0127pt on input line
- 925.
-<./Figures/calhouse_232/205-resultado.jpg, id=1045, 246.9225pt x 163.61125pt>
+t line 925.
+(pdftex.def)             Requested size: 185.65297pt x 123.0127pt.
+<./Figures/calhouse_232/205-resultado.jpg, id=1058, 246.9225pt x 163.61125pt>
 File: ./Figures/calhouse_232/205-resultado.jpg Graphic file (type jpg)
 <use ./Figures/calhouse_232/205-resultado.jpg>
 Package pdftex.def Info: ./Figures/calhouse_232/205-resultado.jpg  used on inpu
-t line 931. on input line 931.
-Package pdftex.def Info: Requested size: 185.65297pt x 123.0127pt on input line
- 931.
-<./Figures/calhouse_232/407-resultado.jpg, id=1046, 246.9225pt x 163.61125pt>
+t line 931.
+(pdftex.def)             Requested size: 185.65297pt x 123.0127pt.
+<./Figures/calhouse_232/407-resultado.jpg, id=1059, 246.9225pt x 163.61125pt>
 File: ./Figures/calhouse_232/407-resultado.jpg Graphic file (type jpg)
 <use ./Figures/calhouse_232/407-resultado.jpg>
 Package pdftex.def Info: ./Figures/calhouse_232/407-resultado.jpg  used on inpu
-t line 940. on input line 940.
-Package pdftex.def Info: Requested size: 185.65297pt x 123.0127pt on input line
- 940.
-<./Figures/calhouse_232/calhouse_0232.jpg, id=1047, 246.9225pt x 163.61125pt>
+t line 940.
+(pdftex.def)             Requested size: 185.65297pt x 123.0127pt.
+<./Figures/calhouse_232/calhouse_0232.jpg, id=1060, 246.9225pt x 163.61125pt>
 File: ./Figures/calhouse_232/calhouse_0232.jpg Graphic file (type jpg)
 <use ./Figures/calhouse_232/calhouse_0232.jpg>
 Package pdftex.def Info: ./Figures/calhouse_232/calhouse_0232.jpg  used on inpu
-t line 947. on input line 947.
-Package pdftex.def Info: Requested size: 185.65297pt x 123.0127pt on input line
- 947.
-[54]
-<./Figures/calhouse_232/calhouse_0232_2.jpg, id=1054, 1148.71263pt x 794.97pt>
+t line 947.
+(pdftex.def)             Requested size: 185.65297pt x 123.0127pt.
+[55]
+<./Figures/calhouse_232/calhouse_0232_2.jpg, id=1068, 1148.71263pt x 794.97pt>
 File: ./Figures/calhouse_232/calhouse_0232_2.jpg Graphic file (type jpg)
 <use ./Figures/calhouse_232/calhouse_0232_2.jpg>
 Package pdftex.def Info: ./Figures/calhouse_232/calhouse_0232_2.jpg  used on in
-put line 959. on input line 959.
-Package pdftex.def Info: Requested size: 412.56497pt x 285.52182pt on input lin
-e 959.
-[55 <./Figures/calhouse_232/4-resultado.jpg> <./Figures/calhouse_232/5-resultad
+put line 959.
+(pdftex.def)             Requested size: 412.56497pt x 285.52182pt.
+[56 <./Figures/calhouse_232/4-resultado.jpg> <./Figures/calhouse_232/5-resultad
 o.jpg> <./Figures/calhouse_232/204-resultado.jpg> <./Figures/calhouse_232/205-r
 esultado.jpg> <./Figures/calhouse_232/407-resultado.jpg> <./Figures/calhouse_23
 2/calhouse_0232.jpg>]
 Underfull \vbox (badness 10000) detected at line 1016
  []
 
-[56 <./Figures/calhouse_232/calhouse_0232_2.jpg>] [57] [58] [59]
-<./Figures/calhouse_233/6-resultado.jpg, id=1085, 246.9225pt x 163.61125pt>
+[57 <./Figures/calhouse_232/calhouse_0232_2.jpg>] [58] [59] [60]
+<./Figures/calhouse_233/6-resultado.jpg, id=1098, 246.9225pt x 163.61125pt>
 File: ./Figures/calhouse_233/6-resultado.jpg Graphic file (type jpg)
 <use ./Figures/calhouse_233/6-resultado.jpg>
 Package pdftex.def Info: ./Figures/calhouse_233/6-resultado.jpg  used on input 
-line 1199. on input line 1199.
-Package pdftex.def Info: Requested size: 185.65297pt x 123.0127pt on input line
- 1199.
-<./Figures/calhouse_233/7-resultado.jpg, id=1086, 246.9225pt x 163.61125pt>
+line 1199.
+(pdftex.def)             Requested size: 185.65297pt x 123.0127pt.
+<./Figures/calhouse_233/7-resultado.jpg, id=1099, 246.9225pt x 163.61125pt>
 File: ./Figures/calhouse_233/7-resultado.jpg Graphic file (type jpg)
 <use ./Figures/calhouse_233/7-resultado.jpg>
 Package pdftex.def Info: ./Figures/calhouse_233/7-resultado.jpg  used on input 
-line 1206. on input line 1206.
-Package pdftex.def Info: Requested size: 185.65297pt x 123.0127pt on input line
- 1206.
-<./Figures/calhouse_233/46-resultado.jpg, id=1087, 246.9225pt x 163.61125pt>
+line 1206.
+(pdftex.def)             Requested size: 185.65297pt x 123.0127pt.
+<./Figures/calhouse_233/46-resultado.jpg, id=1100, 246.9225pt x 163.61125pt>
 File: ./Figures/calhouse_233/46-resultado.jpg Graphic file (type jpg)
 <use ./Figures/calhouse_233/46-resultado.jpg>
 Package pdftex.def Info: ./Figures/calhouse_233/46-resultado.jpg  used on input
- line 1214. on input line 1214.
-Package pdftex.def Info: Requested size: 185.65297pt x 123.0127pt on input line
- 1214.
-<./Figures/calhouse_233/47-resultado.jpg, id=1088, 246.9225pt x 163.61125pt>
+ line 1214.
+(pdftex.def)             Requested size: 185.65297pt x 123.0127pt.
+<./Figures/calhouse_233/47-resultado.jpg, id=1101, 246.9225pt x 163.61125pt>
 File: ./Figures/calhouse_233/47-resultado.jpg Graphic file (type jpg)
 <use ./Figures/calhouse_233/47-resultado.jpg>
 Package pdftex.def Info: ./Figures/calhouse_233/47-resultado.jpg  used on input
- line 1220. on input line 1220.
-Package pdftex.def Info: Requested size: 185.65297pt x 123.0127pt on input line
- 1220.
-<./Figures/calhouse_233/60-resultado.jpg, id=1089, 246.9225pt x 163.61125pt>
+ line 1220.
+(pdftex.def)             Requested size: 185.65297pt x 123.0127pt.
+<./Figures/calhouse_233/60-resultado.jpg, id=1102, 246.9225pt x 163.61125pt>
 File: ./Figures/calhouse_233/60-resultado.jpg Graphic file (type jpg)
 <use ./Figures/calhouse_233/60-resultado.jpg>
 Package pdftex.def Info: ./Figures/calhouse_233/60-resultado.jpg  used on input
- line 1229. on input line 1229.
-Package pdftex.def Info: Requested size: 185.65297pt x 123.0127pt on input line
- 1229.
-<./Figures/calhouse_233/calhouse_233.jpg, id=1090, 246.9225pt x 163.61125pt>
+ line 1229.
+(pdftex.def)             Requested size: 185.65297pt x 123.0127pt.
+<./Figures/calhouse_233/calhouse_233.jpg, id=1103, 246.9225pt x 163.61125pt>
 File: ./Figures/calhouse_233/calhouse_233.jpg Graphic file (type jpg)
 <use ./Figures/calhouse_233/calhouse_233.jpg>
 Package pdftex.def Info: ./Figures/calhouse_233/calhouse_233.jpg  used on input
- line 1236. on input line 1236.
-Package pdftex.def Info: Requested size: 185.65297pt x 123.0127pt on input line
- 1236.
-<./Figures/calhouse_233/calhouse_233_2.jpg, id=1093, 819.8128pt x 460.72125pt>
+ line 1236.
+(pdftex.def)             Requested size: 185.65297pt x 123.0127pt.
+<./Figures/calhouse_233/calhouse_233_2.jpg, id=1106, 819.8128pt x 460.72125pt>
 File: ./Figures/calhouse_233/calhouse_233_2.jpg Graphic file (type jpg)
 <use ./Figures/calhouse_233/calhouse_233_2.jpg>
 Package pdftex.def Info: ./Figures/calhouse_233/calhouse_233_2.jpg  used on inp
-ut line 1248. on input line 1248.
-Package pdftex.def Info: Requested size: 412.56497pt x 231.85745pt on input lin
-e 1248.
-[60 <./Figures/calhouse_233/6-resultado.jpg> <./Figures/calhouse_233/7-resultad
+ut line 1248.
+(pdftex.def)             Requested size: 412.56497pt x 231.85745pt.
+[61 <./Figures/calhouse_233/6-resultado.jpg> <./Figures/calhouse_233/7-resultad
 o.jpg> <./Figures/calhouse_233/46-resultado.jpg> <./Figures/calhouse_233/47-res
 ultado.jpg> <./Figures/calhouse_233/60-resultado.jpg> <./Figures/calhouse_233/c
 alhouse_233.jpg>]
 Underfull \vbox (badness 10000) detected at line 1304
  []
 
-[61 <./Figures/calhouse_233/calhouse_233_2.jpg>] [62] [63] [64]
-<./Figures/calhouse_234/1-resultado.jpg, id=1123, 246.9225pt x 163.61125pt>
+[62 <./Figures/calhouse_233/calhouse_233_2.jpg>] [63] [64] [65]
+<./Figures/calhouse_234/1-resultado.jpg, id=1136, 246.9225pt x 163.61125pt>
 File: ./Figures/calhouse_234/1-resultado.jpg Graphic file (type jpg)
 <use ./Figures/calhouse_234/1-resultado.jpg>
 Package pdftex.def Info: ./Figures/calhouse_234/1-resultado.jpg  used on input 
-line 1526. on input line 1526.
-Package pdftex.def Info: Requested size: 185.65297pt x 123.0127pt on input line
- 1526.
-<./Figures/calhouse_234/2-resultado.jpg, id=1124, 246.9225pt x 163.61125pt>
+line 1526.
+(pdftex.def)             Requested size: 185.65297pt x 123.0127pt.
+<./Figures/calhouse_234/2-resultado.jpg, id=1137, 246.9225pt x 163.61125pt>
 File: ./Figures/calhouse_234/2-resultado.jpg Graphic file (type jpg)
 <use ./Figures/calhouse_234/2-resultado.jpg>
 Package pdftex.def Info: ./Figures/calhouse_234/2-resultado.jpg  used on input 
-line 1533. on input line 1533.
-Package pdftex.def Info: Requested size: 185.65297pt x 123.0127pt on input line
- 1533.
-<./Figures/calhouse_234/51-resultado.jpg, id=1125, 246.9225pt x 163.61125pt>
+line 1533.
+(pdftex.def)             Requested size: 185.65297pt x 123.0127pt.
+<./Figures/calhouse_234/51-resultado.jpg, id=1138, 246.9225pt x 163.61125pt>
 File: ./Figures/calhouse_234/51-resultado.jpg Graphic file (type jpg)
 <use ./Figures/calhouse_234/51-resultado.jpg>
 Package pdftex.def Info: ./Figures/calhouse_234/51-resultado.jpg  used on input
- line 1541. on input line 1541.
-Package pdftex.def Info: Requested size: 185.65297pt x 123.0127pt on input line
- 1541.
-<./Figures/calhouse_234/59-resultado.jpg, id=1126, 246.9225pt x 163.61125pt>
+ line 1541.
+(pdftex.def)             Requested size: 185.65297pt x 123.0127pt.
+<./Figures/calhouse_234/59-resultado.jpg, id=1139, 246.9225pt x 163.61125pt>
 File: ./Figures/calhouse_234/59-resultado.jpg Graphic file (type jpg)
 <use ./Figures/calhouse_234/59-resultado.jpg>
 Package pdftex.def Info: ./Figures/calhouse_234/59-resultado.jpg  used on input
- line 1547. on input line 1547.
-Package pdftex.def Info: Requested size: 185.65297pt x 123.0127pt on input line
- 1547.
-<./Figures/calhouse_234/60-resultado.jpg, id=1127, 246.9225pt x 163.61125pt>
+ line 1547.
+(pdftex.def)             Requested size: 185.65297pt x 123.0127pt.
+<./Figures/calhouse_234/60-resultado.jpg, id=1140, 246.9225pt x 163.61125pt>
 File: ./Figures/calhouse_234/60-resultado.jpg Graphic file (type jpg)
 <use ./Figures/calhouse_234/60-resultado.jpg>
 Package pdftex.def Info: ./Figures/calhouse_234/60-resultado.jpg  used on input
- line 1556. on input line 1556.
-Package pdftex.def Info: Requested size: 185.65297pt x 123.0127pt on input line
- 1556.
-<./Figures/calhouse_234/calhouse_234.jpg, id=1128, 246.9225pt x 163.61125pt>
+ line 1556.
+(pdftex.def)             Requested size: 185.65297pt x 123.0127pt.
+<./Figures/calhouse_234/calhouse_234.jpg, id=1141, 246.9225pt x 163.61125pt>
 File: ./Figures/calhouse_234/calhouse_234.jpg Graphic file (type jpg)
 <use ./Figures/calhouse_234/calhouse_234.jpg>
 Package pdftex.def Info: ./Figures/calhouse_234/calhouse_234.jpg  used on input
- line 1563. on input line 1563.
-Package pdftex.def Info: Requested size: 185.65297pt x 123.0127pt on input line
- 1563.
-[65]
-<./Figures/calhouse_234/calhouse_234_2.jpg, id=1135, 768.34421pt x 530.23358pt>
+ line 1563.
+(pdftex.def)             Requested size: 185.65297pt x 123.0127pt.
+[66]
+<./Figures/calhouse_234/calhouse_234_2.jpg, id=1148, 768.34421pt x 530.23358pt>
 
 File: ./Figures/calhouse_234/calhouse_234_2.jpg Graphic file (type jpg)
 <use ./Figures/calhouse_234/calhouse_234_2.jpg>
 Package pdftex.def Info: ./Figures/calhouse_234/calhouse_234_2.jpg  used on inp
-ut line 1575. on input line 1575.
-Package pdftex.def Info: Requested size: 412.56497pt x 284.71991pt on input lin
-e 1575.
-[66 <./Figures/calhouse_234/1-resultado.jpg> <./Figures/calhouse_234/2-resultad
+ut line 1575.
+(pdftex.def)             Requested size: 412.56497pt x 284.71991pt.
+[67 <./Figures/calhouse_234/1-resultado.jpg> <./Figures/calhouse_234/2-resultad
 o.jpg> <./Figures/calhouse_234/51-resultado.jpg> <./Figures/calhouse_234/59-res
 ultado.jpg> <./Figures/calhouse_234/60-resultado.jpg> <./Figures/calhouse_234/c
 alhouse_234.jpg>]
 Underfull \vbox (badness 10000) detected at line 1633
  []
 
-[67 <./Figures/calhouse_234/calhouse_234_2.jpg>] [68] [69] [70] [71]
-<./Figures/calhouse_236/56-resultado.jpg, id=1169, 246.9225pt x 163.61125pt>
+[68 <./Figures/calhouse_234/calhouse_234_2.jpg>] [69] [70] [71] [72]
+<./Figures/calhouse_236/56-resultado.jpg, id=1182, 246.9225pt x 163.61125pt>
 File: ./Figures/calhouse_236/56-resultado.jpg Graphic file (type jpg)
 <use ./Figures/calhouse_236/56-resultado.jpg>
 Package pdftex.def Info: ./Figures/calhouse_236/56-resultado.jpg  used on input
- line 1887. on input line 1887.
-Package pdftex.def Info: Requested size: 185.65297pt x 123.0127pt on input line
- 1887.
-<./Figures/calhouse_236/61-resultado.jpg, id=1170, 246.9225pt x 163.61125pt>
+ line 1887.
+(pdftex.def)             Requested size: 185.65297pt x 123.0127pt.
+<./Figures/calhouse_236/61-resultado.jpg, id=1183, 246.9225pt x 163.61125pt>
 File: ./Figures/calhouse_236/61-resultado.jpg Graphic file (type jpg)
 <use ./Figures/calhouse_236/61-resultado.jpg>
 Package pdftex.def Info: ./Figures/calhouse_236/61-resultado.jpg  used on input
- line 1894. on input line 1894.
-Package pdftex.def Info: Requested size: 185.65297pt x 123.0127pt on input line
- 1894.
-<./Figures/calhouse_236/82-resultado.jpg, id=1171, 246.9225pt x 163.61125pt>
+ line 1894.
+(pdftex.def)             Requested size: 185.65297pt x 123.0127pt.
+<./Figures/calhouse_236/82-resultado.jpg, id=1184, 246.9225pt x 163.61125pt>
 File: ./Figures/calhouse_236/82-resultado.jpg Graphic file (type jpg)
 <use ./Figures/calhouse_236/82-resultado.jpg>
 Package pdftex.def Info: ./Figures/calhouse_236/82-resultado.jpg  used on input
- line 1902. on input line 1902.
-Package pdftex.def Info: Requested size: 185.65297pt x 123.0127pt on input line
- 1902.
-<./Figures/calhouse_236/101-resultado.jpg, id=1172, 246.9225pt x 163.61125pt>
+ line 1902.
+(pdftex.def)             Requested size: 185.65297pt x 123.0127pt.
+<./Figures/calhouse_236/101-resultado.jpg, id=1185, 246.9225pt x 163.61125pt>
 File: ./Figures/calhouse_236/101-resultado.jpg Graphic file (type jpg)
 <use ./Figures/calhouse_236/101-resultado.jpg>
 Package pdftex.def Info: ./Figures/calhouse_236/101-resultado.jpg  used on inpu
-t line 1908. on input line 1908.
-Package pdftex.def Info: Requested size: 185.65297pt x 123.0127pt on input line
- 1908.
-<./Figures/calhouse_236/107-resultado.jpg, id=1173, 246.9225pt x 163.61125pt>
+t line 1908.
+(pdftex.def)             Requested size: 185.65297pt x 123.0127pt.
+<./Figures/calhouse_236/107-resultado.jpg, id=1186, 246.9225pt x 163.61125pt>
 File: ./Figures/calhouse_236/107-resultado.jpg Graphic file (type jpg)
 <use ./Figures/calhouse_236/107-resultado.jpg>
 Package pdftex.def Info: ./Figures/calhouse_236/107-resultado.jpg  used on inpu
-t line 1917. on input line 1917.
-Package pdftex.def Info: Requested size: 185.65297pt x 123.0127pt on input line
- 1917.
-<./Figures/calhouse_236/calhouse_236.jpg, id=1174, 246.9225pt x 163.61125pt>
+t line 1917.
+(pdftex.def)             Requested size: 185.65297pt x 123.0127pt.
+<./Figures/calhouse_236/calhouse_236.jpg, id=1187, 246.9225pt x 163.61125pt>
 File: ./Figures/calhouse_236/calhouse_236.jpg Graphic file (type jpg)
 <use ./Figures/calhouse_236/calhouse_236.jpg>
 Package pdftex.def Info: ./Figures/calhouse_236/calhouse_236.jpg  used on input
- line 1924. on input line 1924.
-Package pdftex.def Info: Requested size: 185.65297pt x 123.0127pt on input line
- 1924.
-[72]
-<./Figures/calhouse_236/calhouse_236_2.jpg, id=1181, 1590.69281pt x 903.75537pt
+ line 1924.
+(pdftex.def)             Requested size: 185.65297pt x 123.0127pt.
+[73]
+<./Figures/calhouse_236/calhouse_236_2.jpg, id=1195, 1590.69281pt x 903.75537pt
 >
 File: ./Figures/calhouse_236/calhouse_236_2.jpg Graphic file (type jpg)
 <use ./Figures/calhouse_236/calhouse_236_2.jpg>
 Package pdftex.def Info: ./Figures/calhouse_236/calhouse_236_2.jpg  used on inp
-ut line 1936. on input line 1936.
-Package pdftex.def Info: Requested size: 412.56497pt x 234.39166pt on input lin
-e 1936.
-[73 <./Figures/calhouse_236/56-resultado.jpg> <./Figures/calhouse_236/61-result
+ut line 1936.
+(pdftex.def)             Requested size: 412.56497pt x 234.39166pt.
+[74 <./Figures/calhouse_236/56-resultado.jpg> <./Figures/calhouse_236/61-result
 ado.jpg> <./Figures/calhouse_236/82-resultado.jpg> <./Figures/calhouse_236/101-
 resultado.jpg> <./Figures/calhouse_236/107-resultado.jpg> <./Figures/calhouse_2
 36/calhouse_236.jpg>]
 Underfull \vbox (badness 10000) detected at line 1995
  []
 
-[74 <./Figures/calhouse_236/calhouse_236_2.jpg>] [75] [76]
-<./Figures/calhouse_237/9048-resultado.jpg, id=1207, 246.9225pt x 163.61125pt>
+[75 <./Figures/calhouse_236/calhouse_236_2.jpg>] [76] [77]
+<./Figures/calhouse_237/9048-resultado.jpg, id=1221, 246.9225pt x 163.61125pt>
 File: ./Figures/calhouse_237/9048-resultado.jpg Graphic file (type jpg)
 <use ./Figures/calhouse_237/9048-resultado.jpg>
 Package pdftex.def Info: ./Figures/calhouse_237/9048-resultado.jpg  used on inp
-ut line 2125. on input line 2125.
-Package pdftex.def Info: Requested size: 185.65297pt x 123.0127pt on input line
- 2125.
-<./Figures/calhouse_237/9090-resultado.jpg, id=1208, 246.9225pt x 163.61125pt>
+ut line 2125.
+(pdftex.def)             Requested size: 185.65297pt x 123.0127pt.
+<./Figures/calhouse_237/9090-resultado.jpg, id=1222, 246.9225pt x 163.61125pt>
 File: ./Figures/calhouse_237/9090-resultado.jpg Graphic file (type jpg)
 <use ./Figures/calhouse_237/9090-resultado.jpg>
 Package pdftex.def Info: ./Figures/calhouse_237/9090-resultado.jpg  used on inp
-ut line 2132. on input line 2132.
-Package pdftex.def Info: Requested size: 185.65297pt x 123.0127pt on input line
- 2132.
-<./Figures/calhouse_237/9095-resultado.jpg, id=1209, 246.9225pt x 163.61125pt>
+ut line 2132.
+(pdftex.def)             Requested size: 185.65297pt x 123.0127pt.
+<./Figures/calhouse_237/9095-resultado.jpg, id=1223, 246.9225pt x 163.61125pt>
 File: ./Figures/calhouse_237/9095-resultado.jpg Graphic file (type jpg)
 <use ./Figures/calhouse_237/9095-resultado.jpg>
 Package pdftex.def Info: ./Figures/calhouse_237/9095-resultado.jpg  used on inp
-ut line 2140. on input line 2140.
-Package pdftex.def Info: Requested size: 185.65297pt x 123.0127pt on input line
- 2140.
-<./Figures/calhouse_237/9162-resultado.jpg, id=1210, 246.9225pt x 163.61125pt>
+ut line 2140.
+(pdftex.def)             Requested size: 185.65297pt x 123.0127pt.
+<./Figures/calhouse_237/9162-resultado.jpg, id=1224, 246.9225pt x 163.61125pt>
 File: ./Figures/calhouse_237/9162-resultado.jpg Graphic file (type jpg)
 <use ./Figures/calhouse_237/9162-resultado.jpg>
 Package pdftex.def Info: ./Figures/calhouse_237/9162-resultado.jpg  used on inp
-ut line 2146. on input line 2146.
-Package pdftex.def Info: Requested size: 185.65297pt x 123.0127pt on input line
- 2146.
-<./Figures/calhouse_237/9175-resultado.jpg, id=1211, 246.9225pt x 163.61125pt>
+ut line 2146.
+(pdftex.def)             Requested size: 185.65297pt x 123.0127pt.
+<./Figures/calhouse_237/9175-resultado.jpg, id=1225, 246.9225pt x 163.61125pt>
 File: ./Figures/calhouse_237/9175-resultado.jpg Graphic file (type jpg)
 <use ./Figures/calhouse_237/9175-resultado.jpg>
 Package pdftex.def Info: ./Figures/calhouse_237/9175-resultado.jpg  used on inp
-ut line 2155. on input line 2155.
-Package pdftex.def Info: Requested size: 185.65297pt x 123.0127pt on input line
- 2155.
-<./Figures/calhouse_237/calhouse_237.jpg, id=1212, 246.9225pt x 163.61125pt>
+ut line 2155.
+(pdftex.def)             Requested size: 185.65297pt x 123.0127pt.
+<./Figures/calhouse_237/calhouse_237.jpg, id=1226, 246.9225pt x 163.61125pt>
 File: ./Figures/calhouse_237/calhouse_237.jpg Graphic file (type jpg)
 <use ./Figures/calhouse_237/calhouse_237.jpg>
 Package pdftex.def Info: ./Figures/calhouse_237/calhouse_237.jpg  used on input
- line 2162. on input line 2162.
-Package pdftex.def Info: Requested size: 185.65297pt x 123.0127pt on input line
- 2162.
-[77]
-<./Figures/calhouse_237/calhouse_237_2.jpg, id=1220, 1344.222pt x 748.29562pt>
+ line 2162.
+(pdftex.def)             Requested size: 185.65297pt x 123.0127pt.
+[78]
+<./Figures/calhouse_237/calhouse_237_2.jpg, id=1233, 1344.222pt x 748.29562pt>
 File: ./Figures/calhouse_237/calhouse_237_2.jpg Graphic file (type jpg)
 <use ./Figures/calhouse_237/calhouse_237_2.jpg>
 Package pdftex.def Info: ./Figures/calhouse_237/calhouse_237_2.jpg  used on inp
-ut line 2174. on input line 2174.
-Package pdftex.def Info: Requested size: 412.56497pt x 229.6628pt on input line
- 2174.
-[78 <./Figures/calhouse_237/9048-resultado.jpg> <./Figures/calhouse_237/9090-re
+ut line 2174.
+(pdftex.def)             Requested size: 412.56497pt x 229.6628pt.
+[79 <./Figures/calhouse_237/9048-resultado.jpg> <./Figures/calhouse_237/9090-re
 sultado.jpg> <./Figures/calhouse_237/9095-resultado.jpg> <./Figures/calhouse_23
 7/9162-resultado.jpg> <./Figures/calhouse_237/9175-resultado.jpg> <./Figures/ca
 lhouse_237/calhouse_237.jpg>]
 Underfull \vbox (badness 10000) detected at line 2231
  []
 
-[79 <./Figures/calhouse_237/calhouse_237_2.jpg>] [80] [81] [82] [83]
-<./Figures/calhouse_238/0-resultado.jpg, id=1254, 246.9225pt x 163.61125pt>
+[80 <./Figures/calhouse_237/calhouse_237_2.jpg>] [81] [82] [83] [84]
+<./Figures/calhouse_238/0-resultado.jpg, id=1267, 246.9225pt x 163.61125pt>
 File: ./Figures/calhouse_238/0-resultado.jpg Graphic file (type jpg)
 <use ./Figures/calhouse_238/0-resultado.jpg>
 Package pdftex.def Info: ./Figures/calhouse_238/0-resultado.jpg  used on input 
-line 2507. on input line 2507.
-Package pdftex.def Info: Requested size: 185.65297pt x 123.0127pt on input line
- 2507.
-<./Figures/calhouse_238/1-resultado.jpg, id=1255, 246.9225pt x 163.61125pt>
+line 2507.
+(pdftex.def)             Requested size: 185.65297pt x 123.0127pt.
+<./Figures/calhouse_238/1-resultado.jpg, id=1268, 246.9225pt x 163.61125pt>
 File: ./Figures/calhouse_238/1-resultado.jpg Graphic file (type jpg)
 <use ./Figures/calhouse_238/1-resultado.jpg>
 Package pdftex.def Info: ./Figures/calhouse_238/1-resultado.jpg  used on input 
-line 2514. on input line 2514.
-Package pdftex.def Info: Requested size: 185.65297pt x 123.0127pt on input line
- 2514.
-<./Figures/calhouse_238/108-resultado.jpg, id=1256, 246.9225pt x 163.61125pt>
+line 2514.
+(pdftex.def)             Requested size: 185.65297pt x 123.0127pt.
+<./Figures/calhouse_238/108-resultado.jpg, id=1269, 246.9225pt x 163.61125pt>
 File: ./Figures/calhouse_238/108-resultado.jpg Graphic file (type jpg)
 <use ./Figures/calhouse_238/108-resultado.jpg>
 Package pdftex.def Info: ./Figures/calhouse_238/108-resultado.jpg  used on inpu
-t line 2522. on input line 2522.
-Package pdftex.def Info: Requested size: 185.65297pt x 123.0127pt on input line
- 2522.
-<./Figures/calhouse_238/109-resultado.jpg, id=1257, 246.9225pt x 163.61125pt>
+t line 2522.
+(pdftex.def)             Requested size: 185.65297pt x 123.0127pt.
+<./Figures/calhouse_238/109-resultado.jpg, id=1270, 246.9225pt x 163.61125pt>
 File: ./Figures/calhouse_238/109-resultado.jpg Graphic file (type jpg)
 <use ./Figures/calhouse_238/109-resultado.jpg>
 Package pdftex.def Info: ./Figures/calhouse_238/109-resultado.jpg  used on inpu
-t line 2528. on input line 2528.
-Package pdftex.def Info: Requested size: 185.65297pt x 123.0127pt on input line
- 2528.
-<./Figures/calhouse_238/281-resultado.jpg, id=1258, 246.9225pt x 163.61125pt>
+t line 2528.
+(pdftex.def)             Requested size: 185.65297pt x 123.0127pt.
+<./Figures/calhouse_238/281-resultado.jpg, id=1271, 246.9225pt x 163.61125pt>
 File: ./Figures/calhouse_238/281-resultado.jpg Graphic file (type jpg)
 <use ./Figures/calhouse_238/281-resultado.jpg>
 Package pdftex.def Info: ./Figures/calhouse_238/281-resultado.jpg  used on inpu
-t line 2537. on input line 2537.
-Package pdftex.def Info: Requested size: 185.65297pt x 123.0127pt on input line
- 2537.
-<./Figures/calhouse_238/calhouse_238.jpg, id=1259, 246.9225pt x 163.61125pt>
+t line 2537.
+(pdftex.def)             Requested size: 185.65297pt x 123.0127pt.
+<./Figures/calhouse_238/calhouse_238.jpg, id=1272, 246.9225pt x 163.61125pt>
 File: ./Figures/calhouse_238/calhouse_238.jpg Graphic file (type jpg)
 <use ./Figures/calhouse_238/calhouse_238.jpg>
 Package pdftex.def Info: ./Figures/calhouse_238/calhouse_238.jpg  used on input
- line 2544. on input line 2544.
-Package pdftex.def Info: Requested size: 185.65297pt x 123.0127pt on input line
- 2544.
-[84]
-<./Figures/calhouse_238/calhouse_238_2.jpg, id=1266, 1524.44531pt x 856.70062pt
+ line 2544.
+(pdftex.def)             Requested size: 185.65297pt x 123.0127pt.
+[85]
+<./Figures/calhouse_238/calhouse_238_2.jpg, id=1280, 1524.44531pt x 856.70062pt
 >
 File: ./Figures/calhouse_238/calhouse_238_2.jpg Graphic file (type jpg)
 <use ./Figures/calhouse_238/calhouse_238_2.jpg>
 Package pdftex.def Info: ./Figures/calhouse_238/calhouse_238_2.jpg  used on inp
-ut line 2556. on input line 2556.
-Package pdftex.def Info: Requested size: 412.56497pt x 231.84822pt on input lin
-e 2556.
-[85 <./Figures/calhouse_238/0-resultado.jpg> <./Figures/calhouse_238/1-resultad
+ut line 2556.
+(pdftex.def)             Requested size: 412.56497pt x 231.84822pt.
+[86 <./Figures/calhouse_238/0-resultado.jpg> <./Figures/calhouse_238/1-resultad
 o.jpg> <./Figures/calhouse_238/108-resultado.jpg> <./Figures/calhouse_238/109-r
 esultado.jpg> <./Figures/calhouse_238/281-resultado.jpg> <./Figures/calhouse_23
 8/calhouse_238.jpg>]
 Underfull \vbox (badness 10000) detected at line 2614
  []
 
-[86 <./Figures/calhouse_238/calhouse_238_2.jpg>] [87] [88] [89] [90]
-<./Figures/calhouse_239/0-resultado.jpg, id=1300, 246.9225pt x 163.61125pt>
+[87 <./Figures/calhouse_238/calhouse_238_2.jpg>] [88] [89] [90] [91]
+<./Figures/calhouse_239/0-resultado.jpg, id=1314, 246.9225pt x 163.61125pt>
 File: ./Figures/calhouse_239/0-resultado.jpg Graphic file (type jpg)
 <use ./Figures/calhouse_239/0-resultado.jpg>
 Package pdftex.def Info: ./Figures/calhouse_239/0-resultado.jpg  used on input 
-line 2861. on input line 2861.
-Package pdftex.def Info: Requested size: 185.65297pt x 123.0127pt on input line
- 2861.
-<./Figures/calhouse_239/1-resultado.jpg, id=1301, 246.9225pt x 163.61125pt>
+line 2861.
+(pdftex.def)             Requested size: 185.65297pt x 123.0127pt.
+<./Figures/calhouse_239/1-resultado.jpg, id=1315, 246.9225pt x 163.61125pt>
 File: ./Figures/calhouse_239/1-resultado.jpg Graphic file (type jpg)
 <use ./Figures/calhouse_239/1-resultado.jpg>
 Package pdftex.def Info: ./Figures/calhouse_239/1-resultado.jpg  used on input 
-line 2868. on input line 2868.
-Package pdftex.def Info: Requested size: 185.65297pt x 123.0127pt on input line
- 2868.
-<./Figures/calhouse_239/2-resultado.jpg, id=1302, 246.9225pt x 163.61125pt>
+line 2868.
+(pdftex.def)             Requested size: 185.65297pt x 123.0127pt.
+<./Figures/calhouse_239/2-resultado.jpg, id=1316, 246.9225pt x 163.61125pt>
 File: ./Figures/calhouse_239/2-resultado.jpg Graphic file (type jpg)
 <use ./Figures/calhouse_239/2-resultado.jpg>
 Package pdftex.def Info: ./Figures/calhouse_239/2-resultado.jpg  used on input 
-line 2876. on input line 2876.
-Package pdftex.def Info: Requested size: 185.65297pt x 123.0127pt on input line
- 2876.
-<./Figures/calhouse_239/86-resultado.jpg, id=1303, 246.9225pt x 163.61125pt>
+line 2876.
+(pdftex.def)             Requested size: 185.65297pt x 123.0127pt.
+<./Figures/calhouse_239/86-resultado.jpg, id=1317, 246.9225pt x 163.61125pt>
 File: ./Figures/calhouse_239/86-resultado.jpg Graphic file (type jpg)
 <use ./Figures/calhouse_239/86-resultado.jpg>
 Package pdftex.def Info: ./Figures/calhouse_239/86-resultado.jpg  used on input
- line 2882. on input line 2882.
-Package pdftex.def Info: Requested size: 185.65297pt x 123.0127pt on input line
- 2882.
-<./Figures/calhouse_239/172-resultado.jpg, id=1304, 246.9225pt x 163.61125pt>
+ line 2882.
+(pdftex.def)             Requested size: 185.65297pt x 123.0127pt.
+<./Figures/calhouse_239/172-resultado.jpg, id=1318, 246.9225pt x 163.61125pt>
 File: ./Figures/calhouse_239/172-resultado.jpg Graphic file (type jpg)
 <use ./Figures/calhouse_239/172-resultado.jpg>
 Package pdftex.def Info: ./Figures/calhouse_239/172-resultado.jpg  used on inpu
-t line 2891. on input line 2891.
-Package pdftex.def Info: Requested size: 185.65297pt x 123.0127pt on input line
- 2891.
-<./Figures/calhouse_239/calhouse_239.jpg, id=1305, 246.9225pt x 163.61125pt>
+t line 2891.
+(pdftex.def)             Requested size: 185.65297pt x 123.0127pt.
+<./Figures/calhouse_239/calhouse_239.jpg, id=1319, 246.9225pt x 163.61125pt>
 File: ./Figures/calhouse_239/calhouse_239.jpg Graphic file (type jpg)
 <use ./Figures/calhouse_239/calhouse_239.jpg>
 Package pdftex.def Info: ./Figures/calhouse_239/calhouse_239.jpg  used on input
- line 2898. on input line 2898.
-Package pdftex.def Info: Requested size: 185.65297pt x 123.0127pt on input line
- 2898.
-[91]
-<./Figures/calhouse_239/calhouse_239_2.jpg, id=1312, 1562.55347pt x 877.89032pt
+ line 2898.
+(pdftex.def)             Requested size: 185.65297pt x 123.0127pt.
+[92]
+<./Figures/calhouse_239/calhouse_239_2.jpg, id=1326, 1562.55347pt x 877.89032pt
 >
 File: ./Figures/calhouse_239/calhouse_239_2.jpg Graphic file (type jpg)
 <use ./Figures/calhouse_239/calhouse_239_2.jpg>
 Package pdftex.def Info: ./Figures/calhouse_239/calhouse_239_2.jpg  used on inp
-ut line 2910. on input line 2910.
-Package pdftex.def Info: Requested size: 412.56497pt x 231.7825pt on input line
- 2910.
-[92 <./Figures/calhouse_239/0-resultado.jpg> <./Figures/calhouse_239/1-resultad
+ut line 2910.
+(pdftex.def)             Requested size: 412.56497pt x 231.7825pt.
+[93 <./Figures/calhouse_239/0-resultado.jpg> <./Figures/calhouse_239/1-resultad
 o.jpg> <./Figures/calhouse_239/2-resultado.jpg> <./Figures/calhouse_239/86-resu
 ltado.jpg> <./Figures/calhouse_239/172-resultado.jpg> <./Figures/calhouse_239/c
 alhouse_239.jpg>]
 Underfull \vbox (badness 10000) detected at line 2968
  []
 
-[93 <./Figures/calhouse_239/calhouse_239_2.jpg>] [94] [95] [96] [97]
-<./Figures/calhouse_240/0-resultado.jpg, id=1347, 246.9225pt x 163.61125pt>
+[94 <./Figures/calhouse_239/calhouse_239_2.jpg>] [95] [96] [97] [98]
+<./Figures/calhouse_240/0-resultado.jpg, id=1361, 246.9225pt x 163.61125pt>
 File: ./Figures/calhouse_240/0-resultado.jpg Graphic file (type jpg)
 <use ./Figures/calhouse_240/0-resultado.jpg>
 Package pdftex.def Info: ./Figures/calhouse_240/0-resultado.jpg  used on input 
-line 3251. on input line 3251.
-Package pdftex.def Info: Requested size: 185.65297pt x 123.0127pt on input line
- 3251.
-<./Figures/calhouse_240/1-resultado.jpg, id=1348, 246.9225pt x 163.61125pt>
+line 3251.
+(pdftex.def)             Requested size: 185.65297pt x 123.0127pt.
+<./Figures/calhouse_240/1-resultado.jpg, id=1362, 246.9225pt x 163.61125pt>
 File: ./Figures/calhouse_240/1-resultado.jpg Graphic file (type jpg)
 <use ./Figures/calhouse_240/1-resultado.jpg>
 Package pdftex.def Info: ./Figures/calhouse_240/1-resultado.jpg  used on input 
-line 3258. on input line 3258.
-Package pdftex.def Info: Requested size: 185.65297pt x 123.0127pt on input line
- 3258.
-<./Figures/calhouse_240/78-resultado.jpg, id=1349, 246.9225pt x 163.61125pt>
+line 3258.
+(pdftex.def)             Requested size: 185.65297pt x 123.0127pt.
+<./Figures/calhouse_240/78-resultado.jpg, id=1363, 246.9225pt x 163.61125pt>
 File: ./Figures/calhouse_240/78-resultado.jpg Graphic file (type jpg)
 <use ./Figures/calhouse_240/78-resultado.jpg>
 Package pdftex.def Info: ./Figures/calhouse_240/78-resultado.jpg  used on input
- line 3266. on input line 3266.
-Package pdftex.def Info: Requested size: 185.65297pt x 123.0127pt on input line
- 3266.
-<./Figures/calhouse_240/85-resultado.jpg, id=1350, 246.9225pt x 163.61125pt>
+ line 3266.
+(pdftex.def)             Requested size: 185.65297pt x 123.0127pt.
+<./Figures/calhouse_240/85-resultado.jpg, id=1364, 246.9225pt x 163.61125pt>
 File: ./Figures/calhouse_240/85-resultado.jpg Graphic file (type jpg)
 <use ./Figures/calhouse_240/85-resultado.jpg>
 Package pdftex.def Info: ./Figures/calhouse_240/85-resultado.jpg  used on input
- line 3272. on input line 3272.
-Package pdftex.def Info: Requested size: 185.65297pt x 123.0127pt on input line
- 3272.
-<./Figures/calhouse_240/288-resultado.jpg, id=1351, 246.9225pt x 163.61125pt>
+ line 3272.
+(pdftex.def)             Requested size: 185.65297pt x 123.0127pt.
+<./Figures/calhouse_240/288-resultado.jpg, id=1365, 246.9225pt x 163.61125pt>
 File: ./Figures/calhouse_240/288-resultado.jpg Graphic file (type jpg)
 <use ./Figures/calhouse_240/288-resultado.jpg>
 Package pdftex.def Info: ./Figures/calhouse_240/288-resultado.jpg  used on inpu
-t line 3281. on input line 3281.
-Package pdftex.def Info: Requested size: 185.65297pt x 123.0127pt on input line
- 3281.
-<./Figures/calhouse_240/calhouse_240.jpg, id=1352, 246.9225pt x 163.61125pt>
+t line 3281.
+(pdftex.def)             Requested size: 185.65297pt x 123.0127pt.
+<./Figures/calhouse_240/calhouse_240.jpg, id=1366, 246.9225pt x 163.61125pt>
 File: ./Figures/calhouse_240/calhouse_240.jpg Graphic file (type jpg)
 <use ./Figures/calhouse_240/calhouse_240.jpg>
 Package pdftex.def Info: ./Figures/calhouse_240/calhouse_240.jpg  used on input
- line 3288. on input line 3288.
-Package pdftex.def Info: Requested size: 185.65297pt x 123.0127pt on input line
- 3288.
-[98]
-<./Figures/calhouse_240/calhouse_240_2.jpg, id=1360, 1559.8275pt x 878.53218pt>
+ line 3288.
+(pdftex.def)             Requested size: 185.65297pt x 123.0127pt.
+[99]
+<./Figures/calhouse_240/calhouse_240_2.jpg, id=1373, 1559.8275pt x 878.53218pt>
 
 File: ./Figures/calhouse_240/calhouse_240_2.jpg Graphic file (type jpg)
 <use ./Figures/calhouse_240/calhouse_240_2.jpg>
 Package pdftex.def Info: ./Figures/calhouse_240/calhouse_240_2.jpg  used on inp
-ut line 3300. on input line 3300.
-Package pdftex.def Info: Requested size: 412.56497pt x 232.36754pt on input lin
-e 3300.
-[99 <./Figures/calhouse_240/0-resultado.jpg> <./Figures/calhouse_240/1-resultad
-o.jpg> <./Figures/calhouse_240/78-resultado.jpg> <./Figures/calhouse_240/85-res
-ultado.jpg> <./Figures/calhouse_240/288-resultado.jpg> <./Figures/calhouse_240/
-calhouse_240.jpg>]) [100 <./Figures/calhouse_240/calhouse_240_2.jpg>] 
+ut line 3300.
+(pdftex.def)             Requested size: 412.56497pt x 232.36754pt.
+[100 <./Figures/calhouse_240/0-resultado.jpg> <./Figures/calhouse_240/1-resulta
+do.jpg> <./Figures/calhouse_240/78-resultado.jpg> <./Figures/calhouse_240/85-re
+sultado.jpg> <./Figures/calhouse_240/288-resultado.jpg> <./Figures/calhouse_240
+/calhouse_240.jpg>]) [101 <./Figures/calhouse_240/calhouse_240_2.jpg>] 
 AED: lastpage setting LastPage
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 152.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 152.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 163.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 163.
 (/home/lg_more/github/maestria-tesis/libro/thesis.aux (/home/lg_more/github/mae
 stria-tesis/libro/dedicatoria.aux) (/home/lg_more/github/maestria-tesis/libro/a
 gradecimientos.aux) (/home/lg_more/github/maestria-tesis/libro/resumen.aux) (/h
@@ -3037,23 +3103,23 @@ ore/github/maestria-tesis/libro/chap02.aux) (/home/lg_more/github/maestria-tesi
 s/libro/chap03.aux) (/home/lg_more/github/maestria-tesis/libro/chap04.aux) (/ho
 me/lg_more/github/maestria-tesis/libro/chap05.aux) (/home/lg_more/github/maestr
 ia-tesis/libro/AnexoA.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 152.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 152.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 163.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 163.
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 3753258FC7B71ACE6C7906E9D39EBCFA;3250.
+(rerunfilecheck)             Checksum: 3DD05F7F02BDEB0B07B8C517C1BDEF67;3250.
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 152.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 163.
  ) 
 Here is how much of TeX's memory you used:
- 26825 strings out of 492990
- 518053 string characters out of 6135005
- 688305 words of memory out of 5000000
- 29222 multiletter control sequences out of 15000+600000
+ 37260 strings out of 492982
+ 865791 string characters out of 6134897
+ 1238783 words of memory out of 5000000
+ 39505 multiletter control sequences out of 15000+600000
  71107 words of font info for 86 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,27n,86p,1750b,778s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 68i,27n,301p,1750b,2202s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-rmtt.enc}{/usr/share/texmf/fonts/enc/
 dvips/lm/lm-mathit.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/sha
 re/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/enc/dvips/lm/
@@ -3077,11 +3143,11 @@ e/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/share
 f-dist/fonts/type1/public/rsfs/rsfs7.pfb></usr/share/texlive/texmf-dist/fonts/t
 ype1/public/esvect/vect10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
 /esvect/vect8.pfb>
-Output written on /home/lg_more/github/maestria-tesis/libro/thesis.pdf (117 pag
-es, 4316759 bytes).
+Output written on /home/lg_more/github/maestria-tesis/libro/thesis.pdf (119 pag
+es, 4575599 bytes).
 PDF statistics:
- 1552 PDF objects out of 1728 (max. 8388607)
- 1261 compressed objects within 13 object streams
- 368 named destinations out of 1000 (max. 500000)
- 832 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1565 PDF objects out of 1728 (max. 8388607)
+ 1272 compressed objects within 13 object streams
+ 372 named destinations out of 1000 (max. 500000)
+ 837 words of extra memory for PDF output out of 10000 (max. 10000000)
 

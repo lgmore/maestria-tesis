@@ -14,7 +14,7 @@ Sujeto a la restricción siguiente: las ventanas representables serán desde $2 
 
 \section{Formulación del problema planteado}\label{sec:formulation}
 
-Dada una imagen a color $I$\label{symbol:ioriginal}, con $M \times N$ pixeles, y el algoritmo de Mejora de Contraste $CLAHE$, se busca calcular un conjunto de soluciones no dominadas  $\mathscr{X}=\{\vv{x}_1, \vv{x}_2,...,\vv{x}_{\Omega}\}$ que simultáneamente maximicen las funciones objetivo $f_1,f_2,f_3,f_4$ en el contexto Pareto; donde cada vector $\vv{x}_i=(\mathscr{R}_x,\mathscr{R}_y,\mathscr{C})$ ($\mathscr{R}_x$\label{symbol:claheventanax} y $\mathscr{R}_y$\label{symbol:claheventanay} son regiones contextuales y $\mathscr{C}$ es el \textit{Clip Limit}) es una solución candidata:
+Dada una imagen a color $I$\label{symbol:ioriginal}, con $M \times N$ pixeles, y el algoritmo de Mejora de Contraste $CLAHE$, se busca calcular un conjunto de soluciones no dominadas  $\mathscr{X}=\{\vv{x}_1, \vv{x}_2,...,\vv{x}_{\Omega}\}$ que simultáneamente maximicen las funciones objetivo $f_1,f_2,f_3,f_4$ en el contexto Pareto; donde cada vector $\vv{x}_i=(\mathscr{R}_x,\mathscr{R}_y,\mathscr{C})$ ($\mathscr{R}_x$\label{symbol:claheventanax} y $\mathscr{R}_y$\label{symbol:claheventanay} son regiones contextuales y $\mathscr{C}$ es el \textit{Clip Limit}) es una solución candidata \cite{ngatchou2005pareto}:
 
 %Given an color input image $I$, with $M \times N$ pixels, and a vector $\vv{x}=(\mathscr{R}_x,\mathscr{R}_y,\mathscr{C})$, where $\mathscr{R}_x$ and $\mathscr{R}_y$ are contextual regions and $\mathscr{C}$ is the \textit{Clip Limit}, a set of non-dominated solutions $\mathscr{X}$, which simultaneously maximize the objective functions $f_1,f_2,f_3,f_4$:
 \begin{equation}

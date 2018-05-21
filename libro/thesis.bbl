@@ -19,12 +19,6 @@ Gary Bradski.
 \newblock {\em Dr. Dobb's Journal: Software Tools for the Professional
   Programmer}, 25(11):120--123, 2000.
 
-\bibitem[Com07]{pict2}
-Wikimedia Commons.
-\newblock Excess redistribution in contrast-limited adaptive histogram
-  equalization., 2007.
-\newblock File: \ttfamily{Clahe-redist.svg}.
-
 \bibitem[Com17]{pict4}
 Wikimedia Commons.
 \newblock 2d-partikelschwarm sucht globales minimum, 2017.
@@ -146,6 +140,13 @@ Antonio~J Nebro, Juan~Jos{\'e} Durillo, Jose Garcia-Nieto, CA~Coello Coello,
   optimization.
 \newblock In {\em Computational intelligence in miulti-criteria
   decision-making, 2009. mcdm'09. ieee symposium on}, pages 66--73. IEEE, 2009.
+
+\bibitem[NZES05]{ngatchou2005pareto}
+Patrick Ngatchou, Anahita Zarei, and A~El-Sharkawi.
+\newblock Pareto multi objective optimization.
+\newblock In {\em Intelligent Systems Application to Power Systems, 2005.
+  Proceedings of the 13th International Conference on}, pages 84--91. IEEE,
+  2005.
 
 \bibitem[PAA{\etalchar{+}}87]{pizer1987adaptive}
 Stephen~M Pizer, E~Philip Amburn, John~D Austin, Robert Cromartie, Ari

@@ -11,7 +11,7 @@
 \usepackage{lmodern}
 
 \usepackage{subfigure}
-\usepackage{float}
+\usepackage{float} 
 \usepackage{epsfig}
 \usepackage{epstopdf}
 \usepackage{placeins} 
@@ -33,11 +33,22 @@
 \usepackage{tikz}
 \usepackage{natbib}
 \usepackage[export]{adjustbox}
+\usepackage{pgfplots}
+\usepackage{verbatim}
+\usepgfplotslibrary{fillbetween}
 \usetikzlibrary{spy}
 \usetikzlibrary{arrows,shapes,positioning}
 \usetikzlibrary{calc,decorations.markings}
 
 \newcolumntype{?}{!{\vrule width 1pt}}
+
+\pgfmathdeclarefunction{gauss}{2}{%
+  \pgfmathparse{1/(#2*sqrt(2*pi))*exp(-((x-#1)^2)/(2*#2^2))}%
+}
+
+\pgfmathdeclarefunction{gauss2}{2}{%
+  \pgfmathparse{min(0.32,1/(#2*sqrt(2*pi))*exp(-((x-#1)^2)/(2*#2^2)))}%
+}
 % \SetKwInput{KwIn}{Entrada}(\{\vv{x}_1, \vv{x}_2,...,\vv{x}_{\Omega}\},CLAHE)
 % \SetKwInput{KwData}{Entrada}
 % \SetKwInput{KwResult}{Salida}

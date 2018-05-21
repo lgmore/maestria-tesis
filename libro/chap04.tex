@@ -175,6 +175,8 @@ Además, se puede mencionar que los tiempos de ejecución de las pruebas (las cu
 
 La medida del Hipervolumen (o bien el \textit{indicador de  Hipervolumen}) denota el `tamaño de espacio cubierto por el Frente Pareto'\cite{zitzler2007hypervolume}; es una medida de performance muy popular entre los optimizadores multiobjetivo, por lo que está en el foco de la investigación reciente\cite{while2005heuristics,while2006faster}.
 
+En el contexto de éste trabajo, se realiza un análisis del hipervolumen de los frentes pareto de cada prueba realizada de manera a obtener una visión del desempeño general del enfoque multiobjetivo de optimización de parámetros. Ésto se realiza sobre un conjunto de pruebas distinto al que se vió en la sección anterior.
+
 Para realizar las mediciones necesarias, se tomó una base de datos de imágenes disponible propuesta por \cite{schaefer2003ucid}. Se tomaron 10 imágenes de prueba, a las que se aplicó $CMOPSO-CLAHE$ con las mismas condiciones descritas en la Tabla \ref{table:parametrospso}. Se tomó como punto de referencia $(0,0,0,0)$, considerando el contexto de maximización de la propuesta. La herramienta para cálculo de hipervolúmenes está disponible en \cite{izzo2012pygmo}.
 
 \begin{figure}[H]
@@ -227,13 +229,40 @@ ucid00010.jpg & 0.001168 & 3.46999e-06   & 1.01378e-08  \\
 \label{table:hipervolumen}
 \end{table}
 
-En la Tabla \ref{table:hipervolumen} se puede verificar la métrica de Hipervolumen para cada dato de prueba de la base de datos obtenida consolidada luego de descartar los elementos dominados entre pruebas, además del punto que aporta más contribución al coeficiente de cada conjunto Pareto (columna Más Contribuidor), y el promedio de contribuciones de los puntos Pareto de cada Frente de las imágenes de prueba(Columna Promedio de contribuciones). Los frentes Pareto consolidados se calculan de la siguiente manera:
+\begin{figure}[H]
+    \centering
+    %\begin{subfigure}[t]{0.45\textwidth}
+    \begin{subfigure}[]{
+        \includegraphics[width=0.45\textwidth]{./Figures/ucid00010.jpg}
+    }
+%        \caption{Imagen Original. $\mathscr{H_Y}=0.207231$, $SSIM_R=1$, $SSIM_G=1$, $SSIM_B=1$}
+        \label{fig:hipv1}
+    \end{subfigure}
+    ~ %add desired spacing between images, e. g. ~, \quad, \qquad, \hfill etc. 
+      %(or a blank line to force the subfigure onto a new line)
+    \begin{subfigure}[]{
+        \includegraphics[width=0.45\textwidth]{./Figures/ucid000102.jpg}   
+    }
+    %\begin{subfigure}[t]{0.45\textwidth}
+%        \caption{Enhanced Image. $\mathscr{H_Y}=0.611275$, $SSIM_R=0.00897331$, $SSIM_G=0.00823064$, $SSIM_B=0.00851013$}
+        \label{fig:hipv2}
+    \end{subfigure}
+
+
+    \caption{Imágenes (a) original y (b) resultante para la imagen de prueba \texttt{ucid00010.jpg}, considerada desde el elemento que otorga mayor contribución al hipervolumen.}\label{fig:hipervolumen1}
+\end{figure}
+
+
+En la Tabla \ref{table:hipervolumen} se puede verificar la métrica de Hipervolumen para cada dato de prueba de la base de datos obtenida consolidada luego de descartar los elementos dominados entre pruebas, además del punto que aporta más contribución al coeficiente de cada conjunto Pareto (columna Más Contribuidor), y el promedio de contribuciones de los puntos Pareto de cada Frente de las imágenes de prueba(Columna Promedio de contribuciones). Los Conjuntos Pareto Consolidados (CPC) se calculan de la siguiente manera:
 
 \begin{equation}
-\{x: x \in \cup_{i=1}^{30} c_i \wedge x \cup_{i=1}^{30} \not\prec c_i \}
+CPC=\{\vv{x}: \vv{x} \in  \mathscr{X}_i \wedge \vv{x} \not\prec \mathscr{X}_i, i \in [1,2,...,30] \}
 \end{equation}
 
-Es notable que la contribución es relativamente uniforme, y no mucho menor que el punto de mayor contribución. Ésto induce a pensar que el Frente Pareto es relativamente bien distribuido dentro del espacio de Frente Pareto.
+Aquí, $\mathscr{X}_i$ es el conjunto pareto obtenido durante el experimento $i$, de 30 realizados por imagen; y cada $\vv{x}$ conforma un nuevo conjunto pareto de soluciones no dominadas que engloba a todos los conjuntos de los 30 experimentos.
+
+La columna Más Contribuidor nos muestra el hipervolumen del elemento que abarca el área mayor de entre los encontrados en el Frente Pareto consolidado de cada imagen de prueba. Los elementos de ésta columna tienen como característica muy probable que todos sus valores que a su vez componen las métricas son lo bastante altos como para dominar a una cantidad suficiente de soluciones. Ésto podría indicar que la calidad y la variación de contraste en la imagen son aceptables, como se ve en la Figura \ref{fig:hipervolumen1}, y el punto de mayor contribución podría verse como un punto de referencia para acotar la búsqueda de parámetros hacia espacios más reducidos, y con menor diferencia entre las métricas obtenidas.
+
 
 
 %Figure (\ref{fig:pareto_front}) shows the Pareto Front created from the data in Table \ref{table:nodominadas}, and also Table \ref{table:correlacion} shows the correlation between metrics, analized from the results in Table \ref{table:nodominadas}. It is remarkable that there is a strong positive correlation between $SSIM_R$, $SSIM_G$ and $SSIM_B$; and there is a negative correlation between the previously mentioned metrics and $\mathscr{H_Y}$. These correlations indicate that the channels $R,G,B$ of images are directly affected by the proccess that modifies $Y$ channel (see Algorithm (\ref{alg:pso_clahe})). This also indicates that CE of color images can be posed as a bi-objective optimization problem, using only $\mathscr{H_Y}$ and $SSIM$ applied over $Y$ channel.

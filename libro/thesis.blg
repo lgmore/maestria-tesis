@@ -26,8 +26,6 @@ You're missing a field name---line 294 of file referencias.bib
 I'm skipping whatever remains of this entry
 Warning--entry type for "pict1" isn't style-file defined
 --line 423 of file referencias.bib
-Warning--entry type for "pict2" isn't style-file defined
---line 432 of file referencias.bib
 Warning--entry type for "pict3" isn't style-file defined
 --line 441 of file referencias.bib
 Warning--entry type for "pict4" isn't style-file defined
@@ -36,43 +34,43 @@ Warning--to sort, need author, organization, or key in time
 Warning--empty journal in morepso
 You've used 38 entries,
             2543 wiz_defined-function locations,
-            800 strings with 11502 characters,
-and the built_in function-call counts, 16402 in all, are:
-= -- 1653
-> -- 751
+            803 strings with 11644 characters,
+and the built_in function-call counts, 16685 in all, are:
+= -- 1687
+> -- 768
 < -- 27
-+ -- 263
-- -- 257
-* -- 1167
-:= -- 2592
-add.period$ -- 119
++ -- 270
+- -- 264
+* -- 1192
+:= -- 2633
+add.period$ -- 120
 call.type$ -- 38
-change.case$ -- 244
+change.case$ -- 246
 chr.to.int$ -- 37
 cite$ -- 41
-duplicate$ -- 651
-empty$ -- 1227
-format.name$ -- 302
-if$ -- 3438
+duplicate$ -- 664
+empty$ -- 1243
+format.name$ -- 308
+if$ -- 3504
 int.to.chr$ -- 2
 int.to.str$ -- 0
-missing$ -- 33
+missing$ -- 34
 newline$ -- 192
 num.names$ -- 111
-pop$ -- 260
+pop$ -- 259
 preamble$ -- 1
-purify$ -- 284
+purify$ -- 286
 quote$ -- 0
-skip$ -- 569
+skip$ -- 578
 stack$ -- 0
-substring$ -- 972
-swap$ -- 149
+substring$ -- 996
+swap$ -- 157
 text.length$ -- 27
-text.prefix$ -- 12
+text.prefix$ -- 11
 top$ -- 0
 type$ -- 296
 warning$ -- 2
-while$ -- 152
+while$ -- 156
 width$ -- 42
-write$ -- 491
+write$ -- 493
 (There were 2 error messages)

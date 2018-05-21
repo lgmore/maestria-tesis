@@ -223,13 +223,59 @@ Es importante no descartar la parte del histograma que excede a \textit{Clip Lim
 \begin{figure}[H]
 \centering
     %\begin{subfigure}[t]{0.45\textwidth}
-    \begin{subfigure}[]{
-    \includegraphics[width=0.50\textwidth]{./Figures/495px-Clahe-redist.jpg}
-    }
+    % \begin{subfigure}[]{
+    % \includegraphics[width=0.50\textwidth]{./Figures/495px-Clahe-redist.jpg}
+    % }
+\resizebox{\textwidth}{!}{%
+\begin{tikzpicture}
+\begin{axis}[every axis plot post/.append style={
+  mark=none,domain=-2:3,samples=50,smooth}, % All plots: from -2:2, 50 samples, smooth, no marks
+  axis x line*=bottom, % no box around the plot, only x and y axis
+  axis y line*=left, % the * suppresses the arrow tips
+  enlargelimits=upper,
+  yticklabels={,,},
+  xticklabels={,,}] % extend the axes a bit to the right and top
+  %\addplot {gauss(0,0.5)};
+  \addplot [name path=gauss]{gauss(1,0.75)};
+  \addplot[name path=line, gray, no markers, line width=1pt] {0.35};
+   \addplot fill between[ 
+    of = gauss and line, 
+    split, % calculate segments
+    every even segment/.style = {white!70},
+    every odd segment/.style  = {gray!60}
+  ];
+\end{axis}
+
+\begin{axis}[every axis plot post/.append style={
+  mark=none,domain=-2:3,samples=50,smooth}, % All plots: from -2:2, 50 samples, smooth, no marks
+  axis x line*=bottom, % no box around the plot, only x and y axis
+  axis y line*=left, % the * suppresses the arrow tips
+  enlargelimits=upper,
+  yticklabels={,,},
+  xticklabels={,,},
+  at={(0.66\linewidth,0)}] % extend the axes a bit to the right and top
+  %\addplot {gauss(0,0.5)};
+  \addplot [name path=gauss2, shift={(0,50)}]{gauss2(1,0.75)};
+  \addplot[name path=line, gray, no markers, line width=1pt] {0.35};
+   \addplot fill between[ 
+    of = gauss2 and line, 
+    split, % calculate segments
+    every even segment/.style = {white!70},
+    every odd segment/.style  = {green!60}
+  ];
+   \draw [fill=blue!40!white, thick] (axis cs:-2,-0) rectangle (axis cs:3.05,0.05);
+\end{axis}
+\node (A) at (3.5, 4) {};
+\node (B) at (11, 0.5) {};
+\draw[thick, ->, to path={-| (\tikztotarget)}]
+  (A) edge[bend right] (B);
+
+\end{tikzpicture}
+}
 %        \caption{Imagen Original. $\mathscr{H_Y}=0.207231$, $SSIM_R=1$, $SSIM_G=1$, $SSIM_B=1$}
 %        \label{fig:cuborgb}
-\end{subfigure}
-\caption{Redistribución de niveles de intensidad dentro del histograma de una región de una imagen, como paso previo al cálculo del $CDF$. Ésto tiene como efecto la suavización del proceso de mejora del contraste. Imagen obtenida de \cite{pict2}.}\label{fig:redistclahe}
+% \end{subfigure}
+\caption{Redistribución de niveles de intensidad dentro del histograma de una región de una imagen, como paso previo al cálculo del $CDF$. Ésto tiene como efecto la suavización del proceso de mejora del contraste.}\label{fig:redistclahe}
 \end{figure}
 
 
@@ -251,7 +297,7 @@ En el modelo $RGB$, cada color se representa por composición de los clores prim
 \centering
     %\begin{subfigure}[t]{0.45\textwidth}
     \begin{subfigure}[]{
-    \includegraphics[width=0.50\textwidth]{./Figures/cubo-rgb.jpg}
+    \includegraphics[width=0.45\textwidth]{./Figures/cubo-rgb.jpg}
     }
 %        \caption{Imagen Original. $\mathscr{H_Y}=0.207231$, $SSIM_R=1$, $SSIM_G=1$, $SSIM_B=1$}
 %        \label{fig:cuborgb}

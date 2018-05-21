@@ -40,40 +40,43 @@
 	"buffers":
 	[
 		{
-			"contents": "jnoguera@asepasa.com.py\nmalvarez@asepasa.com.py\nmarcos alvarez\njuan noguera\n\n\ncuantos toner brother se llevo\n\nfm comercial 021644943",
+			"contents": "jnoguera@asepasa.com.py\nmalvarez@asepasa.com.py\nmarcos alvarez\njuan noguera\n\n\ncuantos toner brother se llevo\n\nfm comercial 021644943\n\ndpto. de cuentas oficiales\n",
 			"settings":
 			{
-				"buffer_size": 132,
+				"buffer_size": 161,
 				"line_ending": "Unix",
 				"name": "jnoguera@asepasa.com.py"
 			}
 		},
 		{
-			"file": "coppe.cls",
+			"contents": "\n",
+			"file": "/home/lg_more/github/comentarios_adri.md",
+			"file_size": 4,
+			"file_write_time": 131708696862139342,
 			"settings":
 			{
-				"buffer_size": 26906,
+				"buffer_size": 1,
 				"encoding": "UTF-8",
-				"line_ending": "Unix"
+				"line_ending": "Unix",
+				"name": "¿qué tipo de carga se define para las pruebas expe"
 			}
 		},
 		{
 			"file": "thesis.tex",
 			"settings":
 			{
-				"buffer_size": 4230,
+				"buffer_size": 4231,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"contents": "Searching 276 files for \"Aprobado en Diciembre de 2017 por:\"\n\n0 matches\n\nSearching 276 files for \"Aprobado en Diciembre de 2017 por:\"\n\n0 matches",
+			"file": "chap04.tex",
 			"settings":
 			{
-				"buffer_size": 144,
-				"line_ending": "Unix",
-				"name": "Find Results",
-				"scratch": true
+				"buffer_size": 70681,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
 			}
 		},
 		{
@@ -86,18 +89,10 @@
 			}
 		},
 		{
-			"settings":
-			{
-				"buffer_size": 0,
-				"line_ending": "Unix"
-			}
-		},
-		{
 			"file": "referencias.bib",
 			"settings":
 			{
-				"buffer_size": 15719,
-				"encoding": "UTF-8",
+				"buffer_size": 16290,
 				"line_ending": "Unix"
 			}
 		},
@@ -105,9 +100,36 @@
 			"file": "chap02.tex",
 			"settings":
 			{
-				"buffer_size": 64486,
+				"buffer_size": 64551,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "104/2016 art. 5 inc 4\n\n\nstr numero de str donde se incluyo la factura octubre/noviembre/diciembre\nlistado adjunto monto que correspondian a esta de las str\ncobranza cuentas oficiales recibo de cancelacion\n\nhernandarias/haedo\n\nom\t",
+			"settings":
+			{
+				"buffer_size": 229,
+				"line_ending": "Unix",
+				"name": "104/2016 art. 5 inc 4"
+			}
+		},
+		{
+			"contents": "Controlador difuso\n\nPre-procesamiento: Acondicionar las señales antes de introducir las mismas al controlador.\nFusificación: Convierte la magnitud de entrada a una cantidad difusa, con lo que se tiene el valor de pertenencia para los valores lingüisticos.\n\nReglas de control: Es el conjunto  de reglas lingüisticas si-entonces que definen el control del sistema.\n\nMétodo de inferencia: El algoritmo que sigue la comptutadora para inferir una conclusión a partir de las premisas, es decir, a partir de las señales entrantes y las reglas de control.\n\nDefusificación: Convertir el conjunto difuso que resulta a partir de la inferencia en una cantidad certar para generar la señal de salida.\n\nPos-Procesamiento: Generar la señal de control a partir de la cantidad defusificada y acondicionar para el actuador.\n\nENG -> Error negativo grande\nENP -> Error negativo\nPequeño\nEC -> Error Cero\nEPP -> Error Positivo \nPequeño\nEPG -> Error Positivo Grande\nM(ENG) = trapmf(e; -20,-20,-10,-5)\nM(ENP) = trimf(e;-10;-5;0)\nM(EC) = trimf(e;-5;0;5)\nM(EPP) = trimf(e;0;5;10)\nM(ENP) = trapmf(e;5;10;20;20)\n\nM(VNG) = trapmf(e;-12;-12;-6;-3)\nVNP\nM(VC) = trimf(e;-3;0,3)\nVPP\nM(VPG) = trapmf(e;3;6;12;12)\n\nReglas de control\nsi el error es negativo grande, entonces el voltaje es negativo grande\nsi el error es negativo pequeño, entonces el voltaje es negativo pequeño\nsi el error es cero, entonces el voltaje es cero\nsi el error es positivo pequeño, entonces el voltaje es positivo pequeño\nsi el error es positivo grande, entonces el voltaje es positivo grande\n\nError  Voltaje\nENG\t\tVNG\nENP\t\tVNP\nEC \t\tVC\nEPP\t\tVPP\nEPG\t\tVPG\n\nMétodo de Inferencia\n\nx es A'\nsi x es A_1, entonces y es B_1\nsi x es A_2, entonces y es B_2\n\t\t\t...\n___________________________\ny es B' \n\nA'\nB'_1 = A' o R_1 = A' o (A_1 x B_1)\nB'_2 = A' o R_2 = A' o (A_2 x B_2)\n\t\t\t....\n__________________________________\nB' = B'_1 u B'_2 u ...\n\n\\mu_B'_i(y) = \\mu_A_i(x_0) ^ \\mu_B_i(y)\n---------------------------------------\n\n\n\\mu_B'_1(y) = \\mu_A_1(x_0) ^ \\mu_B_1(y)\n\\mu_B'_2(y) = \\mu_A_2(x_0) ^ \\mu_B_2(y)\n\t\t\t\t....\n_______________________________________\n\\mu_B'(y) = \\mu_B'_1(y) v \\mu_B'_2(y) v ....  \n\n\ny_0 = defuzz(x,mf,type)\n- centroid\n- bisector\n- mom (mean value of maximum)\n- som (smallest(absolute) value of maximum)\n- lom (largest (absolute) value of maximum)\n\n\n\n\n\n\n\n\n",
+			"settings":
+			{
+				"buffer_size": 2305,
+				"line_ending": "Unix",
+				"name": "Controlador difuso"
+			}
+		},
+		{
+			"contents": "ph5550\nknb013490",
+			"settings":
+			{
+				"buffer_size": 16,
+				"line_ending": "Unix",
+				"name": "ph5550"
 			}
 		}
 	],
@@ -339,9 +361,13 @@
 	"command_palette":
 	{
 		"height": 292.0,
-		"last_filter": "package control: sa",
+		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
 			[
 				"package control: sa",
 				"Package Control: Satisfy Dependencies"
@@ -360,10 +386,6 @@
 			],
 			[
 				"install",
-				"Package Control: Install Package"
-			],
-			[
-				"instal",
 				"Package Control: Install Package"
 			],
 			[
@@ -420,6 +442,9 @@
 	],
 	"file_history":
 	[
+		"/tmp/topologia posgrado.txt",
+		"/home/lg_more/github/maestria-tesis/libro/coppe.cls",
+		"/home/lg_more/github/maestria-tesis/libro/chap05.tex",
 		"/home/lg_more/github/maestria-tesis/libro/thesis.tex",
 		"/home/lg_more/github/maestria-tesis/libro/resumen.tex",
 		"/home/lg_more/github/maestria-tesis/libro/dedicatoria.tex",
@@ -452,7 +477,6 @@
 		"/tmp/wallet.dat",
 		"/tmp/correos-rec.txt",
 		"/home/lg_more/github/maestria-tesis/libro/AnexoA.tex",
-		"/home/lg_more/github/maestria-tesis/libro/chap05.tex",
 		"/home/lg_more/github/maestria-tesis/libro/thanks.tex",
 		"/home/lg_more/github/maestria-tesis/libro/thesis.toc",
 		"/home/lg_more/github/maestria-tesis/libro/chap03.tex",
@@ -481,7 +505,6 @@
 		"/home/lg_more/MEGAsync/maestria/ccis 2016/banner tesis/conference_poster_6.tex",
 		"/home/lg_more/drivePoli/maestria/micai 2017/Lecture Notes in Computer Science (LNCS)/paper_micai.tex",
 		"/home/lg_more/github/maestria-tesis/libro/abstract.tex",
-		"/home/lg_more/github/maestria-tesis/libro/coppe.cls",
 		"/home/lg_more/github/maestria-tesis/libro/tesis.fls",
 		"/tmp/tesis jmello/chap03.tex",
 		"/tmp/tesis jmello/thesis.tex",
@@ -546,16 +569,15 @@
 		"/home/lg_more/LaTeXDraw-3.1.0/install_debian_ubuntu",
 		"/home/lg_more/drivePoli/maestria/tesis/poster micai 2/titel-des-posters/main.tex",
 		"/run/user/1000/gvfs/google-drive:host=rec.una.py,user=lmore/sql/querysrh.sql",
-		"/home/lg_more/MEGAsync/ayudantia 2017/paradigmas de la programacion/ejemplo1.py",
-		"/home/lg_more/MEGAsync/ayudantia 2017/paradigmas de la programacion/ejemploORM.py"
+		"/home/lg_more/MEGAsync/ayudantia 2017/paradigmas de la programacion/ejemplo1.py"
 	],
 	"find":
 	{
-		"height": 40.0
+		"height": 31.0
 	},
 	"find_in_files":
 	{
-		"height": 101.0,
+		"height": 244.0,
 		"where_history":
 		[
 			"/home/lg_more/github/maestria-tesis/libro"
@@ -566,6 +588,10 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			".",
+			"\"",
+			"escala de grises",
+			"escala de grises de la imagen original",
 			"to la suavización del proceso de mejora del contraste",
 			"A la izquierda de cada una se observa el histograma",
 			"Horacio",
@@ -689,11 +715,7 @@
 			"problematica",
 			"proceso posterior",
 			"y un vector",
-			"para la imagen",
-			"100 solucione no",
-			"100 solucione no dominadas",
-			"visual results",
-			"method"
+			"para la imagen"
 		],
 		"highlight": false,
 		"in_selection": false,
@@ -701,6 +723,8 @@
 		"regex": false,
 		"replace_history":
 		[
+			",",
+			"",
 			",",
 			"\\n",
 			",",
@@ -826,9 +850,7 @@
 			",",
 			"<=",
 			" ",
-			"<=",
-			" \\\\\\\\",
-			" & "
+			"<="
 		],
 		"reverse": false,
 		"show_context": true,
@@ -839,7 +861,7 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -847,28 +869,19 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 132,
+						"buffer_size": 161,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								126,
-								126
+								161,
+								161
 							]
 						],
 						"settings":
 						{
-							"WordCount":
-							{
-								"changes": 0,
-								"count": 11,
-								"modified": false,
-								"selection": false,
-								"status": -1,
-								"syntax": "plain text"
-							},
 							"auto_name": "jnoguera@asepasa.com.py",
 							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
@@ -876,46 +889,47 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 6,
+					"stack_index": 9,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "coppe.cls",
+					"file": "/home/lg_more/github/comentarios_adri.md",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 26906,
+						"buffer_size": 1,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								12660,
-								12660
+								1,
+								1
 							]
 						],
 						"settings":
 						{
 							"WordCount":
 							{
-								"changes": 195,
-								"count": 761,
+								"changes": 2,
+								"count": 0,
 								"modified": false,
 								"selection": false,
 								"status": -1,
 								"syntax": "plain text"
 							},
-							"syntax": "Packages/LaTeX/TeX.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
+							"auto_name": "¿qué tipo de carga se define para las pruebas expe",
+							"parser": "markdown",
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax",
+							"target": "browser"
 						},
 						"translation.x": 0.0,
-						"translation.y": 6880.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 5,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
@@ -924,22 +938,22 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 4230,
+						"buffer_size": 4231,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3640,
-								3640
+								388,
+								388
 							]
 						],
 						"settings":
 						{
 							"WordCount":
 							{
-								"changes": 50,
+								"changes": 0,
 								"count": 88,
 								"modified": false,
 								"selection": false,
@@ -951,53 +965,40 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 2508.0,
+						"translation.y": 342.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
 					"buffer": 3,
+					"file": "chap04.tex",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 144,
+						"buffer_size": 70681,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								73,
-								73
+								15386,
+								15386
 							]
 						],
 						"settings":
 						{
-							"WordCount":
-							{
-								"changes": 5,
-								"count": 18,
-								"modified": false,
-								"selection": false,
-								"status": -1,
-								"syntax": "find results"
-							},
-							"detect_indentation": false,
-							"line_numbers": false,
-							"output_tag": 2,
-							"result_base_dir": "",
-							"result_file_regex": "^([^ \t].*):$",
-							"result_line_regex": "^ +([0-9]+):",
-							"scroll_past_end": true,
-							"syntax": "Packages/Default/Find Results.hidden-tmLanguage"
+							"syntax": "Packages/LaTeXing/support/LaTeX.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 57.0,
+						"translation.y": 359.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 7,
+					"stack_index": 4,
 					"type": "text"
 				},
 				{
@@ -1013,27 +1014,18 @@
 						"selection":
 						[
 							[
-								5866,
-								5866
+								0,
+								0
 							]
 						],
 						"settings":
 						{
-							"WordCount":
-							{
-								"changes": 0,
-								"count": 3236,
-								"modified": false,
-								"selection": false,
-								"status": -1,
-								"syntax": "plain text"
-							},
 							"syntax": "Packages/LaTeXing/support/LaTeX.tmLanguage",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1959.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 3,
@@ -1041,10 +1033,11 @@
 				},
 				{
 					"buffer": 5,
+					"file": "referencias.bib",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 0,
+						"buffer_size": 16290,
 						"regions":
 						{
 						},
@@ -1057,100 +1050,129 @@
 						],
 						"settings":
 						{
-							"WordCount":
-							{
-								"changes": 0,
-								"count": 0,
-								"modified": false,
-								"selection": false,
-								"status": -1,
-								"syntax": "plain text"
-							},
-							"syntax": "Packages/Text/Plain text.tmLanguage"
+							"syntax": "Packages/LaTeX/Bibtex.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 8,
 					"type": "text"
 				},
 				{
 					"buffer": 6,
-					"file": "referencias.bib",
+					"file": "chap02.tex",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 15719,
+						"buffer_size": 64551,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								15437,
-								15437
+								0,
+								0
 							]
 						],
 						"settings":
 						{
-							"WordCount":
-							{
-								"changes": 62,
-								"count": 1011,
-								"modified": false,
-								"selection": true,
-								"status": -1,
-								"syntax": "plain text"
-							},
-							"syntax": "Packages/LaTeX/Bibtex.sublime-syntax",
-							"tab_size": 2,
+							"syntax": "Packages/LaTeXing/support/LaTeX.tmLanguage",
+							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 8818.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 229,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								229,
+								229
+							]
+						],
+						"settings":
+						{
+							"auto_name": "104/2016 art. 5 inc 4",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 15.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 2,
 					"type": "text"
 				},
 				{
-					"buffer": 7,
-					"file": "chap02.tex",
+					"buffer": 8,
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 64486,
+						"buffer_size": 2305,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								15772,
-								15772
+								1791,
+								1791
 							]
 						],
 						"settings":
 						{
-							"WordCount":
-							{
-								"changes": 78,
-								"count": 6687,
-								"modified": false,
-								"selection": false,
-								"status": -1,
-								"syntax": "plain text"
-							},
-							"syntax": "Packages/LaTeXing/support/LaTeX.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
+							"auto_name": "Controlador difuso",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 5968.0,
+						"translation.y": 1607.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 16,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								16,
+								16
+							]
+						],
+						"settings":
+						{
+							"auto_name": "ph5550",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
 					"type": "text"
 				}
 			]
@@ -1158,11 +1180,11 @@
 	],
 	"incremental_find":
 	{
-		"height": 32.0
+		"height": 43.0
 	},
 	"input":
 	{
-		"height": 33.0
+		"height": 84.0
 	},
 	"layout":
 	{
@@ -1207,15 +1229,19 @@
 	{
 		"height": 151.0
 	},
+	"output.markdown":
+	{
+		"height": 150.0
+	},
 	"output.unsaved_changes":
 	{
 		"height": 112.0
 	},
-	"pinned_build_system": "Packages/LaTeXing/LaTeX.sublime-build",
+	"pinned_build_system": "",
 	"project": "tesis.sublime-project",
 	"replace":
 	{
-		"height": 72.0
+		"height": 78.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -1256,7 +1282,7 @@
 	"show_minimap": true,
 	"show_open_files": false,
 	"show_tabs": true,
-	"side_bar_visible": true,
+	"side_bar_visible": false,
 	"side_bar_width": 282.0,
 	"status_bar_visible": true,
 	"template_settings":
