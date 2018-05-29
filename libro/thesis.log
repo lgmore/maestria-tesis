@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.5.4)  20 MAY 2018 20:06
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.5.4)  29 MAY 2018 18:45
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1763,12 +1763,12 @@ LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <12> not available
 
 
 ]
-<./Figures/chest.jpg, id=608, 513.92pt x 421.575pt>
+<./Figures/chest.jpg, id=606, 513.92pt x 421.575pt>
 File: ./Figures/chest.jpg Graphic file (type jpg)
 <use ./Figures/chest.jpg>
 Package pdftex.def Info: ./Figures/chest.jpg  used on input line 31.
 (pdftex.def)             Requested size: 165.02347pt x 135.3699pt.
-<./Figures/chestclahe1.jpg, id=609, 513.92pt x 421.575pt>
+<./Figures/chestclahe1.jpg, id=607, 513.92pt x 421.575pt>
 File: ./Figures/chestclahe1.jpg Graphic file (type jpg)
 <use ./Figures/chestclahe1.jpg>
 Package pdftex.def Info: ./Figures/chestclahe1.jpg  used on input line 38.
@@ -1783,7 +1783,7 @@ Cap\IeC {\'\i }tulo 2.
 
 
 ] [5]
-<./Figures/JPEG_example_subimage.png, id=652, 401.5pt x 401.5pt>
+<./Figures/JPEG_example_subimage.png, id=650, 401.5pt x 401.5pt>
 File: ./Figures/JPEG_example_subimage.png Graphic file (type png)
 <use ./Figures/JPEG_example_subimage.png>
 Package pdftex.def Info: ./Figures/JPEG_example_subimage.png  used on input lin
@@ -1798,19 +1798,19 @@ File: ./Figures/JPEG_example_subimage.png Graphic file (type png)
 Package pdftex.def Info: ./Figures/JPEG_example_subimage.png  used on input lin
 e 159.
 (pdftex.def)             Requested size: 165.02347pt x 165.02652pt.
-<./Figures/JPEG_example_subimage_eq.png, id=666, 401.5pt x 401.5pt>
+<./Figures/JPEG_example_subimage_eq.png, id=664, 401.5pt x 401.5pt>
 File: ./Figures/JPEG_example_subimage_eq.png Graphic file (type png)
 <use ./Figures/JPEG_example_subimage_eq.png>
 Package pdftex.def Info: ./Figures/JPEG_example_subimage_eq.png  used on input 
 line 167.
 (pdftex.def)             Requested size: 165.02347pt x 165.02652pt.
-<./Figures/Paolina_256_hist.jpg, id=668, 521.95pt x 254.9525pt>
+<./Figures/Paolina_256_hist.jpg, id=666, 521.95pt x 254.9525pt>
 File: ./Figures/Paolina_256_hist.jpg Graphic file (type jpg)
 <use ./Figures/Paolina_256_hist.jpg>
 Package pdftex.def Info: ./Figures/Paolina_256_hist.jpg  used on input line 178
 .
 (pdftex.def)             Requested size: 412.56497pt x 201.52307pt.
-<./Figures/Paolina_256_hist_eq.jpg, id=669, 521.95pt x 256.96pt>
+<./Figures/Paolina_256_hist_eq.jpg, id=667, 521.95pt x 256.96pt>
 File: ./Figures/Paolina_256_hist_eq.jpg Graphic file (type jpg)
 <use ./Figures/Paolina_256_hist_eq.jpg>
 Package pdftex.def Info: ./Figures/Paolina_256_hist_eq.jpg  used on input line 
@@ -1854,7 +1854,7 @@ Package pgfplots info on input line 274: Setting layers 'axis background,axis g
 rid,axis ticks,axis lines,axis tick labels,pre main,main,axis descriptions,axis
  foreground'...
 [11]
-<./Figures/cubo-rgb.jpg, id=704, 755.82375pt x 644.4075pt>
+<./Figures/cubo-rgb.jpg, id=702, 755.82375pt x 644.4075pt>
 File: ./Figures/cubo-rgb.jpg Graphic file (type jpg)
 <use ./Figures/cubo-rgb.jpg>
 Package pdftex.def Info: ./Figures/cubo-rgb.jpg  used on input line 301.
@@ -1874,55 +1874,55 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 310.
 
-<./Figures/IC676791.png, id=713, 469.755pt x 118.94438pt>
+<./Figures/IC676791.png, id=711, 469.755pt x 118.94438pt>
 File: ./Figures/IC676791.png Graphic file (type png)
 <use ./Figures/IC676791.png>
 Package pdftex.def Info: ./Figures/IC676791.png  used on input line 356.
 (pdftex.def)             Requested size: 371.30595pt x 94.01584pt.
 [13 <./Figures/cubo-rgb.jpg>] [14 <./Figures/IC676791.png>]
-<./Figures/ejemplopso/capas-0.png, id=737, 562.1pt x 421.575pt>
+<./Figures/ejemplopso/capas-0.png, id=735, 562.1pt x 421.575pt>
 File: ./Figures/ejemplopso/capas-0.png Graphic file (type png)
 <use ./Figures/ejemplopso/capas-0.png>
 Package pdftex.def Info: ./Figures/ejemplopso/capas-0.png  used on input line 4
 95.
 (pdftex.def)             Requested size: 177.3999pt x 133.0477pt.
-<./Figures/ejemplopso/capas-8.png, id=738, 562.1pt x 421.575pt>
+<./Figures/ejemplopso/capas-8.png, id=736, 562.1pt x 421.575pt>
 File: ./Figures/ejemplopso/capas-8.png Graphic file (type png)
 <use ./Figures/ejemplopso/capas-8.png>
 Package pdftex.def Info: ./Figures/ejemplopso/capas-8.png  used on input line 5
 02.
 (pdftex.def)             Requested size: 177.3999pt x 133.0477pt.
-<./Figures/ejemplopso/capas-21.png, id=739, 562.1pt x 421.575pt>
+<./Figures/ejemplopso/capas-21.png, id=737, 562.1pt x 421.575pt>
 File: ./Figures/ejemplopso/capas-21.png Graphic file (type png)
 <use ./Figures/ejemplopso/capas-21.png>
 Package pdftex.def Info: ./Figures/ejemplopso/capas-21.png  used on input line 
 510.
 (pdftex.def)             Requested size: 177.3999pt x 133.0477pt.
-<./Figures/ejemplopso/capas-42.png, id=740, 562.1pt x 421.575pt>
+<./Figures/ejemplopso/capas-42.png, id=738, 562.1pt x 421.575pt>
 File: ./Figures/ejemplopso/capas-42.png Graphic file (type png)
 <use ./Figures/ejemplopso/capas-42.png>
 Package pdftex.def Info: ./Figures/ejemplopso/capas-42.png  used on input line 
 516.
 (pdftex.def)             Requested size: 177.3999pt x 133.0477pt.
-<./Figures/ejemplopso/capas-75.png, id=741, 562.1pt x 421.575pt>
+<./Figures/ejemplopso/capas-75.png, id=739, 562.1pt x 421.575pt>
 File: ./Figures/ejemplopso/capas-75.png Graphic file (type png)
 <use ./Figures/ejemplopso/capas-75.png>
 Package pdftex.def Info: ./Figures/ejemplopso/capas-75.png  used on input line 
 525.
 (pdftex.def)             Requested size: 177.3999pt x 133.0477pt.
-<./Figures/ejemplopso/capas-79.png, id=742, 562.1pt x 421.575pt>
+<./Figures/ejemplopso/capas-79.png, id=740, 562.1pt x 421.575pt>
 File: ./Figures/ejemplopso/capas-79.png Graphic file (type png)
 <use ./Figures/ejemplopso/capas-79.png>
 Package pdftex.def Info: ./Figures/ejemplopso/capas-79.png  used on input line 
 532.
 (pdftex.def)             Requested size: 177.3999pt x 133.0477pt.
-<./Figures/ejemplopso/capas-95.png, id=743, 562.1pt x 421.575pt>
+<./Figures/ejemplopso/capas-95.png, id=741, 562.1pt x 421.575pt>
 File: ./Figures/ejemplopso/capas-95.png Graphic file (type png)
 <use ./Figures/ejemplopso/capas-95.png>
 Package pdftex.def Info: ./Figures/ejemplopso/capas-95.png  used on input line 
 539.
 (pdftex.def)             Requested size: 177.3999pt x 133.0477pt.
-<./Figures/ejemplopso/capas-99.png, id=744, 562.1pt x 421.575pt>
+<./Figures/ejemplopso/capas-99.png, id=742, 562.1pt x 421.575pt>
 File: ./Figures/ejemplopso/capas-99.png Graphic file (type png)
 <use ./Figures/ejemplopso/capas-99.png>
 Package pdftex.def Info: ./Figures/ejemplopso/capas-99.png  used on input line 
@@ -1935,13 +1935,13 @@ Overfull \vbox (50.8383pt too high) has occurred while \output is active []
 gures/ejemplopso/capas-21.png> <./Figures/ejemplopso/capas-42.png> <./Figures/e
 jemplopso/capas-75.png> <./Figures/ejemplopso/capas-79.png> <./Figures/ejemplop
 so/capas-95.png> <./Figures/ejemplopso/capas-99.png>] [17]
-<./Figures/peppers_color_lc.jpg, id=787, 521.15831pt x 521.15831pt>
+<./Figures/peppers_color_lc.jpg, id=785, 521.15831pt x 521.15831pt>
 File: ./Figures/peppers_color_lc.jpg Graphic file (type jpg)
 <use ./Figures/peppers_color_lc.jpg>
 Package pdftex.def Info: ./Figures/peppers_color_lc.jpg  used on input line 607
 .
 (pdftex.def)             Requested size: 185.65297pt x 185.65265pt.
-<./Figures/peppers_color_hc.jpg, id=788, 513.92pt x 513.92pt>
+<./Figures/peppers_color_hc.jpg, id=786, 513.92pt x 513.92pt>
 File: ./Figures/peppers_color_hc.jpg Graphic file (type jpg)
 <use ./Figures/peppers_color_hc.jpg>
 Package pdftex.def Info: ./Figures/peppers_color_hc.jpg  used on input line 612
@@ -1990,12 +1990,12 @@ Cap\IeC {\'\i }tulo 4.
 
 
 ]
-<./Figures/calhouse_0230.jpg, id=851, 246.9225pt x 163.61125pt>
+<./Figures/calhouse_0230.jpg, id=849, 246.9225pt x 163.61125pt>
 File: ./Figures/calhouse_0230.jpg Graphic file (type jpg)
 <use ./Figures/calhouse_0230.jpg>
 Package pdftex.def Info: ./Figures/calhouse_0230.jpg  used on input line 77.
 (pdftex.def)             Requested size: 185.65297pt x 123.0127pt.
-<./Figures/calhouse_0230_20-25165283474-10.jpg, id=852, 246.9225pt x 163.61125p
+<./Figures/calhouse_0230_20-25165283474-10.jpg, id=850, 246.9225pt x 163.61125p
 t>
 File: ./Figures/calhouse_0230_20-25165283474-10.jpg Graphic file (type jpg)
 <use ./Figures/calhouse_0230_20-25165283474-10.jpg>
@@ -2008,14 +2008,14 @@ Underfull \hbox (badness 7613) in paragraph at lines 85--85
 9102669$, $\OML/lmm/m/it/10 SSIM[] \OT1/lmr/m/n/10 =
  []
 
-<./Figures/calhouse_0230_20-62968204656-00.jpg, id=853, 246.9225pt x 163.61125p
+<./Figures/calhouse_0230_20-62968204656-00.jpg, id=851, 246.9225pt x 163.61125p
 t>
 File: ./Figures/calhouse_0230_20-62968204656-00.jpg Graphic file (type jpg)
 <use ./Figures/calhouse_0230_20-62968204656-00.jpg>
 Package pdftex.def Info: ./Figures/calhouse_0230_20-62968204656-00.jpg  used on
  input line 94.
 (pdftex.def)             Requested size: 185.65297pt x 123.0127pt.
-<./Figures/calhouse_0230_20-20-0020072469292179818.jpg, id=854, 246.9225pt x 16
+<./Figures/calhouse_0230_20-20-0020072469292179818.jpg, id=852, 246.9225pt x 16
 3.61125pt>
 File: ./Figures/calhouse_0230_20-20-0020072469292179818.jpg Graphic file (type 
 jpg)
@@ -2030,7 +2030,7 @@ Underfull \hbox (badness 5302) in paragraph at lines 101--101
  []
 
 [25]
-<./Figures/calhouse_230/calhouse_230_2.jpg, id=861, 1360.19748pt x 730.22812pt>
+<./Figures/calhouse_230/calhouse_230_2.jpg, id=859, 1360.19748pt x 730.22812pt>
 
 File: ./Figures/calhouse_230/calhouse_230_2.jpg Graphic file (type jpg)
 <use ./Figures/calhouse_230/calhouse_230_2.jpg>
@@ -2040,7 +2040,7 @@ ut line 165.
 [26 <./Figures/calhouse_0230.jpg> <./Figures/calhouse_0230_20-25165283474-10.jp
 g> <./Figures/calhouse_0230_20-62968204656-00.jpg> <./Figures/calhouse_0230_20-
 20-0020072469292179818.jpg>] [27 <./Figures/calhouse_230/calhouse_230_2.jpg>]
-<./Figures/grafico-de-caja.PNG, id=886, 679.03688pt x 314.67563pt>
+<./Figures/grafico-de-caja.PNG, id=884, 679.03688pt x 314.67563pt>
 File: ./Figures/grafico-de-caja.PNG Graphic file (type png)
 <use ./Figures/grafico-de-caja.PNG>
 Package pdftex.def Info: ./Figures/grafico-de-caja.PNG  used on input line 184.
@@ -2052,12 +2052,12 @@ Overfull \hbox (21.84898pt too wide) in paragraph at lines 203--228
  []
 
 [28 <./Figures/grafico-de-caja.PNG>]
-<./Figures/ucid00010.jpg, id=900, 385.44pt x 289.08pt>
+<./Figures/ucid00010.jpg, id=898, 385.44pt x 289.08pt>
 File: ./Figures/ucid00010.jpg Graphic file (type jpg)
 <use ./Figures/ucid00010.jpg>
 Package pdftex.def Info: ./Figures/ucid00010.jpg  used on input line 237.
 (pdftex.def)             Requested size: 185.65297pt x 139.23761pt.
-<./Figures/ucid000102.jpg, id=901, 513.92pt x 385.44pt>
+<./Figures/ucid000102.jpg, id=899, 513.92pt x 385.44pt>
 File: ./Figures/ucid000102.jpg Graphic file (type jpg)
 <use ./Figures/ucid000102.jpg>
 Package pdftex.def Info: ./Figures/ucid000102.jpg  used on input line 245.
@@ -2580,37 +2580,37 @@ Underfull \vbox (badness 10000) detected at line 42
 
 
 ] [40]
-<./Figures/calhouse_230/0-resultado.jpg, id=963, 246.9225pt x 163.61125pt>
+<./Figures/calhouse_230/0-resultado.jpg, id=961, 246.9225pt x 163.61125pt>
 File: ./Figures/calhouse_230/0-resultado.jpg Graphic file (type jpg)
 <use ./Figures/calhouse_230/0-resultado.jpg>
 Package pdftex.def Info: ./Figures/calhouse_230/0-resultado.jpg  used on input 
 line 155.
 (pdftex.def)             Requested size: 185.65297pt x 123.0127pt.
-<./Figures/calhouse_230/1-resultado.jpg, id=964, 246.9225pt x 163.61125pt>
+<./Figures/calhouse_230/1-resultado.jpg, id=962, 246.9225pt x 163.61125pt>
 File: ./Figures/calhouse_230/1-resultado.jpg Graphic file (type jpg)
 <use ./Figures/calhouse_230/1-resultado.jpg>
 Package pdftex.def Info: ./Figures/calhouse_230/1-resultado.jpg  used on input 
 line 163.
 (pdftex.def)             Requested size: 185.65297pt x 123.0127pt.
-<./Figures/calhouse_230/23-resultado.jpg, id=965, 246.9225pt x 163.61125pt>
+<./Figures/calhouse_230/23-resultado.jpg, id=963, 246.9225pt x 163.61125pt>
 File: ./Figures/calhouse_230/23-resultado.jpg Graphic file (type jpg)
 <use ./Figures/calhouse_230/23-resultado.jpg>
 Package pdftex.def Info: ./Figures/calhouse_230/23-resultado.jpg  used on input
  line 172.
 (pdftex.def)             Requested size: 185.65297pt x 123.0127pt.
-<./Figures/calhouse_230/24-resultado.jpg, id=966, 246.9225pt x 163.61125pt>
+<./Figures/calhouse_230/24-resultado.jpg, id=964, 246.9225pt x 163.61125pt>
 File: ./Figures/calhouse_230/24-resultado.jpg Graphic file (type jpg)
 <use ./Figures/calhouse_230/24-resultado.jpg>
 Package pdftex.def Info: ./Figures/calhouse_230/24-resultado.jpg  used on input
  line 179.
 (pdftex.def)             Requested size: 185.65297pt x 123.0127pt.
-<./Figures/calhouse_230/56-resultado.jpg, id=967, 246.9225pt x 163.61125pt>
+<./Figures/calhouse_230/56-resultado.jpg, id=965, 246.9225pt x 163.61125pt>
 File: ./Figures/calhouse_230/56-resultado.jpg Graphic file (type jpg)
 <use ./Figures/calhouse_230/56-resultado.jpg>
 Package pdftex.def Info: ./Figures/calhouse_230/56-resultado.jpg  used on input
  line 188.
 (pdftex.def)             Requested size: 185.65297pt x 123.0127pt.
-<./Figures/calhouse_230/calhouse_230.jpg, id=968, 246.9225pt x 163.61125pt>
+<./Figures/calhouse_230/calhouse_230.jpg, id=966, 246.9225pt x 163.61125pt>
 File: ./Figures/calhouse_230/calhouse_230.jpg Graphic file (type jpg)
 <use ./Figures/calhouse_230/calhouse_230.jpg>
 Package pdftex.def Info: ./Figures/calhouse_230/calhouse_230.jpg  used on input
@@ -2630,44 +2630,44 @@ Underfull \vbox (badness 10000) detected at line 262
  []
 
 [43] [44] [45]
-<./Figures/calhouse_231/0-resultado.jpg, id=1001, 246.9225pt x 163.61125pt>
+<./Figures/calhouse_231/0-resultado.jpg, id=999, 246.9225pt x 163.61125pt>
 File: ./Figures/calhouse_231/0-resultado.jpg Graphic file (type jpg)
 <use ./Figures/calhouse_231/0-resultado.jpg>
 Package pdftex.def Info: ./Figures/calhouse_231/0-resultado.jpg  used on input 
 line 399.
 (pdftex.def)             Requested size: 185.65297pt x 123.0127pt.
-<./Figures/calhouse_231/1-resultado.jpg, id=1002, 246.9225pt x 163.61125pt>
+<./Figures/calhouse_231/1-resultado.jpg, id=1000, 246.9225pt x 163.61125pt>
 File: ./Figures/calhouse_231/1-resultado.jpg Graphic file (type jpg)
 <use ./Figures/calhouse_231/1-resultado.jpg>
 Package pdftex.def Info: ./Figures/calhouse_231/1-resultado.jpg  used on input 
 line 407.
 (pdftex.def)             Requested size: 185.65297pt x 123.0127pt.
-<./Figures/calhouse_231/28-resultado.jpg, id=1003, 246.9225pt x 163.61125pt>
+<./Figures/calhouse_231/28-resultado.jpg, id=1001, 246.9225pt x 163.61125pt>
 File: ./Figures/calhouse_231/28-resultado.jpg Graphic file (type jpg)
 <use ./Figures/calhouse_231/28-resultado.jpg>
 Package pdftex.def Info: ./Figures/calhouse_231/28-resultado.jpg  used on input
  line 416.
 (pdftex.def)             Requested size: 185.65297pt x 123.0127pt.
-<./Figures/calhouse_231/29-resultado.jpg, id=1004, 246.9225pt x 163.61125pt>
+<./Figures/calhouse_231/29-resultado.jpg, id=1002, 246.9225pt x 163.61125pt>
 File: ./Figures/calhouse_231/29-resultado.jpg Graphic file (type jpg)
 <use ./Figures/calhouse_231/29-resultado.jpg>
 Package pdftex.def Info: ./Figures/calhouse_231/29-resultado.jpg  used on input
  line 423.
 (pdftex.def)             Requested size: 185.65297pt x 123.0127pt.
-<./Figures/calhouse_231/102-resultado.jpg, id=1005, 246.9225pt x 163.61125pt>
+<./Figures/calhouse_231/102-resultado.jpg, id=1003, 246.9225pt x 163.61125pt>
 File: ./Figures/calhouse_231/102-resultado.jpg Graphic file (type jpg)
 <use ./Figures/calhouse_231/102-resultado.jpg>
 Package pdftex.def Info: ./Figures/calhouse_231/102-resultado.jpg  used on inpu
 t line 432.
 (pdftex.def)             Requested size: 185.65297pt x 123.0127pt.
-<./Figures/calhouse_231/calhouse_231.jpg, id=1006, 246.9225pt x 163.61125pt>
+<./Figures/calhouse_231/calhouse_231.jpg, id=1004, 246.9225pt x 163.61125pt>
 File: ./Figures/calhouse_231/calhouse_231.jpg Graphic file (type jpg)
 <use ./Figures/calhouse_231/calhouse_231.jpg>
 Package pdftex.def Info: ./Figures/calhouse_231/calhouse_231.jpg  used on input
  line 439.
 (pdftex.def)             Requested size: 185.65297pt x 123.0127pt.
 [46]
-<./Figures/calhouse_231/calhouse_231_2.jpg, id=1013, 1414.2098pt x 787.44188pt>
+<./Figures/calhouse_231/calhouse_231_2.jpg, id=1011, 1414.2098pt x 787.44188pt>
 
 File: ./Figures/calhouse_231/calhouse_231_2.jpg Graphic file (type jpg)
 <use ./Figures/calhouse_231/calhouse_231_2.jpg>
@@ -2682,44 +2682,44 @@ Underfull \vbox (badness 10000) detected at line 507
  []
 
 [48 <./Figures/calhouse_231/calhouse_231_2.jpg>] [49] [50] [51] [52] [53] [54]
-<./Figures/calhouse_232/4-resultado.jpg, id=1055, 246.9225pt x 163.61125pt>
+<./Figures/calhouse_232/4-resultado.jpg, id=1053, 246.9225pt x 163.61125pt>
 File: ./Figures/calhouse_232/4-resultado.jpg Graphic file (type jpg)
 <use ./Figures/calhouse_232/4-resultado.jpg>
 Package pdftex.def Info: ./Figures/calhouse_232/4-resultado.jpg  used on input 
 line 910.
 (pdftex.def)             Requested size: 185.65297pt x 123.0127pt.
-<./Figures/calhouse_232/5-resultado.jpg, id=1056, 246.9225pt x 163.61125pt>
+<./Figures/calhouse_232/5-resultado.jpg, id=1054, 246.9225pt x 163.61125pt>
 File: ./Figures/calhouse_232/5-resultado.jpg Graphic file (type jpg)
 <use ./Figures/calhouse_232/5-resultado.jpg>
 Package pdftex.def Info: ./Figures/calhouse_232/5-resultado.jpg  used on input 
 line 917.
 (pdftex.def)             Requested size: 185.65297pt x 123.0127pt.
-<./Figures/calhouse_232/204-resultado.jpg, id=1057, 246.9225pt x 163.61125pt>
+<./Figures/calhouse_232/204-resultado.jpg, id=1055, 246.9225pt x 163.61125pt>
 File: ./Figures/calhouse_232/204-resultado.jpg Graphic file (type jpg)
 <use ./Figures/calhouse_232/204-resultado.jpg>
 Package pdftex.def Info: ./Figures/calhouse_232/204-resultado.jpg  used on inpu
 t line 925.
 (pdftex.def)             Requested size: 185.65297pt x 123.0127pt.
-<./Figures/calhouse_232/205-resultado.jpg, id=1058, 246.9225pt x 163.61125pt>
+<./Figures/calhouse_232/205-resultado.jpg, id=1056, 246.9225pt x 163.61125pt>
 File: ./Figures/calhouse_232/205-resultado.jpg Graphic file (type jpg)
 <use ./Figures/calhouse_232/205-resultado.jpg>
 Package pdftex.def Info: ./Figures/calhouse_232/205-resultado.jpg  used on inpu
 t line 931.
 (pdftex.def)             Requested size: 185.65297pt x 123.0127pt.
-<./Figures/calhouse_232/407-resultado.jpg, id=1059, 246.9225pt x 163.61125pt>
+<./Figures/calhouse_232/407-resultado.jpg, id=1057, 246.9225pt x 163.61125pt>
 File: ./Figures/calhouse_232/407-resultado.jpg Graphic file (type jpg)
 <use ./Figures/calhouse_232/407-resultado.jpg>
 Package pdftex.def Info: ./Figures/calhouse_232/407-resultado.jpg  used on inpu
 t line 940.
 (pdftex.def)             Requested size: 185.65297pt x 123.0127pt.
-<./Figures/calhouse_232/calhouse_0232.jpg, id=1060, 246.9225pt x 163.61125pt>
+<./Figures/calhouse_232/calhouse_0232.jpg, id=1058, 246.9225pt x 163.61125pt>
 File: ./Figures/calhouse_232/calhouse_0232.jpg Graphic file (type jpg)
 <use ./Figures/calhouse_232/calhouse_0232.jpg>
 Package pdftex.def Info: ./Figures/calhouse_232/calhouse_0232.jpg  used on inpu
 t line 947.
 (pdftex.def)             Requested size: 185.65297pt x 123.0127pt.
 [55]
-<./Figures/calhouse_232/calhouse_0232_2.jpg, id=1068, 1148.71263pt x 794.97pt>
+<./Figures/calhouse_232/calhouse_0232_2.jpg, id=1066, 1148.71263pt x 794.97pt>
 File: ./Figures/calhouse_232/calhouse_0232_2.jpg Graphic file (type jpg)
 <use ./Figures/calhouse_232/calhouse_0232_2.jpg>
 Package pdftex.def Info: ./Figures/calhouse_232/calhouse_0232_2.jpg  used on in
@@ -2733,43 +2733,43 @@ Underfull \vbox (badness 10000) detected at line 1016
  []
 
 [57 <./Figures/calhouse_232/calhouse_0232_2.jpg>] [58] [59] [60]
-<./Figures/calhouse_233/6-resultado.jpg, id=1098, 246.9225pt x 163.61125pt>
+<./Figures/calhouse_233/6-resultado.jpg, id=1096, 246.9225pt x 163.61125pt>
 File: ./Figures/calhouse_233/6-resultado.jpg Graphic file (type jpg)
 <use ./Figures/calhouse_233/6-resultado.jpg>
 Package pdftex.def Info: ./Figures/calhouse_233/6-resultado.jpg  used on input 
 line 1199.
 (pdftex.def)             Requested size: 185.65297pt x 123.0127pt.
-<./Figures/calhouse_233/7-resultado.jpg, id=1099, 246.9225pt x 163.61125pt>
+<./Figures/calhouse_233/7-resultado.jpg, id=1097, 246.9225pt x 163.61125pt>
 File: ./Figures/calhouse_233/7-resultado.jpg Graphic file (type jpg)
 <use ./Figures/calhouse_233/7-resultado.jpg>
 Package pdftex.def Info: ./Figures/calhouse_233/7-resultado.jpg  used on input 
 line 1206.
 (pdftex.def)             Requested size: 185.65297pt x 123.0127pt.
-<./Figures/calhouse_233/46-resultado.jpg, id=1100, 246.9225pt x 163.61125pt>
+<./Figures/calhouse_233/46-resultado.jpg, id=1098, 246.9225pt x 163.61125pt>
 File: ./Figures/calhouse_233/46-resultado.jpg Graphic file (type jpg)
 <use ./Figures/calhouse_233/46-resultado.jpg>
 Package pdftex.def Info: ./Figures/calhouse_233/46-resultado.jpg  used on input
  line 1214.
 (pdftex.def)             Requested size: 185.65297pt x 123.0127pt.
-<./Figures/calhouse_233/47-resultado.jpg, id=1101, 246.9225pt x 163.61125pt>
+<./Figures/calhouse_233/47-resultado.jpg, id=1099, 246.9225pt x 163.61125pt>
 File: ./Figures/calhouse_233/47-resultado.jpg Graphic file (type jpg)
 <use ./Figures/calhouse_233/47-resultado.jpg>
 Package pdftex.def Info: ./Figures/calhouse_233/47-resultado.jpg  used on input
  line 1220.
 (pdftex.def)             Requested size: 185.65297pt x 123.0127pt.
-<./Figures/calhouse_233/60-resultado.jpg, id=1102, 246.9225pt x 163.61125pt>
+<./Figures/calhouse_233/60-resultado.jpg, id=1100, 246.9225pt x 163.61125pt>
 File: ./Figures/calhouse_233/60-resultado.jpg Graphic file (type jpg)
 <use ./Figures/calhouse_233/60-resultado.jpg>
 Package pdftex.def Info: ./Figures/calhouse_233/60-resultado.jpg  used on input
  line 1229.
 (pdftex.def)             Requested size: 185.65297pt x 123.0127pt.
-<./Figures/calhouse_233/calhouse_233.jpg, id=1103, 246.9225pt x 163.61125pt>
+<./Figures/calhouse_233/calhouse_233.jpg, id=1101, 246.9225pt x 163.61125pt>
 File: ./Figures/calhouse_233/calhouse_233.jpg Graphic file (type jpg)
 <use ./Figures/calhouse_233/calhouse_233.jpg>
 Package pdftex.def Info: ./Figures/calhouse_233/calhouse_233.jpg  used on input
  line 1236.
 (pdftex.def)             Requested size: 185.65297pt x 123.0127pt.
-<./Figures/calhouse_233/calhouse_233_2.jpg, id=1106, 819.8128pt x 460.72125pt>
+<./Figures/calhouse_233/calhouse_233_2.jpg, id=1104, 819.8128pt x 460.72125pt>
 File: ./Figures/calhouse_233/calhouse_233_2.jpg Graphic file (type jpg)
 <use ./Figures/calhouse_233/calhouse_233_2.jpg>
 Package pdftex.def Info: ./Figures/calhouse_233/calhouse_233_2.jpg  used on inp
@@ -2783,44 +2783,44 @@ Underfull \vbox (badness 10000) detected at line 1304
  []
 
 [62 <./Figures/calhouse_233/calhouse_233_2.jpg>] [63] [64] [65]
-<./Figures/calhouse_234/1-resultado.jpg, id=1136, 246.9225pt x 163.61125pt>
+<./Figures/calhouse_234/1-resultado.jpg, id=1134, 246.9225pt x 163.61125pt>
 File: ./Figures/calhouse_234/1-resultado.jpg Graphic file (type jpg)
 <use ./Figures/calhouse_234/1-resultado.jpg>
 Package pdftex.def Info: ./Figures/calhouse_234/1-resultado.jpg  used on input 
 line 1526.
 (pdftex.def)             Requested size: 185.65297pt x 123.0127pt.
-<./Figures/calhouse_234/2-resultado.jpg, id=1137, 246.9225pt x 163.61125pt>
+<./Figures/calhouse_234/2-resultado.jpg, id=1135, 246.9225pt x 163.61125pt>
 File: ./Figures/calhouse_234/2-resultado.jpg Graphic file (type jpg)
 <use ./Figures/calhouse_234/2-resultado.jpg>
 Package pdftex.def Info: ./Figures/calhouse_234/2-resultado.jpg  used on input 
 line 1533.
 (pdftex.def)             Requested size: 185.65297pt x 123.0127pt.
-<./Figures/calhouse_234/51-resultado.jpg, id=1138, 246.9225pt x 163.61125pt>
+<./Figures/calhouse_234/51-resultado.jpg, id=1136, 246.9225pt x 163.61125pt>
 File: ./Figures/calhouse_234/51-resultado.jpg Graphic file (type jpg)
 <use ./Figures/calhouse_234/51-resultado.jpg>
 Package pdftex.def Info: ./Figures/calhouse_234/51-resultado.jpg  used on input
  line 1541.
 (pdftex.def)             Requested size: 185.65297pt x 123.0127pt.
-<./Figures/calhouse_234/59-resultado.jpg, id=1139, 246.9225pt x 163.61125pt>
+<./Figures/calhouse_234/59-resultado.jpg, id=1137, 246.9225pt x 163.61125pt>
 File: ./Figures/calhouse_234/59-resultado.jpg Graphic file (type jpg)
 <use ./Figures/calhouse_234/59-resultado.jpg>
 Package pdftex.def Info: ./Figures/calhouse_234/59-resultado.jpg  used on input
  line 1547.
 (pdftex.def)             Requested size: 185.65297pt x 123.0127pt.
-<./Figures/calhouse_234/60-resultado.jpg, id=1140, 246.9225pt x 163.61125pt>
+<./Figures/calhouse_234/60-resultado.jpg, id=1138, 246.9225pt x 163.61125pt>
 File: ./Figures/calhouse_234/60-resultado.jpg Graphic file (type jpg)
 <use ./Figures/calhouse_234/60-resultado.jpg>
 Package pdftex.def Info: ./Figures/calhouse_234/60-resultado.jpg  used on input
  line 1556.
 (pdftex.def)             Requested size: 185.65297pt x 123.0127pt.
-<./Figures/calhouse_234/calhouse_234.jpg, id=1141, 246.9225pt x 163.61125pt>
+<./Figures/calhouse_234/calhouse_234.jpg, id=1139, 246.9225pt x 163.61125pt>
 File: ./Figures/calhouse_234/calhouse_234.jpg Graphic file (type jpg)
 <use ./Figures/calhouse_234/calhouse_234.jpg>
 Package pdftex.def Info: ./Figures/calhouse_234/calhouse_234.jpg  used on input
  line 1563.
 (pdftex.def)             Requested size: 185.65297pt x 123.0127pt.
 [66]
-<./Figures/calhouse_234/calhouse_234_2.jpg, id=1148, 768.34421pt x 530.23358pt>
+<./Figures/calhouse_234/calhouse_234_2.jpg, id=1146, 768.34421pt x 530.23358pt>
 
 File: ./Figures/calhouse_234/calhouse_234_2.jpg Graphic file (type jpg)
 <use ./Figures/calhouse_234/calhouse_234_2.jpg>
@@ -2835,44 +2835,44 @@ Underfull \vbox (badness 10000) detected at line 1633
  []
 
 [68 <./Figures/calhouse_234/calhouse_234_2.jpg>] [69] [70] [71] [72]
-<./Figures/calhouse_236/56-resultado.jpg, id=1182, 246.9225pt x 163.61125pt>
+<./Figures/calhouse_236/56-resultado.jpg, id=1180, 246.9225pt x 163.61125pt>
 File: ./Figures/calhouse_236/56-resultado.jpg Graphic file (type jpg)
 <use ./Figures/calhouse_236/56-resultado.jpg>
 Package pdftex.def Info: ./Figures/calhouse_236/56-resultado.jpg  used on input
  line 1887.
 (pdftex.def)             Requested size: 185.65297pt x 123.0127pt.
-<./Figures/calhouse_236/61-resultado.jpg, id=1183, 246.9225pt x 163.61125pt>
+<./Figures/calhouse_236/61-resultado.jpg, id=1181, 246.9225pt x 163.61125pt>
 File: ./Figures/calhouse_236/61-resultado.jpg Graphic file (type jpg)
 <use ./Figures/calhouse_236/61-resultado.jpg>
 Package pdftex.def Info: ./Figures/calhouse_236/61-resultado.jpg  used on input
  line 1894.
 (pdftex.def)             Requested size: 185.65297pt x 123.0127pt.
-<./Figures/calhouse_236/82-resultado.jpg, id=1184, 246.9225pt x 163.61125pt>
+<./Figures/calhouse_236/82-resultado.jpg, id=1182, 246.9225pt x 163.61125pt>
 File: ./Figures/calhouse_236/82-resultado.jpg Graphic file (type jpg)
 <use ./Figures/calhouse_236/82-resultado.jpg>
 Package pdftex.def Info: ./Figures/calhouse_236/82-resultado.jpg  used on input
  line 1902.
 (pdftex.def)             Requested size: 185.65297pt x 123.0127pt.
-<./Figures/calhouse_236/101-resultado.jpg, id=1185, 246.9225pt x 163.61125pt>
+<./Figures/calhouse_236/101-resultado.jpg, id=1183, 246.9225pt x 163.61125pt>
 File: ./Figures/calhouse_236/101-resultado.jpg Graphic file (type jpg)
 <use ./Figures/calhouse_236/101-resultado.jpg>
 Package pdftex.def Info: ./Figures/calhouse_236/101-resultado.jpg  used on inpu
 t line 1908.
 (pdftex.def)             Requested size: 185.65297pt x 123.0127pt.
-<./Figures/calhouse_236/107-resultado.jpg, id=1186, 246.9225pt x 163.61125pt>
+<./Figures/calhouse_236/107-resultado.jpg, id=1184, 246.9225pt x 163.61125pt>
 File: ./Figures/calhouse_236/107-resultado.jpg Graphic file (type jpg)
 <use ./Figures/calhouse_236/107-resultado.jpg>
 Package pdftex.def Info: ./Figures/calhouse_236/107-resultado.jpg  used on inpu
 t line 1917.
 (pdftex.def)             Requested size: 185.65297pt x 123.0127pt.
-<./Figures/calhouse_236/calhouse_236.jpg, id=1187, 246.9225pt x 163.61125pt>
+<./Figures/calhouse_236/calhouse_236.jpg, id=1185, 246.9225pt x 163.61125pt>
 File: ./Figures/calhouse_236/calhouse_236.jpg Graphic file (type jpg)
 <use ./Figures/calhouse_236/calhouse_236.jpg>
 Package pdftex.def Info: ./Figures/calhouse_236/calhouse_236.jpg  used on input
  line 1924.
 (pdftex.def)             Requested size: 185.65297pt x 123.0127pt.
 [73]
-<./Figures/calhouse_236/calhouse_236_2.jpg, id=1195, 1590.69281pt x 903.75537pt
+<./Figures/calhouse_236/calhouse_236_2.jpg, id=1193, 1590.69281pt x 903.75537pt
 >
 File: ./Figures/calhouse_236/calhouse_236_2.jpg Graphic file (type jpg)
 <use ./Figures/calhouse_236/calhouse_236_2.jpg>
@@ -2887,44 +2887,44 @@ Underfull \vbox (badness 10000) detected at line 1995
  []
 
 [75 <./Figures/calhouse_236/calhouse_236_2.jpg>] [76] [77]
-<./Figures/calhouse_237/9048-resultado.jpg, id=1221, 246.9225pt x 163.61125pt>
+<./Figures/calhouse_237/9048-resultado.jpg, id=1219, 246.9225pt x 163.61125pt>
 File: ./Figures/calhouse_237/9048-resultado.jpg Graphic file (type jpg)
 <use ./Figures/calhouse_237/9048-resultado.jpg>
 Package pdftex.def Info: ./Figures/calhouse_237/9048-resultado.jpg  used on inp
 ut line 2125.
 (pdftex.def)             Requested size: 185.65297pt x 123.0127pt.
-<./Figures/calhouse_237/9090-resultado.jpg, id=1222, 246.9225pt x 163.61125pt>
+<./Figures/calhouse_237/9090-resultado.jpg, id=1220, 246.9225pt x 163.61125pt>
 File: ./Figures/calhouse_237/9090-resultado.jpg Graphic file (type jpg)
 <use ./Figures/calhouse_237/9090-resultado.jpg>
 Package pdftex.def Info: ./Figures/calhouse_237/9090-resultado.jpg  used on inp
 ut line 2132.
 (pdftex.def)             Requested size: 185.65297pt x 123.0127pt.
-<./Figures/calhouse_237/9095-resultado.jpg, id=1223, 246.9225pt x 163.61125pt>
+<./Figures/calhouse_237/9095-resultado.jpg, id=1221, 246.9225pt x 163.61125pt>
 File: ./Figures/calhouse_237/9095-resultado.jpg Graphic file (type jpg)
 <use ./Figures/calhouse_237/9095-resultado.jpg>
 Package pdftex.def Info: ./Figures/calhouse_237/9095-resultado.jpg  used on inp
 ut line 2140.
 (pdftex.def)             Requested size: 185.65297pt x 123.0127pt.
-<./Figures/calhouse_237/9162-resultado.jpg, id=1224, 246.9225pt x 163.61125pt>
+<./Figures/calhouse_237/9162-resultado.jpg, id=1222, 246.9225pt x 163.61125pt>
 File: ./Figures/calhouse_237/9162-resultado.jpg Graphic file (type jpg)
 <use ./Figures/calhouse_237/9162-resultado.jpg>
 Package pdftex.def Info: ./Figures/calhouse_237/9162-resultado.jpg  used on inp
 ut line 2146.
 (pdftex.def)             Requested size: 185.65297pt x 123.0127pt.
-<./Figures/calhouse_237/9175-resultado.jpg, id=1225, 246.9225pt x 163.61125pt>
+<./Figures/calhouse_237/9175-resultado.jpg, id=1223, 246.9225pt x 163.61125pt>
 File: ./Figures/calhouse_237/9175-resultado.jpg Graphic file (type jpg)
 <use ./Figures/calhouse_237/9175-resultado.jpg>
 Package pdftex.def Info: ./Figures/calhouse_237/9175-resultado.jpg  used on inp
 ut line 2155.
 (pdftex.def)             Requested size: 185.65297pt x 123.0127pt.
-<./Figures/calhouse_237/calhouse_237.jpg, id=1226, 246.9225pt x 163.61125pt>
+<./Figures/calhouse_237/calhouse_237.jpg, id=1224, 246.9225pt x 163.61125pt>
 File: ./Figures/calhouse_237/calhouse_237.jpg Graphic file (type jpg)
 <use ./Figures/calhouse_237/calhouse_237.jpg>
 Package pdftex.def Info: ./Figures/calhouse_237/calhouse_237.jpg  used on input
  line 2162.
 (pdftex.def)             Requested size: 185.65297pt x 123.0127pt.
 [78]
-<./Figures/calhouse_237/calhouse_237_2.jpg, id=1233, 1344.222pt x 748.29562pt>
+<./Figures/calhouse_237/calhouse_237_2.jpg, id=1231, 1344.222pt x 748.29562pt>
 File: ./Figures/calhouse_237/calhouse_237_2.jpg Graphic file (type jpg)
 <use ./Figures/calhouse_237/calhouse_237_2.jpg>
 Package pdftex.def Info: ./Figures/calhouse_237/calhouse_237_2.jpg  used on inp
@@ -2938,44 +2938,44 @@ Underfull \vbox (badness 10000) detected at line 2231
  []
 
 [80 <./Figures/calhouse_237/calhouse_237_2.jpg>] [81] [82] [83] [84]
-<./Figures/calhouse_238/0-resultado.jpg, id=1267, 246.9225pt x 163.61125pt>
+<./Figures/calhouse_238/0-resultado.jpg, id=1265, 246.9225pt x 163.61125pt>
 File: ./Figures/calhouse_238/0-resultado.jpg Graphic file (type jpg)
 <use ./Figures/calhouse_238/0-resultado.jpg>
 Package pdftex.def Info: ./Figures/calhouse_238/0-resultado.jpg  used on input 
 line 2507.
 (pdftex.def)             Requested size: 185.65297pt x 123.0127pt.
-<./Figures/calhouse_238/1-resultado.jpg, id=1268, 246.9225pt x 163.61125pt>
+<./Figures/calhouse_238/1-resultado.jpg, id=1266, 246.9225pt x 163.61125pt>
 File: ./Figures/calhouse_238/1-resultado.jpg Graphic file (type jpg)
 <use ./Figures/calhouse_238/1-resultado.jpg>
 Package pdftex.def Info: ./Figures/calhouse_238/1-resultado.jpg  used on input 
 line 2514.
 (pdftex.def)             Requested size: 185.65297pt x 123.0127pt.
-<./Figures/calhouse_238/108-resultado.jpg, id=1269, 246.9225pt x 163.61125pt>
+<./Figures/calhouse_238/108-resultado.jpg, id=1267, 246.9225pt x 163.61125pt>
 File: ./Figures/calhouse_238/108-resultado.jpg Graphic file (type jpg)
 <use ./Figures/calhouse_238/108-resultado.jpg>
 Package pdftex.def Info: ./Figures/calhouse_238/108-resultado.jpg  used on inpu
 t line 2522.
 (pdftex.def)             Requested size: 185.65297pt x 123.0127pt.
-<./Figures/calhouse_238/109-resultado.jpg, id=1270, 246.9225pt x 163.61125pt>
+<./Figures/calhouse_238/109-resultado.jpg, id=1268, 246.9225pt x 163.61125pt>
 File: ./Figures/calhouse_238/109-resultado.jpg Graphic file (type jpg)
 <use ./Figures/calhouse_238/109-resultado.jpg>
 Package pdftex.def Info: ./Figures/calhouse_238/109-resultado.jpg  used on inpu
 t line 2528.
 (pdftex.def)             Requested size: 185.65297pt x 123.0127pt.
-<./Figures/calhouse_238/281-resultado.jpg, id=1271, 246.9225pt x 163.61125pt>
+<./Figures/calhouse_238/281-resultado.jpg, id=1269, 246.9225pt x 163.61125pt>
 File: ./Figures/calhouse_238/281-resultado.jpg Graphic file (type jpg)
 <use ./Figures/calhouse_238/281-resultado.jpg>
 Package pdftex.def Info: ./Figures/calhouse_238/281-resultado.jpg  used on inpu
 t line 2537.
 (pdftex.def)             Requested size: 185.65297pt x 123.0127pt.
-<./Figures/calhouse_238/calhouse_238.jpg, id=1272, 246.9225pt x 163.61125pt>
+<./Figures/calhouse_238/calhouse_238.jpg, id=1270, 246.9225pt x 163.61125pt>
 File: ./Figures/calhouse_238/calhouse_238.jpg Graphic file (type jpg)
 <use ./Figures/calhouse_238/calhouse_238.jpg>
 Package pdftex.def Info: ./Figures/calhouse_238/calhouse_238.jpg  used on input
  line 2544.
 (pdftex.def)             Requested size: 185.65297pt x 123.0127pt.
 [85]
-<./Figures/calhouse_238/calhouse_238_2.jpg, id=1280, 1524.44531pt x 856.70062pt
+<./Figures/calhouse_238/calhouse_238_2.jpg, id=1278, 1524.44531pt x 856.70062pt
 >
 File: ./Figures/calhouse_238/calhouse_238_2.jpg Graphic file (type jpg)
 <use ./Figures/calhouse_238/calhouse_238_2.jpg>
@@ -2990,44 +2990,44 @@ Underfull \vbox (badness 10000) detected at line 2614
  []
 
 [87 <./Figures/calhouse_238/calhouse_238_2.jpg>] [88] [89] [90] [91]
-<./Figures/calhouse_239/0-resultado.jpg, id=1314, 246.9225pt x 163.61125pt>
+<./Figures/calhouse_239/0-resultado.jpg, id=1312, 246.9225pt x 163.61125pt>
 File: ./Figures/calhouse_239/0-resultado.jpg Graphic file (type jpg)
 <use ./Figures/calhouse_239/0-resultado.jpg>
 Package pdftex.def Info: ./Figures/calhouse_239/0-resultado.jpg  used on input 
 line 2861.
 (pdftex.def)             Requested size: 185.65297pt x 123.0127pt.
-<./Figures/calhouse_239/1-resultado.jpg, id=1315, 246.9225pt x 163.61125pt>
+<./Figures/calhouse_239/1-resultado.jpg, id=1313, 246.9225pt x 163.61125pt>
 File: ./Figures/calhouse_239/1-resultado.jpg Graphic file (type jpg)
 <use ./Figures/calhouse_239/1-resultado.jpg>
 Package pdftex.def Info: ./Figures/calhouse_239/1-resultado.jpg  used on input 
 line 2868.
 (pdftex.def)             Requested size: 185.65297pt x 123.0127pt.
-<./Figures/calhouse_239/2-resultado.jpg, id=1316, 246.9225pt x 163.61125pt>
+<./Figures/calhouse_239/2-resultado.jpg, id=1314, 246.9225pt x 163.61125pt>
 File: ./Figures/calhouse_239/2-resultado.jpg Graphic file (type jpg)
 <use ./Figures/calhouse_239/2-resultado.jpg>
 Package pdftex.def Info: ./Figures/calhouse_239/2-resultado.jpg  used on input 
 line 2876.
 (pdftex.def)             Requested size: 185.65297pt x 123.0127pt.
-<./Figures/calhouse_239/86-resultado.jpg, id=1317, 246.9225pt x 163.61125pt>
+<./Figures/calhouse_239/86-resultado.jpg, id=1315, 246.9225pt x 163.61125pt>
 File: ./Figures/calhouse_239/86-resultado.jpg Graphic file (type jpg)
 <use ./Figures/calhouse_239/86-resultado.jpg>
 Package pdftex.def Info: ./Figures/calhouse_239/86-resultado.jpg  used on input
  line 2882.
 (pdftex.def)             Requested size: 185.65297pt x 123.0127pt.
-<./Figures/calhouse_239/172-resultado.jpg, id=1318, 246.9225pt x 163.61125pt>
+<./Figures/calhouse_239/172-resultado.jpg, id=1316, 246.9225pt x 163.61125pt>
 File: ./Figures/calhouse_239/172-resultado.jpg Graphic file (type jpg)
 <use ./Figures/calhouse_239/172-resultado.jpg>
 Package pdftex.def Info: ./Figures/calhouse_239/172-resultado.jpg  used on inpu
 t line 2891.
 (pdftex.def)             Requested size: 185.65297pt x 123.0127pt.
-<./Figures/calhouse_239/calhouse_239.jpg, id=1319, 246.9225pt x 163.61125pt>
+<./Figures/calhouse_239/calhouse_239.jpg, id=1317, 246.9225pt x 163.61125pt>
 File: ./Figures/calhouse_239/calhouse_239.jpg Graphic file (type jpg)
 <use ./Figures/calhouse_239/calhouse_239.jpg>
 Package pdftex.def Info: ./Figures/calhouse_239/calhouse_239.jpg  used on input
  line 2898.
 (pdftex.def)             Requested size: 185.65297pt x 123.0127pt.
 [92]
-<./Figures/calhouse_239/calhouse_239_2.jpg, id=1326, 1562.55347pt x 877.89032pt
+<./Figures/calhouse_239/calhouse_239_2.jpg, id=1324, 1562.55347pt x 877.89032pt
 >
 File: ./Figures/calhouse_239/calhouse_239_2.jpg Graphic file (type jpg)
 <use ./Figures/calhouse_239/calhouse_239_2.jpg>
@@ -3042,44 +3042,44 @@ Underfull \vbox (badness 10000) detected at line 2968
  []
 
 [94 <./Figures/calhouse_239/calhouse_239_2.jpg>] [95] [96] [97] [98]
-<./Figures/calhouse_240/0-resultado.jpg, id=1361, 246.9225pt x 163.61125pt>
+<./Figures/calhouse_240/0-resultado.jpg, id=1359, 246.9225pt x 163.61125pt>
 File: ./Figures/calhouse_240/0-resultado.jpg Graphic file (type jpg)
 <use ./Figures/calhouse_240/0-resultado.jpg>
 Package pdftex.def Info: ./Figures/calhouse_240/0-resultado.jpg  used on input 
 line 3251.
 (pdftex.def)             Requested size: 185.65297pt x 123.0127pt.
-<./Figures/calhouse_240/1-resultado.jpg, id=1362, 246.9225pt x 163.61125pt>
+<./Figures/calhouse_240/1-resultado.jpg, id=1360, 246.9225pt x 163.61125pt>
 File: ./Figures/calhouse_240/1-resultado.jpg Graphic file (type jpg)
 <use ./Figures/calhouse_240/1-resultado.jpg>
 Package pdftex.def Info: ./Figures/calhouse_240/1-resultado.jpg  used on input 
 line 3258.
 (pdftex.def)             Requested size: 185.65297pt x 123.0127pt.
-<./Figures/calhouse_240/78-resultado.jpg, id=1363, 246.9225pt x 163.61125pt>
+<./Figures/calhouse_240/78-resultado.jpg, id=1361, 246.9225pt x 163.61125pt>
 File: ./Figures/calhouse_240/78-resultado.jpg Graphic file (type jpg)
 <use ./Figures/calhouse_240/78-resultado.jpg>
 Package pdftex.def Info: ./Figures/calhouse_240/78-resultado.jpg  used on input
  line 3266.
 (pdftex.def)             Requested size: 185.65297pt x 123.0127pt.
-<./Figures/calhouse_240/85-resultado.jpg, id=1364, 246.9225pt x 163.61125pt>
+<./Figures/calhouse_240/85-resultado.jpg, id=1362, 246.9225pt x 163.61125pt>
 File: ./Figures/calhouse_240/85-resultado.jpg Graphic file (type jpg)
 <use ./Figures/calhouse_240/85-resultado.jpg>
 Package pdftex.def Info: ./Figures/calhouse_240/85-resultado.jpg  used on input
  line 3272.
 (pdftex.def)             Requested size: 185.65297pt x 123.0127pt.
-<./Figures/calhouse_240/288-resultado.jpg, id=1365, 246.9225pt x 163.61125pt>
+<./Figures/calhouse_240/288-resultado.jpg, id=1363, 246.9225pt x 163.61125pt>
 File: ./Figures/calhouse_240/288-resultado.jpg Graphic file (type jpg)
 <use ./Figures/calhouse_240/288-resultado.jpg>
 Package pdftex.def Info: ./Figures/calhouse_240/288-resultado.jpg  used on inpu
 t line 3281.
 (pdftex.def)             Requested size: 185.65297pt x 123.0127pt.
-<./Figures/calhouse_240/calhouse_240.jpg, id=1366, 246.9225pt x 163.61125pt>
+<./Figures/calhouse_240/calhouse_240.jpg, id=1364, 246.9225pt x 163.61125pt>
 File: ./Figures/calhouse_240/calhouse_240.jpg Graphic file (type jpg)
 <use ./Figures/calhouse_240/calhouse_240.jpg>
 Package pdftex.def Info: ./Figures/calhouse_240/calhouse_240.jpg  used on input
  line 3288.
 (pdftex.def)             Requested size: 185.65297pt x 123.0127pt.
 [99]
-<./Figures/calhouse_240/calhouse_240_2.jpg, id=1373, 1559.8275pt x 878.53218pt>
+<./Figures/calhouse_240/calhouse_240_2.jpg, id=1371, 1559.8275pt x 878.53218pt>
 
 File: ./Figures/calhouse_240/calhouse_240_2.jpg Graphic file (type jpg)
 <use ./Figures/calhouse_240/calhouse_240_2.jpg>
@@ -3115,7 +3115,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 163.
 Here is how much of TeX's memory you used:
  37260 strings out of 492982
  865791 string characters out of 6134897
- 1238783 words of memory out of 5000000
+ 1239849 words of memory out of 5000000
  39505 multiletter control sequences out of 15000+600000
  71107 words of font info for 86 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -3144,10 +3144,10 @@ f-dist/fonts/type1/public/rsfs/rsfs7.pfb></usr/share/texlive/texmf-dist/fonts/t
 ype1/public/esvect/vect10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
 /esvect/vect8.pfb>
 Output written on /home/lg_more/github/maestria-tesis/libro/thesis.pdf (119 pag
-es, 4575599 bytes).
+es, 4575494 bytes).
 PDF statistics:
- 1565 PDF objects out of 1728 (max. 8388607)
- 1272 compressed objects within 13 object streams
+ 1564 PDF objects out of 1728 (max. 8388607)
+ 1271 compressed objects within 13 object streams
  372 named destinations out of 1000 (max. 500000)
  837 words of extra memory for PDF output out of 10000 (max. 10000000)
 

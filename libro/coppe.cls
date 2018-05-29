@@ -427,8 +427,8 @@ T\kern-.1667em\lower.5ex\hbox{E}\kern-.125emX\spacefactor1000}
 % % %     \mbox{\makebox[5mm][c]{}%
       \begin{minipage}[c]{1\textwidth}
       \setlength{\parindent}{10mm}
-      \noindent Datos internacionales de Catalogaci\'on en la Publicaci\'on (CIP)\\
-      \noindent DE BIBLIOTECA CENTRAL DE LA UNA\par
+      \noindent Datos Internacionales de Catalogaci\'on en la Publicaci\'on (CIP)\\
+      \noindent DE LA BIBLIOTECA CENTRAL DE LA UNA\par
       \vspace*{10mm}
       \noindent\sloppy\nohyphens\@authsurn,\nohyphens\@authname\par
 \vspace*{10mm}
@@ -439,7 +439,8 @@ T\kern-.1667em\lower.5ex\hbox{E}\kern-.125emX\spacefactor1000}
       , \number\year.}\par
 
 % % %       \pageref{front:pageno},
-      \pageref{LastPage} p. :~il. \par
+      %\pageref{LastPage} p. :~il. \par
+      119 p. :~il. \par
 % %       p.\@ifundefined{r@cat:lofflag}{}{\pageref{cat:lofflag}}.\par
 %% 24May2011 sin tamaño de hoja
 %%%p.\@ifundefined{r@cat:lofflag}{}{\pageref{cat:lofflag}} $29,7$cm.\par
@@ -470,8 +471,8 @@ T\kern-.1667em\lower.5ex\hbox{E}\kern-.125emX\spacefactor1000}
 % % %       \end{tabularx}}\par
 \vspace*{10mm}
       \nohyphens{\local@doctype\ ({\@degreename}) --
-      \local@deptname, \number\year.}\par
-       Bibliograf\'ia.\par
+      Facultad Polit\'ecnica de la Universidad Nacional de Asunci\'on, \number\year.}\par
+       Incluye fotograf\'ias, ap\'endice y bibliograf\'ia.\par
 \vspace*{10mm}
 %24-May-2011 Eliminado
       %\bibname: p. \pageref{bib:begin} -- \pageref{bib:end}.\par
@@ -480,10 +481,12 @@ T\kern-.1667em\lower.5ex\hbox{E}\kern-.125emX\spacefactor1000}
       \nohyphens{\@whilenum \count1<\value{keywords} \do {%
         \number\count2. \csname CoppeKeyword:\the\count1 \endcsname.
         \advance\count1 by 1
-        \advance\count2 by 1}      
+        \advance\count2 by 1}
+
+\vspace*{10mm}
       I. T{\' i}tulo.}\par
 \vspace*{10mm}
-\hfill CDD 519.4 \qquad \qquad \par  
+\hfill CDD 621.369 \qquad \qquad \par  
 % \begin{tabularx}{\textwidth}{r}
 % 
 %  \end{tabularx}
@@ -774,7 +777,7 @@ T\kern-.1667em\lower.5ex\hbox{E}\kern-.125emX\spacefactor1000}
 \newcommand\local@universityname{Universidad Nacional de Asunci\'on}
 \newcommand\local@deptstring{Programa}
 \newcommand\foreign@deptstring{Department}
-\newcommand\local@cityname{Asunci\'on}
+\newcommand\local@cityname{San Lorenzo}
 \newcommand\local@statename{}
 \newcommand\local@countryname{Paraguay}
 
